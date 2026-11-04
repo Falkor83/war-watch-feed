@@ -2,7 +2,17 @@
 import json, os, shutil, sys, tempfile, unittest, datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import wwapi, wwdata, wwscore
+import wwapi, wwdata, wwscore, wwboil
+
+class FakeSources:
+    """The boiling point's public data, offline."""
+    def __init__(self, today): pass
+    def us_advisories(self): return {"IR": {"level": 4, "title": "Iran - Level 4: Do Not Travel", "date": "2026-10-30", "url": "https://travel.state.gov/x"}}
+    def uk_advice(self, code): return None
+    def fx(self): return {"now": {"ils": 3.80}, "d7": {"ils": 3.70}, "d30": {"ils": 3.60}}
+    def oil(self): return {"price": 81.4, "date": "2026-10-31", "change_7d": 6.2, "change_30d": 9.0}
+    def outages(self, code): return {"alerts": 3, "critical": 1} if code == "IR" else None
+    def markets(self, words): return []
 
 TODAY = datetime.date.today().isoformat()
 
@@ -59,11 +69,18 @@ class Base(unittest.TestCase):
         update_feed.OUTLOOKS = os.path.join(self.dir, "outlooks.json"); update_feed.NOTES_DIR = os.path.join(self.dir, "notes")
         update_feed.ROOT = self.dir; wwapi.BUDGET = os.path.join(self.dir, "budget.json")
         self.sleep = wwapi.time.sleep; wwapi.time.sleep = lambda s: None
+        os.makedirs(os.path.join(self.dir, "live"))
+        shutil.copy(os.path.join(HERE, "fixtures", "headlines.json"), os.path.join(self.dir, "live", "headlines.json"))
+        json.dump({"month": TODAY[:7], "usd": 0.5}, open(os.path.join(self.dir, "live", "spend.json"), "w"))
+        self.boil = (update_feed.LIVE, update_feed.BOIL_GDELT, wwboil.Sources)
+        update_feed.LIVE = os.path.join(self.dir, "live"); update_feed.BOIL_GDELT = False; wwboil.Sources = FakeSources
         self.http = wwapi.http
     def tearDown(self):
         uf = self.uf
         uf.FEED, uf.HISTORY, uf.OUTLOOKS, uf.NOTES_DIR, wwapi.BUDGET, uf.ROOT, wwapi.ROOT = self.paths
         wwapi.time.sleep = self.sleep; wwapi.http = self.http
+        uf.LIVE, uf.BOIL_GDELT, wwboil.Sources = self.boil
+        uf.CORPUS.clear(); uf.CORPUS["items"] = []
         shutil.rmtree(self.dir)
 
 class DataTests(unittest.TestCase):
@@ -171,8 +188,21 @@ class JobTests(Base):
              "log": "test"}
         return msg("```json\n" + json.dumps(p) + "\n```", tin=30000, tout=8000)
 
+    def boil_text(self):
+        b = {"boil": [{"id": "us-israel-iran-war", "question": "Will the US-Iran fighting widen into a regional war?", "stage": 4,
+                       "likelihood": "roughly even chance", "likelihood_of": "a wider regional war within 30 days", "direction": "rising",
+                       "summary": "Strikes continue and Iran says its southern airspace is closed. Oil rose 6.2% in a week. 900 ships are stuck.",
+                       "drivers": [{"text": "Iran says airspace over the south is closed", "cites": ["h2"]},
+                                   {"text": "Brent rose 6.2% in a week", "cites": ["d4"]},
+                                   {"text": "Shipping insurers pulled 40% of cover", "cites": ["h1"]}],
+                       "brakes": [{"text": "Mediators still talk", "cites": ["zz9"]}],
+                       "tip": "A US warship hit in the Gulf", "offramp": "Both sides confirm a pause",
+                       "watch": ["Gulf shipping"], "agree": "Data and headlines both point up.", "sides": "Mostly Gulf and Iranian outlets."},
+                      {"id": "not-a-candidate", "stage": 5}]}
+        return msg("```json\n" + json.dumps(b) + "\n```", tin=12000, tout=3000)
+
     def run_daily(self, batch=True):
-        fake = FakeAPI({"Focus:": self.gather_text(), "NOTES gathered today": self.analysis_text()}, batch_ok=batch)
+        fake = FakeAPI({"Focus:": self.gather_text(), "Yesterday's ladder": self.boil_text(), "NOTES gathered today": self.analysis_text()}, batch_ok=batch)
         wwapi.http = fake
         sys.argv = ["x", "daily"]
         self.uf.main()
@@ -206,6 +236,32 @@ class JobTests(Base):
         # Sonnet batch: 200k*$1 + 10k*$5 per M = 0.25, plus 12 searches 0.12
         self.assertAlmostEqual(b["runs"][0]["usd"], 0.37, places=2)
         self.assertTrue(any("/messages/batches" in u for _, u in fake.calls))
+        # boiling point: checked by rule
+        boil = {x["id"]: x for x in feed["boil"]}
+        self.assertNotIn("not-a-candidate", boil)
+        ir = boil["us-israel-iran-war"]
+        self.assertEqual((ir["stage"], ir["stage_label"], ir["likelihood"]), (4, "Brink", "roughly even chance"))
+        self.assertEqual([d["text"] for d in ir["drivers"]], ["Iran says airspace over the south is closed"] +
+                         (["Brent rose 6.2% in a week"] if any(p["id"] == "d4" and p["kind"] == "oil" for p in ir["data"].get("oil", [])) else []))
+        self.assertEqual(ir["brakes"], [], "a brake citing nothing real is dropped")
+        self.assertNotIn("900", ir["summary"])
+        self.assertTrue(ir["headlines"] and ir["headlines"][0]["u"].startswith("https://"))
+        self.assertEqual(ir["data"]["advice_us"][0]["level"], 4)
+        self.assertIn("who_reports", ir["data"])
+        self.assertEqual(json.load(open(self.uf.HISTORY))["days"][-1]["boil"]["us-israel-iran-war"], 4)
+        self.assertAlmostEqual(b.get("headlines_usd", 0), 0.5)
+
+    def test_boil_ladder_moves_one_step(self):
+        cands, panels = ["x"], {"x": [{"id": "d1", "kind": "coverage", "text": "Coverage at 3.1x the norm."}]}
+        heads = {"x": [{"hid": "h1", "t": "Troops mass at the border", "u": "https://a"}]}
+        log = []
+        out = wwboil.check({"boil": [{"id": "x", "stage": 5, "likelihood": "likely", "drivers": [{"text": "Coverage 3.1x", "cites": ["d1"]}]}]},
+                           cands, panels, heads, {}, {"x": {"stage": 2}}, TODAY, log)
+        self.assertEqual(out[0]["stage"], 3)
+        out = wwboil.check({"boil": [{"id": "x", "stage": 4, "likelihood": "imminent", "drivers": [{"text": "Coverage 5x", "cites": ["d1"]}],
+                                      "brakes": [{"text": "Troops mass", "cites": ["h1"]}]}]}, cands, panels, heads, {}, {}, TODAY, log)
+        self.assertEqual((out[0]["stage"], out[0]["likelihood"], out[0]["drivers"]), (4, "", []))
+        self.assertEqual(wwboil.ratio([("2026%04d" % i, 1.0) for i in range(80)] + [("2026%04d" % (80 + i), 3.0) for i in range(7)])[0], 3.0)
 
     def test_weekly_sets_structure_and_never_drops_silently(self):
         review = {"updates": [{"id": "us-israel-iran-war", "notes": ["w01"], "parties": ["United States", "Israel", "Iran"], "interstate": True,
@@ -214,7 +270,7 @@ class JobTests(Base):
                                "week_verdict": {"verdict": "deteriorated", "why": "More strikes", "notes": ["w01"]}}],
                   "ended": [{"id": "haiti-gang-war", "why": "test without notes", "notes": []},
                             {"id": "ecuador-gang-conflict", "why": "Gangs agreed a truce in October", "notes": ["w04"]}]}
-        fake = FakeAPI({"Region:": msg("```json\n" + json.dumps(review) + "\n```"), "Focus:": self.gather_text(),
+        fake = FakeAPI({"Region:": msg("```json\n" + json.dumps(review) + "\n```"), "Focus:": self.gather_text(), "Yesterday's ladder": self.boil_text(),
                         "NOTES gathered today": self.analysis_text()})
         wwapi.http = fake
         sys.argv = ["x", "weekly"]

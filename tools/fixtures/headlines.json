@@ -1,0 +1,77 @@
+{
+"generated": "x",
+"items": [
+{
+"u": "https://aljazeera.com/a",
+"t": "Iran's IRGC says four tankers ablaze after hitting mines in Hormuz Strait",
+"l": "en",
+"s": "Al Jazeera",
+"d": "aljazeera.com",
+"c": "QA",
+"p": 1793774150,
+"v": "rss",
+"h": [
+"us-israel-iran-war"
+]
+},
+{
+"u": "https://tass.com/b",
+"t": "Tehran warns of retaliation after US strikes on Qeshm",
+"l": "en",
+"s": "TASS",
+"d": "tass.com",
+"c": "RU",
+"p": 1793770550,
+"v": "rss",
+"h": []
+},
+{
+"u": "https://irna.ir/c",
+"t": "Iran says airspace closed over the south after US strikes",
+"o": "ایران حریم هوایی جنوب را بست",
+"l": "fa",
+"s": "IRNA",
+"d": "irna.ir",
+"c": "IR",
+"p": 1793772750,
+"v": "gdelt",
+"h": [
+"us-israel-iran-war"
+]
+},
+{
+"u": "https://dw.com/d",
+"t": "US Navy deploys second carrier to the Gulf as Iran tensions rise",
+"l": "en",
+"s": "DW",
+"d": "dw.com",
+"c": "DE",
+"p": 1793768750,
+"v": "rss",
+"h": []
+},
+{
+"u": "https://yna.co.kr/e",
+"t": "North Korea fires ballistic missile toward East Sea, Seoul says",
+"o": "북한, 동해상으로 탄도미사일 발사",
+"l": "ko",
+"s": "Yonhap",
+"d": "yna.co.kr",
+"c": "KR",
+"p": 1793773750,
+"v": "rss",
+"h": []
+},
+{
+"u": "https://example.com/f",
+"t": "Recipe of the week",
+"l": "en",
+"s": "X",
+"d": "example.com",
+"c": "US",
+"p": 1793777650,
+"v": "rss",
+"h": []
+}
+]
+}

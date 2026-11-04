@@ -23,9 +23,9 @@ History of the cap: $40, raised to $50 on 2026-11-03 (Matt approved, for cyber t
 night because Matt is moving back to the $100/month plan and everything on his API credits must stay under $100. A run that would pass the cap is skipped and the app is told
 ("paused"); the workflow then fails so GitHub emails. Prints [STEP]/[OK]/[WARN]/[ERROR]. Never prints the API key.
 """
-import json, os, re, sys, datetime, calendar
+import json, os, re, sys, time, datetime, calendar
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import wwapi, wwdata, wwscore
+import wwapi, wwdata, wwscore, wwboil
 from wwapi import step, ok, warn, err, save_json, MONTHLY_CAP_USD
 
 GATHER_MODEL = os.environ.get("WW_GATHER_MODEL", "claude-sonnet-5-5")
@@ -33,6 +33,9 @@ ANALYST_MODEL = os.environ.get("WW_ANALYST_MODEL", "claude-opus-5-5")
 REGIONS = ["Europe", "Middle East", "Africa", "Asia-Pacific", "Americas"]
 ROOT = wwapi.ROOT
 FEED, HISTORY, OUTLOOKS = (os.path.join(ROOT, f) for f in ("feed.json", "history.json", "outlooks.json"))
+LIVE = os.environ.get("WW_LIVE_DIR", os.path.join(ROOT, "live"))     # the hourly headlines job's branch, fetched by the workflow
+BOIL_GDELT = os.environ.get("WW_BOIL_GDELT", "1") == "1"
+CORPUS = {"items": []}
 NOTES_DIR = os.path.join(ROOT, "notes")
 SEV = {"red", "yellow"}; TREND = {"escalating", "steady", "de-escalating"}; LEVEL = {"direct", "indirect", "low"}
 CHANNELS = {"troops", "treaty", "energy", "shipping", "trade", "chips", "cyber", "nuclear", "migration", "citizens", "homeland", "aid"}
@@ -281,9 +284,28 @@ def collect_notes(results, feed, prefix="n"):
         except OSError: pass
     return notes
 
+def coverage_table(feed, hours=24):
+    """Who reported each hotspot in the last day, from the hourly worldwide headlines (all languages, translated).
+    Context for the analyst: it can't be cited, but it shows where coverage is one-sided or silent."""
+    items = CORPUS.get("items") or []
+    if not items: return "(worldwide headlines not available today)"
+    now = int(time.time()); rows = []
+    for c in feed["conflicts"]:
+        cp, mine = wwboil.corpus_panel(c, items, now, hours)
+        if not cp["n"]: rows.append(f"{c['id']}: no headlines"); continue
+        regs = ", ".join(f"{wwdata.REGION_NAMES.get(r, r)} {n}" for r, n in sorted(cp["regions"].items(), key=lambda kv: -kv[1])[:6])
+        parties = {wwdata.iso(p) for p in c.get("parties") or []} - {""}
+        outside = [x for x in mine if x.get("c") not in parties][:2]
+        rows.append(f"{c['id']}: {cp['n']} headlines, {cp['outlets']} outlets, {len(cp['countries'])} countries, "
+                    f"{len(cp['languages'])} languages; {regs}; {round(100 * cp['party_share'])}% from the sides' own countries"
+                    + "".join(f"\n   - [{x.get('c', '?')}] {x['t'][:140]}" for x in outside))
+    return "\n".join(rows)
+
 def analyst_request(feed, notes, label="daily analysis"):
     system = prompt("rules.md") + "\n\n" + prompt("daily.md")
     user = (f"Today is {today()}.\n\nHOTSPOTS\n{hotspot_table(feed)}\n\nYESTERDAY'S SIGNALS\n{signals_table(feed)}\n\n"
+            f"WORLDWIDE COVERAGE in the last 24 hours (hourly headline collection, all languages translated; context only, not citable)\n"
+            f"{coverage_table(feed)}\n\n"
             f"CYBER AND SABOTAGE ITEMS\n{cyber_table(feed)}\n\nUS OVERVIEW NOW\n{feed.get('us_overview', '')}\n\n"
             f"NOTES gathered today (cite these IDs only)\n{notes_table(notes)}\n\nReturn the JSON described in your instructions.")
     return {"label": label, "model": ANALYST_MODEL, "system": system, "user": user, "max_uses": 0, "max_tokens": 20000, "estimate": 0.3}
@@ -449,11 +471,55 @@ def finish(out, history):
     t = today()
     out["tension"] = wwscore.tension(out["conflicts"], out.get("tripwires", []), LISTS, t, history)
     history = wwscore.add_history(history, wwscore.history_row(out, t))
+    out = boil_history(out, history)
     for c in out["conflicts"]: c["spark"] = wwscore.spark(history, c["id"])
     out["changes"] = wwscore.changes(history, days=30)
     out["week_line"] = wwscore.week_line(history, out, t)
     out.pop("paused", None)
     return out, history
+
+# ---------- boiling point ----------
+def boil_stage(out, notes, budget):
+    """Could a tense hotspot tip into (wider) war? Data panel by rule, Opus's ladder, Python's checks."""
+    t = today()
+    prev = {b["id"]: b for b in out.get("boil") or [] if wwscore.days_between(b.get("date", t), t) <= 3}
+    cands, scores = wwboil.candidates(out, list(prev.values()), t, LISTS.get("nuclear_states", []))
+    if not cands: out["boil"] = []; ok("boiling point: no hotspot near the line"); return out
+    step(f"boiling point: data for {', '.join(cands)}")
+    src, items, now = wwboil.Sources(t), CORPUS.get("items") or [], int(time.time())
+    panels, raws, heads, n_d, n_h = {}, {}, {}, 1, 1
+    for cid in cands:
+        c = next(x for x in out["conflicts"] if x["id"] == cid)
+        pts, raw, mine = wwboil.build_panel(c, items, src, now, gdelt=BOIL_GDELT, first_id=n_d)
+        n_d += len(pts)
+        parties = {wwdata.iso(p) for p in c.get("parties") or []} - {""}
+        hs = []
+        for h in wwboil.pick_headlines(mine, parties):
+            hs.append(dict(h, hid=f"h{n_h}", party=h.get("c") in parties)); n_h += 1
+        panels[cid], raws[cid], heads[cid] = pts, raw, hs
+        ok(f"  {cid}: {len(pts)} data points, {len(hs)} headlines")
+    nb = {}
+    for n in notes: nb.setdefault(n["hotspot"], []).append(n)
+    system = prompt("rules.md") + "\n\n" + prompt("boil.md")
+    ans = wwapi.run([wwboil.boil_request(cands, out, panels, heads, nb, prev, ANALYST_MODEL, system, t)], budget)
+    if not ans:
+        warn("boiling point didn't come back; yesterday's kept"); out["boil"] = list(prev.values()); return out
+    try: parsed = wwapi_extract(ans["boiling point"][0])
+    except ValueError as e: warn(f"boiling point: {e}; yesterday's kept"); out["boil"] = list(prev.values()); return out
+    log = []
+    checked = wwboil.check(parsed, cands, panels, heads, nb, prev, t, log)
+    for line in log: warn("boiling point: " + line)
+    res = [wwboil.public(it, raws[it["id"]], heads[it["id"]], nb.get(it["id"], [])) for it in checked]
+    for it in res: it["score"] = scores.get(it["id"], 0)
+    res.sort(key=lambda b: (-b["stage"], b["direction"] != "rising", -b["score"]))
+    out["boil"] = res
+    ok("boiling point: " + "; ".join(f"{b['id']} stage {b['stage']} ({b['stage_label']}), {b['likelihood'] or 'no likelihood'}, {b['direction']}" for b in res))
+    return out
+
+def boil_history(out, history):
+    for b in out.get("boil") or []:
+        b["history"] = [[h["date"], (h.get("boil") or {}).get(b["id"])] for h in history[-14:] if (h.get("boil") or {}).get(b["id"])]
+    return out
 
 # ---------- validation ----------
 def validate_feed(feed, previous=None):
@@ -475,8 +541,9 @@ def pace(budget):
     now = datetime.date.today()
     dim = calendar.monthrange(now.year, now.month)[1]
     fair = MONTHLY_CAP_USD * now.day / dim
-    if budget["usd"] >= MONTHLY_CAP_USD - 1.0: return "stop"
-    return "lite" if budget["usd"] > 0.9 * fair + 3 else "normal"
+    total = budget["usd"] + budget.get("headlines_usd", 0.0)
+    if total >= MONTHLY_CAP_USD - 1.0: return "stop"
+    return "lite" if total > 0.9 * fair + 3 else "normal"
 
 def run_daily(feed, budget, history, level):
     searches = int(os.environ.get("WW_DAILY_SEARCHES", "12")) - (4 if level == "lite" else 0)
@@ -493,6 +560,7 @@ def run_daily(feed, budget, history, level):
     patch = wwapi_extract(ans["daily analysis"][0])
     out, changed = merge_analysis(feed, patch, notes, history, "daily")
     if isinstance(patch, dict) and patch.get("log"): print(f"Notes: {str(patch['log'])[:400]}")
+    out = boil_stage(out, notes, budget)
     return out, changed
 
 def run_weekly(feed, budget, history, level):
@@ -531,6 +599,7 @@ def run_weekly(feed, budget, history, level):
         changed += ch
     else:
         warn("big picture didn't come back; signals kept as they were"); out = work
+    out = boil_stage(out, notes, budget)
     return out, changed
 
 def migrate(feed):
@@ -582,8 +651,14 @@ def main():
         save_json(FEED, out); save_json(HISTORY, {"days": history}, indent=0)
         ok(f"migrated to schema 2: {len(out['conflicts'])} hotspots, {len(out['signals'])} signals, tension {out['tension']['value']}"); return
     budget = wwapi.load_budget()
+    hs = load(os.path.join(LIVE, "spend.json"), {}) or {}
+    if hs.get("month") == budget["month"]:
+        budget["headlines_usd"] = round(hs.get("usd", 0.0), 4)
+        budget["total_usd"] = round(budget["usd"] + budget["headlines_usd"], 4)
+    CORPUS.update(load(os.path.join(LIVE, "headlines.json"), {"items": []}) or {"items": []})
+    ok(f"worldwide headlines: {len(CORPUS.get('items') or [])} available (generated {CORPUS.get('generated', 'never')})")
     level = pace(budget)
-    if level == "stop" or (mode == "weekly" and budget["usd"] > MONTHLY_CAP_USD - 4):
+    if level == "stop" or (mode == "weekly" and budget["usd"] + budget.get("headlines_usd", 0.0) > MONTHLY_CAP_USD - 4):
         feed["paused"] = f"Monthly budget reached (${budget['usd']:.2f} of ${MONTHLY_CAP_USD:.0f}); ratings resume on the 1st."
         save_json(FEED, feed)
         err(feed["paused"]); sys.exit(1)

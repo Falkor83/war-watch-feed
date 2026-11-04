@@ -28,7 +28,11 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Test the job (fake API, no cost)
-        run: python3 -m unittest tools/test_feed.py
+        run: python3 -m unittest tools/test_feed.py tools/test_headlines.py
+      - name: Get the worldwide headlines (from the hourly job)
+        run: |
+          mkdir -p live
+          if git fetch -q --depth 1 origin live 2>/dev/null; then git archive FETCH_HEAD headlines.json spend.json | tar -x -C live && echo "[OK] headlines ready"; else echo "[WARN] no worldwide headlines yet"; fi
       - name: Update the ratings
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

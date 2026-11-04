@@ -249,6 +249,7 @@ def history_row(feed, today):
                                    sum(1 for tw in feed.get("tripwires", []) if tw["hotspot"] == c["id"] and tw["status"] == "signs")]
                          for c in feed["conflicts"]},
             "names": {c["id"]: c.get("short_name") or c["name"] for c in feed["conflicts"]},
+            "boil": {b["id"]: b["stage"] for b in feed.get("boil") or []},
             "signals": [{"id": s["id"], "direction": s["direction"], "keys": s["stats"]["keys_all"], "regions": s["stats"]["regions_np"]}
                         for s in feed.get("signals", []) if s.get("stats")]}
 
