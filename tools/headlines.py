@@ -363,17 +363,27 @@ def save_progress(state, spend):
 def collect_batch(b, spend, cache, keys_by_req):
     """Read a finished batch's results into the translation cache and book what it cost."""
     lines = wwapi.http("GET", b["results_url"], raw=True, timeout=300).splitlines()
-    usage, n = wwapi.empty_usage(), 0
+    usage, n, notes = wwapi.empty_usage(), 0, {}
     for line in lines:
         if not line.strip(): continue
         res = json.loads(line)
         out = res.get("result") or {}
-        if out.get("type") != "succeeded": continue
+        if out.get("type") != "succeeded":
+            notes[out.get("type", "?")] = notes.get(out.get("type", "?"), 0) + 1; continue
         msg = out["message"]
         wwapi.add_usage(usage, msg.get("usage"))
         text = "".join(x.get("text", "") for x in msg.get("content") or [] if x.get("type") == "text")
-        for k, (lang, en) in parse_translations(text, keys_by_req.get(res.get("custom_id"), [])).items():
+        keys = keys_by_req.get(res.get("custom_id"), [])
+        got = parse_translations(text, keys)
+        for k, (lang, en) in got.items():
             cache[k] = {"en": en, "l": lang, "at": now_ts()}; n += 1
+        if len(got) < 0.9 * max(1, len(keys)):
+            stop = msg.get("stop_reason")
+            notes[f"short:{stop}"] = notes.get(f"short:{stop}", 0) + 1
+            bad = [l for l in text.splitlines() if l.strip() and not _LINE.match(l)][:2]
+            print(f"      {res.get('custom_id')}: {len(got)} of {len(keys)} parsed, stop={stop}, out={msg.get('usage', {}).get('output_tokens')}; "
+                  f"unparsed: {bad!r}"[:400])
+    if notes: warn(f"translation batch notes: {notes}")
     usd = book(spend, usage, n)
     ok(f"translations: {n} headlines from batch {b['id']}, about ${usd:.3f} (month ${spend['usd']:.2f} of ${SUB_CAP:.0f})")
     return n
