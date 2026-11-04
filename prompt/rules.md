@@ -45,7 +45,8 @@ A full hotspot object has these keys:
  "us_impact": {"level": "direct|indirect|low", "channels": ["..."], "text": "2-3 sentences"},
  "watch": "one sentence: what would push it to the next level",
  "keywords": ["8-15 headline words in their usual spelling and capitals: places, leaders, armed groups"],
- "anchors": ["names that only appear in news about THIS hotspot: armed groups, front-line towns, operations"],
+ "anchors": ["names that only appear in news about THIS hotspot: armed groups, front-line towns, operations; no names
+   that also start other places or words (San, Gao, Bor) and no abbreviations used in sport or business (AFC)"],
  "context": ["country names, capitals and leaders that also appear in unrelated news"],
  "exclude": ["words that mark unrelated news, e.g. election, football"],
  "confidence": "high|medium|low",
