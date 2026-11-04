@@ -4,9 +4,12 @@ War Watch daily ratings: asks Claude (with web search) what changed in the world
 the answer into feed.json, checks the result and writes it only if it passes. Standard library only.
 
   python3 tools/update_feed.py daily     # Sonnet: what changed in the last ~48 h, as a patch
-  python3 tools/update_feed.py weekly    # Opus: re-research each region fully (finds new hotspots, drops dead ones)
+  python3 tools/update_feed.py weekly    # Sonnet: re-research each region fully (finds new hotspots, drops dead ones)
   python3 tools/update_feed.py check     # only validate feed.json
 
+Cost (measured 2026-11-04): the first daily run with 18 searches used 371k input tokens, about $1.07, because each
+search round re-sends the growing context. Searches are now capped at 10 (daily) and 8 per region (weekly); expect
+roughly $0.50 a day and $3 a week, about $25 a month.
 Spending cap: budget.json keeps an estimate of this month's spend from the API's own usage numbers; a run that would
 start above MONTHLY_CAP_USD is skipped. Prints [STEP]/[OK]/[WARN]/[ERROR]. Never prints the API key.
 """
@@ -14,7 +17,7 @@ import json, os, re, sys, time, datetime, urllib.request, urllib.error
 
 API = "https://api.anthropic.com/v1/messages"
 DAILY_MODEL = os.environ.get("WW_DAILY_MODEL", "claude-sonnet-5-5")
-WEEKLY_MODEL = os.environ.get("WW_WEEKLY_MODEL", "claude-opus-5-5")
+WEEKLY_MODEL = os.environ.get("WW_WEEKLY_MODEL", "claude-sonnet-5-5")   # Opus doubled the cost for little gain
 SEARCH_TOOL = os.environ.get("WW_SEARCH_TOOL", "web_search_20250305")
 MONTHLY_CAP_USD = float(os.environ.get("WW_MONTHLY_CAP_USD", "40"))
 # USD per million tokens (input, output) and per search; from platform.claude.com/docs/en/about-claude/pricing (Nov 2026).
@@ -184,7 +187,7 @@ def run_daily(feed, budget):
     system = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "daily.md")).read()
     user = (f"Today is {today()}. Current hotspots (compact):\n{compact(feed)}\n\nCurrent US overview:\n{feed['us_overview']}\n\n"
             "Search worldwide news from the last 48 hours and return the patch JSON described in your instructions.")
-    text, usage = call(DAILY_MODEL, system, user, max_uses=int(os.environ.get("WW_DAILY_SEARCHES", "20")), max_tokens=16000)
+    text, usage = call(DAILY_MODEL, system, user, max_uses=int(os.environ.get("WW_DAILY_SEARCHES", "10")), max_tokens=16000)
     add_cost(budget, DAILY_MODEL, usage, "daily")
     patch = extract_json(text)
     byid = {c["id"]: c for c in feed["conflicts"]}
@@ -226,7 +229,7 @@ def run_weekly(feed, budget):
         user = (f"Today is {today()}. Region: {region}. Current hotspots in this region (compact):\n{compact(feed, region)}\n\n"
                 "Re-research the region from worldwide outlets and return the JSON array described in your instructions.")
         try:
-            text, usage = call(WEEKLY_MODEL, system, user, max_uses=int(os.environ.get("WW_WEEKLY_SEARCHES", "14")), max_tokens=24000)
+            text, usage = call(WEEKLY_MODEL, system, user, max_uses=int(os.environ.get("WW_WEEKLY_SEARCHES", "8")), max_tokens=24000)
         except SystemExit as e:
             warn(f"{region}: {e}"); continue
         add_cost(budget, WEEKLY_MODEL, usage, f"weekly {region}")
@@ -247,7 +250,7 @@ def run_weekly(feed, budget):
         try:
             system2 = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "signals.md")).read()
             user2 = f"Today is {today()}. All current hotspots (compact):\n{compact(out)}\n\nWrite the analysis JSON described in your instructions."
-            text, usage = call(WEEKLY_MODEL, system2, user2, max_uses=int(os.environ.get("WW_SIGNAL_SEARCHES", "8")), max_tokens=8000)
+            text, usage = call(WEEKLY_MODEL, system2, user2, max_uses=int(os.environ.get("WW_SIGNAL_SEARCHES", "5")), max_tokens=8000)
             add_cost(budget, WEEKLY_MODEL, usage, "weekly analysis")
             got = extract_json(text)
             sig = clean_signals(got.get("signals") if isinstance(got, dict) else got, set(byid))
