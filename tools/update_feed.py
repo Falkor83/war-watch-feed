@@ -10,7 +10,7 @@ the answer into feed.json, checks the result and writes it only if it passes. St
 Cost (measured 2026-11-04): the first daily run with 18 searches used 371k input tokens, about $1.07, because each
 search round re-sends the growing context. Now: Sonnet does the searching (10 a day, 7 per region on Sundays) and Opus
 only reads Sonnet's notes (no searching), so Opus's judgment costs little. Expect roughly $0.70 a day and $4 on Sundays,
-about $30-35 a month, under the $40 cap.
+about $30-35 a month; cyber and sabotage tracking (next) adds about $4. Cap $50 (raised from $40 on 2026-11-03, approved by Matt).
 Spending cap: budget.json keeps an estimate of this month's spend from the API's own usage numbers; a run that would
 start above MONTHLY_CAP_USD is skipped. Prints [STEP]/[OK]/[WARN]/[ERROR]. Never prints the API key.
 """
@@ -23,7 +23,7 @@ GATHER_MODEL = os.environ.get("WW_GATHER_MODEL", "claude-sonnet-5-5")
 ANALYST_MODEL = os.environ.get("WW_ANALYST_MODEL", "claude-opus-5-5")
 DAILY_MODEL = GATHER_MODEL      # kept for older log lines
 SEARCH_TOOL = os.environ.get("WW_SEARCH_TOOL", "web_search_20250305")
-MONTHLY_CAP_USD = float(os.environ.get("WW_MONTHLY_CAP_USD", "40"))
+MONTHLY_CAP_USD = float(os.environ.get("WW_MONTHLY_CAP_USD", "50"))
 # USD per million tokens (input, output) and per search; from platform.claude.com/docs/en/about-claude/pricing (Nov 2026).
 PRICES = {"claude-sonnet-5-5": (2.0, 10.0), "claude-opus-5-5": (4.0, 20.0), "claude-haiku-5-5": (1.0, 5.0)}
 SEARCH_USD = 0.01
