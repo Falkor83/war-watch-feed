@@ -42,7 +42,7 @@ Return one ```json block with these keys (leave a key out when you have nothing 
 "outlooks": [{"hotspot": "id", "text": "...", "likelihood": "a word from the list", "basis": ["note ids"],
   "check_by": "YYYY-MM-DD"}] for up to 5 red hotspots.
 "cyber": cyberattacks and sabotage of infrastructure (new ones, or updates to listed ones; same id to update):
-  {"id": "kebab-id", "title": "...", "date": "YYYY-MM-DD (when it happened)", "places": [{"name", "lat", "lon"}],
+  {"id": "kebab-id", "title": "...", "date": "YYYY-MM-DD (when it happened)", "places": [{"name": "short place name, max 30 chars", "lat", "lon"}],
    "sector": "food|water|power|telecom|health|transport|government|finance|industry|defense",
    "method": "one line: how it was done", "summary": "2-3 sentences",
    "actor": {"name": "who is suspected, or 'unknown'", "confidence": "claimed|suspected|attributed|unknown"},

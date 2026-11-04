@@ -71,7 +71,7 @@ def evidence_stats(for_notes, against_notes, today):
     if newest > 3: dots -= 1
     if contested: dots -= 1
     dots = max(0, dots)
-    label = "Strong" if dots >= 5 else "Solid" if dots >= 3 else "Thin" if dots == 2 else "Single-source"
+    label = "Strong" if dots >= 5 else "Solid" if dots >= 3 else "Thin" if dots == 2 else "Weak"
     homes = []
     for n in for_notes:
         if n["home"] in COUNTRIES and n["home"] != "UN" and n["home"] not in homes: homes.append(n["home"])

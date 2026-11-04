@@ -148,7 +148,7 @@ def clean_cyber(x, notes_by_id, old=None):
     for p in x.get("places") or []:
         try:
             lat, lon = float(p["lat"]), float(p["lon"])
-            if -60 <= lat <= 75 and -180 <= lon <= 180: places.append({"name": str(p.get("name", ""))[:40], "lat": round(lat, 1), "lon": round(lon, 1)})
+            if -60 <= lat <= 75 and -180 <= lon <= 180: places.append({"name": str(p.get("name", ""))[:60], "lat": round(lat, 1), "lon": round(lon, 1)})
         except (KeyError, TypeError, ValueError, AttributeError): pass
     ns = [notes_by_id[i] for i in (x.get("notes") or []) if i in notes_by_id]
     sources = to_latest(ns) + [s for s in (old or {}).get("sources", []) if s["url"] not in {n["url"] for n in ns}]
@@ -287,13 +287,19 @@ def analyst_request(feed, notes, label="daily analysis"):
             f"NOTES gathered today (cite these IDs only)\n{notes_table(notes)}\n\nReturn the JSON described in your instructions.")
     return {"label": label, "model": ANALYST_MODEL, "system": system, "user": user, "max_uses": 0, "max_tokens": 20000, "estimate": 0.3}
 
+SEV_RANK = {"yellow": 0, "red": 1}; LEVEL_RANK = {"low": 0, "indirect": 1, "direct": 2}
+
 def gate_change(old, merged, ns, log):
-    """Severity / US-level changes need 2 independent sources with at least one not a party's own account."""
+    """Moving a hotspot UP (to red, or to direct US impact) needs 2 independent sources with at least one not a
+    party's own account. Moving it down needs at least one cited note (calmer calls must not be harder to make)."""
     keys = {n["key"] for n in ns}
     nonparty = any(n["tag"] != "party-gov" for n in ns)
-    for field, get in (("severity", lambda c: c["severity"]), ("US level", lambda c: c["us_impact"]["level"])):
-        if get(old) != get(merged) and (len(keys) < 2 or not nonparty):
-            log(f"{old['id']}: {field} change {get(old)} -> {get(merged)} refused (needs 2 independent sources, one not a party's own)")
+    for field, get, rank in (("severity", lambda c: c["severity"], SEV_RANK), ("US level", lambda c: c["us_impact"]["level"], LEVEL_RANK)):
+        if get(old) == get(merged): continue
+        up = rank.get(get(merged), 0) > rank.get(get(old), 0)
+        if (up and (len(keys) < 2 or not nonparty)) or (not up and not ns):
+            log(f"{old['id']}: {field} change {get(old)} -> {get(merged)} refused ("
+                + ("needs 2 independent sources, one not a party's own)" if up else "no note cited)"))
             if field == "severity": merged["severity"] = old["severity"]
             else: merged["us_impact"]["level"] = old["us_impact"]["level"]
 
@@ -372,8 +378,11 @@ def merge_analysis(feed, patch, notes, history, mode="daily"):
     for g in patch.get("signals") or []:
         s = wwscore.score_signal(g, nb, prev, t, ids, log)
         if s and s["id"] not in seen: sigs.append(s); seen.add(s["id"])
+    def same_point(a, b):
+        ta, tb = set(re.findall(r"[a-z]{4,}", a["title"].lower())), set(re.findall(r"[a-z]{4,}", b["title"].lower()))
+        return bool(ta and tb) and len(ta & tb) / min(len(ta), len(tb)) >= 0.5 and bool(set(a.get("conflicts", [])) & set(b.get("conflicts", [])))
     for sid, old in prev.items():                           # yesterday's points with no new evidence: fade out
-        if sid not in seen and old.get("stats"):
+        if sid not in seen and old.get("stats") and not any(same_point(old, s) for s in sigs):
             k = wwscore.carry_signal(old, t)
             if k and set(k.get("conflicts", [])) & ids: sigs.append(k)
     if sigs or not feed.get("signals"):
