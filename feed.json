@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T02:00:44Z",
- "generated_by": "Researched by Claude (Opus 5.5) from outlets in about 30 countries and fact-checked by a second pass; built into War Watch 0.1.0",
- "us_overview": "The most direct risks to Americans run through the Gulf: the US Navy is enforcing a blockade of Iran, the Strait of Hormuz is still mostly closed, oil is near $107 a barrel, and US strikes on an Iranian island near the strait were reported on Nov 3. In Europe, NATO allies Poland, Romania and Bulgaria face Russian drones, sabotage warnings and attacks on Black Sea shipping, any of which could bring in US treaty commitments. In Asia, China's pressure on Taiwan, the Philippines and Japan touches three US defense commitments and the chip supply chain. Closer to home, US forces keep striking alleged drug boats, and the crises in Haiti and Cuba bear on migration toward Florida.",
+ "generated_at": "2026-11-04T04:16:08Z",
+ "generated_by": "Claude (claude-sonnet-5-5) daily research of worldwide outlets, 2026-11-04",
+ "us_overview": "The most direct risks to Americans still run through the Gulf: the US Navy is enforcing a blockade of Iran, the Strait of Hormuz is mostly closed, and US forces struck Iran's Qeshm Island on Nov 2-3 even as Qatar-mediated talks continue without a deal. Oil fell more than 7% on Monday on deal hopes, but a post-midterm decision on renewed strikes could reverse that. In Europe, NATO allies face Russian drones, sabotage warnings on Poland's Kaliningrad border, and more than a dozen ships hit off Romania and Bulgaria, which led NATO to add patrol aircraft and radars. In Asia, China's pressure on Taiwan, the Philippines and Japan touches three US defense commitments and the chip supply chain. Closer to home, US forces keep striking alleged drug boats, and the crises in Haiti (with Salvadoran troops based near the US Embassy) and Cuba bear on migration toward Florida.",
  "signals": [
   {
    "title": "The Gulf's two sea chokepoints are both under threat at once",
@@ -322,6 +322,13 @@
     },
     {
      "date": "2026-11-02",
+     "text": "Zelenskyy said Ukrainian intelligence warned of another massive Russian attack on energy and logistics timed to the US midterms, and Russia's defence ministry said it downed 212 Ukrainian drones overnight.",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy"
+    },
+    {
+     "date": "2026-11-02",
      "text": "US envoy Witkoff announced US-mediated Ukraine-Russia working-level talks in Abu Dhabi on Nov 10-11, preceded by allied meetings in Brussels on security guarantees.",
      "outlet": "Kyiv Post",
      "country": "Ukraine",
@@ -333,13 +340,6 @@
      "outlet": "Ukrinform",
      "country": "Ukraine",
      "url": "https://www.ukrinform.net/rubric-economy/4179670-russian-attacks-leave-consumers-without-power-in-kyiv-and-four-regions-ukrenergo.html"
-    },
-    {
-     "date": "2026-10-24",
-     "text": "Kyiv and Moscow agreed a humanitarian ceasefire for occupied Oleshky from Oct 27, which both sides said Melania Trump helped broker.",
-     "outlet": "Reuters via Khaleej Times",
-     "country": "UAE",
-     "url": "https://www.khaleejtimes.com/europe/russia-ukraine-hold-peace-talks-nov-2026-ceasefire-oleshky"
     }
    ],
    "us_impact": {
@@ -352,7 +352,7 @@
     ],
     "text": "Washington is the lead mediator, with envoys Witkoff and Kushner expected at the Abu Dhabi talks, and US-made air defenses and SpaceX's Starlink remain central to Ukraine's defense. Ukraine's strikes on Russian refineries and a new Trump-approved deal letting Russia ship diesel to North America tie the war directly to US fuel markets. Failed talks would likely bring fresh requests for US weapons and funding, against a nuclear-armed adversary."
    },
-   "watch": "A collapse of the Nov 10-11 Abu Dhabi talks followed by even larger winter strikes that black out Kyiv, or a Russian breakthrough past the Donbas defensive belt.",
+   "watch": "Whether the Nov 10-11 Abu Dhabi talks produce any de-escalation, or whether Russia launches the further mass strike on energy and logistics that Kyiv's intelligence warned of.",
    "keywords": [
     "Ukraine",
     "Russia",
@@ -370,7 +370,7 @@
     "Kyiv"
    ],
    "confidence": "high",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "outlook": "Expect heavy strikes on energy on both sides through the Nov 10-11 Abu Dhabi talks; a real ceasefire looks unlikely while Russia demands all of Donbas.",
    "consensus": "Ukrainian, independent Russian, Gulf and US outlets agree on the strikes and the talks; casualty and territory figures come from the warring sides and differ."
   },
@@ -389,9 +389,23 @@
    "lon": 29.2,
    "severity": "red",
    "trend": "escalating",
-   "status": "Drones have hit about a dozen merchant ships off Romania and Bulgaria; ~30 sailors dead or missing",
+   "status": "NATO adds patrol aircraft and radars after a dozen-plus ships hit; Contship Jet sank",
    "summary": "Russia has long tried to choke Ukraine's sea exports, and since early October 2026 drone strikes widely blamed on Moscow have hit at least a dozen merchant ships near Romanian and Bulgarian waters. Romanian and Bulgarian officials count roughly 30 sailors killed or missing; recent sinkings include the Khoryv off Constanta on Oct 23 and the Contship Jet off Shabla on Oct 28. Romanian F-16s shot down two jet-powered Geran drones near Sulina on Oct 17, and after a special North Atlantic Council session NATO pledged more patrol aircraft, radar and drones for the Black Sea. Russia has not claimed every attack, but its defence ministry says some targeted ships carried military or dual-use cargo for Ukraine. War-risk insurance costs for the Black Sea have soared.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "CNN reported more than a dozen ships struck in the past month, some near or inside the territorial waters of Romania and Bulgaria, and said the Contship Jet later sank.",
+     "outlet": "CNN",
+     "country": "US",
+     "url": "https://www.cnn.com/2026/11/03/europe/ukraine-black-sea-drone-attacks-intl"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "After seven strikes on cargo ships near Romania and Bulgaria last month, NATO said it would deploy maritime patrol aircraft, radars and drones to the Black Sea.",
+     "outlet": "Sowetan",
+     "country": "South Africa",
+     "url": "https://www.sowetan.co.za/news/world/2026-11-03-black-sea-attacks-test-nato-resolve-as-strikes-surge/"
+    },
     {
      "date": "2026-10-28",
      "text": "Three sea drones struck and disabled the container ship Contship Jet about 21 nautical miles off Shabla, Bulgaria; all 18 crew were rescued.",
@@ -431,7 +445,7 @@
     ],
     "text": "Romania and Bulgaria are NATO treaty allies whose waters and airspace are being hit, so a lethal strike on allied territory could trigger alliance consultations that bind the US; NATO has already sent extra patrol aircraft and drones. Secretary of State Rubio said in September that Ukraine had hit US-linked vessels, showing US commercial interests are exposed on both sides. Soaring war-risk premiums and disrupted grain and fuel cargoes push up global shipping and commodity costs."
    },
-   "watch": "A drone killing people inside Romanian or Bulgarian territorial waters or hitting a NATO warship, or NATO choosing to engage the launch platforms.",
+   "watch": "A strike inside Romanian or Bulgarian territorial waters causing NATO casualties, or a request to invoke Article 4, would escalate this.",
    "keywords": [
     "Black Sea",
     "Constanta",
@@ -446,12 +460,14 @@
     "romania f-16",
     "bulgaria",
     "odesa",
-    "grain exports"
+    "grain exports",
+    "Stoyanov",
+    "Varna"
    ],
    "confidence": "high",
-   "as_of": "2026-11-03",
-   "outlook": "More ship strikes are likely; the risk to watch is a death on Romanian or Bulgarian soil or waters, which would test NATO.",
-   "consensus": "Romanian, Bulgarian, Ukrainian and Qatari reporting agree ships are being hit; Russia hasn't claimed every attack and says some ships carried military cargo."
+   "as_of": "2026-11-04",
+   "outlook": "Reporting points to more drone strikes on shipping and a growing NATO air and sea presence off Romania and Bulgaria. It hinges on whether Russia keeps targeting ships near NATO waters and how allies respond.",
+   "consensus": "CNN (US) and South African outlets agree that attacks have accelerated near Romania and Bulgaria and that NATO is reinforcing. Romania blamed Russia for the Oct 23 strike; accounts of casualty counts per ship differ, and I could not reconcile them."
   },
   {
    "id": "russia-nato-eastern-flank-kaliningrad",
@@ -466,9 +482,30 @@
    "lon": 21.5,
    "severity": "yellow",
    "trend": "escalating",
-   "status": "Poland deploys special forces on Kaliningrad border over sabotage and incursion warnings",
+   "status": "Tusk says Poland foiled border 'provocation' near Kaliningrad; GROM units deployed",
    "summary": "Russia has pressured NATO's eastern flank for years with sabotage, airspace violations and nuclear signaling around its heavily militarized Kaliningrad exclave between Poland and Lithuania. On Sept 30 Reuters reported that Moscow sent NATO an informal note threatening to use all its forces, including nuclear weapons, if the alliance tried to cut Kaliningrad off; NATO condemned the threat. In September a Russian military helicopter from Kaliningrad crossed briefly into Polish airspace, and on Oct 18 a drone, apparently Ukrainian and likely diverted by Russian jamming, exploded on a car in Lithuania, with Vilnius and Warsaw disputing its route. On Nov 2 Poland launched a week-long security operation with counterterrorism police and GROM special forces along the Kaliningrad border after Polish and allied intelligence warned of possible sabotage or armed incursions; PM Tusk said suspicious movements were seen near the border.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "Tusk said Poland prevented an attempted provocation on the Kaliningrad border overnight, giving few details, and said extra police and counter-terrorism units were sent after warnings of sabotage or an armed incursion in early November.",
+     "outlet": "France 24",
+     "country": "France",
+     "url": "https://www.france24.com/en/europe/20261103-poland-prevented-attempted-provocation-russian-border-pm-tusk-says"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "Tusk described the incident as people with flashlights moving along the border and warned that escalation from Russia may continue for some time.",
+     "outlet": "The Moscow Times",
+     "country": "Russia",
+     "url": "https://www.themoscowtimes.com/2026/11/03/poland-accuses-russia-of-flashlight-provocation-along-kaliningrad-border-a94167"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "Russia's state news agency TASS reported the GROM deployment as aimed at preventing sabotage that Polish and foreign intelligence allege is planned.",
+     "outlet": "TASS (Russian state media)",
+     "country": "Russia",
+     "url": "https://tass.com/world/2212503"
+    },
     {
      "date": "2026-11-03",
      "text": "Tusk said intelligence warned for weeks of possible provocations, including armed men entering Poland, as GROM and police units deployed along the Kaliningrad border until at least Nov 8.",
@@ -489,13 +526,6 @@
      "outlet": "Notes from Poland",
      "country": "Poland",
      "url": "https://notesfrompoland.com/2026/10/19/lithuania-says-ukrainian-drone-that-struck-car-entered-its-airspace-from-poland/"
-    },
-    {
-     "date": "2026-09-30",
-     "text": "Russia warned NATO in a non-paper that it would use all forces, including nuclear weapons, if Kaliningrad were isolated.",
-     "outlet": "Reuters via Irish Examiner",
-     "country": "Ireland",
-     "url": "https://www.irishexaminer.com/world/arid-41917762.html"
     }
    ],
    "us_impact": {
@@ -507,7 +537,7 @@
     ],
     "text": "Poland and Lithuania are NATO treaty allies, so an armed incursion or attack from Kaliningrad could invoke Article 5 and US military commitments; Tusk has said he discussed the sabotage threat with NATO's top commander, US Gen. Alexus Grynkewich. Moscow's explicit nuclear threat over Kaliningrad and the Suwalki corridor makes this the most likely flashpoint for a direct US-Russia confrontation in Europe."
    },
-   "watch": "A confirmed armed incursion or major sabotage from Kaliningrad, or any NATO step to restrict Kaliningrad transit that Moscow has tied to nuclear use.",
+   "watch": "An armed incursion, a confirmed sabotage attack, or a Russian military response on the Kaliningrad border would push this to red.",
    "keywords": [
     "Kaliningrad",
     "Suwalki corridor",
@@ -521,12 +551,15 @@
     "nuclear threat",
     "article 5",
     "airspace violation",
-    "belarus"
+    "belarus",
+    "Tusk",
+    "Podlasie",
+    "Warmia-Masuria"
    ],
    "confidence": "medium",
-   "as_of": "2026-11-03",
-   "outlook": "Poland's border operation runs to at least Nov 8; incidents are possible, but no outlet reports troop build-ups pointing to an attack.",
-   "consensus": "Polish, US and Irish outlets report the same warnings; Lithuania and Poland disagree about one drone's route."
+   "as_of": "2026-11-04",
+   "outlook": "Poland expects the pressure to continue through at least the first half of November, with units on the border until at least Nov 8. It hinges on whether any of the sabotage or incursion warnings turn into a confirmed incident.",
+   "consensus": "France 24, AP and the Moscow Times report Tusk's account alike: odd night-time movement was spotted and Poland mobilised forces. Tusk himself could not be fully certain it was a provocation, and Russian state media (TASS) call the sabotage claims alleged and unproven."
   },
   {
    "id": "moldova-drone-spillover-transnistria",
@@ -620,7 +653,7 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "US strikes Iran's Qeshm Island (Nov 3); Tehran calls US truce offer insufficient",
+   "status": "US 'defensive' strikes on Qeshm; Qatar-mediated talks go on, no deal",
    "summary": "The US and Israel opened a war on Iran on Feb 28, 2026, killing Supreme Leader Ali Khamenei; Iran answered with missiles and drones on Israel, US bases and Gulf states and choked off the Strait of Hormuz. A June 17 memorandum opened a 60-day negotiating window, but Trump declared it over on July 8 and the US reimposed a naval blockade of Iran on July 14 (CENTCOM says 144 vessels redirected as of Oct 31). As of Nov 2-3, large strike waves are paused, but tankers and an LNG carrier keep being hit by mines and projectiles in the Gulf, Qatari mediation has made little progress, and Gulf officials say Washington warned strikes could restart as soon as Nov 4 (MSNOW, via JINSA). Iran's security chief Mohsen Rezaei says Tehran may revisit its ban on nuclear weapons if war resumes, and Brent crude traded near $107 on Nov 2. On Nov 3 outlets in the UK, the EU, the UAE, India and Taiwan reported US strikes on Iran's Qeshm Island and other targets near Hormuz, the eve of the US midterms, while Iran called a US ceasefire proposal insufficient.",
    "latest": [
     {
@@ -632,6 +665,27 @@
     },
     {
      "date": "2026-11-03",
+     "text": "US officials said limited, defensive strikes hit Iran's Qeshm Island after Iran fired at a US aircraft, and they said this was not a return to full war.",
+     "outlet": "Times of Israel",
+     "country": "Israel",
+     "url": "https://www.timesofisrael.com/us-carries-out-defensive-strikes-on-irans-qeshm-island-in-strait-of-hormuz/"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "Iranian state media reported blasts on Qeshm and in Bandar Lengeh, and the IRGC claimed it had captured two US drones and shot down an MQ-9.",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "Qatar's foreign ministry said both sides are weighing mediators' proposals and differences remain, while a senior Iranian official told Reuters the sides are still far apart.",
+     "outlet": "Iran International",
+     "country": "UK",
+     "url": "https://www.iranintl.com/en/202611035924"
+    },
+    {
+     "date": "2026-11-03",
      "text": "The BBC reported US strikes on an Iranian island near Hormuz on the eve of the US midterm elections.",
      "outlet": "BBC News",
      "country": "UK",
@@ -639,31 +693,10 @@
     },
     {
      "date": "2026-11-02",
-     "text": "Iranian state media said a tanker hit a mine in Hormuz, and the UAE condemned an attack on a Qatari LNG tanker.",
-     "outlet": "Khaleej Times",
-     "country": "UAE",
-     "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-2-2026"
-    },
-    {
-     "date": "2026-11-02",
-     "text": "FM Araghchi said Iran is in intensive mediated talks with the US and is weighing a two-day reopening of Hormuz, while UKMTO reported more ships struck by projectiles.",
-     "outlet": "Khaleej Times",
-     "country": "UAE",
-     "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-2-2026"
-    },
-    {
-     "date": "2026-11-02",
-     "text": "Gulf officials said the US warned strikes could resume as soon as Nov 4; at least 609 Iranian missiles and drones have been launched since July 7.",
-     "outlet": "JINSA",
-     "country": "US",
-     "url": "https://jinsa.org/wp-content/uploads/2026/11/Iran-War-Update-11.2.26.pdf"
-    },
-    {
-     "date": "2026-11-02",
-     "text": "Iran's security chief spoke with Putin and his deputy met China's Wang Yi amid reports of imminent US attack plans; Qatari talks yielded no Iranian concessions.",
-     "outlet": "ISW / Critical Threats",
-     "country": "US",
-     "url": "https://www.criticalthreats.org/analysis/iran-update-november-2-2026"
+     "text": "Qatari mediators flew to Tehran to discuss a draft US-Iran deal, and Vice President Vance said some progress had been made.",
+     "outlet": "Arab News (Reuters)",
+     "country": "Saudi Arabia",
+     "url": "https://www.arabnews.com/middle-east/qatari-mediators-travel-to-tehran-for-talks-on-potential-us-iran-deal-source-says-3009536"
     }
    ],
    "us_impact": {
@@ -679,7 +712,7 @@
     ],
     "text": "US bases in Qatar, Bahrain, Kuwait and the UAE have been hit since Feb 28, and US service members have been killed. The US Navy is enforcing a blockade of Iran, and the near-closure of Hormuz has Brent near $107, feeding US fuel prices. A resumed campaign would put US troops, sailors and citizens across the Gulf back in the line of fire and raise cyber and nuclear-proliferation risks."
    },
-   "watch": "A resumed US-Israeli strike campaign after the midterms, or Iran dropping its nuclear-weapons ban, would reignite full-scale war.",
+   "watch": "A US decision to resume large-scale strikes after the midterms, or a Hormuz deal on Iran's two-day reopening plan, would decide the next stage.",
    "keywords": [
     "Iran",
     "Strait of Hormuz",
@@ -695,12 +728,14 @@
     "UKMTO",
     "tanker",
     "Pickaxe Mountain",
-    "brent"
+    "brent",
+    "Bandar Lengeh",
+    "Doha"
    ],
    "confidence": "high",
-   "as_of": "2026-11-03",
-   "outlook": "The Nov 3 strikes suggest the pause is ending; the question is whether this becomes a renewed campaign, and whether Iran answers against US bases or Gulf shipping.",
-   "consensus": "UK, EU, UAE, Indian and Taiwanese outlets reported the Nov 3 strikes alike; earlier details of the pause and the blockade come from UAE, Israeli, Qatari and US sources."
+   "as_of": "2026-11-04",
+   "outlook": "Reporting points to a tense few weeks: Trump has floated renewed strikes after the Nov 3 vote, while Qatar and Pakistan keep passing drafts back and forth. It hinges on whether Washington accepts Iran's condensed seven-point plan to reopen Hormuz.",
+   "consensus": "US, Israeli, Qatari and Iranian outlets agree that the US hit Qeshm Island on Nov 2-3 and that talks continue without a deal. They differ on framing: US officials call the strikes defensive, and Iran's IRGC says it downed or captured US drones."
   },
   {
    "id": "yemen-houthi-saudi-war",
@@ -714,9 +749,23 @@
    "lon": 44.2,
    "severity": "red",
    "trend": "escalating",
-   "status": "Houthis push toward Aden as Saudi-backed forces counter; drones fired at Riyadh",
+   "status": "Houthis within 80 km of Aden; Saudi-led coalition hits Hodeidah port; Taiz besieged",
    "summary": "Yemen's war, largely frozen since a 2022 truce, reignited in 2026 when the Iran-backed Houthis began hitting Saudi shipping and oil infrastructure as a spillover of the Iran war, then declared a maritime blockade of Saudi Arabia in July. In September they overran Yemen's Red Sea coast, taking Mocha and reaching the Bab al-Mandeb strait, which matters more than ever with Hormuz effectively shut. Since Oct 30 Houthi forces have pushed into al-Maqatirah district and, per Reuters sources, come within about 80 km of Aden, while Saudi-backed government units with Saudi air support counterattack and claim gains in Jawf; Taiz is under heavy pressure. The Houthis are firing missiles and drones at Saudi cities and warn Aramco sites are in range; the Saudi-led coalition said it intercepted a missile and two drones aimed at Riyadh on Nov 2.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "Saudi strikes hit Houthi-held areas including Hodeidah, which the Houthis say killed 10 people, and the coalition said it intercepted Houthi missiles and a drone aimed at southern Saudi Arabia.",
+     "outlet": "Democracy Now",
+     "country": "US",
+     "url": "https://www.democracynow.org/2026/11/3/headlines/houthis_advance_on_aden_as_fighting_worsens_yemens_hunger_crisis"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "A missile strike on a health centre in Lahj reportedly killed at least 20 civilians as the Houthis advanced.",
+     "outlet": "Samaa TV",
+     "country": "Pakistan",
+     "url": "https://www.samaa.tv/2087359569-at-least-20-civilians-killed-in-missile-strike-as-houthis-move-towards-aden"
+    },
     {
      "date": "2026-11-03",
      "text": "Houthis were reported to have taken all of al-Maqatirah district about 40 miles northwest of Aden, though the advance is unconfirmed; government forces retook Ras Menhali over Bab el-Mandeb.",
@@ -744,13 +793,6 @@
      "outlet": "Reuters (via Defense News)",
      "country": "UK",
      "url": "https://www.defensenews.com/global/mideast-africa/2026/10/02/saudis-plan-assault-on-houthis-to-break-red-sea-chokehold/"
-    },
-    {
-     "date": "2026-09-11",
-     "text": "The Houthis seized Mocha and the rest of Yemen's Red Sea coast, reaching the Bab al-Mandeb strait.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://www.aljazeera.com/news/2026/9/11/can-the-houthis-close-the-red-sea-after-seizing-the-yemen-coast"
     }
    ],
    "us_impact": {
@@ -763,7 +805,7 @@
     ],
     "text": "With Hormuz largely shut, Saudi exports via the Red Sea are a key global supply valve, and Houthi control of Bab al-Mandeb threatens tankers and Suez-bound container traffic that feeds US markets. The US is giving military advisers and targeting intelligence to Saudi air operations (per a Western diplomat cited by Reuters), though Trump has declined direct strikes. Attacks on Aramco or Red Sea ports would push oil prices even higher."
    },
-   "watch": "The fall of Aden, a sustained closure of Bab al-Mandeb, or a successful strike on Aramco or Yanbu could pull in direct US military action.",
+   "watch": "A Houthi breakthrough at Tur al-Bahah or into Lahj, or strikes on Gulf airports and Saudi oil sites, would widen the war.",
    "keywords": [
     "Houthis",
     "Ansar Allah",
@@ -779,12 +821,14 @@
     "Red Sea",
     "Aramco",
     "Jizan",
-    "Southern Giants Brigades"
+    "Southern Giants Brigades",
+    "Tur al-Bahah",
+    "Lahj"
    ],
    "confidence": "medium",
-   "as_of": "2026-11-03",
-   "outlook": "The Houthi push toward Aden and threats to Saudi oil sites point to more fighting; a strike on Aramco would raise oil prices fast.",
-   "consensus": "Reuters, UAE and Qatari outlets agree on the advance; how close the Houthis are to Aden varies by source and isn't confirmed."
+   "as_of": "2026-11-04",
+   "outlook": "Reporting points to continued Houthi pressure on the Aden–Taiz road and tit-for-tat strikes with Saudi Arabia over the next few weeks. Much depends on whether government forces hold Tur al-Bahah and on the wider US-Iran track.",
+   "consensus": "Reuters-based coverage in the US, Pakistan and Israel agrees the Houthis are about 80 km from Aden, citing military sources. Casualty figures from strikes come mostly from the warring parties and are unverified."
   },
   {
    "id": "israel-hamas-gaza",
@@ -801,6 +845,20 @@
    "status": "Year-old truce frays: near-daily Israeli strikes; disarmament and ISF deployment stalled",
    "summary": "A US-brokered ceasefire has nominally held in Gaza since October 2025, but phase two of Trump's plan (Hamas disarmament, a phased Israeli pullback and an International Stabilization Force) remains stuck. Hamas said in July it had dissolved its governing body and a disarmament working group began in August, but no weapons handover has been confirmed; Hamas says it will not fully disarm until Israel withdraws, while Israel insists on disarmament first. Israeli strikes continue almost daily: Gaza's Health Ministry says at least 1,580 people have been killed since the truce began (as of Oct 31), while the IDF says it logged 31 Hamas violations in Oct 1-15. Israel's army is working to expand its control to 70% of the Strip, reportedly blocked construction of a Board of Peace base for ISF troops, and over 21,000 patients await evacuation as Rafah stays mostly shut. Israel's Oct 27 election result adds uncertainty to the next steps.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "Israeli strikes killed at least five people across Gaza, including a teenage girl and a Hamas security officer, according to Gaza's civil defence and medical sources.",
+     "outlet": "Shafaq News",
+     "country": "Iraq",
+     "url": "https://shafaq.com/en/Middle-East/Israeli-strikes-kill-five-across-Gaza"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "AFP noted that Gaza's health ministry counts nearly 1,600 deaths from Israeli strikes since the October 2025 ceasefire.",
+     "outlet": "Arab News (AFP)",
+     "country": "Saudi Arabia",
+     "url": "https://arabnews.com/middle-east/hamas-member-among-4-killed-in-israeli-strikes-gaza-officials-3009637"
+    },
     {
      "date": "2026-10-31",
      "text": "At least four Palestinians were killed, including in shelling of Nuseirat; the Health Ministry put deaths since the ceasefire at 1,580.",
@@ -849,7 +907,7 @@
     "disarmament"
    ],
    "confidence": "high",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "outlook": "The truce is likely to stay frayed rather than collapse soon; disarmament and the stabilization force remain stuck.",
    "consensus": "Qatari, Israeli and US outlets agree strikes continue; Gaza's Health Ministry and Israel's army count very different numbers."
   },
@@ -1157,9 +1215,23 @@
    "lon": 29.5,
    "severity": "red",
    "trend": "escalating",
-   "status": "Army pushes west in Kordofan as a drone war kills hundreds of civilians a month",
+   "status": "Kordofan drone war: RSF hits 14 power stations; 7 killed at fuel station Nov 3",
    "summary": "The war between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) began in April 2023, has displaced about 13 million people and pushed parts of Darfur and Kordofan into famine-like conditions. The RSF has held El Fasher since late 2025, and the main ground front is now Kordofan, where the army says it has taken RSF positions in North Kordofan and is moving toward En Nahud while the RSF masses in West Kordofan. Drones are now the leading killer of civilians: the UN rights chief said strikes by both sides killed at least 306 people in the first three weeks of October, including at least 139 in one strike at Dibab (West Kordofan) and more than 80 at a market in disputed Abyei; strikes on RSF-held Nyala on 26 October reportedly killed scores more. Army chief al-Burhan rejected talks on 6 October, and neither side attended the 21-22 October Geneva coordination meeting, while a string of senior RSF commanders have defected to the army.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "A suspected RSF drone struck a fuel station in El Abbasiya, South Kordofan, killing at least seven people and injuring 36, local sources said.",
+     "outlet": "Sudan Tribune",
+     "country": "Sudan",
+     "url": "https://sudantribune.com/article/320859"
+    },
+    {
+     "date": "2026-11-01",
+     "text": "RSF drones knocked out the Al Dabbah and Abu Hamad power stations in northern Sudan, and the outlet counted 14 power stations bombed in two weeks.",
+     "outlet": "Sudan Tribune",
+     "country": "Sudan",
+     "url": "https://sudantribune.com/article/320764"
+    },
     {
      "date": "2026-10-31",
      "text": "Senior RSF commander Siddiq Ander announced his defection, accusing Hemedti's relatives of controlling the group's money, weapons and promotions.",
@@ -1214,10 +1286,13 @@
     "Nyala",
     "El Fasher",
     "Dibab",
-    "geneva talks"
+    "geneva talks",
+    "El Abbasiya",
+    "Abu Hamad",
+    "Al Dabbah"
    ],
    "confidence": "high",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "outlook": "Fighting is shifting west into Kordofan; an attack on El Obeid would be the next big escalation, and talks look far off.",
    "consensus": "UN, Qatari and South Sudanese reporting agree on the drone toll and the stalled talks; the two sides' claims of gains conflict."
   },
@@ -1236,6 +1311,13 @@
    "status": "Federal army fights Tigrayan forces across Tigray; Ethiopia and Eritrea trade war claims",
    "summary": "The 2022 Pretoria Agreement ended the first Tigray war, but in September 2026 a TPLF-led alliance of armed groups, including Amhara Fano militias, moved against Prime Minister Abiy Ahmed and seized Tigray's airports, prompting a federal offensive that began on 23 September. The army retook Mekelle in early October and then Adigrat, Adwa and Zalambessa; Ethiopia told the UN Security Council that Eritrean troops had pushed up to 60 km into Tigray, and struck Eritrean vehicles near Adigrat with drones. In late October fighting continued in central and northern Tigray: Tigrayan forces retook the border town of Rama on 22 October while the army took Abiy Addi, and army drone strikes on Rama reportedly killed at least 12 civilians on 30 October. Fano fighters are also attacking the Dessie-Woldia highway in Amhara and the Oromo Liberation Army is active in Oromia, while Russia has begun delivering Su-35 jets to Addis Ababa and Russia and China have offered mediation.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "The TPLF claimed its fighters killed 500 federal and allied troops near Aksum in a counteroffensive, a claim not independently verified.",
+     "outlet": "TRT World",
+     "country": "Turkey",
+     "url": "https://trtworld.com/article/7f57608c2b66"
+    },
     {
      "date": "2026-10-30",
      "text": "An Ethiopian army drone strike on Rama reportedly killed at least 12 civilians, after Tigrayan forces retook the border town on 22 October.",
@@ -1290,10 +1372,11 @@
     "Rama",
     "Assab",
     "Fano",
-    "Pretoria Agreement"
+    "Pretoria Agreement",
+    "Aksum"
    ],
    "confidence": "medium",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "outlook": "Fighting in Tigray continues; the danger is a direct Ethiopia–Eritrea war over the border and Red Sea access.",
    "consensus": "Qatari and US outlets report the same fighting; Ethiopia and Eritrea each accuse the other of starting it."
   },
@@ -1309,14 +1392,28 @@
    "severity": "red",
    "trend": "escalating",
    "status": "Al-Shabaab routs an army column in Bay region; US strikes hit 90 for the year",
-   "summary": "Al-Shabaab, al-Qaeda's East African branch, has fought Somalia's federal government for nearly two decades, and the state is now also split by disputes with South West and Hirshabelle states. After South West opposition forces seized five Bay region towns in mid-October, the government sent about 2,000 troops in Operation Banooda, and on 26 October al-Shabaab ambushed the column near Leego/Jameeca in Burhakaba district. Casualty figures vary widely: an officer told AP he saw at least 20 dead soldiers, Reuters sources cited several dozen to more than 140 casualties, and al-Shabaab claims over 300 killed, while the government says it killed about 75 militants. Al-Shabaab has also staged its first attacks in Puntland since early 2024, the US has carried out 90 airstrikes in Somalia this year, and Uganda has begun a phased pullout of its troops as the AU mission runs short of money.",
+   "summary": "Al-Shabaab has fought Somalia's government for nearly two decades, and the US keeps striking it from the air. On Oct 26 it ambushed a federal column of roughly 2,000 troops heading for Burhakabo in South West state, in what officials called the army's worst reverse in years. The government says it killed 75 militants and has opened an inquiry. Al-Shabaab claims up to 413 soldiers killed, a figure no independent source has confirmed, while a surviving officer told AP he saw at least 20 dead. The group has also resumed attacks in Puntland, and Turkey has struck back from the air.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "Security officials told Drop Site that Turkish strikes after the ambush killed two civilians, and that al-Shabaab mortar fire killed four people near Galgala in Puntland on Oct 27.",
+     "outlet": "Drop Site News",
+     "country": "US",
+     "url": "https://www.dropsitenews.com/p/us-iran-qeshm-gaza-israel-rafah-aid-turkey-somalia-shabaab"
+    },
     {
      "date": "2026-11-02",
      "text": "Uganda's first troops returned home as it began a phased pullout; the AU mission plans to pull peacekeepers from Barawe to positions near Mogadishu.",
      "outlet": "Kulu Media",
      "country": "Horn of Africa",
      "url": "https://kulu-media.com/uganda-troop-withdrawal-sparks-au-warning-somalia-security"
+    },
+    {
+     "date": "2026-10-29",
+     "text": "Al-Shabaab raised its claimed toll to 413 soldiers killed, unverified, as authorities opened an inquiry into the army's worst reverse in years.",
+     "outlet": "Somali Guardian",
+     "country": "Somalia",
+     "url": "https://www.somaliguardian.com/news/somalia-news/somali-army-toll-al-shabaab-assault-inquiry/"
     },
     {
      "date": "2026-10-29",
@@ -1364,10 +1461,13 @@
     "AFRICOM",
     "AUSSOM",
     "hassan sheikh mohamud",
-    "Operation Banooda"
+    "Operation Banooda",
+    "Burhakabo",
+    "Jameeca",
+    "Galgala"
    ],
    "confidence": "high",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "outlook": "Uganda's pullout and the government's feud with regional states give al-Shabaab room; more US air strikes are likely.",
    "consensus": "AP, Reuters and regional outlets agree on the ambush, but casualty claims range from 20 to over 300."
   },
@@ -1890,9 +1990,16 @@
    "lon": 120.5,
    "severity": "yellow",
    "trend": "escalating",
-   "status": "49 PLA aircraft sorties on Nov 3 as China surges ships around Taiwan; no blockade yet",
+   "status": "49 PLA sorties Nov 3 look like a 'quiet exercise' before Taiwan's local elections",
    "summary": "Beijing claims self-ruled Taiwan and has steadily raised military and grey-zone pressure on President Lai Ching-te's government. In October 2026 Taiwan's coast guard reported unusually large, coordinated Chinese maritime harassment, driving off 16 Chinese coast guard, research and fishing vessels around the main island and Pratas (Dongsha) on Oct 18, after a water-cannon incident near Pratas on Oct 1. On Oct 28 Taiwan's security chief Joseph Wu mapped 53 Chinese ships, 34 of them warships, spread from southern Japan to east of the Philippines, including the Liaoning carrier group; China's defence ministry calls the training routine and not aimed at anyone. No blockade or large named PLA encirclement drill had been reported as of early November, but the US Army's Pacific commander said on Oct 27 that forces are planning for a possible Chinese move on Taiwan as early as 2027.",
    "latest": [
+    {
+     "date": "2026-11-04",
+     "text": "A Taiwanese defence analyst said the surge of 49 aircraft and 12 ships was a quiet exercise short of announced drills, timed as Taiwan's local election campaign enters its last weeks.",
+     "outlet": "Taipei Times",
+     "country": "Taiwan",
+     "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/04/2003867122"
+    },
     {
      "date": "2026-11-03",
      "text": "Taiwan's defence ministry reported 49 Chinese military aircraft sorties, 31 inside its air defence zone, plus 12 navy and official ships, the period's highest count.",
@@ -1954,10 +2061,12 @@
     "blockade",
     "ADIZ",
     "Taiwan Affairs Office",
-    "grey zone"
+    "grey zone",
+    "Su Tzu-yun",
+    "local elections"
    ],
    "confidence": "high",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "outlook": "Expect continued record-level pressure; a declared quarantine or a named encirclement drill would be the next step up.",
    "consensus": "Taiwanese, UK, French and Australian outlets agree; China calls the activity routine training."
   },
@@ -2145,6 +2254,13 @@
      "url": "https://ddindia.co.in/2026/10/north-korea-fires-around-10-ballistic-missiles-toward-sea-off-east-coast-seoul-says/"
     },
     {
+     "date": "2026-10-26",
+     "text": "North Korea told the UN Security Council that Seoul fabricated the September DMZ landmine blast, and defended its border fortification work as a sovereign right.",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://www.aljazeera.com/news/2026/10/26/seoul-fabricated-landmine-blast-north-korea-tells-un-in-letter"
+    },
+    {
      "date": "2026-10-12",
      "text": "North Korea fired two ballistic missiles from the Pyongyang area, one flying over 900 km; US Pacific command saw no immediate threat to US territory.",
      "outlet": "Korea Times (Yonhap)",
@@ -2186,7 +2302,7 @@
     "kursk"
    ],
    "confidence": "high",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "outlook": "More missile tests are likely; a firefight across the DMZ or a nuclear test would be the serious escalation.",
    "consensus": "South Korean military figures, reported by Yonhap and Reuters, agree; North Korea denies placing the mines."
   },
@@ -2202,9 +2318,23 @@
    "lon": 69.4,
    "severity": "red",
    "trend": "steady",
-   "status": "Border clashes and Pakistani strikes continue; Pakistan says Taliban shelter the TTP",
+   "status": "Torkham and Angoor Adda firefights go on; Islamabad welcomes US-brokered talks",
    "summary": "Pakistan accuses Afghanistan's Taliban government of sheltering the Pakistani Taliban (TTP), which the Taliban deny, and after heavy fighting in February 2026 Pakistan's defence minister declared open war. A new round began after a Sept 18 suicide attack in north-west Pakistan killed 31; Pakistan carried out at least three rounds of airstrikes, including Sept 30 strikes in Kunar and Helmand that the UN mission says killed 10 civilians, mostly children. Fighting continued in late October: on Oct 27 heavy-weapons fire at Angoor Adda on the Paktika–South Waziristan line killed one civilian and wounded five on the Pakistani side, per Pakistani officials, while the Taliban said Pakistani drones hit Paktika; intermittent fighting followed at Torkham on Oct 28. Crossings have been mostly shut for over a year, trade fell 95 percent, and the UN says cross-border violence has killed or injured more than 1,100 Afghan civilians in 2026.",
    "latest": [
+    {
+     "date": "2026-11-02",
+     "text": "Pakistan's information ministry said forces destroyed seven Afghan Taliban posts after what it called unprovoked fire at Angoor Adda in South Waziristan.",
+     "outlet": "The News International",
+     "country": "Pakistan",
+     "url": "https://www.thenews.pk/story/1446276-pakistan-retaliates-after-afghan-taliban-open-fire-on-border-posts-in-south-waziristan"
+    },
+    {
+     "date": "2026-11-02",
+     "text": "Pakistan's army spokesman accused the Taliban of sheltering TTP leaders and blamed India, while the Foreign Office said it would support US efforts to broker dialogue with Kabul.",
+     "outlet": "bne IntelliNews",
+     "country": "UK",
+     "url": "https://www.intellinews.com/pakistan-pins-its-afghan-border-war-on-india-480858/"
+    },
     {
      "date": "2026-10-29",
      "text": "Pakistan said it destroyed seven Taliban posts in the 27 October fighting at Angoor Adda on the Paktika–South Waziristan border.",
@@ -2257,10 +2387,11 @@
     "Angoor Adda",
     "Khawaja Asif",
     "Zabihullah Mujahid",
-    "Kunar"
+    "Kunar",
+    "Noor Wali Mehsud"
    ],
    "confidence": "medium",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "outlook": "Border clashes and Pakistani strikes are likely to continue; a big TTP attack traced to Afghanistan would bring heavier strikes.",
    "consensus": "Pakistani, Afghan exile, Saudi and US outlets agree on the clashes; each side reports the other's losses."
   },
@@ -2351,6 +2482,13 @@
    "summary": "Myanmar's civil war began after the 2021 coup; the UN estimates about 100,000 dead and over 3.5 million displaced, and coup leader Min Aung Hlaing now serves as president of a military-backed government. The military relies heavily on air power: a strike on a market in Kyauktaw, Rakhine, around Sept 28 killed at least 50 people according to the Arakan Army, one of the deadliest in the state since the coup per the UN rights office. Since early October the Arakan Army, which controls most of Rakhine, has fought government forces around Sittwe, Kyaukphyu and Manaung while troops push in from neighbouring regions. Strikes on Oct 31–Nov 1 hit a maternity clinic in Mrauk-U and a school in Loikaw, killing at least 15 people per local sources, and Thai jets are patrolling the border after spillover damaged homes in Thailand.",
    "latest": [
     {
+     "date": "2026-11-03",
+     "text": "The Irrawaddy counted nine junta airstrikes from Oct 29 to Nov 1 that killed 16 and injured 51, over half in Rakhine, and the Arakan Army also alleged chemical bombs were dropped in Paletwa.",
+     "outlet": "The Irrawaddy",
+     "country": "Myanmar",
+     "url": "https://irrawaddy.com/news/myanmars-crisis-the-world/myanmar-regime-ramps-up-civilian-airstrikes-as-asean-envoy-visits.html"
+    },
+    {
      "date": "2026-11-01",
      "text": "Airstrikes hit four Rakhine townships, including a maternity clinic in Mrauk-U, a day after a school in Loikaw was bombed; at least 15 were reported killed.",
      "outlet": "Reuters via The Star",
@@ -2394,10 +2532,12 @@
     "Kachin Independence Army",
     "Karen National Union",
     "National Unity Government",
-    "Loikaw"
+    "Loikaw",
+    "Paletwa",
+    "Pauktaw"
    ],
    "confidence": "medium",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "outlook": "The military's air campaign in Rakhine is intensifying; the fall of Sittwe or Kyaukphyu would be a turning point.",
    "consensus": "Reuters, Malaysian and Japanese outlets and the UN agree on the strikes; death tolls come from local sources and the Arakan Army."
   },
@@ -2412,9 +2552,23 @@
    "lon": -72.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "El Salvador sends ~2,000 troops after gangs hit UN-backed force; elections postponed",
+   "status": "El Salvador's ~2,000 troops patrol Port-au-Prince; 400 Mawozo boss seeks UN-led talks",
    "summary": "Gang coalitions such as Viv Ansanm have expanded since the 2021 assassination of President Jovenel Moise and now control an estimated 70% of Port-au-Prince (AP), with violence spreading into Artibonite. A UN-authorized Gang Suppression Force (GSF) replaced the Kenya-led mission in April 2026 but remains far below its planned 5,500 personnel: under 1,000 in July (AFP) and under a third of strength in October (WLRN). The Security Council extended its mandate to 31 March 2027 on 30 September, and on 18 October gangs mounted the first major attack on the force in Croix-des-Bouquets, leaving four Salvadoran soldiers missing; El Salvador then sent about 2,000 more troops to search for them and fight the gangs, while remains found near the capital have not been identified as theirs; GSF chief Jack Christofides said hostile incidents rose from two to fifteen in one month. The UN says gangs have killed more than 4,000 people in 2026, and the interim government has indefinitely postponed the elections planned for 13 December.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "Joseph warned of reprisals and claimed the four missing Salvadorans were killed, which Haitian officials call an abduction and Salvadoran officials doubt, while the UN said most Salvadoran troops operate outside the Gang Suppression Force mandate.",
+     "outlet": "Latin Times",
+     "country": "US",
+     "url": "https://www.latintimes.com/haitian-gang-leader-warns-salvadoran-troops-haiti-600858"
+    },
+    {
+     "date": "2026-11-02",
+     "text": "A letter attributed to 400 Mawozo leader Wilson Joseph asked the UN to send a delegation for peace talks as thousands of Salvadoran troops arrived.",
+     "outlet": "Bloomberg",
+     "country": "US",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-02/haiti-gang-leader-calls-for-peace-after-el-salvador-sends-troops"
+    },
     {
      "date": "2026-10-31",
      "text": "About 2,000 Salvadoran troops arrived in Haiti to help fight the gangs and search for the four missing soldiers.",
@@ -2442,32 +2596,18 @@
      "outlet": "Citizen Digital",
      "country": "Kenya",
      "url": "https://citizen.digital/article/un-security-council-extends-haiti-anti-gang-force-by-6-months-n391143"
-    },
-    {
-     "date": "2026-09-04",
-     "text": "Haiti's government formally asked for the international anti-gang force to be renewed.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://www.aljazeera.com/news/2026/9/4/haitian-government-calls-for-renewal-of-international-anti-gang-task-force"
-    },
-    {
-     "date": "2026-08-27",
-     "text": "Residents vented anger at police after a gang attack killed at least 47 people near the capital.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://aljazeera.com/news/2026/8/27/haiti-police-confront-public-frustration-after-deadly-gang-attack-kills-47"
     }
    ],
    "us_impact": {
     "level": "indirect",
     "channels": [
      "migration",
-     "aid",
-     "citizens"
+     "citizens",
+     "aid"
     ],
-    "text": "The US is the main funder of the GSF and co-sponsored its renewal, so a faltering mission means pressure for more US money or a bigger role. The US is deporting hundreds of thousands of Haitians who lost Temporary Protected Status into a country where gangs hold the capital's roads, and a deeper collapse could push more boat migration toward Florida. Mass kidnappings (50+ in one August attack) put any Americans in Haiti at risk."
+    "text": "Salvadoran troops reportedly set up a base in Tabarre near the US Embassy, so any escalation in Port-au-Prince could put US staff at risk. Gang violence and political paralysis keep migration pressure toward Florida and the Caribbean high."
    },
-   "watch": "Confirmed deaths of GSF troops or a gang push on the airport and remaining state-held areas could trigger contributor pullouts or calls for direct US action.",
+   "watch": "Gang reprisals against Salvadoran troops, or confirmation that the four missing Salvadorans are dead, would raise the stakes.",
    "keywords": [
     "Haiti",
     "Port-au-Prince",
@@ -2480,10 +2620,14 @@
     "barbecue",
     "Fils-Aime",
     "Salvadoran soldiers",
-    "tps"
+    "tps",
+    "Wilson Joseph",
+    "400 Mawozo",
+    "Tabarre",
+    "Fils-Aimé"
    ],
    "confidence": "high",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "outlook": "El Salvador's 2,000 extra troops may bring heavier fighting soon; contributor pullouts are the risk if soldiers' deaths are confirmed.",
    "consensus": "Kenyan, Congolese, Qatari and US outlets agree; the fate of the four missing soldiers is disputed."
   },
