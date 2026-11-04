@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T04:16:08Z",
- "generated_by": "Claude (claude-sonnet-5-5) daily research of worldwide outlets, 2026-11-04",
- "us_overview": "The most direct risks to Americans still run through the Gulf: the US Navy is enforcing a blockade of Iran, the Strait of Hormuz is mostly closed, and US forces struck Iran's Qeshm Island on Nov 2-3 even as Qatar-mediated talks continue without a deal. Oil fell more than 7% on Monday on deal hopes, but a post-midterm decision on renewed strikes could reverse that. In Europe, NATO allies face Russian drones, sabotage warnings on Poland's Kaliningrad border, and more than a dozen ships hit off Romania and Bulgaria, which led NATO to add patrol aircraft and radars. In Asia, China's pressure on Taiwan, the Philippines and Japan touches three US defense commitments and the chip supply chain. Closer to home, US forces keep striking alleged drug boats, and the crises in Haiti (with Salvadoran troops based near the US Embassy) and Cuba bear on migration toward Florida.",
+ "generated_at": "2026-11-04T04:49:44Z",
+ "generated_by": "Claude daily update 2026-11-04: Sonnet 5.5 searched worldwide outlets, Opus 5.5 rated and analysed",
+ "us_overview": "The Gulf remains the most direct risk to Americans: the US Navy blockades Iranian ports, UKMTO reported two more ships attacked in the Strait of Hormuz, and US 'defensive' strikes on Qeshm now face a post-midterm decision on whether to resume wider strikes. In Yemen, the Houthis are fighting 80 km from Aden and firing at Saudi Arabia, where the US has already ordered some personnel to leave. In Europe, NATO allies Romania and Bulgaria have seen ships sunk off their coasts and Poland is on alert for sabotage on the Kaliningrad border. In Asia, record Chinese pressure on Taiwan, the Philippines and Japan touches three US defence commitments and the chip supply chain, while closer to home US boat strikes, Haiti and Cuba bear on migration and security.",
  "signals": [
   {
    "title": "The Gulf's two sea chokepoints are both under threat at once",
@@ -301,6 +301,13 @@
    "latest": [
     {
      "date": "2026-11-03",
+     "text": "Zelenskyy said Russia fired 289 drones, 17 ballistic missiles and 59 cruise missiles, mostly at energy sites. He noted the barrage fell on US midterm election day, called it a signal from Moscow and urged Washington to boost air defence.",
+     "outlet": "The Tribune (ANI)",
+     "country": "India",
+     "url": "https://www.tribuneindia.com/news/world/russia-launches-massive-overnight-attack-on-ukraine-killing-29-zelenskyy-urges-us-to-step-up-support"
+    },
+    {
+     "date": "2026-11-03",
      "text": "The Kremlin confirmed a Russian delegation will attend the Nov 10-11 Abu Dhabi talks; more than 45 Komyshuvakha residents were still missing after the strike.",
      "outlet": "AP via The Boston Globe",
      "country": "US",
@@ -322,24 +329,17 @@
     },
     {
      "date": "2026-11-02",
+     "text": "Cyberattacks disrupted emergency alert systems in both Ukraine and Russia the day before the aid-centre bombing, and Ukraine's air-raid app was restored overnight.",
+     "outlet": "CBC News",
+     "country": "Canada",
+     "url": "https://www.cbc.ca/news/world/ukraine-russia-alert-cyberattacks-9.7405276"
+    },
+    {
+     "date": "2026-11-02",
      "text": "Zelenskyy said Ukrainian intelligence warned of another massive Russian attack on energy and logistics timed to the US midterms, and Russia's defence ministry said it downed 212 Ukrainian drones overnight.",
      "outlet": "Al Jazeera",
      "country": "Qatar",
      "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy"
-    },
-    {
-     "date": "2026-11-02",
-     "text": "US envoy Witkoff announced US-mediated Ukraine-Russia working-level talks in Abu Dhabi on Nov 10-11, preceded by allied meetings in Brussels on security guarantees.",
-     "outlet": "Kyiv Post",
-     "country": "Ukraine",
-     "url": "https://www.kyivpost.com/post/88971"
-    },
-    {
-     "date": "2026-10-30",
-     "text": "Ukrenergo said Kyiv and four regions were still without power after repeated overnight Russian strikes on energy facilities.",
-     "outlet": "Ukrinform",
-     "country": "Ukraine",
-     "url": "https://www.ukrinform.net/rubric-economy/4179670-russian-attacks-leave-consumers-without-power-in-kyiv-and-four-regions-ukrenergo.html"
     }
    ],
    "us_impact": {
@@ -367,12 +367,16 @@
     "Ukrenergo",
     "refinery strike",
     "Shahed",
-    "Kyiv"
+    "Kyiv",
+    "Zelenskyy",
+    "cyberattack",
+    "air-raid alerts",
+    "midterms"
    ],
    "confidence": "high",
    "as_of": "2026-11-04",
    "outlook": "Expect heavy strikes on energy on both sides through the Nov 10-11 Abu Dhabi talks; a real ceasefire looks unlikely while Russia demands all of Donbas.",
-   "consensus": "Ukrainian, independent Russian, Gulf and US outlets agree on the strikes and the talks; casualty and territory figures come from the warring sides and differ."
+   "consensus": "Indian (ANI), Canadian and earlier wire reports agree on the scale of the Nov 2-3 barrage and the Komyshuvakha strike. The death toll has risen as counting went on: 26 per Ukraine's emergency service on Nov 2, 29 per Zelenskyy on Nov 3, and at least 31 in later official counts."
   },
   {
    "id": "black-sea-shipping-attacks",
@@ -389,9 +393,23 @@
    "lon": 29.2,
    "severity": "red",
    "trend": "escalating",
-   "status": "NATO adds patrol aircraft and radars after a dozen-plus ships hit; Contship Jet sank",
+   "status": "NATO adds patrol aircraft and radars after 7 October ship strikes; drones sank Contship Jet",
    "summary": "Russia has long tried to choke Ukraine's sea exports, and since early October 2026 drone strikes widely blamed on Moscow have hit at least a dozen merchant ships near Romanian and Bulgarian waters. Romanian and Bulgarian officials count roughly 30 sailors killed or missing; recent sinkings include the Khoryv off Constanta on Oct 23 and the Contship Jet off Shabla on Oct 28. Romanian F-16s shot down two jet-powered Geran drones near Sulina on Oct 17, and after a special North Atlantic Council session NATO pledged more patrol aircraft, radar and drones for the Black Sea. Russia has not claimed every attack, but its defence ministry says some targeted ships carried military or dual-use cargo for Ukraine. War-risk insurance costs for the Black Sea have soared.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "Bulgaria's government said naval drones sank the Liberian-flagged Contship Jet off its coast on Oct 28 on a Haifa–Constanta run, as the defence chiefs of Romania, Bulgaria and Turkey met in Sofia.",
+     "outlet": "Reuters via gCaptain",
+     "country": "UK",
+     "url": "https://gcaptain.com/war-widens-in-the-black-sea-in-a-test-of-nato-red-lines/"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "All 18 Contship Jet crew were rescued, and some of the incidents happened inside Romanian waters or the two countries' exclusive economic zones.",
+     "outlet": "Nation Path",
+     "country": "India",
+     "url": "https://www.nationpathindia.com/international/black-sea-ship-attacks-nato-security-russia-ukraine-maritime-conflict-2026"
+    },
     {
      "date": "2026-11-03",
      "text": "CNN reported more than a dozen ships struck in the past month, some near or inside the territorial waters of Romania and Bulgaria, and said the Contship Jet later sank.",
@@ -419,20 +437,6 @@
      "outlet": "Al Jazeera",
      "country": "Qatar",
      "url": "https://www.aljazeera.com/news/2026/10/23/romania-blames-russia-after-drone-sinks-ship-in-the-black-sea"
-    },
-    {
-     "date": "2026-10-20",
-     "text": "NATO said it will send additional patrol aircraft and drones to the Black Sea after drone attacks on merchant ships.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://aljazeera.com/news/2026/10/20/nato-to-send-additional-patrol-planes-to-black-sea-after-drone-attacks"
-    },
-    {
-     "date": "2026-10-18",
-     "text": "Romanian F-16s shot down two jet-powered Russian Geran drones over Romanian waters near Sulina, and NATO called a special Black Sea session.",
-     "outlet": "Euromaidan Press",
-     "country": "Ukraine",
-     "url": "https://euromaidanpress.com/2026/10/18/romania-downs-two-russian-jet-drones-near-sulina-days-before-nato-allies-meet-on-black-sea-security/"
     }
    ],
    "us_impact": {
@@ -462,12 +466,15 @@
     "odesa",
     "grain exports",
     "Stoyanov",
-    "Varna"
+    "Varna",
+    "naval drones",
+    "Sofia",
+    "Turkey"
    ],
    "confidence": "high",
    "as_of": "2026-11-04",
    "outlook": "Reporting points to more drone strikes on shipping and a growing NATO air and sea presence off Romania and Bulgaria. It hinges on whether Russia keeps targeting ships near NATO waters and how allies respond.",
-   "consensus": "CNN (US) and South African outlets agree that attacks have accelerated near Romania and Bulgaria and that NATO is reinforcing. Romania blamed Russia for the Oct 23 strike; accounts of casualty counts per ship differ, and I could not reconcile them."
+   "consensus": "UK (Reuters) and Indian outlets agree on the October strikes, the Contship Jet sinking and NATO's added patrols. Attribution differs: per reporting citing Reuters, Romania accuses Moscow but wants forensic proof for each strike, Bulgaria avoids naming Russia, and Russia denies targeting Ukraine's neighbours."
   },
   {
    "id": "russia-nato-eastern-flank-kaliningrad",
@@ -482,9 +489,23 @@
    "lon": 21.5,
    "severity": "yellow",
    "trend": "escalating",
-   "status": "Tusk says Poland foiled border 'provocation' near Kaliningrad; GROM units deployed",
+   "status": "Tusk says Poland foiled possible 'provocation' near Sępopol; no one crossed the border",
    "summary": "Russia has pressured NATO's eastern flank for years with sabotage, airspace violations and nuclear signaling around its heavily militarized Kaliningrad exclave between Poland and Lithuania. On Sept 30 Reuters reported that Moscow sent NATO an informal note threatening to use all its forces, including nuclear weapons, if the alliance tried to cut Kaliningrad off; NATO condemned the threat. In September a Russian military helicopter from Kaliningrad crossed briefly into Polish airspace, and on Oct 18 a drone, apparently Ukrainian and likely diverted by Russian jamming, exploded on a car in Lithuania, with Vilnius and Warsaw disputing its route. On Nov 2 Poland launched a week-long security operation with counterterrorism police and GROM special forces along the Kaliningrad border after Polish and allied intelligence warned of possible sabotage or armed incursions; PM Tusk said suspicious movements were seen near the border.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "Citing RMF 24, Meduza reported that the flashlight sighting was near Sępopol, that no one crossed the border, and that the warning came from Polish intelligence and NATO allies.",
+     "outlet": "Meduza",
+     "country": "Latvia",
+     "url": "https://meduza.io/en/news/2026/11/03/prime-minister-donald-tusk-says-poland-prevented-a-possible-provocation-on-the-border-with-russia-s-kaliningrad-exclave-after-spotting-people-with-flashlights"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "Tusk acknowledged he could not be fully certain the overnight incident was a provocation.",
+     "outlet": "ABC News (AP)",
+     "country": "US",
+     "url": "https://abcnews.com/International/wireStory/tusk-poland-thwarted-provocation-kaliningrad-border-overnight-137804660"
+    },
     {
      "date": "2026-11-03",
      "text": "Tusk said Poland prevented an attempted provocation on the Kaliningrad border overnight, giving few details, and said extra police and counter-terrorism units were sent after warnings of sabotage or an armed incursion in early November.",
@@ -512,20 +533,6 @@
      "outlet": "CBS News",
      "country": "US",
      "url": "https://www.cbsnews.com/news/poland-russia-border-operation-kaliningrad-sabotage-provocation-nato/"
-    },
-    {
-     "date": "2026-11-02",
-     "text": "Polish police reinforced Podlasie and Warmia-Masuria after military intelligence and allied services warned of imminent sabotage near Kaliningrad.",
-     "outlet": "Notes from Poland",
-     "country": "Poland",
-     "url": "https://notesfrompoland.com/2026/11/02/poland-launches-operation-along-russian-border-in-response-to-reports-of-planned-sabotage/"
-    },
-    {
-     "date": "2026-10-19",
-     "text": "Lithuania said a drone that hit a car on its soil was of Ukrainian origin and entered from Poland, which Warsaw disputed.",
-     "outlet": "Notes from Poland",
-     "country": "Poland",
-     "url": "https://notesfrompoland.com/2026/10/19/lithuania-says-ukrainian-drone-that-struck-car-entered-its-airspace-from-poland/"
     }
    ],
    "us_impact": {
@@ -554,12 +561,14 @@
     "belarus",
     "Tusk",
     "Podlasie",
-    "Warmia-Masuria"
+    "Warmia-Masuria",
+    "Sępopol",
+    "hybrid attack"
    ],
    "confidence": "medium",
    "as_of": "2026-11-04",
    "outlook": "Poland expects the pressure to continue through at least the first half of November, with units on the border until at least Nov 8. It hinges on whether any of the sabotage or incursion warnings turn into a confirmed incident.",
-   "consensus": "France 24, AP and the Moscow Times report Tusk's account alike: odd night-time movement was spotted and Poland mobilised forces. Tusk himself could not be fully certain it was a provocation, and Russian state media (TASS) call the sabotage claims alleged and unproven."
+   "consensus": "US (AP), French, Latvian-based Russian-language and Belgian outlets report Tusk's account alike. All note the thin details: Tusk himself said he could not be fully sure it was a provocation, and no crossing was reported."
   },
   {
    "id": "moldova-drone-spillover-transnistria",
@@ -653,7 +662,7 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "US 'defensive' strikes on Qeshm; Qatar-mediated talks go on, no deal",
+   "status": "US calls Qeshm strikes 'defensive'; UKMTO reports 2 ships hit; post-midterm call looms",
    "summary": "The US and Israel opened a war on Iran on Feb 28, 2026, killing Supreme Leader Ali Khamenei; Iran answered with missiles and drones on Israel, US bases and Gulf states and choked off the Strait of Hormuz. A June 17 memorandum opened a 60-day negotiating window, but Trump declared it over on July 8 and the US reimposed a naval blockade of Iran on July 14 (CENTCOM says 144 vessels redirected as of Oct 31). As of Nov 2-3, large strike waves are paused, but tankers and an LNG carrier keep being hit by mines and projectiles in the Gulf, Qatari mediation has made little progress, and Gulf officials say Washington warned strikes could restart as soon as Nov 4 (MSNOW, via JINSA). Iran's security chief Mohsen Rezaei says Tehran may revisit its ban on nuclear weapons if war resumes, and Brent crude traded near $107 on Nov 2. On Nov 3 outlets in the UK, the EU, the UAE, India and Taiwan reported US strikes on Iran's Qeshm Island and other targets near Hormuz, the eve of the US midterms, while Iran called a US ceasefire proposal insufficient.",
    "latest": [
     {
@@ -665,38 +674,38 @@
     },
     {
      "date": "2026-11-03",
+     "text": "Citing the Wall Street Journal, Israeli media said the Qeshm strike was one of several small, secret US strikes in recent weeks, kept low-key to avoid signalling a return to full war.",
+     "outlet": "Times of Israel",
+     "country": "Israel",
+     "url": "https://www.timesofisrael.com/liveblog_entry/us-said-to-strike-iranian-island-in-strait-of-hormuz/"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "UKMTO reported two vessels attacked in the Strait of Hormuz, as Iran steps up attacks on commercial ships while the US blockades Iranian Gulf ports.",
+     "outlet": "ABC News",
+     "country": "US",
+     "url": "https://abcnews.com/International/live-updates/iran-live-updates-trump-good-call-netanyahu/?id=137762456"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "Iran's deputy foreign minister Gharibabadi said Tehran reserves the right to self-defence, and IRGC-linked media claimed a US drone was downed near Qeshm.",
+     "outlet": "Gulf News",
+     "country": "UAE",
+     "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-carries-out-defensive-strikes-on-irans-qeshm-island-near-strait-of-hormuz-as-tensions-escalate-1.500733555"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "Trump told Axios he is in no rush to resume strikes. The US is sending a Patriot system to Israel, and Gulf states fear fiercer Iranian retaliation.",
+     "outlet": "Stars and Stripes",
+     "country": "US",
+     "url": "https://www.stripes.com/theaters/middle_east/2026-11-03/us-strikes-iran-qeshm-island-hormuz-23348317.html"
+    },
+    {
+     "date": "2026-11-03",
      "text": "US officials said limited, defensive strikes hit Iran's Qeshm Island after Iran fired at a US aircraft, and they said this was not a return to full war.",
      "outlet": "Times of Israel",
      "country": "Israel",
      "url": "https://www.timesofisrael.com/us-carries-out-defensive-strikes-on-irans-qeshm-island-in-strait-of-hormuz/"
-    },
-    {
-     "date": "2026-11-03",
-     "text": "Iranian state media reported blasts on Qeshm and in Bandar Lengeh, and the IRGC claimed it had captured two US drones and shot down an MQ-9.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz"
-    },
-    {
-     "date": "2026-11-03",
-     "text": "Qatar's foreign ministry said both sides are weighing mediators' proposals and differences remain, while a senior Iranian official told Reuters the sides are still far apart.",
-     "outlet": "Iran International",
-     "country": "UK",
-     "url": "https://www.iranintl.com/en/202611035924"
-    },
-    {
-     "date": "2026-11-03",
-     "text": "The BBC reported US strikes on an Iranian island near Hormuz on the eve of the US midterm elections.",
-     "outlet": "BBC News",
-     "country": "UK",
-     "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo"
-    },
-    {
-     "date": "2026-11-02",
-     "text": "Qatari mediators flew to Tehran to discuss a draft US-Iran deal, and Vice President Vance said some progress had been made.",
-     "outlet": "Arab News (Reuters)",
-     "country": "Saudi Arabia",
-     "url": "https://www.arabnews.com/middle-east/qatari-mediators-travel-to-tehran-for-talks-on-potential-us-iran-deal-source-says-3009536"
     }
    ],
    "us_impact": {
@@ -712,7 +721,7 @@
     ],
     "text": "US bases in Qatar, Bahrain, Kuwait and the UAE have been hit since Feb 28, and US service members have been killed. The US Navy is enforcing a blockade of Iran, and the near-closure of Hormuz has Brent near $107, feeding US fuel prices. A resumed campaign would put US troops, sailors and citizens across the Gulf back in the line of fire and raise cyber and nuclear-proliferation risks."
    },
-   "watch": "A US decision to resume large-scale strikes after the midterms, or a Hormuz deal on Iran's two-day reopening plan, would decide the next stage.",
+   "watch": "A US decision after the midterms to resume large-scale strikes, or an Iranian hit on a US asset or Gulf state, would mark a return to full war.",
    "keywords": [
     "Iran",
     "Strait of Hormuz",
@@ -730,12 +739,15 @@
     "Pickaxe Mountain",
     "brent",
     "Bandar Lengeh",
-    "Doha"
+    "Doha",
+    "Gharibabadi",
+    "Patriot",
+    "midterms"
    ],
    "confidence": "high",
    "as_of": "2026-11-04",
-   "outlook": "Reporting points to a tense few weeks: Trump has floated renewed strikes after the Nov 3 vote, while Qatar and Pakistan keep passing drafts back and forth. It hinges on whether Washington accepts Iran's condensed seven-point plan to reopen Hormuz.",
-   "consensus": "US, Israeli, Qatari and Iranian outlets agree that the US hit Qeshm Island on Nov 2-3 and that talks continue without a deal. They differ on framing: US officials call the strikes defensive, and Iran's IRGC says it downed or captured US drones."
+   "outlook": "Reporting points to a choice now that the midterms are over: NYT-based accounts suggest strike plans were timed for after the vote, while Trump told Axios he is in no rush. Much depends on whether the Qatar-mediated talks produce anything and whether Iran keeps attacking ships.",
+   "consensus": "US, Israeli and UAE outlets agree that the US struck Qeshm and calls the strike limited. Accounts differ on Iran's claim of a downed US drone (MQ-170 per Gulf News, MQ-9 per the Jerusalem Post, unverified), and the WSJ reports earlier secret strikes that US officials have not described publicly."
   },
   {
    "id": "yemen-houthi-saudi-war",
@@ -749,9 +761,30 @@
    "lon": 44.2,
    "severity": "red",
    "trend": "escalating",
-   "status": "Houthis within 80 km of Aden; Saudi-led coalition hits Hodeidah port; Taiz besieged",
+   "status": "Houthis fight at Tur al-Bahah, 80 km from Aden; coalition strikes Ras Issa port",
    "summary": "Yemen's war, largely frozen since a 2022 truce, reignited in 2026 when the Iran-backed Houthis began hitting Saudi shipping and oil infrastructure as a spillover of the Iran war, then declared a maritime blockade of Saudi Arabia in July. In September they overran Yemen's Red Sea coast, taking Mocha and reaching the Bab al-Mandeb strait, which matters more than ever with Hormuz effectively shut. Since Oct 30 Houthi forces have pushed into al-Maqatirah district and, per Reuters sources, come within about 80 km of Aden, while Saudi-backed government units with Saudi air support counterattack and claim gains in Jawf; Taiz is under heavy pressure. The Houthis are firing missiles and drones at Saudi cities and warn Aramco sites are in range; the Saudi-led coalition said it intercepted a missile and two drones aimed at Riyadh on Nov 2.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "Military sources said the Houthis advanced to within 80 km of Aden, their closest point since 2015, with fighting at the Tur al-Bahah camp on a main approach to the city.",
+     "outlet": "Dawn",
+     "country": "Pakistan",
+     "url": "https://www.dawn.com/news/2041746/houthis-advance-on-aden-amid-strikes"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "The Houthis said coalition strikes hit Ras Issa port and an oil facility in Bajil, wounding seven, and claimed drone attacks on Dammam airport and a Saudi radar.",
+     "outlet": "Dawn",
+     "country": "Pakistan",
+     "url": "https://www.dawn.com/news/2041746/houthis-advance-on-aden-amid-strikes"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "Two airstrikes reportedly hit the medical school of Hodeidah University, and the Houthis said Saudi strikes killed 10 people.",
+     "outlet": "Democracy Now",
+     "country": "US",
+     "url": "https://democracynow.org/2026/11/3/headlines"
+    },
     {
      "date": "2026-11-03",
      "text": "Saudi strikes hit Houthi-held areas including Hodeidah, which the Houthis say killed 10 people, and the coalition said it intercepted Houthi missiles and a drone aimed at southern Saudi Arabia.",
@@ -772,27 +805,6 @@
      "outlet": "The Maritime Executive",
      "country": "US",
      "url": "https://maritime-executive.com/article/houthis-threaten-government-s-hold-on-aden-but-taiz-stands-fast"
-    },
-    {
-     "date": "2026-11-02",
-     "text": "Sources told Reuters the Houthis have advanced to within roughly 80 km of Aden in a renewed offensive.",
-     "outlet": "Reuters (via U.S. News)",
-     "country": "UK",
-     "url": "https://www.usnews.com/news/world/articles/2026-11-02/yemens-houthis-advance-to-within-80-km-of-aden-sources-say"
-    },
-    {
-     "date": "2026-11-02",
-     "text": "The Saudi-led coalition intercepted a Houthi missile and two drones headed for Riyadh; the Houthis claimed drone launches at Dammam airport.",
-     "outlet": "Khaleej Times",
-     "country": "UAE",
-     "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-2-2026"
-    },
-    {
-     "date": "2026-10-02",
-     "text": "Saudi Arabia was reported planning a 100,000-troop Yemeni ground offensive backed by Saudi airstrikes, with US advisers and targeting intelligence but no US strikes.",
-     "outlet": "Reuters (via Defense News)",
-     "country": "UK",
-     "url": "https://www.defensenews.com/global/mideast-africa/2026/10/02/saudis-plan-assault-on-houthis-to-break-red-sea-chokehold/"
     }
    ],
    "us_impact": {
@@ -823,7 +835,10 @@
     "Jizan",
     "Southern Giants Brigades",
     "Tur al-Bahah",
-    "Lahj"
+    "Lahj",
+    "Ras Issa",
+    "Bajil",
+    "Dammam"
    ],
    "confidence": "medium",
    "as_of": "2026-11-04",
@@ -1240,6 +1255,13 @@
      "url": "https://www.aljazeera.com/news/2026/10/31/rsf-senior-commander-defects-accusing-sudan-groups-leadership-of-nepotism"
     },
     {
+     "date": "2026-10-28",
+     "text": "A UN fact-finding mission warned that drone strikes attributed to the RSF are harming civilians in El Obeid, which the RSF partly encircles.",
+     "outlet": "Radio Tamazuj",
+     "country": "Kenya (dateline)",
+     "url": "https://www.radiotamazuj.org/en/news/article/sudan-fact-finding-mission-warns-of-drone-attacks-repression-in-el-obeid"
+    },
+    {
      "date": "2026-10-23",
      "text": "UN rights chief Volker Türk said drone strikes by both sides killed at least 306 people in three weeks, including at least 139 in an 18 October strike at Dibab.",
      "outlet": "UN News",
@@ -1252,13 +1274,6 @@
      "outlet": "Radio Tamazuj",
      "country": "South Sudan",
      "url": "https://www.radiotamazuj.org/en/news/article/talks-resume-in-geneva-as-sudan-war-deepens-humanitarian-crisis"
-    },
-    {
-     "date": "2026-10-07",
-     "text": "Army chief Abdel Fattah al-Burhan ruled out negotiations and vowed to retake all RSF-held territory as troops advanced in North Kordofan.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://www.aljazeera.com/news/2026/10/7/sudans-al-burhan-rejects-talks-vows-to-retake-all-territory-from-rsf"
     }
    ],
    "us_impact": {
@@ -1289,7 +1304,8 @@
     "geneva talks",
     "El Abbasiya",
     "Abu Hamad",
-    "Al Dabbah"
+    "Al Dabbah",
+    "UN fact-finding mission"
    ],
    "confidence": "high",
    "as_of": "2026-11-04",
@@ -1317,6 +1333,13 @@
      "outlet": "TRT World",
      "country": "Turkey",
      "url": "https://trtworld.com/article/7f57608c2b66"
+    },
+    {
+     "date": "2026-11-02",
+     "text": "Citing the TPLF's Dimtsi Weyane, the outlet said the Aksum-area fighting was in Naeder district, with federal troops using artillery and drones. The TPLF's casualty claims remain unverified and phone and internet links were disrupted.",
+     "outlet": "TRT World",
+     "country": "Turkey",
+     "url": "https://www.trtworld.com/article/7f57608c2b66"
     },
     {
      "date": "2026-10-30",
@@ -1373,7 +1396,9 @@
     "Assab",
     "Fano",
     "Pretoria Agreement",
-    "Aksum"
+    "Aksum",
+    "Naeder",
+    "Dimtsi Weyane"
    ],
    "confidence": "medium",
    "as_of": "2026-11-04",
@@ -1391,9 +1416,16 @@
    "lon": 44.2,
    "severity": "red",
    "trend": "escalating",
-   "status": "Al-Shabaab routs an army column in Bay region; US strikes hit 90 for the year",
+   "status": "Al-Shabaab routs an army column in Bay region; US strikes near 90 for 2026",
    "summary": "Al-Shabaab has fought Somalia's government for nearly two decades, and the US keeps striking it from the air. On Oct 26 it ambushed a federal column of roughly 2,000 troops heading for Burhakabo in South West state, in what officials called the army's worst reverse in years. The government says it killed 75 militants and has opened an inquiry. Al-Shabaab claims up to 413 soldiers killed, a figure no independent source has confirmed, while a surviving officer told AP he saw at least 20 dead. The group has also resumed attacks in Puntland, and Turkey has struck back from the air.",
    "latest": [
+    {
+     "date": "2026-11-03",
+     "text": "An analysis piece said AFRICOM's register showed 88 US strikes in Somalia in 2026 as of Oct 17, against both al-Shabaab and ISIS-Somalia.",
+     "outlet": "Headtopics (syndicated analysis)",
+     "country": "Nigeria",
+     "url": "https://ng.headtopics.com/news/somalia-and-the-bilateralisation-of-the-war-against-89473041"
+    },
     {
      "date": "2026-11-03",
      "text": "Security officials told Drop Site that Turkish strikes after the ambush killed two civilians, and that al-Shabaab mortar fire killed four people near Galgala in Puntland on Oct 27.",
@@ -1428,13 +1460,6 @@
      "outlet": "AP (via Yahoo News)",
      "country": "US",
      "url": "https://ca.news.yahoo.com/islamic-militants-kill-least-20-072341626.html"
-    },
-    {
-     "date": "2026-10-25",
-     "text": "AFRICOM announced strikes on al-Shabaab near Kismayo on 21 October and near Janale on 23 October, bringing US strikes in Somalia to 90 in 2026.",
-     "outlet": "Antiwar.com",
-     "country": "US",
-     "url": "https://news.antiwar.com/2026/10/25/us-launches-two-more-airstrikes-in-somalia-bringing-2026-total-to-90/"
     }
    ],
    "us_impact": {
@@ -1464,7 +1489,8 @@
     "Operation Banooda",
     "Burhakabo",
     "Jameeca",
-    "Galgala"
+    "Galgala",
+    "Dhobley"
    ],
    "confidence": "high",
    "as_of": "2026-11-04",
@@ -1995,6 +2021,13 @@
    "latest": [
     {
      "date": "2026-11-04",
+     "text": "Storm Media called the 49-sortie count a sharp rise from recent days and said Taiwanese jets were seen scrambling around Tainan on Nov 2.",
+     "outlet": "Storm Media",
+     "country": "Taiwan",
+     "url": "https://world.storm.mg/articles/1178010"
+    },
+    {
+     "date": "2026-11-04",
      "text": "A Taiwanese defence analyst said the surge of 49 aircraft and 12 ships was a quiet exercise short of announced drills, timed as Taiwan's local election campaign enters its last weeks.",
      "outlet": "Taipei Times",
      "country": "Taiwan",
@@ -2006,6 +2039,13 @@
      "outlet": "Political.org China–Taiwan Tracker",
      "country": "US",
      "url": "https://political.org/china-taiwan-tracker/"
+    },
+    {
+     "date": "2026-11-02",
+     "text": "Taiwan's defence ministry logged 232 Chinese aircraft and 363 ship detections around Taiwan in October.",
+     "outlet": "Taiwan News",
+     "country": "Taiwan",
+     "url": "https://www.taiwannews.com.tw/news/6469961"
     },
     {
      "date": "2026-11-01",
@@ -2020,20 +2060,6 @@
      "outlet": "Reuters via gCaptain",
      "country": "UK",
      "url": "https://gcaptain.com/taiwan-flags-obvious-threat-from-50-chinese-vessels-in-wide-sweep-of-waters/"
-    },
-    {
-     "date": "2026-10-27",
-     "text": "US Army Pacific commander Ronald Clark reportedly said forces are planning as if China could move on Taiwan as early as next year.",
-     "outlet": "Reuters via Baird Maritime",
-     "country": "Australia",
-     "url": "https://www.bairdmaritime.com/security/naval/naval-ships/taiwan-spots-over-50-chinese-warships-and-vessels-off-regional-waters-warns-of-obvious-threat"
-    },
-    {
-     "date": "2026-10-18",
-     "text": "Taiwan said it drove away 16 Chinese coast guard, research and fishing vessels in simultaneous harassment operations around Taiwan and Pratas.",
-     "outlet": "AFP via Citizen Digital",
-     "country": "France",
-     "url": "https://citizen.digital/article/taiwan-says-drives-away-16-chinese-ships-involved-in-maritime-harassment-n392279"
     }
    ],
    "us_impact": {
@@ -2063,7 +2089,8 @@
     "Taiwan Affairs Office",
     "grey zone",
     "Su Tzu-yun",
-    "local elections"
+    "local elections",
+    "Tainan"
    ],
    "confidence": "high",
    "as_of": "2026-11-04",
@@ -2388,7 +2415,10 @@
     "Khawaja Asif",
     "Zabihullah Mujahid",
     "Kunar",
-    "Noor Wali Mehsud"
+    "Noor Wali Mehsud",
+    "Kurram",
+    "Paktia",
+    "Muttaqi"
    ],
    "confidence": "medium",
    "as_of": "2026-11-04",
