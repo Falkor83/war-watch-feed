@@ -13,6 +13,9 @@ on:
       mode:
         description: 'daily or weekly'
         default: daily
+      force:
+        description: 'run even if the ratings were already updated today (yes/no)'
+        default: 'yes'
 
 permissions:
   contents: write
@@ -37,7 +40,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MODE_INPUT: ${{ github.event.inputs.mode }}
-          WW_FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+          WW_FORCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force != 'no' && '1' || '0' }}
         run: |
           set -euo pipefail
           mode="${MODE_INPUT:-}"

@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  actions: write          # to start the next run and the daily ratings (see the last step)
 
 concurrency:
   group: headlines
@@ -19,7 +20,7 @@ concurrency:
 jobs:
   headlines:
     runs-on: ubuntu-24.04
-    timeout-minutes: 45
+    timeout-minutes: 80
     steps:
       - uses: actions/checkout@v5
       - name: Test the job (offline, no cost)
@@ -53,3 +54,28 @@ jobs:
             echo "[WARN] push failed (GitHub hiccup); retrying in $((i * 20)) s"; sleep $((i * 20))
           done
           echo "[ERROR] could not publish"; exit 1
+      # GitHub's schedule hasn't fired for this repo (none on 2026-11-04), so each run started by hand or by the run
+      # before starts the next one about an hour after it began, and once a day (10:00-10:59 UTC) the ratings job.
+      # Stops by itself once scheduled runs appear.
+      - name: Start the next run
+        if: always() && github.event_name != 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -uo pipefail
+          repo="$GITHUB_REPOSITORY"
+          last_sched=$(gh api "repos/$repo/actions/runs?event=schedule&per_page=1" --jq '.workflow_runs[0].created_at // empty')
+          if [ -n "$last_sched" ] && [ $(( $(date -u +%s) - $(date -u -d "$last_sched" +%s) )) -lt 7200 ]; then
+            echo "[OK] GitHub's schedule is working again ($last_sched); not chaining"; exit 0
+          fi
+          if [ "$(date -u +%H)" = "10" ]; then
+            mode=daily; [ "$(date -u +%u)" = 7 ] && mode=weekly
+            gh api -X POST "repos/$repo/actions/workflows/daily.yml/dispatches" -f ref=main -f "inputs[mode]=$mode" -f "inputs[force]=no" \
+              && echo "[OK] started the $mode ratings (skips itself if already done today)"
+          fi
+          waiting=$(gh api "repos/$repo/actions/workflows/headlines.yml/runs?status=queued" --jq '.total_count')
+          if [ "${waiting:-0}" -gt 0 ]; then echo "[OK] another headlines run is already queued"; exit 0; fi
+          started=$(gh api "repos/$repo/actions/runs/$GITHUB_RUN_ID" --jq '.run_started_at')
+          wait=$(( $(date -u -d "$started" +%s) + 55 * 60 - $(date -u +%s) ))
+          if [ "$wait" -gt 0 ]; then echo "[STEP] next run in $((wait / 60)) min"; sleep "$wait"; fi
+          gh api -X POST "repos/$repo/actions/workflows/headlines.yml/dispatches" -f ref=main && echo "[OK] next run started"
