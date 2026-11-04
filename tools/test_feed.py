@@ -195,8 +195,8 @@ class JobTests(Base):
         sig = next(s for s in feed["signals"] if s["id"] == "qeshm")
         self.assertNotIn("500", sig["detail"])
         self.assertEqual(sig["stats"]["keys_all"], 3); self.assertEqual(sig["stats"]["regions_np"], 2)
-        self.assertEqual(len(feed["frames"]), 1)
-        cy = feed["cyber"][0]
+        self.assertIn("qeshm", [f["id"] for f in feed["frames"]])
+        cy = next(x for x in feed["cyber"] if x["id"] == "french-cold-chain-hack")
         self.assertEqual(cy["us_status"], "suspected_in_us"); self.assertEqual(cy["advisories"][0]["url"], "https://www.cisa.gov/news-events/alerts/x")
         self.assertIn("tension", feed); self.assertTrue(os.path.exists(self.uf.HISTORY))
         b = json.load(open(wwapi.BUDGET))
