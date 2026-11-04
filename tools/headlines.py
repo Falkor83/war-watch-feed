@@ -318,7 +318,9 @@ def translate_requests(items):
     for i in range(0, len(items), chunk):
         part = items[i:i + chunk]
         reqs.append({"custom_id": f"t{i // chunk}", "params": {
-            "model": MODEL, "max_tokens": 6000, "system": SYSTEM,
+            "model": MODEL, "max_tokens": 8000, "system": SYSTEM,
+            # Haiku 5.5 thinks by default; thinking tokens are billed and count against max_tokens. Translation needs none.
+            "thinking": {"type": "disabled"}, "output_config": {"effort": "low"},
             "messages": [{"role": "user", "content": "\n".join(f"{n + 1}\t{x['o']}" for n, x in enumerate(part))}]}})
     return reqs
 
