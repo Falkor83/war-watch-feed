@@ -1,0 +1,20 @@
+name: Probe sources
+
+# Manual only: tries every candidate news source and data endpoint from GitHub's servers (no API key, no cost).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 tools/probe_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: probe
+          path: probe.json
