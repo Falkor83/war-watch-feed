@@ -664,6 +664,8 @@ def main():
         validate_feed(out, previous=feed)
         save_json(FEED, out); save_json(HISTORY, {"days": history}, indent=0)
         ok(f"migrated to schema 2: {len(out['conflicts'])} hotspots, {len(out['signals'])} signals, tension {out['tension']['value']}"); return
+    if mode == "daily" and os.environ.get("WW_FORCE") != "1" and str(feed.get("generated_at", ""))[:10] == today():
+        ok(f"ratings already updated today ({feed['generated_at']}); nothing to do"); return
     budget = wwapi.load_budget()
     hs = load(os.path.join(LIVE, "spend.json"), {}) or {}
     if hs.get("month") == budget["month"]:

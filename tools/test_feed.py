@@ -61,7 +61,7 @@ class Base(unittest.TestCase):
         shutil.copy(os.path.join(HERE, "fixtures", "feed.json"), self.dir)
         shutil.copy(os.path.join(src, "outlets.json"), self.dir)
         for d in ("prompt", "config"): shutil.copytree(os.path.join(src, d), os.path.join(self.dir, d))
-        os.environ["ANTHROPIC_API_KEY"] = "test"
+        os.environ["ANTHROPIC_API_KEY"] = "test"; os.environ["WW_FORCE"] = "1"
         import update_feed
         self.uf = update_feed
         self.paths = (update_feed.FEED, update_feed.HISTORY, update_feed.OUTLOOKS, update_feed.NOTES_DIR, wwapi.BUDGET, update_feed.ROOT, wwapi.ROOT)
@@ -310,6 +310,16 @@ class JobTests(Base):
         b = wwapi.load_budget()
         out = wwapi.run([{"label": "x", "model": "claude-opus-5-5", "system": "s", "user": "u", "max_tokens": 10, "estimate": 0.3}], b, batch=False)
         self.assertEqual(out, {}); self.assertAlmostEqual(b["usd"], 0.3)
+
+    def test_one_daily_run_a_day(self):
+        os.environ["WW_FORCE"] = "0"
+        try:
+            f = json.load(open(self.uf.FEED)); f["generated_at"] = self.uf.today() + "T05:00:00Z"; json.dump(f, open(self.uf.FEED, "w"))
+            wwapi.http = lambda *a, **k: (_ for _ in ()).throw(AssertionError("no API call expected"))
+            sys.argv = ["x", "daily"]
+            self.uf.main()                                   # returns quietly: already updated today
+        finally:
+            os.environ["WW_FORCE"] = "1"
 
     def test_unknown_mode_refused(self):
         sys.argv = ["x", "dialy"]
