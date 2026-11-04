@@ -1,0 +1,52 @@
+{
+"outlooks": [
+{
+"made": "2026-11-04",
+"hotspot": "russia-ukraine-war",
+"text": "The Abu Dhabi round on Nov 10-11 ending without a ceasefire deal",
+"likelihood": "likely",
+"check_by": "2026-11-12",
+"basis": [
+"https://www.rferl.org/a/us-russia-ukraine-peace-talks-abu-dhabi-ceasefire/33889451.html",
+"https://www.latintimes.com/us-mediate-russia-ukraine-talks-abu-dhabi-600870",
+"https://english.cw.com.tw/article/article.action?id=5107"
+]
+},
+{
+"made": "2026-11-04",
+"hotspot": "us-israel-iran-war",
+"text": "A US-Iran agreement to reopen Hormuz within the next three weeks",
+"likelihood": "unlikely",
+"check_by": "2026-11-25",
+"basis": [
+"https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+"https://abcnews.com/International/live-updates/iran-live-updates-trump-good-call-netanyahu/?id=137762456",
+"https://www.timesofisrael.com/liveblog_entry/us-said-to-strike-iranian-island-in-strait-of-hormuz/"
+]
+},
+{
+"made": "2026-11-04",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Fighting and cross-border strikes continuing along the Lahj front toward Aden",
+"likelihood": "likely",
+"check_by": "2026-11-18",
+"basis": [
+"https://www.internazionale.it/ultime-notizie-reuters/2026/11/02/yemen-s-houthis-advance-to-within-80-km-of-aden-sources-say",
+"https://news.google.com/read/CBMiSEFVX3lxTFB6dWR6QWxyT2F0alI1dEpFVGlDaUQ4aEhlMENuRkZYeWt3c2lpbDdEXzNVT3dYT3NaQlE2SUtWZmsxMEMxS2pLMg?hl=en-US&gl=US&ceid=US%3Aen",
+"https://www.jpost.com/middle-east/article-913351"
+]
+},
+{
+"made": "2026-11-04",
+"hotspot": "sudan-civil-war",
+"text": "The UN announcing a date and venue for talks with the RSF-allied bloc by end of November",
+"likelihood": "roughly even chance",
+"check_by": "2026-11-30",
+"basis": [
+"https://thenationalnews.com/news/mena/2026/11/02/talks-with-rsf-on-transition-to-civilian-rule-in-sudan-expected-within-weeks-says-un-envoy",
+"https://riotimesonline.com/sudan-peace-envoy-awaits-rsf-talks",
+"https://military.africa/2026/11/us-imposes-more-sanctions-on-sudan-over-alleged-chemical-weapons-use"
+]
+}
+]
+}

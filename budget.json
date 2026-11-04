@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "usd": 2.4694,
+ "usd": 4.7247,
  "runs": [
   {
    "at": "2026-11-04T04:16:08Z",
@@ -37,6 +37,127 @@
    "out": 7781,
    "searches": 0,
    "usd": 0.2263
+  },
+  {
+   "at": "2026-11-04T05:52:53Z",
+   "what": "weekly Europe notes",
+   "model": "claude-sonnet-5-5",
+   "in": 90600,
+   "out": 14548,
+   "searches": 7,
+   "batch": true,
+   "usd": 0.2333
+  },
+  {
+   "at": "2026-11-04T05:52:53Z",
+   "what": "weekly Middle East notes",
+   "model": "claude-sonnet-5-5",
+   "in": 82358,
+   "out": 14114,
+   "searches": 7,
+   "batch": true,
+   "usd": 0.2229
+  },
+  {
+   "at": "2026-11-04T05:52:53Z",
+   "what": "weekly Africa notes",
+   "model": "claude-sonnet-5-5",
+   "in": 104863,
+   "out": 13975,
+   "searches": 7,
+   "batch": true,
+   "usd": 0.2447
+  },
+  {
+   "at": "2026-11-04T05:52:53Z",
+   "what": "weekly Asia-Pacific notes",
+   "model": "claude-sonnet-5-5",
+   "in": 103781,
+   "out": 17211,
+   "searches": 7,
+   "batch": true,
+   "usd": 0.2598
+  },
+  {
+   "at": "2026-11-04T05:52:53Z",
+   "what": "weekly Americas notes",
+   "model": "claude-sonnet-5-5",
+   "in": 99184,
+   "out": 13171,
+   "searches": 7,
+   "batch": true,
+   "usd": 0.235
+  },
+  {
+   "at": "2026-11-04T05:52:53Z",
+   "what": "weekly cyber notes",
+   "model": "claude-sonnet-5-5",
+   "in": 105776,
+   "out": 11051,
+   "searches": 7,
+   "batch": true,
+   "usd": 0.231
+  },
+  {
+   "at": "2026-11-04T05:56:26Z",
+   "what": "weekly Europe review",
+   "model": "claude-opus-5-5",
+   "in": 8148,
+   "out": 8239,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.0987
+  },
+  {
+   "at": "2026-11-04T05:56:26Z",
+   "what": "weekly Middle East review",
+   "model": "claude-opus-5-5",
+   "in": 7951,
+   "out": 13324,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.1491
+  },
+  {
+   "at": "2026-11-04T05:56:26Z",
+   "what": "weekly Africa review",
+   "model": "claude-opus-5-5",
+   "in": 8438,
+   "out": 10967,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.1265
+  },
+  {
+   "at": "2026-11-04T05:56:26Z",
+   "what": "weekly Asia-Pacific review",
+   "model": "claude-opus-5-5",
+   "in": 9073,
+   "out": 10639,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.1245
+  },
+  {
+   "at": "2026-11-04T05:56:26Z",
+   "what": "weekly Americas review",
+   "model": "claude-opus-5-5",
+   "in": 7160,
+   "out": 9906,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.1134
+  },
+  {
+   "at": "2026-11-04T05:59:28Z",
+   "what": "weekly big picture",
+   "model": "claude-opus-5-5",
+   "in": 33364,
+   "out": 14963,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.2164
   }
- ]
+ ],
+ "cap": 35.0
 }
