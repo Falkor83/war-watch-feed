@@ -1,0 +1,1549 @@
+{
+ "about": "War Watch worldwide headline sources. rss: outlets' world/international feeds (home = the outlet's country, lang = its usual language; items are re-checked one by one). gnews: Google News 'World' page per country edition. GDELT is queried per hotspot in addition. Checked from GitHub's servers with tools/probe_sources.py on 2026-11-04.",
+ "rss": [
+  {
+   "name": "BBC Arabic",
+   "home": "GB",
+   "lang": "ar",
+   "url": "https://feeds.bbci.co.uk/arabic/rss.xml"
+  },
+  {
+   "name": "BBC Persian",
+   "home": "GB",
+   "lang": "fa",
+   "url": "https://feeds.bbci.co.uk/persian/rss.xml"
+  },
+  {
+   "name": "BBC Russian",
+   "home": "GB",
+   "lang": "ru",
+   "url": "https://feeds.bbci.co.uk/russian/rss.xml"
+  },
+  {
+   "name": "BBC Ukrainian",
+   "home": "GB",
+   "lang": "uk",
+   "url": "https://feeds.bbci.co.uk/ukrainian/rss.xml"
+  },
+  {
+   "name": "BBC Mundo",
+   "home": "GB",
+   "lang": "es",
+   "url": "https://feeds.bbci.co.uk/mundo/rss.xml"
+  },
+  {
+   "name": "BBC Brasil",
+   "home": "GB",
+   "lang": "pt",
+   "url": "https://feeds.bbci.co.uk/portuguese/rss.xml"
+  },
+  {
+   "name": "BBC Afrique",
+   "home": "GB",
+   "lang": "fr",
+   "url": "https://feeds.bbci.co.uk/afrique/rss.xml"
+  },
+  {
+   "name": "BBC Hausa",
+   "home": "GB",
+   "lang": "ha",
+   "url": "https://feeds.bbci.co.uk/hausa/rss.xml"
+  },
+  {
+   "name": "BBC Swahili",
+   "home": "GB",
+   "lang": "sw",
+   "url": "https://feeds.bbci.co.uk/swahili/rss.xml"
+  },
+  {
+   "name": "BBC Somali",
+   "home": "GB",
+   "lang": "so",
+   "url": "https://feeds.bbci.co.uk/somali/rss.xml"
+  },
+  {
+   "name": "BBC Amharic",
+   "home": "GB",
+   "lang": "am",
+   "url": "https://feeds.bbci.co.uk/amharic/rss.xml"
+  },
+  {
+   "name": "BBC Tigrinya",
+   "home": "GB",
+   "lang": "ti",
+   "url": "https://feeds.bbci.co.uk/tigrinya/rss.xml"
+  },
+  {
+   "name": "BBC Burmese",
+   "home": "GB",
+   "lang": "my",
+   "url": "https://feeds.bbci.co.uk/burmese/rss.xml"
+  },
+  {
+   "name": "BBC Urdu",
+   "home": "GB",
+   "lang": "ur",
+   "url": "https://feeds.bbci.co.uk/urdu/rss.xml"
+  },
+  {
+   "name": "BBC Hindi",
+   "home": "GB",
+   "lang": "hi",
+   "url": "https://feeds.bbci.co.uk/hindi/rss.xml"
+  },
+  {
+   "name": "BBC Bengali",
+   "home": "GB",
+   "lang": "bn",
+   "url": "https://feeds.bbci.co.uk/bengali/rss.xml"
+  },
+  {
+   "name": "BBC Turkce",
+   "home": "GB",
+   "lang": "tr",
+   "url": "https://feeds.bbci.co.uk/turkce/rss.xml"
+  },
+  {
+   "name": "BBC Chinese",
+   "home": "GB",
+   "lang": "zh",
+   "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"
+  },
+  {
+   "name": "BBC Vietnamese",
+   "home": "GB",
+   "lang": "vi",
+   "url": "https://feeds.bbci.co.uk/vietnamese/rss.xml"
+  },
+  {
+   "name": "BBC Indonesia",
+   "home": "GB",
+   "lang": "id",
+   "url": "https://feeds.bbci.co.uk/indonesia/rss.xml"
+  },
+  {
+   "name": "BBC Korean",
+   "home": "GB",
+   "lang": "ko",
+   "url": "https://feeds.bbci.co.uk/korean/rss.xml"
+  },
+  {
+   "name": "BBC Japanese",
+   "home": "GB",
+   "lang": "ja",
+   "url": "https://feeds.bbci.co.uk/japanese/rss.xml"
+  },
+  {
+   "name": "BBC Pashto",
+   "home": "GB",
+   "lang": "ps",
+   "url": "https://feeds.bbci.co.uk/pashto/rss.xml"
+  },
+  {
+   "name": "BBC Afaan Oromoo",
+   "home": "GB",
+   "lang": "om",
+   "url": "https://feeds.bbci.co.uk/afaanoromoo/rss.xml"
+  },
+  {
+   "name": "BBC Gahuza",
+   "home": "GB",
+   "lang": "rw",
+   "url": "https://feeds.bbci.co.uk/gahuza/rss.xml"
+  },
+  {
+   "name": "BBC Uzbek",
+   "home": "GB",
+   "lang": "uz",
+   "url": "https://feeds.bbci.co.uk/uzbek/rss.xml"
+  },
+  {
+   "name": "BBC Azeri",
+   "home": "GB",
+   "lang": "az",
+   "url": "https://feeds.bbci.co.uk/azeri/rss.xml"
+  },
+  {
+   "name": "BBC Nepali",
+   "home": "GB",
+   "lang": "ne",
+   "url": "https://feeds.bbci.co.uk/nepali/rss.xml"
+  },
+  {
+   "name": "DW Arabic",
+   "home": "DE",
+   "lang": "ar",
+   "url": "https://rss.dw.com/rdf/rss-ar-all"
+  },
+  {
+   "name": "DW Russian",
+   "home": "DE",
+   "lang": "ru",
+   "url": "https://rss.dw.com/rdf/rss-ru-all"
+  },
+  {
+   "name": "DW Ukrainian",
+   "home": "DE",
+   "lang": "uk",
+   "url": "https://rss.dw.com/rdf/rss-uk-all"
+  },
+  {
+   "name": "DW Persian",
+   "home": "DE",
+   "lang": "fa",
+   "url": "https://rss.dw.com/rdf/rss-fa-all"
+  },
+  {
+   "name": "DW Spanish",
+   "home": "DE",
+   "lang": "es",
+   "url": "https://rss.dw.com/rdf/rss-sp-all"
+  },
+  {
+   "name": "DW Turkish",
+   "home": "DE",
+   "lang": "tr",
+   "url": "https://rss.dw.com/rdf/rss-tur-all"
+  },
+  {
+   "name": "DW Chinese",
+   "home": "DE",
+   "lang": "zh",
+   "url": "https://rss.dw.com/rdf/rss-chi-all"
+  },
+  {
+   "name": "DW German",
+   "home": "DE",
+   "lang": "de",
+   "url": "https://rss.dw.com/rdf/rss-de-all"
+  },
+  {
+   "name": "DW Swahili",
+   "home": "DE",
+   "lang": "sw",
+   "url": "https://rss.dw.com/rdf/rss-kis-all"
+  },
+  {
+   "name": "DW Hausa",
+   "home": "DE",
+   "lang": "ha",
+   "url": "https://rss.dw.com/rdf/rss-hau-all"
+  },
+  {
+   "name": "DW Amharic",
+   "home": "DE",
+   "lang": "am",
+   "url": "https://rss.dw.com/rdf/rss-amh-all"
+  },
+  {
+   "name": "DW Dari",
+   "home": "DE",
+   "lang": "fa",
+   "url": "https://rss.dw.com/rdf/rss-dar-all"
+  },
+  {
+   "name": "DW Urdu",
+   "home": "DE",
+   "lang": "ur",
+   "url": "https://rss.dw.com/rdf/rss-urd-all"
+  },
+  {
+   "name": "France 24 French",
+   "home": "FR",
+   "lang": "fr",
+   "url": "https://www.france24.com/fr/rss"
+  },
+  {
+   "name": "France 24 Spanish",
+   "home": "FR",
+   "lang": "es",
+   "url": "https://www.france24.com/es/rss"
+  },
+  {
+   "name": "RFI Monde",
+   "home": "FR",
+   "lang": "fr",
+   "url": "https://www.rfi.fr/fr/monde/rss"
+  },
+  {
+   "name": "RFI Afrique",
+   "home": "FR",
+   "lang": "fr",
+   "url": "https://www.rfi.fr/fr/afrique/rss"
+  },
+  {
+   "name": "RFI Spanish",
+   "home": "FR",
+   "lang": "es",
+   "url": "https://www.rfi.fr/es/rss"
+  },
+  {
+   "name": "RFI Persian",
+   "home": "FR",
+   "lang": "fa",
+   "url": "https://www.rfi.fr/fa/rss"
+  },
+  {
+   "name": "Le Monde International",
+   "home": "FR",
+   "lang": "fr",
+   "url": "https://www.lemonde.fr/international/rss_full.xml"
+  },
+  {
+   "name": "Le Figaro International",
+   "home": "FR",
+   "lang": "fr",
+   "url": "https://www.lefigaro.fr/rss/figaro_international.xml"
+  },
+  {
+   "name": "Jeune Afrique",
+   "home": "FR",
+   "lang": "fr",
+   "url": "https://www.jeuneafrique.com/feed/"
+  },
+  {
+   "name": "Spiegel Ausland",
+   "home": "DE",
+   "lang": "de",
+   "url": "https://www.spiegel.de/ausland/index.rss"
+  },
+  {
+   "name": "Tagesschau Ausland",
+   "home": "DE",
+   "lang": "de",
+   "url": "https://www.tagesschau.de/ausland/index~rss2.xml"
+  },
+  {
+   "name": "FAZ Ausland",
+   "home": "DE",
+   "lang": "de",
+   "url": "https://www.faz.net/rss/aktuell/politik/ausland/"
+  },
+  {
+   "name": "NZZ International",
+   "home": "CH",
+   "lang": "de",
+   "url": "https://www.nzz.ch/international.rss"
+  },
+  {
+   "name": "Der Standard International",
+   "home": "AT",
+   "lang": "de",
+   "url": "https://www.derstandard.at/rss/international"
+  },
+  {
+   "name": "El Pais Internacional",
+   "home": "ES",
+   "lang": "es",
+   "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada"
+  },
+  {
+   "name": "El Mundo Internacional",
+   "home": "ES",
+   "lang": "es",
+   "url": "https://e00-elmundo.uecdn.es/elmundo/rss/internacional.xml"
+  },
+  {
+   "name": "Infobae",
+   "home": "AR",
+   "lang": "es",
+   "url": "https://www.infobae.com/arc/outboundfeeds/rss/"
+  },
+  {
+   "name": "Clarin Mundo",
+   "home": "AR",
+   "lang": "es",
+   "url": "https://www.clarin.com/rss/mundo/"
+  },
+  {
+   "name": "La Jornada Mundo",
+   "home": "MX",
+   "lang": "es",
+   "url": "https://www.jornada.com.mx/rss/mundo.xml"
+  },
+  {
+   "name": "El Tiempo Mundo",
+   "home": "CO",
+   "lang": "es",
+   "url": "https://www.eltiempo.com/rss/mundo.xml"
+  },
+  {
+   "name": "El Espectador",
+   "home": "CO",
+   "lang": "es",
+   "url": "https://www.elespectador.com/arc/outboundfeeds/rss/?outputType=xml"
+  },
+  {
+   "name": "El Universo",
+   "home": "EC",
+   "lang": "es",
+   "url": "https://www.eluniverso.com/arc/outboundfeeds/rss/?outputType=xml"
+  },
+  {
+   "name": "14ymedio",
+   "home": "CU",
+   "lang": "es",
+   "url": "https://www.14ymedio.com/rss/"
+  },
+  {
+   "name": "Cubadebate",
+   "home": "CU",
+   "lang": "es",
+   "url": "http://www.cubadebate.cu/feed/"
+  },
+  {
+   "name": "Granma English",
+   "home": "CU",
+   "lang": "en",
+   "url": "https://en.granma.cu/feed"
+  },
+  {
+   "name": "Folha Mundo",
+   "home": "BR",
+   "lang": "pt",
+   "url": "https://feeds.folha.uol.com.br/mundo/rss091.xml"
+  },
+  {
+   "name": "G1 Mundo",
+   "home": "BR",
+   "lang": "pt",
+   "url": "https://g1.globo.com/rss/g1/mundo/"
+  },
+  {
+   "name": "Agencia Brasil",
+   "home": "BR",
+   "lang": "pt",
+   "url": "https://agenciabrasil.ebc.com.br/rss/internacional/feed.xml"
+  },
+  {
+   "name": "Publico Mundo",
+   "home": "PT",
+   "lang": "pt",
+   "url": "https://feeds.feedburner.com/PublicoMundo"
+  },
+  {
+   "name": "Corriere Esteri",
+   "home": "IT",
+   "lang": "it",
+   "url": "https://xml2.corriereobjects.it/rss/esteri.xml"
+  },
+  {
+   "name": "ANSA Mondo",
+   "home": "IT",
+   "lang": "it",
+   "url": "https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml"
+  },
+  {
+   "name": "Repubblica Esteri",
+   "home": "IT",
+   "lang": "it",
+   "url": "https://www.repubblica.it/rss/esteri/rss2.0.xml"
+  },
+  {
+   "name": "TVN24 Swiat",
+   "home": "PL",
+   "lang": "pl",
+   "url": "https://tvn24.pl/swiat.xml"
+  },
+  {
+   "name": "PAP",
+   "home": "PL",
+   "lang": "pl",
+   "url": "https://www.pap.pl/rss.xml"
+  },
+  {
+   "name": "NOS Buitenland",
+   "home": "NL",
+   "lang": "nl",
+   "url": "https://feeds.nos.nl/nosnieuwsbuitenland"
+  },
+  {
+   "name": "Ukrainska Pravda UA",
+   "home": "UA",
+   "lang": "uk",
+   "url": "https://www.pravda.com.ua/rss/view_news/"
+  },
+  {
+   "name": "Ukrinform English",
+   "home": "UA",
+   "lang": "en",
+   "url": "https://www.ukrinform.net/rss/block-lastnews"
+  },
+  {
+   "name": "Ukrinform Ukrainian",
+   "home": "UA",
+   "lang": "uk",
+   "url": "https://www.ukrinform.ua/rss/block-lastnews"
+  },
+  {
+   "name": "TASS English",
+   "home": "RU",
+   "lang": "en",
+   "url": "https://tass.com/rss/v2.xml"
+  },
+  {
+   "name": "TASS",
+   "home": "RU",
+   "lang": "ru",
+   "url": "https://tass.ru/rss/v2.xml"
+  },
+  {
+   "name": "RIA Novosti",
+   "home": "RU",
+   "lang": "ru",
+   "url": "https://ria.ru/export/rss2/archive/index.xml"
+  },
+  {
+   "name": "Kommersant",
+   "home": "RU",
+   "lang": "ru",
+   "url": "https://www.kommersant.ru/RSS/news.xml"
+  },
+  {
+   "name": "Interfax",
+   "home": "RU",
+   "lang": "ru",
+   "url": "https://www.interfax.ru/rss.asp"
+  },
+  {
+   "name": "RBC",
+   "home": "RU",
+   "lang": "ru",
+   "url": "https://rssexport.rbc.ru/rbcnews/news/30/full.rss"
+  },
+  {
+   "name": "Meduza Russian",
+   "home": "RU",
+   "lang": "ru",
+   "url": "https://meduza.io/rss/all"
+  },
+  {
+   "name": "Novaya Gazeta Europe",
+   "home": "RU",
+   "lang": "ru",
+   "url": "https://novayagazeta.eu/feed/rss"
+  },
+  {
+   "name": "Hurriyet Dunya",
+   "home": "TR",
+   "lang": "tr",
+   "url": "https://www.hurriyet.com.tr/rss/dunya"
+  },
+  {
+   "name": "Anadolu Turkish",
+   "home": "TR",
+   "lang": "tr",
+   "url": "https://www.aa.com.tr/tr/rss/default?cat=dunya"
+  },
+  {
+   "name": "TRT Haber Dunya",
+   "home": "TR",
+   "lang": "tr",
+   "url": "https://www.trthaber.com/dunya_articles.rss"
+  },
+  {
+   "name": "Daily Sabah",
+   "home": "TR",
+   "lang": "en",
+   "url": "https://www.dailysabah.com/rssFeed/world"
+  },
+  {
+   "name": "Asharq Al-Awsat English",
+   "home": "SA",
+   "lang": "en",
+   "url": "https://english.aawsat.com/feed"
+  },
+  {
+   "name": "Asharq Al-Awsat",
+   "home": "SA",
+   "lang": "ar",
+   "url": "https://aawsat.com/feed"
+  },
+  {
+   "name": "Gulf News",
+   "home": "AE",
+   "lang": "en",
+   "url": "https://gulfnews.com/feed"
+  },
+  {
+   "name": "Al-Monitor",
+   "home": "US",
+   "lang": "en",
+   "url": "https://www.al-monitor.com/rss"
+  },
+  {
+   "name": "Sky News Arabia",
+   "home": "AE",
+   "lang": "ar",
+   "url": "https://www.skynewsarabia.com/rss"
+  },
+  {
+   "name": "Naharnet",
+   "home": "LB",
+   "lang": "en",
+   "url": "https://www.naharnet.com/stories/en/rss"
+  },
+  {
+   "name": "SANA English",
+   "home": "SY",
+   "lang": "en",
+   "url": "https://sana.sy/en/?feed=rss2"
+  },
+  {
+   "name": "Rudaw",
+   "home": "IQ",
+   "lang": "en",
+   "url": "https://www.rudaw.net/rss/english"
+  },
+  {
+   "name": "Shafaq News",
+   "home": "IQ",
+   "lang": "en",
+   "url": "https://shafaq.com/en/rss"
+  },
+  {
+   "name": "Kurdistan24",
+   "home": "IQ",
+   "lang": "en",
+   "url": "https://www.kurdistan24.net/en/rss"
+  },
+  {
+   "name": "IRNA English",
+   "home": "IR",
+   "lang": "en",
+   "url": "https://en.irna.ir/rss"
+  },
+  {
+   "name": "Tehran Times",
+   "home": "IR",
+   "lang": "en",
+   "url": "https://www.tehrantimes.com/rss"
+  },
+  {
+   "name": "Mehr English",
+   "home": "IR",
+   "lang": "en",
+   "url": "https://en.mehrnews.com/rss"
+  },
+  {
+   "name": "IranWire",
+   "home": "IR",
+   "lang": "en",
+   "url": "https://iranwire.com/en/feed/"
+  },
+  {
+   "name": "Iran International",
+   "home": "IR",
+   "lang": "en",
+   "url": "https://www.iranintl.com/en/feed"
+  },
+  {
+   "name": "Jerusalem Post",
+   "home": "IL",
+   "lang": "en",
+   "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx"
+  },
+  {
+   "name": "Ynet News",
+   "home": "IL",
+   "lang": "en",
+   "url": "https://www.ynetnews.com/Integration/StoryRss3089.xml"
+  },
+  {
+   "name": "Ynet Hebrew",
+   "home": "IL",
+   "lang": "he",
+   "url": "https://www.ynet.co.il/Integration/StoryRss2.xml"
+  },
+  {
+   "name": "i24NEWS",
+   "home": "IL",
+   "lang": "en",
+   "url": "https://www.i24news.tv/en/rss"
+  },
+  {
+   "name": "Palestine Chronicle",
+   "home": "PS",
+   "lang": "en",
+   "url": "https://www.palestinechronicle.com/feed/"
+  },
+  {
+   "name": "Mondoweiss",
+   "home": "US",
+   "lang": "en",
+   "url": "https://mondoweiss.net/feed/"
+  },
+  {
+   "name": "Xinhua English",
+   "home": "CN",
+   "lang": "en",
+   "url": "http://www.xinhuanet.com/english/rss/worldrss.xml"
+  },
+  {
+   "name": "CGTN World",
+   "home": "CN",
+   "lang": "en",
+   "url": "https://www.cgtn.com/subscribe/rss/section/world.xml"
+  },
+  {
+   "name": "Global Times",
+   "home": "CN",
+   "lang": "en",
+   "url": "https://www.globaltimes.cn/rss/outbrain.xml"
+  },
+  {
+   "name": "RTHK International",
+   "home": "HK",
+   "lang": "en",
+   "url": "https://rthk.hk/rthk/news/rss/e_expressnews_einternational.xml"
+  },
+  {
+   "name": "Liberty Times",
+   "home": "TW",
+   "lang": "zh",
+   "url": "https://news.ltn.com.tw/rss/world.xml"
+  },
+  {
+   "name": "NHK International",
+   "home": "JP",
+   "lang": "ja",
+   "url": "https://www3.nhk.or.jp/rss/news/cat6.xml"
+  },
+  {
+   "name": "Mainichi English",
+   "home": "JP",
+   "lang": "en",
+   "url": "https://mainichi.jp/english/rss/etc/english.rss"
+  },
+  {
+   "name": "Korea Herald",
+   "home": "KR",
+   "lang": "en",
+   "url": "https://www.koreaherald.com/common/rss_xml.php?ct=104"
+  },
+  {
+   "name": "Hankyoreh English",
+   "home": "KR",
+   "lang": "en",
+   "url": "https://english.hani.co.kr/rss/"
+  },
+  {
+   "name": "Yonhap Korean",
+   "home": "KR",
+   "lang": "ko",
+   "url": "https://www.yna.co.kr/rss/news.xml"
+  },
+  {
+   "name": "NK News",
+   "home": "US",
+   "lang": "en",
+   "url": "https://www.nknews.org/feed/"
+  },
+  {
+   "name": "Daily NK",
+   "home": "KR",
+   "lang": "en",
+   "url": "https://www.dailynk.com/english/feed/"
+  },
+  {
+   "name": "Hindustan Times World",
+   "home": "IN",
+   "lang": "en",
+   "url": "https://www.hindustantimes.com/feeds/rss/world-news/rssfeed.xml"
+  },
+  {
+   "name": "NDTV World",
+   "home": "IN",
+   "lang": "en",
+   "url": "https://feeds.feedburner.com/ndtvnews-world-news"
+  },
+  {
+   "name": "Express Tribune",
+   "home": "PK",
+   "lang": "en",
+   "url": "https://tribune.com.pk/feed/world"
+  },
+  {
+   "name": "Geo News",
+   "home": "PK",
+   "lang": "en",
+   "url": "https://www.geo.tv/rss/1/2"
+  },
+  {
+   "name": "Bangkok Post World",
+   "home": "TH",
+   "lang": "en",
+   "url": "https://www.bangkokpost.com/rss/data/world.xml"
+  },
+  {
+   "name": "VnExpress International",
+   "home": "VN",
+   "lang": "en",
+   "url": "https://e.vnexpress.net/rss/world.rss"
+  },
+  {
+   "name": "Inquirer Global Nation",
+   "home": "PH",
+   "lang": "en",
+   "url": "https://globalnation.inquirer.net/feed"
+  },
+  {
+   "name": "Myanmar Now",
+   "home": "MM",
+   "lang": "en",
+   "url": "https://myanmar-now.org/en/feed/"
+  },
+  {
+   "name": "CNA World",
+   "home": "SG",
+   "lang": "en",
+   "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6311"
+  },
+  {
+   "name": "BenarNews",
+   "home": "US",
+   "lang": "en",
+   "url": "https://www.benarnews.org/english/rss"
+  },
+  {
+   "name": "Daily Nation",
+   "home": "KE",
+   "lang": "en",
+   "url": "https://nation.africa/kenya/rss.xml"
+  },
+  {
+   "name": "Sudans Post",
+   "home": "SS",
+   "lang": "en",
+   "url": "https://www.sudanspost.com/feed/"
+  },
+  {
+   "name": "Radio Tamazuj",
+   "home": "SS",
+   "lang": "en",
+   "url": "https://www.radiotamazuj.org/en/rss"
+  },
+  {
+   "name": "Eye Radio",
+   "home": "SS",
+   "lang": "en",
+   "url": "https://www.eyeradio.org/feed/"
+  },
+  {
+   "name": "Radio Okapi",
+   "home": "CD",
+   "lang": "fr",
+   "url": "https://www.radiookapi.net/rss.xml"
+  },
+  {
+   "name": "Actualite.cd",
+   "home": "CD",
+   "lang": "fr",
+   "url": "https://actualite.cd/rss.xml"
+  },
+  {
+   "name": "The New Times Rwanda",
+   "home": "RW",
+   "lang": "en",
+   "url": "https://www.newtimes.co.rw/rss"
+  },
+  {
+   "name": "Punch",
+   "home": "NG",
+   "lang": "en",
+   "url": "https://punchng.com/feed/"
+  },
+  {
+   "name": "Vanguard",
+   "home": "NG",
+   "lang": "en",
+   "url": "https://www.vanguardngr.com/feed/"
+  },
+  {
+   "name": "Daily Trust",
+   "home": "NG",
+   "lang": "en",
+   "url": "https://dailytrust.com/feed/"
+  },
+  {
+   "name": "HumAngle",
+   "home": "NG",
+   "lang": "en",
+   "url": "https://humanglemedia.com/feed/"
+  },
+  {
+   "name": "Lefaso.net",
+   "home": "BF",
+   "lang": "fr",
+   "url": "https://lefaso.net/spip.php?page=backend"
+  },
+  {
+   "name": "Club of Mozambique",
+   "home": "MZ",
+   "lang": "en",
+   "url": "https://clubofmozambique.com/feed/"
+  },
+  {
+   "name": "Zitamar",
+   "home": "MZ",
+   "lang": "en",
+   "url": "https://www.zitamar.com/feed/"
+  },
+  {
+   "name": "Journal du Cameroun",
+   "home": "CM",
+   "lang": "fr",
+   "url": "https://www.journalducameroun.com/feed/"
+  },
+  {
+   "name": "Tchadinfos",
+   "home": "TD",
+   "lang": "fr",
+   "url": "https://tchadinfos.com/feed/"
+  },
+  {
+   "name": "Corbeau News",
+   "home": "CF",
+   "lang": "fr",
+   "url": "https://corbeaunews-centrafrique.org/feed/"
+  },
+  {
+   "name": "Libya Herald",
+   "home": "LY",
+   "lang": "en",
+   "url": "https://libyaherald.com/feed/"
+  },
+  {
+   "name": "Daily Maverick",
+   "home": "ZA",
+   "lang": "en",
+   "url": "https://www.dailymaverick.co.za/dmrss/"
+  },
+  {
+   "name": "ISS Africa",
+   "home": "ZA",
+   "lang": "en",
+   "url": "https://issafrica.org/rss"
+  },
+  {
+   "name": "Haitian Times",
+   "home": "HT",
+   "lang": "en",
+   "url": "https://haitiantimes.com/feed/"
+  },
+  {
+   "name": "Le Nouvelliste",
+   "home": "HT",
+   "lang": "fr",
+   "url": "https://lenouvelliste.com/rss"
+  },
+  {
+   "name": "InSight Crime",
+   "home": "CO",
+   "lang": "en",
+   "url": "https://insightcrime.org/feed/"
+  },
+  {
+   "name": "CBC World",
+   "home": "CA",
+   "lang": "en",
+   "url": "https://www.cbc.ca/webfeed/rss/rss-world"
+  },
+  {
+   "name": "NYT World",
+   "home": "US",
+   "lang": "en",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+  },
+  {
+   "name": "Washington Post World",
+   "home": "US",
+   "lang": "en",
+   "url": "https://feeds.washingtonpost.com/rss/world"
+  },
+  {
+   "name": "CNN World",
+   "home": "US",
+   "lang": "en",
+   "url": "http://rss.cnn.com/rss/edition_world.rss"
+  },
+  {
+   "name": "Fox News World",
+   "home": "US",
+   "lang": "en",
+   "url": "https://moxie.foxnews.com/google-publisher/world.xml"
+  },
+  {
+   "name": "CBS News World",
+   "home": "US",
+   "lang": "en",
+   "url": "https://www.cbsnews.com/latest/rss/world"
+  },
+  {
+   "name": "ABC News US International",
+   "home": "US",
+   "lang": "en",
+   "url": "https://abcnews.go.com/abcnews/internationalheadlines"
+  },
+  {
+   "name": "Defense News",
+   "home": "US",
+   "lang": "en",
+   "url": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml"
+  },
+  {
+   "name": "Breaking Defense",
+   "home": "US",
+   "lang": "en",
+   "url": "https://breakingdefense.com/feed/"
+  },
+  {
+   "name": "The War Zone",
+   "home": "US",
+   "lang": "en",
+   "url": "https://www.twz.com/feed"
+  },
+  {
+   "name": "USNI News",
+   "home": "US",
+   "lang": "en",
+   "url": "https://news.usni.org/feed"
+  },
+  {
+   "name": "Long War Journal",
+   "home": "US",
+   "lang": "en",
+   "url": "https://www.longwarjournal.org/feed"
+  },
+  {
+   "name": "Crisis Group",
+   "home": "BE",
+   "lang": "en",
+   "url": "https://www.crisisgroup.org/rss.xml"
+  },
+  {
+   "name": "Politico Europe",
+   "home": "BE",
+   "lang": "en",
+   "url": "https://www.politico.eu/feed/"
+  },
+  {
+   "name": "Euractiv",
+   "home": "BE",
+   "lang": "en",
+   "url": "https://www.euractiv.com/feed/"
+  },
+  {
+   "name": "ERR News",
+   "home": "EE",
+   "lang": "en",
+   "url": "https://news.err.ee/rss"
+  },
+  {
+   "name": "LSM English",
+   "home": "LV",
+   "lang": "en",
+   "url": "https://eng.lsm.lv/rss/"
+  },
+  {
+   "name": "Balkan Insight",
+   "home": "RS",
+   "lang": "en",
+   "url": "https://balkaninsight.com/feed/"
+  },
+  {
+   "name": "IPN Moldova",
+   "home": "MD",
+   "lang": "en",
+   "url": "https://www.ipn.md/en/rss"
+  },
+  {
+   "name": "Civil Georgia",
+   "home": "GE",
+   "lang": "en",
+   "url": "https://civil.ge/feed"
+  },
+  {
+   "name": "Novinite",
+   "home": "BG",
+   "lang": "en",
+   "url": "https://www.novinite.com/services/news_rdf.php"
+  },
+  {
+   "name": "Yle News",
+   "home": "FI",
+   "lang": "en",
+   "url": "https://yle.fi/rss/news"
+  },
+  {
+   "name": "ReliefWeb",
+   "home": "UN",
+   "lang": "en",
+   "url": "https://reliefweb.int/updates/rss.xml"
+  },
+  {
+   "name": "UN News Arabic",
+   "home": "UN",
+   "lang": "ar",
+   "url": "https://news.un.org/feed/subscribe/ar/news/all/rss.xml"
+  },
+  {
+   "name": "UN News French",
+   "home": "UN",
+   "lang": "fr",
+   "url": "https://news.un.org/feed/subscribe/fr/news/all/rss.xml"
+  },
+  {
+   "name": "UN News Spanish",
+   "home": "UN",
+   "lang": "es",
+   "url": "https://news.un.org/feed/subscribe/es/news/all/rss.xml"
+  },
+  {
+   "name": "UN News Russian",
+   "home": "UN",
+   "lang": "ru",
+   "url": "https://news.un.org/feed/subscribe/ru/news/all/rss.xml"
+  },
+  {
+   "name": "UN News Chinese",
+   "home": "UN",
+   "lang": "zh",
+   "url": "https://news.un.org/feed/subscribe/zh/news/all/rss.xml"
+  },
+  {
+   "name": "BBC News",
+   "home": "GB",
+   "lang": "en",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+  },
+  {
+   "name": "The Guardian",
+   "home": "GB",
+   "lang": "en",
+   "url": "https://www.theguardian.com/world/rss"
+  },
+  {
+   "name": "Deutsche Welle",
+   "home": "DE",
+   "lang": "en",
+   "url": "https://rss.dw.com/rdf/rss-en-world"
+  },
+  {
+   "name": "France 24",
+   "home": "FR",
+   "lang": "en",
+   "url": "https://www.france24.com/en/rss"
+  },
+  {
+   "name": "RFI",
+   "home": "FR",
+   "lang": "en",
+   "url": "https://www.rfi.fr/en/rss"
+  },
+  {
+   "name": "Euronews",
+   "home": "FR",
+   "lang": "en",
+   "url": "https://www.euronews.com/rss?level=theme&name=news"
+  },
+  {
+   "name": "The Moscow Times",
+   "home": "RU",
+   "lang": "en",
+   "url": "https://www.themoscowtimes.com/rss/news"
+  },
+  {
+   "name": "Meduza",
+   "home": "RU",
+   "lang": "en",
+   "url": "https://meduza.io/rss/en/all"
+  },
+  {
+   "name": "Kyiv Independent",
+   "home": "UA",
+   "lang": "en",
+   "url": "https://kyivindependent.com/news-archive/rss/"
+  },
+  {
+   "name": "Ukrainska Pravda",
+   "home": "UA",
+   "lang": "en",
+   "url": "https://www.pravda.com.ua/eng/rss/"
+  },
+  {
+   "name": "Notes from Poland",
+   "home": "PL",
+   "lang": "en",
+   "url": "https://notesfrompoland.com/feed/"
+  },
+  {
+   "name": "Al Jazeera",
+   "home": "QA",
+   "lang": "en",
+   "url": "https://www.aljazeera.com/xml/rss/all.xml"
+  },
+  {
+   "name": "Middle East Eye",
+   "home": "GB",
+   "lang": "en",
+   "url": "https://www.middleeasteye.net/rss"
+  },
+  {
+   "name": "The Times of Israel",
+   "home": "IL",
+   "lang": "en",
+   "url": "https://www.timesofisrael.com/feed/"
+  },
+  {
+   "name": "Anadolu Agency",
+   "home": "TR",
+   "lang": "en",
+   "url": "https://www.aa.com.tr/en/rss/default?cat=world"
+  },
+  {
+   "name": "The National",
+   "home": "AE",
+   "lang": "en",
+   "url": "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml"
+  },
+  {
+   "name": "South China Morning Post",
+   "home": "HK",
+   "lang": "en",
+   "url": "https://www.scmp.com/rss/91/feed"
+  },
+  {
+   "name": "The Japan Times",
+   "home": "JP",
+   "lang": "en",
+   "url": "https://www.japantimes.co.jp/feed/"
+  },
+  {
+   "name": "Yonhap",
+   "home": "KR",
+   "lang": "en",
+   "url": "https://en.yna.co.kr/RSS/news.xml"
+  },
+  {
+   "name": "Taipei Times",
+   "home": "TW",
+   "lang": "en",
+   "url": "https://www.taipeitimes.com/xml/index.rss"
+  },
+  {
+   "name": "The Hindu",
+   "home": "IN",
+   "lang": "en",
+   "url": "https://www.thehindu.com/news/international/feeder/default.rss"
+  },
+  {
+   "name": "Times of India",
+   "home": "IN",
+   "lang": "en",
+   "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms"
+  },
+  {
+   "name": "Dawn",
+   "home": "PK",
+   "lang": "en",
+   "url": "https://www.dawn.com/feeds/home"
+  },
+  {
+   "name": "The Irrawaddy",
+   "home": "MM",
+   "lang": "en",
+   "url": "https://www.irrawaddy.com/feed"
+  },
+  {
+   "name": "Rappler",
+   "home": "PH",
+   "lang": "en",
+   "url": "https://www.rappler.com/feed/"
+  },
+  {
+   "name": "ABC News Australia",
+   "home": "AU",
+   "lang": "en",
+   "url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+  },
+  {
+   "name": "The Straits Times",
+   "home": "SG",
+   "lang": "en",
+   "url": "https://www.straitstimes.com/news/world/rss.xml"
+  },
+  {
+   "name": "Nikkei Asia",
+   "home": "JP",
+   "lang": "en",
+   "url": "https://asia.nikkei.com/rss/feed/nar"
+  },
+  {
+   "name": "AllAfrica",
+   "home": "ZA",
+   "lang": "en",
+   "url": "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf"
+  },
+  {
+   "name": "Africanews",
+   "home": "CG",
+   "lang": "en",
+   "url": "https://www.africanews.com/feed/rss"
+  },
+  {
+   "name": "Sudan Tribune",
+   "home": "SD",
+   "lang": "en",
+   "url": "https://sudantribune.com/feed/"
+  },
+  {
+   "name": "Premium Times",
+   "home": "NG",
+   "lang": "en",
+   "url": "https://www.premiumtimesng.com/feed"
+  },
+  {
+   "name": "Radio Dabanga",
+   "home": "SD",
+   "lang": "en",
+   "url": "https://www.dabangasudan.org/en/feed"
+  },
+  {
+   "name": "MercoPress",
+   "home": "UY",
+   "lang": "en",
+   "url": "https://en.mercopress.com/rss/latest"
+  },
+  {
+   "name": "NPR",
+   "home": "US",
+   "lang": "en",
+   "url": "https://feeds.npr.org/1004/rss.xml"
+  },
+  {
+   "name": "UN News",
+   "home": "UN",
+   "lang": "en",
+   "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+  }
+ ],
+ "gnews": [
+  {
+   "hl": "en-GB",
+   "gl": "GB",
+   "ceid": "GB:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-IN",
+   "gl": "IN",
+   "ceid": "IN:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-NG",
+   "gl": "NG",
+   "ceid": "NG:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-ZA",
+   "gl": "ZA",
+   "ceid": "ZA:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-KE",
+   "gl": "KE",
+   "ceid": "KE:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-PK",
+   "gl": "PK",
+   "ceid": "PK:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-PH",
+   "gl": "PH",
+   "ceid": "PH:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-AU",
+   "gl": "AU",
+   "ceid": "AU:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-CA",
+   "gl": "CA",
+   "ceid": "CA:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-SG",
+   "gl": "SG",
+   "ceid": "SG:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-IL",
+   "gl": "IL",
+   "ceid": "IL:en",
+   "lang": "en"
+  },
+  {
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "lang": "en"
+  },
+  {
+   "hl": "fr",
+   "gl": "FR",
+   "ceid": "FR:fr",
+   "lang": "fr"
+  },
+  {
+   "hl": "de",
+   "gl": "DE",
+   "ceid": "DE:de",
+   "lang": "de"
+  },
+  {
+   "hl": "es",
+   "gl": "ES",
+   "ceid": "ES:es",
+   "lang": "es"
+  },
+  {
+   "hl": "es-419",
+   "gl": "MX",
+   "ceid": "MX:es-419",
+   "lang": "es"
+  },
+  {
+   "hl": "es-419",
+   "gl": "CO",
+   "ceid": "CO:es-419",
+   "lang": "es"
+  },
+  {
+   "hl": "pt-BR",
+   "gl": "BR",
+   "ceid": "BR:pt-419",
+   "lang": "pt"
+  },
+  {
+   "hl": "it",
+   "gl": "IT",
+   "ceid": "IT:it",
+   "lang": "it"
+  },
+  {
+   "hl": "pl",
+   "gl": "PL",
+   "ceid": "PL:pl",
+   "lang": "pl"
+  },
+  {
+   "hl": "uk",
+   "gl": "UA",
+   "ceid": "UA:uk",
+   "lang": "uk"
+  },
+  {
+   "hl": "ru",
+   "gl": "RU",
+   "ceid": "RU:ru",
+   "lang": "ru"
+  },
+  {
+   "hl": "tr",
+   "gl": "TR",
+   "ceid": "TR:tr",
+   "lang": "tr"
+  },
+  {
+   "hl": "ar",
+   "gl": "EG",
+   "ceid": "EG:ar",
+   "lang": "ar"
+  },
+  {
+   "hl": "ar",
+   "gl": "SA",
+   "ceid": "SA:ar",
+   "lang": "ar"
+  },
+  {
+   "hl": "ar",
+   "gl": "LB",
+   "ceid": "LB:ar",
+   "lang": "ar"
+  },
+  {
+   "hl": "ar",
+   "gl": "AE",
+   "ceid": "AE:ar",
+   "lang": "ar"
+  },
+  {
+   "hl": "he",
+   "gl": "IL",
+   "ceid": "IL:he",
+   "lang": "he"
+  },
+  {
+   "hl": "ja",
+   "gl": "JP",
+   "ceid": "JP:ja",
+   "lang": "ja"
+  },
+  {
+   "hl": "ko",
+   "gl": "KR",
+   "ceid": "KR:ko",
+   "lang": "ko"
+  },
+  {
+   "hl": "zh-TW",
+   "gl": "TW",
+   "ceid": "TW:zh-Hant",
+   "lang": "zh"
+  },
+  {
+   "hl": "zh-HK",
+   "gl": "HK",
+   "ceid": "HK:zh-Hant",
+   "lang": "zh"
+  },
+  {
+   "hl": "id",
+   "gl": "ID",
+   "ceid": "ID:id",
+   "lang": "id"
+  },
+  {
+   "hl": "vi",
+   "gl": "VN",
+   "ceid": "VN:vi",
+   "lang": "vi"
+  },
+  {
+   "hl": "th",
+   "gl": "TH",
+   "ceid": "TH:th",
+   "lang": "th"
+  },
+  {
+   "hl": "hi",
+   "gl": "IN",
+   "ceid": "IN:hi",
+   "lang": "hi"
+  }
+ ]
+}

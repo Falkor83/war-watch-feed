@@ -51,9 +51,10 @@ def prompt(name): return read(os.path.join(ROOT, "prompt", name))
 
 # ---------- keywords ----------
 KW_BLOCK = {"doha", "sofia", "patriot", "turkey", "us embassy", "washington", "white house", "pentagon", "rama", "fla",
-            "nato", "un", "eu", "president", "minister", "army", "military", "war", "attack", "strike", "talks"}
+            "nato", "un", "eu", "president", "minister", "army", "military", "war", "attack", "strike", "talks",
+            "midterms", "midterm", "election", "elections", "vote", "voters", "ballot", "polls", "cyberattack", "refinery strike"}
 KW_ACRONYMS_OK = {"IDF", "RSF", "M23", "TTP", "SDF", "PKK", "ADF", "BLA", "PLA", "SAF", "ISW", "FDLR", "IRGC", "DPRK",
-                  "JNIM", "ISIS", "ISWAP", "NPA", "ELN", "CJNG", "HTS", "TPLF", "AFC"}
+                  "JNIM", "ISIS", "ISWAP", "NPA", "ELN", "CJNG", "HTS", "TPLF"}
 
 def keyword_ok(k):
     k = str(k).strip()

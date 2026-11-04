@@ -1,0 +1,50 @@
+name: War Watch headlines
+
+# Every hour: worldwide headlines (outlet feeds, Google News World pages, GDELT in 65 languages), non-English ones
+# translated by Claude Haiku (Batch API). Published as headlines.json on the `live` branch, which is replaced each
+# run (one commit, no history). Translation has its own monthly limit (WW_HEADLINES_CAP_USD) inside War Watch's cap.
+
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: headlines
+  cancel-in-progress: false
+
+jobs:
+  headlines:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+      - name: Test the job (offline, no cost)
+        run: python3 -m unittest tools/test_headlines.py
+      - name: Get the last run's state
+        run: |
+          mkdir -p live
+          if git fetch -q --depth 1 origin live 2>/dev/null; then git archive FETCH_HEAD | tar -x -C live; echo "[OK] state restored"; else echo "[WARN] first run: no live branch yet"; fi
+      - name: Collect and translate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 tools/headlines.py
+      - name: Publish
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          [ -f live/headlines.json ] || { echo "[ERROR] nothing to publish"; exit 1; }
+          cd live
+          rm -rf .git
+          git init -q -b live
+          git config user.name "War Watch headlines"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Headlines $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" live
+          echo "[OK] published ($(du -h headlines.json | cut -f1) headlines.json)"
