@@ -3,21 +3,25 @@
 War Watch daily ratings: asks Claude (with web search) what changed in the world's wars and armed conflicts, merges
 the answer into feed.json, checks the result and writes it only if it passes. Standard library only.
 
-  python3 tools/update_feed.py daily     # Sonnet: what changed in the last ~48 h, as a patch
-  python3 tools/update_feed.py weekly    # Sonnet: re-research each region fully (finds new hotspots, drops dead ones)
+  python3 tools/update_feed.py daily     # Sonnet searches the last ~48 h, Opus writes the patch and the analysis
+  python3 tools/update_feed.py weekly    # per region: Sonnet re-researches, Opus rebuilds the region; then Opus's big picture
   python3 tools/update_feed.py check     # only validate feed.json
 
 Cost (measured 2026-11-04): the first daily run with 18 searches used 371k input tokens, about $1.07, because each
-search round re-sends the growing context. Searches are now capped at 10 (daily) and 8 per region (weekly); expect
-roughly $0.50 a day and $3 a week, about $25 a month.
+search round re-sends the growing context. Now: Sonnet does the searching (10 a day, 7 per region on Sundays) and Opus
+only reads Sonnet's notes (no searching), so Opus's judgment costs little. Expect roughly $0.70 a day and $4 on Sundays,
+about $30-35 a month, under the $40 cap.
 Spending cap: budget.json keeps an estimate of this month's spend from the API's own usage numbers; a run that would
 start above MONTHLY_CAP_USD is skipped. Prints [STEP]/[OK]/[WARN]/[ERROR]. Never prints the API key.
 """
 import json, os, re, sys, time, datetime, urllib.request, urllib.error
 
 API = "https://api.anthropic.com/v1/messages"
-DAILY_MODEL = os.environ.get("WW_DAILY_MODEL", "claude-sonnet-5-5")
-WEEKLY_MODEL = os.environ.get("WW_WEEKLY_MODEL", "claude-sonnet-5-5")   # Opus doubled the cost for little gain
+# Two stages: Sonnet runs the web searches (where the tokens pile up) and writes compact research notes; Opus reads only
+# those notes, with no searching, and makes the calls: severity, trend, US impact, outlook and the cross-country analysis.
+GATHER_MODEL = os.environ.get("WW_GATHER_MODEL", "claude-sonnet-5-5")
+ANALYST_MODEL = os.environ.get("WW_ANALYST_MODEL", "claude-opus-5-5")
+DAILY_MODEL = GATHER_MODEL      # kept for older log lines
 SEARCH_TOOL = os.environ.get("WW_SEARCH_TOOL", "web_search_20250305")
 MONTHLY_CAP_USD = float(os.environ.get("WW_MONTHLY_CAP_USD", "40"))
 # USD per million tokens (input, output) and per search; from platform.claude.com/docs/en/about-claude/pricing (Nov 2026).
@@ -64,8 +68,8 @@ def call(model, system, user, max_uses, max_tokens):
     total = {"input_tokens": 0, "output_tokens": 0, "server_tool_use": {"web_search_requests": 0}}
     text = ""
     for turn in range(6):                                   # pause_turn: send the paused turn back unchanged
-        body = {"model": model, "max_tokens": max_tokens, "system": system, "messages": messages,
-                "tools": [{"type": SEARCH_TOOL, "name": "web_search", "max_uses": max_uses}]}
+        body = {"model": model, "max_tokens": max_tokens, "system": system, "messages": messages}
+        if max_uses > 0: body["tools"] = [{"type": SEARCH_TOOL, "name": "web_search", "max_uses": max_uses}]
         req = urllib.request.Request(API, data=json.dumps(body).encode(), method="POST", headers={
             "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
         for attempt in range(4):
@@ -183,13 +187,51 @@ def compact(feed, region=None):
                     {"us_level": c["us_impact"]["level"], "latest": [f'{d["date"]}: {d["text"]}' for d in c["latest"][:2]]})
     return json.dumps(rows, ensure_ascii=False)
 
+NOTE_RULE = ("You do not search. You get research notes that a colleague gathered today from worldwide outlets. Use only "
+             "those notes and the current hotspots. Every URL you cite must be one of the notes' URLs, copied exactly.")
+
+def gather(feed, budget, label, focus, searches):
+    """Stage 1 (Sonnet + web search): compact, sourced research notes. Returns (findings, allowed_urls)."""
+    system = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "gather.md")).read()
+    user = (f"Today is {today()}. Focus: {focus}. Current hotspots (compact):\n{compact(feed)}\n\n"
+            "Search and return the research-notes JSON described in your instructions.")
+    text, usage = call(GATHER_MODEL, system, user, max_uses=searches, max_tokens=12000)
+    add_cost(budget, GATHER_MODEL, usage, f"{label} search notes")
+    got = extract_json(text)
+    notes = got.get("findings") if isinstance(got, dict) else got
+    clean = []
+    for n in notes or []:
+        if not isinstance(n, dict): continue
+        url = str(n.get("url", ""))
+        if not url.startswith("https://") or not n.get("fact"): continue
+        clean.append({"hotspot": str(n.get("hotspot", ""))[:80], "date": str(n.get("date", ""))[:10], "fact": str(n["fact"])[:400],
+                      "outlet": str(n.get("outlet", ""))[:60], "country": str(n.get("country", ""))[:40], "url": url[:500],
+                      "state_media": bool(n.get("state_media", False))})
+    ok(f"{label}: {len(clean)} sourced notes from {len({n['country'] for n in clean})} countries")
+    return clean, {n["url"] for n in clean}
+
+def only_known_urls(items, allowed, what):
+    kept = [d for d in (items or []) if isinstance(d, dict) and d.get("url") in allowed]
+    if len(kept) < len(items or []): warn(f"{what}: dropped {len(items) - len(kept)} item(s) whose URL wasn't in the research notes")
+    return kept
+
 def run_daily(feed, budget):
-    system = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "daily.md")).read()
+    notes, allowed = gather(feed, budget, "daily", "everything from the last 48 hours, most searches on red and US-direct hotspots",
+                            int(os.environ.get("WW_DAILY_SEARCHES", "10")))
+    if not notes: raise SystemExit("[ERROR] no usable research notes; feed left as it was")
+    allowed |= {d["url"] for c in feed["conflicts"] for d in c["latest"]} | {s["url"] for g in feed.get("signals", []) for s in g.get("sources", [])}
+    system = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "daily.md")).read() + "\n\n" + NOTE_RULE
     user = (f"Today is {today()}. Current hotspots (compact):\n{compact(feed)}\n\nCurrent US overview:\n{feed['us_overview']}\n\n"
-            "Search worldwide news from the last 48 hours and return the patch JSON described in your instructions.")
-    text, usage = call(DAILY_MODEL, system, user, max_uses=int(os.environ.get("WW_DAILY_SEARCHES", "10")), max_tokens=16000)
-    add_cost(budget, DAILY_MODEL, usage, "daily")
+            f"Research notes gathered today:\n{json.dumps(notes, ensure_ascii=False)}\n\nReturn the patch JSON described in your instructions.")
+    text, usage = call(ANALYST_MODEL, system, user, max_uses=0, max_tokens=16000)
+    add_cost(budget, ANALYST_MODEL, usage, "daily analysis")
     patch = extract_json(text)
+    for u in patch.get("updates") or []:
+        if u.get("new_latest"): u["new_latest"] = only_known_urls(u["new_latest"], allowed, f"update {u.get('id')}")
+    for n in patch.get("new") or []:
+        n["latest"] = only_known_urls(n.get("latest"), allowed, f"new {n.get('id')}")
+    for g in patch.get("signals") or []:
+        g["sources"] = only_known_urls(g.get("sources"), allowed, "analysis point")
     byid = {c["id"]: c for c in feed["conflicts"]}
     changed = []
     for u in patch.get("updates") or []:
@@ -221,23 +263,34 @@ def run_daily(feed, budget):
     return out, changed, patch.get("notes", "")
 
 def run_weekly(feed, budget):
-    system = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "weekly.md")).read()
     byid = {c["id"]: c for c in feed["conflicts"]}
-    changed = []
+    changed, all_notes, allowed_all = [], [], set()
     for region in REGIONS:
         if budget["usd"] >= MONTHLY_CAP_USD: warn(f"monthly cap reached; {region} skipped"); continue
-        user = (f"Today is {today()}. Region: {region}. Current hotspots in this region (compact):\n{compact(feed, region)}\n\n"
-                "Re-research the region from worldwide outlets and return the JSON array described in your instructions.")
+        sub = dict(feed); sub["conflicts"] = [c for c in feed["conflicts"] if c.get("region") == region]
         try:
-            text, usage = call(WEEKLY_MODEL, system, user, max_uses=int(os.environ.get("WW_WEEKLY_SEARCHES", "8")), max_tokens=24000)
+            notes, allowed = gather(sub, budget, f"weekly {region}",
+                                    f"the whole {region} region: every current hotspot there and any new one that meets the bar",
+                                    int(os.environ.get("WW_WEEKLY_SEARCHES", "7")))
+        except (SystemExit, ValueError) as e:
+            warn(f"{region}: {e}"); continue
+        all_notes += notes; allowed_all |= allowed
+        system = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "weekly.md")).read() + "\n\n" + NOTE_RULE
+        user = (f"Today is {today()}. Region: {region}. Current hotspots in this region (compact):\n{compact(feed, region)}\n\n"
+                f"Research notes gathered today:\n{json.dumps(notes, ensure_ascii=False)}\n\n"
+                "Return the JSON array described in your instructions.")
+        try:
+            text, usage = call(ANALYST_MODEL, system, user, max_uses=0, max_tokens=24000)
         except SystemExit as e:
             warn(f"{region}: {e}"); continue
-        add_cost(budget, WEEKLY_MODEL, usage, f"weekly {region}")
+        add_cost(budget, ANALYST_MODEL, usage, f"weekly {region} analysis")
         try: arr = extract_json(text)
         except ValueError as e: warn(f"{region}: {e}"); continue
         if isinstance(arr, dict): arr = arr.get("conflicts") or []
+        old_urls = {d["url"] for c in sub["conflicts"] for d in c["latest"]}
         fresh = {}
         for n in arr:
+            if isinstance(n, dict): n["latest"] = only_known_urls(n.get("latest"), allowed | old_urls, f"{region} {n.get('id')}")
             try: c = clean_conflict(n); c["region"] = region; fresh[c["id"]] = c
             except ValueError as e: warn(f"{region}: refused {e}")
         if len(fresh) < 2: warn(f"{region}: only {len(fresh)} usable hotspots; kept the old ones"); continue
@@ -246,14 +299,18 @@ def run_weekly(feed, budget):
         for cid, c in fresh.items():
             changed.append(cid if cid in byid else cid + " (new)"); byid[cid] = c
     out = dict(feed); out["conflicts"] = list(byid.values())
-    if budget["usd"] < MONTHLY_CAP_USD:
+    if all_notes and budget["usd"] < MONTHLY_CAP_USD:
         try:
-            system2 = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "signals.md")).read()
-            user2 = f"Today is {today()}. All current hotspots (compact):\n{compact(out)}\n\nWrite the analysis JSON described in your instructions."
-            text, usage = call(WEEKLY_MODEL, system2, user2, max_uses=int(os.environ.get("WW_SIGNAL_SEARCHES", "5")), max_tokens=8000)
-            add_cost(budget, WEEKLY_MODEL, usage, "weekly analysis")
+            system2 = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "signals.md")).read() + "\n\n" + NOTE_RULE
+            user2 = (f"Today is {today()}. All current hotspots (compact):\n{compact(out)}\n\n"
+                     f"This week's research notes:\n{json.dumps(all_notes, ensure_ascii=False)}\n\nWrite the analysis JSON described in your instructions.")
+            text, usage = call(ANALYST_MODEL, system2, user2, max_uses=0, max_tokens=8000)
+            add_cost(budget, ANALYST_MODEL, usage, "weekly big picture")
             got = extract_json(text)
-            sig = clean_signals(got.get("signals") if isinstance(got, dict) else got, set(byid))
+            sigs = got.get("signals") if isinstance(got, dict) else got
+            for g in sigs or []:
+                if isinstance(g, dict): g["sources"] = only_known_urls(g.get("sources"), allowed_all, "analysis point")
+            sig = clean_signals(sigs, set(byid))
             if len(sig) >= 3: out["signals"] = sig; changed.append(f"analysis ({len(sig)} points)")
             if isinstance(got, dict) and len(str(got.get("us_overview", ""))) >= 80: out["us_overview"] = str(got["us_overview"])[:1200]
         except (SystemExit, ValueError) as e:
@@ -269,10 +326,10 @@ def main():
     budget = load_budget()
     if budget["usd"] >= MONTHLY_CAP_USD:
         warn(f"This month's estimate ${budget['usd']:.2f} has reached the ${MONTHLY_CAP_USD:.0f} cap; nothing run."); return
-    step(f"{mode} update with {DAILY_MODEL if mode == 'daily' else WEEKLY_MODEL}")
+    step(f"{mode} update: {GATHER_MODEL} searches, {ANALYST_MODEL} decides")
     out, changed, notes = (run_daily if mode == "daily" else run_weekly)(feed, budget)
     out["generated_at"] = now_iso()
-    out["generated_by"] = f"Claude ({DAILY_MODEL if mode == 'daily' else WEEKLY_MODEL}) {mode} research of worldwide outlets, {today()}"
+    out["generated_by"] = f"Claude {mode} update {today()}: Sonnet 5.5 searched worldwide outlets, Opus 5.5 rated and analysed"
     try:
         validate_feed(out, previous=feed)
     except ValueError as e:
