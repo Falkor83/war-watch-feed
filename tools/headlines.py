@@ -255,7 +255,7 @@ def gdelt_get(url, last=[0.0]):
             return None
     return None
 
-def collect_gdelt(feed, timespan="4h"):
+def collect_gdelt(feed, timespan="1d", per_run=12):
     queries = []
     for c in feed.get("conflicts", []):
         terms = gdelt_terms(c)
@@ -265,8 +265,9 @@ def collect_gdelt(feed, timespan="4h"):
     queries.append(("", "(airstrike OR missile OR shelling OR \"drone attack\" OR offensive OR ceasefire OR troops OR clashes "
                         "OR mobilization OR ultimatum)"))
     # GDELT is slow when busy: a time budget, starting at a different hotspot each hour so all get their turn
-    shift = (int(time.time() // 3600) * 7) % max(1, len(queries))
-    queries = queries[shift:] + queries[:shift]
+    hot, extra = queries[:-2], queries[-2:]
+    shift = (int(time.time() // 3600) * per_run) % max(1, len(hot))
+    queries = extra + (hot[shift:] + hot[:shift])[:per_run]            # each hotspot every ~3 hours, with a 1-day window
     got, okn, bad, t0 = [], 0, [], time.time()
     for hid, q in queries:
         if time.time() - t0 > GDELT_BUDGET_S: bad.append(f"{hid or 'general'} (out of time)"); continue
@@ -306,29 +307,35 @@ def relevant(item, terms):
     return bool(SECURITY.search(text) or terms.search(text))
 
 # ---------- translation ----------
-SYSTEM = ("You translate news headlines into plain English for a news-monitoring app. For each input line 'ID<TAB>headline', "
-          "output one JSON array per line: [\"ID\", \"two-letter language code of the original\", \"English headline\"]. "
-          "Translate faithfully: keep names, numbers, quotes and the outlet's framing (do not soften or sharpen it), use the "
-          "usual English spelling of places and people, and don't add anything. Output only the JSON lines, nothing else.")
+SYSTEM = ("You translate news headlines into plain English for a news-monitoring app. Each input line is 'N<TAB>headline'. "
+          "For each, output exactly one line 'N|xx|English headline', where xx is the two-letter code of the original language. "
+          "Translate faithfully: keep names, numbers, quotes and the outlet's framing (don't soften or sharpen it), use the usual "
+          "English spelling of places and people, and add nothing. Output only those lines.")
 
 def translate_requests(items):
+    """100 headlines per request, numbered 1..100 inside it (short numbers cost fewer tokens than keys)."""
     reqs, chunk = [], 100
     for i in range(0, len(items), chunk):
         part = items[i:i + chunk]
         reqs.append({"custom_id": f"t{i // chunk}", "params": {
-            "model": MODEL, "max_tokens": 8000, "system": SYSTEM,
-            "messages": [{"role": "user", "content": "\n".join(f"{x['k']}\t{x['o']}" for x in part)}]}})
+            "model": MODEL, "max_tokens": 6000, "system": SYSTEM,
+            "messages": [{"role": "user", "content": "\n".join(f"{n + 1}\t{x['o']}" for n, x in enumerate(part))}]}})
     return reqs
 
-def parse_translations(text):
+_LINE = re.compile(r"^\s*(\d{1,3})\s*\|\s*([a-zA-Z]{2,3})\s*\|\s*(.+?)\s*$")
+
+def parse_translations(text, keys=None):
+    """'N|xx|English' lines -> {key: (lang, english)}; keys[N-1] is the headline key (or N itself without keys)."""
     out = {}
-    for line in text.splitlines():
-        line = line.strip().rstrip(",")
-        if not line.startswith("["): continue
-        try: k, lang, en = json.loads(line)
-        except (ValueError, TypeError): continue
-        en = str(en).strip()
-        if k and en and len(en) < 400: out[str(k)] = (str(lang)[:3].lower(), en)
+    for line in str(text).splitlines():
+        m = _LINE.match(line)
+        if not m: continue
+        n, lang, en = int(m.group(1)), m.group(2).lower(), m.group(3).strip().strip('"')
+        if keys is not None:
+            if not 1 <= n <= len(keys): continue
+            k = keys[n - 1]
+        else: k = str(n)
+        if en and len(en) < 400: out[k] = (lang[:3], en)
     return out
 
 def load_spend():
@@ -353,7 +360,7 @@ def save_progress(state, spend):
     save_json(os.path.join(LIVE, "state.json"), {**load_json(os.path.join(LIVE, "state.json"), {}),
                                                  "pending": state.get("pending", []), "tr": state.get("tr", {})}, indent=None)
 
-def collect_batch(b, spend, cache):
+def collect_batch(b, spend, cache, keys_by_req):
     """Read a finished batch's results into the translation cache and book what it cost."""
     lines = wwapi.http("GET", b["results_url"], raw=True, timeout=300).splitlines()
     usage, n = wwapi.empty_usage(), 0
@@ -365,7 +372,7 @@ def collect_batch(b, spend, cache):
         msg = out["message"]
         wwapi.add_usage(usage, msg.get("usage"))
         text = "".join(x.get("text", "") for x in msg.get("content") or [] if x.get("type") == "text")
-        for k, (lang, en) in parse_translations(text).items():
+        for k, (lang, en) in parse_translations(text, keys_by_req.get(res.get("custom_id"), [])).items():
             cache[k] = {"en": en, "l": lang, "at": now_ts()}; n += 1
     usd = book(spend, usage, n)
     ok(f"translations: {n} headlines from batch {b['id']}, about ${usd:.3f} (month ${spend['usd']:.2f} of ${SUB_CAP:.0f})")
@@ -379,7 +386,7 @@ def translate(queue, state, spend, budget_total):
     for p in pending:
         try:
             b = wwapi.http("GET", f"{wwapi.API}/messages/batches/{p['id']}")
-            if b.get("processing_status") == "ended": collect_batch(b, spend, cache)
+            if b.get("processing_status") == "ended": collect_batch(b, spend, cache, p.get("reqs", {}))
             elif now_ts() - p["at"] < 24 * 3600: still.append(p)
             else: warn(f"batch {p['id']} still not done after a day; dropped")
         except wwapi.CallFailed as e:
@@ -392,12 +399,14 @@ def translate(queue, state, spend, budget_total):
         warn(f"translation paused: ${spend['usd']:.2f} of its ${SUB_CAP:.0f} monthly limit used ({len(todo)} non-English headlines skipped)"); return
     if budget_total >= wwapi.MONTHLY_CAP_USD - 1:
         warn(f"translation paused: War Watch is at ${budget_total:.2f} of ${wwapi.MONTHLY_CAP_USD:.0f} this month"); return
+    reqs = translate_requests(todo)
+    keys_by_req = {f"t{i}": [x["k"] for x in todo[i * 100:(i + 1) * 100]] for i in range(len(reqs))}
     try:
-        b = wwapi.http("POST", wwapi.API + "/messages/batches", {"requests": translate_requests(todo)})
+        b = wwapi.http("POST", wwapi.API + "/messages/batches", {"requests": reqs})
     except wwapi.CallFailed as e:
         warn(f"couldn't send translations: {e}"); return
     step(f"translating {len(todo)} headlines (batch {b.get('id')})")
-    p = {"id": b["id"], "at": now_ts(), "keys": [x["k"] for x in todo]}
+    p = {"id": b["id"], "at": now_ts(), "keys": [x["k"] for x in todo], "reqs": keys_by_req}
     save_progress({**state, "pending": state["pending"] + [p]}, spend)
     deadline = time.time() + WAIT_MIN * 60
     while b.get("processing_status") != "ended" and time.time() < deadline:
@@ -405,7 +414,7 @@ def translate(queue, state, spend, budget_total):
         try: b = wwapi.http("GET", f"{wwapi.API}/messages/batches/{b['id']}")
         except wwapi.CallFailed as e: warn(f"batch check failed: {e}")
     if b.get("processing_status") == "ended":
-        collect_batch(b, spend, cache); save_progress(state, spend)
+        collect_batch(b, spend, cache, keys_by_req); save_progress(state, spend)
     else:
         warn(f"batch {b['id']} not done in {WAIT_MIN:.0f} min; its translations land next hour")
         state["pending"].append(p)
@@ -444,7 +453,7 @@ def main():
     if rss_bad: print("      not answering: " + "; ".join(rss_bad[:40]))
     gn, gn_ok, gn_bad = collect_gnews(sources["gnews"])
     ok(f"Google News: {len(gn)} headlines from {gn_ok} of {len(sources['gnews'])} editions" + (f" (failed: {', '.join(gn_bad)})" if gn_bad else ""))
-    gd, gd_ok, gd_n, gd_bad = collect_gdelt(feed, os.environ.get("WW_GDELT_TIMESPAN", "4h"))
+    gd, gd_ok, gd_n, gd_bad = collect_gdelt(feed, os.environ.get("WW_GDELT_TIMESPAN", "1d"))
     ok(f"GDELT: {len(gd)} headlines from {gd_ok} of {gd_n} searches" + (f" (busy for: {', '.join(gd_bad[:12])})" if gd_bad else ""))
 
     fresh = [x for x in rss + gn + gd if not x["p"] or x["p"] >= cutoff]

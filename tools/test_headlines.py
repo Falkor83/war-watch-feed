@@ -46,8 +46,8 @@ class Parse(unittest.TestCase):
         self.assertTrue(H.needs_translation("Demócratas ganan el control del Senado", "es"))
 
     def test_translations_parse(self):
-        t = H.parse_translations('["k1", "fr", "The Kremlin threatens Poland"]\nnoise\n["k2","ar","Strikes on Gaza"],\n["bad"]')
-        self.assertEqual(t, {"k1": ("fr", "The Kremlin threatens Poland"), "k2": ("ar", "Strikes on Gaza")})
+        t = H.parse_translations('1|fr|The Kremlin threatens Poland\nnoise\n 2 | ar | Strikes on Gaza | day 3\n9|xx|out of range\n3|es|', ["k1", "k2", "k3"])
+        self.assertEqual(t, {"k1": ("fr", "The Kremlin threatens Poland"), "k2": ("ar", "Strikes on Gaza | day 3")})
 
 class Items(unittest.TestCase):
     def test_merge_keeps_hints_and_first_seen(self):
@@ -84,8 +84,9 @@ class Translate(unittest.TestCase):
                 bid = url.split("/")[-2]; reqs = self.sent[int(bid[1:]) - 1]["requests"]
                 lines = []
                 for r in reqs:
-                    keys = [l.split("\t")[0] for l in r["params"]["messages"][0]["content"].splitlines()]
-                    text = "\n".join(json.dumps([k, "fr", f"English {k}"]) for k in keys)
+                    nums = [l.split("\t")[0] for l in r["params"]["messages"][0]["content"].splitlines()]
+                    titles = [l.split("\t")[1] for l in r["params"]["messages"][0]["content"].splitlines()]
+                    text = "\n".join(f"{n}|fr|English {t.split()[-1]}" for n, t in zip(nums, titles))
                     lines.append(json.dumps({"custom_id": r["custom_id"], "result": {"type": "succeeded", "message": {
                         "content": [{"type": "text", "text": text}], "usage": {"input_tokens": 2000, "output_tokens": 1000}}}}))
                 return "\n".join(lines)
@@ -102,7 +103,7 @@ class Translate(unittest.TestCase):
         state, spend = {"tr": {}, "pending": []}, H.load_spend()
         H.translate(self.q(150), state, spend, 0)
         self.assertEqual(len(self.sent[0]["requests"]), 2)                 # 100 per request
-        self.assertEqual(state["tr"]["k149"]["en"], "English k149")
+        self.assertEqual(state["tr"]["k149"]["en"], "English 149")
         self.assertGreater(spend["usd"], 0); self.assertEqual(spend["titles"], 150)
         H.translate(self.q(150), state, spend, 0)                           # all cached: nothing sent again
         self.assertEqual(len(self.sent), 1)
