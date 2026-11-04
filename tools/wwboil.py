@@ -83,14 +83,16 @@ def candidates(feed, prev_boil, today, nuclear=(), max_n=MAX_BOIL):
     return [cid for _, cid in out[:max_n]], {cid: sc for sc, cid in out}
 
 # ---------- GDELT timelines ----------
-def gdelt_timeline(query, mode, gap, last=[0.0]):
+def gdelt_timeline(query, mode, gap, deadline=None, last=[0.0]):
+    """One 90-day GDELT timeline, paced; None when GDELT is busy or time is up (a missing tile, not a failure)."""
     url = ("https://api.gdeltproject.org/api/v2/doc/doc?query=" + urllib.parse.quote(query) +
            f"&mode={mode}&format=json&timespan=3m")
-    for attempt in range(3):
+    for attempt in range(2):
+        if deadline and time.time() > deadline: return None
         wait = last[0] + gap - time.time()
         if wait > 0: time.sleep(wait)
         try:
-            t = _get(url, 45).decode("utf-8", errors="replace").strip()
+            t = _get(url, 30).decode("utf-8", errors="replace").strip()
             last[0] = time.time()
             if not t.startswith("{"): raise ValueError(t[:60])
             tl = json.loads(t).get("timeline") or []
@@ -98,11 +100,28 @@ def gdelt_timeline(query, mode, gap, last=[0.0]):
             return [(p["date"][:8], float(p["value"])) for p in tl[0].get("data") or []]
         except urllib.error.HTTPError as e:
             last[0] = time.time()
-            if e.code == 429: time.sleep(20 * (attempt + 1)); continue
+            if e.code == 429 and attempt == 0: time.sleep(20); continue
             return None
         except Exception:
-            last[0] = time.time(); time.sleep(8)
+            last[0] = time.time()
+            if attempt == 0: time.sleep(6); continue
+            return None
     return None
+
+def gdelt_prefetch(queries, gap=12.0, budget_s=900):
+    """All hotspots' timelines in passes (coverage for all first, then escalation words, tone, talk words), so a slow
+    GDELT leaves every hotspot with its most useful tiles. {id: {kind: series}}."""
+    deadline = time.time() + budget_s
+    out = {cid: {} for cid in queries}
+    passes = [("vol", "timelinevol", ""), ("esc", "timelinevol", ESCALATION_Q), ("tone", "timelinetone", ""), ("talk", "timelinevol", TALKS_Q)]
+    for kind, mode, extra in passes:
+        for cid, q in queries.items():
+            if not q: continue
+            r = gdelt_timeline(f"{q} {extra}".strip(), mode, gap, deadline)
+            if r is not None: out[cid][kind] = r
+    got = sum(len(v) for v in out.values())
+    (ok if got else warn)(f"GDELT timelines: {got} of {4 * len([q for q in queries.values() if q])} in {round(time.time() - deadline + budget_s)} s")
+    return out
 
 def ratio(series, recent=7):
     """Average of the last `recent` days over the average of the rest (the ~90-day norm)."""
@@ -113,11 +132,9 @@ def ratio(series, recent=7):
     peak = max(series[-30:], key=lambda x: x[1])[0]
     return (round(a / b, 2) if b > 0 else None), f"{peak[:4]}-{peak[4:6]}-{peak[6:8]}"
 
-def gdelt_panel(query, gap=12.0):
-    vol = gdelt_timeline(query, "timelinevol", gap)
-    tone = gdelt_timeline(query, "timelinetone", gap)
-    esc = gdelt_timeline(f"{query} {ESCALATION_Q}", "timelinevol", gap)
-    talk = gdelt_timeline(f"{query} {TALKS_Q}", "timelinevol", gap)
+def gdelt_panel(series):
+    """Ratios and tone from prefetched timelines."""
+    vol, tone, esc, talk = series.get("vol"), series.get("tone"), series.get("esc"), series.get("talk")
     out = {}
     if vol:
         r, peak = ratio(vol)
@@ -133,6 +150,11 @@ def gdelt_panel(query, gap=12.0):
         r, peak = ratio(talk)
         if r is not None: out["talk_words"] = {"ratio": r, "peak": peak}
     return out
+
+def hotspot_query(c):
+    from headlines import gdelt_terms
+    terms = gdelt_terms(c)
+    return (terms[0] if len(terms) == 1 else "(" + " OR ".join(terms) + ")") if terms else ""
 
 # ---------- worldwide headlines ----------
 def hotspot_matcher(c):
@@ -303,20 +325,17 @@ def money_panel(codes, src):
     return out
 
 # ---------- the panel ----------
-def build_panel(c, items, src, now_ts, gap=12.0, gdelt=True, first_id=1):
+def build_panel(c, items, src, now_ts, series=None, first_id=1):
     """Every data point gets an ID (d1, d2...) and a plain sentence with its numbers, so the model can cite it and the
     numbers check can hold the model to it."""
     codes = [x for x in dict.fromkeys(wwdata.iso(p) for p in (c.get("parties") or []) + (c.get("countries") or [])) if x][:5]
-    from headlines import gdelt_terms
-    terms = gdelt_terms(c)
-    query = (terms[0] if len(terms) == 1 else "(" + " OR ".join(terms) + ")") if terms else ""
     pts, tiles = [], []
     def add(kind, text, label, value, note="", level=0, **extra):
         did = f"d{first_id + len(pts)}"
         pts.append({"id": did, "kind": kind, "text": text})
         tiles.append({"id": did, "kind": kind, "label": label, "value": value, "note": note, "level": level, **extra})
     def lvl(x, warn_at, alarm_at): return 2 if x >= alarm_at else 1 if x >= warn_at else 0
-    g = gdelt_panel(query, gap) if (gdelt and query) else {}
+    g = gdelt_panel(series or {})
     if "coverage" in g:
         cv = g["coverage"]
         add("coverage", f"World coverage in 65 languages (GDELT): the last 7 days ran at {cv['ratio']}x the 90-day norm; busiest day in the last month {cv['peak']}.",

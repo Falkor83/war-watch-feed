@@ -487,10 +487,12 @@ def boil_stage(out, notes, budget):
     if not cands: out["boil"] = []; ok("boiling point: no hotspot near the line"); return out
     step(f"boiling point: data for {', '.join(cands)}")
     src, items, now = wwboil.Sources(t), CORPUS.get("items") or [], int(time.time())
+    byid = {x["id"]: x for x in out["conflicts"]}
+    series = wwboil.gdelt_prefetch({cid: wwboil.hotspot_query(byid[cid]) for cid in cands}) if BOIL_GDELT else {}
     panels, raws, heads, n_d, n_h = {}, {}, {}, 1, 1
     for cid in cands:
-        c = next(x for x in out["conflicts"] if x["id"] == cid)
-        pts, raw, mine = wwboil.build_panel(c, items, src, now, gdelt=BOIL_GDELT, first_id=n_d)
+        c = byid[cid]
+        pts, raw, mine = wwboil.build_panel(c, items, src, now, series.get(cid), first_id=n_d)
         n_d += len(pts)
         parties = {wwdata.iso(p) for p in c.get("parties") or []} - {""}
         hs = []
@@ -649,9 +651,11 @@ def main():
         t = today(); cands, scores = wwboil.candidates(feed, feed.get("boil") or [], t, LISTS.get("nuclear_states", []))
         print(f"candidates: {[(c, scores[c]) for c in cands]}")
         src, n = wwboil.Sources(t), 1
+        byid = {x["id"]: x for x in feed["conflicts"]}
+        series = wwboil.gdelt_prefetch({cid: wwboil.hotspot_query(byid[cid]) for cid in cands}, budget_s=600) if BOIL_GDELT else {}
         for cid in cands:
-            c = next(x for x in feed["conflicts"] if x["id"] == cid)
-            pts, raw, mine = wwboil.build_panel(c, CORPUS.get("items") or [], src, int(time.time()), gdelt=BOIL_GDELT, first_id=n)
+            c = byid[cid]
+            pts, raw, mine = wwboil.build_panel(c, CORPUS.get("items") or [], src, int(time.time()), series.get(cid), first_id=n)
             n += len(pts)
             print(f"\n== {cid}: {len(mine)} headlines in 48 h")
             for d in pts: print(f"  {d['id']} [{d['kind']}] {d['text']}")
