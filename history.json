@@ -1,0 +1,365 @@
+{
+"days": [
+{
+"date": "2026-11-03",
+"gti": 63,
+"parts": {
+"R": 63
+},
+"hotspots": {
+"russia-ukraine-war": [
+"red",
+"escalating",
+"direct",
+1,
+0,
+0
+],
+"black-sea-shipping-attacks": [
+"red",
+"escalating",
+"direct",
+1,
+0,
+0
+],
+"russia-nato-eastern-flank-kaliningrad": [
+"yellow",
+"escalating",
+"direct",
+0,
+0,
+0
+],
+"moldova-drone-spillover-transnistria": [
+"yellow",
+"escalating",
+"indirect",
+0,
+0,
+0
+],
+"us-israel-iran-war": [
+"red",
+"escalating",
+"direct",
+1,
+0,
+0
+],
+"yemen-houthi-saudi-war": [
+"red",
+"escalating",
+"direct",
+1,
+0,
+0
+],
+"israel-hamas-gaza": [
+"yellow",
+"steady",
+"indirect",
+0,
+0,
+0
+],
+"israel-hezbollah-lebanon": [
+"yellow",
+"steady",
+"indirect",
+0,
+0,
+0
+],
+"west-bank-settler-violence": [
+"yellow",
+"steady",
+"indirect",
+0,
+0,
+0
+],
+"iraq-militias-us-exit": [
+"yellow",
+"steady",
+"direct",
+0,
+0,
+0
+],
+"syria-instability": [
+"yellow",
+"steady",
+"direct",
+0,
+0,
+0
+],
+"sudan-civil-war": [
+"red",
+"escalating",
+"indirect",
+0,
+0,
+0
+],
+"ethiopia-tigray-eritrea": [
+"red",
+"steady",
+"indirect",
+0,
+0,
+0
+],
+"somalia-al-shabaab": [
+"red",
+"escalating",
+"direct",
+1,
+0,
+0
+],
+"drc-east-m23": [
+"red",
+"steady",
+"indirect",
+0,
+0,
+0
+],
+"mali-jnim-insurgency": [
+"red",
+"steady",
+"indirect",
+0,
+0,
+0
+],
+"burkina-niger-sahel": [
+"yellow",
+"steady",
+"indirect",
+0,
+0,
+0
+],
+"nigeria-lake-chad-jihadists": [
+"yellow",
+"steady",
+"direct",
+0,
+0,
+0
+],
+"south-sudan-conflict": [
+"yellow",
+"steady",
+"indirect",
+0,
+0,
+0
+],
+"mozambique-cabo-delgado": [
+"yellow",
+"escalating",
+"indirect",
+0,
+0,
+0
+],
+"chad-car-border": [
+"yellow",
+"escalating",
+"low",
+0,
+0,
+0
+],
+"china-taiwan-pressure": [
+"yellow",
+"escalating",
+"direct",
+0,
+0,
+0
+],
+"south-china-sea-philippines": [
+"yellow",
+"escalating",
+"direct",
+0,
+0,
+0
+],
+"china-japan-east-china-sea": [
+"yellow",
+"escalating",
+"direct",
+0,
+0,
+0
+],
+"korean-peninsula": [
+"yellow",
+"escalating",
+"direct",
+0,
+0,
+0
+],
+"pakistan-afghanistan-border-war": [
+"red",
+"steady",
+"indirect",
+0,
+0,
+0
+],
+"pakistan-balochistan-kp-insurgency": [
+"red",
+"escalating",
+"indirect",
+0,
+0,
+0
+],
+"myanmar-civil-war": [
+"red",
+"escalating",
+"indirect",
+0,
+0,
+0
+],
+"haiti-gang-war": [
+"red",
+"escalating",
+"indirect",
+0,
+0,
+0
+],
+"colombia-eln-catatumbo": [
+"yellow",
+"escalating",
+"indirect",
+0,
+0,
+0
+],
+"mexico-cartel-war": [
+"yellow",
+"steady",
+"direct",
+0,
+0,
+0
+],
+"us-boat-strikes-caribbean-pacific": [
+"yellow",
+"steady",
+"direct",
+0,
+0,
+0
+],
+"ecuador-gang-conflict": [
+"yellow",
+"steady",
+"direct",
+0,
+0,
+0
+],
+"us-cuba-pressure": [
+"yellow",
+"steady",
+"direct",
+0,
+0,
+0
+]
+},
+"names": {
+"russia-ukraine-war": "Russia–Ukraine war",
+"black-sea-shipping-attacks": "Black Sea shipping att",
+"russia-nato-eastern-flank-kaliningrad": "Russia–NATO tension: P",
+"moldova-drone-spillover-transnistria": "Moldova drone spillove",
+"us-israel-iran-war": "US/Israel–Iran war & S",
+"yemen-houthi-saudi-war": "Yemen war: Houthis vs ",
+"israel-hamas-gaza": "Israel–Hamas: Gaza cea",
+"israel-hezbollah-lebanon": "Israel–Hezbollah: sout",
+"west-bank-settler-violence": "West Bank settler viol",
+"iraq-militias-us-exit": "Iraq: Iran-aligned mil",
+"syria-instability": "Syria: Israeli incursi",
+"sudan-civil-war": "Sudan civil war (SAF v",
+"ethiopia-tigray-eritrea": "Ethiopia: Tigray war a",
+"somalia-al-shabaab": "Somalia: al-Shabaab in",
+"drc-east-m23": "Eastern DR Congo: M23/",
+"mali-jnim-insurgency": "Mali: JNIM and rebel w",
+"burkina-niger-sahel": "Burkina Faso and Niger",
+"nigeria-lake-chad-jihadists": "Nigeria and Lake Chad:",
+"south-sudan-conflict": "South Sudan: Kiir vs M",
+"mozambique-cabo-delgado": "Mozambique: Cabo Delga",
+"chad-car-border": "Chad–CAR border tensio",
+"china-taiwan-pressure": "China–Taiwan military ",
+"south-china-sea-philippines": "South China Sea: China",
+"china-japan-east-china-sea": "China–Japan: Senkakus ",
+"korean-peninsula": "Korean Peninsula: miss",
+"pakistan-afghanistan-border-war": "Pakistan–Afghanistan b",
+"pakistan-balochistan-kp-insurgency": "Pakistan insurgencies:",
+"myanmar-civil-war": "Myanmar civil war",
+"haiti-gang-war": "Haiti gang war",
+"colombia-eln-catatumbo": "Colombia: ELN and FARC",
+"mexico-cartel-war": "Mexico cartel wars and",
+"us-boat-strikes-caribbean-pacific": "US strikes on alleged ",
+"ecuador-gang-conflict": "Ecuador's war on narco",
+"us-cuba-pressure": "US-Cuba confrontation"
+},
+"signals": [
+{
+"id": "the-gulf-s-two-sea-chokepoints-are-both-under-thre",
+"direction": "escalating",
+"keys": 4,
+"regions": 3
+},
+{
+"id": "russia-s-war-is-spilling-onto-nato-s-edge",
+"direction": "escalating",
+"keys": 3,
+"regions": 2
+},
+{
+"id": "ukraine-talks-and-record-strikes-are-happening-at-",
+"direction": "mixed",
+"keys": 3,
+"regions": 3
+},
+{
+"id": "china-is-pressing-three-us-allies-at-the-same-time",
+"direction": "escalating",
+"keys": 3,
+"regions": 2
+},
+{
+"id": "drones-have-become-the-main-killer-in-many-of-thes",
+"direction": "escalating",
+"keys": 3,
+"regions": 3
+},
+{
+"id": "africa-s-biggest-wars-have-no-working-peace-talks",
+"direction": "escalating",
+"keys": 3,
+"regions": 3
+},
+{
+"id": "in-the-americas-us-military-power-is-the-common-th",
+"direction": "steady",
+"keys": 3,
+"regions": 2
+}
+]
+}
+]
+}

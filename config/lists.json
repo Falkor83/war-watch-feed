@@ -1,0 +1,7 @@
+{
+ "about": "Fixed lists used by the world tension index. nuclear_states: states with nuclear weapons. us_treaty_allies: NATO members plus the US's Asia-Pacific mutual-defence treaty partners (Rio Treaty left out: rarely invoked). Checked 2026-11-03.",
+ "nuclear_states": ["US", "RU", "CN", "GB", "FR", "IN", "PK", "KP", "IL"],
+ "us_treaty_allies": ["CA", "GB", "FR", "DE", "IT", "ES", "PT", "NL", "BE", "LU", "DK", "NO", "IS", "PL", "CZ", "SK", "HU", "RO", "BG", "EE", "LV", "LT", "SI", "HR", "AL", "ME", "MK", "GR", "TR", "FI", "SE", "JP", "KR", "AU", "PH", "TH"],
+ "cyber_sectors": ["food", "water", "power", "telecom", "health", "transport", "government", "finance", "industry", "defense"],
+ "official_cyber_sources": ["cisa.gov", "fbi.gov", "ic3.gov", "cert.ssi.gouv.fr", "cyber.gouv.fr", "ncsc.gov.uk", "bsi.bund.de", "defense.gov", "state.gov"]
+}

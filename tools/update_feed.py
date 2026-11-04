@@ -1,99 +1,241 @@
 #!/usr/bin/env python3
 """
-War Watch daily ratings: asks Claude (with web search) what changed in the world's wars and armed conflicts, merges
-the answer into feed.json, checks the result and writes it only if it passes. Standard library only.
+War Watch ratings (feed schema 2). Claude researches the world's wars and cyber/sabotage attacks; Python checks and
+scores everything before feed.json changes. Standard library only.
 
-  python3 tools/update_feed.py daily     # Sonnet searches the last ~48 h, Opus writes the patch and the analysis
-  python3 tools/update_feed.py weekly    # per region: Sonnet re-researches, Opus rebuilds the region; then Opus's big picture
+  python3 tools/update_feed.py daily     # Sonnet searches (notes), Opus decides from the notes only
+  python3 tools/update_feed.py weekly    # Sundays: every region re-researched, then the daily decision over all notes
   python3 tools/update_feed.py check     # only validate feed.json
+  python3 tools/update_feed.py migrate   # one-off: schema 1 -> 2 without any API call
 
-Cost (measured 2026-11-04): the first daily run with 18 searches used 371k input tokens, about $1.07, because each
-search round re-sends the growing context. Now: Sonnet does the searching (10 a day, 7 per region on Sundays) and Opus
-only reads Sonnet's notes (no searching), so Opus's judgment costs little. Expect roughly $0.70 a day and $4 on Sundays,
-about $30-35 a month; cyber and sabotage tracking (next) adds about $4. Cap $50 (raised from $40 on 2026-11-03, approved by Matt).
-Spending cap: budget.json keeps an estimate of this month's spend from the API's own usage numbers; a run that would
-start above MONTHLY_CAP_USD is skipped. Prints [STEP]/[OK]/[WARN]/[ERROR]. Never prints the API key.
+How trust is kept (design: claude/war-watch-review-2026-11-03/analysis.md in Matt's AI Projects):
+- Notes may only carry URLs the search tool really returned. Outlet, country, region and media type come from
+  outlets.json by domain, not from the model. Each note gets an independence key: five reprints of one AP story, or
+  ten outlets relaying one ministry statement, are one source. A warring side's own media is "X says", never agreement.
+- The analyst cites note IDs only. Python fills in every source and counts every number the app shows (independent
+  sources, regions, the 0-5 evidence meter, confidence caps, tripwire states, the world tension index).
+- Figures in analysis text must appear in a cited note, or the sentence is removed.
+- A severity or US-impact change needs 2 independent sources, at least one not from a party to the fighting.
+- Hotspots are only removed by a sourced "ended" call in the Sunday review; at most 6 at once.
+
+Cost (Batch API, half price): about $0.60 a day and $3 on Sundays, about $25-30 a month; cap $35 (WW_MONTHLY_CAP_USD).
+History of the cap: $40, raised to $50 on 2026-11-03 (Matt approved, for cyber tracking), then lowered to $35 the same
+night because Matt is moving back to the $100/month plan and everything on his API credits must stay under $100. A run that would pass the cap is skipped and the app is told
+("paused"); the workflow then fails so GitHub emails. Prints [STEP]/[OK]/[WARN]/[ERROR]. Never prints the API key.
 """
-import json, os, re, sys, time, datetime, urllib.request, urllib.error
+import json, os, re, sys, datetime, calendar
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import wwapi, wwdata, wwscore
+from wwapi import step, ok, warn, err, save_json, MONTHLY_CAP_USD
 
-API = "https://api.anthropic.com/v1/messages"
-# Two stages: Sonnet runs the web searches (where the tokens pile up) and writes compact research notes; Opus reads only
-# those notes, with no searching, and makes the calls: severity, trend, US impact, outlook and the cross-country analysis.
 GATHER_MODEL = os.environ.get("WW_GATHER_MODEL", "claude-sonnet-5-5")
 ANALYST_MODEL = os.environ.get("WW_ANALYST_MODEL", "claude-opus-5-5")
-DAILY_MODEL = GATHER_MODEL      # kept for older log lines
-SEARCH_TOOL = os.environ.get("WW_SEARCH_TOOL", "web_search_20250305")
-MONTHLY_CAP_USD = float(os.environ.get("WW_MONTHLY_CAP_USD", "50"))
-# USD per million tokens (input, output) and per search; from platform.claude.com/docs/en/about-claude/pricing (Nov 2026).
-PRICES = {"claude-sonnet-5-5": (2.0, 10.0), "claude-opus-5-5": (4.0, 20.0), "claude-haiku-5-5": (1.0, 5.0)}
-SEARCH_USD = 0.01
 REGIONS = ["Europe", "Middle East", "Africa", "Asia-Pacific", "Americas"]
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FEED = os.path.join(ROOT, "feed.json")
-BUDGET = os.path.join(ROOT, "budget.json")
+ROOT = wwapi.ROOT
+FEED, HISTORY, OUTLOOKS = (os.path.join(ROOT, f) for f in ("feed.json", "history.json", "outlooks.json"))
+NOTES_DIR = os.path.join(ROOT, "notes")
+SEV = {"red", "yellow"}; TREND = {"escalating", "steady", "de-escalating"}; LEVEL = {"direct", "indirect", "low"}
+CHANNELS = {"troops", "treaty", "energy", "shipping", "trade", "chips", "cyber", "nuclear", "migration", "citizens", "homeland", "aid"}
+TYPES = {"interstate war", "civil war", "insurgency", "criminal violence", "standoff"}
+US_STATUS = {"hit_in_us", "suspected_in_us", "same_tech_in_us", "no_known_link"}
+ACTOR_CONF = {"claimed", "suspected", "attributed", "unknown"}
+MAX_WATCH = 6
 
-def step(m): print(f"[STEP] {m}", flush=True)
-def ok(m): print(f"[OK] {m}", flush=True)
-def warn(m): print(f"[WARN] {m}", flush=True)
-def err(m): print(f"[ERROR] {m}", flush=True)
-
-def now_iso(): return datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 def today(): return datetime.date.today().isoformat()
+def read(p): return open(p, encoding="utf-8").read()
+def load(p, default=None):
+    try: return json.load(open(p, encoding="utf-8"))
+    except (OSError, ValueError): return default
+LISTS = load(os.path.join(ROOT, "config", "lists.json"), {})
+def prompt(name): return read(os.path.join(ROOT, "prompt", name))
 
-# ---------- budget ----------
-def load_budget():
-    month = today()[:7]
-    try: b = json.load(open(BUDGET))
-    except Exception: b = {}
-    if b.get("month") != month: b = {"month": month, "usd": 0.0, "runs": []}
-    return b
+# ---------- keywords ----------
+KW_BLOCK = {"doha", "sofia", "patriot", "turkey", "us embassy", "washington", "white house", "pentagon", "rama", "fla",
+            "nato", "un", "eu", "president", "minister", "army", "military", "war", "attack", "strike", "talks"}
+KW_ACRONYMS_OK = {"IDF", "RSF", "M23", "TTP", "SDF", "PKK", "ADF", "BLA", "PLA", "SAF", "ISW", "FDLR", "IRGC", "DPRK",
+                  "JNIM", "ISIS", "ISWAP", "NPA", "ELN", "CJNG", "HTS", "TPLF", "AFC"}
 
-def add_cost(b, model, usage, label):
-    pin, pout = PRICES.get(model, (4.0, 20.0))
-    tin = usage.get("input_tokens", 0) + usage.get("cache_creation_input_tokens", 0) + usage.get("cache_read_input_tokens", 0)
-    tout = usage.get("output_tokens", 0)
-    searches = (usage.get("server_tool_use") or {}).get("web_search_requests", 0)
-    usd = tin / 1e6 * pin + tout / 1e6 * pout + searches * SEARCH_USD
-    b["usd"] = round(b["usd"] + usd, 4)
-    b["runs"] = (b.get("runs") or [])[-60:] + [{"at": now_iso(), "what": label, "model": model, "in": tin, "out": tout,
-                                                "searches": searches, "usd": round(usd, 4)}]
-    json.dump(b, open(BUDGET, "w"), indent=1)
-    ok(f"{label}: {tin} in / {tout} out tokens, {searches} searches, about ${usd:.2f} (month so far ${b['usd']:.2f} of ${MONTHLY_CAP_USD:.0f})")
+def keyword_ok(k):
+    k = str(k).strip()
+    if len(k) < 3 or len(k) > 60 or k.lower() in KW_BLOCK: return False
+    if re.fullmatch(r"[A-Z0-9]{2,4}", k) and k not in KW_ACRONYMS_OK: return False
+    return True
 
-# ---------- API ----------
-def call(model, system, user, max_uses, max_tokens):
-    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-    if not key: raise SystemExit("[ERROR] ANTHROPIC_API_KEY is not set (run Set-WarWatchSetup.cmd on the PC)")
-    messages = [{"role": "user", "content": user}]
-    total = {"input_tokens": 0, "output_tokens": 0, "server_tool_use": {"web_search_requests": 0}}
-    text = ""
-    for turn in range(6):                                   # pause_turn: send the paused turn back unchanged
-        body = {"model": model, "max_tokens": max_tokens, "system": system, "messages": messages}
-        if max_uses > 0: body["tools"] = [{"type": SEARCH_TOOL, "name": "web_search", "max_uses": max_uses}]
-        req = urllib.request.Request(API, data=json.dumps(body).encode(), method="POST", headers={
-            "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
-        for attempt in range(4):
-            try:
-                with urllib.request.urlopen(req, timeout=600) as r: resp = json.load(r); break
-            except urllib.error.HTTPError as e:
-                detail = e.read().decode(errors="replace")[:400]
-                if e.code in (429, 500, 502, 503, 529) and attempt < 3:
-                    warn(f"API {e.code}, retrying in {20 * (attempt + 1)} s"); time.sleep(20 * (attempt + 1)); continue
-                raise SystemExit(f"[ERROR] API {e.code}: {detail}")
-        u = resp.get("usage") or {}
-        total["input_tokens"] += u.get("input_tokens", 0) + u.get("cache_read_input_tokens", 0) + u.get("cache_creation_input_tokens", 0)
-        total["output_tokens"] += u.get("output_tokens", 0)
-        total["server_tool_use"]["web_search_requests"] += (u.get("server_tool_use") or {}).get("web_search_requests", 0)
-        text += "".join(b.get("text", "") for b in resp.get("content", []) if b.get("type") == "text")
-        if resp.get("stop_reason") == "pause_turn":
-            messages = messages + [{"role": "assistant", "content": resp["content"]}]
-            continue
-        if resp.get("stop_reason") == "max_tokens": warn("answer hit max_tokens; it may be cut off")
-        break
-    return text, total
+def kwlist(xs, n):
+    out = []
+    for k in xs or []:
+        if isinstance(k, str) and keyword_ok(k) and k not in out: out.append(k.strip())
+    return out[:n]
+
+# ---------- hotspots ----------
+def region_for(lat, lon):
+    if lon < -30: return "Americas"
+    if lon > 60 or (lat < 0 and lon > 100): return "Asia-Pacific"
+    if lat < 15 or (lat < 33 and lon < 33 and lon > -20): return "Africa"
+    if lon > 34 and lat < 42: return "Middle East"
+    return "Europe"
+
+def to_latest(notes):
+    return [{"date": n["date"], "text": n["fact"][:400], "outlet": n["outlet"][:60],
+             "country": wwdata.country_name(n["home"]) if n["home"] else "", "url": n["url"],
+             "region": n["region"], "tag": n["tag"], "state_media": n["media"] in ("state-controlled", "state-funded") and n["tag"] == "party-gov"}
+            for n in sorted(notes, key=lambda n: n["date"], reverse=True)]
+
+def clean_conflict(c):
+    """A hotspot as stored (schema 2). Raises ValueError with the reason."""
+    if not isinstance(c, dict): raise ValueError("not an object")
+    cid = re.sub(r"[^a-z0-9-]+", "-", str(c.get("id", "")).lower()).strip("-")[:80]
+    if not cid: raise ValueError("no id")
+    try: lat, lon = float(c["lat"]), float(c["lon"])
+    except (KeyError, TypeError, ValueError): raise ValueError(f"{cid}: no usable lat/lon")
+    if not (-60 <= lat <= 75 and -180 <= lon <= 180): raise ValueError(f"{cid}: coordinates out of range")
+    sev = str(c.get("severity", "")).lower()
+    if sev not in SEV: raise ValueError(f"{cid}: severity {sev!r}")
+    ui = c.get("us_impact") if isinstance(c.get("us_impact"), dict) else {}
+    level = str(ui.get("level", "")).lower()
+    if level not in LEVEL: raise ValueError(f"{cid}: us level {level!r}")
+    latest = []
+    for dd in c.get("latest") or []:
+        if not isinstance(dd, dict): continue
+        url = str(dd.get("url", ""))
+        if not url.startswith("https://") or not dd.get("text") or wwdata.blocked(url): continue
+        latest.append({"date": str(dd.get("date", ""))[:10], "text": str(dd["text"])[:400], "outlet": str(dd.get("outlet", ""))[:60],
+                       "country": str(dd.get("country", ""))[:40], "url": url[:500], "region": str(dd.get("region", ""))[:20],
+                       "tag": str(dd.get("tag", ""))[:12], "state_media": bool(dd.get("state_media", False))})
+    seen, uniq = set(), []
+    for dd in sorted(latest, key=lambda x: x["date"], reverse=True):
+        if wwapi.norm_url(dd["url"]) in seen: continue
+        seen.add(wwapi.norm_url(dd["url"])); uniq.append(dd)
+    if len(uniq) < 2: raise ValueError(f"{cid}: fewer than 2 sourced developments")
+    region = str(c.get("region", ""))
+    if region not in REGIONS: region = region_for(lat, lon)
+    keywords = kwlist(c.get("keywords"), 40)
+    anchors = kwlist(c.get("anchors"), 25)
+    context = kwlist(c.get("context"), 25)
+    watch = c.get("us_watch") if isinstance(c.get("us_watch"), dict) and c["us_watch"].get("why") else None
+    vd = c.get("week_verdict") if isinstance(c.get("week_verdict"), dict) else None
+    out = {
+        "id": cid, "name": str(c.get("name", ""))[:80], "short_name": str(c.get("short_name") or c.get("name", ""))[:22],
+        "region": region, "countries": [str(x)[:40] for x in (c.get("countries") or [])][:12],
+        "parties": [str(x)[:40] for x in (c.get("parties") or [])][:10], "interstate": bool(c.get("interstate", False)),
+        "type": str(c.get("type", "")).lower() if str(c.get("type", "")).lower() in TYPES else "",
+        "reason": str(c.get("reason", ""))[:160],
+        "lat": round(lat, 1), "lon": round(lon, 1), "severity": sev,
+        "trend": str(c.get("trend", "steady")).lower() if str(c.get("trend", "")).lower() in TREND else "steady",
+        "status": str(c.get("status", ""))[:120], "summary": str(c.get("summary", ""))[:2400], "latest": uniq[:8],
+        "us_impact": {"level": level, "channels": [x for x in (ui.get("channels") or []) if x in CHANNELS],
+                      "text": str(ui.get("text", ""))[:1200]},
+        "us_watch": {"why": str(watch["why"])[:200]} if watch else None, "rank": int(c["rank"]) if str(c.get("rank", "")).isdigit() else None,
+        "watch": str(c.get("watch", ""))[:400],
+        "keywords": keywords, "anchors": anchors, "context": context, "exclude": kwlist(c.get("exclude"), 12),
+        "confidence": str(c.get("confidence", "medium")).lower()[:10], "as_of": str(c.get("as_of", today()))[:10],
+        "outlook": str(c.get("outlook", ""))[:500], "consensus": str(c.get("consensus", ""))[:500],
+        "week_verdict": {"verdict": vd.get("verdict"), "why": str(vd.get("why", ""))[:200], "date": str(vd.get("date", ""))[:10]}
+                        if vd and vd.get("verdict") in ("deteriorated", "improved", "unchanged") else None,
+        "spark": [int(x) for x in (c.get("spark") or []) if str(x) in ("0", "1", "2")][-28:],
+    }
+    if len(out["name"]) < 3 or len(out["status"]) < 10 or len(out["summary"]) < 120 or len(out["us_impact"]["text"]) < 40:
+        raise ValueError(f"{cid}: name/status/summary/US text too short")
+    if len(out["keywords"] + out["anchors"]) < 5 or not any(k[:1].isupper() or re.search(r"[A-Z]", k) for k in out["keywords"] + out["anchors"]):
+        raise ValueError(f"{cid}: needs 5+ keywords with at least one proper name")
+    return out
+
+def clean_cyber(x, notes_by_id, old=None):
+    if not isinstance(x, dict): raise ValueError("not an object")
+    cid = re.sub(r"[^a-z0-9-]+", "-", str(x.get("id", "")).lower()).strip("-")[:60]
+    if not cid: raise ValueError("no id")
+    places = []
+    for p in x.get("places") or []:
+        try:
+            lat, lon = float(p["lat"]), float(p["lon"])
+            if -60 <= lat <= 75 and -180 <= lon <= 180: places.append({"name": str(p.get("name", ""))[:40], "lat": round(lat, 1), "lon": round(lon, 1)})
+        except (KeyError, TypeError, ValueError, AttributeError): pass
+    ns = [notes_by_id[i] for i in (x.get("notes") or []) if i in notes_by_id]
+    sources = to_latest(ns) + [s for s in (old or {}).get("sources", []) if s["url"] not in {n["url"] for n in ns}]
+    official = set(LISTS.get("official_cyber_sources", []))
+    advisories = [{"title": s["outlet"], "url": s["url"]} for s in sources if any(wwdata.host(s["url"]).endswith(o) for o in official)]
+    actor = x.get("actor") if isinstance(x.get("actor"), dict) else {}
+    out = {"id": cid, "title": str(x.get("title", ""))[:120], "date": str(x.get("date", ""))[:10],
+           "updated": today() if ns else (old or {}).get("updated", today()),
+           "places": places[:8], "sector": str(x.get("sector", "")).lower() if str(x.get("sector", "")).lower() in LISTS.get("cyber_sectors", []) else "industry",
+           "method": str(x.get("method", ""))[:240], "summary": str(x.get("summary", ""))[:900],
+           "actor": {"name": str(actor.get("name", "unknown"))[:80], "confidence": actor.get("confidence") if actor.get("confidence") in ACTOR_CONF else "unknown"},
+           "us_status": x.get("us_status") if x.get("us_status") in US_STATUS else "no_known_link",
+           "us_why": str(x.get("us_why", ""))[:500], "what_to_watch": str(x.get("what_to_watch", ""))[:240],
+           "sources": sources[:8], "advisories": advisories[:4]}
+    if len(out["title"]) < 8 or not places or len(out["sources"]) < 1 or len(out["us_why"]) < 30: raise ValueError(f"cyber {cid}: incomplete")
+    return out
+
+# ---------- compact views for the model ----------
+def hotspot_table(feed, region=None, with_sources=False):
+    rows = ["id|name|region|severity|trend|us_level|watch|type|parties|status|tripwires"]
+    tws = {}
+    for tw in feed.get("tripwires", []): tws.setdefault(tw["hotspot"], []).append(f'{tw["id"]}:{tw["kind"]}:{tw["status"]}:{tw["text"]}')
+    for c in feed["conflicts"]:
+        if region and c.get("region") != region: continue
+        rows.append("|".join(str(x) for x in (c["id"], c["name"], c["region"], c["severity"], c["trend"], c["us_impact"]["level"],
+                    "!" if c.get("us_watch") else "", c.get("type", ""), ",".join(c.get("parties", [])), c["status"], " ; ".join(tws.get(c["id"], [])))))
+        if with_sources:
+            for dd in c["latest"][:3]: rows.append(f'   {dd["date"]} {dd["outlet"]}: {dd["text"][:160]}')
+    return "\n".join(rows)
+
+def notes_table(notes):
+    rows = ["id|date|hotspot|outlet|region|tag|source_key|event|stance|fact"]
+    for n in notes:
+        rows.append("|".join(str(x) for x in (n["id"], n["date"], n["hotspot"], n["outlet"], n["region"], n["tag"], n["key"],
+                                              n["event"], n["stance"], n["fact"])))
+    return "\n".join(rows)
+
+def signals_table(feed):
+    rows = ["id|title|direction|independent_sources|non_party_regions|first_seen"]
+    for s in feed.get("signals", []):
+        st = s.get("stats") or {}
+        rows.append(f'{s.get("id", "")}|{s["title"]}|{s["direction"]}|{st.get("keys_all", "?")}|{st.get("regions_np", "?")}|{s.get("first_seen", "")}')
+    return "\n".join(rows)
+
+def cyber_table(feed):
+    rows = ["id|title|date|sector|us_status|actor"]
+    for x in feed.get("cyber", []): rows.append(f'{x["id"]}|{x["title"]}|{x["date"]}|{x["sector"]}|{x["us_status"]}|{x["actor"]["name"]} ({x["actor"]["confidence"]})')
+    return "\n".join(rows)
+
+def parties_map(feed):
+    return {c["id"]: wwdata.parties_iso(c.get("parties")) for c in feed["conflicts"]}
+
+def blocked_domains(): return sorted(wwdata.registry()["blocked"])
+
+# ---------- stages ----------
+def gather_requests(feed, focus_list, searches):
+    system = prompt("rules.md") + "\n\n" + prompt("gather.md")
+    reqs = []
+    for label, focus, region in focus_list:
+        user = (f"Today is {today()}. Focus: {focus}.\n\nCurrent hotspots:\n{hotspot_table(feed, region)}\n\n"
+                f"Current cyber/sabotage items:\n{cyber_table(feed)}\n\nSearch and return the research-notes JSON described in your instructions.")
+        reqs.append({"label": label, "model": GATHER_MODEL, "system": system, "user": user, "max_uses": searches,
+                     "max_tokens": 24000, "estimate": 0.4, "blocked_domains": blocked_domains()})
+    return reqs
+
+def parse_notes(text, label):
+    try:
+        got = wwapi_extract(text)
+        notes = got.get("findings") if isinstance(got, dict) else got
+    except ValueError:
+        notes = salvage_objects(text, "findings")
+        warn(f"{label}: notes were cut off; kept {len(notes)} complete ones")
+    return notes if isinstance(notes, list) else []
+
+def wwapi_extract(text):
+    blocks = re.findall(r"```(?:json)?\s*(.*?)```", text, re.S)
+    for cand in reversed(blocks):
+        try: return json.loads(cand)
+        except ValueError: pass
+    for o, c in (("{", "}"), ("[", "]")):
+        i, j = text.find(o), text.rfind(c)
+        if i != -1 and j > i:
+            try: return json.loads(text[i:j + 1])
+            except ValueError: pass
+    raise ValueError("no JSON in the answer")
 
 def salvage_objects(text, key):
-    """Complete {...} objects inside a (possibly cut-off) "key": [ ... ] list."""
     i = text.find(f'"{key}"')
     if i < 0: return []
     i = text.find("[", i)
@@ -107,78 +249,203 @@ def salvage_objects(text, key):
         out.append(obj)
     return out
 
-def extract_json(text):
-    """The last fenced ```json block, else the outermost {...} or [...]."""
-    blocks = re.findall(r"```(?:json)?\s*(.*?)```", text, re.S)
-    for cand in reversed(blocks):
-        try: return json.loads(cand)
-        except Exception: pass
-    for o, c in (("{", "}"), ("[", "]")):
-        i, j = text.find(o), text.rfind(c)
-        if i != -1 and j > i:
-            try: return json.loads(text[i:j + 1])
-            except Exception: pass
-    raise ValueError("no JSON in the answer")
+def collect_notes(results, feed, prefix="n"):
+    """Every gather answer -> one checked note list with IDs, archived to notes/YYYY-MM-DD.json."""
+    raw, seen_all = [], set()
+    for label, (text, seen) in results.items():
+        got = parse_notes(text, label)
+        if not seen: warn(f"{label}: no search results were visible; the URL check is skipped for its notes")
+        for n in got:
+            if isinstance(n, dict): n["_seen"] = bool(seen)
+        raw += got; seen_all |= seen
+    checked, dropped = [], {}
+    for n in raw:
+        one, dr = wwdata.clean_notes([n], seen_all if n.get("_seen") else set(), parties_map(feed), today(), prefix)
+        for k, v in dr.items(): dropped[k] = dropped.get(k, 0) + v
+        checked += one
+    seen_urls, notes = set(), []
+    for n in checked:                                       # same URL twice: keep the first
+        u = wwapi.norm_url(n["url"])
+        if u in seen_urls: continue
+        seen_urls.add(u); n["id"] = f"{prefix}{len(notes) + 1:02d}"; notes.append(n)
+    if any(dropped.values()): warn(f"notes dropped: {dropped}")
+    ok(f"{len(notes)} checked notes from {len({n['home'] for n in notes})} countries, {len({n['region'] for n in notes})} regions, "
+       f"{len({n['key'] for n in notes})} independent sources")
+    os.makedirs(NOTES_DIR, exist_ok=True)
+    path = os.path.join(NOTES_DIR, today() + ".json")
+    old = load(path, {"notes": []})
+    save_json(path, {"date": today(), "notes": old["notes"] + [wwdata.public_note(n) | {"event": n["event"], "claim_by": n["claim_by"]} for n in notes]}, indent=0)
+    for f in sorted(os.listdir(NOTES_DIR))[:-120]:          # keep 120 days
+        try: os.remove(os.path.join(NOTES_DIR, f))
+        except OSError: pass
+    return notes
+
+def analyst_request(feed, notes, label="daily analysis"):
+    system = prompt("rules.md") + "\n\n" + prompt("daily.md")
+    user = (f"Today is {today()}.\n\nHOTSPOTS\n{hotspot_table(feed)}\n\nYESTERDAY'S SIGNALS\n{signals_table(feed)}\n\n"
+            f"CYBER AND SABOTAGE ITEMS\n{cyber_table(feed)}\n\nUS OVERVIEW NOW\n{feed.get('us_overview', '')}\n\n"
+            f"NOTES gathered today (cite these IDs only)\n{notes_table(notes)}\n\nReturn the JSON described in your instructions.")
+    return {"label": label, "model": ANALYST_MODEL, "system": system, "user": user, "max_uses": 0, "max_tokens": 20000, "estimate": 0.3}
+
+def gate_change(old, merged, ns, log):
+    """Severity / US-level changes need 2 independent sources with at least one not a party's own account."""
+    keys = {n["key"] for n in ns}
+    nonparty = any(n["tag"] != "party-gov" for n in ns)
+    for field, get in (("severity", lambda c: c["severity"]), ("US level", lambda c: c["us_impact"]["level"])):
+        if get(old) != get(merged) and (len(keys) < 2 or not nonparty):
+            log(f"{old['id']}: {field} change {get(old)} -> {get(merged)} refused (needs 2 independent sources, one not a party's own)")
+            if field == "severity": merged["severity"] = old["severity"]
+            else: merged["us_impact"]["level"] = old["us_impact"]["level"]
+
+def merge_analysis(feed, patch, notes, history, mode="daily"):
+    """Apply the analyst's answer under the rules. Returns (new feed, list of changes)."""
+    if not isinstance(patch, dict): raise ValueError("the analyst's answer is not a JSON object")
+    t = today(); log = warn
+    nb = {n["id"]: n for n in notes}
+    byid = {c["id"]: json.loads(json.dumps(c)) for c in feed["conflicts"]}
+    changed = []
+    for u in patch.get("updates") or []:
+        if not isinstance(u, dict) or u.get("id") not in byid: log(f"update for unknown id {u.get('id') if isinstance(u, dict) else u!r} skipped"); continue
+        cid = u["id"]; old = byid[cid]; merged = json.loads(json.dumps(old))
+        for k in ("severity", "trend", "status", "summary", "watch", "confidence", "lat", "lon", "outlook", "consensus",
+                  "reason", "type", "short_name", "parties", "interstate", "anchors", "context", "exclude"):
+            if k in u and u[k] not in (None, "", []): merged[k] = u[k]
+        if isinstance(u.get("us_impact"), dict): merged["us_impact"] = {**merged["us_impact"], **{k: v for k, v in u["us_impact"].items() if v}}
+        ns = [nb[x] for x in (u.get("notes") or []) if x in nb]
+        if ns:
+            have = {wwapi.norm_url(dd["url"]) for dd in merged["latest"]}
+            merged["latest"] = [dd for dd in to_latest(ns) if wwapi.norm_url(dd["url"]) not in have] + merged["latest"]
+        if isinstance(u.get("add_keywords"), list): merged["keywords"] = kwlist(u["add_keywords"] + merged["keywords"], 40)
+        if isinstance(u.get("week_verdict"), dict):
+            vn = [nb[x] for x in (u["week_verdict"].get("notes") or []) if x in nb]
+            if vn: merged["week_verdict"] = {"verdict": u["week_verdict"].get("verdict"), "why": u["week_verdict"].get("why", ""), "date": t}
+        gate_change(old, merged, ns, log)
+        merged["as_of"] = t
+        try: byid[cid] = clean_conflict(merged); changed.append(cid)
+        except ValueError as e: log(f"update {cid} refused: {e}")
+    for n in patch.get("new") or []:
+        if not isinstance(n, dict): continue
+        ns = [nb[x] for x in (n.get("notes") or []) if x in nb]
+        n = dict(n); n["latest"] = to_latest(ns); n["as_of"] = t
+        if len({x["key"] for x in ns}) < 2: log(f"new {n.get('id')}: needs 2 independent sources; refused"); continue
+        try:
+            c = clean_conflict(n)
+            if c["id"] in byid: log(f"new {c['id']} already exists; skipped"); continue
+            byid[c["id"]] = c; changed.append(c["id"] + " (new)")
+        except ValueError as e: log(f"new hotspot refused: {e}")
+    for e in patch.get("ended") or []:
+        if mode != "weekly" or not isinstance(e, dict) or e.get("id") not in byid: continue
+        ns = [nb[x] for x in (e.get("notes") or []) if x in nb]
+        if not ns: log(f"ended {e.get('id')}: no note backs it; kept"); continue
+        del byid[e["id"]]; changed.append(f"{e['id']} (ended: {str(e.get('why', ''))[:80]})")
+    # the "!" list: at most 6, each with a reason
+    wl = patch.get("watch_list")
+    if isinstance(wl, list) and wl:
+        picks = [w for w in wl if isinstance(w, dict) and w.get("id") in byid and len(str(w.get("why", ""))) >= 20][:MAX_WATCH]
+        if picks:
+            for c in byid.values(): c["us_watch"] = None
+            for w in picks: byid[w["id"]]["us_watch"] = {"why": str(w["why"])[:200]}
+            changed.append(f"watch list ({len(picks)})")
+    if not any(c.get("us_watch") for c in byid.values()):    # fallback: red and direct
+        for c in byid.values():
+            if c["severity"] == "red" and c["us_impact"]["level"] == "direct":
+                c["us_watch"] = {"why": "Red and rated direct US impact."}
+    rank = [x for x in (patch.get("rank") or []) if x in byid]
+    if len(rank) >= 5:
+        for c in byid.values(): c["rank"] = None
+        for i, x in enumerate(dict.fromkeys(rank)): byid[x]["rank"] = i + 1
+    out = dict(feed); out["schema"] = 2; out["conflicts"] = list(byid.values()); ids = set(byid)
+    # overview, brief
+    all_text_notes = notes + [{"fact": dd["text"]} for c in byid.values() for dd in c["latest"]]
+    if len(str(patch.get("us_overview", ""))) >= 80:
+        txt, _ = wwscore.drop_unsupported_sentences(str(patch["us_overview"])[:1200], all_text_notes)
+        if len(txt) >= 80: out["us_overview"] = txt
+    pts = [str(p)[:200] for p in (patch.get("us_points") or []) if isinstance(p, str) and len(p) > 15]
+    pts = [p for p in pts if not wwscore.numbers_supported(p, all_text_notes)]
+    if len(pts) >= 2: out["us_points"] = pts[:4]
+    brief = [str(b)[:220] for b in (patch.get("brief") or []) if isinstance(b, str) and len(b) > 15]
+    brief = [b for b in brief if not wwscore.numbers_supported(b, all_text_notes)]
+    if brief: out["brief"] = {"date": t, "lines": brief[:3]}
+    # signals
+    prev = {s.get("id"): s for s in feed.get("signals", []) if s.get("id")}
+    sigs, seen = [], set()
+    for g in patch.get("signals") or []:
+        s = wwscore.score_signal(g, nb, prev, t, ids, log)
+        if s and s["id"] not in seen: sigs.append(s); seen.add(s["id"])
+    for sid, old in prev.items():                           # yesterday's points with no new evidence: fade out
+        if sid not in seen and old.get("stats"):
+            k = wwscore.carry_signal(old, t)
+            if k and set(k.get("conflicts", [])) & ids: sigs.append(k)
+    if sigs or not feed.get("signals"):
+        out["signals"] = sorted(sigs, key=lambda s: (s["status"] == "fading", -s["stats"]["dots"]))[:8]
+        changed.append(f"analysis ({len(out['signals'])} points)")
+    # frames, events
+    frames = [f for f in (wwscore.check_frame(f, nb, ids, t) for f in (patch.get("frames") or [])) if f]
+    old_frames = [f for f in feed.get("frames", []) if f.get("hotspot") in ids and wwscore.days_between(f.get("date", ""), t) <= 2
+                  and f["id"] not in {x["id"] for x in frames}]
+    out["frames"] = (frames + old_frames)[:5]
+    ev = [{"hotspot": e["hotspot"], "label": str(e.get("label", ""))[:80], "date": str(e.get("date", t))[:10],
+           "anchors": [str(a)[:30] for a in (e.get("anchors") or [])][:6]}
+          for e in (patch.get("events") or []) if isinstance(e, dict) and e.get("hotspot") in ids and e.get("anchors")]
+    out["events"] = (ev + [e for e in feed.get("events", []) if wwscore.days_between(e["date"], t) <= 3 and e["label"] not in {x["label"] for x in ev}])[:40]
+    # tripwires: define (weekly, or daily for hotspots that have none), update, decay
+    tws = {tw["id"]: dict(tw) for tw in feed.get("tripwires", []) if tw["hotspot"] in ids}
+    have = {tw["hotspot"] for tw in tws.values()}
+    for c in patch.get("updates") or []:
+        if isinstance(c, dict) and isinstance(c.get("tripwires"), list) and c.get("id") in ids and (mode == "weekly" or c["id"] not in have):
+            keep = {x.get("id") for x in c["tripwires"] if isinstance(x, dict) and x.get("id")}
+            for tid in [k for k, v in tws.items() if v["hotspot"] == c["id"] and k not in keep]: del tws[tid]
+            for x in c["tripwires"][:4]:
+                if not isinstance(x, dict) or x.get("kind") not in ("escalation", "easing") or len(str(x.get("text", ""))) < 10: continue
+                if x.get("id") in tws: tws[x["id"]]["text"] = str(x["text"])[:110]; continue
+                n = 1
+                while f"tw-{c['id']}-{n}" in tws: n += 1
+                tws[f"tw-{c['id']}-{n}"] = {"id": f"tw-{c['id']}-{n}", "hotspot": c["id"], "kind": x["kind"], "text": str(x["text"])[:110],
+                                            "status": "not_seen", "since": t, "evidence": []}
+    for x in patch.get("new_tripwires") or []:
+        if isinstance(x, dict) and x.get("hotspot") in ids and x.get("kind") in ("escalation", "easing") and len(str(x.get("text", ""))) >= 10 \
+                and sum(1 for v in tws.values() if v["hotspot"] == x["hotspot"]) < 4:
+            n = 1
+            while f"tw-{x['hotspot']}-{n}" in tws: n += 1
+            tws[f"tw-{x['hotspot']}-{n}"] = {"id": f"tw-{x['hotspot']}-{n}", "hotspot": x["hotspot"], "kind": x["kind"],
+                                             "text": str(x["text"])[:110], "status": "not_seen", "since": t, "evidence": []}
+    for upd in patch.get("tripwire_updates") or []:
+        if isinstance(upd, dict) and upd.get("id") in tws:
+            if wwscore.tripwire_update(tws[upd["id"]], upd, nb, t, log): changed.append(f"tripwire {upd['id']} {tws[upd['id']]['status']}")
+    for tw in tws.values(): wwscore.tripwire_decay(tw, t)
+    out["tripwires"] = sorted(tws.values(), key=lambda tw: (tw["hotspot"], tw["id"]))
+    # cyber and sabotage
+    cy = {x["id"]: x for x in feed.get("cyber", [])}
+    for x in patch.get("cyber") or []:
+        try:
+            item = clean_cyber(x, nb, cy.get(str(x.get("id", "")) if isinstance(x, dict) else ""))
+            cy[item["id"]] = item; changed.append(f"cyber {item['id']}")
+        except ValueError as e: log(f"cyber item refused: {e}")
+    out["cyber"] = sorted([x for x in cy.values() if wwscore.days_between(x["updated"], t) <= 45],
+                          key=lambda x: ({"hit_in_us": 0, "suspected_in_us": 1, "same_tech_in_us": 2}.get(x["us_status"], 3), x["date"]))[:12]
+    # outlooks for the track record
+    ol = load(OUTLOOKS, {"outlooks": []})
+    for o in patch.get("outlooks") or []:
+        if isinstance(o, dict) and o.get("hotspot") in ids and o.get("text") and re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(o.get("check_by", ""))):
+            ol["outlooks"].append({"made": t, "hotspot": o["hotspot"], "text": str(o["text"])[:300], "likelihood": str(o.get("likelihood", ""))[:30],
+                                   "check_by": o["check_by"], "basis": [nb[x]["url"] for x in (o.get("basis") or []) if x in nb][:4]})
+    ol["outlooks"] = ol["outlooks"][-400:]
+    save_json(OUTLOOKS, ol, indent=0)
+    out.pop("notes", None)                                   # sources travel inside each signal
+    return out, changed
+
+def finish(out, history):
+    """Python-only measures: tension index, history, spark lines, change log, week line."""
+    t = today()
+    out["tension"] = wwscore.tension(out["conflicts"], out.get("tripwires", []), LISTS, t, history)
+    history = wwscore.add_history(history, wwscore.history_row(out, t))
+    for c in out["conflicts"]: c["spark"] = wwscore.spark(history, c["id"])
+    out["changes"] = wwscore.changes(history, days=30)
+    out["week_line"] = wwscore.week_line(history, out, t)
+    out.pop("paused", None)
+    return out, history
 
 # ---------- validation ----------
-SEV = {"red", "yellow"}; TREND = {"escalating", "steady", "de-escalating"}; LEVEL = {"direct", "indirect", "low"}
-CHANNELS = {"troops", "treaty", "energy", "shipping", "trade", "chips", "cyber", "nuclear", "migration", "citizens", "homeland", "aid"}
-
-def clean_conflict(c):
-    """Returns a cleaned conflict or raises ValueError with the reason."""
-    if not isinstance(c, dict): raise ValueError("not an object")
-    cid = re.sub(r"[^a-z0-9-]+", "-", str(c.get("id", "")).lower()).strip("-")[:80]
-    if not cid: raise ValueError("no id")
-    try: lat, lon = float(c["lat"]), float(c["lon"])
-    except (KeyError, TypeError, ValueError): raise ValueError(f"{cid}: no usable lat/lon")
-    if not (-60 <= lat <= 75 and -180 <= lon <= 180): raise ValueError(f"{cid}: coordinates out of range")
-    sev = str(c.get("severity", "")).lower()
-    if sev not in SEV: raise ValueError(f"{cid}: severity {sev!r}")
-    ui = c.get("us_impact") or {}
-    level = str(ui.get("level", "")).lower()
-    if level not in LEVEL: raise ValueError(f"{cid}: us level {level!r}")
-    latest = []
-    for d in c.get("latest") or []:
-        url = str(d.get("url", ""))
-        if not url.startswith("https://") or not d.get("text"): continue
-        latest.append({"date": str(d.get("date", ""))[:10], "text": str(d["text"])[:400], "outlet": str(d.get("outlet", ""))[:60],
-                       "country": str(d.get("country", ""))[:40], "url": url[:500]})
-    latest.sort(key=lambda d: d["date"], reverse=True)
-    if len(latest) < 2: raise ValueError(f"{cid}: fewer than 2 sourced developments")
-    out = {
-        "id": cid, "name": str(c.get("name", ""))[:80], "region": str(c.get("region", "World"))[:40],
-        "countries": [str(x)[:40] for x in (c.get("countries") or [])][:12], "lat": round(lat, 1), "lon": round(lon, 1),
-        "severity": sev, "trend": str(c.get("trend", "steady")).lower() if str(c.get("trend", "")).lower() in TREND else "steady",
-        "status": str(c.get("status", ""))[:120], "summary": str(c.get("summary", ""))[:2400], "latest": latest[:6],
-        "us_impact": {"level": level, "channels": [x for x in (ui.get("channels") or []) if x in CHANNELS],
-                      "text": str(ui.get("text", ""))[:1200]},
-        "watch": str(c.get("watch", ""))[:400],
-        "keywords": [str(k)[:60] for k in (c.get("keywords") or []) if len(str(k)) >= 3][:30],
-        "confidence": str(c.get("confidence", "medium")).lower()[:10], "as_of": str(c.get("as_of", today()))[:10],
-        "outlook": str(c.get("outlook", ""))[:500], "consensus": str(c.get("consensus", ""))[:500],
-    }
-    if len(out["name"]) < 3 or len(out["status"]) < 10 or len(out["summary"]) < 120 or len(out["us_impact"]["text"]) < 40:
-        raise ValueError(f"{cid}: name/status/summary/US text too short")
-    if len(out["keywords"]) < 5 or not any(k[:1].isupper() for k in out["keywords"]):
-        raise ValueError(f"{cid}: needs 5+ keywords with at least one proper name")
-    return out
-
-def clean_signals(sigs, ids):
-    """The big-picture analysis: 3-8 points, each backed by 2+ countries' outlets and real https sources."""
-    out = []
-    for g in sigs or []:
-        if not isinstance(g, dict): continue
-        srcs = [{"date": str(d.get("date", ""))[:10], "outlet": str(d.get("outlet", ""))[:60], "country": str(d.get("country", ""))[:40],
-                 "url": str(d.get("url", ""))[:500]} for d in (g.get("sources") or []) if str(d.get("url", "")).startswith("https://")]
-        countries = [str(x)[:40] for x in (g.get("countries") or [])][:12]
-        conf = [x for x in (g.get("conflicts") or []) if x in ids]
-        title, detail = str(g.get("title", ""))[:140], str(g.get("detail", ""))[:1200]
-        if len(title) < 8 or len(detail) < 60 or len(countries) < 2 or not conf or not srcs: continue
-        out.append({"title": title, "detail": detail,
-                    "direction": g.get("direction") if g.get("direction") in ("escalating", "easing", "mixed", "steady") else "mixed",
-                    "confidence": str(g.get("confidence", "medium")).lower()[:10], "countries": countries, "conflicts": conf, "sources": srcs[:6]})
-    return out[:8]
-
 def validate_feed(feed, previous=None):
     cs = feed.get("conflicts") or []
     if len(cs) < 15: raise ValueError(f"only {len(cs)} hotspots (need 15+)")
@@ -189,175 +456,145 @@ def validate_feed(feed, previous=None):
         gone = set(c["id"] for c in previous["conflicts"]) - set(ids)
         if len(gone) > 6: raise ValueError(f"would remove {len(gone)} hotspots at once: {sorted(gone)}")
     if len(feed.get("us_overview", "")) < 80: raise ValueError("us_overview missing")
-    if len(clean_signals(feed.get("signals"), set(ids))) < 3: raise ValueError("fewer than 3 usable analysis points (signals)")
+    if len(feed.get("signals") or []) < 2: raise ValueError("fewer than 2 analysis points (signals)")
+    if sum(1 for c in cs if c.get("us_watch")) > MAX_WATCH: raise ValueError("too many '!' hotspots")
 
-# ---------- prompts ----------
-RULES = open(os.path.join(ROOT, "prompt", "rules.md")).read()
+# ---------- runs ----------
+def pace(budget):
+    """Spending so far vs a straight line to the cap: 'normal', 'lite' (fewer searches) or 'stop'."""
+    now = datetime.date.today()
+    dim = calendar.monthrange(now.year, now.month)[1]
+    fair = MONTHLY_CAP_USD * now.day / dim
+    if budget["usd"] >= MONTHLY_CAP_USD - 1.0: return "stop"
+    return "lite" if budget["usd"] > 0.9 * fair + 3 else "normal"
 
-def compact(feed, region=None):
-    rows = []
+def run_daily(feed, budget, history, level):
+    searches = int(os.environ.get("WW_DAILY_SEARCHES", "12")) - (4 if level == "lite" else 0)
+    focus = ("everything from the last 48 hours: about two thirds of your searches on red, '!' and US-direct hotspots, two on how "
+             "other sides and regions cover today's two biggest events, one on the hotspots' tripwires, one sweep for new hotspots, "
+             "and three on cyberattacks and sabotage against infrastructure (food, water, power, telecom, hospitals, transport) "
+             "anywhere, plus official advisories (CISA, FBI, CERT-FR, NCSC)")
+    res = wwapi.run(gather_requests(feed, [("daily search notes", focus, None)], searches), budget)
+    if not res: raise SystemExit("[ERROR] no research notes came back; feed left as it was")
+    notes = collect_notes(res, feed)
+    if len(notes) < 8: raise SystemExit(f"[ERROR] only {len(notes)} usable notes; feed left as it was")
+    ans = wwapi.run([analyst_request(feed, notes)], budget)
+    if not ans: raise SystemExit("[ERROR] the analysis didn't come back; feed left as it was")
+    patch = wwapi_extract(ans["daily analysis"][0])
+    out, changed = merge_analysis(feed, patch, notes, history, "daily")
+    if isinstance(patch, dict) and patch.get("log"): print(f"Notes: {str(patch['log'])[:400]}")
+    return out, changed
+
+def run_weekly(feed, budget, history, level):
+    searches = int(os.environ.get("WW_WEEKLY_SEARCHES", "7"))
+    focus = [(f"weekly {r} notes", f"the whole {r} region: every current hotspot there (search each separately), its tripwires, "
+              f"and any new one that meets the bar", r) for r in REGIONS]
+    focus.append(("weekly cyber notes", "cyberattacks and sabotage against infrastructure anywhere in the last 7 days, who is "
+                  "suspected, whether the same methods or equipment are used in the US, and official advisories", None))
+    res = wwapi.run(gather_requests(feed, focus, searches), budget)
+    if not res: raise SystemExit("[ERROR] no research notes came back; feed left as it was")
+    notes = collect_notes(res, feed, prefix="w")
+    system = prompt("rules.md") + "\n\n" + prompt("weekly.md")
+    reqs = []
+    for r in REGIONS:
+        rn = [n for n in notes if any(n["hotspot"] == c["id"] for c in feed["conflicts"] if c["region"] == r) or
+              (n["hotspot"].startswith("new") and n["region"] != "unknown")]
+        reqs.append({"label": f"weekly {r} review", "model": ANALYST_MODEL, "system": system, "max_uses": 0, "max_tokens": 16000, "estimate": 0.3,
+                     "user": f"Today is {today()}. Region: {r}.\n\nHOTSPOTS IN THIS REGION\n{hotspot_table(feed, r, with_sources=True)}\n\n"
+                             f"NOTES gathered today (cite these IDs only)\n{notes_table(rn)}\n\nReturn the JSON described in your instructions."})
+    ans = wwapi.run(reqs, budget)
+    work, changed = feed, []
+    for r in REGIONS:
+        if f"weekly {r} review" not in ans: warn(f"{r}: no review came back; region kept as it was"); continue
+        try: patch = wwapi_extract(ans[f"weekly {r} review"][0])
+        except ValueError as e: warn(f"{r}: {e}"); continue
+        if not isinstance(patch, dict): warn(f"{r}: answer is not an object"); continue
+        mine = {c["id"] for c in work["conflicts"] if c["region"] == r}
+        sub = {"updates": [u for u in patch.get("updates") or [] if isinstance(u, dict) and u.get("id") in mine],
+               "new": patch.get("new"), "ended": [e for e in patch.get("ended") or [] if isinstance(e, dict) and e.get("id") in mine]}
+        work, ch = merge_analysis(work, sub, notes, history, "weekly")
+        changed += [c for c in ch if not c.startswith(("analysis", "watch list"))]
+    # then the daily decision over all of today's notes (signals, frames, tripwire states, '!', brief, cyber)
+    ans2 = wwapi.run([analyst_request(work, notes, "weekly big picture")], budget)
+    if ans2:
+        out, ch = merge_analysis(work, wwapi_extract(ans2["weekly big picture"][0]), notes, history, "daily")
+        changed += ch
+    else:
+        warn("big picture didn't come back; signals kept as they were"); out = work
+    return out, changed
+
+def migrate(feed):
+    """Schema 1 -> 2 with no API call: signal sources are counted by rule, '!' falls back to red + direct."""
+    t = today(); out = dict(feed); out["schema"] = 2
+    cs = []
     for c in feed["conflicts"]:
-        if region and c.get("region") != region: continue
-        rows.append({k: c[k] for k in ("id", "name", "region", "severity", "trend", "status", "as_of")} |
-                    {"us_level": c["us_impact"]["level"], "latest": [f'{d["date"]}: {d["text"]}' for d in c["latest"][:2]]})
-    return json.dumps(rows, ensure_ascii=False)
-
-NOTE_RULE = ("You do not search. You get research notes that a colleague gathered today from worldwide outlets. Use only "
-             "those notes and the current hotspots. Every URL you cite must be one of the notes' URLs, copied exactly.")
-
-def gather(feed, budget, label, focus, searches):
-    """Stage 1 (Sonnet + web search): compact, sourced research notes. Returns (findings, allowed_urls)."""
-    system = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "gather.md")).read()
-    user = (f"Today is {today()}. Focus: {focus}. Current hotspots (compact):\n{compact(feed)}\n\n"
-            "Search and return the research-notes JSON described in your instructions.")
-    text, usage = call(GATHER_MODEL, system, user, max_uses=searches, max_tokens=24000)
-    add_cost(budget, GATHER_MODEL, usage, f"{label} search notes")
-    try:
-        got = extract_json(text)
-        notes = got.get("findings") if isinstance(got, dict) else got
-    except ValueError:
-        notes = salvage_objects(text, "findings")          # cut off: keep every complete note
-        warn(f"{label}: notes were cut off; kept {len(notes)} complete ones")
-    clean = []
-    for n in notes or []:
-        if not isinstance(n, dict): continue
-        url = str(n.get("url", ""))
-        if not url.startswith("https://") or not n.get("fact"): continue
-        clean.append({"hotspot": str(n.get("hotspot", ""))[:80], "date": str(n.get("date", ""))[:10], "fact": str(n["fact"])[:400],
-                      "outlet": str(n.get("outlet", ""))[:60], "country": str(n.get("country", ""))[:40], "url": url[:500],
-                      "state_media": bool(n.get("state_media", False))})
-    ok(f"{label}: {len(clean)} sourced notes from {len({n['country'] for n in clean})} countries")
-    return clean, {n["url"] for n in clean}
-
-def only_known_urls(items, allowed, what):
-    kept = [d for d in (items or []) if isinstance(d, dict) and d.get("url") in allowed]
-    if len(kept) < len(items or []): warn(f"{what}: dropped {len(items) - len(kept)} item(s) whose URL wasn't in the research notes")
-    return kept
-
-def run_daily(feed, budget):
-    notes, allowed = gather(feed, budget, "daily", "everything from the last 48 hours, most searches on red and US-direct hotspots",
-                            int(os.environ.get("WW_DAILY_SEARCHES", "10")))
-    if not notes: raise SystemExit("[ERROR] no usable research notes; feed left as it was")
-    allowed |= {d["url"] for c in feed["conflicts"] for d in c["latest"]} | {s["url"] for g in feed.get("signals", []) for s in g.get("sources", [])}
-    system = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "daily.md")).read() + "\n\n" + NOTE_RULE
-    user = (f"Today is {today()}. Current hotspots (compact):\n{compact(feed)}\n\nCurrent US overview:\n{feed['us_overview']}\n\n"
-            f"Research notes gathered today:\n{json.dumps(notes, ensure_ascii=False)}\n\nReturn the patch JSON described in your instructions.")
-    text, usage = call(ANALYST_MODEL, system, user, max_uses=0, max_tokens=16000)
-    add_cost(budget, ANALYST_MODEL, usage, "daily analysis")
-    patch = extract_json(text)
-    for u in patch.get("updates") or []:
-        if u.get("new_latest"): u["new_latest"] = only_known_urls(u["new_latest"], allowed, f"update {u.get('id')}")
-    for n in patch.get("new") or []:
-        n["latest"] = only_known_urls(n.get("latest"), allowed, f"new {n.get('id')}")
-    for g in patch.get("signals") or []:
-        g["sources"] = only_known_urls(g.get("sources"), allowed, "analysis point")
-    byid = {c["id"]: c for c in feed["conflicts"]}
-    changed = []
-    for u in patch.get("updates") or []:
-        cid = u.get("id")
-        if cid not in byid: warn(f"update for unknown id {cid!r} skipped"); continue
-        merged = json.loads(json.dumps(byid[cid]))
-        for k in ("severity", "trend", "status", "summary", "watch", "confidence", "lat", "lon", "outlook", "consensus"):
-            if k in u and u[k] not in (None, ""): merged[k] = u[k]
-        if u.get("us_impact"): merged["us_impact"] = {**merged["us_impact"], **{k: v for k, v in u["us_impact"].items() if v}}
-        if u.get("new_latest"):
-            seen = {d["url"] for d in merged["latest"]}
-            merged["latest"] = [d for d in u["new_latest"] if d.get("url") not in seen] + merged["latest"]
-        if u.get("add_keywords"): merged["keywords"] = list(dict.fromkeys(merged["keywords"] + u["add_keywords"]))
-        merged["as_of"] = today()
-        try: byid[cid] = clean_conflict(merged); changed.append(cid)
-        except ValueError as e: warn(f"update {cid} refused: {e}")
-    for n in patch.get("new") or []:
-        try:
-            c = clean_conflict(n)
-            if c["id"] in byid: warn(f"new {c['id']} already exists; skipped"); continue
-            byid[c["id"]] = c; changed.append(c["id"] + " (new)")
-        except ValueError as e: warn(f"new hotspot refused: {e}")
-    out = dict(feed); out["conflicts"] = list(byid.values())
-    if len(str(patch.get("us_overview", ""))) >= 80: out["us_overview"] = str(patch["us_overview"])[:1200]
-    sig = clean_signals(patch.get("signals"), set(byid))
-    if len(sig) >= 3: out["signals"] = sig; changed.append(f"analysis ({len(sig)} points)")
-    elif patch.get("signals"): warn("new analysis had fewer than 3 usable points; kept the old one")
-    out["signals"] = clean_signals(out.get("signals"), set(byid))
-    return out, changed, patch.get("notes", "")
-
-def run_weekly(feed, budget):
-    byid = {c["id"]: c for c in feed["conflicts"]}
-    changed, all_notes, allowed_all = [], [], set()
-    for region in REGIONS:
-        if budget["usd"] >= MONTHLY_CAP_USD: warn(f"monthly cap reached; {region} skipped"); continue
-        sub = dict(feed); sub["conflicts"] = [c for c in feed["conflicts"] if c.get("region") == region]
-        try:
-            notes, allowed = gather(sub, budget, f"weekly {region}",
-                                    f"the whole {region} region: every current hotspot there and any new one that meets the bar",
-                                    int(os.environ.get("WW_WEEKLY_SEARCHES", "7")))
-        except (SystemExit, ValueError) as e:
-            warn(f"{region}: {e}"); continue
-        all_notes += notes; allowed_all |= allowed
-        system = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "weekly.md")).read() + "\n\n" + NOTE_RULE
-        user = (f"Today is {today()}. Region: {region}. Current hotspots in this region (compact):\n{compact(feed, region)}\n\n"
-                f"Research notes gathered today:\n{json.dumps(notes, ensure_ascii=False)}\n\n"
-                "Return the JSON array described in your instructions.")
-        try:
-            text, usage = call(ANALYST_MODEL, system, user, max_uses=0, max_tokens=24000)
-        except SystemExit as e:
-            warn(f"{region}: {e}"); continue
-        add_cost(budget, ANALYST_MODEL, usage, f"weekly {region} analysis")
-        try: arr = extract_json(text)
-        except ValueError as e: warn(f"{region}: {e}"); continue
-        if isinstance(arr, dict): arr = arr.get("conflicts") or []
-        old_urls = {d["url"] for c in sub["conflicts"] for d in c["latest"]}
-        fresh = {}
-        for n in arr:
-            if isinstance(n, dict): n["latest"] = only_known_urls(n.get("latest"), allowed | old_urls, f"{region} {n.get('id')}")
-            try: c = clean_conflict(n); c["region"] = region; fresh[c["id"]] = c
-            except ValueError as e: warn(f"{region}: refused {e}")
-        if len(fresh) < 2: warn(f"{region}: only {len(fresh)} usable hotspots; kept the old ones"); continue
-        for cid in [k for k, v in byid.items() if v.get("region") == region and k not in fresh]:
-            del byid[cid]; changed.append(cid + " (removed)")
-        for cid, c in fresh.items():
-            changed.append(cid if cid in byid else cid + " (new)"); byid[cid] = c
-    out = dict(feed); out["conflicts"] = list(byid.values())
-    if all_notes and budget["usd"] < MONTHLY_CAP_USD:
-        try:
-            system2 = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "signals.md")).read() + "\n\n" + NOTE_RULE
-            user2 = (f"Today is {today()}. All current hotspots (compact):\n{compact(out)}\n\n"
-                     f"This week's research notes:\n{json.dumps(all_notes, ensure_ascii=False)}\n\nWrite the analysis JSON described in your instructions.")
-            text, usage = call(ANALYST_MODEL, system2, user2, max_uses=0, max_tokens=8000)
-            add_cost(budget, ANALYST_MODEL, usage, "weekly big picture")
-            got = extract_json(text)
-            sigs = got.get("signals") if isinstance(got, dict) else got
-            for g in sigs or []:
-                if isinstance(g, dict): g["sources"] = only_known_urls(g.get("sources"), allowed_all, "analysis point")
-            sig = clean_signals(sigs, set(byid))
-            if len(sig) >= 3: out["signals"] = sig; changed.append(f"analysis ({len(sig)} points)")
-            if isinstance(got, dict) and len(str(got.get("us_overview", ""))) >= 80: out["us_overview"] = str(got["us_overview"])[:1200]
-        except (SystemExit, ValueError) as e:
-            warn(f"analysis: {e}")
-    out["signals"] = clean_signals(out.get("signals"), set(byid))
-    return out, changed, ""
+        c = dict(c); c.setdefault("anchors", []); c.setdefault("context", [])
+        for dd in c["latest"]:
+            src = wwdata.note_source({"url": dd["url"], "country": dd.get("country"), "outlet": dd.get("outlet")})
+            dd["region"] = src["region"]; dd["tag"] = "non-party"
+        if c["severity"] == "red" and c["us_impact"]["level"] == "direct": c["us_watch"] = {"why": "Red and rated direct US impact."}
+        cs.append(clean_conflict(c))
+    order = sorted(cs, key=lambda c: (c["severity"] != "red", c["us_impact"]["level"] != "direct", c["trend"] != "escalating", -len(c["latest"])))
+    for i, c in enumerate(order): c["rank"] = i + 1
+    out["conflicts"] = cs
+    sigs = []
+    for i, g in enumerate(feed.get("signals", [])):
+        ns = []
+        for j, s in enumerate(g.get("sources", [])):
+            src = wwdata.note_source({"url": s["url"], "country": s.get("country"), "outlet": s.get("outlet")})
+            n = {"id": f"m{i}{j}", "date": s.get("date", t), "fact": g.get("detail", ""), "url": s["url"], "outlet_text": s.get("outlet", ""),
+                 "origin": "own", "claim_by": "reporters", **src}
+            n["wire"] = n["wire"] or wwdata.wire_in(n["outlet_text"])
+            n["tag"] = "non-party"; n["key"] = wwdata.indep_key(n); ns.append(n)
+        sid = re.sub(r"[^a-z0-9]+", "-", g["title"].lower()).strip("-")[:50]
+        stats = wwscore.evidence_stats(ns, [], t)
+        sigs.append({**g, "id": sid, "claim": "", "status": "same", "first_seen": t, "last_confirmed": t, "stats": stats,
+                     "confidence": wwscore.confidence_cap(stats, g.get("confidence", "medium")),
+                     "countries": [wwdata.country_name(x) for x in stats["countries_iso"]],
+                     "sources": [wwscore.source_ref(n) for n in ns], "against": [], "other_reading": "",
+                     "would_change_view": "", "tripwires": []})
+    out["signals"] = sigs
+    out.setdefault("tripwires", []); out.setdefault("frames", []); out.setdefault("events", [])
+    out.setdefault("cyber", []); out.setdefault("brief", None)
+    return out
 
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
-    feed = json.load(open(FEED))
+    if mode not in ("daily", "weekly", "check", "migrate"): raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate)")
+    feed = load(FEED)
     if mode == "check":
-        validate_feed(feed); ok(f"feed.json is valid: {len(feed['conflicts'])} hotspots"); return
-    budget = load_budget()
-    if budget["usd"] >= MONTHLY_CAP_USD:
-        warn(f"This month's estimate ${budget['usd']:.2f} has reached the ${MONTHLY_CAP_USD:.0f} cap; nothing run."); return
-    step(f"{mode} update: {GATHER_MODEL} searches, {ANALYST_MODEL} decides")
-    out, changed, notes = (run_daily if mode == "daily" else run_weekly)(feed, budget)
-    out["generated_at"] = now_iso()
-    out["generated_by"] = f"Claude {mode} update {today()}: Sonnet 5.5 searched worldwide outlets, Opus 5.5 rated and analysed"
+        validate_feed(feed); ok(f"feed.json is valid: {len(feed['conflicts'])} hotspots, schema {feed.get('schema', 1)}"); return
+    history = load(HISTORY, {"days": []})["days"]
+    if mode == "migrate":
+        out = migrate(feed)
+        out, history = finish(out, history)
+        validate_feed(out, previous=feed)
+        save_json(FEED, out); save_json(HISTORY, {"days": history}, indent=0)
+        ok(f"migrated to schema 2: {len(out['conflicts'])} hotspots, {len(out['signals'])} signals, tension {out['tension']['value']}"); return
+    budget = wwapi.load_budget()
+    level = pace(budget)
+    if level == "stop" or (mode == "weekly" and budget["usd"] > MONTHLY_CAP_USD - 4):
+        feed["paused"] = f"Monthly budget reached (${budget['usd']:.2f} of ${MONTHLY_CAP_USD:.0f}); ratings resume on the 1st."
+        save_json(FEED, feed)
+        err(feed["paused"]); sys.exit(1)
+    if level == "lite": warn(f"spending is ahead of pace (${budget['usd']:.2f}); running a lighter update")
+    if feed.get("schema", 1) < 2: feed = migrate(feed)
+    step(f"{mode} update: {wwapi.GATHER_MODEL if hasattr(wwapi, 'GATHER_MODEL') else GATHER_MODEL} searches, {ANALYST_MODEL} decides"
+         f"{', Batch API (half price)' if wwapi.USE_BATCH else ''}")
+    out, changed = (run_daily if mode == "daily" else run_weekly)(feed, budget, history, level)
+    out, history = finish(out, history)
+    out["generated_at"] = wwapi.now_iso()
+    out["generated_by"] = f"Claude {mode} update {today()}: Sonnet 5.5 searched worldwide outlets, Opus 5.5 decided; checked and scored by rule"
     try:
         validate_feed(out, previous=feed)
     except ValueError as e:
         err(f"The new feed failed its checks ({e}); feed.json was left as it was."); sys.exit(1)
-    tmp = FEED + ".tmp"; json.dump(out, open(tmp, "w"), ensure_ascii=False, indent=1); os.replace(tmp, FEED)
-    ok(f"feed.json written: {len(out['conflicts'])} hotspots; changed: {', '.join(changed) or 'nothing'}")
-    if notes: print(f"Notes: {notes}")
-    with open(os.environ.get("GITHUB_STEP_SUMMARY", os.devnull), "a") as s:
-        s.write(f"### War Watch {mode} update\n\nChanged: {', '.join(changed) or 'nothing'}\n\nMonth so far: ${budget['usd']:.2f} of ${MONTHLY_CAP_USD:.0f}\n")
+    save_json(FEED, out); save_json(HISTORY, {"days": history}, indent=0)
+    ok(f"feed.json written: {len(out['conflicts'])} hotspots, tension {out['tension']['value']} ({out['tension']['band']}); "
+       f"changed: {', '.join(changed) or 'nothing'}")
+    with open(os.environ.get("GITHUB_STEP_SUMMARY", os.devnull), "a", encoding="utf-8") as s:
+        s.write(f"### War Watch {mode} update\n\nTension {out['tension']['value']} ({out['tension']['band']}). "
+                f"Changed: {', '.join(changed) or 'nothing'}\n\nMonth so far: ${budget['usd']:.2f} of ${MONTHLY_CAP_USD:.0f}\n")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,2428 @@
+{
+"about": "War Watch outlet registry: home = the country whose audience and newsroom the outlet mainly serves (exile outlets count as their audience's country). media: wire, private, public-service, state-funded, state-controlled, exile, think-tank, ngo, intl-org, government, unrated. Blocked domains are known laundering networks and are dropped everywhere.",
+"version": 1,
+"outlets": [
+{
+"id": "reuters",
+"name": "Reuters",
+"domains": [
+"reuters.com"
+],
+"home": "GB",
+"media": "wire"
+},
+{
+"id": "associated-press",
+"name": "Associated Press",
+"domains": [
+"apnews.com",
+"ap.org"
+],
+"home": "US",
+"media": "wire"
+},
+{
+"id": "afp",
+"name": "AFP",
+"domains": [
+"afp.com"
+],
+"home": "FR",
+"media": "wire"
+},
+{
+"id": "dpa",
+"name": "dpa",
+"domains": [
+"dpa.com",
+"dpa-international.com"
+],
+"home": "DE",
+"media": "wire"
+},
+{
+"id": "efe",
+"name": "EFE",
+"domains": [
+"efe.com"
+],
+"home": "ES",
+"media": "wire"
+},
+{
+"id": "ansa",
+"name": "ANSA",
+"domains": [
+"ansa.it"
+],
+"home": "IT",
+"media": "wire"
+},
+{
+"id": "ani",
+"name": "ANI",
+"domains": [
+"aninews.in"
+],
+"home": "IN",
+"media": "wire"
+},
+{
+"id": "pti",
+"name": "PTI",
+"domains": [
+"ptinews.com"
+],
+"home": "IN",
+"media": "wire"
+},
+{
+"id": "ians",
+"name": "IANS",
+"domains": [
+"ians.in"
+],
+"home": "IN",
+"media": "wire"
+},
+{
+"id": "kyodo",
+"name": "Kyodo",
+"domains": [
+"english.kyodonews.net",
+"kyodonews.net"
+],
+"home": "JP",
+"media": "wire"
+},
+{
+"id": "bloomberg",
+"name": "Bloomberg",
+"domains": [
+"bloomberg.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "xinhua",
+"name": "Xinhua",
+"domains": [
+"xinhuanet.com",
+"news.cn",
+"english.news.cn"
+],
+"home": "CN",
+"media": "state-controlled"
+},
+{
+"id": "tass",
+"name": "TASS",
+"domains": [
+"tass.com",
+"tass.ru"
+],
+"home": "RU",
+"media": "state-controlled"
+},
+{
+"id": "ria-novosti",
+"name": "RIA Novosti",
+"domains": [
+"ria.ru"
+],
+"home": "RU",
+"media": "state-controlled"
+},
+{
+"id": "rt",
+"name": "RT",
+"domains": [
+"rt.com"
+],
+"home": "RU",
+"media": "state-controlled"
+},
+{
+"id": "sputnik",
+"name": "Sputnik",
+"domains": [
+"sputnikglobe.com",
+"sputniknews.com"
+],
+"home": "RU",
+"media": "state-controlled"
+},
+{
+"id": "interfax",
+"name": "Interfax",
+"domains": [
+"interfax.com",
+"interfax.ru"
+],
+"home": "RU",
+"media": "private"
+},
+{
+"id": "interfax-ukraine",
+"name": "Interfax-Ukraine",
+"domains": [
+"en.interfax.com.ua",
+"interfax.com.ua"
+],
+"home": "UA",
+"media": "private"
+},
+{
+"id": "ukrinform",
+"name": "Ukrinform",
+"domains": [
+"ukrinform.net",
+"ukrinform.ua"
+],
+"home": "UA",
+"media": "state-controlled"
+},
+{
+"id": "anadolu-agency",
+"name": "Anadolu Agency",
+"domains": [
+"aa.com.tr"
+],
+"home": "TR",
+"media": "state-controlled"
+},
+{
+"id": "trt-world",
+"name": "TRT World",
+"domains": [
+"trtworld.com"
+],
+"home": "TR",
+"media": "state-controlled"
+},
+{
+"id": "daily-sabah",
+"name": "Daily Sabah",
+"domains": [
+"dailysabah.com"
+],
+"home": "TR",
+"media": "private"
+},
+{
+"id": "yeni-safak",
+"name": "Yeni Safak",
+"domains": [
+"yenisafak.com"
+],
+"home": "TR",
+"media": "private"
+},
+{
+"id": "hurriyet-daily-news",
+"name": "Hurriyet Daily News",
+"domains": [
+"hurriyetdailynews.com"
+],
+"home": "TR",
+"media": "private"
+},
+{
+"id": "yonhap",
+"name": "Yonhap",
+"domains": [
+"yna.co.kr"
+],
+"home": "KR",
+"media": "wire"
+},
+{
+"id": "korea-times",
+"name": "Korea Times",
+"domains": [
+"koreatimes.co.kr"
+],
+"home": "KR",
+"media": "private"
+},
+{
+"id": "korea-herald",
+"name": "Korea Herald",
+"domains": [
+"koreaherald.com"
+],
+"home": "KR",
+"media": "private"
+},
+{
+"id": "kcna",
+"name": "KCNA",
+"domains": [
+"kcna.kp",
+"kcnawatch.org"
+],
+"home": "KP",
+"media": "state-controlled"
+},
+{
+"id": "bernama",
+"name": "Bernama",
+"domains": [
+"bernama.com"
+],
+"home": "MY",
+"media": "state-controlled"
+},
+{
+"id": "antara",
+"name": "Antara",
+"domains": [
+"antaranews.com"
+],
+"home": "ID",
+"media": "state-controlled"
+},
+{
+"id": "wam",
+"name": "WAM",
+"domains": [
+"wam.ae"
+],
+"home": "AE",
+"media": "state-controlled"
+},
+{
+"id": "spa",
+"name": "SPA",
+"domains": [
+"spa.gov.sa"
+],
+"home": "SA",
+"media": "state-controlled"
+},
+{
+"id": "qatar-news-agency",
+"name": "Qatar News Agency",
+"domains": [
+"qna.org.qa"
+],
+"home": "QA",
+"media": "state-controlled"
+},
+{
+"id": "irna",
+"name": "IRNA",
+"domains": [
+"irna.ir",
+"en.irna.ir"
+],
+"home": "IR",
+"media": "state-controlled"
+},
+{
+"id": "tasnim",
+"name": "Tasnim",
+"domains": [
+"tasnimnews.com"
+],
+"home": "IR",
+"media": "state-controlled"
+},
+{
+"id": "press-tv",
+"name": "Press TV",
+"domains": [
+"presstv.ir"
+],
+"home": "IR",
+"media": "state-controlled"
+},
+{
+"id": "mehr-news",
+"name": "Mehr News",
+"domains": [
+"en.mehrnews.com",
+"mehrnews.com"
+],
+"home": "IR",
+"media": "state-controlled"
+},
+{
+"id": "fars-news",
+"name": "Fars News",
+"domains": [
+"farsnews.ir"
+],
+"home": "IR",
+"media": "state-controlled"
+},
+{
+"id": "iran-international",
+"name": "Iran International",
+"domains": [
+"iranintl.com"
+],
+"home": "IR",
+"media": "exile"
+},
+{
+"id": "global-times",
+"name": "Global Times",
+"domains": [
+"globaltimes.cn"
+],
+"home": "CN",
+"media": "state-controlled"
+},
+{
+"id": "china-daily",
+"name": "China Daily",
+"domains": [
+"chinadaily.com.cn"
+],
+"home": "CN",
+"media": "state-controlled"
+},
+{
+"id": "cgtn",
+"name": "CGTN",
+"domains": [
+"cgtn.com"
+],
+"home": "CN",
+"media": "state-controlled"
+},
+{
+"id": "south-china-morning-post",
+"name": "South China Morning Post",
+"domains": [
+"scmp.com"
+],
+"home": "HK",
+"media": "private"
+},
+{
+"id": "bbc-news",
+"name": "BBC News",
+"domains": [
+"bbc.co.uk",
+"bbc.com",
+"feeds.bbci.co.uk"
+],
+"home": "GB",
+"media": "public-service"
+},
+{
+"id": "the-guardian",
+"name": "The Guardian",
+"domains": [
+"theguardian.com"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "financial-times",
+"name": "Financial Times",
+"domains": [
+"ft.com"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "the-telegraph",
+"name": "The Telegraph",
+"domains": [
+"telegraph.co.uk"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "the-times",
+"name": "The Times",
+"domains": [
+"thetimes.co.uk",
+"thetimes.com"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "the-independent",
+"name": "The Independent",
+"domains": [
+"independent.co.uk"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "sky-news",
+"name": "Sky News",
+"domains": [
+"news.sky.com"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "the-economist",
+"name": "The Economist",
+"domains": [
+"economist.com"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "middle-east-eye",
+"name": "Middle East Eye",
+"domains": [
+"middleeasteye.net"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "bne-intellinews",
+"name": "bne IntelliNews",
+"domains": [
+"intellinews.com"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "afghanistan-international",
+"name": "Afghanistan International",
+"domains": [
+"afintl.com"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "deutsche-welle",
+"name": "Deutsche Welle",
+"domains": [
+"dw.com",
+"rss.dw.com"
+],
+"home": "DE",
+"media": "public-service"
+},
+{
+"id": "der-spiegel",
+"name": "Der Spiegel",
+"domains": [
+"spiegel.de"
+],
+"home": "DE",
+"media": "private"
+},
+{
+"id": "france-24",
+"name": "France 24",
+"domains": [
+"france24.com"
+],
+"home": "FR",
+"media": "public-service"
+},
+{
+"id": "rfi",
+"name": "RFI",
+"domains": [
+"rfi.fr"
+],
+"home": "FR",
+"media": "public-service"
+},
+{
+"id": "le-monde",
+"name": "Le Monde",
+"domains": [
+"lemonde.fr"
+],
+"home": "FR",
+"media": "private"
+},
+{
+"id": "sudan-tribune",
+"name": "Sudan Tribune",
+"domains": [
+"sudantribune.com"
+],
+"home": "SD",
+"media": "private"
+},
+{
+"id": "euronews",
+"name": "Euronews",
+"domains": [
+"euronews.com"
+],
+"home": "FR",
+"media": "private"
+},
+{
+"id": "politico-europe",
+"name": "Politico Europe",
+"domains": [
+"politico.eu"
+],
+"home": "BE",
+"media": "private"
+},
+{
+"id": "el-pais",
+"name": "El Pais",
+"domains": [
+"elpais.com",
+"english.elpais.com"
+],
+"home": "ES",
+"media": "private"
+},
+{
+"id": "kyiv-independent",
+"name": "Kyiv Independent",
+"domains": [
+"kyivindependent.com"
+],
+"home": "UA",
+"media": "private"
+},
+{
+"id": "kyiv-post",
+"name": "Kyiv Post",
+"domains": [
+"kyivpost.com"
+],
+"home": "UA",
+"media": "private"
+},
+{
+"id": "ukrainska-pravda",
+"name": "Ukrainska Pravda",
+"domains": [
+"pravda.com.ua"
+],
+"home": "UA",
+"media": "private"
+},
+{
+"id": "euromaidan-press",
+"name": "Euromaidan Press",
+"domains": [
+"euromaidanpress.com"
+],
+"home": "UA",
+"media": "private"
+},
+{
+"id": "the-moscow-times",
+"name": "The Moscow Times",
+"domains": [
+"themoscowtimes.com"
+],
+"home": "RU",
+"media": "exile"
+},
+{
+"id": "meduza",
+"name": "Meduza",
+"domains": [
+"meduza.io"
+],
+"home": "RU",
+"media": "exile"
+},
+{
+"id": "novaya-gazeta-europe",
+"name": "Novaya Gazeta Europe",
+"domains": [
+"novayagazeta.eu"
+],
+"home": "RU",
+"media": "exile"
+},
+{
+"id": "notes-from-poland",
+"name": "Notes from Poland",
+"domains": [
+"notesfrompoland.com"
+],
+"home": "PL",
+"media": "private"
+},
+{
+"id": "err-news",
+"name": "ERR News",
+"domains": [
+"news.err.ee"
+],
+"home": "EE",
+"media": "public-service"
+},
+{
+"id": "lrt",
+"name": "LRT",
+"domains": [
+"lrt.lt"
+],
+"home": "LT",
+"media": "public-service"
+},
+{
+"id": "balkan-insight",
+"name": "Balkan Insight",
+"domains": [
+"balkaninsight.com"
+],
+"home": "RS",
+"media": "private"
+},
+{
+"id": "al-jazeera",
+"name": "Al Jazeera",
+"domains": [
+"aljazeera.com",
+"aljazeera.net"
+],
+"home": "QA",
+"media": "state-funded"
+},
+{
+"id": "al-arabiya",
+"name": "Al Arabiya",
+"domains": [
+"english.alarabiya.net",
+"alarabiya.net"
+],
+"home": "SA",
+"media": "state-funded"
+},
+{
+"id": "arab-news",
+"name": "Arab News",
+"domains": [
+"arabnews.com",
+"arabnews.jp",
+"arabnews.pk"
+],
+"home": "SA",
+"media": "state-funded"
+},
+{
+"id": "asharq-al-awsat",
+"name": "Asharq Al-Awsat",
+"domains": [
+"english.aawsat.com",
+"aawsat.com"
+],
+"home": "SA",
+"media": "state-funded"
+},
+{
+"id": "the-national",
+"name": "The National",
+"domains": [
+"thenationalnews.com"
+],
+"home": "AE",
+"media": "state-funded"
+},
+{
+"id": "gulf-news",
+"name": "Gulf News",
+"domains": [
+"gulfnews.com"
+],
+"home": "AE",
+"media": "private"
+},
+{
+"id": "khaleej-times",
+"name": "Khaleej Times",
+"domains": [
+"khaleejtimes.com"
+],
+"home": "AE",
+"media": "private"
+},
+{
+"id": "the-times-of-israel",
+"name": "The Times of Israel",
+"domains": [
+"timesofisrael.com"
+],
+"home": "IL",
+"media": "private"
+},
+{
+"id": "haaretz",
+"name": "Haaretz",
+"domains": [
+"haaretz.com"
+],
+"home": "IL",
+"media": "private"
+},
+{
+"id": "jerusalem-post",
+"name": "Jerusalem Post",
+"domains": [
+"jpost.com"
+],
+"home": "IL",
+"media": "private"
+},
+{
+"id": "ynet-news",
+"name": "Ynet News",
+"domains": [
+"ynetnews.com"
+],
+"home": "IL",
+"media": "private"
+},
+{
+"id": "i24news",
+"name": "i24NEWS",
+"domains": [
+"i24news.tv"
+],
+"home": "IL",
+"media": "private"
+},
+{
+"id": "wafa",
+"name": "WAFA",
+"domains": [
+"english.wafa.ps",
+"wafa.ps"
+],
+"home": "PS",
+"media": "state-controlled"
+},
+{
+"id": "l-orient-today",
+"name": "L'Orient Today",
+"domains": [
+"lorientlejour.com",
+"today.lorientlejour.com"
+],
+"home": "LB",
+"media": "private"
+},
+{
+"id": "naharnet",
+"name": "Naharnet",
+"domains": [
+"naharnet.com"
+],
+"home": "LB",
+"media": "private"
+},
+{
+"id": "shafaq-news",
+"name": "Shafaq News",
+"domains": [
+"shafaq.com"
+],
+"home": "IQ",
+"media": "private"
+},
+{
+"id": "rudaw",
+"name": "Rudaw",
+"domains": [
+"rudaw.net"
+],
+"home": "IQ",
+"media": "private"
+},
+{
+"id": "kurdistan24",
+"name": "Kurdistan24",
+"domains": [
+"kurdistan24.net"
+],
+"home": "IQ",
+"media": "private"
+},
+{
+"id": "ahram-online",
+"name": "Ahram Online",
+"domains": [
+"english.ahram.org.eg",
+"ahram.org.eg"
+],
+"home": "EG",
+"media": "state-controlled"
+},
+{
+"id": "jordan-times",
+"name": "Jordan Times",
+"domains": [
+"jordantimes.com"
+],
+"home": "JO",
+"media": "private"
+},
+{
+"id": "saba",
+"name": "Saba",
+"domains": [
+"saba.ye"
+],
+"home": "YE",
+"media": "state-controlled"
+},
+{
+"id": "nhk-world",
+"name": "NHK World",
+"domains": [
+"www3.nhk.or.jp",
+"nhk.or.jp"
+],
+"home": "JP",
+"media": "public-service"
+},
+{
+"id": "the-japan-times",
+"name": "The Japan Times",
+"domains": [
+"japantimes.co.jp"
+],
+"home": "JP",
+"media": "private"
+},
+{
+"id": "nikkei-asia",
+"name": "Nikkei Asia",
+"domains": [
+"asia.nikkei.com"
+],
+"home": "JP",
+"media": "private"
+},
+{
+"id": "taipei-times",
+"name": "Taipei Times",
+"domains": [
+"taipeitimes.com"
+],
+"home": "TW",
+"media": "private"
+},
+{
+"id": "focus-taiwan-cna",
+"name": "Focus Taiwan (CNA)",
+"domains": [
+"focustaiwan.tw"
+],
+"home": "TW",
+"media": "state-funded"
+},
+{
+"id": "taiwan-news",
+"name": "Taiwan News",
+"domains": [
+"taiwannews.com.tw"
+],
+"home": "TW",
+"media": "private"
+},
+{
+"id": "storm-media",
+"name": "Storm Media",
+"domains": [
+"storm.mg"
+],
+"home": "TW",
+"media": "private"
+},
+{
+"id": "the-hindu",
+"name": "The Hindu",
+"domains": [
+"thehindu.com"
+],
+"home": "IN",
+"media": "private"
+},
+{
+"id": "times-of-india",
+"name": "Times of India",
+"domains": [
+"timesofindia.indiatimes.com",
+"indiatimes.com"
+],
+"home": "IN",
+"media": "private"
+},
+{
+"id": "hindustan-times",
+"name": "Hindustan Times",
+"domains": [
+"hindustantimes.com"
+],
+"home": "IN",
+"media": "private"
+},
+{
+"id": "indian-express",
+"name": "Indian Express",
+"domains": [
+"indianexpress.com"
+],
+"home": "IN",
+"media": "private"
+},
+{
+"id": "the-tribune",
+"name": "The Tribune",
+"domains": [
+"tribuneindia.com"
+],
+"home": "IN",
+"media": "private"
+},
+{
+"id": "theprint",
+"name": "ThePrint",
+"domains": [
+"theprint.in"
+],
+"home": "IN",
+"media": "private"
+},
+{
+"id": "wion",
+"name": "WION",
+"domains": [
+"wionews.com"
+],
+"home": "IN",
+"media": "private"
+},
+{
+"id": "ndtv",
+"name": "NDTV",
+"domains": [
+"ndtv.com"
+],
+"home": "IN",
+"media": "private"
+},
+{
+"id": "organiser",
+"name": "Organiser",
+"domains": [
+"organiser.org"
+],
+"home": "IN",
+"media": "private"
+},
+{
+"id": "dd-news",
+"name": "DD News",
+"domains": [
+"ddindia.co.in",
+"ddnews.gov.in"
+],
+"home": "IN",
+"media": "state-controlled"
+},
+{
+"id": "dawn",
+"name": "Dawn",
+"domains": [
+"dawn.com"
+],
+"home": "PK",
+"media": "private"
+},
+{
+"id": "the-news-international",
+"name": "The News International",
+"domains": [
+"thenews.com.pk"
+],
+"home": "PK",
+"media": "private"
+},
+{
+"id": "express-tribune",
+"name": "Express Tribune",
+"domains": [
+"tribune.com.pk"
+],
+"home": "PK",
+"media": "private"
+},
+{
+"id": "samaa-tv",
+"name": "Samaa TV",
+"domains": [
+"samaa.tv"
+],
+"home": "PK",
+"media": "private"
+},
+{
+"id": "geo-news",
+"name": "Geo News",
+"domains": [
+"geo.tv"
+],
+"home": "PK",
+"media": "private"
+},
+{
+"id": "the-friday-times",
+"name": "The Friday Times",
+"domains": [
+"thefridaytimes.com"
+],
+"home": "PK",
+"media": "private"
+},
+{
+"id": "tolo-news",
+"name": "Tolo News",
+"domains": [
+"tolonews.com"
+],
+"home": "AF",
+"media": "private"
+},
+{
+"id": "the-daily-star-bangladesh",
+"name": "The Daily Star (Bangladesh)",
+"domains": [
+"thedailystar.net"
+],
+"home": "BD",
+"media": "private"
+},
+{
+"id": "the-irrawaddy",
+"name": "The Irrawaddy",
+"domains": [
+"irrawaddy.com"
+],
+"home": "MM",
+"media": "private"
+},
+{
+"id": "myanmar-now",
+"name": "Myanmar Now",
+"domains": [
+"myanmar-now.org"
+],
+"home": "MM",
+"media": "private"
+},
+{
+"id": "rappler",
+"name": "Rappler",
+"domains": [
+"rappler.com"
+],
+"home": "PH",
+"media": "private"
+},
+{
+"id": "inquirer",
+"name": "Inquirer",
+"domains": [
+"inquirer.net"
+],
+"home": "PH",
+"media": "private"
+},
+{
+"id": "philippine-star",
+"name": "Philippine Star",
+"domains": [
+"philstar.com"
+],
+"home": "PH",
+"media": "private"
+},
+{
+"id": "the-straits-times",
+"name": "The Straits Times",
+"domains": [
+"straitstimes.com"
+],
+"home": "SG",
+"media": "private"
+},
+{
+"id": "cna",
+"name": "CNA",
+"domains": [
+"channelnewsasia.com"
+],
+"home": "SG",
+"media": "state-funded"
+},
+{
+"id": "malay-mail",
+"name": "Malay Mail",
+"domains": [
+"malaymail.com"
+],
+"home": "MY",
+"media": "private"
+},
+{
+"id": "the-star-malaysia",
+"name": "The Star (Malaysia)",
+"domains": [
+"thestar.com.my"
+],
+"home": "MY",
+"media": "private"
+},
+{
+"id": "bangkok-post",
+"name": "Bangkok Post",
+"domains": [
+"bangkokpost.com"
+],
+"home": "TH",
+"media": "private"
+},
+{
+"id": "vnexpress",
+"name": "VnExpress",
+"domains": [
+"e.vnexpress.net"
+],
+"home": "VN",
+"media": "state-controlled"
+},
+{
+"id": "jakarta-post",
+"name": "Jakarta Post",
+"domains": [
+"thejakartapost.com"
+],
+"home": "ID",
+"media": "private"
+},
+{
+"id": "abc-news-australia",
+"name": "ABC News Australia",
+"domains": [
+"abc.net.au"
+],
+"home": "AU",
+"media": "public-service"
+},
+{
+"id": "sydney-morning-herald",
+"name": "Sydney Morning Herald",
+"domains": [
+"smh.com.au"
+],
+"home": "AU",
+"media": "private"
+},
+{
+"id": "rnz",
+"name": "RNZ",
+"domains": [
+"rnz.co.nz"
+],
+"home": "NZ",
+"media": "public-service"
+},
+{
+"id": "allafrica",
+"name": "AllAfrica",
+"domains": [
+"allafrica.com"
+],
+"home": "ZA",
+"media": "private"
+},
+{
+"id": "africanews",
+"name": "Africanews",
+"domains": [
+"africanews.com"
+],
+"home": "CG",
+"media": "private"
+},
+{
+"id": "premium-times",
+"name": "Premium Times",
+"domains": [
+"premiumtimesng.com"
+],
+"home": "NG",
+"media": "private"
+},
+{
+"id": "punch",
+"name": "Punch",
+"domains": [
+"punchng.com"
+],
+"home": "NG",
+"media": "private"
+},
+{
+"id": "vanguard-nigeria",
+"name": "Vanguard (Nigeria)",
+"domains": [
+"vanguardngr.com"
+],
+"home": "NG",
+"media": "private"
+},
+{
+"id": "humangle",
+"name": "HumAngle",
+"domains": [
+"humanglemedia.com"
+],
+"home": "NG",
+"media": "private"
+},
+{
+"id": "radio-dabanga",
+"name": "Radio Dabanga",
+"domains": [
+"dabangasudan.org"
+],
+"home": "SD",
+"media": "private"
+},
+{
+"id": "radio-tamazuj",
+"name": "Radio Tamazuj",
+"domains": [
+"radiotamazuj.org"
+],
+"home": "SS",
+"media": "private"
+},
+{
+"id": "addis-standard",
+"name": "Addis Standard",
+"domains": [
+"addisstandard.com"
+],
+"home": "ET",
+"media": "private"
+},
+{
+"id": "daily-nation",
+"name": "Daily Nation",
+"domains": [
+"nation.africa"
+],
+"home": "KE",
+"media": "private"
+},
+{
+"id": "the-standard-kenya",
+"name": "The Standard (Kenya)",
+"domains": [
+"standardmedia.co.ke"
+],
+"home": "KE",
+"media": "private"
+},
+{
+"id": "citizen-digital",
+"name": "Citizen Digital",
+"domains": [
+"citizen.digital"
+],
+"home": "KE",
+"media": "private"
+},
+{
+"id": "the-eastafrican",
+"name": "The EastAfrican",
+"domains": [
+"theeastafrican.co.ke"
+],
+"home": "KE",
+"media": "private"
+},
+{
+"id": "garowe-online",
+"name": "Garowe Online",
+"domains": [
+"garoweonline.com"
+],
+"home": "SO",
+"media": "private"
+},
+{
+"id": "somali-guardian",
+"name": "Somali Guardian",
+"domains": [
+"somaliguardian.com"
+],
+"home": "SO",
+"media": "private"
+},
+{
+"id": "hiiraan-online",
+"name": "Hiiraan Online",
+"domains": [
+"hiiraan.com"
+],
+"home": "SO",
+"media": "private"
+},
+{
+"id": "radio-okapi",
+"name": "Radio Okapi",
+"domains": [
+"radiookapi.net"
+],
+"home": "CD",
+"media": "intl-org"
+},
+{
+"id": "actualite-cd",
+"name": "Actualite.cd",
+"domains": [
+"actualite.cd"
+],
+"home": "CD",
+"media": "private"
+},
+{
+"id": "club-of-mozambique",
+"name": "Club of Mozambique",
+"domains": [
+"clubofmozambique.com"
+],
+"home": "MZ",
+"media": "private"
+},
+{
+"id": "news24",
+"name": "News24",
+"domains": [
+"news24.com"
+],
+"home": "ZA",
+"media": "private"
+},
+{
+"id": "sowetan",
+"name": "Sowetan",
+"domains": [
+"sowetanlive.co.za",
+"sowetan.co.za"
+],
+"home": "ZA",
+"media": "private"
+},
+{
+"id": "daily-maverick",
+"name": "Daily Maverick",
+"domains": [
+"dailymaverick.co.za"
+],
+"home": "ZA",
+"media": "private"
+},
+{
+"id": "alwihda-info",
+"name": "Alwihda Info",
+"domains": [
+"alwihdainfo.com"
+],
+"home": "TD",
+"media": "private"
+},
+{
+"id": "pan-african-visions",
+"name": "Pan African Visions",
+"domains": [
+"panafricanvisions.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "libya-observer",
+"name": "Libya Observer",
+"domains": [
+"libyaobserver.ly"
+],
+"home": "LY",
+"media": "private"
+},
+{
+"id": "morocco-world-news",
+"name": "Morocco World News",
+"domains": [
+"moroccoworldnews.com"
+],
+"home": "MA",
+"media": "private"
+},
+{
+"id": "mercopress",
+"name": "MercoPress",
+"domains": [
+"en.mercopress.com",
+"mercopress.com"
+],
+"home": "UY",
+"media": "private"
+},
+{
+"id": "infobae",
+"name": "Infobae",
+"domains": [
+"infobae.com"
+],
+"home": "AR",
+"media": "private"
+},
+{
+"id": "clarin",
+"name": "Clarin",
+"domains": [
+"clarin.com"
+],
+"home": "AR",
+"media": "private"
+},
+{
+"id": "folha-de-s-paulo",
+"name": "Folha de S.Paulo",
+"domains": [
+"folha.uol.com.br"
+],
+"home": "BR",
+"media": "private"
+},
+{
+"id": "the-rio-times",
+"name": "The Rio Times",
+"domains": [
+"riotimesonline.com"
+],
+"home": "BR",
+"media": "private"
+},
+{
+"id": "el-tiempo",
+"name": "El Tiempo",
+"domains": [
+"eltiempo.com"
+],
+"home": "CO",
+"media": "private"
+},
+{
+"id": "semana",
+"name": "Semana",
+"domains": [
+"semana.com"
+],
+"home": "CO",
+"media": "private"
+},
+{
+"id": "vanguardia",
+"name": "Vanguardia",
+"domains": [
+"vanguardia.com"
+],
+"home": "CO",
+"media": "private"
+},
+{
+"id": "primicias",
+"name": "Primicias",
+"domains": [
+"primicias.ec"
+],
+"home": "EC",
+"media": "private"
+},
+{
+"id": "el-universo",
+"name": "El Universo",
+"domains": [
+"eluniverso.com"
+],
+"home": "EC",
+"media": "private"
+},
+{
+"id": "el-universal",
+"name": "El Universal",
+"domains": [
+"eluniversal.com.mx"
+],
+"home": "MX",
+"media": "private"
+},
+{
+"id": "milenio",
+"name": "Milenio",
+"domains": [
+"milenio.com"
+],
+"home": "MX",
+"media": "private"
+},
+{
+"id": "mexico-news-daily",
+"name": "Mexico News Daily",
+"domains": [
+"mexiconewsdaily.com"
+],
+"home": "MX",
+"media": "private"
+},
+{
+"id": "zeta-tijuana",
+"name": "Zeta Tijuana",
+"domains": [
+"zetatijuana.com"
+],
+"home": "MX",
+"media": "private"
+},
+{
+"id": "el-imparcial",
+"name": "El Imparcial",
+"domains": [
+"elimparcial.com"
+],
+"home": "MX",
+"media": "private"
+},
+{
+"id": "por-esto",
+"name": "Por Esto",
+"domains": [
+"poresto.net",
+"poresto.com"
+],
+"home": "MX",
+"media": "private"
+},
+{
+"id": "teletica",
+"name": "Teletica",
+"domains": [
+"teletica.com"
+],
+"home": "CR",
+"media": "private"
+},
+{
+"id": "diario-libre",
+"name": "Diario Libre",
+"domains": [
+"diariolibre.com"
+],
+"home": "DO",
+"media": "private"
+},
+{
+"id": "haitian-times",
+"name": "Haitian Times",
+"domains": [
+"haitiantimes.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "le-nouvelliste",
+"name": "Le Nouvelliste",
+"domains": [
+"lenouvelliste.com"
+],
+"home": "HT",
+"media": "private"
+},
+{
+"id": "el-nacional",
+"name": "El Nacional",
+"domains": [
+"elnacional.com"
+],
+"home": "VE",
+"media": "private"
+},
+{
+"id": "efecto-cocuyo",
+"name": "Efecto Cocuyo",
+"domains": [
+"efectococuyo.com"
+],
+"home": "VE",
+"media": "private"
+},
+{
+"id": "granma",
+"name": "Granma",
+"domains": [
+"granma.cu"
+],
+"home": "CU",
+"media": "state-controlled"
+},
+{
+"id": "npr",
+"name": "NPR",
+"domains": [
+"npr.org",
+"feeds.npr.org"
+],
+"home": "US",
+"media": "public-service"
+},
+{
+"id": "pbs-newshour",
+"name": "PBS NewsHour",
+"domains": [
+"pbs.org"
+],
+"home": "US",
+"media": "public-service"
+},
+{
+"id": "the-new-york-times",
+"name": "The New York Times",
+"domains": [
+"nytimes.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "the-washington-post",
+"name": "The Washington Post",
+"domains": [
+"washingtonpost.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "wall-street-journal",
+"name": "Wall Street Journal",
+"domains": [
+"wsj.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "cnn",
+"name": "CNN",
+"domains": [
+"cnn.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "cbs-news",
+"name": "CBS News",
+"domains": [
+"cbsnews.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "abc-news",
+"name": "ABC News",
+"domains": [
+"abcnews.com",
+"abcnews.go.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "nbc-news",
+"name": "NBC News",
+"domains": [
+"nbcnews.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "fox-news",
+"name": "Fox News",
+"domains": [
+"foxnews.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "boston-globe",
+"name": "Boston Globe",
+"domains": [
+"bostonglobe.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "us-news",
+"name": "US News",
+"domains": [
+"usnews.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "wtop",
+"name": "WTOP",
+"domains": [
+"wtop.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "yahoo-news",
+"name": "Yahoo News",
+"domains": [
+"news.yahoo.com",
+"ca.news.yahoo.com",
+"yahoo.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "msn",
+"name": "MSN",
+"domains": [
+"msn.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "politico",
+"name": "Politico",
+"domains": [
+"politico.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "axios",
+"name": "Axios",
+"domains": [
+"axios.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "the-hill",
+"name": "The Hill",
+"domains": [
+"thehill.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "military-times",
+"name": "Military Times",
+"domains": [
+"militarytimes.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "stars-and-stripes",
+"name": "Stars and Stripes",
+"domains": [
+"stripes.com"
+],
+"home": "US",
+"media": "state-funded"
+},
+{
+"id": "defense-news",
+"name": "Defense News",
+"domains": [
+"defensenews.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "breaking-defense",
+"name": "Breaking Defense",
+"domains": [
+"breakingdefense.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "the-war-zone",
+"name": "The War Zone",
+"domains": [
+"twz.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "voa",
+"name": "VOA",
+"domains": [
+"voanews.com"
+],
+"home": "US",
+"media": "state-funded"
+},
+{
+"id": "radio-free-asia",
+"name": "Radio Free Asia",
+"domains": [
+"rfa.org"
+],
+"home": "US",
+"media": "state-funded"
+},
+{
+"id": "rfe-rl",
+"name": "RFE/RL",
+"domains": [
+"rferl.org"
+],
+"home": "US",
+"media": "state-funded"
+},
+{
+"id": "democracy-now",
+"name": "Democracy Now",
+"domains": [
+"democracynow.org"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "drop-site-news",
+"name": "Drop Site News",
+"domains": [
+"dropsitenews.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "latin-times",
+"name": "Latin Times",
+"domains": [
+"latintimes.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "wlrn",
+"name": "WLRN",
+"domains": [
+"wlrn.org"
+],
+"home": "US",
+"media": "public-service"
+},
+{
+"id": "local-10",
+"name": "Local 10",
+"domains": [
+"local10.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "caribbean-national-weekly",
+"name": "Caribbean National Weekly",
+"domains": [
+"caribbeannationalweekly.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "miami-herald",
+"name": "Miami Herald",
+"domains": [
+"miamiherald.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "gcaptain",
+"name": "gCaptain",
+"domains": [
+"gcaptain.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "the-maritime-executive",
+"name": "The Maritime Executive",
+"domains": [
+"maritime-executive.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "lloyd-s-list",
+"name": "Lloyd's List",
+"domains": [
+"lloydslist.com"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "baird-maritime",
+"name": "Baird Maritime",
+"domains": [
+"bairdmaritime.com"
+],
+"home": "AU",
+"media": "private"
+},
+{
+"id": "cbc-news",
+"name": "CBC News",
+"domains": [
+"cbc.ca"
+],
+"home": "CA",
+"media": "public-service"
+},
+{
+"id": "the-globe-and-mail",
+"name": "The Globe and Mail",
+"domains": [
+"theglobeandmail.com"
+],
+"home": "CA",
+"media": "private"
+},
+{
+"id": "fdd-s-long-war-journal",
+"name": "FDD's Long War Journal",
+"domains": [
+"longwarjournal.org"
+],
+"home": "US",
+"media": "think-tank"
+},
+{
+"id": "critical-threats-aei-isw",
+"name": "Critical Threats (AEI/ISW)",
+"domains": [
+"criticalthreats.org",
+"understandingwar.org"
+],
+"home": "US",
+"media": "think-tank"
+},
+{
+"id": "the-soufan-center",
+"name": "The Soufan Center",
+"domains": [
+"thesoufancenter.org"
+],
+"home": "US",
+"media": "think-tank"
+},
+{
+"id": "jinsa",
+"name": "JINSA",
+"domains": [
+"jinsa.org"
+],
+"home": "US",
+"media": "think-tank"
+},
+{
+"id": "csis",
+"name": "CSIS",
+"domains": [
+"csis.org"
+],
+"home": "US",
+"media": "think-tank"
+},
+{
+"id": "atlantic-council",
+"name": "Atlantic Council",
+"domains": [
+"atlanticcouncil.org"
+],
+"home": "US",
+"media": "think-tank"
+},
+{
+"id": "council-on-foreign-relations",
+"name": "Council on Foreign Relations",
+"domains": [
+"cfr.org"
+],
+"home": "US",
+"media": "think-tank"
+},
+{
+"id": "crisis-group",
+"name": "Crisis Group",
+"domains": [
+"crisisgroup.org"
+],
+"home": "BE",
+"media": "ngo"
+},
+{
+"id": "acled",
+"name": "ACLED",
+"domains": [
+"acleddata.com"
+],
+"home": "US",
+"media": "ngo"
+},
+{
+"id": "human-rights-watch",
+"name": "Human Rights Watch",
+"domains": [
+"hrw.org"
+],
+"home": "US",
+"media": "ngo"
+},
+{
+"id": "amnesty-international",
+"name": "Amnesty International",
+"domains": [
+"amnesty.org"
+],
+"home": "GB",
+"media": "ngo"
+},
+{
+"id": "un-news",
+"name": "UN News",
+"domains": [
+"news.un.org"
+],
+"home": "UN",
+"media": "intl-org"
+},
+{
+"id": "reliefweb",
+"name": "ReliefWeb",
+"domains": [
+"reliefweb.int"
+],
+"home": "UN",
+"media": "intl-org"
+},
+{
+"id": "un-ocha",
+"name": "UN OCHA",
+"domains": [
+"unocha.org"
+],
+"home": "UN",
+"media": "intl-org"
+},
+{
+"id": "unhcr",
+"name": "UNHCR",
+"domains": [
+"unhcr.org"
+],
+"home": "UN",
+"media": "intl-org"
+},
+{
+"id": "icrc",
+"name": "ICRC",
+"domains": [
+"icrc.org"
+],
+"home": "CH",
+"media": "intl-org"
+},
+{
+"id": "iaea",
+"name": "IAEA",
+"domains": [
+"iaea.org"
+],
+"home": "UN",
+"media": "intl-org"
+},
+{
+"id": "africa-defense-forum",
+"name": "Africa Defense Forum",
+"domains": [
+"adf-magazine.com"
+],
+"home": "US",
+"media": "state-funded"
+},
+{
+"id": "indo-pacific-defense-forum",
+"name": "Indo-Pacific Defense Forum",
+"domains": [
+"ipdefenseforum.com"
+],
+"home": "US",
+"media": "state-funded"
+},
+{
+"id": "cisa",
+"name": "CISA",
+"domains": [
+"cisa.gov"
+],
+"home": "US",
+"media": "government"
+},
+{
+"id": "fbi",
+"name": "FBI",
+"domains": [
+"fbi.gov",
+"ic3.gov"
+],
+"home": "US",
+"media": "government"
+},
+{
+"id": "cert-fr-anssi",
+"name": "CERT-FR (ANSSI)",
+"domains": [
+"cert.ssi.gouv.fr",
+"cyber.gouv.fr"
+],
+"home": "FR",
+"media": "government"
+},
+{
+"id": "uk-ncsc",
+"name": "UK NCSC",
+"domains": [
+"ncsc.gov.uk"
+],
+"home": "GB",
+"media": "government"
+},
+{
+"id": "bsi",
+"name": "BSI",
+"domains": [
+"bsi.bund.de"
+],
+"home": "DE",
+"media": "government"
+},
+{
+"id": "us-state-department",
+"name": "US State Department",
+"domains": [
+"state.gov"
+],
+"home": "US",
+"media": "government"
+},
+{
+"id": "us-department-of-defense",
+"name": "US Department of Defense",
+"domains": [
+"defense.gov"
+],
+"home": "US",
+"media": "government"
+},
+{
+"id": "bleepingcomputer",
+"name": "BleepingComputer",
+"domains": [
+"bleepingcomputer.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "the-record",
+"name": "The Record",
+"domains": [
+"therecord.media"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "securityweek",
+"name": "SecurityWeek",
+"domains": [
+"securityweek.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "cybersecurity-dive",
+"name": "Cybersecurity Dive",
+"domains": [
+"cybersecuritydive.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "the-register",
+"name": "The Register",
+"domains": [
+"theregister.com"
+],
+"home": "GB",
+"media": "private"
+},
+{
+"id": "security-affairs",
+"name": "Security Affairs",
+"domains": [
+"securityaffairs.com"
+],
+"home": "IT",
+"media": "private"
+},
+{
+"id": "cybernews",
+"name": "Cybernews",
+"domains": [
+"cybernews.com"
+],
+"home": "LT",
+"media": "private"
+},
+{
+"id": "forescout",
+"name": "Forescout",
+"domains": [
+"forescout.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "claroty",
+"name": "Claroty",
+"domains": [
+"claroty.com"
+],
+"home": "US",
+"media": "private"
+},
+{
+"id": "bytes-europe",
+"name": "Bytes Europe",
+"domains": [
+"byteseu.com"
+],
+"home": "BE",
+"media": "unrated"
+},
+{
+"id": "headtopics",
+"name": "Headtopics",
+"domains": [
+"headtopics.com"
+],
+"home": "NG",
+"media": "unrated"
+},
+{
+"id": "kulu-media",
+"name": "Kulu Media",
+"domains": [
+"kulu-media.com"
+],
+"home": "SO",
+"media": "unrated"
+},
+{
+"id": "nation-path",
+"name": "Nation Path",
+"domains": [
+"nationpathindia.com"
+],
+"home": "IN",
+"media": "unrated"
+},
+{
+"id": "business-news-today",
+"name": "Business News Today",
+"domains": [
+"business-news-today.com"
+],
+"home": "IN",
+"media": "unrated"
+},
+{
+"id": "political-org",
+"name": "Political.org",
+"domains": [
+"political.org"
+],
+"home": "US",
+"media": "unrated"
+}
+],
+"blocked": [
+"news-pravda.com",
+"pravda-en.com",
+"pravda-fr.com",
+"pravda-de.com",
+"portal-kombat.com"
+]
+}
