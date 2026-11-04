@@ -28,6 +28,7 @@ WINDOW_H = 48
 MAX_ITEMS = 9000
 POLL_S = 20
 GNEWS_GAP = 1.0
+GDELT_BUDGET_S = float(os.environ.get("WW_GDELT_BUDGET_S", "720"))  # at most 12 minutes of GDELT a run; the rest next hour
 GDELT_GAP = 12.0                                                       # seconds between GDELT calls (it answers 429 below ~10 s)
 UA = "Mozilla/5.0 (compatible; WarWatchBot/0.3; +https://github.com/Falkor83/war-watch-feed)"
 UA_BROWSER = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
@@ -263,8 +264,12 @@ def collect_gdelt(feed, timespan="4h"):
                              "OR refrigeration OR telecom OR railway)"))
     queries.append(("", "(airstrike OR missile OR shelling OR \"drone attack\" OR offensive OR ceasefire OR troops OR clashes "
                         "OR mobilization OR ultimatum)"))
-    got, okn, bad = [], 0, []
+    # GDELT is slow when busy: a time budget, starting at a different hotspot each hour so all get their turn
+    shift = (int(time.time() // 3600) * 7) % max(1, len(queries))
+    queries = queries[shift:] + queries[:shift]
+    got, okn, bad, t0 = [], 0, [], time.time()
     for hid, q in queries:
+        if time.time() - t0 > GDELT_BUDGET_S: bad.append(f"{hid or 'general'} (out of time)"); continue
         data = gdelt_get(gdelt_url(q, timespan))
         if data is None: bad.append(hid or "general"); continue
         okn += 1
