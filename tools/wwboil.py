@@ -310,58 +310,90 @@ def build_panel(c, items, src, now_ts, gap=12.0, gdelt=True, first_id=1):
     from headlines import gdelt_terms
     terms = gdelt_terms(c)
     query = (terms[0] if len(terms) == 1 else "(" + " OR ".join(terms) + ")") if terms else ""
-    pts, raw = [], {"countries": codes}
-    def add(kind, text, **data):
-        pts.append({"id": f"d{first_id + len(pts)}", "kind": kind, "text": text}); raw.setdefault(kind, []).append(data | {"id": pts[-1]["id"]})
+    pts, tiles = [], []
+    def add(kind, text, label, value, note="", level=0, **extra):
+        did = f"d{first_id + len(pts)}"
+        pts.append({"id": did, "kind": kind, "text": text})
+        tiles.append({"id": did, "kind": kind, "label": label, "value": value, "note": note, "level": level, **extra})
+    def lvl(x, warn_at, alarm_at): return 2 if x >= alarm_at else 1 if x >= warn_at else 0
     g = gdelt_panel(query, gap) if (gdelt and query) else {}
     if "coverage" in g:
         cv = g["coverage"]
         add("coverage", f"World coverage in 65 languages (GDELT): the last 7 days ran at {cv['ratio']}x the 90-day norm; busiest day in the last month {cv['peak']}.",
-            ratio=cv["ratio"], peak=cv["peak"], series=cv["series"])
+            "World coverage", f"{cv['ratio']}×", f"last 7 days vs the 90-day norm, 65 languages (GDELT); busiest day {cv['peak']}",
+            lvl(cv["ratio"], 1.4, 2.0), series=cv["series"])
     if "tone" in g:
         t = g["tone"]
         add("tone", f"Tone of that coverage: {t['recent']} over the last 7 days vs {t['norm']} normally ({'darker' if t['change'] < 0 else 'lighter'} by {abs(t['change'])}; GDELT tone, below 0 is negative).",
-            **t)
+            "Tone", f"{t['recent']:+}", f"vs {t['norm']:+} normally: {'darker' if t['change'] < 0 else 'lighter'} by {abs(t['change'])} (below 0 is negative)",
+            lvl(-t["change"], 0.8, 1.6))
     if "escalation_words" in g:
         e = g["escalation_words"]
-        add("escalation_words", f"Coverage that mentions mobilisation, evacuation, airspace, ultimatums or martial law: {e['ratio']}x its 90-day norm over the last 7 days.", **e)
+        add("escalation_words", f"Coverage that mentions mobilisation, evacuation, airspace, ultimatums or martial law: {e['ratio']}x its 90-day norm over the last 7 days.",
+            "Escalation words", f"{e['ratio']}×", "mobilisation, evacuation, airspace, ultimatums, martial law: last 7 days vs the norm",
+            lvl(e["ratio"], 1.4, 2.0))
     if "talk_words" in g:
         e = g["talk_words"]
-        add("talk_words", f"Coverage that mentions talks, ceasefire, mediation or envoys: {e['ratio']}x its 90-day norm over the last 7 days.", **e)
+        add("talk_words", f"Coverage that mentions talks, ceasefire, mediation or envoys: {e['ratio']}x its 90-day norm over the last 7 days.",
+            "Talk words", f"{e['ratio']}×", "talks, ceasefire, mediation, envoys: last 7 days vs the norm", 0)
     cp, mine = corpus_panel(c, items, now_ts)
     if cp["n"]:
         regs = ", ".join(f"{wwdata.REGION_NAMES.get(r, r)} {n}" for r, n in sorted(cp["regions"].items(), key=lambda kv: -kv[1])[:8])
         add("who_reports", f"Last 48 hours: {cp['n']} headlines from {cp['outlets']} outlets in {len(cp['countries'])} countries and "
-            f"{len(cp['languages'])} languages ({regs}); {round(100 * cp['party_share'])}% from the countries involved.", **cp)
-        sig = ", ".join(f"{k} {v}" for k, v in cp["signals"].items() if v)
-        if sig: add("headline_signals", f"Those headlines by kind: {sig}.", **cp["signals"])
+            f"{len(cp['languages'])} languages ({regs}); {round(100 * cp['party_share'])}% from the countries involved.",
+            "Who's reporting (48 h)", f"{cp['n']} headlines",
+            f"{cp['outlets']} outlets, {len(cp['countries'])} countries, {len(cp['languages'])} languages; {round(100 * cp['party_share'])}% from the sides' own countries",
+            1 if cp["party_share"] >= 0.6 else 0,
+            parts=[[wwdata.REGION_NAMES.get(r, r), n] for r, n in sorted(cp["regions"].items(), key=lambda kv: -kv[1])[:8]])
+        if any(cp["signals"].values()):
+            sig = ", ".join(f"{k} {v}" for k, v in cp["signals"].items() if v)
+            hot = cp["signals"]["mobilization"] + cp["signals"]["evacuation"] + cp["signals"]["airspace"]
+            add("headline_signals", f"Those headlines by kind: {sig}.", "Headline signals (48 h)", f"{sum(cp['signals'].values())}",
+                "what the headlines are about (one headline can count twice)", lvl(hot, 3, 8),
+                parts=[[k, v] for k, v in cp["signals"].items() if v])
     us = src.us_advisories()
     for code in codes:
         a = us.get(code)
-        if a: add("advice_us", f"US travel advice for {wwdata.country_name(code)}: Level {a['level']} of 4" +
-                  (f", updated {a['date']}." if a.get("date") else "."), country=code, **a)
+        name = wwdata.country_name(code)
+        if a: add("advice_us", f"US travel advice for {name}: Level {a['level']} of 4" + (f", updated {a['date']}." if a.get("date") else "."),
+                  f"US travel advice: {name}", f"Level {a['level']} of 4", f"updated {a['date']}" if a.get("date") else "",
+                  2 if a["level"] >= 4 else 1 if a["level"] == 3 else 0, url=a.get("url", ""))
         u = src.uk_advice(code)
-        if u: add("advice_uk", f"UK travel advice for {wwdata.country_name(code)}" + (f" ({'; '.join(u['alert'])})" if u["alert"] else "") +
-                  f", updated {u['date']}" + (f": {u['change']}" if u["change"] else "."), country=code, **u)
+        if u: add("advice_uk", f"UK travel advice for {name}" + (f" ({'; '.join(u['alert'])})" if u["alert"] else "") +
+                  f", updated {u['date']}" + (f": {u['change']}" if u["change"] else "."),
+                  f"UK travel advice: {name}", (u["alert"][0].capitalize() if u["alert"] else "No travel warning"),
+                  f"updated {u['date']}" + (f": {u['change']}" if u["change"] else ""),
+                  2 if any("all travel" in a and "whole" in a for a in u["alert"]) else 1 if u["alert"] else 0, url=u.get("url", ""))
     for m in money_panel(codes, src):
         if m["weaker_7d"] is None: continue
+        w7 = m["weaker_7d"]
         add("currency", f"{m['currency']} ({wwdata.country_name(m['country'])}) vs the US dollar: "
-            f"{'weaker' if m['weaker_7d'] > 0 else 'stronger'} by {abs(m['weaker_7d'])}% in 7 days"
+            f"{'weaker' if w7 > 0 else 'stronger'} by {abs(w7)}% in 7 days"
             + (f", {abs(m['weaker_30d'])}% {'weaker' if m['weaker_30d'] > 0 else 'stronger'} in 30 days" if m["weaker_30d"] is not None else "")
-            + (" (a managed or official rate: moves little even in a crisis)." if m["managed"] else "."), **m)
+            + (" (a managed or official rate: moves little even in a crisis)." if m["managed"] else "."),
+            f"{m['currency']} vs US dollar", f"{abs(w7)}% {'weaker' if w7 > 0 else 'stronger'}",
+            "in 7 days" + (f"; {abs(m['weaker_30d'])}% {'weaker' if m['weaker_30d'] > 0 else 'stronger'} in 30" if m["weaker_30d"] is not None else "")
+            + ("; a managed rate, moves little" if m["managed"] else ""),
+            0 if m["managed"] else lvl(w7, 3, 8))
     oil = src.oil()
     if oil.get("price") and c.get("region") in ("Middle East", "Europe"):
         add("oil", f"Brent crude ${oil['price']} on {oil['date']}" + (f", {oil['change_7d']:+}% in 7 days" if oil.get("change_7d") is not None else "")
-            + (f", {oil['change_30d']:+}% in 30 days." if oil.get("change_30d") is not None else "."), **oil)
+            + (f", {oil['change_30d']:+}% in 30 days." if oil.get("change_30d") is not None else "."),
+            "Brent crude", f"${oil['price']}", (f"{oil['change_7d']:+}% in 7 days" if oil.get("change_7d") is not None else "") + f" (price of {oil['date']})",
+            lvl(oil.get("change_7d") or 0, 5, 10))
     for code in codes[:3]:
         o = src.outages(code)
         if o and o["alerts"]: add("outages", f"Internet outage alerts in {wwdata.country_name(code)} over 7 days (IODA): {o['alerts']}"
-                                  + (f", {o['critical']} critical." if o["critical"] else "."), country=code, **o)
+                                  + (f", {o['critical']} critical." if o["critical"] else "."),
+                                  f"Internet outages: {wwdata.country_name(code)}", f"{o['alerts']} alert{'s' if o['alerts'] != 1 else ''}",
+                                  (f"{o['critical']} critical, " if o["critical"] else "") + "last 7 days (IODA)", 2 if o["critical"] else 1)
     words = c.get("short_name") or c["name"]
     for m in src.markets(re.sub(r"[^\w\s]", " ", words)[:40]):
         add("market", f"Betting market (Polymarket, a price, not a forecast): \"{m['question']}\" trades at {m['yes']}% yes"
-            + (f", {m['week_change']:+} points in a week." if m.get("week_change") is not None else "."), **m)
-    return pts, raw, mine
+            + (f", {m['week_change']:+} points in a week." if m.get("week_change") is not None else "."),
+            "Betting market", f"{m['yes']}% yes", m["question"] + (f" ({m['week_change']:+} pts this week)" if m.get("week_change") is not None else "")
+            + "; a market price, not a forecast", 0, url=m["url"])
+    return pts, tiles, mine
 
 # ---------- the model's part ----------
 def boil_request(cands, feed, panels, heads, notes_by_hot, prev, model, system, today):
@@ -429,7 +461,7 @@ def check(ans, cands, panels, heads, notes_by_hot, prev, today, log):
         out.append(item)
     return out
 
-def public(item, raw, heads, notes_by_hot):
+def public(item, tiles, heads, notes_by_hot):
     """What the app gets: the ladder, the data tiles and only the headlines/notes that were cited."""
     hmap = {h["hid"]: h for h in heads}
     nmap = {n["id"]: n for n in notes_by_hot}
@@ -437,5 +469,5 @@ def public(item, raw, heads, notes_by_hot):
     item["headlines"] = [{"id": i, "t": hmap[i]["t"], "o": hmap[i].get("o", ""), "u": hmap[i]["u"], "s": hmap[i].get("s", ""),
                           "c": hmap[i].get("c", ""), "l": hmap[i].get("l", "en"), "p": hmap[i].get("p", 0)} for i in cited if i in hmap]
     item["notes"] = [wwdata.public_note(nmap[i]) for i in cited if i in nmap]
-    item["data"] = raw
+    item["tiles"] = tiles
     return item

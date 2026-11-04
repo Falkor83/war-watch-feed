@@ -242,12 +242,15 @@ class JobTests(Base):
         ir = boil["us-israel-iran-war"]
         self.assertEqual((ir["stage"], ir["stage_label"], ir["likelihood"]), (4, "Brink", "roughly even chance"))
         self.assertEqual([d["text"] for d in ir["drivers"]], ["Iran says airspace over the south is closed"] +
-                         (["Brent rose 6.2% in a week"] if any(p["id"] == "d4" and p["kind"] == "oil" for p in ir["data"].get("oil", [])) else []))
+                         (["Brent rose 6.2% in a week"] if any(p["id"] == "d4" and p["kind"] == "oil" for p in ir["tiles"]) else []))
         self.assertEqual(ir["brakes"], [], "a brake citing nothing real is dropped")
         self.assertNotIn("900", ir["summary"])
         self.assertTrue(ir["headlines"] and ir["headlines"][0]["u"].startswith("https://"))
-        self.assertEqual(ir["data"]["advice_us"][0]["level"], 4)
-        self.assertIn("who_reports", ir["data"])
+        tiles = {t["kind"]: t for t in ir["tiles"]}
+        self.assertEqual((tiles["advice_us"]["value"], tiles["advice_us"]["level"]), ("Level 4 of 4", 2))
+        self.assertEqual(tiles["oil"]["value"], "$81.4"); self.assertEqual(tiles["oil"]["level"], 1)
+        self.assertEqual(tiles["outages"]["note"], "1 critical, last 7 days (IODA)")
+        self.assertIn("who_reports", tiles); self.assertTrue(tiles["who_reports"]["parts"])
         self.assertEqual(json.load(open(self.uf.HISTORY))["days"][-1]["boil"]["us-israel-iran-war"], 4)
         self.assertAlmostEqual(b.get("headlines_usd", 0), 0.5)
 
