@@ -19,8 +19,8 @@ Return one ```json block with these keys (leave a key out when you have nothing 
 "rank": all hotspot ids, worst first (severity, scale of harm, momentum, then US impact).
 "brief": exactly 3 short lines for a busy reader: what changed since yesterday (name the hotspots), what matters
   most for the US, and one calm line on anything easing. No alarm words. If little changed, say so plainly.
-"us_overview": 3-4 sentences, "us_points": 3-4 one-line bullets (fuel and prices, allies and troops, Asia, closer to
-  home), only when they changed.
+"us_overview": 3-4 sentences, and "us_points": 3-4 one-line bullets (fuel and prices, allies and troops, Asia, closer
+  to home). Always give both.
 "signals": the 3-7 biggest points about where the world's reporting as a whole points. Each:
   {"id": "stable-kebab-id (reuse yesterday's id for the same point)", "title": "an observation, not a forecast",
    "claim": "one sentence", "detail": "2-3 sentences; party claims as 'X says'", "direction": "escalating|easing|mixed|steady",
