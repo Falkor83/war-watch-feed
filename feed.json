@@ -8221,14 +8221,6 @@
      "value": "0.0% stronger",
      "note": "in 7 days; 0.0% stronger in 30; a managed rate, moves little",
      "level": 0
-    },
-    {
-     "id": "d40",
-     "kind": "oil",
-     "label": "Brent crude",
-     "value": "$123.1",
-     "note": "+6.8% in 7 days (price of 2026-10-27)",
-     "level": 1
     }
    ],
    "score": 6.0,
@@ -8604,14 +8596,6 @@
      "value": "0.3% weaker",
      "note": "in 7 days; 1.7% weaker in 30",
      "level": 0
-    },
-    {
-     "id": "d70",
-     "kind": "oil",
-     "label": "Brent crude",
-     "value": "$123.1",
-     "note": "+6.8% in 7 days (price of 2026-10-27)",
-     "level": 1
     }
    ],
    "score": 4.0,
@@ -8922,14 +8906,6 @@
      "level": 0
     },
     {
-     "id": "d10",
-     "kind": "oil",
-     "label": "Brent crude",
-     "value": "$123.1",
-     "note": "+6.8% in 7 days (price of 2026-10-27)",
-     "level": 1
-    },
-    {
      "id": "d11",
      "kind": "market",
      "label": "Betting market",
@@ -9144,14 +9120,6 @@
      "value": "0.2% weaker",
      "note": "in 7 days; 1.6% weaker in 30",
      "level": 0
-    },
-    {
-     "id": "d24",
-     "kind": "oil",
-     "label": "Brent crude",
-     "value": "$123.1",
-     "note": "+6.8% in 7 days (price of 2026-10-27)",
-     "level": 1
     }
    ],
    "score": 6.0,
@@ -9373,14 +9341,6 @@
     },
     {
      "id": "d48",
-     "kind": "currency",
-     "label": "XAF vs US dollar",
-     "value": "0.6% stronger",
-     "note": "in 7 days; 0.1% stronger in 30; a managed rate, moves little",
-     "level": 0
-    },
-    {
-     "id": "d49",
      "kind": "currency",
      "label": "XAF vs US dollar",
      "value": "0.6% stronger",
@@ -9666,14 +9626,6 @@
      "value": "0.6% stronger",
      "note": "in 7 days; 0.1% stronger in 30",
      "level": 0
-    },
-    {
-     "id": "d85",
-     "kind": "oil",
-     "label": "Brent crude",
-     "value": "$123.1",
-     "note": "+6.8% in 7 days (price of 2026-10-27)",
-     "level": 1
     },
     {
      "id": "d86",
