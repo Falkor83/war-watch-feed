@@ -151,7 +151,8 @@ class JobTests(Base):
     def analysis_text(self):
         p = {"updates": [{"id": "us-israel-iran-war", "severity": "red", "trend": "escalating", "notes": ["n01", "n02", "n03"],
                           "status": "US strike on Qeshm island; Iran says it downed a drone"},
-                         {"id": "russia-ukraine-war", "severity": "yellow", "notes": ["n04"], "trend": "de-escalating"}],
+                         {"id": "russia-ukraine-war", "severity": "yellow", "notes": ["n04"], "trend": "de-escalating"},
+                         {"id": "haiti-gang-war", "us_impact": {"level": "direct"}, "notes": ["n04"]}],
              "watch_list": [{"id": "us-israel-iran-war", "why": "US forces are fighting and Gulf shipping is at risk."}],
              "brief": ["The US struck Qeshm island; 4 killed per two outlets.", "Oil jumped 12% overnight.", "Ukraine talks resumed in Abu Dhabi."],
              "signals": [{"id": "qeshm", "title": "Outlets in two regions report a US strike on Qeshm", "claim": "A US strike hit Qeshm; 4 were killed.",
@@ -184,7 +185,9 @@ class JobTests(Base):
         self.assertEqual(sum(1 for c in feed["conflicts"] if c.get("us_watch")), 1)
         self.assertEqual(iran["rank"], 1)
         ru = next(c for c in feed["conflicts"] if c["id"] == "russia-ukraine-war")
-        self.assertEqual(ru["severity"], "red", "a severity change backed by 1 source must be refused")
+        self.assertEqual(ru["severity"], "yellow", "a calmer call needs one cited note, not two")
+        haiti = next(c for c in feed["conflicts"] if c["id"] == "haiti-gang-war")
+        self.assertNotEqual(haiti["us_impact"]["level"], "direct", "moving up to direct needs 2 independent sources")
         self.assertEqual(ru["trend"], "de-escalating")
         self.assertFalse(any("invented" in d["url"] for c in feed["conflicts"] for d in c["latest"]))
         self.assertEqual(feed["brief"]["lines"], ["The US struck Qeshm island; 4 killed per two outlets.", "Ukraine talks resumed in Abu Dhabi."],
