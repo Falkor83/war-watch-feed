@@ -1,0 +1,49 @@
+name: War Watch ratings
+
+# Every morning Claude re-checks worldwide war coverage and updates feed.json (Sundays: a full region-by-region review).
+# The War Watch app downloads feed.json from this public repo. Needs the ANTHROPIC_API_KEY secret
+# (set by Set-WarWatchSetup.cmd on Matt's PC; no AI sees it). Spending is capped in tools/update_feed.py (budget.json).
+
+on:
+  schedule:
+    - cron: '41 12 * * *'        # daily ~4:41 AM Pacific (12:41 UTC)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'daily or weekly'
+        default: daily
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ratings
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+      - name: Update the ratings
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODE_INPUT: ${{ github.event.inputs.mode }}
+        run: |
+          set -euo pipefail
+          mode="${MODE_INPUT:-}"
+          if [ -z "$mode" ]; then if [ "$(date -u +%u)" = 7 ]; then mode=weekly; else mode=daily; fi; fi
+          echo "[STEP] Mode: $mode"
+          python3 tools/update_feed.py check
+          python3 tools/update_feed.py "$mode"
+      - name: Save the new ratings
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- feed.json budget.json; then echo "[OK] Nothing changed"; exit 0; fi
+          git config user.name "War Watch ratings"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed.json budget.json
+          git commit -q -m "Ratings $(date -u +%Y-%m-%d) ($(python3 -c 'import json;print(len(json.load(open("feed.json"))["conflicts"]))') hotspots)"
+          git push -q
+          echo "[OK] Pushed"
