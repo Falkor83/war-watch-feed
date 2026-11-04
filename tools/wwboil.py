@@ -157,26 +157,58 @@ def hotspot_query(c):
     return (terms[0] if len(terms) == 1 else "(" + " OR ".join(terms) + ")") if terms else ""
 
 # ---------- worldwide headlines ----------
-def hotspot_matcher(c):
-    strong = [a for a in c.get("anchors") or [] if len(a) >= 4]
-    weak = [x for x in (c.get("context") or []) + (c.get("countries") or []) if len(x) >= 4]
-    rs = re.compile(r"(?<!\w)(" + "|".join(re.escape(a) for a in sorted(strong, key=len, reverse=True)) + r")", re.I) if strong else None
-    rw = re.compile(r"(?<!\w)(" + "|".join(re.escape(a) for a in sorted(weak, key=len, reverse=True)) + r")", re.I) if weak else None
-    sec = re.compile(r"\b(war|military|troops|army|navy|missile|drone|strike|attack|clash|border|nuclear|ceasefire|talks|"
-                     r"sanction|drill|exercise|deploy|evacuat|airspace|mobili|threat|warn|tension|escalat|incursion|blockade)", re.I)
-    def match(item):
-        if c["id"] in (item.get("h") or []): return True
-        t = item.get("t", "")
-        if rs and rs.search(t): return True
-        if rw:
-            names = {m.group(1).lower() for m in rw.finditer(t)}
-            return len(names) >= 2 or (len(names) == 1 and bool(sec.search(t)))
-        return False
-    return match
+_SEC = re.compile(r"\b(war|military|troops|army|navy|missile|drone|strike|attack|clash|border|nuclear|ceasefire|talks|"
+                  r"sanction|drill|exercise|deploy|evacuat|airspace|mobili|threat|warn|tension|escalat|incursion|blockade|"
+                  r"shell|bomb|killed|militia|rebel|insurgen|forces|soldiers|hostage|kidnap|refugee)", re.I)
 
-def corpus_panel(c, items, now_ts, hours=48):
-    match = hotspot_matcher(c)
-    mine = [x for x in items if x.get("p", 0) >= now_ts - hours * 3600 and match(x)]
+def _names_re(names):
+    names = sorted({n for n in names if len(n) >= 4}, key=len, reverse=True)
+    return re.compile(r"(?<!\w)(" + "|".join(re.escape(n) for n in names) + r")", re.I) if names else None
+
+class CorpusMatcher:
+    """Which hotspots a worldwide headline is about, by points: its own names (anchors, GDELT hint) count most, then
+    local names (a town, a leader), its first country, its other sides; a headline must reach 2 points and name
+    something specific or carry a security word. Shared headlines go to every hotspot within 75% of the best score,
+    so general Russia-Ukraine news doesn't also count as Moldova's."""
+    def __init__(self, conflicts):
+        countries = {n.lower() for n in wwdata.COUNTRIES.values()}
+        self.hs = []
+        for c in conflicts:
+            ctx = [x for x in c.get("context") or [] if x.lower() not in countries]
+            first = (c.get("countries") or [""])[0]
+            parties = [p for p in c.get("parties") or [] if p.lower() in countries and p != first]
+            self.hs.append((c["id"], _names_re(c.get("anchors") or []), _names_re(ctx), _names_re([first] if first else []),
+                            _names_re(parties)))
+
+    def assign(self, item):
+        t = item.get("t", "")
+        sec = bool(_SEC.search(t))
+        scores = {}
+        for cid, strong, local, first, sides in self.hs:
+            sc = 0.0
+            if cid in (item.get("h") or []): sc += 3
+            if strong and strong.search(t): sc += 3
+            if local and local.search(t): sc += 2
+            if first and first.search(t): sc += 1.5
+            if sides: sc += 1.0 * len({m.group(1).lower() for m in sides.finditer(t)})
+            if sc >= 3 or (sc >= 2 and sec): scores[cid] = sc
+        if not scores: return []
+        best = max(scores.values())
+        return [cid for cid, sc in scores.items() if sc >= 0.75 * best]
+
+_ASSIGNED = {}
+def assigned(conflicts, items):
+    """{item key: [hotspot ids]}, computed once per list of items."""
+    key = (id(items), len(items))
+    if key not in _ASSIGNED:
+        m = CorpusMatcher(conflicts)
+        _ASSIGNED.clear()
+        _ASSIGNED[key] = [m.assign(x) for x in items]
+    return _ASSIGNED[key]
+
+def corpus_panel(c, items, now_ts, hours=48, conflicts=None):
+    tags = assigned(conflicts or [c], items)
+    mine = [x for x, ids in zip(items, tags) if c["id"] in ids and x.get("p", 0) >= now_ts - hours * 3600]
     parties = {wwdata.iso(p) for p in c.get("parties") or []} - {""}
     regions = {}
     for x in mine:
@@ -325,7 +357,7 @@ def money_panel(codes, src):
     return out
 
 # ---------- the panel ----------
-def build_panel(c, items, src, now_ts, series=None, first_id=1):
+def build_panel(c, items, src, now_ts, series=None, first_id=1, conflicts=None):
     """Every data point gets an ID (d1, d2...) and a plain sentence with its numbers, so the model can cite it and the
     numbers check can hold the model to it."""
     codes = [x for x in dict.fromkeys(wwdata.iso(p) for p in (c.get("parties") or []) + (c.get("countries") or [])) if x][:5]
@@ -355,7 +387,7 @@ def build_panel(c, items, src, now_ts, series=None, first_id=1):
         e = g["talk_words"]
         add("talk_words", f"Coverage that mentions talks, ceasefire, mediation or envoys: {e['ratio']}x its 90-day norm over the last 7 days.",
             "Talk words", f"{e['ratio']}×", "talks, ceasefire, mediation, envoys: last 7 days vs the norm", 0)
-    cp, mine = corpus_panel(c, items, now_ts)
+    cp, mine = corpus_panel(c, items, now_ts, conflicts=conflicts)
     if cp["n"]:
         regs = ", ".join(f"{wwdata.REGION_NAMES.get(r, r)} {n}" for r, n in sorted(cp["regions"].items(), key=lambda kv: -kv[1])[:8])
         add("who_reports", f"Last 48 hours: {cp['n']} headlines from {cp['outlets']} outlets in {len(cp['countries'])} countries and "

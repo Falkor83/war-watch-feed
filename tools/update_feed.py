@@ -291,7 +291,7 @@ def coverage_table(feed, hours=24):
     if not items: return "(worldwide headlines not available today)"
     now = int(time.time()); rows = []
     for c in feed["conflicts"]:
-        cp, mine = wwboil.corpus_panel(c, items, now, hours)
+        cp, mine = wwboil.corpus_panel(c, items, now, hours, conflicts=feed["conflicts"])
         if not cp["n"]: rows.append(f"{c['id']}: no headlines"); continue
         regs = ", ".join(f"{wwdata.REGION_NAMES.get(r, r)} {n}" for r, n in sorted(cp["regions"].items(), key=lambda kv: -kv[1])[:6])
         parties = {wwdata.iso(p) for p in c.get("parties") or []} - {""}
@@ -492,7 +492,7 @@ def boil_stage(out, notes, budget):
     panels, raws, heads, n_d, n_h = {}, {}, {}, 1, 1
     for cid in cands:
         c = byid[cid]
-        pts, raw, mine = wwboil.build_panel(c, items, src, now, series.get(cid), first_id=n_d)
+        pts, raw, mine = wwboil.build_panel(c, items, src, now, series.get(cid), first_id=n_d, conflicts=out["conflicts"])
         n_d += len(pts)
         parties = {wwdata.iso(p) for p in c.get("parties") or []} - {""}
         hs = []
@@ -655,7 +655,7 @@ def main():
         series = wwboil.gdelt_prefetch({cid: wwboil.hotspot_query(byid[cid]) for cid in cands}, budget_s=600) if BOIL_GDELT else {}
         for cid in cands:
             c = byid[cid]
-            pts, raw, mine = wwboil.build_panel(c, CORPUS.get("items") or [], src, int(time.time()), series.get(cid), first_id=n)
+            pts, raw, mine = wwboil.build_panel(c, CORPUS.get("items") or [], src, int(time.time()), series.get(cid), first_id=n, conflicts=feed["conflicts"])
             n += len(pts)
             print(f"\n== {cid}: {len(mine)} headlines in 48 h")
             for d in pts: print(f"  {d['id']} [{d['kind']}] {d['text']}")
