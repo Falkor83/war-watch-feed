@@ -6,7 +6,7 @@
 "parts": {
 "R": 62,
 "X": 42,
-"T": 1
+"T": 4
 },
 "hotspots": {
 "russia-ukraine-war": [
@@ -15,7 +15,7 @@
 "indirect",
 1,
 0,
-0
+1
 ],
 "black-sea-shipping-attacks": [
 "red",
@@ -47,7 +47,7 @@
 "direct",
 1,
 0,
-1
+3
 ],
 "yemen-houthi-saudi-war": [
 "red",
@@ -103,7 +103,7 @@
 "indirect",
 0,
 0,
-1
+2
 ],
 "ethiopia-tigray-eritrea": [
 "red",
@@ -318,6 +318,14 @@
 "ecuador-gang-conflict": "Ecuador gangs",
 "us-cuba-pressure": "US-Cuba"
 },
+"boil": {
+"us-israel-iran-war": 3,
+"black-sea-shipping-attacks": 3,
+"russia-ukraine-war": 2,
+"moldova-drone-spillover-transnistria": 2,
+"chad-car-border": 2,
+"russia-nato-eastern-flank-kaliningrad": 2
+},
 "signals": [
 {
 "id": "russia-s-war-is-spilling-onto-nato-s-edge",
@@ -326,27 +334,9 @@
 "regions": 3
 },
 {
-"id": "drones-have-become-the-main-killer-in-many-of-thes",
-"direction": "escalating",
-"keys": 4,
-"regions": 3
-},
-{
-"id": "the-gulf-s-two-sea-chokepoints-are-both-under-thre",
-"direction": "escalating",
-"keys": 4,
-"regions": 4
-},
-{
 "id": "ukraine-talks-and-record-strikes-are-happening-at",
 "direction": "mixed",
 "keys": 4,
-"regions": 3
-},
-{
-"id": "ukraine-talks-and-record-strikes-are-happening-at-",
-"direction": "mixed",
-"keys": 3,
 "regions": 3
 },
 {
@@ -359,6 +349,18 @@
 "id": "china-is-pressing-three-us-allies-at-the-same-time",
 "direction": "escalating",
 "keys": 3,
+"regions": 2
+},
+{
+"id": "the-gulf-s-two-sea-chokepoints-are-both-under-thre",
+"direction": "mixed",
+"keys": 3,
+"regions": 2
+},
+{
+"id": "drones-have-become-the-main-killer-in-many-of-thes",
+"direction": "steady",
+"keys": 4,
 "regions": 2
 },
 {
