@@ -10,7 +10,7 @@ class FakeSources:
     def us_advisories(self): return {"IR": {"level": 4, "title": "Iran - Level 4: Do Not Travel", "date": "2026-10-30", "url": "https://travel.state.gov/x"}}
     def uk_advice(self, code): return None
     def fx(self): return {"now": {"ils": 3.80}, "d7": {"ils": 3.70}, "d30": {"ils": 3.60}}
-    def oil(self): return {"price": 81.4, "date": "2026-10-31", "change_7d": 6.2, "change_30d": 9.0}
+    def oil(self): return {"price": 81.4, "date": TODAY, "change_7d": 6.2, "change_30d": 9.0}
     def outages(self, code): return {"alerts": 3, "critical": 1} if code == "IR" else None
     def markets(self, words): return []
 

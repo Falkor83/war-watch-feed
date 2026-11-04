@@ -215,7 +215,7 @@ def gather_requests(feed, focus_list, searches):
         user = (f"Today is {today()}. Focus: {focus}.\n\nCurrent hotspots:\n{hotspot_table(feed, region)}\n\n"
                 f"Current cyber/sabotage items:\n{cyber_table(feed)}\n\nSearch and return the research-notes JSON described in your instructions.")
         reqs.append({"label": label, "model": GATHER_MODEL, "system": system, "user": user, "max_uses": searches,
-                     "max_tokens": 24000, "estimate": 0.4, "blocked_domains": blocked_domains()})
+                     "max_tokens": 48000, "estimate": 0.4, "blocked_domains": blocked_domains()})
     return reqs
 
 def parse_notes(text, label):

@@ -415,8 +415,10 @@ def build_panel(c, items, src, now_ts, series=None, first_id=1, conflicts=None):
                   f"UK travel advice: {name}", (u["alert"][0].capitalize() if u["alert"] else "No travel warning"),
                   f"updated {u['date']}" + (f": {u['change']}" if u["change"] else ""),
                   2 if any("all travel" in a and "whole" in a for a in u["alert"]) else 1 if u["alert"] else 0, url=u.get("url", ""))
+    seen_cur = set()
     for m in money_panel(codes, src):
-        if m["weaker_7d"] is None: continue
+        if m["weaker_7d"] is None or m["currency"] in seen_cur: continue
+        seen_cur.add(m["currency"])
         w7 = m["weaker_7d"]
         add("currency", f"{m['currency']} ({wwdata.country_name(m['country'])}) vs the US dollar: "
             f"{'weaker' if w7 > 0 else 'stronger'} by {abs(w7)}% in 7 days"
@@ -427,7 +429,8 @@ def build_panel(c, items, src, now_ts, series=None, first_id=1, conflicts=None):
             + ("; a managed rate, moves little" if m["managed"] else ""),
             0 if m["managed"] else lvl(w7, 3, 8))
     oil = src.oil()
-    if oil.get("price") and c.get("region") in ("Middle East", "Europe"):
+    fresh_oil = oil.get("date") and wwscore.days_between(oil["date"], datetime.date.today().isoformat()) <= 4   # FRED lags: a stale price misleads
+    if oil.get("price") and fresh_oil and c.get("region") in ("Middle East", "Europe"):
         add("oil", f"Brent crude ${oil['price']} on {oil['date']}" + (f", {oil['change_7d']:+}% in 7 days" if oil.get("change_7d") is not None else "")
             + (f", {oil['change_30d']:+}% in 30 days." if oil.get("change_30d") is not None else "."),
             "Brent crude", f"${oil['price']}", (f"{oil['change_7d']:+}% in 7 days" if oil.get("change_7d") is not None else "") + f" (price of {oil['date']})",
