@@ -47,7 +47,9 @@ class Base(unittest.TestCase):
     def setUp(self):
         self.dir = tempfile.mkdtemp()
         src = os.path.dirname(HERE)
-        for f in ("feed.json", "outlets.json"): shutil.copy(os.path.join(src, f), self.dir)
+        # a frozen copy of the feed, so tests never depend on what the live ratings say today
+        shutil.copy(os.path.join(HERE, "fixtures", "feed.json"), self.dir)
+        shutil.copy(os.path.join(src, "outlets.json"), self.dir)
         for d in ("prompt", "config"): shutil.copytree(os.path.join(src, d), os.path.join(self.dir, d))
         os.environ["ANTHROPIC_API_KEY"] = "test"
         import update_feed
