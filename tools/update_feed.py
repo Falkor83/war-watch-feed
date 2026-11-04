@@ -639,11 +639,25 @@ def migrate(feed):
 
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
-    if mode not in ("daily", "weekly", "check", "migrate"): raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate)")
+    if mode not in ("daily", "weekly", "check", "migrate", "panel"): raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate, panel)")
     feed = load(FEED)
     if mode == "check":
         validate_feed(feed); ok(f"feed.json is valid: {len(feed['conflicts'])} hotspots, schema {feed.get('schema', 1)}"); return
     history = load(HISTORY, {"days": []})["days"]
+    if mode == "panel":                                      # dry run of the boiling point's data: no API call, nothing saved
+        CORPUS.update(load(os.path.join(LIVE, "headlines.json"), {"items": []}) or {"items": []})
+        t = today(); cands, scores = wwboil.candidates(feed, feed.get("boil") or [], t, LISTS.get("nuclear_states", []))
+        print(f"candidates: {[(c, scores[c]) for c in cands]}")
+        src, n = wwboil.Sources(t), 1
+        for cid in cands:
+            c = next(x for x in feed["conflicts"] if x["id"] == cid)
+            pts, raw, mine = wwboil.build_panel(c, CORPUS.get("items") or [], src, int(time.time()), gdelt=BOIL_GDELT, first_id=n)
+            n += len(pts)
+            print(f"\n== {cid}: {len(mine)} headlines in 48 h")
+            for d in pts: print(f"  {d['id']} [{d['kind']}] {d['text']}")
+            parties = {wwdata.iso(p) for p in c.get("parties") or []} - {""}
+            for h in wwboil.pick_headlines(mine, parties)[:8]: print(f"    - [{h.get('c')} {h.get('l')}] {h['t'][:120]}")
+        print("\n" + coverage_table(feed)[:6000]); return
     if mode == "migrate":
         out = migrate(feed)
         out, history = finish(out, history)

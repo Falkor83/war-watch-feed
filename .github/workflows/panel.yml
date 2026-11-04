@@ -1,0 +1,20 @@
+name: Boiling point data (dry run)
+
+# Manual only: builds the boiling point's data panels from public data and the worldwide headlines, and prints them.
+# No Claude API call, nothing saved.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  panel:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          mkdir -p live
+          if git fetch -q --depth 1 origin live 2>/dev/null; then git archive FETCH_HEAD headlines.json | tar -x -C live; fi
+          python3 tools/update_feed.py panel
