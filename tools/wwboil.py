@@ -464,7 +464,7 @@ def boil_request(cands, feed, panels, heads, notes_by_hot, prev, model, system, 
             "\nNOTES (today's checked research notes)\n" +
             "\n".join(f"{n['id']}: [{n['home']} {n['tag']}] {n['fact']}" for n in notes_by_hot.get(cid, [])[:10]))
     user = (f"Today is {today}.\n\n" + "\n\n".join(blocks) + "\n\nReturn the JSON described in your instructions.")
-    return {"label": "boiling point", "model": model, "system": system, "user": user, "max_uses": 0, "max_tokens": 12000, "estimate": 0.15}
+    return {"label": "boiling point", "model": model, "system": system, "user": user, "max_uses": 0, "max_tokens": 24000, "estimate": 0.2}
 
 def check(ans, cands, panels, heads, notes_by_hot, prev, today, log):
     """The model's ladder -> what the app shows. Citations must exist; numbers must be in what was cited; the ladder
