@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "usd": 1.0727,
+ "usd": 1.6727,
  "runs": [
   {
    "at": "2026-11-04T04:16:08Z",
@@ -10,6 +10,15 @@
    "out": 15015,
    "searches": 18,
    "usd": 1.0727
+  },
+  {
+   "at": "2026-11-04T04:46:50Z",
+   "what": "daily search notes (failed run; added by hand)",
+   "model": "claude-sonnet-5-5",
+   "in": 183145,
+   "out": 13265,
+   "searches": 10,
+   "usd": 0.6
   }
  ]
 }
