@@ -92,6 +92,21 @@ def call(model, system, user, max_uses, max_tokens):
         break
     return text, total
 
+def salvage_objects(text, key):
+    """Complete {...} objects inside a (possibly cut-off) "key": [ ... ] list."""
+    i = text.find(f'"{key}"')
+    if i < 0: return []
+    i = text.find("[", i)
+    if i < 0: return []
+    dec, out, pos = json.JSONDecoder(), [], i + 1
+    while True:
+        while pos < len(text) and text[pos] in " \t\r\n,": pos += 1
+        if pos >= len(text) or text[pos] != "{": break
+        try: obj, pos = dec.raw_decode(text, pos)
+        except ValueError: break
+        out.append(obj)
+    return out
+
 def extract_json(text):
     """The last fenced ```json block, else the outermost {...} or [...]."""
     blocks = re.findall(r"```(?:json)?\s*(.*?)```", text, re.S)
@@ -195,10 +210,14 @@ def gather(feed, budget, label, focus, searches):
     system = RULES + "\n\n" + open(os.path.join(ROOT, "prompt", "gather.md")).read()
     user = (f"Today is {today()}. Focus: {focus}. Current hotspots (compact):\n{compact(feed)}\n\n"
             "Search and return the research-notes JSON described in your instructions.")
-    text, usage = call(GATHER_MODEL, system, user, max_uses=searches, max_tokens=12000)
+    text, usage = call(GATHER_MODEL, system, user, max_uses=searches, max_tokens=24000)
     add_cost(budget, GATHER_MODEL, usage, f"{label} search notes")
-    got = extract_json(text)
-    notes = got.get("findings") if isinstance(got, dict) else got
+    try:
+        got = extract_json(text)
+        notes = got.get("findings") if isinstance(got, dict) else got
+    except ValueError:
+        notes = salvage_objects(text, "findings")          # cut off: keep every complete note
+        warn(f"{label}: notes were cut off; kept {len(notes)} complete ones")
     clean = []
     for n in notes or []:
         if not isinstance(n, dict): continue

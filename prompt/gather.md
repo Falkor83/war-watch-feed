@@ -14,4 +14,5 @@ Rules:
 
 Return one ```json block: {"findings": [{"hotspot": "existing-id or new: name", "date": "YYYY-MM-DD", "fact": "...",
 "outlet": "...", "country": "...", "url": "https://...", "state_media": false}], "coverage_notes": "one line"}
-Aim for 30-70 findings.
+Aim for 25-45 findings, each fact under 30 words. Put the JSON block straight after your searches, with no other
+text before it.

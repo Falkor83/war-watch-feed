@@ -37,7 +37,10 @@ jobs:
           echo "[STEP] Mode: $mode"
           python3 tools/update_feed.py check
           python3 tools/update_feed.py "$mode"
+      # Runs even when the update failed, so budget.json keeps the cost of failed runs too (feed.json only changes
+      # when a new feed passed its checks).
       - name: Save the new ratings
+        if: always()
         run: |
           set -euo pipefail
           if git diff --quiet -- feed.json budget.json; then echo "[OK] Nothing changed"; exit 0; fi
