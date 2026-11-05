@@ -1491,9 +1491,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Trump confirms Qeshm strike, eyes nuclear sites; Brent falls 7.6% on deal talk",
+   "status": "Trump rules out immediate Iran strikes as oil falls; midterm losses tied to the war",
    "summary": "After major US and Israeli combat with Iran, the conflict has become a contest over the Strait of Hormuz, with the US blockading Iranian Gulf ports. On Nov 2 the US struck Iran's Qeshm Island. US officials say this answered Revolutionary Guards fire at a US fighter jet, and they call it limited and defensive. The Wall Street Journal reports it was one of several quiet US strikes in recent weeks. UKMTO reported a ship struck off Oman on Nov 2 and two vessels attacked in the strait on Nov 3. Iran's security council secretary Rezaei says Hormuz reopens only if seven Iranian conditions are met, and President Trump is weighing a decision after the midterms.",
    "latest": [
+    {
+     "date": "2026-11-05",
+     "text": "US midterm results are being linked to the Iran war. Vance and Trump both say the war contributed to the losses, and Trump says he would fight it again. Iranian media mock the result, and Democrats call for an end to the war.",
+     "outlet": "Inquirer Global Nation",
+     "country": "Philippines",
+     "url": "https://globalnation.inquirer.net/345828/iran-crows-over-us-elections-as-trump-admits-war-triggered-defeat",
+     "region": "southeast-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-05",
+     "text": "Gulf News reports that crude fell toward $93 and WTI to $87 after Trump ruled out immediate strikes on Iran.",
+     "outlet": "Gulf News",
+     "country": "United Arab Emirates",
+     "url": "https://gulfnews.com/business/energy/crude-slides-toward-93-wti-drops-to-87-as-trump-rules-out-immediate-iran-strikes-1.500736498",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-05",
+     "text": "Iran's supreme leader Khamenei says he threatens a wider war if the US resumes strikes, and says US hostility will persist after the midterms. These are Iranian statements, not new military action.",
+     "outlet": "Geo News",
+     "country": "Pakistan",
+     "url": "https://www.geo.tv/latest/689784-irans-supreme-leader-threatens-wider-war-if-us-resumes-strikes",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-04",
      "text": "A US official said American forces struck Iranian targets in the Strait of Hormuz, Taipei Times reported from wire services.",
@@ -1541,36 +1571,6 @@
      "country": "Israel",
      "url": "https://www.timesofisrael.com/liveblog_entry/us-said-to-strike-iranian-island-in-strait-of-hormuz/",
      "region": "middle-east",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-03",
-     "text": "UKMTO reported two vessels attacked in the Strait of Hormuz, as Iran steps up attacks on commercial ships while the US blockades Iranian Gulf ports.",
-     "outlet": "ABC News",
-     "country": "US",
-     "url": "https://abcnews.com/International/live-updates/iran-live-updates-trump-good-call-netanyahu/?id=137762456",
-     "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-03",
-     "text": "Iran's deputy foreign minister Gharibabadi said Tehran reserves the right to self-defence, and IRGC-linked media claimed a US drone was downed near Qeshm.",
-     "outlet": "Gulf News",
-     "country": "UAE",
-     "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-carries-out-defensive-strikes-on-irans-qeshm-island-near-strait-of-hormuz-as-tensions-escalate-1.500733555",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-03",
-     "text": "Trump told Axios he is in no rush to resume strikes. The US is sending a Patriot system to Israel, and Gulf states fear fiercer Iranian retaliation.",
-     "outlet": "Stars and Stripes",
-     "country": "US",
-     "url": "https://www.stripes.com/theaters/middle_east/2026-11-03/us-strikes-iran-qeshm-island-hormuz-23348317.html",
-     "region": "north-america",
      "tag": "non-party",
      "state_media": false
     }
@@ -9644,6 +9644,343 @@
      2
     ]
    ]
+  }
+ ],
+ "focus": [
+  {
+   "hotspot": "us-israel-iran-war",
+   "since": "2026-11-05T03:38:42Z",
+   "history": [
+    {
+     "at": "2026-11-05T03:38:42Z",
+     "headline": "Trump rules out immediate Iran strikes as oil falls; midterm losses tied to the war",
+     "direction": "steady"
+    }
+   ],
+   "every_hours": 3.0,
+   "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
+   "name": "Iran war",
+   "status": "active",
+   "updated_at": "2026-11-05T03:38:42Z",
+   "next_at": "2026-11-05T06:38:42Z",
+   "headline": "Trump rules out immediate Iran strikes as oil falls; midterm losses tied to the war",
+   "direction": "steady",
+   "points": [
+    {
+     "text": "US midterm results are being linked to the Iran war. Vance and Trump both say the war contributed to the losses, and Trump says he would fight it again. Iranian media mock the result, and Democrats call for an end to the war.",
+     "stories": [
+      "s2",
+      "s8",
+      "s10",
+      "s14",
+      "s23",
+      "s34",
+      "s4",
+      "s9"
+     ],
+     "sources": [
+      {
+       "t": "Iran crows over US elections as Trump admits war triggered defeat",
+       "u": "https://globalnation.inquirer.net/345828/iran-crows-over-us-elections-as-trump-admits-war-triggered-defeat",
+       "s": "Inquirer Global Nation",
+       "c": "PH",
+       "l": "en",
+       "p": 1793848962,
+       "r": "known"
+      },
+      {
+       "t": "[US Midterm Elections 2026] Trump on war with Iran as cause of defeat: \"Largely right",
+       "o": "【米中間選挙2026】 トランプ氏、イランとの戦争が敗因との見方は「大方当たっている」",
+       "u": "https://www.bbc.com/japanese/articles/c5gm0rld0w8do?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Japanese",
+       "c": "GB",
+       "l": "ja",
+       "p": 1793848581,
+       "r": "known"
+      },
+      {
+       "t": "Publicly cutting Trump? Republicans' midterm rout: Vance says the cause is the Iran war",
+       "o": "公開切割川普？共和黨期中選舉慘敗 范斯：原因就是伊朗戰爭",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5629876",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1793834203,
+       "r": "known"
+      },
+      {
+       "t": "Trump blames Iran war for midterms losses",
+       "u": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1793835001,
+       "r": "known"
+      },
+      {
+       "t": "US midterm results 2026 LIVE updates: Trump touts ballroom renovations after ‘blue tsunami’ destroys Republican majority in House, Senate; JD Vance blames war in Iran for wipeout",
+       "u": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNYkJGWFJmSWZBcXhmU0pUUzBMOUQxVzN6S0RnUjdpR1p4UUZ2Tzl6ZUZjYW9CZXRFVElfaWIxaUtmS3BObHlvMTM4Mkljb3NmUU1oaVRsbDdiSV81UEdVX3RnN1dlcDNLUjhiZmdfX09jejNjbkRTODEtZmtadkxFclpJZHhFY0JwU2tRZ2JncWV5VUd1T19IVWFXaWlPZWJnVlAzV05VRmsycExBOXRnWjhFb0Z6TFJ2aGdBYU9vTEFVQ0JjNVVuX3N3ZWtWaWZRSkE0WHg4WTltUjFHWmRhLVI3WWk2SUJlMEtjc1RYTGNUS3I5dTNwT2JKeTRvYk5pcVdyMzVudmNobFdEM0xHT1kzRTFILXA3Rk5KOGg5V0M0MDZpbEVmV0k0MXc1SXN2T0ozZ3k2d0xFdDBZN0NGcDd6d290YnYwcUUxTE9kRFBRaF82M3FSRy1aOHFjSWZPODJnS3FwTXFqNnJBTjJ4NXFRUmVEWUNzLTJwR09B?oc=5",
+       "s": "The Age",
+       "c": "AU",
+       "l": "en",
+       "p": 1793846262,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 18,
+     "outlets": 14,
+     "independent": 14,
+     "countries": [
+      "AU",
+      "DE",
+      "GB",
+      "IN",
+      "IR",
+      "IT",
+      "KR",
+      "PH",
+      "QA",
+      "RU",
+      "TW"
+     ],
+     "regions": 8,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Gulf News reports that crude fell toward $93 and WTI to $87 after Trump ruled out immediate strikes on Iran.",
+     "stories": [
+      "s20"
+     ],
+     "sources": [
+      {
+       "t": "Crude slides toward $93, WTI drops to $87 as Trump rules out immediate Iran strikes",
+       "u": "https://gulfnews.com/business/energy/crude-slides-toward-93-wti-drops-to-87-as-trump-rules-out-immediate-iran-strikes-1.500736498",
+       "s": "Gulf News",
+       "c": "AE",
+       "l": "en",
+       "p": 1793844578,
+       "r": "known"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "AE"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran's supreme leader Khamenei says he threatens a wider war if the US resumes strikes, and says US hostility will persist after the midterms. These are Iranian statements, not new military action.",
+     "stories": [
+      "s11",
+      "s29"
+     ],
+     "sources": [
+      {
+       "t": "Iran's supreme leader threatens wider war if US resumes strikes",
+       "u": "https://www.geo.tv/latest/689784-irans-supreme-leader-threatens-wider-war-if-us-resumes-strikes",
+       "s": "Geo News",
+       "c": "PK",
+       "l": "en",
+       "p": 1793832102,
+       "r": "known"
+      },
+      {
+       "t": "Iran warns of wider war if US attacks resume",
+       "u": "https://news.rthk.hk/rthk/en/component/k2/1876593-20261105.htm",
+       "s": "RTHK International",
+       "c": "HK",
+       "l": "en",
+       "p": 1793830308,
+       "r": "known"
+      },
+      {
+       "t": "Iran war live: Khamenei says US hostility will persist after midterms",
+       "u": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1793836800,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "HK",
+      "PK",
+      "QA"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "The US has sanctioned individuals and companies, including Indian and Turkish firms, over alleged help to Iran with air defence systems and maritime operations. Indian and Turkish outlets report the measures.",
+     "stories": [
+      "s3",
+      "s19",
+      "s30",
+      "s36"
+     ],
+     "sources": [
+      {
+       "t": "US hands out sanctions over accusations of supplying Iran with air defence systems",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-sanctions-hands-out-sanctions-over-accusations-supplying-iran-air",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1793846407,
+       "r": "known"
+      },
+      {
+       "t": "US sanctions individuals, entities over alleged efforts to supply Iran with air defense systems",
+       "u": "https://www.aa.com.tr/en/americas/us-sanctions-individuals-entities-over-alleged-efforts-to-supply-iran-with-air-defense-systems/4112138",
+       "s": "Anadolu Agency",
+       "c": "TR",
+       "l": "en",
+       "p": 1793844332,
+       "r": "state"
+      },
+      {
+       "t": "US sanctions on two individuals and a company for allegedly helping Iran purchase man-portable air defense systems",
+       "o": "عقوبات أميركية على شخصين وشركة بتهمة مساعدة إيران في شراء منظومات دفاع جوي محمولة",
+       "u": "https://news.google.com/rss/articles/CBMiiAVBVV95cUxPS0JtVlFTREMxR0ljVVdPbGI5cVVGZHJzdXB0dVNSTmxmZWVHaXFiV0wyY1c3R2YwZm1Mb0sza3FNSnJPRkVNQzY3SkRWZmN0VzZhcDZZekVIYzRYSnp6UkRPYV9lOUpxLVlWWTk5U1lPT1VoQk4wZ2hlRVByODVSZXdYaGltZDgteENfYy1DdzZTWDlWMnFfQkVVa3JxWktWelRTaHg2T1dOZWNnYlZ2bEdfUHhLTHZrOHNpZUcwN2JuanNnYlVuRk1sX3Q3NkxxM0pBSFNwR0VjYTBDLWpXVTNZRTlUOEN6RlRYNEVuSkdNNlp4RHFzMW8zQ1RqM214dWZabEJsS0tMRjg5Y1o4NmEtV0lOOHpheW5hb0tuUXhQRzFVTVM3V1hJX1V6RmRyYmRQQ0dqR293d3JOZHNqNy1lTXRpUHRYNmgteW5tMlBkRFdoa0ZaU2dpV3hqYS0xb2dSLWpoSWpwang5cTRGNEFwZU16dkNpQlA0Nnk2eThqX0RNY3c1bzVWVmM5MlhLb1pUWG45YW5SQnRrX3B5TGw",
+       "s": "الشرق للأخبار",
+       "c": "LB",
+       "l": "ar",
+       "p": 1793843887,
+       "r": "unrated"
+      },
+      {
+       "t": "U.S. slaps sanctions on Indian, Turkish firms and people for aiding Iran",
+       "u": "https://www.thehindu.com/news/international/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran/article71668431.ece",
+       "s": "The Hindu",
+       "c": "IN",
+       "l": "en",
+       "p": 1793844722,
+       "r": "known"
+      },
+      {
+       "t": "US takes major action, imposes strict sanctions on Indian and Turkish companies for helping Iran",
+       "o": "अमेरिका का बड़ा एक्शन, ईरान की मदद करने पर भारत और तुर्किए की कंपनियों पर लगाया कड़ा प्रतिबंध",
+       "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSnlRQkRkNFNYU1FuMXJTOGdvWXhjSVRMeXV2SFgyd1JscFl4eWt0NW9hb2FuWTBIUHdSejlpVUtvT3Z0Ykx4Q3JVLXZjTksxVjVnMUlvTE9GWk1ZeGg5VTExY2xoUDJQbzQxc1lqeVEyX3JrX2t1MDlUdm9udkZrRS1vXzExb0hERjRzTGt6Y2UwQUF2ZGxvV091NjNYMElpRGhYNjVFM3FhNDJ1cldQNVdQTlNtYXhuWHlj?oc=5",
+       "s": "Jagran",
+       "c": "IN",
+       "l": "hi",
+       "p": 1793836800,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 6,
+     "outlets": 6,
+     "independent": 6,
+     "countries": [
+      "GB",
+      "IN",
+      "LB",
+      "SA",
+      "TR"
+     ],
+     "regions": 4,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "South Korea plans to expand its naval mission closer to the Strait of Hormuz and add patrol aircraft, to keep the strait open. Several outlets in different regions report it, and Infobae says it comes amid US pressure.",
+     "stories": [
+      "s1",
+      "s5",
+      "s6",
+      "s7",
+      "s12"
+     ],
+     "sources": [
+      {
+       "t": "South Korea will support keeping Hormuz open with a military mission",
+       "o": "Corea del Sur apoyará a mantener abierto Ormuz con misión militar",
+       "u": "https://www.dw.com/es/corea-del-sur-apoyará-a-mantener-abierto-ormuz-con-misión-militar/a-79859771?maca=spa-rss-sp-all-1122-rdf",
+       "s": "DW Spanish",
+       "c": "DE",
+       "l": "es",
+       "p": 1793848260,
+       "r": "known"
+      },
+      {
+       "t": "South Korea to deploy military mission to help keep Hormuz open",
+       "u": "https://gulfnews.com/world/asia/south-korea-to-deploy-military-mission-to-help-keep-hormuz-open-1.500736489",
+       "s": "Gulf News",
+       "c": "AE",
+       "l": "en",
+       "p": 1793847333,
+       "r": "known"
+      },
+      {
+       "t": "South Korea to deploy military mission to help keep Hormuz open",
+       "u": "https://www.channelnewsasia.com/east-asia/south-korea-deploy-mission-strait-hormuz-6526131",
+       "s": "CNA World",
+       "c": "SG",
+       "l": "en",
+       "p": 1793846264,
+       "r": "known"
+      },
+      {
+       "t": "Seoul plans to send a military mission to help keep the Strait of Hormuz open",
+       "o": "سيول تعتزم إرسال مهمة عسكرية للمساعدة في إبقاء مضيق هرمز مفتوحاً",
+       "u": "https://aawsat.com/node/5337775",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1793846136,
+       "r": "known"
+      },
+      {
+       "t": "South Korea to expand anti-piracy unit operations closer to Strait of Hormuz",
+       "u": "https://www.jpost.com/international/article-913878",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1793848962,
+       "r": "known"
+      }
+     ],
+     "headlines": 18,
+     "outlets": 14,
+     "independent": 12,
+     "countries": [
+      "AE",
+      "AR",
+      "DE",
+      "FR",
+      "IL",
+      "IN",
+      "KR",
+      "SA",
+      "SG",
+      "TW",
+      "US"
+     ],
+     "regions": 8,
+     "party_only": false,
+     "state": 0
+    }
+   ],
+   "watch": [
+    "Whether Trump's 'no immediate strikes' stance holds, and any move to resume strikes on Iran",
+    "Israel's reported claim, relayed by US media, that Iran is considering chemical weapons; this is unconfirmed",
+    "Further US sanctions on third-country firms, and Iran's response"
+   ],
+   "window_hours": 6,
+   "headlines_read": 71,
+   "outlets_read": 46,
+   "countries_read": 24,
+   "languages_read": 14,
+   "model": "Claude Haiku 5.5"
   }
  ]
 }
