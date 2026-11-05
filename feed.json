@@ -1491,9 +1491,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Iran says tankers hit mines and caught fire in Hormuz; war fallout over midterms continues",
+   "status": "Tankers caught fire in Hormuz; Trump admits Iran war hurt midterms, strike talk grows",
    "summary": "After major US and Israeli combat with Iran, the conflict has become a contest over the Strait of Hormuz, with the US blockading Iranian Gulf ports. On Nov 2 the US struck Iran's Qeshm Island. US officials say this answered Revolutionary Guards fire at a US fighter jet, and they call it limited and defensive. The Wall Street Journal reports it was one of several quiet US strikes in recent weeks. UKMTO reported a ship struck off Oman on Nov 2 and two vessels attacked in the strait on Nov 3. Iran's security council secretary Rezaei says Hormuz reopens only if seven Iranian conditions are met, and President Trump is weighing a decision after the midterms.",
    "latest": [
+    {
+     "date": "2026-11-05",
+     "text": "Iran's Revolutionary Guards say two tankers and a tug caught fire in the Strait of Hormuz; one report gives a count of three ships. Outlets from several countries carry the claim, and the BBC reports fires on two oil tankers. The cause has not been independently confirmed.",
+     "outlet": "CNN",
+     "country": "United States",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMm1WOTBKZmx3S3BXdnFiNmczbXUyVTQ4ZkRKaXZaa2lMQUVJc1FYWDFPLU9pZ1BveWNGenlGS2kyVGJPT2ZLU2FCc0dOSTlUYk5naWxFd2Z5ZldkelFnVXNYNnp6NGNJNGpqNjZQdS11ZW5WOTh1WjRZLWV4aVE1cC1DWHJ5UkJJOWN2V3FnU2NlUUVLQ0NJ?oc=5",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-05",
+     "text": "The UK Maritime Trade Operations (UKMTO) reports a tanker was hit by two unidentified projectiles off the Qatar coast. Crew status is unknown. This comes from a single outlet so far.",
+     "outlet": "Hindustan Times World",
+     "country": "India",
+     "url": "https://www.hindustantimes.com/world-news/tanker-hit-by-2-unidentified-projectiles-off-qatar-coast-crew-status-remains-unknown-ukmto-101793868023275.html",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-05",
+     "text": "Trump and Vance have said the Iran war was among the causes of the Republicans' midterm defeat. Trump also says the war was worth it. One Indian outlet reports he says he would attack Iran again if given the chance.",
+     "outlet": "RFI Persian",
+     "country": "France",
+     "url": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261105-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%AC%D9%86%DA%AF-%D8%A8%D8%A7-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A7%D8%B2-%D8%B9%D9%88%D8%A7%D9%85%D9%84-%D8%B4%DA%A9%D8%B3%D8%AA-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA%DB%8C-%D8%A8%D9%88%D8%AF-%D8%A7%D9%85%D8%A7-%D8%A7%D8%B1%D8%B2%D8%B4%D8%B4-%D8%B1%D8%A7-%D8%AF%D8%A7%D8%B4%D8%AA",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-05",
      "text": "Iran says two tankers and a tugboat caught fire after hitting mines in the Strait of Hormuz. Iran's Revolutionary Guards gave a different count in another report, saying three vessels were on fire. These are Iranian accounts; no independent confirmation of the cause is reported yet.",
@@ -1543,36 +1573,6 @@
      "region": "gulf",
      "tag": "non-party",
      "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "Iran's supreme leader Khamenei says he threatens a wider war if the US resumes strikes, and says US hostility will persist after the midterms. These are Iranian statements, not new military action.",
-     "outlet": "Geo News",
-     "country": "Pakistan",
-     "url": "https://www.geo.tv/latest/689784-irans-supreme-leader-threatens-wider-war-if-us-resumes-strikes",
-     "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-04",
-     "text": "A US official said American forces struck Iranian targets in the Strait of Hormuz, Taipei Times reported from wire services.",
-     "outlet": "Taipei Times",
-     "country": "Taiwan",
-     "url": "https://www.taipeitimes.com/News/front/archives/2026/11/04/2003867115",
-     "region": "east-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-03",
-     "text": "Trump confirmed US strikes on an Iranian anti-aircraft facility, calling them a minor attack that was not war; Iranian media said Qeshm Island was hit.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes",
-     "region": "gulf",
-     "tag": "party-gov",
-     "state_media": true
     }
    ],
    "us_impact": {
@@ -9926,174 +9926,76 @@
      "at": "2026-11-05T07:03:41Z",
      "headline": "Iran says tankers hit mines and caught fire in Hormuz; war fallout over midterms continues",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-05T09:48:30Z",
+     "headline": "Tankers caught fire in Hormuz; Trump admits Iran war hurt midterms, strike talk grows",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-05T07:03:41Z",
-   "next_at": "2026-11-05T10:03:41Z",
-   "headline": "Iran says tankers hit mines and caught fire in Hormuz; war fallout over midterms continues",
+   "updated_at": "2026-11-05T09:48:30Z",
+   "next_at": "2026-11-05T12:48:30Z",
+   "headline": "Tankers caught fire in Hormuz; Trump admits Iran war hurt midterms, strike talk grows",
    "direction": "escalating",
    "points": [
     {
-     "text": "Iran says two tankers and a tugboat caught fire after hitting mines in the Strait of Hormuz. Iran's Revolutionary Guards gave a different count in another report, saying three vessels were on fire. These are Iranian accounts; no independent confirmation of the cause is reported yet.",
+     "text": "Iran's Revolutionary Guards say two tankers and a tug caught fire in the Strait of Hormuz; one report gives a count of three ships. Outlets from several countries carry the claim, and the BBC reports fires on two oil tankers. The cause has not been independently confirmed.",
      "stories": [
       "s1",
-      "s2",
-      "s7"
+      "s6",
+      "s20"
      ],
      "sources": [
       {
-       "t": "Two tankers hit mines in the Strait of Hormuz",
-       "o": "Hürmüz Boğazı'nda 2 tanker mayına çarptı",
-       "u": "https://www.hurriyet.com.tr/dunya/hurmuz-bogazinda-2-tanker-mayina-carpti-43366495",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1793860506,
-       "r": "known"
-      },
-      {
-       "t": "Iran says two oil tankers caught fire after hitting mines in the Strait of Hormuz",
-       "o": "Irán afirma que dos petroleros se han incendiado al chocar con minas en el estrecho de Ormuz",
-       "u": "https://www.infobae.com/america/agencias/2026/11/05/iran-afirma-que-dos-petroleros-se-han-incendiado-al-chocar-con-minas-en-el-estrecho-de-ormuz/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1793859330,
-       "r": "known"
-      },
-      {
-       "t": "Iran says two tankers and tugboat caught fire in Strait of Hormuz",
-       "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS2ttYUNKemNTVUNNZUktVEZiWXhkVmduNzZrTEw2ZTVVOW9saWpRNXBpQWxsM0k4TGJzZWpFQ0Fxa0c0Q0Y1Ym9KbF9HWlNoanFBUFd3aXNUTkIyUlNSMnc4NUdLZHBrUzViN01fdmxCTlZtQkxDMi00dE9MNFo4cWRIR1luWWdLc2pHd3pzYkJ5ODd2ODFLZzQ4WHpuaWpMeEJ1RjB1T0ZsS2ZMMnU2SFZ3ejZWZ1NaWlFoVENSaWvSAcYBQVVfeXFMTmlDZkpaa2ZkZy1hWkdPNHl0SFFUdVBUUWtWU2ROTlNTQm42OFNFOERSMmU4dzRKOEVBWFdXR3h6ZjFWUHRrNHBMQ092YVZzV0IyeWxKWUtKUkVBemdZQnI5eWxvTThsSEZSVXhIdkZaWldKSDZfalk2QTdNa0dsQzZ4RzlsYjg1dXA0alRaQloyNFVYMmJ2ZnJ1SUpqRWVNLWR5N0I2ZHctSnBBa3d1aTBMSTJCa28tRThNSG1nSE53NFZyOG5n?oc=5",
-       "s": "Al Arabiya English",
-       "c": "SA",
-       "l": "en",
-       "p": 1793858340,
+       "t": "Iran's Revolutionary Guard announces fire on two oil tankers and a sea tug in the Strait of Hormuz | CNN Arabic | CNN",
+       "o": "الحرس الثوري يعلن اندلاع حريق في ناقلتي نفط وقاطرة بحرية في مضيق هرمز | CNN Arabic | CNN",
+       "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMm1WOTBKZmx3S3BXdnFiNmczbXUyVTQ4ZkRKaXZaa2lMQUVJc1FYWDFPLU9pZ1BveWNGenlGS2kyVGJPT2ZLU2FCc0dOSTlUYk5naWxFd2Z5ZldkelFnVXNYNnp6NGNJNGpqNjZQdS11ZW5WOTh1WjRZLWV4aVE1cC1DWHJ5UkJJOWN2V3FnU2NlUUVLQ0NJ?oc=5",
+       "s": "CNN",
+       "c": "US",
+       "l": "ar",
+       "p": 1793864829,
        "r": "known"
       },
       {
        "t": "Iran's IRGC says two tankers and tugboat caught fire in Strait of Hormuz",
-       "u": "https://www.jpost.com/middle-east/article-913883",
-       "s": "Jerusalem Post",
-       "c": "IL",
+       "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPalhxLVNwaXFnV2Q3cDZkTWVaMzgzR1dNVGFWQW1aR0NnSVg4X3YwYi1xZUUtdmNfeXhWLV9OOVg4aUxndXFGcE44eGRDa0NFM2h5WGdNakNKanhldzVjM0JNV2g5VXl5MUJ5NlNCOTU0cEM0bEdnT1lFZkU1aV9wSnJXSzZyakZYLXVNd05PdGRIeUlJNEtCMUpHQU84Ujl0UzN4NzBYN2NJaDkxeHJqZGlONkp1ME5EQmVIQ1NRVmRHQQ?oc=5",
+       "s": "L'Orient-Le Jour",
+       "c": "LB",
        "l": "en",
-       "p": 1793853313,
+       "p": 1793864583,
        "r": "known"
       },
       {
-       "t": "IRGC reports fire on three vessels in the Strait of Hormuz",
-       "o": "КСИР сообщил о пожаре на трех судах в Ормузском проливе",
-       "u": "https://www.kommersant.ru/doc/9080568",
-       "s": "Kommersant",
-       "c": "RU",
-       "l": "ru",
-       "p": 1793857641,
-       "r": "known"
-      }
-     ],
-     "headlines": 20,
-     "outlets": 18,
-     "independent": 16,
-     "countries": [
-      "AE",
-      "AR",
-      "GB",
-      "IL",
-      "IR",
-      "LB",
-      "QA",
-      "RU",
-      "SA",
-      "TR"
-     ],
-     "regions": 6,
-     "party_only": false,
-     "state": 6
-    },
-    {
-     "text": "Trump says there is 'no rush to war' with Iran. A US outlet, citing officials, reports that US forces are accelerating preparations and could strike at any time. That report comes only from US media, so it is not independently confirmed.",
-     "stories": [
-      "s28"
-     ],
-     "sources": [
-      {
-       "t": "Trump says \"no rush to war\"! Officials reveal US forces accelerating preparations, ready to strike Iran at any time",
-       "o": "川普喊「不急開戰」！官員爆美軍加速備戰 隨時可攻擊伊朗",
-       "u": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPeXk5VWdNSm45bWhsWGY1Z1M5NzFMR083b1plWndTTVVvX0lMYURFSHRXZE1vZkh6UmY0bU1sT2hwemdwRGttY3c3NE5SX21XTE5UdGx5cGhFbkhLbXRKN0R6cmtkZ3lzMXlnemVZUV8tQ1p4Nk9uWDZ4dGVyaXBSbnNmbEJTU3RpM0ZxWHRqUlZ5Y3FYSTVTQmFEbU13b25MdDVPQXVxNGxPOF82dERkMHJxNUl2Nnpac3dMMVNZODlVTmRtdzhxNVo1TWR1ZFB1T2FlWFdLMjRPRjRhTmtHQnNhNHp3blNUVGZWc2dZdWNIMnEwUE1KXzR6ZkVGUjBjaGJzVExlNkdGYndURGo0blBQSjFBZkM1YkF2YW5WczNITGNCanQzUUE1UEdWOVNsR01WTV9XMXdPWl9xSWJlay0zRWllTGRzcFBBanI4eDVKQXdSc1NFVFRnbTlOVVo1eVVHeHhMeWxBZVk?oc=5",
-       "s": "Yahoo News",
-       "c": "US",
-       "l": "zh",
-       "p": 1793856099,
-       "r": "known"
-      }
-     ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
-     "countries": [
-      "US"
-     ],
-     "regions": 1,
-     "party_only": true,
-     "state": 0
-    },
-    {
-     "text": "South Korea says it will expand its anti-piracy naval unit closer to the Strait of Hormuz, with demining assets added. Reports from several countries confirm the plan.",
-     "stories": [
-      "s4",
-      "s5",
-      "s8"
-     ],
-     "sources": [
-      {
-       "t": "South Korea will expand the area of its anti-piracy naval unit to get closer to the Strait of Hormuz",
-       "o": "Corea del Sur ampliará el área de su unidad naval contra la piratería para aproximarse al estrecho de Ormuz",
-       "u": "https://www.infobae.com/america/agencias/2026/11/05/corea-del-sur-ampliara-el-area-de-su-unidad-naval-contra-la-pirateria-para-aproximarse-al-estrecho-de-ormuz/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1793854855,
+       "t": "Iran's Revolutionary Guards announce fires broke out on 3 ships while transiting the Strait of Hormuz",
+       "o": "الحرس الثوري الإيراني يعلن اندلاع حرائق في 3 سفن خلال عبورها مضيق هرمز",
+       "u": "https://www.dw.com/ar/الحرس-الثوري-الإيراني-يعلن-اندلاع-حرائق-في-3-سفن-خلال-عبورها-مضيق-هرمز/live-79860485?maca=ara-rss-ar-all-1125-rdf",
+       "s": "DW Arabic",
+       "c": "DE",
+       "l": "ar",
+       "p": 1793864160,
        "r": "known"
       },
       {
-       "t": "South Korea says it will expand naval operations closer to strait of Hormuz",
-       "u": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
-       "s": "The Guardian",
+       "t": "Iran Says Two Tankers and Tugboat Caught Fire in Hormuz",
+       "u": "https://english.aawsat.com/node/5337809",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
+       "l": "en",
+       "p": 1793863738,
+       "r": "known"
+      },
+      {
+       "t": "Fires on two oil tankers in the Strait of Hormuz; South Korea plans to deploy a patrol aircraft and an explosives-removal team",
+       "o": "حرائق في ناقلتَي نفط بمضيق هرمز، وكوريا الجنوبية تعتزم نشر طائرة دورية وفريق لإزالة المتفجرات",
+       "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NUWNidkIxYmpWb0xDMElSdC15YkF3RXlkMHY0OTVfNHhpOHk5UmpxLVNhNFhHbXpvMFd4cnd4ekpjQ25JTElILWMwSGo4R052SWIxZjdGeE9qX1pldXfSAWNBVV95cUxPR2dsbG9BLUxCSFQxX0ltUTFkVHhjQ1lsM21Ta005ZWE1WXFWMDczN0k2b0lJeS1xa2YycmNGcU1ON2FwTUNSM0c4TFI5SldGdjlhMnA2R3NHTXJnMkhwNnNWajA?oc=5",
+       "s": "BBC News",
        "c": "GB",
-       "l": "en",
-       "p": 1793852569,
-       "r": "known"
-      },
-      {
-       "t": "Report: South Korea will expand operations to the Strait of Hormuz area",
-       "o": "דיווח: קוריאה הדרומית תרחיב את פעילות עד לאזור מצר הורמוז",
-       "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYks0NDd3NlJmc3dkdDZyenhSSHJFVzhvM2JQN3FqanBoczFEeXVTcGI3UFJrN1dHazdydmQ4Rmh1U2lHZGN6QUhDSTJsVFBRQkI1ZUxFYmFQSERVN2ctd3ZxRHFiTWJtTDFxaGdWVU94dGY1YW1Bc0QzR1k1dnBvd2NB?oc=5",
-       "s": "כאן 11",
-       "c": "IL",
-       "l": "he",
-       "p": 1793852715,
-       "r": "unrated"
-      },
-      {
-       "t": "S. Korea to deploy military mission to help keep Strait of Hormuz open",
-       "u": "https://globalnation.inquirer.net/345892/s-korea-to-deploy-military-mission-to-help-keep-strait-of-hormuz-open",
-       "s": "Inquirer Global Nation",
-       "c": "PH",
-       "l": "en",
-       "p": 1793857825,
-       "r": "known"
-      },
-      {
-       "t": "South Korea to deploy navy near Strait of Hormuz",
-       "o": "La Corée du Sud va déployer sa marine près du détroit d’Ormuz",
-       "u": "https://www.lemonde.fr/international/article/2026/11/05/la-coree-du-sud-va-deployer-sa-marine-pres-du-detroit-d-ormuz_6806741_3210.html",
-       "s": "Le Monde International",
-       "c": "FR",
-       "l": "fr",
-       "p": 1793853617,
+       "l": "ar",
+       "p": 1793864882,
        "r": "known"
       }
      ],
@@ -10101,78 +10003,222 @@
      "outlets": 7,
      "independent": 7,
      "countries": [
-      "AR",
-      "FR",
+      "DE",
       "GB",
-      "IL",
-      "KR",
-      "PH"
+      "LB",
+      "PL",
+      "SA",
+      "US"
      ],
-     "regions": 5,
+     "regions": 4,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "The US has sanctioned 13 Iranian individuals and a company, and a network said to have procured air defence missiles for Iran. An Indian couple was also named over alleged help with Iran's shadow fleet. Each measure is reported by a single outlet.",
+     "text": "The UK Maritime Trade Operations (UKMTO) reports a tanker was hit by two unidentified projectiles off the Qatar coast. Crew status is unknown. This comes from a single outlet so far.",
      "stories": [
-      "s11",
-      "s17",
-      "s13"
+      "s10"
      ],
      "sources": [
       {
-       "t": "US sanctions 13 Iranian individuals and a company",
-       "o": "ABD'den İranlı 13 kişi ve şirkete yaptırım",
-       "u": "https://www.hurriyet.com.tr/dunya/abdden-iranli-13-kisi-ve-sirkete-yaptirim-43366463",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1793859115,
-       "r": "known"
-      },
-      {
-       "t": "US sanctions on a network that procured air defense missiles for Iran",
-       "o": "عقوبات أميركية على شبكة لشراء صواريخ دفاع جوي لصالح إيران",
-       "u": "https://news.google.com/rss/articles/CBMiugNBVV95cUxOaTNjWW1ocTI0V2pXaHpGVk1wVEZOU2QtWTFtOTFTYXZWbzIwczlJZzVId250LVlXTEZmWmZuOEpuZE5seWpGcEUzQUpzZlBFYzQyMHNuMlBOVV9EWFNZQ185TkU1ZHRSMllQVHQzanM1YlBtLVF2d0E1cG9KMldpWmR6a3BsS0xDSHdheVJMSFVSSlVZSmhCeHVhdUwwWFp2RmRfc1VlU0V1TUV0MS1FWngybFVpMEFkaE90Q2gybGM1TTd0UjNwbnhMeWhCZEdmQk5jOUY3eFR0ZER0YmlnLWhILTg1eERIRjdHZlhCQll3SXAxM0M3UEtzblRGM1pIVGtWaHhfZVB6d1JQWll6Tmtva0V5d0lYU2RRNVgtZzA5WExFWEdDVWlLV3FVNVJhVE5id0ozSjMyQlVCR3VUc3NmX0U5SzVVWVZtb293QW44NTBKdEIxandsOHdKemlTdnZPWTJ5T0k1Q3pYUGhwRGswZ2xrYUxoTTdfVjFMQ3FZRjUtN2J3VjdNYmp1NTdVQ05pNGR5RWQ2dTN2eTIxb01",
-       "s": "سكاي نيوز عربية",
-       "c": "EG",
-       "l": "ar",
-       "p": 1793854771,
-       "r": "unrated"
-      },
-      {
-       "t": "US sanctions Indian couple over ‘maritime fraud’ supporting Iran’s shadow fleet",
-       "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRWtUTmE2a01tZVRJeVhjLVhjMHZoV3d3RmxObG1UMkE5ZEgyaG42SGZ3VWcyeFk4aVVTTVl0OWMybUE0WEtfTVFnWVpFNHhEOWtaOGpWbGowZFNiZ0h1ZlJxNXMyclZWUVloWDktUEI2NmoyNXd2U29XUjJrT3VOVHNsUVRGeFZmZE1QSjBqVGY1RlJDZDNvNXZUZEZKY2s3VS1TbC02LVE3dGot0gGzAUFVX3lxTE5FQVJfdnhEdGFpaHJUalNVbmwtQUlxLUVsTTVaMmRLZldNZk9BUHRtZHJkcTdPNGM2WWRMUUJZU3VqeEdpNHE2MHdrbF9idDNtUVQwc21jV0N3UGlrczJEdERtek9SMC1pWVN4REJEU2lXSjBfVHpzOTN3SEEwelU1dENIRzJWekJPTWdOQVFhRGFUVlpfbEJ2R09zMklIanVuc2xFQy1ycWZRM3ZZa01IMnlj?oc=5",
-       "s": "Indian Express",
+       "t": "Tanker hit by 2 unidentified projectiles off Qatar coast, crew status remains unknown: UKMTO",
+       "u": "https://www.hindustantimes.com/world-news/tanker-hit-by-2-unidentified-projectiles-off-qatar-coast-crew-status-remains-unknown-ukmto-101793868023275.html",
+       "s": "Hindustan Times World",
        "c": "IN",
        "l": "en",
-       "p": 1793857294,
+       "p": 1793868497,
        "r": "known"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
      "countries": [
-      "EG",
+      "IN"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Trump and Vance have said the Iran war was among the causes of the Republicans' midterm defeat. Trump also says the war was worth it. One Indian outlet reports he says he would attack Iran again if given the chance.",
+     "stories": [
+      "s4",
+      "s5",
+      "s21"
+     ],
+     "sources": [
+      {
+       "t": "Trump: The war with Iran was among the causes of electoral defeat, but it was worth it",
+       "o": "ترامپ: جنگ با ایران از عوامل شکست انتخاباتی بود، اما ارزشش را داشت",
+       "u": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261105-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%AC%D9%86%DA%AF-%D8%A8%D8%A7-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A7%D8%B2-%D8%B9%D9%88%D8%A7%D9%85%D9%84-%D8%B4%DA%A9%D8%B3%D8%AA-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA%DB%8C-%D8%A8%D9%88%D8%AF-%D8%A7%D9%85%D8%A7-%D8%A7%D8%B1%D8%B2%D8%B4%D8%B4-%D8%B1%D8%A7-%D8%AF%D8%A7%D8%B4%D8%AA",
+       "s": "RFI Persian",
+       "c": "FR",
+       "l": "fa",
+       "p": 1793870138,
+       "r": "known"
+      },
+      {
+       "t": "Admission by Trump and Vance: Iran war caused Republican defeat",
+       "o": "اذعان ترامپ و ونس: جنگ ایران باعث شکست جمهوری‌خواهان شد",
+       "u": "https://www.dw.com/fa-af/اذعان-ترامپ-و-ونس-جنگ-ایران-باعث-شکست-جمهوری‌خواهان-شد/a-79860613?maca=dar-rss-dar-all-1481-rdf",
+       "s": "DW Dari",
+       "c": "DE",
+       "l": "fa",
+       "p": 1793867340,
+       "r": "known"
+      },
+      {
+       "t": "How Iran war led to Trump's defeat in congressional election",
+       "u": "https://en.mehrnews.com/news/249174/How-Iran-war-led-to-Trump-s-defeat-in-congressional-election",
+       "s": "Mehr English",
+       "c": "IR",
+       "l": "en",
+       "p": 1793867874,
+       "r": "state"
+      },
+      {
+       "t": "Vance blames Iran war for election losses as Trump weighs next move against Tehran",
+       "u": "https://www.iranintl.com/en/202611059696",
+       "s": "Iran International",
+       "c": "IR",
+       "l": "en",
+       "p": 1793865531,
+       "r": "known"
+      },
+      {
+       "t": "U.S. midterm elections 2026 LIVE: After midterm loss, Trump left to weigh his next move in Iran war",
+       "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOd2dzTGNyR0pZVHVVMS00c3JMR1p1RVZBeDljUFctczYwNGNqN3k3MDV1MTlHaUhWLWFXVmlVWHZ0TnlGaEduNUdtMmhVVklhbzk5UGJ0enQtd0k0TVFBS2RyRUU1aFg3aW4wb21oeDQycFZNUHVpSElPLVZRNmR5dS1idjRkeUVvTVBwMnhHUldQMVVkSXhRd2hlUVVWeDNFU1B1QktwRFhoZnQwX0p1Ri1sTVBGQjUwbGVmWVdJOWUxS3p0blZhc0U0bkk0Vl9pZVhjVVROTEU2Yy1NSXJTWWpyOGs1QXU5YTkzZXVodkJHc2NLWlJFb2FGbHBGUnRhYUNwMHhR?oc=5",
+       "s": "The Hindu",
+       "c": "IN",
+       "l": "en",
+       "p": 1793863563,
+       "r": "known"
+      }
+     ],
+     "headlines": 6,
+     "outlets": 6,
+     "independent": 6,
+     "countries": [
+      "DE",
+      "FR",
       "IN",
-      "TR"
+      "IR"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Russian outlet Interfax reports that US Command is completing preparations for large-scale military action against Iran. Saudi outlet Al Arabiya reports Trump may keep Defense Secretary Hegseth in anticipation of additional strikes. Both are single-source reports and have not been confirmed by the US government.",
+     "stories": [
+      "s31",
+      "s16"
+     ],
+     "sources": [
+      {
+       "t": "US Command completing preparations for large-scale military action against Iran",
+       "o": "Командование США завершает подготовку к масштабным военным действиям против Ирана",
+       "u": "https://www.interfax.ru/world/1127100",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1793861340,
+       "r": "known"
+      },
+      {
+       "t": "Trump may keep Hegseth in anticipation of additional strikes against Iran",
+       "o": "ترامب قد يُبقي هيغسيث تحسباً لضربات إضافية ضد إيران",
+       "u": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxOUGZtRy0waXpxbV9fN3VZNmxaZW9vT3ZOWVptUzQtaFRvRXV2VUpLRVBrdnpBaGM3QmpBNlRuV1V5UFVNNVBDZERDMkZDQmtCTVZzSXdGQUwtTW9KMnlTdlc3NTdIdFNEYkVUZnpVYTlFUHpseWs5cWx3UGhYenY0aERCd2dPV19aRGdLYklLUnlPcFlMd2p2bWxCaTdYeldINnVaUnBxOHNrakUtTWZPM1ZmNzlKOTZIalU3VEhpTjgwWEFHVjV1M3ZwVVRpNDU5bmxra1N5blhQZUxrYjZKS2hqb1A3SHRGVDg1UWxGR3dIZ2NfaXJwS1NaQ1g2cHFLWGVyOEZNYmh1aGo0VERrd28wcUZJVE5YM0tYVmxnU3Q0Y1BUdFgwT0RCdHR0eTlmb3N3bVdJQzVuSmpFVzNxYnJXV3dDT0dkTGhBSV9CZGl6elA5ZUVqTUdieXlJTUpLOHBtRkFrcnNILUZBR1Q2TkpnSlRrRnhVSDQxeDN5bTFnTDh0ODExMTA0cGN2M0FMQ0hBMXhDTkk1Tm5TVHJsTEg",
+       "s": "Al Arabiya",
+       "c": "SA",
+       "l": "ar",
+       "p": 1793865240,
+       "r": "known"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "RU",
+      "SA"
      ],
      "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "South Korea will expand its anti-piracy naval unit closer to the Strait of Hormuz. Reports from several countries say it will add a patrol aircraft and an explosives-removal (demining) team.",
+     "stories": [
+      "s3",
+      "s12",
+      "s18"
+     ],
+     "sources": [
+      {
+       "t": "South Korea to deploy military mission to help keep Hormuz open",
+       "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZXJ3SWJVeDN1RkxnY050aERQcFk5UDA2a2pBaDJGZXVHOTVaWkFkd3dObTFpVWVTcDJEWWIwNHJScV9KX1lJc0kteUVnTklSOTQyZERPSEpqQU9vZGVHeHJCSkhjOFdLeWpZX0R0bTUyVkxmaUhPTV82RXd2MGplWU42MHhFR0lELWlwdlRYZDdYTTBJdmRRd0hVZ0VVaUVqNW1vSlI0Nk02OHQyZm03ak9sOHLSAboBQVVfeXFMTUJiUGtfa2VJRnlJdE1UN2hBQy1zQWUwaGRwN1I1dzdkUkI2UUlJdzVwcXVJTUVnTFhOcUVodmduczVTVi01WTBxdUJJSTBsSzNsNERHVGxJbVZ3XzBWd2ZUdUxuWDZRa25kdkoxS2YxeGtNVHV1alR2dmVOYjRkNVRXQU95am5IcnlzbEFHM0swWUVfdlF2Mm8zM3J0M3N1eWJ2OFpPRlZaNFpmc09IVy1rTEMtMjVZb1Fn?oc=5",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1793864220,
+       "r": "known"
+      },
+      {
+       "t": "South Korea announces naval mission to help keep the Strait of Hormuz open",
+       "o": "Corea del Sur anunció una misión naval para ayudar a mantener abierto el estrecho de Ormuz",
+       "u": "https://www.infobae.com/america/mundo/2026/11/05/corea-del-sur-anuncio-una-mision-naval-para-ayudar-a-mantener-abierto-el-estrecho-de-ormuz/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1793861433,
+       "r": "known"
+      },
+      {
+       "t": "[Video] Cheonghae unit expands operational area to 650 km around Hormuz, deploys P-8A patrol aircraft",
+       "o": "[영상] 청해부대, 호르무즈 650km까지 작전구역 확대…P-8A 초계기 파견",
+       "u": "https://www.yna.co.kr/view/AKR20261105154600704",
+       "s": "Yonhap Korean",
+       "c": "KR",
+       "l": "ko",
+       "p": 1793866891,
+       "r": "known"
+      },
+      {
+       "t": "South Korea plans to expand anti-piracy operations closer to Hormuz Strait",
+       "u": "https://www.aljazeera.com/news/2026/11/5/south-korea-plans-to-expand-anti-piracy-operations-closer-to-hormuz-strait?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1793864687,
+       "r": "known"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
+     "countries": [
+      "AR",
+      "KR",
+      "QA",
+      "SA"
+     ],
+     "regions": 3,
      "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Whether shipping operators, navies or insurers confirm the Hormuz vessel fires and their cause",
-    "Any US move from preparations to strikes, or a Trump statement on Iran after the midterm losses",
-    "When South Korea's expanded naval unit starts operating near the strait"
+    "Whether UKMTO or the shipping operators confirm the cause of the tanker fires and the projectile attack off Qatar",
+    "Any official US statement on military preparations or new strikes against Iran",
+    "Timing of South Korea's expanded deployment and demining work near Hormuz"
    ],
    "window_hours": 3,
-   "headlines_read": 57,
-   "outlets_read": 46,
-   "countries_read": 22,
-   "languages_read": 13,
+   "headlines_read": 48,
+   "outlets_read": 37,
+   "countries_read": 21,
+   "languages_read": 15,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-05T07:03:41Z",
    "ladder_note": "Re-checked after: Iran's Revolutionary Guards report fires on tankers and a tug in the Strait of Hormuz, a shipping incident in the strait; the cause is Iran's account and is not yet independently confirmed."
