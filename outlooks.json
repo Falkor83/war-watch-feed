@@ -81,6 +81,51 @@
 "https://abcnews.com/International/live-updates/iran-live-updates-trump-good-call-netanyahu/?id=137762456",
 "https://energynews.pro/en/brent-falls-764-after-trumps-remarks-on-iran"
 ]
+},
+{
+"made": "2026-11-05",
+"hotspot": "russia-ukraine-war",
+"text": "The Abu Dhabi round going ahead on Nov 10-11 is likely; both sides have confirmed delegations or contacts with the US envoys.",
+"likelihood": "likely",
+"check_by": "2026-11-12",
+"basis": [
+"https://www.rte.ie/news/2026/1103/1597730-ukraine/",
+"https://thehill.com/policy/international/6200015-zelensky-witkoff-kushner-talks",
+"https://news.google.com/rss/articles/CBMinwFBVV95cUxNa2M5NWVGa1FtV1RCalZ6UHFNSFVLSHJHVjhNUUNfbVRDRFJyaDYzZE5jRXBkSzY5Tm4yenZkRm9TYU5vckoyVEJ1dk1YbFE1TG5WYmFmRWdlN1RKUTFhRE1zYW9zaTNxNWRxMjRIX1NrOTNJVTdvRmppNjZ2ZEVaZkp0N1NKNmQwNTNVMlpLOUMwMEZVWEZ4aXJ3YlFtYlk?oc=5"
+]
+},
+{
+"made": "2026-11-05",
+"hotspot": "us-israel-iran-war",
+"text": "A larger US strike on Iran within four weeks is a roughly even chance: Trump signals one, but midterm losses add pressure against it.",
+"likelihood": "roughly even chance",
+"check_by": "2026-12-03",
+"basis": [
+"https://gulfnews.com/world/mena/middle-east-conflict-trump-warns-of-heavy-hit-as-iran-says-americans-voted-no-to-war-1.500735100",
+"https://news.google.com/rss/articles/CBMihgJBVV95cUxOd2dzTGNyR0pZVHVVMS00c3JMR1p1RVZBeDljUFctczYwNGNqN3k3MDV1MTlHaUhWLWFXVmlVWHZ0TnlGaEduNUdtMmhVVklhbzk5UGJ0enQtd0k0TVFBS2RyRUU1aFg3aW4wb21oeDQycFZNUHVpSElPLVZRNmR5dS1idjRkeUVvTVBwMnhHUldQMVVkSXhRd2hlUVVWeDNFU1B1QktwRFhoZnQwX0p1Ri1sTVBGQjUwbGVmWVdJOWUxS3p0blZhc0U0bkk0Vl9pZVhjVVROTEU2Yy1NSXJTWWpyOGs1QXU5YTkzZXVodkJHc2NLWlJFb2FGbHBGUnRhYUNwMHhR?oc=5",
+"https://www.geo.tv/latest/689809-trump-under-pressure-on-iran-war-after-republicans-midterms-defeat"
+]
+},
+{
+"made": "2026-11-05",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Houthi forces entering Aden's outskirts in the next two to four weeks is unlikely, given government reports that the advance near Tur al-Bahah was blocked.",
+"likelihood": "unlikely",
+"check_by": "2026-11-26",
+"basis": [
+"https://www.newarab.com/news/yemens-houthis-advance-within-80-km-aden-sources-say",
+"https://english.aawsat.com/arab-world/5337643-yemeni-govt-forces-regain-initiative-against-houthis"
+]
+},
+{
+"made": "2026-11-05",
+"hotspot": "myanmar-civil-war",
+"text": "The Arakan Army taking Sittwe within four weeks is unlikely, though Reuters says it has neared the city.",
+"likelihood": "unlikely",
+"check_by": "2026-12-03",
+"basis": [
+"https://sg.headtopics.com/news/newborn-among-15-killed-as-myanmar-military-strikes-89477373"
+]
 }
 ]
 }

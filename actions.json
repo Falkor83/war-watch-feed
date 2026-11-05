@@ -204,6 +204,25 @@
    "countries_reporting": 2
   },
   {
+   "id": "a-2026-11-03-il-1",
+   "date": "2026-11-03",
+   "country": "IL",
+   "kind": "civil-preparedness",
+   "what": "An Israeli city, unnamed in the headline, opens public shelters, framed as preparing for escalation (Israeli religious outlet)",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTnY0WEJMeDJQR25feGZQWXlzTVFMMjZGM0dQOGJpczlSWXBUQnI5aWJuZWZEd0Z5SG1feWFaek9vaG8wV2RlbzhDMkFYV1BGQ3RnWENNY0ZRbzk1Z2c0Wjd0QkQyWDh2eWJqc3RYNW42bTc5SDFJWmNtTjNEeUZiQ3NrdC1rbXZPOF9J?oc=5",
+   "outlet": "כיכר השבת",
+   "hotspots": [
+    "us-israel-iran-war",
+    "israel-hezbollah-lebanon"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-05",
+   "independent": 2,
+   "countries_reporting": 1
+  },
+  {
    "id": "a-2026-11-04-th-1",
    "date": "2026-11-04",
    "country": "TH",
@@ -362,6 +381,42 @@
    "source": "corpus",
    "added": "2026-11-05",
    "independent": 3,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-05-md-1",
+   "date": "2026-11-05",
+   "country": "MD",
+   "kind": "continuity-of-government",
+   "what": "RIA Novosti says a Moldovan martial-law bill is before lawmakers; opposition figure Dodon demands withdrawal. May be the mobilisation-return",
+   "url": "https://ria.ru/20261105/dodon-2129348288.html",
+   "outlet": "RIA Novosti",
+   "hotspots": [
+    "moldova-drone-spillover-transnistria"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-05",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-05-nl-1",
+   "date": "2026-11-05",
+   "country": "NL",
+   "kind": "civil-preparedness",
+   "what": "Terschelling municipality points residents to keeping a 72-hour emergency stockpile",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUWkxNlVjdUk4aGxTX2EwSUdMT0o3X1lDd25HOTlZb3NtOXI3WVYwSk1vUFlldDZaMGE4Qm11NXBYT2M5X3VDUVdLX1Z0amJwbldERGtnOGZqLW5mUFJRaFRQVHh6cEFvNmRaRUF2Y2haSUhFT3MxNzNocGowMVJ4aWVVbld6Nkx3Mm1faTlXQlZ4RzNOQVQ2VGR1WFQ?oc=5",
+   "outlet": "AD.nl",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-05",
+   "independent": 1,
    "countries_reporting": 1
   }
  ],
@@ -559,6 +614,24 @@
    "independent": 7
   },
   {
+   "id": "e-2026-11-05-18",
+   "date": "2026-11-04",
+   "kind": "news",
+   "what": "Publicly cutting Trump? Republicans' midterm rout: Vance says the cause is the Iran war",
+   "countries": [
+    "AE",
+    "AU",
+    "IT",
+    "KR",
+    "RU",
+    "TW"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.ltn.com.tw/news/world/breakingnews/5629876",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
    "id": "e-2026-11-05-1",
    "date": "2026-11-05",
    "kind": "news",
@@ -737,6 +810,193 @@
    "url": "https://www.ndtv.com/world-news/ukraines-zelensky-awards-melania-trump-highest-state-honour-12285140#publisher=newsstand",
    "source": "corpus",
    "independent": 11
+  },
+  {
+   "id": "e-2026-11-05-10",
+   "date": "2026-11-05",
+   "kind": "news",
+   "what": "Midterm Election Losses Complicate Trump’s Options on Iran War",
+   "countries": [
+    "AE",
+    "AT",
+    "DE",
+    "EG",
+    "GB",
+    "IN",
+    "IR",
+    "NG"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.nytimes.com/2026/11/05/us/politics/trump-iran-war-midterm-elections.html",
+   "source": "corpus",
+   "independent": 28
+  },
+  {
+   "id": "e-2026-11-05-11",
+   "date": "2026-11-05",
+   "kind": "news",
+   "what": "[US Midterms] \"Trump quietly considers replacing Defense Secretary Hegseth",
+   "countries": [
+    "DE",
+    "IL",
+    "JP",
+    "KR",
+    "RU",
+    "SA",
+    "UA"
+   ],
+   "hotspot": "us-boat-strikes-caribbean-pacific",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zNVVYbjlSbUhpVlk5ZUd1eDNSSDFlSjhjdXFoTjVqX3VZeGVDek5Ld1poS1U5Wmk0bUdqV1lGdTRuWlhmTzY3N3N2ZGNUejE4ZWNtdE5ySXdDTWPSAWBBVV95cUxNTm9fQk1LdjF1M2NMOTluRHZaU2dTVVVqMzh2LXFNN0JadVpBMWhJdzYxcTFHVzl4WWZMTG01ZUVLMUxWU0dQNXE2MWtKaGhacmpOWjdCSVo1aGRlX090REQ?oc=5",
+   "source": "corpus",
+   "independent": 16
+  },
+  {
+   "id": "e-2026-11-05-12",
+   "date": "2026-11-05",
+   "kind": "news",
+   "what": "Zelensky says he hopes US election means more support for Ukraine",
+   "countries": [
+    "DE",
+    "IN",
+    "IT",
+    "QA",
+    "SA",
+    "SG",
+    "TR",
+    "TW"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.straitstimes.com/world/europe/zelensky-says-he-hopes-us-election-means-more-support-for-ukraine",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-05-13",
+   "date": "2026-11-05",
+   "kind": "news",
+   "what": "Trump: War with Iran Was Worth the Political Cost of Election Loss",
+   "countries": [
+    "AR",
+    "DE",
+    "ES",
+    "FR",
+    "IL",
+    "IR",
+    "MX",
+    "PH"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://iranwire.com/en/news/159821-trump-war-with-iran-was-worth-the-political-cost-of-election-loss/",
+   "source": "corpus",
+   "independent": 12
+  },
+  {
+   "id": "e-2026-11-05-14",
+   "date": "2026-11-05",
+   "kind": "news",
+   "what": "Iran sees opening after Trump midterms setback but warns of wider conflict",
+   "countries": [
+    "AE",
+    "GB",
+    "HK",
+    "IN",
+    "IR",
+    "LB",
+    "NG",
+    "SA"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.thenationalnews.com/news/gulf/2026/11/05/iran-sees-opening-after-trump-midterms-setback-but-warns-of-wider-conflict/",
+   "source": "corpus",
+   "independent": 8
+  },
+  {
+   "id": "e-2026-11-05-15",
+   "date": "2026-11-05",
+   "kind": "news",
+   "what": "South Korea plans to expand anti-piracy operations closer to Hormuz Strait",
+   "countries": [
+    "AE",
+    "AR",
+    "GB",
+    "IL",
+    "KR",
+    "QA",
+    "SA",
+    "TR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.aljazeera.com/news/2026/11/5/south-korea-plans-to-expand-anti-piracy-operations-closer-to-hormuz-strait?traffic_source=rss",
+   "source": "corpus",
+   "independent": 8
+  },
+  {
+   "id": "e-2026-11-05-16",
+   "date": "2026-11-05",
+   "kind": "news",
+   "what": "IRGC Reports Tanker Fires in Hormuz and Capture of Two U.S. Drones",
+   "countries": [
+    "FR",
+    "GB",
+    "IR",
+    "LB",
+    "PL",
+    "RU",
+    "TR",
+    "VN"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://iranwire.com/en/news/159824-irgc-reports-tanker-fires-in-hormuz-and-capture-of-two-us-drones/",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-05-17",
+   "date": "2026-11-05",
+   "kind": "news",
+   "what": "US Vice President calls on Trump to end the war with Iran",
+   "countries": [
+    "CN",
+    "GB",
+    "IT",
+    "MX",
+    "RU",
+    "TR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.rbc.ru/rbcfreenews/6aec26eb57b0bd02570b2c13",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
+   "id": "e-2026-11-05-18",
+   "date": "2026-11-05",
+   "kind": "news",
+   "what": "South Korea to deploy military mission to help keep Hormuz open",
+   "countries": [
+    "AE",
+    "AR",
+    "DE",
+    "FR",
+    "IN",
+    "PH",
+    "SA",
+    "SG"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZXJ3SWJVeDN1RkxnY050aERQcFk5UDA2a2pBaDJGZXVHOTVaWkFkd3dObTFpVWVTcDJEWWIwNHJScV9KX1lJc0kteUVnTklSOTQyZERPSEpqQU9vZGVHeHJCSkhjOFdLeWpZX0R0bTUyVkxmaUhPTV82RXd2MGplWU42MHhFR0lELWlwdlRYZDdYTTBJdmRRd0hVZ0VVaUVqNW1vSlI0Nk02OHQyZm03ak9sOHLSAboBQVVfeXFMTUJiUGtfa2VJRnlJdE1UN2hBQy1zQWUwaGRwN1I1dzdkUkI2UUlJdzVwcXVJTUVnTFhOcUVodmduczVTVi01WTBxdUJJSTBsSzNsNERHVGxJbVZ3XzBWd2ZUdUxuWDZRa25kdkoxS2YxeGtNVHV1alR2dmVOYjRkNVRXQU95am5IcnlzbEFHM0swWUVfdlF2Mm8zM3J0M3N1eWJ2OFpPRlZaNFpmc09IVy1rTEMtMjVZb1Fn?oc=5",
+   "source": "corpus",
+   "independent": 5
+  },
+  {
+   "id": "e-2026-11-05-ladder-black-sea-shipping-attacks",
+   "date": "2026-11-05",
+   "kind": "ladder",
+   "what": "Boiling point: black-sea-shipping-attacks moved from stage 3 to 2 (Posturing)",
+   "countries": [],
+   "hotspot": "black-sea-shipping-attacks",
+   "url": "",
+   "source": "rule"
   }
  ]
 }
