@@ -1686,9 +1686,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Iran's nuclear proposal reportedly sent to US via Qatar; tanker, drone incidents go on",
+   "status": "Iran nuclear proposal via Qatar in review; Trump threatens strikes; Hormuz drone claims",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been disrupted. Iran's Revolutionary Guards say several tankers hit mines or caught fire while crossing the strait on Nov 4-5. Reports name between two and four ships, and no independent source has confirmed what caused the fires. Trump told Fox News the US may need to strike Iran hard. Outlets from South Asia, Europe and the Gulf report that the Republicans' midterm losses complicate his options, and Trump says he would still choose the war again.",
    "latest": [
+    {
+     "date": "2026-11-05",
+     "text": "Iran's Revolutionary Guards say they shot down two American drones over Qeshm Island in the Strait of Hormuz. Reports in several countries carry the claim, and Anadolu separately reports a US MQM-170-type drone downed there. These are Iranian claims, and no independent confirmation appears in the stories.",
+     "outlet": "Interfax",
+     "country": "Russia",
+     "url": "https://www.interfax.ru/world/1127305",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-05",
+     "text": "Trump says he is 'locked and loaded' for potential strikes on Iran but would 'rather not destroy' what remains of the country. Al Arabiya reports that the agreement is still on the table.",
+     "outlet": "Hindustan Times World",
+     "country": "India",
+     "url": "https://www.hindustantimes.com/world-news/trump-locked-and-loaded-for-potential-strikes-in-iran-but-would-rather-not-destroy-rest-of-the-country-101793915375654.html",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-05",
+     "text": "A senior Iranian official says Iran sent a nuclear proposal to the US via Qatar, and one report says it sets seven conditions for negotiations. Trump says Iran is 'not doing anything' on its nuclear programme without US approval.",
+     "outlet": "Arab News",
+     "country": "Saudi Arabia",
+     "url": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-05",
      "text": "A senior Iranian official says a nuclear proposal was delivered to the US via Qatar and is under review, per Yonhap and Middle East Eye. The Jerusalem Post, citing Israeli-side media only, reports that Tehran is reviewing 'concrete proposals' on its nuclear program amid talks with the US.",
@@ -1736,36 +1766,6 @@
      "country": "United States",
      "url": "https://www.al-monitor.com/originals/2026/11/tankers-hit-hormuz-iran-keeps-pressure-after-us-vote",
      "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "An Iranian official says Tehran has not accepted the US proposal for direct negotiations, according to TRT. Tehran also accuses Trump of preparing for the 'next phase' of the war, a claim reported by one outlet.",
-     "outlet": "TRT Haber Dunya",
-     "country": "Turkey",
-     "url": "https://www.trthaber.com/haber/dunya/iranli-yetkili-abdnin-dogrudan-muzakere-onerisini-tahranin-kabul-etmedigini-soyledi-962367.html",
-     "region": "middle-east",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "Iranian state media (IRNA) and Iran's army say tankers hit mines east of the Strait of Hormuz, with one tanker on fire. Turkish broadcaster TRT carries the army's claim that two oil tankers hit sea mines. These are Iran's accounts and are not independently confirmed.",
-     "outlet": "IRNA English",
-     "country": "Iran",
-     "url": "https://en.irna.ir/news/86313445/Offending-tanker-hits-mines-catches-fire-east-of-Hormuz",
-     "region": "iran",
-     "tag": "non-party",
-     "state_media": true
-    },
-    {
-     "date": "2026-11-05",
-     "text": "Russian agency Interfax, citing the UK Maritime Trade Operations (UKMTO), reports shelling of a tanker in the Persian Gulf. This comes from one source so far.",
-     "outlet": "Interfax",
-     "country": "Russia",
-     "url": "https://www.interfax.ru/world/1127235",
-     "region": "russia",
      "tag": "non-party",
      "state_media": false
     }
@@ -10445,225 +10445,284 @@
      "at": "2026-11-05T21:01:59Z",
      "headline": "Iran's nuclear proposal reportedly sent to US via Qatar; tanker, drone incidents go on",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-05T23:45:31Z",
+     "headline": "Iran nuclear proposal via Qatar in review; Trump threatens strikes; Hormuz drone claims",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-05T21:01:59Z",
-   "next_at": "2026-11-06T00:01:59Z",
-   "headline": "Iran's nuclear proposal reportedly sent to US via Qatar; tanker, drone incidents go on",
+   "updated_at": "2026-11-05T23:45:31Z",
+   "next_at": "2026-11-06T02:45:31Z",
+   "headline": "Iran nuclear proposal via Qatar in review; Trump threatens strikes; Hormuz drone claims",
    "direction": "steady",
    "points": [
     {
-     "text": "A senior Iranian official says a nuclear proposal was delivered to the US via Qatar and is under review, per Yonhap and Middle East Eye. The Jerusalem Post, citing Israeli-side media only, reports that Tehran is reviewing 'concrete proposals' on its nuclear program amid talks with the US.",
+     "text": "Iran's Revolutionary Guards say they shot down two American drones over Qeshm Island in the Strait of Hormuz. Reports in several countries carry the claim, and Anadolu separately reports a US MQM-170-type drone downed there. These are Iranian claims, and no independent confirmation appears in the stories.",
      "stories": [
-      "s2",
-      "s25"
+      "s1",
+      "s20"
      ],
      "sources": [
       {
-       "t": "Iran sent nuclear proposal to the US via Qatar, report says",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-sent-nuclear-proposal-us-qatar-senior-iranian-official-tells",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1793909870,
+       "t": "The IRGC said its forces shot down two American drones over Qeshm Island",
+       "o": "КСИР заявил, что его силы сбили два американских беспилотника над островом Кешм",
+       "u": "https://www.interfax.ru/world/1127305",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1793915760,
        "r": "known"
       },
       {
-       "t": "Senior Iranian official: \"Nuclear proposal delivered to the US via Qatar… under review",
-       "o": "이란 고위 관리 \"카타르 통해 美에 핵 제안서 전달…검토 중\"",
-       "u": "https://www.yna.co.kr/view/AKR20261106006400079",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1793908761,
-       "r": "known"
+       "t": "Iran says it shot down two American reconnaissance drones over the strategically important island of Qeshm",
+       "o": "Iran saopćio da je oborio dva američka izviđačka drona iznad strateški važnog ostrva Qeshm",
+       "u": "https://faktor.ba/svijet/svijet/iran-saopcio-da-je-oborio-dva-americka-izvidacka-drona-iznad-strateski-vaznog-ostrva-qeshm/268202",
+       "s": "faktor.ba",
+       "c": "BA",
+       "l": "bs",
+       "p": 1793916000,
+       "r": "unrated"
       },
       {
-       "t": "Tehran reviews 'concrete proposals' on future of nuclear program amid talks with US - report",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914000",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1793908403,
-       "r": "known"
+       "t": "Iran claims it shot down two American drones over Qeshm Island in Hormuz",
+       "o": "Teherani pretendon rrëzimin e dy dronëve amerikanë mbi ishullin Qeshm në Hormuz",
+       "u": "https://24-ore.com/teherani-pretendon-rrezimin-e-dy-droneve-amerikane-mbi-ishullin-qeshm-ne-hormuz/",
+       "s": "24-ore.com",
+       "c": "AL",
+       "l": "sq",
+       "p": 1793916000,
+       "r": "unrated"
+      },
+      {
+       "t": "Iran's Revolutionary Guards: a US MQM-170-type UAV shot down over Qeshm Island in the Strait of Hormuz",
+       "o": "İran Devrim Muhafızları: Hürmüz Boğazı'ndaki Keşm Adası'nda ABD'ye ait MQM-170 tipi İHA düşürüldü",
+       "u": "https://www.aa.com.tr/tr/dunya/iran-devrim-muhafizlari-hurmuz-bogazindaki-kesm-adasinda-abdye-ait-mqm-170-tipi-iha-dusuruldu/4113466",
+       "s": "Anadolu Turkish",
+       "c": "TR",
+       "l": "tr",
+       "p": 1793911658,
+       "r": "state"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 5,
      "countries": [
-      "GB",
-      "IL",
-      "KR"
+      "AL",
+      "BA",
+      "RU",
+      "TR"
      ],
      "regions": 3,
      "party_only": false,
-     "state": 0
+     "state": 2
     },
     {
-     "text": "The AP reports, and three outlets in three countries carry, that the Trump administration held secret talks with Iran on deporting Iranians during the war.",
+     "text": "Trump says he is 'locked and loaded' for potential strikes on Iran but would 'rather not destroy' what remains of the country. Al Arabiya reports that the agreement is still on the table.",
      "stories": [
-      "s1"
+      "s3",
+      "s5",
+      "s15"
      ],
      "sources": [
       {
-       "t": "Secret talks between the Trump administration and Iran over deporting Iranians during the war",
-       "o": "مباحثات سرية بين إدارة ترامب وإيران بشأن ترحيل إيرانيين خلال الحرب",
-       "u": "https://www.dw.com/ar/مباحثات-سرية-بين-إدارة-ترامب-وإيران-بشأن-ترحيل-إيرانيين-خلال-الحرب/live-79860485?maca=ara-rss-ar-all-1125-rdf",
-       "s": "DW Arabic",
-       "c": "DE",
-       "l": "ar",
-       "p": 1793907720,
-       "r": "known"
-      },
-      {
-       "t": "AP Exclusive: Trump administration held talks with Iran on deporting Iranians during the war",
-       "u": "https://www.hindustantimes.com/world-news/us-news/ap-exclusive-trump-administration-held-talks-with-iran-on-deporting-iranians-during-the-war-101793905331276.html",
+       "t": "Trump ‘locked and loaded’ for potential strikes in Iran but would ‘rather not destroy rest of the country’",
+       "u": "https://www.hindustantimes.com/world-news/trump-locked-and-loaded-for-potential-strikes-in-iran-but-would-rather-not-destroy-rest-of-the-country-101793915375654.html",
        "s": "Hindustan Times World",
        "c": "IN",
        "l": "en",
-       "p": 1793905330,
+       "p": 1793917135,
        "r": "known"
       },
       {
-       "t": "Trump administration's secret talks with Iran on deportations exposed",
-       "u": "https://gulfnews.com/world/mena/trump-administrations-secret-talks-with-iran-on-deportations-exposed-1.500737652",
-       "s": "Gulf News",
-       "c": "AE",
-       "l": "en",
-       "p": 1793903456,
+       "t": "Trump hints at more strikes against Iran: \"I'd rather not destroy what remains of the country",
+       "o": "ترمب يلوح بمزيد من الضربات ضد إيران: أفضل عدم تدمير ما تبقى من البلاد",
+       "u": "https://news.google.com/rss/articles/CBMioARBVV95cUxQZVdUWDFDS0ZSNUFlUmk3Vmg4UXVkSjVaVU9fMFdSYk1FWWs0LVNjVVlDT01ydkpyWDJfcC1CWC01T1JFUDBtTWVJZ1BmbnB5OUxHTzIwTkRCNFB5QlNtSUpYMjRfWm9OTzBUOWhjc1JCMWd3TnRDX29leGhKWWNlSWRvUzg2SDJwX3BtQU5vS2xhdnZyM19ZOVZQa0ItZzM3VlBuX2RuY1VsTjQwMmNMb1JsQTRiRnpNNFJGeEdMdDFZWjAyMUkzSzdoZjdJelBvRTVNTUxlOGU5XzBTZVRJbWtCYzhzTW9rdnczM2NacFJtMDR6UUxZX3A1S1dnTFNRSGcwWE5ZWlhyNVFPanBTa2ZQbmJ0WkFTdFBBT0Fubm1rWk5JNXctMVdIX3pZcTk3V1Rfc0RNMXlaT29GWWgzbU55bjZqaDc1d1NNVFZ3QXE4Sl8xTnBrcE1MT0NOZXNfZmlnaVF1RHF1a2s0dzNJbXkxUFloRHNFU203RkNMRmUxelhJWkMyQU1haExyWGh5OWlwSGRYR1hKaF9pNGk5MFh",
+       "s": "الشرق للأخبار",
+       "c": "LB",
+       "l": "ar",
+       "p": 1793915045,
+       "r": "unrated"
+      },
+      {
+       "t": "Trump threatens Iran: \"I may have to destroy what's left of the country",
+       "o": "טראמפ באיום על איראן: \"אולי אצטרך להרוס את מה שנותר מהמדינה\"",
+       "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSZzlpT1d4SXkzQ0FEWktxdzItSW5fb2dORV9zOVIxU0JwcHdnYi1iV0RkVTMxS3pfYXZLakZ0LUFabldPOWFtcHhkWlM5Z1I3MUNfYVFGWlVmeGxYU1hnb3dQNWJvR1pxT0V4Z1Q0S0hDMDMzUjRycVFONEg?oc=5",
+       "s": "Mako",
+       "c": "IL",
+       "l": "he",
+       "p": 1793914860,
+       "r": "unrated"
+      },
+      {
+       "t": "Trump threatens Iran with widening destruction... but the agreement is still on the table",
+       "o": "ترامب يهدد إيران باتساع الدمار.. والاتفاق لا يزال مطروحاً",
+       "u": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxOT1J4YWcyQXZSQUJscUIwVDI2d200RU5kS044V2paSEZ6eV9ZcnlXQ0xCQTFNLWIwZkxvZUFCQkx6YWl2WXAtS2M4cl90ZEo4YTR3aHREVXowQ2wtMFlVaEpOX2k1Y2pwNUZSOEJGbXlVR3JpQW9qbnBrSDh1SXNmNHdWVVByU2JLeUZWYWkxWnFzbzNvbG1xcWNIZDNVenJ2T0huNVdMZUp0ZzBVdVA2T1gxT2FraHBKbGtEbGZ3aHRvM1NFcWd0T01rOW94Y3FBdjdWWldtYzR1Y2lzSlVFcWphNTNTM0w1OFl6X2tLbzA3YVlTakVMTTl4cjVaRjFNZ2JseXF5dWxlbkdiUWJIaDdCNWlYeGItOUJZaVo2VjFkT2Q2TFU4dDJFdEtwQzhIOTRlSXFRVW53S3luWmdHZm5tUUluMTFLOWYtMElTWkNIZEVBTGRpdDkxbWVXOEZ3anNkRVpGMUFobHRYLTIwRy1PZW1zR010d2M5Sm4xX2hKUW9GZS15c3g3eWNRNzNiZExlWjJrQWFUMU5LSV82d1h",
+       "s": "Al Arabiya",
+       "c": "SA",
+       "l": "ar",
+       "p": 1793914980,
        "r": "known"
+      },
+      {
+       "t": "Trump threatens Iran with widening destruction... but the agreement is still on the table",
+       "o": "ترامب يهدد إيران باتساع الدمار.. والاتفاق لا يزال مطروحاً",
+       "u": "https://news.google.com/rss/articles/CBMiyANBVV95cUxPMC04bHZPLXY1UDM4a3dVaTc3cXBXYWx6bGk3UGh2MUwzY1dvajU4a05aMHVmblhhQU0xaWp5LVFZV2JwYjd5aEZRa3RscHhqSDE4eGVhVm5MYm4yNmJfdk93ZGhrb2VERWdNWFo2R1puVTVGa1piUHVNcXI0WXhPdm04UkJuZ2xBQXZhRF9jdjRBZnlSTWdjRUF4LVRLMWdHTEwzR1FqOGJISU8xQk11ZkNaRV9zUE5pYm5CanFOcy10RzZfVnlMa056WEVmbmJpZXpLRFlwb0VoVzFvVlM3TkFVdmlSVzNFeE1lUTBxSkJVMTVzS2Q1WjlsZlFWUlV0WFExQWYyS2ZqaUZidThYWWpsdS1PcjBCWmNGT25fbUFSeFA0aHRDalRkV2pVa0pya3hyRFdyVDVOYWpRZGhnX1IyWEhrQVNIYkx4MldHYXRHQW1VYzBfRE1SZ0MwSDZReWRXVUN5aHBqN3hKQnNXSGI2aVQ2eV9fWUNocUczMTQ2WmxvSzUtZnVFU0V5cEVGNEtZWjVaTno2bWJObWZmb24",
+       "s": "الحدث",
+       "c": "LB",
+       "l": "ar",
+       "p": 1793914980,
+       "r": "unrated"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 8,
+     "outlets": 6,
+     "independent": 6,
      "countries": [
-      "AE",
-      "DE",
-      "IN"
+      "BR",
+      "IL",
+      "IN",
+      "LB",
+      "SA"
      ],
-     "regions": 3,
+     "regions": 4,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran says tankers were struck in Hormuz amid fears of a new US attack, a claim reported by Al Jazeera and not independently confirmed. Iran's security chief Rezaei told Putin in Moscow of conditions for reopening Hormuz, according to RIA Novosti.",
+     "text": "A senior Iranian official says Iran sent a nuclear proposal to the US via Qatar, and one report says it sets seven conditions for negotiations. Trump says Iran is 'not doing anything' on its nuclear programme without US approval.",
      "stories": [
-      "s11",
-      "s18"
+      "s4",
+      "s7",
+      "s2"
      ],
      "sources": [
       {
-       "t": "Iran says tankers struck in Hormuz amid fears of new US attack",
-       "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSndUR0pGRi1MMEthNENuNFlReHRUcGJUVjdxMm9mbEp0bnVncHFlX0ZyMTVXUkR0Ql9CR2lLRElpcnRvQU5mUVFuT2oyakMxaEdGeHZqMnd5dTJyN3hhaFoyX1Z6NS03eUpMTmlCSFd2NktOeU43b0hhRXFKY0tqWHhKYW9FRzNibFFTVHdjSGFTVDhzMnZwak1MMGhTY1N0X3hCZkV30gGrAUFVX3lxTE5jd3JPYU1KcGFXeEJsc0VoM1FsaklHcnVnMkkwTmpZbkNNM2owMDlIOFViMmxWaTlwSzFSX0lqd2FCTWhNejlPeWE1QWxpcFEtbHZ5eklHbXJhTW0yWWlwQ05PeU04OVFLamJvcjBvUHI4ZW9INDFILXVGUHZFQmUwd3hVeW1NUFVmdVZTMGJMSUJfeEtFZS16bTI1SkhKZ3pIVzZaWWd0VG13aw?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
+       "t": "Arab News | Iran sent nuclear proposal to the US via Qatar , senior Iranian official says",
+       "u": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067",
+       "s": "Arab News",
+       "c": "SA",
        "l": "en",
-       "p": 1793905650,
+       "p": 1793916000,
        "r": "known"
       },
       {
-       "t": "Secretary of Iran's Security Council told Putin the conditions for reopening Hormuz",
-       "o": "Секретарь СБ Ирана рассказал Путину об условиях открытия Ормуза",
-       "u": "https://ria.ru/20261105/iran-2129545410.html",
-       "s": "RIA Novosti",
-       "c": "RU",
-       "l": "ru",
-       "p": 1793904417,
-       "r": "state"
-      }
-     ],
-     "headlines": 3,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "QA",
-      "RU"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "IRNA says Iran downed a fifth and sixth US MQM-170 drone over Qeshm Island; this comes only from Iranian media. A Turkish outlet separately reports Iran's Revolutionary Guards shot down a US drone over Kish Island.",
-     "stories": [
-      "s23",
-      "s5"
-     ],
-     "sources": [
-      {
-       "t": "Iran downs fifth and sixth MQM-170 US drones over Qeshm Island",
-       "u": "https://en.irna.ir/news/86313659/Iran-downs-fifth-and-sixth-MQM-170-US-drones-over-Qeshm-Island",
-       "s": "IRNA English",
-       "c": "IR",
+       "t": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
+       "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlJZVlphdWhPcDNGc1E5eDVNdDdMQkJNTXVDS0RYSVRqaC1tblFqQy1FekRQdldnV0FsMU5RdnVHNEI3UEZWMC1MY1l5cnRtcjBlcDlpUXdvX0hXbV91S1UxajV1TEx1VmJ2SzNLNElXSjc3YkdmYWw4VGNXZEl5NXR4RFNjRXBxeEZMLWpBT1Z5X2JRc3NEdkdMZDljQ0dkZXZRbzc3U1NmNkhnaFN5QzNhVmRzSmhsM0Q5VzU3Mm11OWZBa3M1V1lvaw?oc=5",
+       "s": "Reuters",
+       "c": "GB",
        "l": "en",
-       "p": 1793910122,
-       "r": "state"
+       "p": 1793913790,
+       "r": "known"
       },
       {
-       "t": "Iran's Revolutionary Guards: a US MQM-170-type UAV was shot down over Kish Island",
-       "o": "İran Devrim Muhafızları: Keşm Adası'nda ABD'ye ait MQM-170 tipi İHA düşürüldü",
-       "u": "https://www.hurriyet.com.tr/dunya/iran-devrim-muhafizlari-kesm-adasinda-abdye-ait-mqm-170-tipi-iha-dusuruldu-43367675",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1793910909,
+       "t": "Iran sent a proposal to the US on its nuclear program",
+       "o": "Το Ιράν απέστειλε στις ΗΠΑ πρόταση για το πυρηνικό του πρόγραμμα",
+       "u": "https://www.in.gr/2026/11/05/world/to-iran-apesteile-stis-ipa-protasi-gia-to-pyriniko-tou-programma/",
+       "s": "in.gr",
+       "c": "GR",
+       "l": "el",
+       "p": 1793916000,
+       "r": "unrated"
+      },
+      {
+       "t": "Iran sends nuclear proposal to US through Qatar, sets seven conditions for negotiations: Report",
+       "u": "https://www.hindustantimes.com/world-news/us-news/iran-sends-nuclear-proposal-to-us-through-qatar-sets-seven-conditions-for-negotiations-report-101793917492007.html",
+       "s": "Hindustan Times World",
+       "c": "IN",
+       "l": "en",
+       "p": 1793920894,
+       "r": "known"
+      },
+      {
+       "t": "Trump says Iran 'not doing anything' on nuclear programme without US approval",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-not-doing-anything-nuclear-program-without-us-approval",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1793918126,
        "r": "known"
       }
      ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
+     "headlines": 10,
+     "outlets": 8,
+     "independent": 7,
      "countries": [
-      "IR",
-      "TR"
+      "GB",
+      "GR",
+      "IN",
+      "RU",
+      "SA"
      ],
-     "regions": 2,
+     "regions": 4,
      "party_only": false,
-     "state": 1
+     "state": 2
     },
     {
-     "text": "Turkey says Iranian fire killed a soldier on the Turkish border, according to a report carried only by Israeli media; this has not been confirmed by other sources.",
+     "text": "Iran's government says five oil tankers and a tugboat caught fire in the Strait of Hormuz. Only one outlet carries this, so it stands as Iran's claim. Trump has said a decision on the Iran war is coming 'soon', and US outlets quote him saying none of the soldiers has been killed for months.",
      "stories": [
+      "s6",
+      "s21",
       "s22"
      ],
      "sources": [
       {
-       "t": "Turkey says Iranian fire killed soldier on border as foreign ministers discuss US-Iran talks",
-       "u": "https://www.jpost.com/middle-east/article-914015",
-       "s": "Jerusalem Post",
-       "c": "IL",
+       "t": "Iran's regime says five oil tankers and a tugboat caught fire in the Strait of Hormuz",
+       "o": "El régimen de Irán aseguró que cinco petroleros y un remolcador se incendiaron en el estrecho de Ormuz",
+       "u": "https://www.infobae.com/america/mundo/2026/11/05/el-regimen-de-iran-aseguro-que-cinco-petroleros-y-un-remolcador-se-incendiaron-en-el-estrecho-de-ormuz/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1793921068,
+       "r": "known"
+      },
+      {
+       "t": "Trump meets with national security team, says Iran war decision coming \"soon\"",
+       "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbW9jcGlzTlNQdWswMmp6NFFqVi1CRE9RSEtaOHp1U3FIUWp6Z0xYLW4tb2dld0tyQ3I0ODVILXBmZGNuSGxSNXo3TXJ4VWloN2tPeXZYcUZ5R195eno1U2lYUzloME1PN094Q2llQkZtWHpiNEtKOGU0d0k2SFRoSjFUTHpvUQ?oc=5",
+       "s": "Axios",
+       "c": "US",
        "l": "en",
-       "p": 1793911445,
+       "p": 1793921350,
+       "r": "known"
+      },
+      {
+       "t": "None of our soldiers has been killed for months\" - Trump praises Hegseth's work in the Iran war | CNN Arabic | CNN",
+       "o": "\"لم يُقتل أحد من جنودنا منذ أشهر\"..ترامب مشيداً بعمل هيغسيث بحرب إيران | CNN Arabic | CNN",
+       "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVzg5VDVobHU2cGREYk1QUmhDTlVtOENkQUVXUVVYbUl5cjFjSmx3OHFKVEZPQ3RvNEJ2MlMzc1QtSTl5b29BcmtSUFJaZmJqR2ZPMnZqTVBvblRZMzJxaWJvd1hqRFJZd2tNcFp4Rmg1NU5nZDlYNGZGWVFVRE85M2tRc2xQS055TTNLdzBCUzMwZzJqaThRRTkyOUxTbWE5ZWVnYW0ySnJiWXlER0dkVkhQanhGUVpORUZZd3A4cjJFRGpQ?oc=5",
+       "s": "CNN",
+       "c": "US",
+       "l": "ar",
+       "p": 1793918734,
        "r": "known"
       }
      ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
      "countries": [
-      "IL"
+      "AR",
+      "US"
      ],
-     "regions": 1,
-     "party_only": true,
+     "regions": 2,
+     "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Iran's formal response to the nuclear proposal sent via Qatar",
-    "Independent confirmation of tanker strikes and mine reports in Hormuz",
-    "Any US response to Iranian claims of downed drones or any new US strikes"
+    "Trump's 'soon' decision on the Iran war, which US outlets report",
+    "Whether the US confirms or denies the Iranian drone shoot-down claims over Qeshm",
+    "Any Iranian reply to the US on the Qatar-channel nuclear proposal"
    ],
    "window_hours": 3,
-   "headlines_read": 35,
-   "outlets_read": 23,
-   "countries_read": 15,
-   "languages_read": 8,
+   "headlines_read": 39,
+   "outlets_read": 28,
+   "countries_read": 18,
+   "languages_read": 13,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-05T07:03:41Z",
    "ladder_note": "Re-checked after: Iran's Revolutionary Guards report fires on tankers and a tug in the Strait of Hormuz, a shipping incident in the strait; the cause is Iran's account and is not yet independently confirmed."
