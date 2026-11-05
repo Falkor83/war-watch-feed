@@ -14,14 +14,13 @@ permissions:
   contents: write
   actions: write          # to start the next run and the daily ratings (see the last step)
 
-concurrency:
-  group: headlines
-  cancel-in-progress: false
-
 jobs:
   headlines:
     runs-on: ubuntu-24.04
-    timeout-minutes: 80
+    timeout-minutes: 60
+    concurrency:
+      group: headlines
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v5
       - name: Test the job (offline, no cost)
@@ -68,8 +67,19 @@ jobs:
       # GitHub's schedule fires rarely and late for this repo (6 hours apart on 2026-11-04), so every run starts the
       # next one about 55 minutes after it began, unless another run is already waiting, and once a day (10:00-10:59
       # UTC) the ratings job, which skips itself if it already ran that day.
+  # Its own job (and concurrency group), so its wait doesn't hold up a run started by hand meanwhile.
+  chain:
+    needs: headlines
+    if: always()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 70
+    concurrency:
+      group: headlines-chain
+      cancel-in-progress: false
+    permissions:
+      actions: write
+    steps:
       - name: Start the next run
-        if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
