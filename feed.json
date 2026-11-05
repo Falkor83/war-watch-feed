@@ -6099,6 +6099,30 @@
  ],
  "tripwires": [
   {
+   "id": "act-a-2026-11-05-ua-1-black-sea-shipping-attacks",
+   "hotspot": "black-sea-shipping-attacks",
+   "kind": "escalation",
+   "text": "Ukraine: Ukraine seeks Norwegian backing for a war-risk insurance fund",
+   "status": "tripped",
+   "since": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words)",
+   "evidence": [
+    {
+     "date": "2026-11-05",
+     "outlet": "Ukraine Business News",
+     "country": "Ukraine",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQODFxZ0MzT0w0SzYxd3pTWXZDTDdKeWRza0RPek1SVjNPUXFuNTVfcXdYTXQzYUxOOU12NXF5akYtX1pUZDVsTlo4TFhLOGluS3pxMFIzS0czcElCb3hPNUdxVFRBLXZkbmJkWFRNNk5sUmE4RU1iMXVmcWVxQ294ak1fWdIBiwFBVV95cUxOUUxfUWVMZVVZY2ZmN0JmS3JjMEpvOHFPQmszOXczZmtqUTdhRlZURmtoNW1sengzWUpTUzJYSXNwWmVUcnU5Zjc2Y1B2VW5YR3ltRnQ5Z0RqalNkb0xyMlBYcVVzcUhTWHBDQjd0T0dmMmZFRUZjYzlJS2dWM29lZUt3U2thMWVVdGJR?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "key": "action:a-2026-11-05-ua-1",
+     "media": "unrated",
+     "fact": "Ukraine seeks Norwegian backing for a war-risk insurance fund"
+    }
+   ]
+  },
+  {
    "id": "tw-black-sea-shipping-attacks-1",
    "hotspot": "black-sea-shipping-attacks",
    "kind": "escalation",
@@ -6457,6 +6481,30 @@
    "evidence": []
   },
   {
+   "id": "act-a-2026-11-04-md-1-moldova-drone-spillover-transnistria",
+   "hotspot": "moldova-drone-spillover-transnistria",
+   "kind": "escalation",
+   "text": "Moldova: Moldova's defence ministry plans to oblige mobilisable citizens abroad to return if mobilisation is d",
+   "status": "tripped",
+   "since": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words)",
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "outlet": "MD.KP.MEDIA",
+     "country": "Moldova",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6LVFJekdLWDctUFd3UWdGdVRQalF2Q0pCaDFMb29uMjRWaHd2MUpmRjJRSmdRenNxeWE2MGdXYnBJc0tVZ0lRdjRJazJqcWZUd0p2T28zdw?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "key": "action:a-2026-11-04-md-1",
+     "media": "unrated",
+     "fact": "Moldova's defence ministry plans to oblige mobilisable citizens abroad to return if mobilisation is declared (Russian, Belarusian outlets)"
+    }
+   ]
+  },
+  {
    "id": "tw-moldova-drone-spillover-transnistria-1",
    "hotspot": "moldova-drone-spillover-transnistria",
    "kind": "escalation",
@@ -6592,6 +6640,102 @@
    "evidence": []
   },
   {
+   "id": "act-a-2026-11-03-eu-1-russia-nato-eastern-flank-kaliningrad",
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "kind": "escalation",
+   "text": "European Union: European Commission repeats its call for 72-hour household emergency kits and proposes teachin",
+   "status": "tripped",
+   "since": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words); part of EU Preparedness Union Strategy (March 2025)",
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "outlet": "Infobae",
+     "country": "European Union",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOcFlIYnhmZ2oyZkZQWkpVVF96bkx3S29yZmlYaWJaV19NVTJBRjBZcUxZSGVFaW05MEQ5STd1UnUtUENxa0o0eGJjMHJldkdsQkJvM0ZJR1ZTQ0dFZ0Jpek1zZkE5U1pfbmFwak0ySlc0OVgweWItV0g3LWtCLTgxNTNkaWNybTdEMVFZLWNoU1Z6Q2c1RTlLZGJjMUlLdHhpdXY5UGVvQ2ZGS3czMUZkUV9xS0phOFJUQlA4NndRR3pUUTFRbjgxZXBrNHlRQnI2a0lyNm9IQWpNOFFjcFZyaEhEcFY2eUhTcEZKUGlQaWg0WGIxMXfSAZACQVVfeXFMTmdVOWtaMHRqWTRET1BDVXZ0U1lVcXdjbUg1cnNQSFVwV05fYng3cHlDT2Fac1VBRG1GUmJZaDVkTlIwUmpmQlc3OTd3Y3Rfb19aWXUyeDA2QVpUXzBsRkpTcWlWclJhek0xY2J2c2RqNmkyVUJ3MnM0aGkzY0ZRaFhlS3RoYnhiVFEzaF9qTFpyMmZDNTNVWEFYQ3lmUVB3elgyQkZaX2R",
+     "region": "intl",
+     "tag": "non-party",
+     "key": "action:a-2026-11-03-eu-1",
+     "media": "unrated",
+     "fact": "European Commission repeats its call for 72-hour household emergency kits and proposes teaching children what to do in a crisis"
+    }
+   ]
+  },
+  {
+   "id": "act-a-2026-11-04-fi-1-russia-nato-eastern-flank-kaliningrad",
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "kind": "escalation",
+   "text": "Finland: Finland steps up reservist training, citing Russian hybrid threats (DW, Moscow Times)",
+   "status": "tripped",
+   "since": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words)",
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "outlet": "Deutsche Welle",
+     "country": "Finland",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdDUzRjNsZ21vam05cEJMV0ZzWm11UUQ4WDVEcGFQZTVYRFBkM1VQWC1ycnlxSDJLbGlXZWdUcXRxZS1sY3JObEhUVTRlbVFMVnZUem5qalg4NzQzUXJRbFl5Nmk3d3E4d1k0TzBnSmdDWS0wUGtiTVE5aXNuTlFGZ05XdFRuM2xzdTRlT1djZXJHX2lndXlnSmJQZk5tdHNnX3lraEZUVkZjZW9oYkNzOW9KbDE0eDZRWFEzQjNDc3hhVGc2OWVya1I2M2HSAcwBQVVfeXFMTmI4RWhjbEZwRW5kbzlPamU2RWVFUzdnSnZyaFFYU3VERnVvYnZSUE5wR2U3bG8tSUowYm85MnE2eGlHSnUxaTZxdDhGU1NpcEc2VXBUdVBvWVJKSlJpT0tULVBIQ0lNTmhCT0RYOFQ4Y3ZXNzc3bnl3WEk1bURpTExlcGtaTmhWT3ZHVHBlUlBQei1RMUhIcW9GZWlTS0tLeVBIUm5Ba0J2TDlGdHpnYVVBeWM1WExlZFlNYUNENks5b0FycFBtN09YZXJV?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "key": "action:a-2026-11-04-fi-1",
+     "media": "unrated",
+     "fact": "Finland steps up reservist training, citing Russian hybrid threats (DW, Moscow Times)"
+    }
+   ]
+  },
+  {
+   "id": "act-a-2026-11-04-no-1-russia-nato-eastern-flank-kaliningrad",
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "kind": "escalation",
+   "text": "Norway: Norway steps up reservist training, citing Russian hybrid threats (DW, Moscow Times)",
+   "status": "tripped",
+   "since": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words)",
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "outlet": "Deutsche Welle",
+     "country": "Norway",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdDUzRjNsZ21vam05cEJMV0ZzWm11UUQ4WDVEcGFQZTVYRFBkM1VQWC1ycnlxSDJLbGlXZWdUcXRxZS1sY3JObEhUVTRlbVFMVnZUem5qalg4NzQzUXJRbFl5Nmk3d3E4d1k0TzBnSmdDWS0wUGtiTVE5aXNuTlFGZ05XdFRuM2xzdTRlT1djZXJHX2lndXlnSmJQZk5tdHNnX3lraEZUVkZjZW9oYkNzOW9KbDE0eDZRWFEzQjNDc3hhVGc2OWVya1I2M2HSAcwBQVVfeXFMTmI4RWhjbEZwRW5kbzlPamU2RWVFUzdnSnZyaFFYU3VERnVvYnZSUE5wR2U3bG8tSUowYm85MnE2eGlHSnUxaTZxdDhGU1NpcEc2VXBUdVBvWVJKSlJpT0tULVBIQ0lNTmhCT0RYOFQ4Y3ZXNzc3bnl3WEk1bURpTExlcGtaTmhWT3ZHVHBlUlBQei1RMUhIcW9GZWlTS0tLeVBIUm5Ba0J2TDlGdHpnYVVBeWM1WExlZFlNYUNENks5b0FycFBtN09YZXJV?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "key": "action:a-2026-11-04-no-1",
+     "media": "unrated",
+     "fact": "Norway steps up reservist training, citing Russian hybrid threats (DW, Moscow Times)"
+    }
+   ]
+  },
+  {
+   "id": "act-a-2026-11-04-pl-1-russia-nato-eastern-flank-kaliningrad",
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "kind": "escalation",
+   "text": "Poland: Poland steps up reservist training, citing Russian hybrid threats (DW, Moscow Times)",
+   "status": "tripped",
+   "since": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words)",
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "outlet": "Deutsche Welle",
+     "country": "Poland",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdDUzRjNsZ21vam05cEJMV0ZzWm11UUQ4WDVEcGFQZTVYRFBkM1VQWC1ycnlxSDJLbGlXZWdUcXRxZS1sY3JObEhUVTRlbVFMVnZUem5qalg4NzQzUXJRbFl5Nmk3d3E4d1k0TzBnSmdDWS0wUGtiTVE5aXNuTlFGZ05XdFRuM2xzdTRlT1djZXJHX2lndXlnSmJQZk5tdHNnX3lraEZUVkZjZW9oYkNzOW9KbDE0eDZRWFEzQjNDc3hhVGc2OWVya1I2M2HSAcwBQVVfeXFMTmI4RWhjbEZwRW5kbzlPamU2RWVFUzdnSnZyaFFYU3VERnVvYnZSUE5wR2U3bG8tSUowYm85MnE2eGlHSnUxaTZxdDhGU1NpcEc2VXBUdVBvWVJKSlJpT0tULVBIQ0lNTmhCT0RYOFQ4Y3ZXNzc3bnl3WEk1bURpTExlcGtaTmhWT3ZHVHBlUlBQei1RMUhIcW9GZWlTS0tLeVBIUm5Ba0J2TDlGdHpnYVVBeWM1WExlZFlNYUNENks5b0FycFBtN09YZXJV?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "key": "action:a-2026-11-04-pl-1",
+     "media": "unrated",
+     "fact": "Poland steps up reservist training, citing Russian hybrid threats (DW, Moscow Times)"
+    }
+   ]
+  },
+  {
    "id": "tw-russia-nato-eastern-flank-kaliningrad-1",
    "hotspot": "russia-nato-eastern-flank-kaliningrad",
    "kind": "escalation",
@@ -6608,6 +6752,78 @@
    "status": "not_seen",
    "since": "2026-11-04",
    "evidence": []
+  },
+  {
+   "id": "act-a-2026-11-03-eu-1-russia-ukraine-war",
+   "hotspot": "russia-ukraine-war",
+   "kind": "escalation",
+   "text": "European Union: European Commission repeats its call for 72-hour household emergency kits and proposes teachin",
+   "status": "tripped",
+   "since": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words); part of EU Preparedness Union Strategy (March 2025)",
+   "evidence": [
+    {
+     "date": "2026-11-03",
+     "outlet": "Infobae",
+     "country": "European Union",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOcFlIYnhmZ2oyZkZQWkpVVF96bkx3S29yZmlYaWJaV19NVTJBRjBZcUxZSGVFaW05MEQ5STd1UnUtUENxa0o0eGJjMHJldkdsQkJvM0ZJR1ZTQ0dFZ0Jpek1zZkE5U1pfbmFwak0ySlc0OVgweWItV0g3LWtCLTgxNTNkaWNybTdEMVFZLWNoU1Z6Q2c1RTlLZGJjMUlLdHhpdXY5UGVvQ2ZGS3czMUZkUV9xS0phOFJUQlA4NndRR3pUUTFRbjgxZXBrNHlRQnI2a0lyNm9IQWpNOFFjcFZyaEhEcFY2eUhTcEZKUGlQaWg0WGIxMXfSAZACQVVfeXFMTmdVOWtaMHRqWTRET1BDVXZ0U1lVcXdjbUg1cnNQSFVwV05fYng3cHlDT2Fac1VBRG1GUmJZaDVkTlIwUmpmQlc3OTd3Y3Rfb19aWXUyeDA2QVpUXzBsRkpTcWlWclJhek0xY2J2c2RqNmkyVUJ3MnM0aGkzY0ZRaFhlS3RoYnhiVFEzaF9qTFpyMmZDNTNVWEFYQ3lmUVB3elgyQkZaX2R",
+     "region": "intl",
+     "tag": "non-party",
+     "key": "action:a-2026-11-03-eu-1",
+     "media": "unrated",
+     "fact": "European Commission repeats its call for 72-hour household emergency kits and proposes teaching children what to do in a crisis"
+    }
+   ]
+  },
+  {
+   "id": "act-a-2026-11-04-ru-1-russia-ukraine-war",
+   "hotspot": "russia-ukraine-war",
+   "kind": "escalation",
+   "text": "Russia: Independent outlet Verstka reports Russia's National Guard (Rosgvardia) is to begin mobilisation prepa",
+   "status": "tripped",
+   "since": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words)",
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "outlet": "Вёрстка",
+     "country": "Russia",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV2FfSGt6LWlHNjBvd0E5NXhyM3U0Z295RkxpeE1LV1VWYXdHa0l4T3JTQ2liR1l3N09EdS1rMnFmYXhNeUQxZEt1RUpWelgtdm9jU3lTY1hxc2VHNFcyZEhRZ1o0RE5EUVoyLUkxMXd2UjVpSnpkNjZ4OGJhNjBrR0RLcUU3ZExpc0Z4X08zbk1xMXMxSEw3VXVuR2Y?oc=5",
+     "region": "russia",
+     "tag": "non-party",
+     "key": "action:a-2026-11-04-ru-1",
+     "media": "unrated",
+     "fact": "Independent outlet Verstka reports Russia's National Guard (Rosgvardia) is to begin mobilisation preparations in advance"
+    }
+   ]
+  },
+  {
+   "id": "act-a-2026-11-05-ua-1-russia-ukraine-war",
+   "hotspot": "russia-ukraine-war",
+   "kind": "escalation",
+   "text": "Ukraine: Ukraine seeks Norwegian backing for a war-risk insurance fund",
+   "status": "tripped",
+   "since": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words)",
+   "evidence": [
+    {
+     "date": "2026-11-05",
+     "outlet": "Ukraine Business News",
+     "country": "Ukraine",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQODFxZ0MzT0w0SzYxd3pTWXZDTDdKeWRza0RPek1SVjNPUXFuNTVfcXdYTXQzYUxOOU12NXF5akYtX1pUZDVsTlo4TFhLOGluS3pxMFIzS0czcElCb3hPNUdxVFRBLXZkbmJkWFRNNk5sUmE4RU1iMXVmcWVxQ294ak1fWdIBiwFBVV95cUxOUUxfUWVMZVVZY2ZmN0JmS3JjMEpvOHFPQmszOXczZmtqUTdhRlZURmtoNW1sengzWUpTUzJYSXNwWmVUcnU5Zjc2Y1B2VW5YR3ltRnQ5Z0RqalNkb0xyMlBYcVVzcUhTWHBDQjd0T0dmMmZFRUZjYzlJS2dWM29lZUt3U2thMWVVdGJR?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "key": "action:a-2026-11-05-ua-1",
+     "media": "unrated",
+     "fact": "Ukraine seeks Norwegian backing for a war-risk insurance fund"
+    }
+   ]
   },
   {
    "id": "tw-russia-ukraine-war-1",
@@ -6845,6 +7061,30 @@
    "evidence": []
   },
   {
+   "id": "act-a-2026-10-22-gb-us-israel-iran-war",
+   "hotspot": "us-israel-iran-war",
+   "kind": "escalation",
+   "text": "United Kingdom: UK launches 'Be Ready', a three-year campaign asking every household to keep three days of sup",
+   "status": "tripped",
+   "since": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words); part of Three-year Cabinet Office campaign",
+   "evidence": [
+    {
+     "date": "2026-10-22",
+     "outlet": "Latin Times",
+     "country": "United Kingdom",
+     "url": "https://www.latintimes.com/uk-ready-campaign-three-day-emergency-supplies-600689",
+     "region": "europe",
+     "tag": "non-party",
+     "key": "action:a-2026-10-22-gb",
+     "media": "unrated",
+     "fact": "UK launches 'Be Ready', a three-year campaign asking every household to keep three days of supplies"
+    }
+   ]
+  },
+  {
    "id": "tw-us-israel-iran-war-1",
    "hotspot": "us-israel-iran-war",
    "kind": "escalation",
@@ -6930,6 +7170,30 @@
    "status": "not_seen",
    "since": "2026-11-04",
    "evidence": []
+  },
+  {
+   "id": "act-a-2026-11-04-ye-1-yemen-houthi-saudi-war",
+   "hotspot": "yemen-houthi-saudi-war",
+   "kind": "escalation",
+   "text": "Yemen: Houthi-run Saba says residents of four Sanaa districts declared general mobilisation against what it ca",
+   "status": "tripped",
+   "since": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "source": "action",
+   "why": "A government preparedness action tied to this hotspot (Actions, not words)",
+   "evidence": [
+    {
+     "date": "2026-11-04",
+     "outlet": "Saba",
+     "country": "Yemen",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwc0EyV3hVYWF5eDZkOTVVVk9uYmRpdkRZYlBHOV9pS3RGTUVFWnFDT200RDkxUlFNQjA4NU4wVklVdXlORzhxMi1LZmY3YlU?oc=5",
+     "region": "middle-east",
+     "tag": "non-party",
+     "key": "action:a-2026-11-04-ye-1",
+     "media": "unrated",
+     "fact": "Houthi-run Saba says residents of four Sanaa districts declared general mobilisation against what it calls Saudi escalation"
+    }
+   ]
   },
   {
    "id": "tw-yemen-houthi-saudi-war-1",
@@ -10453,6 +10717,799 @@
    "critical-systems": "Critical systems",
    "misuse": "Misuse at scale",
    "race-and-rules": "Race and rules"
+  }
+ },
+ "actions": {
+  "date": "2026-11-05",
+  "summary": "Most of the actions point to slow, mostly scheduled preparation in Europe. Households are being asked to cope for 72 hours, and Nordic, Polish and possibly Moldovan reserves are being made easier to call up, framed by official warnings about Russian hybrid attacks rather than a specific near-term threat. In Asia, governments are mainly reassuring people about supplies during the Iran war; Thailand's reported shift to kit advice is the one notable change, though it is weakly sourced.",
+  "patterns": [
+   {
+    "id": "europe-72-hour-preparedness",
+    "title": "European governments roll out 72-hour household self-sufficiency campaigns",
+    "points_to": "Together these steps prepare households to ride out several days of disruption to power, water, payments or transport. That could come from sabotage, cyberattacks or a wider crisis, as well as from storms or floods.",
+    "unsaid": "These campaigns have clustered in October and November 2026, alongside official warnings about Russian hybrid attacks. That timing suggests governments want the public ready for deliberate disruption of infrastructure, even though most guides are framed as all-hazards advice.",
+    "plain_explanation": "Most of these steps come from the EU's 2025 Preparedness Union Strategy and national programs announced months or years earlier. The 72-hour standard is a long-standing disaster-planning norm, so this is mainly a scheduled rollout.",
+    "support": "moderate",
+    "confirm": [
+     "Governments add specific steps such as shelter inventories, grid or cable protection drills, or iodine distribution",
+     "Campaigns are brought forward or speeded up after a specific sabotage or drone incident",
+     "Non-EU neighbours outside the program, such as Norway or Switzerland, issue matching advice on short notice"
+    ],
+    "refute": [
+     "Campaigns continue only on their pre-announced schedules with no added urgency",
+     "Officials link the campaigns mainly to climate and weather events",
+     "No new military or infrastructure-protection steps accompany them"
+    ],
+    "hotspots": [
+     "russia-nato-eastern-flank-kaliningrad",
+     "russia-ukraine-war"
+    ],
+    "countries": [
+     "BE",
+     "EU",
+     "FI",
+     "FR",
+     "GB",
+     "LU",
+     "SE"
+    ],
+    "window": {
+     "from": "2024-11-18",
+     "to": "2026-11-03"
+    },
+    "actions": [
+     {
+      "id": "a-2024-11-18-se",
+      "date": "2024-11-18",
+      "country": "SE",
+      "country_name": "Sweden",
+      "kind": "civil-preparedness",
+      "kind_label": "Civil preparedness",
+      "what": "Sweden begins mailing 5.2 million 'If Crisis or War Comes' booklets to households, urging food and water stocks",
+      "url": "https://logicallyfacts.com/en/article/heres-what-you-should-know-about-swedens-crisis-or-war-pamphlets",
+      "outlet": "Logically Facts",
+      "scheduled": null,
+      "program": "MSB crisis booklet, first updated since 2018",
+      "hotspots": [
+       "russia-ukraine-war",
+       "russia-nato-eastern-flank-kaliningrad"
+      ]
+     },
+     {
+      "id": "a-2024-11-18-fi",
+      "date": "2024-11-18",
+      "country": "FI",
+      "country_name": "Finland",
+      "kind": "civil-preparedness",
+      "kind_label": "Civil preparedness",
+      "what": "Finland publishes a consolidated online preparedness guide for incidents and crises",
+      "url": "https://www.thenationalnews.com/news/europe/2024/11/18/sweden-and-finland-advise-citizens-how-to-prepare-for-potential-war",
+      "outlet": "The National",
+      "scheduled": null,
+      "program": "",
+      "hotspots": [
+       "russia-ukraine-war",
+       "russia-nato-eastern-flank-kaliningrad"
+      ]
+     },
+     {
+      "id": "a-2025-03-26-eu",
+      "date": "2025-03-26",
+      "country": "EU",
+      "country_name": "European Union",
+      "kind": "civil-preparedness",
+      "kind_label": "Civil preparedness",
+      "what": "European Commission's Preparedness Union Strategy asks people to keep at least 72 hours of essential supplies",
+      "url": "https://irishtimes.com/world/europe/2025/03/26/stockpile-72-hours-of-supplies-in-case-of-disaster-or-attack-eu-tells-citizens",
+      "outlet": "The Irish Times",
+      "scheduled": false,
+      "program": "EU Preparedness Union Strategy (built on the Niinisto report, late 2024)",
+      "hotspots": [
+       "russia-ukraine-war",
+       "russia-nato-eastern-flank-kaliningrad"
+      ]
+     },
+     {
+      "id": "a-2025-11-20-fr",
+      "date": "2025-11-20",
+      "country": "FR",
+      "country_name": "France",
+      "kind": "civil-preparedness",
+      "kind_label": "Civil preparedness",
+      "what": "France publishes the 'Tous responsables' guide with a 72-hour emergency kit",
+      "url": "https://www.euronews.com/2025/11/21/army-chief-warns-france-must-accept-loss-of-our-children-to-deter-russia-by-2030",
+      "outlet": "Euronews",
+      "scheduled": true,
+      "program": "Announced in spring 2025 after the EU strategy",
+      "hotspots": [
+       "russia-nato-eastern-flank-kaliningrad"
+      ]
+     },
+     {
+      "id": "a-2026-04-21-be",
+      "date": "2026-04-21",
+      "country": "BE",
+      "country_name": "Belgium",
+      "kind": "civil-preparedness",
+      "kind_label": "Civil preparedness",
+      "what": "Belgium's National Crisis Centre starts a four-year campaign: be able to cope alone for 72 hours",
+      "url": "https://www.vrt.be/vrtnws/en/2026/04/21/federal-government-calls-on-belgians-to-be-prepared/",
+      "outlet": "VRT",
+      "scheduled": true,
+      "program": "Four-year National Crisis Centre campaign",
+      "hotspots": [
+       "russia-nato-eastern-flank-kaliningrad"
+      ]
+     },
+     {
+      "id": "a-2026-10-01-be",
+      "date": "2026-10-01",
+      "country": "BE",
+      "country_name": "Belgium",
+      "kind": "civil-preparedness",
+      "kind_label": "Civil preparedness",
+      "what": "Belgium publishes a 28-page household emergency guide with a 72-hour kit",
+      "url": "https://www.brusselstimes.com/belgium/2341794/never-panic-never-be-naive-belgium-launches-new-emergency-guide/",
+      "outlet": "The Brussels Times",
+      "scheduled": true,
+      "program": "Four-year National Crisis Centre campaign",
+      "hotspots": [
+       "russia-nato-eastern-flank-kaliningrad"
+      ]
+     },
+     {
+      "id": "a-2026-10-09-lu",
+      "date": "2026-10-09",
+      "country": "LU",
+      "country_name": "Luxembourg",
+      "kind": "civil-preparedness",
+      "kind_label": "Civil preparedness",
+      "what": "Luxembourg presents 'My Guide to 72 Hours of Self-Sufficiency'; 300,000 copies to every household from Oct 14",
+      "url": "https://gouvernement.lu/en/actualites/toutes_actualites/communiques/2026/10-octobre/09-frieden-gloden-resilience.html",
+      "outlet": "Government of Luxembourg",
+      "scheduled": true,
+      "program": "National Resilience Strategy of Oct 13, 2025",
+      "hotspots": [
+       "russia-nato-eastern-flank-kaliningrad"
+      ]
+     },
+     {
+      "id": "a-2026-10-22-gb",
+      "date": "2026-10-22",
+      "country": "GB",
+      "country_name": "United Kingdom",
+      "kind": "civil-preparedness",
+      "kind_label": "Civil preparedness",
+      "what": "UK launches 'Be Ready', a three-year campaign asking every household to keep three days of supplies",
+      "url": "https://www.latintimes.com/uk-ready-campaign-three-day-emergency-supplies-600689",
+      "outlet": "Latin Times",
+      "scheduled": null,
+      "program": "Three-year Cabinet Office campaign",
+      "hotspots": [
+       "russia-nato-eastern-flank-kaliningrad",
+       "us-israel-iran-war"
+      ]
+     },
+     {
+      "id": "a-2026-11-03-eu-1",
+      "date": "2026-11-03",
+      "country": "EU",
+      "country_name": "European Union",
+      "kind": "civil-preparedness",
+      "kind_label": "Civil preparedness",
+      "what": "European Commission repeats its call for 72-hour household emergency kits and proposes teaching children what to do in a crisis",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOcFlIYnhmZ2oyZkZQWkpVVF96bkx3S29yZmlYaWJaV19NVTJBRjBZcUxZSGVFaW05MEQ5STd1UnUtUENxa0o0eGJjMHJldkdsQkJvM0ZJR1ZTQ0dFZ0Jpek1zZkE5U1pfbmFwak0ySlc0OVgweWItV0g3LWtCLTgxNTNkaWNybTdEMVFZLWNoU1Z6Q2c1RTlLZGJjMUlLdHhpdXY5UGVvQ2ZGS3czMUZkUV9xS0phOFJUQlA4NndRR3pUUTFRbjgxZXBrNHlRQnI2a0lyNm9IQWpNOFFjcFZyaEhEcFY2eUhTcEZKUGlQaWg0WGIxMXfSAZACQVVfeXFMTmdVOWtaMHRqWTRET1BDVXZ0U1lVcXdjbUg1cnNQSFVwV05fYng3cHlDT2Fac1VBRG1GUmJZaDVkTlIwUmpmQlc3OTd3Y3Rfb19aWXUyeDA2QVpUXzBsRkpTcWlWclJhek0xY2J2c2RqNmkyVUJ3MnM0aGkzY0ZRaFhlS3RoYnhiVFEzaF9qTFpyMmZDNTNVWEFYQ3lmUVB3elgyQkZaX2R",
+      "outlet": "Infobae",
+      "scheduled": true,
+      "program": "EU Preparedness Union Strategy (March 2025)",
+      "hotspots": [
+       "russia-nato-eastern-flank-kaliningrad",
+       "russia-ukraine-war"
+      ]
+     }
+    ],
+    "events": [
+     {
+      "id": "e-2024-11-18-cables",
+      "date": "2024-11-18",
+      "kind": "hybrid",
+      "what": "Two Baltic Sea data cables cut (Sweden-Lithuania, Finland-Germany); Sweden opens a sabotage investigation",
+      "url": "https://thestar.com.my/news/focus/2024/11/24/nordic-countries-dust-off-their-crisis-advice"
+     },
+     {
+      "id": "e-2025-09-drones",
+      "date": "2025-09-15",
+      "kind": "drone",
+      "what": "From September 2025, drones seen near airports and military sites in Denmark, Germany and Norway",
+      "url": "https://www.aljazeera.com/news/2025/11/9/uk-military-to-help-belgium-after-drone-sightings-near-airports"
+     },
+     {
+      "id": "e-2025-10-13-bnd",
+      "date": "2025-10-13",
+      "kind": "warning",
+      "what": "German intelligence chief warns of military conflict with Russia by 2029",
+      "url": "https://news.liga.net/en/amp/politics/news/european-commissioner-kubilius-europe-is-not-ready-to-defend-itself-against-drones-now-but-by-2030-it-should-be"
+     },
+     {
+      "id": "e-2025-11-06-be-drones",
+      "date": "2025-11-06",
+      "kind": "drone",
+      "what": "Unidentified drones over Brussels, Charleroi and Liege airports ground or divert flights; UK, France, Germany send counter-drone teams",
+      "url": "https://www.gamereactor.eu/united-kingdom-joins-france-and-germany-in-helping-belgium-counter-drone-incursions-1630813/"
+     },
+     {
+      "id": "e-2026-06-29-nl",
+      "date": "2026-06-29",
+      "kind": "warning",
+      "what": "Dutch defence ministry: a limited Russian war against NATO members possible within a year of the Ukraine war ending",
+      "url": "https://thedefensepost.com/2026/06/30/russia-attack-nato-netherlands-warning/"
+     },
+     {
+      "id": "e-2026-10-24-streeting",
+      "date": "2026-10-24",
+      "kind": "warning",
+      "what": "UK defence secretary: Britain must prepare to fight and win a war as Russia's hybrid warfare against NATO intensifies",
+      "url": "https://jpost.com/international/article-912745"
+     }
+    ]
+   },
+   {
+    "id": "eastern-flank-reserve-readiness",
+    "title": "Reservist and mobilisation steps around Russia's western border",
+    "points_to": "Poland, Norway, Finland and Moldova are taking steps to make reserves easier to call up and train. On Russia's side, reporting points to Rosgvardia preparing for mobilisation in advance. Together these suggest both sides are building the ability to expand forces quickly over the coming years.",
+    "unsaid": "Moldova's plan to recall mobilisable citizens from abroad is consistent with quiet contingency planning around Transnistria and drone spillover, although Chisinau has not described any specific threat. A report of Russian mobilisation planning sits alongside a public 'no second wave' message, which suggests a gap between words and preparation; both reports n",
+    "plain_explanation": "The Nordic and Polish reservist programs follow defence reforms and budgets launched since 2022. The Moldovan and Russian items rest on single-country or Russian-only reporting and may describe routine legal updates rather than new decisions.",
+    "support": "moderate",
+    "confirm": [
+     "Independent outlets such as Reuters, AFP or Moldovan media confirm Moldova's draft rule and its timing",
+     "Leave is cancelled or there are short-notice call-ups in Baltic or Nordic states",
+     "Independent confirmation of Rosgvardia mobilisation planning, or a Russian decree on reserves"
+    ],
+    "refute": [
+     "Moldova's measure turns out to be a long-planned update of mobilisation law",
+     "Reservist programs prove to be the pre-announced annual cycles",
+     "No further readiness steps follow in the next few weeks"
+    ],
+    "hotspots": [
+     "russia-nato-eastern-flank-kaliningrad",
+     "moldova-drone-spillover-transnistria",
+     "russia-ukraine-war"
+    ],
+    "countries": [
+     "FI",
+     "MD",
+     "RU"
+    ],
+    "window": {
+     "from": "2026-11-04",
+     "to": "2026-11-05"
+    },
+    "actions": [
+     {
+      "id": "a-2026-11-04-fi-1",
+      "date": "2026-11-04",
+      "country": "FI",
+      "country_name": "Finland",
+      "kind": "military-readiness",
+      "kind_label": "Military readiness",
+      "what": "Finland steps up reservist training, citing Russian hybrid threats (DW, Moscow Times)",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdDUzRjNsZ21vam05cEJMV0ZzWm11UUQ4WDVEcGFQZTVYRFBkM1VQWC1ycnlxSDJLbGlXZWdUcXRxZS1sY3JObEhUVTRlbVFMVnZUem5qalg4NzQzUXJRbFl5Nmk3d3E4d1k0TzBnSmdDWS0wUGtiTVE5aXNuTlFGZ05XdFRuM2xzdTRlT1djZXJHX2lndXlnSmJQZk5tdHNnX3lraEZUVkZjZW9oYkNzOW9KbDE0eDZRWFEzQjNDc3hhVGc2OWVya1I2M2HSAcwBQVVfeXFMTmI4RWhjbEZwRW5kbzlPamU2RWVFUzdnSnZyaFFYU3VERnVvYnZSUE5wR2U3bG8tSUowYm85MnE2eGlHSnUxaTZxdDhGU1NpcEc2VXBUdVBvWVJKSlJpT0tULVBIQ0lNTmhCT0RYOFQ4Y3ZXNzc3bnl3WEk1bURpTExlcGtaTmhWT3ZHVHBlUlBQei1RMUhIcW9GZWlTS0tLeVBIUm5Ba0J2TDlGdHpnYVVBeWM1WExlZFlNYUNENks5b0FycFBtN09YZXJV?oc=5",
+      "outlet": "Deutsche Welle",
+      "scheduled": null,
+      "program": "",
+      "hotspots": [
+       "russia-nato-eastern-flank-kaliningrad"
+      ]
+     },
+     {
+      "id": "a-2026-11-04-md-1",
+      "date": "2026-11-04",
+      "country": "MD",
+      "country_name": "Moldova",
+      "kind": "military-readiness",
+      "kind_label": "Military readiness",
+      "what": "Moldova's defence ministry plans to oblige mobilisable citizens abroad to return if mobilisation is declared (Russian, Belarusian outlets)",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6LVFJekdLWDctUFd3UWdGdVRQalF2Q0pCaDFMb29uMjRWaHd2MUpmRjJRSmdRenNxeWE2MGdXYnBJc0tVZ0lRdjRJazJqcWZUd0p2T28zdw?oc=5",
+      "outlet": "MD.KP.MEDIA",
+      "scheduled": null,
+      "program": "",
+      "hotspots": [
+       "moldova-drone-spillover-transnistria"
+      ]
+     },
+     {
+      "id": "a-2026-11-04-ru-1",
+      "date": "2026-11-04",
+      "country": "RU",
+      "country_name": "Russia",
+      "kind": "military-readiness",
+      "kind_label": "Military readiness",
+      "what": "Independent outlet Verstka reports Russia's National Guard (Rosgvardia) is to begin mobilisation preparations in advance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV2FfSGt6LWlHNjBvd0E5NXhyM3U0Z295RkxpeE1LV1VWYXdHa0l4T3JTQ2liR1l3N09EdS1rMnFmYXhNeUQxZEt1RUpWelgtdm9jU3lTY1hxc2VHNFcyZEhRZ1o0RE5EUVoyLUkxMXd2UjVpSnpkNjZ4OGJhNjBrR0RLcUU3ZExpc0Z4X08zbk1xMXMxSEw3VXVuR2Y?oc=5",
+      "outlet": "Вёрстка",
+      "scheduled": null,
+      "program": "",
+      "hotspots": [
+       "russia-ukraine-war"
+      ]
+     },
+     {
+      "id": "a-2026-11-05-ru-1",
+      "date": "2026-11-05",
+      "country": "RU",
+      "country_name": "Russia",
+      "kind": "reassurance",
+      "kind_label": "Reassurance",
+      "what": "A Russian regional outlet reports Putin confirmed there is to be no second wave of mobilisation; the statement's original date is unclear",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdUh1RzVyMlQ0ZmVSNnBYRmFlS3cxVnptcFEwVWkxOHpNR0xwTTVCQzEyM0xVMDJrMU5WZzdxYTBDbUFtTnRPc2xoaDYxLVA0N0lVWUVTSm5VYWdKS2hxbEE1VUt3OWgtX0NPVlMxdnJ0VVNLUDJUeXJydEdVOHkzZWFMTWNxMUV6b0x0X2RnZ2RyZG5hc01rRGFjOGpZYlJfU051dDJR?oc=5",
+      "outlet": "obltv.ru",
+      "scheduled": false,
+      "program": "",
+      "hotspots": [
+       "russia-ukraine-war"
+      ]
+     }
+    ],
+    "events": [
+     {
+      "id": "e-2025-10-09-isw",
+      "date": "2025-10-09",
+      "kind": "hybrid",
+      "what": "ISW says Russia has entered 'Phase 0' of preparing for a possible NATO war, with rising covert and overt attacks in Europe",
+      "url": "https://euromaidanpress.com/2025/10/10/isw-russia-steps-up-covert-and-overt-attacks-on-europe-nato-races-to-reinforce-defenses/"
+     },
+     {
+      "id": "e-2025-10-13-bnd",
+      "date": "2025-10-13",
+      "kind": "warning",
+      "what": "German intelligence chief warns of military conflict with Russia by 2029",
+      "url": "https://news.liga.net/en/amp/politics/news/european-commissioner-kubilius-europe-is-not-ready-to-defend-itself-against-drones-now-but-by-2030-it-should-be"
+     },
+     {
+      "id": "e-2026-06-29-nl",
+      "date": "2026-06-29",
+      "kind": "warning",
+      "what": "Dutch defence ministry: a limited Russian war against NATO members possible within a year of the Ukraine war ending",
+      "url": "https://thedefensepost.com/2026/06/30/russia-attack-nato-netherlands-warning/"
+     },
+     {
+      "id": "e-2026-10-24-streeting",
+      "date": "2026-10-24",
+      "kind": "warning",
+      "what": "UK defence secretary: Britain must prepare to fight and win a war as Russia's hybrid warfare against NATO intensifies",
+      "url": "https://jpost.com/international/article-912745"
+     }
+    ]
+   },
+   {
+    "id": "asia-supply-reassurance",
+    "title": "Asian and Gulf governments calm stockpiling fears tied to the Iran war; Thailand shifts",
+    "points_to": "Mostly these are efforts to head off panic buying in countries that depend on Gulf energy and shipping, as the Hormuz fighting flares and two tankers hit mines. They do not point to preparation for conflict on these countries' own soil.",
+    "unsaid": "Thailand reportedly moved from denying a 72-hour warning to recommending a 72-hour bag within about a week. That reversal is consistent with authorities quietly preparing for supply disruption while keeping a calm public tone, but it rests only on Vietnamese and Japanese reports.",
+    "plain_explanation": "Reassurance after viral rumours is routine. Thailand's kit advice may be ordinary disaster preparedness for the flood season and unrelated to the Middle East.",
+    "support": "weak",
+    "confirm": [
+     "Thai officials link the kit advice to fuel or shipping risk from the Gulf",
+     "Several Asian importers release strategic fuel reserves or ration fuel",
+     "More governments shift from reassurance to stockpiling advice"
+    ],
+    "refute": [
+     "Thai advice is confirmed as flood or disaster guidance",
+     "Hormuz shipping steadies and no further reserve steps follow",
+     "Thai authorities deny issuing the new call"
+    ],
+    "hotspots": [
+     "us-israel-iran-war"
+    ],
+    "countries": [
+     "AE",
+     "JP",
+     "MY",
+     "TH"
+    ],
+    "window": {
+     "from": "2026-02-28",
+     "to": "2026-11-04"
+    },
+    "actions": [
+     {
+      "id": "a-2026-02-28-ae",
+      "date": "2026-02-28",
+      "country": "AE",
+      "country_name": "United Arab Emirates",
+      "kind": "reassurance",
+      "kind_label": "Reassurance",
+      "what": "UAE says staple-goods reserves are secure and urges the public not to stockpile",
+      "url": "https://www.khaleejtimes.com/uae/uae-staple-goods-reserves-secure-public-not-to-stockpile",
+      "outlet": "Khaleej Times",
+      "scheduled": false,
+      "program": "",
+      "hotspots": [
+       "us-israel-iran-war"
+      ]
+     },
+     {
+      "id": "a-2026-03-23-jp",
+      "date": "2026-03-23",
+      "country": "JP",
+      "country_name": "Japan",
+      "kind": "reassurance",
+      "kind_label": "Reassurance",
+      "what": "Japan urges people not to panic-buy toilet paper amid Iran war fears",
+      "url": "https://theprint.in/world/dont-hoard-toilet-paper-theres-enough-supply-japan-tells-citizens-amid-iran-war-fears/2886238",
+      "outlet": "ThePrint",
+      "scheduled": false,
+      "program": "",
+      "hotspots": [
+       "us-israel-iran-war"
+      ]
+     },
+     {
+      "id": "a-2026-10-29-th",
+      "date": "2026-10-29",
+      "country": "TH",
+      "country_name": "Thailand",
+      "kind": "reassurance",
+      "kind_label": "Reassurance",
+      "what": "Thailand's National Security Council denies a viral warning to keep 72 hours of supplies; monitoring the Middle East",
+      "url": "https://www.nationthailand.com/news/general/40072869",
+      "outlet": "The Nation",
+      "scheduled": false,
+      "program": "",
+      "hotspots": [
+       "us-israel-iran-war"
+      ]
+     },
+     {
+      "id": "a-2026-11-02-my",
+      "date": "2026-11-02",
+      "country": "MY",
+      "country_name": "Malaysia",
+      "kind": "reassurance",
+      "kind_label": "Reassurance",
+      "what": "Malaysia says there is no need to stockpile food; at least six months of supply",
+      "url": "https://www.malaymail.com/amp/news/malaysia/2026/11/02/no-need-to-stockpile-food-malaysia-has-at-least-six-months-of-supply-says-zahid/241690",
+      "outlet": "Malay Mail",
+      "scheduled": false,
+      "program": "",
+      "hotspots": [
+       "us-israel-iran-war"
+      ]
+     },
+     {
+      "id": "a-2026-11-04-th-1",
+      "date": "2026-11-04",
+      "country": "TH",
+      "country_name": "Thailand",
+      "kind": "civil-preparedness",
+      "kind_label": "Civil preparedness",
+      "what": "Thai government reportedly asks households to prepare a 72-hour emergency bag, a week after its NSC denied a similar viral warning",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa0ZWUGsxcGNDd2JocDM4RWZDYmh4WFFVbVpFNDlIOWdWN0NWMW9Gc0t2Nm91Nmw4X1dPdmZNRVl1NWNPOXcwY1Q3YVFkMG1KUWpnLVFZd2pLWUlGaXM2UE90SnRZSjVrYjlYQmNtTVlLVVBRcDZ0QjIxci01MXBQbFNQS0djZHcyVUdkbw?oc=5",
+      "outlet": "Vietnam.vn",
+      "scheduled": null,
+      "program": "",
+      "hotspots": []
+     }
+    ],
+    "events": [
+     {
+      "id": "e-2026-02-28-iran",
+      "date": "2026-02-28",
+      "kind": "military",
+      "what": "Israeli and US strikes on Iran begin the US/Israel-Iran war",
+      "url": "https://www.khaleejtimes.com/uae/uae-staple-goods-reserves-secure-public-not-to-stockpile"
+     },
+     {
+      "id": "e-2026-08-31-iran",
+      "date": "2026-08-31",
+      "kind": "military",
+      "what": "US and Iran trade strikes in the Strait of Hormuz, ending a month of calm; oil climbs",
+      "url": "https://www.mysuncoast.com/2026/08/31/us-iran-trade-strikes-strait-hormuz-disrupting-month-calm/"
+     },
+     {
+      "id": "e-2026-11-05-4",
+      "date": "2026-11-05",
+      "kind": "news",
+      "what": "Two tankers hit mines in the Strait of Hormuz",
+      "url": "https://www.hurriyet.com.tr/dunya/hurmuz-bogazinda-2-tanker-mayina-carpti-43366495"
+     }
+    ]
+   }
+  ],
+  "recent": [
+   {
+    "id": "a-2026-11-05-ru-1",
+    "date": "2026-11-05",
+    "country": "RU",
+    "country_name": "Russia",
+    "kind": "reassurance",
+    "kind_label": "Reassurance",
+    "what": "A Russian regional outlet reports Putin confirmed there is to be no second wave of mobilisation; the statement's original date is unclear",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdUh1RzVyMlQ0ZmVSNnBYRmFlS3cxVnptcFEwVWkxOHpNR0xwTTVCQzEyM0xVMDJrMU5WZzdxYTBDbUFtTnRPc2xoaDYxLVA0N0lVWUVTSm5VYWdKS2hxbEE1VUt3OWgtX0NPVlMxdnJ0VVNLUDJUeXJydEdVOHkzZWFMTWNxMUV6b0x0X2RnZ2RyZG5hc01rRGFjOGpZYlJfU051dDJR?oc=5",
+    "outlet": "obltv.ru",
+    "scheduled": false,
+    "program": "",
+    "hotspots": [
+     "russia-ukraine-war"
+    ]
+   },
+   {
+    "id": "a-2026-11-05-ua-1",
+    "date": "2026-11-05",
+    "country": "UA",
+    "country_name": "Ukraine",
+    "kind": "financial",
+    "kind_label": "Financial",
+    "what": "Ukraine seeks Norwegian backing for a war-risk insurance fund",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQODFxZ0MzT0w0SzYxd3pTWXZDTDdKeWRza0RPek1SVjNPUXFuNTVfcXdYTXQzYUxOOU12NXF5akYtX1pUZDVsTlo4TFhLOGluS3pxMFIzS0czcElCb3hPNUdxVFRBLXZkbmJkWFRNNk5sUmE4RU1iMXVmcWVxQ294ak1fWdIBiwFBVV95cUxOUUxfUWVMZVVZY2ZmN0JmS3JjMEpvOHFPQmszOXczZmtqUTdhRlZURmtoNW1sengzWUpTUzJYSXNwWmVUcnU5Zjc2Y1B2VW5YR3ltRnQ5Z0RqalNkb0xyMlBYcVVzcUhTWHBDQjd0T0dmMmZFRUZjYzlJS2dWM29lZUt3U2thMWVVdGJR?oc=5",
+    "outlet": "Ukraine Business News",
+    "scheduled": null,
+    "program": "",
+    "hotspots": [
+     "russia-ukraine-war",
+     "black-sea-shipping-attacks"
+    ]
+   },
+   {
+    "id": "a-2026-11-04-th-1",
+    "date": "2026-11-04",
+    "country": "TH",
+    "country_name": "Thailand",
+    "kind": "civil-preparedness",
+    "kind_label": "Civil preparedness",
+    "what": "Thai government reportedly asks households to prepare a 72-hour emergency bag, a week after its NSC denied a similar viral warning",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa0ZWUGsxcGNDd2JocDM4RWZDYmh4WFFVbVpFNDlIOWdWN0NWMW9Gc0t2Nm91Nmw4X1dPdmZNRVl1NWNPOXcwY1Q3YVFkMG1KUWpnLVFZd2pLWUlGaXM2UE90SnRZSjVrYjlYQmNtTVlLVVBRcDZ0QjIxci01MXBQbFNQS0djZHcyVUdkbw?oc=5",
+    "outlet": "Vietnam.vn",
+    "scheduled": null,
+    "program": "",
+    "hotspots": []
+   },
+   {
+    "id": "a-2026-11-04-md-1",
+    "date": "2026-11-04",
+    "country": "MD",
+    "country_name": "Moldova",
+    "kind": "military-readiness",
+    "kind_label": "Military readiness",
+    "what": "Moldova's defence ministry plans to oblige mobilisable citizens abroad to return if mobilisation is declared (Russian, Belarusian outlets)",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6LVFJekdLWDctUFd3UWdGdVRQalF2Q0pCaDFMb29uMjRWaHd2MUpmRjJRSmdRenNxeWE2MGdXYnBJc0tVZ0lRdjRJazJqcWZUd0p2T28zdw?oc=5",
+    "outlet": "MD.KP.MEDIA",
+    "scheduled": null,
+    "program": "",
+    "hotspots": [
+     "moldova-drone-spillover-transnistria"
+    ]
+   },
+   {
+    "id": "a-2026-11-04-pl-1",
+    "date": "2026-11-04",
+    "country": "PL",
+    "country_name": "Poland",
+    "kind": "military-readiness",
+    "kind_label": "Military readiness",
+    "what": "Poland steps up reservist training, citing Russian hybrid threats (DW, Moscow Times)",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdDUzRjNsZ21vam05cEJMV0ZzWm11UUQ4WDVEcGFQZTVYRFBkM1VQWC1ycnlxSDJLbGlXZWdUcXRxZS1sY3JObEhUVTRlbVFMVnZUem5qalg4NzQzUXJRbFl5Nmk3d3E4d1k0TzBnSmdDWS0wUGtiTVE5aXNuTlFGZ05XdFRuM2xzdTRlT1djZXJHX2lndXlnSmJQZk5tdHNnX3lraEZUVkZjZW9oYkNzOW9KbDE0eDZRWFEzQjNDc3hhVGc2OWVya1I2M2HSAcwBQVVfeXFMTmI4RWhjbEZwRW5kbzlPamU2RWVFUzdnSnZyaFFYU3VERnVvYnZSUE5wR2U3bG8tSUowYm85MnE2eGlHSnUxaTZxdDhGU1NpcEc2VXBUdVBvWVJKSlJpT0tULVBIQ0lNTmhCT0RYOFQ4Y3ZXNzc3bnl3WEk1bURpTExlcGtaTmhWT3ZHVHBlUlBQei1RMUhIcW9GZWlTS0tLeVBIUm5Ba0J2TDlGdHpnYVVBeWM1WExlZFlNYUNENks5b0FycFBtN09YZXJV?oc=5",
+    "outlet": "Deutsche Welle",
+    "scheduled": null,
+    "program": "",
+    "hotspots": [
+     "russia-nato-eastern-flank-kaliningrad"
+    ]
+   },
+   {
+    "id": "a-2026-11-04-no-1",
+    "date": "2026-11-04",
+    "country": "NO",
+    "country_name": "Norway",
+    "kind": "military-readiness",
+    "kind_label": "Military readiness",
+    "what": "Norway steps up reservist training, citing Russian hybrid threats (DW, Moscow Times)",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdDUzRjNsZ21vam05cEJMV0ZzWm11UUQ4WDVEcGFQZTVYRFBkM1VQWC1ycnlxSDJLbGlXZWdUcXRxZS1sY3JObEhUVTRlbVFMVnZUem5qalg4NzQzUXJRbFl5Nmk3d3E4d1k0TzBnSmdDWS0wUGtiTVE5aXNuTlFGZ05XdFRuM2xzdTRlT1djZXJHX2lndXlnSmJQZk5tdHNnX3lraEZUVkZjZW9oYkNzOW9KbDE0eDZRWFEzQjNDc3hhVGc2OWVya1I2M2HSAcwBQVVfeXFMTmI4RWhjbEZwRW5kbzlPamU2RWVFUzdnSnZyaFFYU3VERnVvYnZSUE5wR2U3bG8tSUowYm85MnE2eGlHSnUxaTZxdDhGU1NpcEc2VXBUdVBvWVJKSlJpT0tULVBIQ0lNTmhCT0RYOFQ4Y3ZXNzc3bnl3WEk1bURpTExlcGtaTmhWT3ZHVHBlUlBQei1RMUhIcW9GZWlTS0tLeVBIUm5Ba0J2TDlGdHpnYVVBeWM1WExlZFlNYUNENks5b0FycFBtN09YZXJV?oc=5",
+    "outlet": "Deutsche Welle",
+    "scheduled": null,
+    "program": "",
+    "hotspots": [
+     "russia-nato-eastern-flank-kaliningrad"
+    ]
+   },
+   {
+    "id": "a-2026-11-04-fi-1",
+    "date": "2026-11-04",
+    "country": "FI",
+    "country_name": "Finland",
+    "kind": "military-readiness",
+    "kind_label": "Military readiness",
+    "what": "Finland steps up reservist training, citing Russian hybrid threats (DW, Moscow Times)",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdDUzRjNsZ21vam05cEJMV0ZzWm11UUQ4WDVEcGFQZTVYRFBkM1VQWC1ycnlxSDJLbGlXZWdUcXRxZS1sY3JObEhUVTRlbVFMVnZUem5qalg4NzQzUXJRbFl5Nmk3d3E4d1k0TzBnSmdDWS0wUGtiTVE5aXNuTlFGZ05XdFRuM2xzdTRlT1djZXJHX2lndXlnSmJQZk5tdHNnX3lraEZUVkZjZW9oYkNzOW9KbDE0eDZRWFEzQjNDc3hhVGc2OWVya1I2M2HSAcwBQVVfeXFMTmI4RWhjbEZwRW5kbzlPamU2RWVFUzdnSnZyaFFYU3VERnVvYnZSUE5wR2U3bG8tSUowYm85MnE2eGlHSnUxaTZxdDhGU1NpcEc2VXBUdVBvWVJKSlJpT0tULVBIQ0lNTmhCT0RYOFQ4Y3ZXNzc3bnl3WEk1bURpTExlcGtaTmhWT3ZHVHBlUlBQei1RMUhIcW9GZWlTS0tLeVBIUm5Ba0J2TDlGdHpnYVVBeWM1WExlZFlNYUNENks5b0FycFBtN09YZXJV?oc=5",
+    "outlet": "Deutsche Welle",
+    "scheduled": null,
+    "program": "",
+    "hotspots": [
+     "russia-nato-eastern-flank-kaliningrad"
+    ]
+   },
+   {
+    "id": "a-2026-11-04-ru-1",
+    "date": "2026-11-04",
+    "country": "RU",
+    "country_name": "Russia",
+    "kind": "military-readiness",
+    "kind_label": "Military readiness",
+    "what": "Independent outlet Verstka reports Russia's National Guard (Rosgvardia) is to begin mobilisation preparations in advance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV2FfSGt6LWlHNjBvd0E5NXhyM3U0Z295RkxpeE1LV1VWYXdHa0l4T3JTQ2liR1l3N09EdS1rMnFmYXhNeUQxZEt1RUpWelgtdm9jU3lTY1hxc2VHNFcyZEhRZ1o0RE5EUVoyLUkxMXd2UjVpSnpkNjZ4OGJhNjBrR0RLcUU3ZExpc0Z4X08zbk1xMXMxSEw3VXVuR2Y?oc=5",
+    "outlet": "Вёрстка",
+    "scheduled": null,
+    "program": "",
+    "hotspots": [
+     "russia-ukraine-war"
+    ]
+   },
+   {
+    "id": "a-2026-11-04-ye-1",
+    "date": "2026-11-04",
+    "country": "YE",
+    "country_name": "Yemen",
+    "kind": "military-readiness",
+    "kind_label": "Military readiness",
+    "what": "Houthi-run Saba says residents of four Sanaa districts declared general mobilisation against what it calls Saudi escalation",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwc0EyV3hVYWF5eDZkOTVVVk9uYmRpdkRZYlBHOV9pS3RGTUVFWnFDT200RDkxUlFNQjA4NU4wVklVdXlORzhxMi1LZmY3YlU?oc=5",
+    "outlet": "Saba",
+    "scheduled": null,
+    "program": "",
+    "hotspots": [
+     "yemen-houthi-saudi-war"
+    ]
+   },
+   {
+    "id": "a-2026-11-03-eu-1",
+    "date": "2026-11-03",
+    "country": "EU",
+    "country_name": "European Union",
+    "kind": "civil-preparedness",
+    "kind_label": "Civil preparedness",
+    "what": "European Commission repeats its call for 72-hour household emergency kits and proposes teaching children what to do in a crisis",
+    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOcFlIYnhmZ2oyZkZQWkpVVF96bkx3S29yZmlYaWJaV19NVTJBRjBZcUxZSGVFaW05MEQ5STd1UnUtUENxa0o0eGJjMHJldkdsQkJvM0ZJR1ZTQ0dFZ0Jpek1zZkE5U1pfbmFwak0ySlc0OVgweWItV0g3LWtCLTgxNTNkaWNybTdEMVFZLWNoU1Z6Q2c1RTlLZGJjMUlLdHhpdXY5UGVvQ2ZGS3czMUZkUV9xS0phOFJUQlA4NndRR3pUUTFRbjgxZXBrNHlRQnI2a0lyNm9IQWpNOFFjcFZyaEhEcFY2eUhTcEZKUGlQaWg0WGIxMXfSAZACQVVfeXFMTmdVOWtaMHRqWTRET1BDVXZ0U1lVcXdjbUg1cnNQSFVwV05fYng3cHlDT2Fac1VBRG1GUmJZaDVkTlIwUmpmQlc3OTd3Y3Rfb19aWXUyeDA2QVpUXzBsRkpTcWlWclJhek0xY2J2c2RqNmkyVUJ3MnM0aGkzY0ZRaFhlS3RoYnhiVFEzaF9qTFpyMmZDNTNVWEFYQ3lmUVB3elgyQkZaX2R",
+    "outlet": "Infobae",
+    "scheduled": true,
+    "program": "EU Preparedness Union Strategy (March 2025)",
+    "hotspots": [
+     "russia-nato-eastern-flank-kaliningrad",
+     "russia-ukraine-war"
+    ]
+   },
+   {
+    "id": "a-2026-11-02-my",
+    "date": "2026-11-02",
+    "country": "MY",
+    "country_name": "Malaysia",
+    "kind": "reassurance",
+    "kind_label": "Reassurance",
+    "what": "Malaysia says there is no need to stockpile food; at least six months of supply",
+    "url": "https://www.malaymail.com/amp/news/malaysia/2026/11/02/no-need-to-stockpile-food-malaysia-has-at-least-six-months-of-supply-says-zahid/241690",
+    "outlet": "Malay Mail",
+    "scheduled": false,
+    "program": "",
+    "hotspots": [
+     "us-israel-iran-war"
+    ]
+   },
+   {
+    "id": "a-2026-10-29-th",
+    "date": "2026-10-29",
+    "country": "TH",
+    "country_name": "Thailand",
+    "kind": "reassurance",
+    "kind_label": "Reassurance",
+    "what": "Thailand's National Security Council denies a viral warning to keep 72 hours of supplies; monitoring the Middle East",
+    "url": "https://www.nationthailand.com/news/general/40072869",
+    "outlet": "The Nation",
+    "scheduled": false,
+    "program": "",
+    "hotspots": [
+     "us-israel-iran-war"
+    ]
+   },
+   {
+    "id": "a-2026-10-22-gb",
+    "date": "2026-10-22",
+    "country": "GB",
+    "country_name": "United Kingdom",
+    "kind": "civil-preparedness",
+    "kind_label": "Civil preparedness",
+    "what": "UK launches 'Be Ready', a three-year campaign asking every household to keep three days of supplies",
+    "url": "https://www.latintimes.com/uk-ready-campaign-three-day-emergency-supplies-600689",
+    "outlet": "Latin Times",
+    "scheduled": null,
+    "program": "Three-year Cabinet Office campaign",
+    "hotspots": [
+     "russia-nato-eastern-flank-kaliningrad",
+     "us-israel-iran-war"
+    ]
+   },
+   {
+    "id": "a-2026-10-09-lu",
+    "date": "2026-10-09",
+    "country": "LU",
+    "country_name": "Luxembourg",
+    "kind": "civil-preparedness",
+    "kind_label": "Civil preparedness",
+    "what": "Luxembourg presents 'My Guide to 72 Hours of Self-Sufficiency'; 300,000 copies to every household from Oct 14",
+    "url": "https://gouvernement.lu/en/actualites/toutes_actualites/communiques/2026/10-octobre/09-frieden-gloden-resilience.html",
+    "outlet": "Government of Luxembourg",
+    "scheduled": true,
+    "program": "National Resilience Strategy of Oct 13, 2025",
+    "hotspots": [
+     "russia-nato-eastern-flank-kaliningrad"
+    ]
+   },
+   {
+    "id": "a-2026-10-01-be",
+    "date": "2026-10-01",
+    "country": "BE",
+    "country_name": "Belgium",
+    "kind": "civil-preparedness",
+    "kind_label": "Civil preparedness",
+    "what": "Belgium publishes a 28-page household emergency guide with a 72-hour kit",
+    "url": "https://www.brusselstimes.com/belgium/2341794/never-panic-never-be-naive-belgium-launches-new-emergency-guide/",
+    "outlet": "The Brussels Times",
+    "scheduled": true,
+    "program": "Four-year National Crisis Centre campaign",
+    "hotspots": [
+     "russia-nato-eastern-flank-kaliningrad"
+    ]
+   }
+  ],
+  "counts": {
+   "last_90": {
+    "actions": 12,
+    "countries": [
+     "BE",
+     "EU",
+     "FI",
+     "GB",
+     "LU",
+     "MD",
+     "NO",
+     "PL",
+     "RU",
+     "TH",
+     "UA",
+     "YE"
+    ]
+   },
+   "last_30": {
+    "actions": 11,
+    "countries": [
+     "EU",
+     "FI",
+     "GB",
+     "LU",
+     "MD",
+     "NO",
+     "PL",
+     "RU",
+     "TH",
+     "UA",
+     "YE"
+    ]
+   }
+  },
+  "read": {
+   "headlines": 183,
+   "stories": 40,
+   "logged_actions": 22,
+   "logged_events": 23
+  },
+  "kinds": {
+   "civil-preparedness": "Civil preparedness",
+   "citizens-abroad": "Citizens abroad",
+   "military-readiness": "Military readiness",
+   "health-surge": "Health surge",
+   "supply-reserves": "Supply reserves",
+   "infrastructure-protection": "Infrastructure protection",
+   "continuity-of-government": "Continuity of government",
+   "financial": "Financial",
+   "reassurance": "Reassurance"
   }
  }
 }
