@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'daily or weekly'
+        description: 'daily, weekly, or ai (only the AI-risk reading)'
         default: daily
       force:
         description: 'run even if the ratings were already updated today (yes/no)'
@@ -45,7 +45,7 @@ jobs:
           set -euo pipefail
           mode="${MODE_INPUT:-}"
           if [ -z "$mode" ]; then if [ "$(date -u +%u)" = 7 ]; then mode=weekly; else mode=daily; fi; fi
-          case "$mode" in daily|weekly) ;; *) echo "[ERROR] unknown mode '$mode' (daily or weekly)"; exit 1;; esac
+          case "$mode" in daily|weekly|ai) ;; *) echo "[ERROR] unknown mode '$mode' (daily, weekly or ai)"; exit 1;; esac
           echo "[STEP] Mode: $mode"
           python3 tools/update_feed.py check
           python3 tools/update_feed.py "$mode"

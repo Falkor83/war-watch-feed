@@ -709,7 +709,7 @@ def migrate(feed):
 
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
-    if mode not in ("daily", "weekly", "check", "migrate", "panel"): raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate, panel)")
+    if mode not in ("daily", "weekly", "check", "migrate", "panel", "ai"): raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate, panel, ai)")
     feed = load(FEED)
     if mode == "check":
         validate_feed(feed); ok(f"feed.json is valid: {len(feed['conflicts'])} hotspots, schema {feed.get('schema', 1)}"); return
@@ -752,6 +752,9 @@ def main():
         save_json(FEED, feed)
         err(feed["paused"]); sys.exit(1)
     if level == "lite": warn(f"spending is ahead of pace (${budget['usd']:.2f}); running a lighter update")
+    if mode == "ai":                                           # only the AI-risk reading, between daily runs
+        out = ai_stage(dict(feed), budget)
+        save_json(FEED, out); ok("feed.json: AI risk updated"); return
     if feed.get("schema", 1) < 2: feed = migrate(feed)
     step(f"{mode} update: {wwapi.GATHER_MODEL if hasattr(wwapi, 'GATHER_MODEL') else GATHER_MODEL} searches, {ANALYST_MODEL} decides"
          f"{', Batch API (half price)' if wwapi.USE_BATCH else ''}")

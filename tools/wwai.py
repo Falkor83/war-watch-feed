@@ -30,7 +30,8 @@ def stories_for(items, limit=45):
         s["parties"] = set()
         s["stats"] = wwstories.stats(s)
         s["primary"] = any(primary(x) for x in s["items"])
-    st.sort(key=lambda s: (-(s["stats"]["independent"] + 3 * s["primary"] + len(s["stats"]["countries"])), -s["stats"]["newest"]))
+    # countries count more than outlets, so one country's many local outlets (e.g. an industrial-safety story) don't crowd out the rest
+    st.sort(key=lambda s: (-(min(s["stats"]["independent"], 4) + 2 * len(s["stats"]["countries"]) + 3 * s["primary"]), -s["stats"]["newest"]))
     return st[:limit]
 
 def request(stories, prev, model, system, today):

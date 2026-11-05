@@ -1364,15 +1364,6 @@
    ]
   },
   {
-   "name": "Epoch AI",
-   "home": "US",
-   "lang": "en",
-   "url": "https://epoch.ai/blog/rss.xml",
-   "hints": [
-    "ai-risk"
-   ]
-  },
-  {
    "name": "CSET Georgetown",
    "home": "US",
    "lang": "en",
@@ -1386,15 +1377,6 @@
    "home": "US",
    "lang": "en",
    "url": "https://incidentdatabase.ai/rss.xml",
-   "hints": [
-    "ai-risk"
-   ]
-  },
-  {
-   "name": "Bulletin of the Atomic Scientists",
-   "home": "US",
-   "lang": "en",
-   "url": "https://thebulletin.org/feed/",
    "hints": [
     "ai-risk"
    ]
@@ -2188,7 +2170,7 @@
   },
   {
    "name": "AI risk (Korean)",
-   "q": "AI 안전 위험",
+   "q": "인공지능 위험 초지능 OR 통제 OR 무기 OR 해킹",
    "ed": "ko|KR|KR:ko",
    "lang": "ko",
    "hints": [
@@ -2265,6 +2247,25 @@
     "ai-risk"
    ],
    "when": "3d"
+  },
+  {
+   "name": "Bulletin of the Atomic Scientists",
+   "q": "site:thebulletin.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "4d",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "Epoch AI",
+   "q": "site:epoch.ai",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "7d"
   }
  ]
 }
