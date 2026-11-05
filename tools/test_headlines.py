@@ -66,6 +66,21 @@ class Items(unittest.TestCase):
         self.assertTrue(H.relevant(it("Navy deploys second carrier group"), terms))       # security words alone
         self.assertTrue(H.relevant(it("Odd story with no place", ["korean-peninsula"]), terms))   # GDELT found it for a hotspot
         self.assertFalse(H.relevant(it("Recipe of the week: apple pie"), terms))
+        self.assertFalse(H.relevant(it("Brazil beat Argentina in friendly"), terms))        # a country name alone isn't enough
+
+    def test_ai_risk_tagging(self):
+        feed = json.load(open(os.path.join(HERE, "fixtures", "feed.json"), encoding="utf-8"))
+        terms = H.term_regex(feed)
+        def it(t, h=()): return {"t": t, "x": "", "h": list(h)}
+        x = it("Anthropic co-founder says AI could soon build smarter AI on its own")
+        self.assertTrue(H.relevant(x, terms)); self.assertEqual(x["h"], ["ai-risk"])
+        x = it("UK institute finds model gave bioweapon uplift in tests")              # 'model' alone isn't an AI word...
+        self.assertFalse("ai-risk" in (x["h"] if H.relevant(x, terms) else []))
+        x = it("New evaluation results for our latest model", ["ai-safety"])            # ...but a safety institute's feed keeps all
+        self.assertTrue(H.relevant(x, terms)); self.assertEqual(x["h"], ["ai-risk"])
+        x = it("OpenAI launches a shopping assistant", ["ai-risk"])                     # a lab's product news: dropped
+        self.assertFalse(H.relevant(x, terms))
+        self.assertFalse(H.relevant(it("AI race heats up as chip sales climb"), terms))
 
 class Translate(unittest.TestCase):
     def setUp(self):
@@ -137,14 +152,27 @@ class EndToEnd(unittest.TestCase):
             shutil.copy(os.path.join(os.path.dirname(HERE), "outlets.json"), root)
             json.dump({"rss": [{"name": "Example UA", "home": "UA", "lang": "en", "url": "https://example.ua/rss"},
                                {"name": "Example FR", "home": "FR", "lang": "fr", "url": "https://example.fr/rss"}],
-                       "gnews": [{"hl": "fr", "gl": "FR", "ceid": "FR:fr", "lang": "fr"}]}, open(os.path.join(root, "config", "sources.json"), "w"))
+                       "gnews": [{"hl": "fr", "gl": "FR", "ceid": "FR:fr", "lang": "fr"}],
+                       "search": [{"name": "Reuters", "q": "site:reuters.com war", "site": True, "home": "GB", "lang": "en"},
+                                  {"name": "AI risk", "q": "\"AI safety\"", "hints": ["ai-risk"]}]},
+                      open(os.path.join(root, "config", "sources.json"), "w"))
             old = (H.ROOT, H.LIVE, H.fetch, H.gdelt_get, H.translate, H.now_ts)
             now = int(time.time())
             fr = f"""<rss><channel><item><title>Le Kremlin menace la Pologne de représailles</title><link>https://example.fr/k</link>
                      <pubDate>{time.strftime('%a, %d %b %Y %H:%M:%S GMT', time.gmtime(now - 3600))}</pubDate></item></channel></rss>""".encode()
             ua = RSS.replace(b"Tue, 03 Nov 2026 22:00:00 GMT", time.strftime('%a, %d %b %Y %H:%M:%S GMT', time.gmtime(now - 7200)).encode())
             H.ROOT, H.LIVE = root, os.path.join(d, "live")
-            H.fetch = lambda url, timeout=25, browser=False: {"https://example.ua/rss": ua, "https://example.fr/rss": fr}.get(url, GNEWS)
+            ai = f"""<rss><channel><item><title>Lab says its AI model tried to sabotage safety tests - Example Wire</title>
+                     <link>https://news.google.com/a1</link><source url="https://wire.example">Example Wire</source>
+                     <pubDate>{time.strftime('%a, %d %b %Y %H:%M:%S GMT', time.gmtime(now - 900))}</pubDate></item></channel></rss>""".encode()
+            site = f"""<rss><channel><item><title>Exclusive: Iran moves missiles to Qeshm - Reuters</title>
+                     <link>https://news.google.com/r1</link><source url="https://www.reuters.com">Reuters</source>
+                     <pubDate>{time.strftime('%a, %d %b %Y %H:%M:%S GMT', time.gmtime(now - 900))}</pubDate></item></channel></rss>""".encode()
+            def fake_fetch(url, timeout=25, browser=False):
+                if "search?q=site%3Areuters" in url: return site
+                if "search?q=" in url: return ai
+                return {"https://example.ua/rss": ua, "https://example.fr/rss": fr}.get(url, GNEWS)
+            H.fetch = fake_fetch
             H.gdelt_get = lambda url, last=None: {"articles": [{"url": "https://ar.example/1", "title": "غارات جديدة على قطاع غزة اليوم", "language": "Arabic",
                                                                 "sourcecountry": "Qatar", "domain": "ar.example", "seendate": time.strftime('%Y%m%dT%H%M%SZ', time.gmtime(now - 600))}]}
             def fake_translate(queue, state, spend, total):
@@ -164,6 +192,10 @@ class EndToEnd(unittest.TestCase):
             gn = [x for x in out["items"] if x["v"] == "gnews"][0]
             self.assertEqual((gn["s"], gn["c"]), ("Le Monde", "FR"))
             self.assertGreaterEqual(out["stats"]["languages"], 3)
+            r = next(x for x in out["items"] if x["t"].startswith("Exclusive"))
+            self.assertEqual((r["v"], r["s"], r["c"]), ("site", "Reuters", "GB"))
+            a = next(x for x in out["items"] if "sabotage" in x["t"])
+            self.assertEqual((a["v"], a["h"]), ("gsearch", ["ai-risk"])); self.assertEqual(out["stats"]["ai_risk"], 1)
             st = json.load(open(os.path.join(d, "live", "state.json"), encoding="utf-8"))
             self.assertTrue(any(x["o"].startswith("Recipe") for x in st["items"]))     # remembered, not shown
         finally:

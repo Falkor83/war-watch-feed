@@ -1,5 +1,5 @@
 {
- "about": "War Watch worldwide headline sources. rss: outlets' world/international feeds (home = the outlet's country, lang = its usual language; items are re-checked one by one). gnews: Google News 'World' page per country edition. GDELT is queried per hotspot in addition. Checked from GitHub's servers with tools/probe_sources.py on 2026-11-04.",
+ "about": "War Watch worldwide headline sources. rss: outlets' world/international feeds (home = the outlet's country, lang = its usual language; items are re-checked one by one). gnews: Google News 'World' page per country edition. GDELT is queried per hotspot in addition. Checked from GitHub's servers with tools/probe_sources.py on 2026-11-04. search: Google News searches, one outlet each (site:, for wires and institutes without a usable feed) or one topic (AI with catastrophic risk, in 11 languages). Feeds and searches with hints ['ai-risk'] keep only headlines with a risk word; ['ai-safety'] keeps all.",
  "rss": [
   {
    "name": "BBC Arabic",
@@ -1326,6 +1326,177 @@
    "home": "UN",
    "lang": "en",
    "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+  },
+  {
+   "name": "OpenAI News",
+   "home": "US",
+   "lang": "en",
+   "url": "https://openai.com/news/rss.xml",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "Google DeepMind",
+   "home": "GB",
+   "lang": "en",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "UK AI Security Institute",
+   "home": "GB",
+   "lang": "en",
+   "url": "https://www.gov.uk/government/organisations/ai-security-institute.atom",
+   "hints": [
+    "ai-safety"
+   ]
+  },
+  {
+   "name": "METR",
+   "home": "US",
+   "lang": "en",
+   "url": "https://metr.org/feed.xml",
+   "hints": [
+    "ai-safety"
+   ]
+  },
+  {
+   "name": "Epoch AI",
+   "home": "US",
+   "lang": "en",
+   "url": "https://epoch.ai/blog/rss.xml",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "CSET Georgetown",
+   "home": "US",
+   "lang": "en",
+   "url": "https://cset.georgetown.edu/feed/",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "AI Incident Database",
+   "home": "US",
+   "lang": "en",
+   "url": "https://incidentdatabase.ai/rss.xml",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "Bulletin of the Atomic Scientists",
+   "home": "US",
+   "lang": "en",
+   "url": "https://thebulletin.org/feed/",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "Transformer",
+   "home": "GB",
+   "lang": "en",
+   "url": "https://www.transformernews.ai/feed",
+   "hints": [
+    "ai-safety"
+   ]
+  },
+  {
+   "name": "AI Safety Newsletter (CAIS)",
+   "home": "US",
+   "lang": "en",
+   "url": "https://newsletter.safe.ai/feed",
+   "hints": [
+    "ai-safety"
+   ]
+  },
+  {
+   "name": "Import AI",
+   "home": "US",
+   "lang": "en",
+   "url": "https://importai.substack.com/feed",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "Future of Life Institute",
+   "home": "US",
+   "lang": "en",
+   "url": "https://futureoflife.org/feed/",
+   "hints": [
+    "ai-safety"
+   ]
+  },
+  {
+   "name": "AI Safety in China (Concordia AI)",
+   "home": "CN",
+   "lang": "en",
+   "url": "https://aisafetychina.substack.com/feed",
+   "hints": [
+    "ai-safety"
+   ]
+  },
+  {
+   "name": "MIT Technology Review AI",
+   "home": "US",
+   "lang": "en",
+   "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "Wired AI",
+   "home": "US",
+   "lang": "en",
+   "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "The Verge AI",
+   "home": "US",
+   "lang": "en",
+   "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "Ars Technica AI",
+   "home": "US",
+   "lang": "en",
+   "url": "https://arstechnica.com/ai/feed/",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "The Register AI",
+   "home": "GB",
+   "lang": "en",
+   "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
+   "hints": [
+    "ai-risk"
+   ]
+  },
+  {
+   "name": "South China Morning Post Tech",
+   "home": "HK",
+   "lang": "en",
+   "url": "https://www.scmp.com/rss/36/feed",
+   "hints": [
+    "ai-risk"
+   ]
   }
  ],
  "gnews": [
@@ -1544,6 +1715,556 @@
    "gl": "IN",
    "ceid": "IN:hi",
    "lang": "hi"
+  }
+ ],
+ "search": [
+  {
+   "name": "Reuters",
+   "q": "site:reuters.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "GB",
+   "lang": "en",
+   "when": "1d"
+  },
+  {
+   "name": "AP",
+   "q": "site:apnews.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "1d"
+  },
+  {
+   "name": "Bloomberg",
+   "q": "site:bloomberg.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "1d"
+  },
+  {
+   "name": "Financial Times",
+   "q": "site:ft.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "GB",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "The Economist",
+   "q": "site:economist.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "GB",
+   "lang": "en",
+   "when": "3d"
+  },
+  {
+   "name": "Wall Street Journal",
+   "q": "site:wsj.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "1d"
+  },
+  {
+   "name": "Politico",
+   "q": "site:politico.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Axios",
+   "q": "site:axios.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Haaretz",
+   "q": "site:haaretz.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "IL",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Arab News",
+   "q": "site:arabnews.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "SA",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Al Arabiya English",
+   "q": "site:english.alarabiya.net (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "SA",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Kyodo News",
+   "q": "site:english.kyodonews.net (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "JP",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Indian Express",
+   "q": "site:indianexpress.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "IN",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Sydney Morning Herald",
+   "q": "site:smh.com.au (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "AU",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Globe and Mail",
+   "q": "site:theglobeandmail.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "CA",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "L'Orient-Le Jour",
+   "q": "site:lorientlejour.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "LB",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Ahram Online",
+   "q": "site:english.ahram.org.eg (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "EG",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Amwaj.media",
+   "q": "site:amwaj.media",
+   "site": true,
+   "home": "GB",
+   "lang": "en",
+   "when": "3d"
+  },
+  {
+   "name": "The Diplomat",
+   "q": "site:thediplomat.com",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "3d"
+  },
+  {
+   "name": "RFE/RL",
+   "q": "site:rferl.org (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "VOA",
+   "q": "site:voanews.com (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Radio Free Asia",
+   "q": "site:rfa.org (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "2d"
+  },
+  {
+   "name": "Institute for the Study of War",
+   "q": "site:understandingwar.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "3d"
+  },
+  {
+   "name": "IISS",
+   "q": "site:iiss.org",
+   "site": true,
+   "home": "GB",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "RUSI",
+   "q": "site:rusi.org",
+   "site": true,
+   "home": "GB",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "Chatham House",
+   "q": "site:chathamhouse.org",
+   "site": true,
+   "home": "GB",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "Carnegie Endowment",
+   "q": "site:carnegieendowment.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "CSIS",
+   "q": "site:csis.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "ACLED",
+   "q": "site:acleddata.com",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "ICRC",
+   "q": "site:icrc.org",
+   "site": true,
+   "home": "CH",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "NATO",
+   "q": "site:nato.int",
+   "site": true,
+   "home": "BE",
+   "lang": "en",
+   "when": "3d"
+  },
+  {
+   "name": "IAEA",
+   "q": "site:iaea.org",
+   "site": true,
+   "home": "AT",
+   "lang": "en",
+   "when": "3d"
+  },
+  {
+   "name": "War on the Rocks",
+   "q": "site:warontherocks.com",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "Foreign Policy",
+   "q": "site:foreignpolicy.com",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "3d"
+  },
+  {
+   "name": "Council on Foreign Relations",
+   "q": "site:cfr.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "Atlantic Council",
+   "q": "site:atlanticcouncil.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "SIPRI",
+   "q": "site:sipri.org",
+   "site": true,
+   "home": "SE",
+   "lang": "en",
+   "when": "5d"
+  },
+  {
+   "name": "Arms Control Association",
+   "q": "site:armscontrol.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "5d"
+  },
+  {
+   "name": "38 North",
+   "q": "site:38north.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "5d"
+  },
+  {
+   "name": "Brookings",
+   "q": "site:brookings.edu (war OR military OR attack OR missile OR troops OR strike OR ceasefire OR sanctions OR nuclear OR drone OR cyberattack)",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "Stimson Center",
+   "q": "site:stimson.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "5d"
+  },
+  {
+   "name": "RAND",
+   "q": "site:rand.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "4d"
+  },
+  {
+   "name": "CNAS",
+   "q": "site:cnas.org",
+   "site": true,
+   "home": "US",
+   "lang": "en",
+   "when": "5d"
+  },
+  {
+   "name": "AI safety / risk",
+   "q": "\"AI safety\" OR \"AI risk\" OR \"AI risks\" OR \"AI catastrophe\"",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "frontier AI",
+   "q": "\"frontier AI\" OR \"frontier model\" OR superintelligence OR AGI",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI building AI",
+   "q": "\"recursive self-improvement\" OR \"automated AI research\" OR \"AI R&D\" OR \"intelligence explosion\" OR \"AI that builds AI\"",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI and weapons of mass destruction",
+   "q": "AI (bioweapon OR bioweapons OR \"biological weapons\" OR pathogen OR \"chemical weapons\" OR \"nuclear weapons\")",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI cyberattacks",
+   "q": "AI (cyberattack OR \"zero-day\" OR hackers OR hacking) (model OR chatbot OR agent OR agents)",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI loss of control",
+   "q": "AI (\"loss of control\" OR deception OR scheming OR sabotage OR \"self-exfiltration\" OR blackmail OR \"rogue AI\")",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "military AI",
+   "q": "\"autonomous weapons\" OR \"lethal autonomous\" OR \"AI targeting\" OR \"AI in nuclear\" OR \"military AI\"",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI safety institutes",
+   "q": "\"AI Safety Institute\" OR \"AI Security Institute\" OR CAISI OR \"AI safety summit\" OR \"AI Impact Summit\"",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI labs on safety",
+   "q": "(Anthropic OR OpenAI OR \"Google DeepMind\" OR xAI OR Meta) (safety OR risk OR dangerous OR warns)",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "Anthropic",
+   "q": "site:anthropic.com",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "METR",
+   "q": "site:metr.org",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "UK AISI",
+   "q": "site:aisi.gov.uk",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "CAIS",
+   "q": "site:safe.ai",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI risk (Chinese)",
+   "q": "人工智能 安全 风险",
+   "ed": "zh-CN|CN|CN:zh-Hans",
+   "lang": "zh",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI risk (Japanese)",
+   "q": "AI 安全性 リスク",
+   "ed": "ja|JP|JP:ja",
+   "lang": "ja",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI risk (Korean)",
+   "q": "AI 안전 위험",
+   "ed": "ko|KR|KR:ko",
+   "lang": "ko",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI risk (French)",
+   "q": "\"intelligence artificielle\" risques sécurité",
+   "ed": "fr|FR|FR:fr",
+   "lang": "fr",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI risk (German)",
+   "q": "\"künstliche Intelligenz\" Risiko Sicherheit",
+   "ed": "de|DE|DE:de",
+   "lang": "de",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI risk (Spanish)",
+   "q": "\"inteligencia artificial\" riesgo seguridad",
+   "ed": "es-419|MX|MX:es-419",
+   "lang": "es",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI risk (Russian)",
+   "q": "\"искусственный интеллект\" угроза",
+   "ed": "ru|RU|RU:ru",
+   "lang": "ru",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI risk (Portuguese)",
+   "q": "\"inteligência artificial\" risco segurança",
+   "ed": "pt-BR|BR|BR:pt-419",
+   "lang": "pt",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI risk (Arabic)",
+   "q": "الذكاء الاصطناعي مخاطر",
+   "ed": "ar|EG|EG:ar",
+   "lang": "ar",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
+  },
+  {
+   "name": "AI risk (Hindi)",
+   "q": "एआई खतरा सुरक्षा",
+   "ed": "hi|IN|IN:hi",
+   "lang": "hi",
+   "hints": [
+    "ai-risk"
+   ],
+   "when": "3d"
   }
  ]
 }

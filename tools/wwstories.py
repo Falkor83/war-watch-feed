@@ -40,13 +40,13 @@ def tokens(title):
 
 def tier(item):
     """'state' (state-controlled media in the outlet registry), 'known' (in the registry, or one of the outlet feeds
-    picked for config/sources.json), 'unrated' (a site found only through Google News or GDELT)."""
+    picked for config/sources.json, feed or site search), 'unrated' (a site found only through Google News or GDELT)."""
     dom = item.get("d") or ""
     o = wwdata.outlet_for("https://" + dom) if dom else None
     if not o and item.get("u"): o = wwdata.outlet_for(item["u"])
     if o and o.get("media") in ("state-controlled", "state"): return "state"
     if o and o.get("media") == "unrated": return "unrated"
-    return "known" if o or item.get("v") == "rss" else "unrated"
+    return "known" if o or item.get("v") in ("rss", "site") else "unrated"
 
 def similar(a, b):
     if not a or not b: return 0.0

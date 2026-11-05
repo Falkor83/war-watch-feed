@@ -25,7 +25,7 @@ SUB_CAP = float(os.environ.get("WW_HEADLINES_CAP_USD", "5"))       # translation
 WAIT_MIN = float(os.environ.get("WW_TRANSLATE_WAIT_MIN", "15"))
 MAX_TRANSLATE = int(os.environ.get("WW_MAX_TRANSLATE", "2500"))       # per run, so a flood can't run up a bill
 WINDOW_H = 48
-MAX_ITEMS = 9000
+MAX_ITEMS = 12000
 POLL_S = 20
 GNEWS_GAP = 1.0
 GDELT_BUDGET_S = float(os.environ.get("WW_GDELT_BUDGET_S", "720"))  # at most 12 minutes of GDELT a run; the rest next hour
@@ -69,6 +69,29 @@ SECURITY = re.compile(r"\b(war|wars|warfare|military|militar\w*|army|armies|troo
                       r"escalat\w*|tensions?|provocation\w*|incursion\w*|sabotage\w*|cyber\w*|hack\w*|ransomware|"
                       r"malware|spy|spies|espionage|defen[cs]e|security|weapons?|arms|ammunition|warship\w*|"
                       r"submarines?|fighter jets?|tanks?|siege|annex\w*|separatist\w*|genocide|ethnic cleansing)\b", re.I)
+
+# AI with catastrophic potential (Matt, 2026-11-04): AI building AI, weapons uplift, cyber, loss of control, military AI.
+AI_TERMS = re.compile(r"(\b(AI|A\.I\.|AGI|ASI|LLMs?)\b|(?i:\b(artificial intelligence|machine learning|large language models?|"
+                      r"frontier (AI|models?)|superintelligen\w*|chatbots?|OpenAI|Anthropic|DeepMind|xAI|ChatGPT|Claude|Gemini|"
+                      r"GPT-\d\w*|DeepSeek|Qwen|Mistral AI|Meta AI|AI Safety Institute|AI Security Institute|CAISI|AISI|"
+                      r"autonomous weapons?|killer robots?|"
+                      r"\u4eba\u5de5\u667a\u80fd|\u4eba\u5de5\u77e5\u80fd|\uc778\uacf5\uc9c0\ub2a5|"
+                      r"intelligence artificielle|inteligencia artificial|intelig\u00eancia artificial|k\u00fcnstliche intelligenz|"
+                      r"\u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u0435\u043d\u043d\w+ \u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\w*)\b))")
+AI_RISK = re.compile(r"\b(safety|unsafe|risks?|risky|danger\w*|threat\w*|catastroph\w*|existential|extinction|doom\w*|"
+                     r"bio\w*weapons?|biological|pathogens?|virus\w*|pandemic\w*|chemical|nuclear|radiological|"
+                     r"cyber\w*|hack\w*|exploit\w*|vulnerabilit\w*|zero-day|malware|ransomware|critical infrastructure|power grids?|"
+                     r"weapons?|military|militar\w*|pentagon|defen[cs]e|warfare|drones?|targeting|kill chain|"
+                     r"decepti\w*|deceiv\w*|scheming|sabotag\w*|blackmail\w*|rogue|loss of control|out of control|"
+                     r"control problem|self-(improv|replicat|exfiltrat)\w*|recursive\w*|automat\w* (AI )?research|AI R&D|"
+                     r"intelligence explosion|superhuman|smarter (AI|models?|than)|on (its|their) own|"
+                     r"(build|train|improv|design|creat)\w* (itself|themselves|its own|their own|smarter|better AI)|"
+                     r"alignment|misalign\w*|jailbreak\w*|kill switch|red[- ]team\w*|safety tests?|"
+                     r"incidents?|treaty|moratorium|export controls?|warn\w*|whistleblow\w*|"
+                     r"superintelligen\w*|AGI|ASI|godfather|arms race|national security|espionage|stolen weights|"
+                     r"model weights|deepfakes?|disinformation)\b", re.I)
+
+def is_ai_risk(text): return bool(AI_TERMS.search(text) and AI_RISK.search(text))
 
 def now_ts(): return int(time.time())
 def iso(ts): return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
@@ -189,7 +212,7 @@ def collect_rss(sources):
             for it in parse_feed(body):
                 dom = wwdata.host(it["link"])
                 x = make_item(it["title"], it["link"], src["name"], dom, src["home"], src["lang"], parse_date(it["date"]), "rss",
-                              summary=it["summary"])
+                              hints=src.get("hints") or (), summary=it["summary"])
                 if x: out.append(x)
             return src["name"], out, ""
         except Exception as e:
@@ -217,6 +240,33 @@ def collect_gnews(editions):
             home, reg_name = domain_home(dom, ed["gl"])
             x = make_item(title, it["link"], reg_name or outlet or dom or "Google News", dom, home, ed["lang"],
                           parse_date(it["date"]), "gnews")
+            if x: got.append(x)
+        time.sleep(GNEWS_GAP)
+    return got, okn, bad
+
+def collect_search(queries):
+    """Google News searches: one outlet each (site:, for wires and institutes without a usable feed) or one topic
+    (AI risk, in several languages). Site searches count as picked outlets, like the feeds."""
+    got, okn, bad = [], 0, []
+    for q in queries:
+        ed = q.get("ed") or "en-US|US|US:en"
+        hl, gl, ceid = ed.split("|")
+        url = ("https://news.google.com/rss/search?q=" + urllib.parse.quote(q["q"] + " when:" + q.get("when", "2d")) +
+               f"&hl={hl}&gl={gl}&ceid={ceid}")
+        try:
+            items = parse_feed(fetch(url))
+            okn += 1
+        except Exception as e:
+            bad.append(f"{q.get('name') or q['q'][:30]} ({type(e).__name__})"); time.sleep(GNEWS_GAP); continue
+        for it in items:
+            title, outlet = it["title"], it["source"]
+            if outlet and title.endswith(" - " + outlet): title = title[: -len(outlet) - 3]
+            dom = wwdata.host(it["source_url"]) if it["source_url"] else ""
+            home, reg_name = domain_home(dom, q.get("home") or gl)
+            if q.get("home") and q.get("site"): home = q["home"]
+            x = make_item(title, it["link"], q.get("name") if q.get("site") else (reg_name or outlet or dom or "Google News"),
+                          dom, home, q.get("lang") or hl.split("-")[0], parse_date(it["date"]), "site" if q.get("site") else "gsearch",
+                          hints=q.get("hints") or ())
             if x: got.append(x)
         time.sleep(GNEWS_GAP)
     return got, okn, bad
@@ -296,14 +346,22 @@ def term_regex(feed):
     for x in feed.get("cyber", []):
         for p in x.get("places") or []:
             if len(p.get("name", "")) >= 4: terms.add(p["name"].lower())
-    for name in wwdata.COUNTRIES.values():
-        if len(name) >= 4: terms.add(name.lower())
+    # Country names alone no longer qualify a headline (sport, trade and culture news crowded out the window); with a
+    # security word they still do, through SECURITY.
+    terms -= {n.lower() for n in wwdata.COUNTRIES.values()}
     parts = sorted((re.escape(t) for t in terms), key=len, reverse=True)
     return re.compile(r"(?<![\w])(" + "|".join(parts) + r")", re.I)
 
 def relevant(item, terms):
-    if item["h"]: return True
+    """Kept for the app and the ratings: hinted, about security, about a hotspot by name, or AI with catastrophic risk.
+    Tags AI-risk headlines with the hint 'ai-risk' (feeds marked topic 'ai' need a risk word; 'ai-safety' ones don't)."""
     text = item["t"] + " " + item.get("x", "")
+    hints = item.get("h") or []
+    if "ai-safety" in hints or is_ai_risk(text) or ("ai-risk" in hints and AI_RISK.search(text)):
+        item["h"] = sorted((set(hints) - {"ai-safety"}) | {"ai-risk"})
+        return True
+    if "ai-risk" in hints: item["h"] = [h for h in hints if h != "ai-risk"]
+    if item["h"]: return True
     return bool(SECURITY.search(text) or terms.search(text))
 
 # ---------- translation ----------
@@ -465,10 +523,13 @@ def main():
     if rss_bad: print("      not answering: " + "; ".join(rss_bad[:40]))
     gn, gn_ok, gn_bad = collect_gnews(sources["gnews"])
     ok(f"Google News: {len(gn)} headlines from {gn_ok} of {len(sources['gnews'])} editions" + (f" (failed: {', '.join(gn_bad)})" if gn_bad else ""))
+    se, se_ok, se_bad = collect_search(sources.get("search") or [])
+    ok(f"Google News searches: {len(se)} headlines from {se_ok} of {len(sources.get('search') or [])} searches" +
+       (f" (failed: {', '.join(se_bad[:20])})" if se_bad else ""))
     gd, gd_ok, gd_n, gd_bad = collect_gdelt(feed, os.environ.get("WW_GDELT_TIMESPAN", "1d"))
     ok(f"GDELT: {len(gd)} headlines from {gd_ok} of {gd_n} searches" + (f" (busy for: {', '.join(gd_bad[:12])})" if gd_bad else ""))
 
-    fresh = [x for x in rss + gn + gd if not x["p"] or x["p"] >= cutoff]
+    fresh = [x for x in rss + gn + se + gd if not x["p"] or x["p"] >= cutoff]
     for x in fresh:
         if not x["p"]: x["p"] = t0                          # undated items: first seen now
         if x["p"] > t0 + 600: x["p"] = t0
@@ -498,6 +559,8 @@ def main():
                      "countries": len({x["c"] for x in shown if x["c"]}), "languages": len(langs),
                      "translated": sum(1 for x in shown if x["l"] != "en"), "waiting_translation": waiting,
                      "feeds_ok": rss_ok, "feeds": len(sources["rss"]), "gnews_ok": gn_ok, "gnews": len(sources["gnews"]),
+                     "search_ok": se_ok, "search": len(sources.get("search") or []),
+                     "ai_risk": sum(1 for x in shown if "ai-risk" in (x.get("h") or [])),
                      "gdelt_ok": gd_ok, "gdelt": gd_n},
            "languages": langs,
            "items": [{k: v for k, v in (("u", x["u"]), ("t", x["t"]), ("o", x["o"] if x["l"] != "en" else ""), ("l", x["l"]),
