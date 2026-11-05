@@ -543,7 +543,7 @@ def pace(budget):
     now = datetime.date.today()
     dim = calendar.monthrange(now.year, now.month)[1]
     fair = MONTHLY_CAP_USD * now.day / dim
-    total = budget["usd"] + budget.get("headlines_usd", 0.0)
+    total = budget["usd"] + budget.get("headlines_usd", 0.0) + budget.get("focus_usd", 0.0)
     if total >= MONTHLY_CAP_USD - 1.0: return "stop"
     return "lite" if total > 0.9 * fair + 3 else "normal"
 
@@ -672,13 +672,14 @@ def main():
         ok(f"ratings already updated today ({feed['generated_at']}); nothing to do"); return
     budget = wwapi.load_budget()
     hs = load(os.path.join(LIVE, "spend.json"), {}) or {}
-    if hs.get("month") == budget["month"]:
-        budget["headlines_usd"] = round(hs.get("usd", 0.0), 4)
-        budget["total_usd"] = round(budget["usd"] + budget["headlines_usd"], 4)
+    if hs.get("month") == budget["month"]: budget["headlines_usd"] = round(hs.get("usd", 0.0), 4)
+    fb = load(os.path.join(ROOT, "focus_budget.json"), {}) or {}        # the every-few-hours focus updates (tools/focus.py)
+    if fb.get("month") == budget["month"]: budget["focus_usd"] = round(fb.get("usd", 0.0), 4)
+    budget["total_usd"] = round(budget["usd"] + budget.get("headlines_usd", 0.0) + budget.get("focus_usd", 0.0), 4)
     CORPUS.update(load(os.path.join(LIVE, "headlines.json"), {"items": []}) or {"items": []})
     ok(f"worldwide headlines: {len(CORPUS.get('items') or [])} available (generated {CORPUS.get('generated', 'never')})")
     level = pace(budget)
-    if level == "stop" or (mode == "weekly" and budget["usd"] + budget.get("headlines_usd", 0.0) > MONTHLY_CAP_USD - 4):
+    if level == "stop" or (mode == "weekly" and budget["total_usd"] > MONTHLY_CAP_USD - 4):
         feed["paused"] = f"Monthly budget reached (${budget['usd']:.2f} of ${MONTHLY_CAP_USD:.0f}); ratings resume on the 1st."
         save_json(FEED, feed)
         err(feed["paused"]); sys.exit(1)

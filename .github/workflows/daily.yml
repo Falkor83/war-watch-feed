@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Test the job (fake API, no cost)
-        run: python3 -m unittest tools/test_feed.py tools/test_headlines.py
+        run: python3 -m unittest tools/test_feed.py tools/test_headlines.py tools/test_focus.py
       - name: Get the worldwide headlines (from the hourly job)
         run: |
           mkdir -p live
@@ -54,15 +54,5 @@ jobs:
       - name: Save the new ratings
         if: always()
         run: |
-          set -uo pipefail
-          git add -A feed.json budget.json history.json outlooks.json notes 2>/dev/null || true
-          if git diff --cached --quiet; then echo "[OK] Nothing changed"; exit 0; fi
-          git config user.name "War Watch ratings"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -q -m "Ratings $(date -u +%Y-%m-%d) ($(python3 -c 'import json;print(len(json.load(open("feed.json"))["conflicts"]))') hotspots)"
-          for i in 1 2 3; do
-            if git push -q; then echo "[OK] Pushed"; exit 0; fi
-            echo "[WARN] push refused (someone pushed meanwhile); rebasing and retrying"
-            git pull -q --rebase || { git rebase --abort; sleep 5; }
-          done
-          echo "[ERROR] could not push the new ratings"; exit 1
+          tools/push_main.sh daily "Ratings $(date -u +%Y-%m-%d) ($(python3 -c 'import json;print(len(json.load(open("feed.json"))["conflicts"]))') hotspots)" \
+            feed.json budget.json history.json outlooks.json notes

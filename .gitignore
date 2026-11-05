@@ -1,3 +1,5 @@
 __pycache__/
 *.tmp
 live/
+.focus_out.json
+.focus_run_budget.json

@@ -1,0 +1,34 @@
+name: War Watch focus update now
+
+# A focus update right away (normally the hourly headlines job makes one when due: Iran every 3 hours until it calms).
+# Uses the newest worldwide headlines on the `live` branch. Needs the ANTHROPIC_API_KEY secret.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: focus
+  cancel-in-progress: false
+
+jobs:
+  focus:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - name: Test (fake API, no cost)
+        run: python3 -m unittest tools/test_focus.py
+      - name: Get the worldwide headlines
+        run: |
+          mkdir -p live
+          git fetch -q --depth 1 origin live && git archive FETCH_HEAD headlines.json spend.json | tar -x -C live && echo "[OK] headlines ready"
+      - name: Update now
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 tools/focus.py --now
+      - name: Save
+        if: always()
+        run: tools/push_main.sh focus "Focus update $(date -u +%Y-%m-%dT%H:%MZ)" feed.json focus_budget.json

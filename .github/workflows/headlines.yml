@@ -3,6 +3,7 @@ name: War Watch headlines
 # Every hour: worldwide headlines (outlet feeds, Google News World pages, GDELT in 65 languages), non-English ones
 # translated by Claude Haiku (Batch API). Published as headlines.json on the `live` branch, which is replaced each
 # run (one commit, no history). Translation has its own monthly limit (WW_HEADLINES_CAP_USD) inside War Watch's cap.
+# Then the focus updates (config/focus.json: Iran every 3 hours until it calms) are written into feed.json on main.
 
 on:
   schedule:
@@ -24,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Test the job (offline, no cost)
-        run: python3 -m unittest tools/test_headlines.py
+        run: python3 -m unittest tools/test_headlines.py tools/test_focus.py
       - name: Get the last run's state
         run: |
           mkdir -p live
@@ -54,28 +55,39 @@ jobs:
             echo "[WARN] push failed (GitHub hiccup); retrying in $((i * 20)) s"; sleep $((i * 20))
           done
           echo "[ERROR] could not publish"; exit 1
-      # GitHub's schedule hasn't fired for this repo (none on 2026-11-04), so each run started by hand or by the run
-      # before starts the next one about an hour after it began, and once a day (10:00-10:59 UTC) the ratings job.
-      # Stops by itself once scheduled runs appear.
+      - name: Focus updates (Iran every 3 hours until it calms)
+        if: always()
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set -uo pipefail
+          [ -f live/headlines.json ] || { echo "[WARN] no headlines; no focus update"; exit 0; }
+          git fetch -q origin main && git reset -q --hard FETCH_HEAD      # the newest ratings and focus state
+          python3 tools/focus.py
+          tools/push_main.sh focus "Focus update $(date -u +%Y-%m-%dT%H:%MZ)" feed.json focus_budget.json
+      # GitHub's schedule fires rarely and late for this repo (6 hours apart on 2026-11-04), so every run starts the
+      # next one about 55 minutes after it began, unless another run is already waiting, and once a day (10:00-10:59
+      # UTC) the ratings job, which skips itself if it already ran that day.
       - name: Start the next run
-        if: always() && github.event_name != 'schedule'
+        if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -uo pipefail
           repo="$GITHUB_REPOSITORY"
-          last_sched=$(gh api "repos/$repo/actions/runs?event=schedule&per_page=1" --jq '.workflow_runs[0].created_at // empty')
-          if [ -n "$last_sched" ] && [ $(( $(date -u +%s) - $(date -u -d "$last_sched" +%s) )) -lt 7200 ]; then
-            echo "[OK] GitHub's schedule is working again ($last_sched); not chaining"; exit 0
-          fi
           if [ "$(date -u +%H)" = "10" ]; then
             mode=daily; [ "$(date -u +%u)" = 7 ] && mode=weekly
             gh api -X POST "repos/$repo/actions/workflows/daily.yml/dispatches" -f ref=main -f "inputs[mode]=$mode" -f "inputs[force]=no" \
               && echo "[OK] started the $mode ratings (skips itself if already done today)"
           fi
-          waiting=$(gh api "repos/$repo/actions/workflows/headlines.yml/runs?status=queued" --jq '.total_count')
-          if [ "${waiting:-0}" -gt 0 ]; then echo "[OK] another headlines run is already queued"; exit 0; fi
           started=$(gh api "repos/$repo/actions/runs/$GITHUB_RUN_ID" --jq '.run_started_at')
           wait=$(( $(date -u -d "$started" +%s) + 55 * 60 - $(date -u +%s) ))
           if [ "$wait" -gt 0 ]; then echo "[STEP] next run in $((wait / 60)) min"; sleep "$wait"; fi
-          gh api -X POST "repos/$repo/actions/workflows/headlines.yml/dispatches" -f ref=main && echo "[OK] next run started"
+          others=$(gh api "repos/$repo/actions/workflows/headlines.yml/runs?per_page=20" \
+            --jq "[.workflow_runs[] | select(.id != $GITHUB_RUN_ID and (.status as \$s | [\"queued\",\"in_progress\",\"pending\",\"waiting\",\"requested\"] | index(\$s)))] | length")
+          if [ "${others:-0}" -gt 0 ]; then echo "[OK] another headlines run is already waiting; it carries on"; exit 0; fi
+          for i in 1 2 3; do
+            gh api -X POST "repos/$repo/actions/workflows/headlines.yml/dispatches" -f ref=main && { echo "[OK] next run started"; exit 0; }
+            sleep 30
+          done
+          echo "[ERROR] could not start the next run"; exit 1

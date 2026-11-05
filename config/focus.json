@@ -1,0 +1,7 @@
+{
+ "about": "Hotspots followed closely: an update every few hours from worldwide headlines (tools/focus.py, run by the hourly headlines job). A focus ends by itself when the hotspot calms (yellow, not escalating, boiling-point ladder at Posturing or below for 48 hours). Set restart: true to start an ended one again.",
+ "focus": [
+  {"hotspot": "us-israel-iran-war", "name": "Iran war", "every_hours": 3, "since": "2026-11-05",
+   "why": "Matt asked for an update every 3 hours until the war with Iran calms down."}
+ ]
+}

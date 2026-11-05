@@ -165,32 +165,53 @@ def _names_re(names):
     names = sorted({n for n in names if len(n) >= 4}, key=len, reverse=True)
     return re.compile(r"(?<!\w)(" + "|".join(re.escape(n) for n in names) + r")", re.I) if names else None
 
+ALIASES = {"United States": (r"US|U\.S\.|USA", "American|Americans|Washington|Pentagon|White House"),
+           "United Kingdom": (r"UK|U\.K\.", "Britain|British|London"),
+           "Israel": ("", "Israeli|Israelis"), "Iran": ("", "Iranian|Iranians|Tehran"), "Russia": ("", "Russian|Russians|Kremlin|Moscow"),
+           "Ukraine": ("", "Ukrainian|Ukrainians|Kyiv"), "China": ("", "Chinese|Beijing"), "Taiwan": ("", "Taiwanese|Taipei"),
+           "North Korea": ("DPRK", "Pyongyang"), "South Korea": ("ROK", "Seoul"), "Japan": ("", "Japanese|Tokyo"),
+           "Saudi Arabia": ("", "Saudi|Saudis|Riyadh"), "Pakistan": ("", "Pakistani|Islamabad"), "India": ("", "Indian|New Delhi"),
+           "Lebanon": ("", "Lebanese|Beirut"), "Syria": ("", "Syrian|Damascus"), "Venezuela": ("", "Venezuelan|Caracas")}
+
+def _country_re(name):
+    """A country's name, its demonym and capital (any case), and its all-caps short forms (US, UK, DPRK) exactly."""
+    caps, words = ALIASES.get(name, ("", ""))
+    parts = [re.escape(name)] + ([words] if words else [])
+    rx = r"(?<!\w)(?i:" + "|".join(parts) + r")(?!\w)"
+    if caps: rx += r"|(?<![\w.])(?:" + caps + r")(?![\w])"
+    return re.compile(rx)
+
 class CorpusMatcher:
     """Which hotspots a worldwide headline is about, by points: its own names (anchors, GDELT hint) count most, then
-    local names (a town, a leader), its first country, its other sides; a headline must reach 2 points and name
-    something specific or carry a security word. Shared headlines go to every hotspot within 75% of the best score,
+    local names (a town, a leader; 1 point only for names in several hotspots' context, like Trump), its first country,
+    its other sides (with demonyms, capitals and US/UK); a headline must reach 3 points, or 2 with a security word. Shared headlines go to every hotspot within 75% of the best score,
     so general Russia-Ukraine news doesn't also count as Moldova's."""
     def __init__(self, conflicts):
         countries = {n.lower() for n in wwdata.COUNTRIES.values()}
+        shared = {}
+        for c in conflicts:
+            for x in {x.lower() for x in c.get("context") or []}: shared[x] = shared.get(x, 0) + 1
         self.hs = []
         for c in conflicts:
-            ctx = [x for x in c.get("context") or [] if x.lower() not in countries]
+            ctx = [x for x in c.get("context") or [] if x.lower() not in countries and shared[x.lower()] == 1]
+            common = [x for x in c.get("context") or [] if x.lower() not in countries and shared[x.lower()] > 1]
             first = (c.get("countries") or [""])[0]
             parties = [p for p in c.get("parties") or [] if p.lower() in countries and p != first]
-            self.hs.append((c["id"], _names_re(c.get("anchors") or []), _names_re(ctx), _names_re([first] if first else []),
-                            _names_re(parties)))
+            self.hs.append((c["id"], _names_re(c.get("anchors") or []), _names_re(ctx), _country_re(first) if first else None,
+                            [_country_re(p) for p in parties], _names_re(common)))
 
     def assign(self, item):
         t = item.get("t", "")
         sec = bool(_SEC.search(t))
         scores = {}
-        for cid, strong, local, first, sides in self.hs:
+        for cid, strong, local, first, sides, common in self.hs:
             sc = 0.0
             if cid in (item.get("h") or []): sc += 3
             if strong and strong.search(t): sc += 3
             if local and local.search(t): sc += 2
+            elif common and common.search(t): sc += 1          # a name in several hotspots' context (Trump, Netanyahu)
             if first and first.search(t): sc += 1.5
-            if sides: sc += 1.0 * len({m.group(1).lower() for m in sides.finditer(t)})
+            sc += 1.0 * sum(1 for rx in sides if rx.search(t))
             if sc >= 3 or (sc >= 2 and sec): scores[cid] = sc
         if not scores: return []
         best = max(scores.values())
