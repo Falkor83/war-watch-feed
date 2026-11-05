@@ -25,7 +25,7 @@ night because Matt is moving back to the $100/month plan and everything on his A
 """
 import json, os, re, sys, time, datetime, calendar
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import wwapi, wwdata, wwscore, wwboil, wwstories, wwai
+import wwapi, wwdata, wwscore, wwboil, wwstories, wwai, wwactions
 from wwapi import step, ok, warn, err, save_json, MONTHLY_CAP_USD
 
 GATHER_MODEL = os.environ.get("WW_GATHER_MODEL", "claude-sonnet-5-5")
@@ -348,6 +348,15 @@ def ai_stage(out, budget):
            f"{a['read']['countries']} countries): " + "; ".join(f"{i['severity']} {i['category']}: {i['title']}" for i in a["items"][:5]))
     return out
 
+def actions_stage(out, budget):
+    """Actions, not words: preparedness actions vs the events around them (tools/wwactions.py, prompt/actions.md)."""
+    system = prompt("rules.md") + "\n\n" + prompt("actions.md")
+    r = wwactions.stage(out, CORPUS.get("items") or [], budget, ANALYST_MODEL, system, today(), ROOT, warn)
+    a = out.get("actions") or {}
+    ok(f"actions: {r['new_actions']} new, {r['events']} events logged, {r['patterns']} patterns, {r['flags']} warning signs on hotspots"
+       + "".join(f"\n   [{p['support']}] {p['title']} ({len(p['actions'])} actions, {', '.join(p['countries'][:6])})" for p in a.get("patterns") or []))
+    return out
+
 def coverage_table(feed, hours=24):
     """Who reported each hotspot in the last day, from the hourly worldwide headlines (all languages, translated).
     Context for the analyst: it can't be cited, but it shows where coverage is one-sided or silent."""
@@ -370,7 +379,10 @@ def analyst_request(feed, notes, label="daily analysis"):
     user = (f"Today is {today()}.\n\nHOTSPOTS\n{hotspot_table(feed)}\n\nYESTERDAY'S SIGNALS\n{signals_table(feed)}\n\n"
             f"WORLDWIDE COVERAGE in the last 24 hours (hourly headline collection, all languages translated; context only, not citable)\n"
             f"{coverage_table(feed)}\n\n"
-            f"CYBER AND SABOTAGE ITEMS\n{cyber_table(feed)}\n\nUS OVERVIEW NOW\n{feed.get('us_overview', '')}\n\n"
+            f"CYBER AND SABOTAGE ITEMS\n{cyber_table(feed)}\n\n"
+            f"GOVERNMENT PREPAREDNESS ACTIONS, last 60 days (the action log: what governments did, e.g. stockpiling advice, "
+            f"reservists, embassy drawdowns; context, not citable; weigh them with the news, they often say what statements don't)\n"
+            f"{wwactions.context_lines(wwactions.load_log(ROOT), today())}\n\nUS OVERVIEW NOW\n{feed.get('us_overview', '')}\n\n"
             f"NOTES gathered today (cite these IDs only). n- and w-notes come from today's searches and read articles; g-notes are "
             f"worldwide headlines from the hourly collection (all languages, translated), one per story, each saying how many "
             f"independent sources in how many countries carried it. Use g-notes to confirm, contest or widen the others and to "
@@ -490,7 +502,7 @@ def merge_analysis(feed, patch, notes, history, mode="daily"):
     out["events"] = (ev + [e for e in feed.get("events", []) if wwscore.days_between(e["date"], t) <= 3 and e["label"] not in {x["label"] for x in ev}])[:40]
     # tripwires: define (weekly, or daily for hotspots that have none), update, decay
     tws = {tw["id"]: dict(tw) for tw in feed.get("tripwires", []) if tw["hotspot"] in ids}
-    have = {tw["hotspot"] for tw in tws.values()}
+    have = {tw["hotspot"] for tw in tws.values() if tw.get("source") != "action"}
     for c in patch.get("updates") or []:
         if isinstance(c, dict) and isinstance(c.get("tripwires"), list) and c.get("id") in ids and (mode == "weekly" or c["id"] not in have):
             keep = {x.get("id") for x in c["tripwires"] if isinstance(x, dict) and x.get("id")}
@@ -504,7 +516,7 @@ def merge_analysis(feed, patch, notes, history, mode="daily"):
                                             "status": "not_seen", "since": t, "evidence": []}
     for x in patch.get("new_tripwires") or []:
         if isinstance(x, dict) and x.get("hotspot") in ids and x.get("kind") in ("escalation", "easing") and len(str(x.get("text", ""))) >= 10 \
-                and sum(1 for v in tws.values() if v["hotspot"] == x["hotspot"]) < 4:
+                and sum(1 for v in tws.values() if v["hotspot"] == x["hotspot"] and v.get("source") != "action") < 4:
             n = 1
             while f"tw-{x['hotspot']}-{n}" in tws: n += 1
             tws[f"tw-{x['hotspot']}-{n}"] = {"id": f"tw-{x['hotspot']}-{n}", "hotspot": x["hotspot"], "kind": x["kind"],
@@ -555,12 +567,19 @@ def boil_stage(out, notes, budget):
     if not cands: out["boil"] = []; ok("boiling point: no hotspot near the line"); return out
     step(f"boiling point: data for {', '.join(cands)}")
     src, items, now = wwboil.Sources(t), CORPUS.get("items") or [], int(time.time())
+    alog = wwactions.load_log(ROOT)
     byid = {x["id"]: x for x in out["conflicts"]}
     series = wwboil.gdelt_prefetch({cid: wwboil.hotspot_query(byid[cid]) for cid in cands}) if BOIL_GDELT else {}
     panels, raws, heads, n_d, n_h = {}, {}, {}, 1, 1
     for cid in cands:
         c = byid[cid]
         pts, raw, mine = wwboil.build_panel(c, items, src, now, series.get(cid), first_id=n_d, conflicts=out["conflicts"])
+        line = wwactions.hotspot_line(alog, cid, t)
+        if line:                                             # Actions, not words: preparedness steps tied to this hotspot
+            did = f"d{n_d + len(pts)}"
+            pts.append({"id": did, "kind": "actions", "text": line})
+            raw.append({"id": did, "kind": "actions", "label": "Preparedness actions (30 days)", "value": line.split(": ", 1)[1].split(" (")[0],
+                        "note": line.split("(", 1)[1].rstrip(".").rstrip(")") if "(" in line else "", "level": 1})
         n_d += len(pts)
         parties = {wwdata.iso(p) for p in c.get("parties") or []} - {""}
         hs = []
@@ -633,6 +652,7 @@ def run_daily(feed, budget, history, level):
     if isinstance(patch, dict) and patch.get("log"): print(f"Notes: {str(patch['log'])[:400]}")
     out = boil_stage(out, notes, budget)
     out = ai_stage(out, budget)
+    out = actions_stage(out, budget)
     return out, changed
 
 def run_weekly(feed, budget, history, level):
@@ -674,6 +694,7 @@ def run_weekly(feed, budget, history, level):
         warn("big picture didn't come back; signals kept as they were"); out = work
     out = boil_stage(out, notes, budget)
     out = ai_stage(out, budget)
+    out = actions_stage(out, budget)
     return out, changed
 
 def migrate(feed):
@@ -713,7 +734,8 @@ def migrate(feed):
 
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
-    if mode not in ("daily", "weekly", "check", "migrate", "panel", "ai"): raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate, panel, ai)")
+    if mode not in ("daily", "weekly", "check", "migrate", "panel", "ai", "actions"):
+        raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate, panel, ai, actions)")
     feed = load(FEED)
     if mode == "check":
         validate_feed(feed); ok(f"feed.json is valid: {len(feed['conflicts'])} hotspots, schema {feed.get('schema', 1)}"); return
@@ -756,9 +778,9 @@ def main():
         save_json(FEED, feed)
         err(feed["paused"]); sys.exit(1)
     if level == "lite": warn(f"spending is ahead of pace (${budget['usd']:.2f}); running a lighter update")
-    if mode == "ai":                                           # only the AI-risk reading, between daily runs
-        out = ai_stage(dict(feed), budget)
-        save_json(FEED, out); ok("feed.json: AI risk updated"); return
+    if mode in ("ai", "actions"):                              # one reading alone, between daily runs
+        out = (ai_stage if mode == "ai" else actions_stage)(dict(feed), budget)
+        save_json(FEED, out); ok(f"feed.json: {'AI risk' if mode == 'ai' else 'actions'} updated"); return
     if feed.get("schema", 1) < 2: feed = migrate(feed)
     step(f"{mode} update: {wwapi.GATHER_MODEL if hasattr(wwapi, 'GATHER_MODEL') else GATHER_MODEL} searches, {ANALYST_MODEL} decides"
          f"{', Batch API (half price)' if wwapi.USE_BATCH else ''}")

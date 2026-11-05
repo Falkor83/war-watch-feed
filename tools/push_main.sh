@@ -11,7 +11,7 @@ git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 save=$(mktemp -d)
 for f in "$@"; do [ -e "$f" ] && cp -r --parents "$f" "$save/"; done
 for i in 1 2 3 4 5 6; do
-  git add -A -- "$@" 2>/dev/null || true
+  for f in "$@"; do if [ -e "$f" ] || git ls-files --error-unmatch -- "$f" >/dev/null 2>&1; then git add -A -- "$f"; fi; done
   if git diff --cached --quiet; then echo "[OK] Nothing changed"; exit 0; fi
   git commit -q -m "$msg"
   if git push -q origin HEAD:main; then echo "[OK] Pushed"; exit 0; fi

@@ -213,6 +213,7 @@ def tension(conflicts, tripwires, lists, today, history):
     R = 100 * P / (P + 40)
     X = 100 * E / (E + 10)
     sev = {c["id"]: c["severity"] for c in conflicts}
+    tripwires = [tw for tw in tripwires if tw.get("source") != "action"]      # preparedness actions: shown, not scored
     esc = [tw for tw in tripwires if tw["kind"] == "escalation" and tw["hotspot"] in sev]
     ease = [tw for tw in tripwires if tw["kind"] == "easing" and tw["hotspot"] in sev]
     parts = {"R": R}
@@ -245,8 +246,8 @@ def history_row(feed, today):
     return {"date": today, "gti": (feed.get("tension") or {}).get("value"),
             "parts": (feed.get("tension") or {}).get("parts", {}),
             "hotspots": {c["id"]: [c["severity"], c["trend"], c["us_impact"]["level"], 1 if c.get("us_watch") else 0,
-                                   sum(1 for tw in feed.get("tripwires", []) if tw["hotspot"] == c["id"] and tw["kind"] == "escalation" and tw["status"] == "tripped"),
-                                   sum(1 for tw in feed.get("tripwires", []) if tw["hotspot"] == c["id"] and tw["status"] == "signs")]
+                                   sum(1 for tw in feed.get("tripwires", []) if tw["hotspot"] == c["id"] and tw["kind"] == "escalation" and tw["status"] == "tripped" and tw.get("source") != "action"),
+                                   sum(1 for tw in feed.get("tripwires", []) if tw["hotspot"] == c["id"] and tw["status"] == "signs" and tw.get("source") != "action")]
                          for c in feed["conflicts"]},
             "names": {c["id"]: c.get("short_name") or c["name"] for c in feed["conflicts"]},
             "boil": {b["id"]: b["stage"] for b in feed.get("boil") or []},

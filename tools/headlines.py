@@ -94,6 +94,22 @@ AI_RISK = re.compile(r"\b(safety|unsafe|risks?|risky|danger\w*|threat\w*|catastr
 
 def is_ai_risk(text): return bool(AI_TERMS.search(text) and AI_RISK.search(text))
 
+# Actions, not words (Matt, 2026-11-04): what governments DO to prepare, which they rarely explain.
+ACTION = re.compile(r"\b(stockpil\w*|stock(ing)? up on (food|water|supplies|essentials|medicines?)|emergency (kits?|supplies|bags?|food)|72[- ]hours?( of)? (supplies|self-sufficiency|autonomy)|"
+                    r"three days of (supplies|food|water)|preparedness (guides?|campaign|booklets?|brochures?|leaflets?)|"
+                    r"civil (defen[cs]e|protection) (drills?|exercises?|plans?|shelters?)|(bomb|air[- ]raid|nuclear) shelters?|"
+                    r"public shelters?|sirens? tests?|iodine (tablets|pills)|survival (guides?|kits?|manuals?)|crisis (booklets?|brochures?|guides?)|"
+                    r"order(s|ed)? (the )?departure|authori[sz]ed departure|non-emergency (staff|personnel|employees)|(embassy|diplomatic) (staff|personnel|families) (to leave|withdrawn|evacuated|ordered)|"
+                    r"(leave|depart) (the country )?immediately|evacuat\w* (of )?(citizens|nationals|foreigners|embassy)|do not travel|"
+                    r"reservists?|call[- ]ups?|mobili[sz]ation|conscription|draft (age|law|lottery)|military leave (cancel\w*|suspend\w*)|"
+                    r"martial law|war footing|blood (drives?|reserves?|donations?|supplies)|field hospitals?|mass[- ]casualty|"
+                    r"hospital beds? (cleared|freed)|medicine stockpil\w*|strategic (oil |fuel |grain |petroleum |food )?reserves?|"
+                    r"rationing|export bans?|(fuel|food|grain) (stocks|reserves)|(undersea|subsea) cables?|cable (patrols?|protection)|"
+                    r"airspace (closed|closure|shut)|war book|continuity of government|emergency powers|war[- ]risk (insurance|premiums?|cover)|"
+                    r"capital controls|keep cash)", re.I)
+
+def is_action(text): return bool(ACTION.search(text))
+
 def now_ts(): return int(time.time())
 def iso(ts): return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
@@ -362,6 +378,10 @@ def relevant(item, terms):
         item["h"] = sorted((set(hints) - {"ai-safety"}) | {"ai-risk"})
         return True
     if "ai-risk" in hints: item["h"] = [h for h in hints if h != "ai-risk"]
+    if is_action(text):
+        item["h"] = sorted(set(item["h"] or []) | {"action"})
+        return True
+    if "action" in (item["h"] or []): item["h"] = [h for h in item["h"] if h != "action"]
     if item["h"]: return True
     return bool(SECURITY.search(text) or terms.search(text))
 

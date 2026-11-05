@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'daily, weekly, or ai (only the AI-risk reading)'
+        description: 'daily, weekly, ai (only the AI-risk reading) or actions (only Actions, not words)'
         default: daily
       force:
         description: 'run even if the ratings were already updated today (yes/no)'
@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Test the job (fake API, no cost)
-        run: python3 -m unittest tools/test_feed.py tools/test_headlines.py tools/test_focus.py
+        run: python3 -m unittest tools/test_feed.py tools/test_headlines.py tools/test_focus.py tools/test_actions.py
       - name: Get the worldwide headlines (from the hourly job)
         run: |
           mkdir -p live
@@ -45,7 +45,7 @@ jobs:
           set -euo pipefail
           mode="${MODE_INPUT:-}"
           if [ -z "$mode" ]; then if [ "$(date -u +%u)" = 7 ]; then mode=weekly; else mode=daily; fi; fi
-          case "$mode" in daily|weekly|ai) ;; *) echo "[ERROR] unknown mode '$mode' (daily, weekly or ai)"; exit 1;; esac
+          case "$mode" in daily|weekly|ai|actions) ;; *) echo "[ERROR] unknown mode '$mode' (daily, weekly, ai or actions)"; exit 1;; esac
           echo "[STEP] Mode: $mode"
           python3 tools/update_feed.py check
           python3 tools/update_feed.py "$mode"
@@ -55,4 +55,4 @@ jobs:
         if: always()
         run: |
           tools/push_main.sh daily "Ratings $(date -u +%Y-%m-%d) ($(python3 -c 'import json;print(len(json.load(open("feed.json"))["conflicts"]))') hotspots)" \
-            feed.json budget.json history.json outlooks.json notes
+            feed.json budget.json history.json outlooks.json notes actions.json

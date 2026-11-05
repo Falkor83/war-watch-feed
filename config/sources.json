@@ -1,5 +1,5 @@
 {
- "about": "War Watch worldwide headline sources. rss: outlets' world/international feeds (home = the outlet's country, lang = its usual language; items are re-checked one by one). gnews: Google News 'World' page per country edition. GDELT is queried per hotspot in addition. Checked from GitHub's servers with tools/probe_sources.py on 2026-11-04. search: Google News searches, one outlet each (site:, for wires and institutes without a usable feed) or one topic (AI with catastrophic risk, in 11 languages). Feeds and searches with hints ['ai-risk'] keep only headlines with a risk word; ['ai-safety'] keeps all.",
+ "about": "War Watch worldwide headline sources. rss: outlets' world/international feeds (home = the outlet's country, lang = its usual language; items are re-checked one by one). gnews: Google News 'World' page per country edition. GDELT is queried per hotspot in addition. Checked from GitHub's servers with tools/probe_sources.py on 2026-11-04. search: Google News searches, one outlet each (site:, for wires and institutes without a usable feed) or one topic (AI with catastrophic risk, in 11 languages). Feeds and searches with hints ['ai-risk'] keep only headlines with a risk word; ['ai-safety'] keeps all. Searches with hints ['action'] look for what governments DO to prepare (stockpiling advice, shelters, reservists, embassy departures, reserves) in 15 languages.",
  "rss": [
   {
    "name": "BBC Arabic",
@@ -2266,6 +2266,248 @@
     "ai-risk"
    ],
    "when": "7d"
+  },
+  {
+   "name": "stockpile advice (EN)",
+   "q": "government (stockpile OR \"emergency kit\" OR \"72 hours\") households",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "en"
+  },
+  {
+   "name": "civil defence (EN)",
+   "q": "(\"civil defence\" OR \"civil defense\" OR \"bomb shelters\" OR \"air raid shelters\" OR \"siren test\") government",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "en"
+  },
+  {
+   "name": "reservists (EN)",
+   "q": "(reservists OR \"call-up\" OR mobilization OR conscription) military",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "en"
+  },
+  {
+   "name": "embassy departures (EN)",
+   "q": "(\"ordered departure\" OR \"leave immediately\" OR \"evacuate citizens\" OR \"embassy staff\") war",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "en"
+  },
+  {
+   "name": "health surge (EN)",
+   "q": "(\"blood reserves\" OR \"field hospitals\" OR \"mass casualty\") war preparations",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "en"
+  },
+  {
+   "name": "reserves (EN)",
+   "q": "(\"strategic reserves\" OR rationing OR \"export ban\") (fuel OR grain OR oil) government war",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "en"
+  },
+  {
+   "name": "cables and insurance (EN)",
+   "q": "(\"undersea cable\" OR \"war risk insurance\" OR \"airspace closed\") navy OR government",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "en"
+  },
+  {
+   "name": "iodine (EN)",
+   "q": "\"iodine tablets\" OR \"iodine pills\" government",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "en"
+  },
+  {
+   "name": "Vorsorge (DE)",
+   "q": "Notvorrat OR Bevölkerungsschutz OR Schutzräume Regierung",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "de",
+   "ed": "de|DE|DE:de"
+  },
+  {
+   "name": "Reservisten (DE)",
+   "q": "Reservisten OR Wehrpflicht OR Musterung Bundeswehr",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "de",
+   "ed": "de|DE|DE:de"
+  },
+  {
+   "name": "kit d'urgence (FR)",
+   "q": "\"kit d'urgence\" OR \"72 heures\" OR abris gouvernement",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "fr",
+   "ed": "fr|FR|FR:fr"
+  },
+  {
+   "name": "réservistes (FR)",
+   "q": "réservistes OR mobilisation OR \"service militaire\" armée",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "fr",
+   "ed": "fr|FR|FR:fr"
+  },
+  {
+   "name": "72 godziny (PL)",
+   "q": "\"72 godziny\" OR schrony OR \"poradnik bezpieczeństwa\"",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "pl",
+   "ed": "pl|PL|PL:pl"
+  },
+  {
+   "name": "beredskap (SV)",
+   "q": "hemberedskap OR beredskap OR skyddsrum regeringen",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "sv",
+   "ed": "sv|SE|SE:sv"
+  },
+  {
+   "name": "varautuminen (FI)",
+   "q": "kotivara OR varautuminen OR väestönsuoja",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "fi",
+   "ed": "fi|FI|FI:fi"
+  },
+  {
+   "name": "noodpakket (NL)",
+   "q": "noodpakket OR \"72 uur\" OR \"denk vooruit\"",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "nl",
+   "ed": "nl|NL|NL:nl"
+  },
+  {
+   "name": "72 hodin (CS)",
+   "q": "\"72 hodin\" OR kryty OR \"nouzový balíček\"",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "cs",
+   "ed": "cs|CZ|CZ:cs"
+  },
+  {
+   "name": "kit de emergencia (ES)",
+   "q": "\"kit de emergencia\" OR \"72 horas\" gobierno",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "es",
+   "ed": "es|ES|ES:es"
+  },
+  {
+   "name": "備蓄 (JA)",
+   "q": "備蓄 政府 呼びかけ OR 避難訓練 OR シェルター",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "ja",
+   "ed": "ja|JP|JP:ja"
+  },
+  {
+   "name": "민방위 (KO)",
+   "q": "민방위 훈련 OR 대피소 OR 비상식량",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "ko",
+   "ed": "ko|KR|KR:ko"
+  },
+  {
+   "name": "全民防衛 (ZH-TW)",
+   "q": "全民防衛 OR 防空避難 OR 民防 手冊",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "zh",
+   "ed": "zh-TW|TW|TW:zh-Hant"
+  },
+  {
+   "name": "мобилизация (RU)",
+   "q": "мобилизация OR резервисты OR укрытия",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "ru",
+   "ed": "ru|RU|RU:ru"
+  },
+  {
+   "name": "פיקוד העורף (HE)",
+   "q": "פיקוד העורף הנחיות OR מקלטים",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "he",
+   "ed": "he|IL|IL:he"
+  },
+  {
+   "name": "تخزين (AR)",
+   "q": "الحكومة تخزين المواد الغذائية OR الملاجئ OR إجلاء الرعايا",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "ar",
+   "ed": "ar|AE|AE:ar"
+  },
+  {
+   "name": "sığınak (TR)",
+   "q": "sığınak OR seferberlik OR yedek asker",
+   "hints": [
+    "action"
+   ],
+   "when": "3d",
+   "lang": "tr",
+   "ed": "tr|TR|TR:tr"
   }
  ]
 }

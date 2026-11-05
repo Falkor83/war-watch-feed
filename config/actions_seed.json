@@ -1,0 +1,338 @@
+{
+ "about": "Starting point for the action log (tools/wwactions.py): preparedness actions and the events around them, each from a news report found on 2026-11-04. The daily job adds new ones from the worldwide headlines. Dates are when the action or event happened (or was announced).",
+ "actions": [
+  {
+   "id": "a-2024-11-18-se",
+   "date": "2024-11-18",
+   "country": "SE",
+   "kind": "civil-preparedness",
+   "what": "Sweden begins mailing 5.2 million 'If Crisis or War Comes' booklets to households, urging food and water stocks",
+   "url": "https://logicallyfacts.com/en/article/heres-what-you-should-know-about-swedens-crisis-or-war-pamphlets",
+   "outlet": "Logically Facts",
+   "hotspots": [
+    "russia-ukraine-war",
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": null,
+   "program": "MSB crisis booklet, first updated since 2018"
+  },
+  {
+   "id": "a-2024-11-18-fi",
+   "date": "2024-11-18",
+   "country": "FI",
+   "kind": "civil-preparedness",
+   "what": "Finland publishes a consolidated online preparedness guide for incidents and crises",
+   "url": "https://www.thenationalnews.com/news/europe/2024/11/18/sweden-and-finland-advise-citizens-how-to-prepare-for-potential-war",
+   "outlet": "The National",
+   "hotspots": [
+    "russia-ukraine-war",
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": null,
+   "program": ""
+  },
+  {
+   "id": "a-2025-03-26-eu",
+   "date": "2025-03-26",
+   "country": "EU",
+   "kind": "civil-preparedness",
+   "what": "European Commission's Preparedness Union Strategy asks people to keep at least 72 hours of essential supplies",
+   "url": "https://irishtimes.com/world/europe/2025/03/26/stockpile-72-hours-of-supplies-in-case-of-disaster-or-attack-eu-tells-citizens",
+   "outlet": "The Irish Times",
+   "hotspots": [
+    "russia-ukraine-war",
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": false,
+   "program": "EU Preparedness Union Strategy (built on the Niinisto report, late 2024)"
+  },
+  {
+   "id": "a-2025-11-20-fr",
+   "date": "2025-11-20",
+   "country": "FR",
+   "kind": "civil-preparedness",
+   "what": "France publishes the 'Tous responsables' guide with a 72-hour emergency kit",
+   "url": "https://www.euronews.com/2025/11/21/army-chief-warns-france-must-accept-loss-of-our-children-to-deter-russia-by-2030",
+   "outlet": "Euronews",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": true,
+   "program": "Announced in spring 2025 after the EU strategy"
+  },
+  {
+   "id": "a-2026-04-21-be",
+   "date": "2026-04-21",
+   "country": "BE",
+   "kind": "civil-preparedness",
+   "what": "Belgium's National Crisis Centre starts a four-year campaign: be able to cope alone for 72 hours",
+   "url": "https://www.vrt.be/vrtnws/en/2026/04/21/federal-government-calls-on-belgians-to-be-prepared/",
+   "outlet": "VRT",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": true,
+   "program": "Four-year National Crisis Centre campaign"
+  },
+  {
+   "id": "a-2026-10-01-be",
+   "date": "2026-10-01",
+   "country": "BE",
+   "kind": "civil-preparedness",
+   "what": "Belgium publishes a 28-page household emergency guide with a 72-hour kit",
+   "url": "https://www.brusselstimes.com/belgium/2341794/never-panic-never-be-naive-belgium-launches-new-emergency-guide/",
+   "outlet": "The Brussels Times",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": true,
+   "program": "Four-year National Crisis Centre campaign"
+  },
+  {
+   "id": "a-2026-10-09-lu",
+   "date": "2026-10-09",
+   "country": "LU",
+   "kind": "civil-preparedness",
+   "what": "Luxembourg presents 'My Guide to 72 Hours of Self-Sufficiency'; 300,000 copies to every household from Oct 14",
+   "url": "https://gouvernement.lu/en/actualites/toutes_actualites/communiques/2026/10-octobre/09-frieden-gloden-resilience.html",
+   "outlet": "Government of Luxembourg",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": true,
+   "program": "National Resilience Strategy of Oct 13, 2025"
+  },
+  {
+   "id": "a-2026-10-22-gb",
+   "date": "2026-10-22",
+   "country": "GB",
+   "kind": "civil-preparedness",
+   "what": "UK launches 'Be Ready', a three-year campaign asking every household to keep three days of supplies",
+   "url": "https://www.latintimes.com/uk-ready-campaign-three-day-emergency-supplies-600689",
+   "outlet": "Latin Times",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad",
+    "us-israel-iran-war"
+   ],
+   "scheduled": null,
+   "program": "Three-year Cabinet Office campaign"
+  },
+  {
+   "id": "a-2026-02-28-ae",
+   "date": "2026-02-28",
+   "country": "AE",
+   "kind": "reassurance",
+   "what": "UAE says staple-goods reserves are secure and urges the public not to stockpile",
+   "url": "https://www.khaleejtimes.com/uae/uae-staple-goods-reserves-secure-public-not-to-stockpile",
+   "outlet": "Khaleej Times",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": ""
+  },
+  {
+   "id": "a-2026-03-23-jp",
+   "date": "2026-03-23",
+   "country": "JP",
+   "kind": "reassurance",
+   "what": "Japan urges people not to panic-buy toilet paper amid Iran war fears",
+   "url": "https://theprint.in/world/dont-hoard-toilet-paper-theres-enough-supply-japan-tells-citizens-amid-iran-war-fears/2886238",
+   "outlet": "ThePrint",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": ""
+  },
+  {
+   "id": "a-2026-10-29-th",
+   "date": "2026-10-29",
+   "country": "TH",
+   "kind": "reassurance",
+   "what": "Thailand's National Security Council denies a viral warning to keep 72 hours of supplies; monitoring the Middle East",
+   "url": "https://www.nationthailand.com/news/general/40072869",
+   "outlet": "The Nation",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": ""
+  },
+  {
+   "id": "a-2026-11-02-my",
+   "date": "2026-11-02",
+   "country": "MY",
+   "kind": "reassurance",
+   "what": "Malaysia says there is no need to stockpile food; at least six months of supply",
+   "url": "https://www.malaymail.com/amp/news/malaysia/2026/11/02/no-need-to-stockpile-food-malaysia-has-at-least-six-months-of-supply-says-zahid/241690",
+   "outlet": "Malay Mail",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": ""
+  }
+ ],
+ "events": [
+  {
+   "id": "e-2024-11-18-cables",
+   "date": "2024-11-18",
+   "kind": "hybrid",
+   "what": "Two Baltic Sea data cables cut (Sweden-Lithuania, Finland-Germany); Sweden opens a sabotage investigation",
+   "countries": [
+    "SE",
+    "FI",
+    "DE",
+    "LT"
+   ],
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "url": "https://thestar.com.my/news/focus/2024/11/24/nordic-countries-dust-off-their-crisis-advice"
+  },
+  {
+   "id": "e-2024-11-19-nuclear",
+   "date": "2024-11-19",
+   "kind": "nuclear",
+   "what": "Putin signs a doctrine lowering Russia's threshold for using nuclear weapons",
+   "countries": [
+    "RU"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://lbc.co.uk/news/sweden-war-pamphlet-citizens-prepare-wwiii"
+  },
+  {
+   "id": "e-2025-09-drones",
+   "date": "2025-09-15",
+   "kind": "drone",
+   "what": "From September 2025, drones seen near airports and military sites in Denmark, Germany and Norway",
+   "countries": [
+    "DK",
+    "DE",
+    "NO"
+   ],
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "url": "https://www.aljazeera.com/news/2025/11/9/uk-military-to-help-belgium-after-drone-sightings-near-airports"
+  },
+  {
+   "id": "e-2025-10-09-isw",
+   "date": "2025-10-09",
+   "kind": "hybrid",
+   "what": "ISW says Russia has entered 'Phase 0' of preparing for a possible NATO war, with rising covert and overt attacks in Europe",
+   "countries": [
+    "RU"
+   ],
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "url": "https://euromaidanpress.com/2025/10/10/isw-russia-steps-up-covert-and-overt-attacks-on-europe-nato-races-to-reinforce-defenses/"
+  },
+  {
+   "id": "e-2025-10-13-bnd",
+   "date": "2025-10-13",
+   "kind": "warning",
+   "what": "German intelligence chief warns of military conflict with Russia by 2029",
+   "countries": [
+    "DE",
+    "RU"
+   ],
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "url": "https://news.liga.net/en/amp/politics/news/european-commissioner-kubilius-europe-is-not-ready-to-defend-itself-against-drones-now-but-by-2030-it-should-be"
+  },
+  {
+   "id": "e-2025-11-06-be-drones",
+   "date": "2025-11-06",
+   "kind": "drone",
+   "what": "Unidentified drones over Brussels, Charleroi and Liege airports ground or divert flights; UK, France, Germany send counter-drone teams",
+   "countries": [
+    "BE"
+   ],
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "url": "https://www.gamereactor.eu/united-kingdom-joins-france-and-germany-in-helping-belgium-counter-drone-incursions-1630813/"
+  },
+  {
+   "id": "e-2025-11-18-mandon",
+   "date": "2025-11-18",
+   "kind": "warning",
+   "what": "French army chief says Russia is preparing for a confrontation with Europe by 2030 and France must 'accept losing our children'",
+   "countries": [
+    "FR",
+    "RU"
+   ],
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "url": "https://www.dawn.com/news/amp/1956434"
+  },
+  {
+   "id": "e-2026-02-28-iran",
+   "date": "2026-02-28",
+   "kind": "military",
+   "what": "Israeli and US strikes on Iran begin the US/Israel-Iran war",
+   "countries": [
+    "US",
+    "IL",
+    "IR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.khaleejtimes.com/uae/uae-staple-goods-reserves-secure-public-not-to-stockpile"
+  },
+  {
+   "id": "e-2026-04-22-ncsc",
+   "date": "2026-04-22",
+   "kind": "cyber",
+   "what": "UK cyber chief: about four nationally significant cyber incidents a week, most serious ones from China, Iran and Russia",
+   "countries": [
+    "GB",
+    "CN",
+    "IR",
+    "RU"
+   ],
+   "hotspot": "",
+   "url": "https://amp.claimsjournal.com/news/national/2026/04/22/337080.htm"
+  },
+  {
+   "id": "e-2026-06-29-nl",
+   "date": "2026-06-29",
+   "kind": "warning",
+   "what": "Dutch defence ministry: a limited Russian war against NATO members possible within a year of the Ukraine war ending",
+   "countries": [
+    "NL",
+    "RU"
+   ],
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "url": "https://thedefensepost.com/2026/06/30/russia-attack-nato-netherlands-warning/"
+  },
+  {
+   "id": "e-2026-08-31-iran",
+   "date": "2026-08-31",
+   "kind": "military",
+   "what": "US and Iran trade strikes in the Strait of Hormuz, ending a month of calm; oil climbs",
+   "countries": [
+    "US",
+    "IR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.mysuncoast.com/2026/08/31/us-iran-trade-strikes-strait-hormuz-disrupting-month-calm/"
+  },
+  {
+   "id": "e-2026-10-24-streeting",
+   "date": "2026-10-24",
+   "kind": "warning",
+   "what": "UK defence secretary: Britain must prepare to fight and win a war as Russia's hybrid warfare against NATO intensifies",
+   "countries": [
+    "GB",
+    "RU"
+   ],
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "url": "https://jpost.com/international/article-912745"
+  },
+  {
+   "id": "e-2026-10-31-iran",
+   "date": "2026-10-31",
+   "kind": "military",
+   "what": "Trump says the US still has 'one or two' Iran targets left, naming Pickaxe Mountain; talks continue",
+   "countries": [
+    "US",
+    "IR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://ground.news/daily-briefing/7585c5d9-1a48-46ce-a4d9-73fbffa910d6"
+  }
+ ]
+}

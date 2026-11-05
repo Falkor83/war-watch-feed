@@ -202,7 +202,7 @@ class JobTests(Base):
         return msg("```json\n" + json.dumps(b) + "\n```", tin=12000, tout=3000)
 
     def run_daily(self, batch=True):
-        fake = FakeAPI({"Focus:": self.gather_text(), "Yesterday's ladder": self.boil_text(), "NOTES gathered today": self.analysis_text()}, batch_ok=batch)
+        fake = FakeAPI({"THE ACTION LOG": msg("```json\n{\"new_actions\": [], \"patterns\": [], \"summary\": \"Quiet.\"}\n```"), "Focus:": self.gather_text(), "Yesterday's ladder": self.boil_text(), "NOTES gathered today": self.analysis_text()}, batch_ok=batch)
         wwapi.http = fake
         sys.argv = ["x", "daily"]
         self.uf.main()
@@ -273,7 +273,7 @@ class JobTests(Base):
                                "week_verdict": {"verdict": "deteriorated", "why": "More strikes", "notes": ["w01"]}}],
                   "ended": [{"id": "haiti-gang-war", "why": "test without notes", "notes": []},
                             {"id": "ecuador-gang-conflict", "why": "Gangs agreed a truce in October", "notes": ["w04"]}]}
-        fake = FakeAPI({"Region:": msg("```json\n" + json.dumps(review) + "\n```"), "Focus:": self.gather_text(), "Yesterday's ladder": self.boil_text(),
+        fake = FakeAPI({"THE ACTION LOG": msg("```json\n{\"new_actions\": [], \"patterns\": [], \"summary\": \"Quiet.\"}\n```"), "Region:": msg("```json\n" + json.dumps(review) + "\n```"), "Focus:": self.gather_text(), "Yesterday's ladder": self.boil_text(),
                         "NOTES gathered today": self.analysis_text()})
         wwapi.http = fake
         sys.argv = ["x", "weekly"]
@@ -284,8 +284,9 @@ class JobTests(Base):
         self.assertNotIn("ecuador-gang-conflict", ids)
         iran = next(c for c in feed["conflicts"] if c["id"] == "us-israel-iran-war")
         self.assertEqual(iran["parties"], ["United States", "Israel", "Iran"]); self.assertEqual(iran["week_verdict"]["verdict"], "deteriorated")
-        tws = [tw for tw in feed["tripwires"] if tw["hotspot"] == "us-israel-iran-war"]
+        tws = [tw for tw in feed["tripwires"] if tw["hotspot"] == "us-israel-iran-war" and tw.get("source") != "action"]
         self.assertEqual(sorted(tw["kind"] for tw in tws), ["easing", "escalation"])
+        self.assertTrue(any(tw.get("source") == "action" for tw in feed["tripwires"]))    # the UK's Be Ready (seed) as a warning sign
         self.assertIn("X", feed["tension"]["parts"]); self.assertIn("T", feed["tension"]["parts"])
         b = json.load(open(wwapi.BUDGET))
         self.assertEqual(sum(1 for r in b["runs"] if "notes" in r["what"]), 6)
