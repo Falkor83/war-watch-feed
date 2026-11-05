@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "usd": 5.3831,
+ "usd": 5.4461,
  "runs": [
   {
    "at": "2026-11-04T04:16:08Z",
@@ -187,9 +187,20 @@
    "searches": 0,
    "batch": true,
    "usd": 0.0937
+  },
+  {
+   "at": "2026-11-05T04:41:16Z",
+   "what": "ai risk",
+   "model": "claude-opus-5-5",
+   "in": 7993,
+   "out": 4705,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.063
   }
  ],
  "cap": 35.0,
- "headlines_usd": 0.0977,
- "total_usd": 4.8224
+ "headlines_usd": 0.2234,
+ "total_usd": 5.6078,
+ "focus_usd": 0.0013
 }

@@ -9982,5 +9982,546 @@
    "languages_read": 14,
    "model": "Claude Haiku 5.5"
   }
- ]
+ ],
+ "ai_risk": {
+  "date": "2026-11-05",
+  "summary": "This is the first day of tracking, so there is no comparison with yesterday. The most serious threads are Anthropic's reported warning that AI may soon be able to improve itself, and government cyber agencies in the UK and India warning that AI is boosting attacks on critical systems. Reports that OpenAI staff flagged security lapses for years, and India gaining access to a restricted Anthropic model for vulnerability testing, raise questions about who can reach powerful cyber-capable AI. Much of the remaining AI-risk coverage was about workplace safety, privacy, stock markets and product laun",
+  "items": [
+   {
+    "id": "anthropic-self-improving-ai",
+    "category": "ai-building-ai",
+    "category_label": "AI building AI",
+    "title": "Anthropic reportedly warns AI may soon be able to improve itself",
+    "what": "Outlets in the US, France and India report that Anthropic has warned that its AI could soon reach a stage where it can help improve and build itself.",
+    "why": "If AI systems speed up their own development, capabilities could grow faster than testing and oversight can keep up, raising the risk of losing control over powerful systems.",
+    "who": "Anthropic, as reported by news outlets",
+    "us": "Anthropic is a US lab, so how US policymakers respond to its warning matters for oversight of the field.",
+    "watch": "Whether Anthropic publishes test evidence behind the warning and whether other labs or safety institutes confirm it.",
+    "evidence": "forecast",
+    "severity": "elevated",
+    "status": "new",
+    "first_seen": "2026-11-05",
+    "date": "2026-11-05",
+    "sources": [
+     {
+      "t": "Why is Anthropic's Claude AI dangerously close to self-improving and self-building?",
+      "o": "Pourquoi l'IA Claude d'Anthropic est-elle dangereusement proche de s'auto-améliorer et s'auto-construire ?",
+      "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZk91SnJCN0hkNGlfdGYzUkRYQUFkc3VkNDdod3VROVZULVV6emY4d2VPak9UanlrMDZERFBWODNVZ1luMmhqYWZIV1VSSTR0cDU5eWE0YTF4c0pIQlpCNS0zc290MkVJT2pLSURLSm8wUUJVbFNCZzJfdHpLal9kby1Ccjg5SmFBQThYNTlTbWNBTWphY3BvZjlnZURZeGFnVjNqSDF1SlhXVmt1R05LZDNkXzZiUklYWWpaWkZaaER2VEh0SkE?oc=5",
+      "s": "EmarketerZ",
+      "c": "FR",
+      "l": "fr",
+      "p": 1793817616,
+      "r": "unrated"
+     },
+     {
+      "t": "Anthropic warns it's close to developing self-building AI | Anthropic could launch IPO this month | Inshorts",
+      "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSTE2d1hNeTBEOGpVTGtNOHpnRlpBQURhY29jSjljSlh1MF9SdHF4RjFJT05XNDRGUWQ4alRudXZnWDl4bVcyZXdMUTBCRHM4VFdwd2J3dVBsZVFMQ01vWnQ4eHlnbUtGcEc1bWtUNEJfcGtzY1RULTZrTTZhQXU1Q3FXS3BNWk1odTNYX3NRUkctTUh1YXBJa2g1Vk9DZWgyRlZ4XzZPRdIBpwFBVV95cUxPSTE2d1hNeTBEOGpVTGtNOHpnRlpBQURhY29jSjljSlh1MF9SdHF4RjFJT05XNDRGUWQ4alRudXZnWDl4bVcyZXdMUTBCRHM4VFdwd2J3dVBsZVFMQ01vWnQ4eHlnbUtGcEc1bWtUNEJfcGtzY1RULTZrTTZhQXU1Q3FXS3BNWk1odTNYX3NRUkctTUh1YXBJa2g1Vk9DZWgyRlZ4XzZPRQ?oc=5",
+      "s": "Inshorts",
+      "c": "US",
+      "l": "en",
+      "p": 1793714578,
+      "r": "unrated"
+     },
+     {
+      "t": "Anthropic warns AI could soon reach stage where it can improve itself",
+      "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNWxWc0daRDQzM2ZPVHJjY1FpQVIwVkJyOW90SjZoal9uVVR0cjNWTlJhMTVwQS1lMTFTUnU3OGZiY2hBX1JrMGFMTkgtUjBGTGI4emNEV29HdDh3RnRzZXpoREIxQWdiUlNJZGVMTXBJM3duS3p2VnVacDdwbGZqdU1TdjZLNWp1V29sV2c1aURvejFxQ3dJaFh6T1liX1ZOUFQyXzNwcXJNQW1FclB6bG5BWlNlMFpxUGdQcmIxcHBOUTZvbEl6UHAxOTZmNjhmdlN6eEE2c3JkeWPSAeABQVVfeXFMUFdieHlJdFVHWDN0aWdER3NJMUNTTThOeFpFLUZ5enl1NFRSUUJvMF9WenRuWk1QZE52UkNVZTl1dmNiQTFzakRvdUhBaGQweDhYZWk3bExLWkpiSDRCWmppWUZheHpFVmhyVG16bkZsNFVFRWhZa01HMzQ0UVhoSkk3WVZOWWVWRUluMDQ4aDZPUjhoekpfWGE1ZVR4enViTGx5NEpKbDhwTWo2bWZlbFlqTEJNcVBUZWdRVVJUdWUzdm1",
+      "s": "Times of India",
+      "c": "IN",
+      "l": "en",
+      "p": 1793686731,
+      "r": "known"
+     },
+     {
+      "t": "Anthropic Warns AI May Soon Be Capable of Improving Itself",
+      "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdDBiNUsxZHl3d0E3OFNSLWpxVkFiUHB5OWsxWU5NOE02NFNSZ1R0akFxejdSZzA3QU5hOGpEUHZxVHZLRE9XN0xleTlab2tuclBSTWxwemUyV3ZNQzR5ZkFlNUoxNjNydEpsT0Q3b0I2VGR1TkNUWlFDdzBacWhtMm9sZ1EweEsxN2V3OHNWT0ZLUlMwUWxlT19MaDlHb04xdDY2dUttNkU1Q2VIcDhJOEc3YnlXeXBaclNJ?oc=5",
+      "s": "The National CIO Review",
+      "c": "US",
+      "l": "en",
+      "p": 1793725132,
+      "r": "unrated"
+     }
+    ],
+    "headlines": 10,
+    "outlets": 10,
+    "independent": 10,
+    "countries": [
+     "FR",
+     "IN",
+     "US"
+    ],
+    "primary": false
+   },
+   {
+    "id": "ai-cyberattacks-critical-infrastructure-",
+    "category": "cyber",
+    "category_label": "Cyberattacks",
+    "title": "UK and India cyber officials warn of AI-boosted attacks on key systems",
+    "what": "A UK cyber official says Britain faces AI-boosted attacks on critical infrastructure by 2028. Separately, India's cybercrime agency has warned financial firms about AI-driven cyberattacks, according to Reuters and Arab News.",
+    "why": "AI that speeds up finding and exploiting flaws could make attacks on power, water or financial systems more frequent and harder to stop, with effects at national scale.",
+    "who": "UK cyber officials; India's cybercrime agency",
+    "us": "US infrastructure runs on many of the same systems, so threats described by allies are relevant to American defenders.",
+    "watch": "Whether agencies publish evidence of real AI-assisted attacks rather than forecasts.",
+    "evidence": "forecast",
+    "severity": "elevated",
+    "status": "new",
+    "first_seen": "2026-11-05",
+    "date": "2026-11-05",
+    "sources": [
+     {
+      "t": "UK will face AI cyberattacks on critical infrastructure by 2028, official says",
+      "u": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOY0lrbzBhRzAwRXpvaWtGb1IwUm1hWXI4b3YxVFRLS0piVGh4SnJTOXYxeTBQZjlodW9QVzJ6Y1o0cDFfRUtLUGpRWnBPUUZUYWxPdzZnYzRNYUFYV045WUU1SmFfU19ZSkJjbTVNdXJIU2dXam9CdTlWS1ZzeTE3YW9JQ1UwS0VPZFBCRVBGaFM1c3V6M1FXWkotZnY0djNsYzRtS2NDVlFuVEM0eGVtYmtPbGQ2Mk9iWWVSbHkzdHQ3cWFhbXpXYnVPWVJ2WGowcnFUbGFMWVQyRUlXbm1LSnBNRUtpSUljd0dZU1pCWGdEZndS?oc=5",
+      "s": "Globe and Mail",
+      "c": "CA",
+      "l": "en",
+      "p": 1793713785,
+      "r": "known"
+     },
+     {
+      "t": "UK faces AI - boosted attacks on critical infrastructure in two years , cyber chief warns | News united kingdom",
+      "u": "https://metro.co.uk/2026/11/03/uk-faces-ai-boosted-attacks-critical-infrastructure-two-years-cyber-chief-warns-29760868/",
+      "s": "metro.co.uk",
+      "c": "GB",
+      "l": "en",
+      "p": 1793704500,
+      "r": "unrated"
+     },
+     {
+      "t": "Britain warned of the threat of cyberattacks on critical infrastructure",
+      "o": "Британия предупредила об угрозе кибератак на критическую инфраструктуру",
+      "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYzFESDhvMmUwNEtjZFB6cl9KM0JDYU9GTUk2RF9aRzd2OE1XNzVENUJORTRFbUI2VEhDV19jdDlCV1lOYzdHUXAwbnJUdFhKMU5PMFRtYzlsNDJ2cjhzSzF3ZGhlWGJJV3JNbkRtOWVNR0l2S2V4NXN4UlRxUGxfbFpHUDBsMEFEUkQ0UmJGQ25KSVJubzJnMFZ2RXI4d3c?oc=5",
+      "s": "Caliber.Az",
+      "c": "AZ",
+      "l": "ru",
+      "p": 1793691185,
+      "r": "unrated"
+     },
+     {
+      "t": "Technology 24h: Great Britain warns of risk of AI-powered cyberattacks, Apple worried about virtual assistants",
+      "o": "Technologie 24h: La Grande-Bretagne met en garde contre le risque de cyberattaques utilisant l'IA, Apple s'inquiète des assistants virtuels",
+      "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ053aUZ5THhQdmRGc1JZMUxlMlc0X1NSMTk5aG1VOEtKYWxkZTFoZVJiTDJoVk5RVVlmblBMX0RzMlJXTTNDRlJKZjc1V1ZPLWc3a0dmNXVsVVVBbVNoUE1KSjhkbUJSazhIeXpKTERKaFF1R1VjLVhWQXNjUjk4WVNrWjJOaFlVLWFyNEszZU51NV9jUDRoa1dTa1l0aVVZbTBkaEc3TVNqTWxEMF9vYUdxc2ZHQTJ3WjNjOFZ3MktKQQ?oc=5",
+      "s": "Laodong.vn",
+      "c": "VN",
+      "l": "fr",
+      "p": 1793838045,
+      "r": "unrated"
+     },
+     {
+      "t": "Britain warns of a surge in AI-powered cyberattacks in the coming years",
+      "o": "В Британии предупредили о всплеске кибератак с искусственным интеллектом в ближайшие годы",
+      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zRFBzRXFHVjQ1REs2YjJSaWNNRTYxYXVfNFdiY2lVU041eFJvNTluZXViZGY3c3pCVmltM1ZVZTJpLXZPNU9xa0R3SWVrazEwc1c1bXJxYXVsMTh2M3ozMXBabk90QWJIcUYzZ1VMc1g?oc=5",
+      "s": "Ukr.net",
+      "c": "RU",
+      "l": "ru",
+      "p": 1793799122,
+      "r": "unrated"
+     }
+    ],
+    "headlines": 7,
+    "outlets": 7,
+    "independent": 7,
+    "countries": [
+     "AZ",
+     "CA",
+     "GB",
+     "RU",
+     "SA",
+     "VN"
+    ],
+    "primary": false
+   },
+   {
+    "id": "openai-security-lapses",
+    "category": "cyber",
+    "category_label": "Cyberattacks",
+    "title": "OpenAI staff reportedly warned of security lapses for years",
+    "what": "The Japan Times, citing sources, reports that OpenAI employees warned for years about operational security lapses in the company's systems. Outlets in several other countries carried similar reports.",
+    "why": "Weak security at a leading lab could let criminals or state hackers steal powerful models and strip their safeguards, which could put dangerous capabilities in the wrong hands.",
+    "who": "Reporters citing unnamed sources",
+    "us": "OpenAI is a major US lab that also works with the US government, so lapses there touch national security.",
+    "watch": "Whether OpenAI responds publicly or regulators look into the claims.",
+    "evidence": "reported",
+    "severity": "elevated",
+    "status": "new",
+    "first_seen": "2026-11-05",
+    "date": "2026-11-05",
+    "sources": [
+     {
+      "t": "OpenAI comes under security pressure after years of warnings",
+      "o": "OpenAI gerät nach jahrelangen Warnungen unter Sicherheitsdruck.",
+      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOWxSQ0JzYWc5OVJ5VXNUQlRRVm5iZFZOYno1SkdXT01zVDdKMUdkNjlLMENLNWR5VUNjOW5maThCUTJvUThGRG1fYnlLbnkxcWgza05mLWY1UmJrdmVBeTZkUmRyRE1TRXhYQzJOVHhDZEtaZkRRdmRId21DZUo4WmF4Tm5xMWZR?oc=5",
+      "s": "Vietnam.vn",
+      "c": "VN",
+      "l": "de",
+      "p": 1793781973,
+      "r": "unrated"
+     },
+     {
+      "t": "OpenAI employees have been warning about internal security risks for years",
+      "o": "OpenAI员工多年来一直警告内部安全风险",
+      "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQnFaYnBwSmxZaUtGaW9iWWZscG9UQVc5N0lIVzIxMzdTSENjbnNNRmVXMFJ4QVFTOHZ5QmQ3MVJSOWJOWkt6a3htZlRuSjQzYVM1VmNQd040b0RXcU1FbUJZZy1MYzRlM2c5ZUtOZ2Q0d04yVjF3cUo4X2ZVbkhpMEtrWTVSdktfZlRuWmVtNy1TWHBvVFE?oc=5",
+      "s": "Unite.AI",
+      "c": "CN",
+      "l": "zh",
+      "p": 1793734083,
+      "r": "unrated"
+     },
+     {
+      "t": "OpenAI employees warned for years about internal security risks",
+      "o": "OpenAIの従業員、社内のセキュリティリスクについて何年も警告",
+      "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnlFVmVNR3dOT3J3N3U2eTV4cXdrYlJscG5ZdXBfT0s0YmdrQ1lWbGdoMTZnVmZCejR0UlcyZ2NXdXkzdEJBcGNZWnB2TkZ5ZXlJc0RkRnVkOHJ3eVB1MVJid0U0MlR3blJvb0hCSkczQ0JwbDBhWUVfOG9BaTdCWXFIV1hFVVY5MXF5QzFJQ0xzdw?oc=5",
+      "s": "Unite.AI",
+      "c": "JP",
+      "l": "ja",
+      "p": 1793734083,
+      "r": "unrated"
+     },
+     {
+      "t": "OpenAI employees warned for years about internal security risks",
+      "o": "Des employés d’OpenAI ont alerté pendant des années sur les risques de sécurité internes",
+      "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS20tQ09CTkRiakRSZUItQlY3bmdiT0d4WjQ5Z0VxdkgyZWY2cmpxS3RfTTFycGNpUDhBOUhUd2dCWEVYem5SS1NOeG5DU3RrMkkwMkpUWG53TmNnbEQzeUxsdEU1WWFZTDhVMF91RUVYYm9YSVRRRkhiRmVSdm5aZ2s5MkNEZGFmUW9TSEJrRXRVUQ?oc=5",
+      "s": "Unite.AI",
+      "c": "FR",
+      "l": "fr",
+      "p": 1793734083,
+      "r": "unrated"
+     },
+     {
+      "t": "OpenAI employees warned about operational security lapses for years, sources say",
+      "u": "https://www.japantimes.co.jp/business/2026/11/04/openai-employees-security-lapses/",
+      "s": "The Japan Times",
+      "c": "JP",
+      "l": "en",
+      "p": 1793758380,
+      "r": "known"
+     }
+    ],
+    "headlines": 11,
+    "outlets": 6,
+    "independent": 6,
+    "countries": [
+     "BR",
+     "CN",
+     "EG",
+     "FR",
+     "IN",
+     "JP",
+     "VN"
+    ],
+    "primary": false
+   },
+   {
+    "id": "cert-in-claude-mythos",
+    "category": "cyber",
+    "category_label": "Cyberattacks",
+    "title": "India's CERT-In reportedly gets access to restricted Claude Mythos model",
+    "what": "Indian outlets, citing government sources, report that India's cybersecurity agency CERT-In has gained access to Anthropic's restricted model Claude Mythos. The stated aim is to test its ability to detect and potentially exploit system vulnerabilities.",
+    "why": "Models able to find and exploit software flaws can strengthen defence, but wider access to them also increases the chance that the capability leaks or is misused.",
+    "who": "Indian media citing government sources",
+    "us": "The reports describe the US as having approved sharing the model, which points to the US treating such models as strategic assets.",
+    "watch": "What access terms and safeguards apply, and whether other governments seek similar access.",
+    "evidence": "reported",
+    "severity": "watch",
+    "status": "new",
+    "first_seen": "2026-11-05",
+    "date": "2026-11-05",
+    "sources": [
+     {
+      "t": "Claude Mythos: America gives India the most powerful AI, will strengthen the country against cyberattacks, CERT-In to use it",
+      "o": "Claud Mythos: अमेरिका से भारत को मिला सबसे शक्तिशाली AI, साइबर हमलों के खिलाफ देश को बनाएगा मजबूत, CERT-In करेगी इस्तेमाल",
+      "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVkQybXlScHladDU2cVpqaFFqWTlJcVpZVk5kZ3hhOGJTNjFvQWpYd0NLZ09uaGZQZnotZ25HdzdIUTltU1ZSZnBzQXY1ZmlXaXlHMlZIQjdXeEdWb1dCZGJxanJoc0JQYWp3MmNjZDZUVzl3VXBwR0dVRlRGNTZfQ3pjb0x1RzNybnhZOTU0NHA5SHBtWDVZN0FGemMyWDhZZ1BtMnJubDRvWGN6S3BkMkYtcmViUGN4R045eXpJeDMxOHk4RmxLTUtGakdzMDBRR2Z5VjFKWdIB3AFBVV95cUxQbHA5d0JERU5sdG5PdGxtXzAwb21ld2hFbkE1eWxyS0hHYjR0dW1QMjhpa2NOeDRsc2ZVM01wQTB2RGxOeTdtZ3lrbjdqU1RwdHNkQkdzcU45cENRZnBiVXZBaHNuTG9BaUlscFotSy1yUTBQQThzRVp3MkxVNVBQUHNrR1AyVGNNVHFwMmE3TFFnTXdOLXpZUWRrb2R2Y3RRV1R2Y0lvczA3bmhuRVBnb2g0ejZRQlFhZVFkZWtBS19HQjFsSmN",
+      "s": "Times of India",
+      "c": "IN",
+      "l": "hi",
+      "p": 1793766517,
+      "r": "known"
+     },
+     {
+      "t": "Anthropic warns about AI risks and exposes security vulnerabilities in its systems",
+      "o": "Anthropic advierte sobre los riesgos de la IA y expone vulnerabilidades de seguridad en sus sistemas",
+      "u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd3RBMHlaNEdaSEJsaThEWml2Ym52NlBPM1BmQ0NvNFdWSnkyam85U0l0emxEcktreEpmeV9kRjhvWkZLbEFJdTF5R0U0R3FXaVp2Y2ZtdjNBb1dPZ0gwN3dKNmNHVUQyMHV4dEhCdVB4RW1ZS05KNERYR1BiY1VHeng2OVRtRWxRdTRmTG0xdHE0LWhUWk1xRkpCTFNTWmIxUUh1bmV1bW5na1I5MTA2TmZDYVdCU2RvSjBYZ1JtakhNcUJSci1GS05yMHlLRFVQVzBEOTBsblhiMFBGWmNn?oc=5",
+      "s": "Info Arenales",
+      "c": "MX",
+      "l": "es",
+      "p": 1793788824,
+      "r": "unrated"
+     },
+     {
+      "t": "India’s cybersecurity agency, CERT-In, has secured access to Anthropic’s restricted frontier AI model Claude Mythos to test its ability to detect and potentially exploit system vulnerabilities, government sources said, according to a Moneycontrol report. The mod",
+      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SODR3cjItM3didWlla2k3c2p6UVFHUFdaZWRJTGo3UGNXdkp4bi1OWmRpR1NXS1MwX3ljMFNraHVlSXdrQzh2c0k0UDdxeWdzWHc?oc=5",
+      "s": "Instagram",
+      "c": "US",
+      "l": "en",
+      "p": 1793777785,
+      "r": "unrated"
+     }
+    ],
+    "headlines": 7,
+    "outlets": 7,
+    "independent": 7,
+    "countries": [
+     "IN",
+     "MX",
+     "US"
+    ],
+    "primary": false
+   },
+   {
+    "id": "ai-nuclear-weapons-operations",
+    "category": "military",
+    "category_label": "Military AI",
+    "title": "CNAS report examines risks of AI in nuclear weapons operations",
+    "what": "The US think tank CNAS published a report on reducing the risks of bringing AI into nuclear weapons operations.",
+    "why": "Errors, false warnings or over-reliance on AI in nuclear command and control could raise the chance of a mistaken or escalating nuclear decision.",
+    "who": "Center for a New American Security (researchers)",
+    "us": "The report is aimed largely at US decision-makers who are weighing AI use in defence.",
+    "watch": "Whether nuclear-armed states adopt or discuss the proposed safeguards.",
+    "evidence": "policy",
+    "severity": "watch",
+    "status": "new",
+    "first_seen": "2026-11-05",
+    "date": "2026-11-05",
+    "sources": [
+     {
+      "t": "Mitigating the Risks of AI Integration Into Nuclear Weapons Operations",
+      "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX194el9VWjM4eWZLZTlQTVpRUzBmTDVXdWNlNktLTzg2VVVNVXY0eUVLbVlMNFVnRlZxWUVrTC1qLXUyOVFEMjBDRk1NamlBT0V6czBVNnpLYUhzVmszb0dHRWNNS1F6Y3puMHhFWUl1RllnYkFFbnl5OW1kdkphMTlCb3Bza2VJRDNtQUVKTDVkZVgyeTZWWVZoaHJoTmUzTjNFdFUxVHAwc1V5emo2WktTVzBKdw?oc=5",
+      "s": "CNAS",
+      "c": "US",
+      "l": "en",
+      "p": 1793720791,
+      "r": "primary"
+     }
+    ],
+    "headlines": 1,
+    "outlets": 1,
+    "independent": 1,
+    "countries": [
+     "US"
+    ],
+    "primary": true
+   },
+   {
+    "id": "china-ai-safety-standards",
+    "category": "race-and-rules",
+    "category_label": "Race and rules",
+    "title": "China reportedly preparing broad AI safety and ethics standards",
+    "what": "Outlets in the US and Mexico report that China plans to create broad safety and ethics standards for AI development. A World Internet Conference report on frontier AI security and governance was also presented in China.",
+    "why": "Safety rules in a leading AI country could reduce risky development, or could fall short if they are weak or not enforced.",
+    "who": "Chinese authorities, as reported by media",
+    "us": "Chinese standards could shape whether US-China talks on AI risk find common ground.",
+    "watch": "Whether published standards cover frontier-model testing for dangerous capabilities.",
+    "evidence": "policy",
+    "severity": "watch",
+    "status": "new",
+    "first_seen": "2026-11-05",
+    "date": "2026-11-05",
+    "sources": [
+     {
+      "t": "China plans to create safety and ethics standards for AI development",
+      "o": "China planea crear estándares de seguridad y ética para el desarrollo de la IA",
+      "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0ZCMThoeENveEpEaUZHZUhLc0dzenN0dWFjLTQ4MlRwb2VpbDhpVHcwUm5tckoyTmxjR1hBTlJoR0EwWVI0UE1FTlpKbHdTOVFCNC1ON0dUcWpETExBOEdfRnQ3SV96b2FLUnFGOU5neENPY3prdHJiLUtIRnJIWGVSRVJnZTM2WW9RVDVmaTFaOTJpVk10TjJOTXNiVHpRaEE?oc=5",
+      "s": "Quinta Fuerza",
+      "c": "MX",
+      "l": "es",
+      "p": 1793849838,
+      "r": "unrated"
+     },
+     {
+      "t": "China’s prepping broad AI safety standards",
+      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1RqOVpfMlQzZHczRTNzaG1XV3Y5djgtM3VQZG5yOFdhRm5WcjhHX1RHMjJhdk5vdFNFQ2thWVh2UmlmSWJVejlwcmYzTF9LZHNTd3R0VUkxOHdnWUdoRnVvd0JfMjIwODNkMm4teWtPc1JVRUg2R0F6YnQwcnVHSDU5LV9lUWpX?oc=5",
+      "s": "EnterpriseAM",
+      "c": "US",
+      "l": "en",
+      "p": 1793829600,
+      "r": "unrated"
+     },
+     {
+      "t": "Governing Enterprise AI: Risk, Compliance, and Control",
+      "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkFlWXEwNzBWcEZoMWhCZmJOaWpHWjRXdGx6SU83QlpFUDlFdVBnTkdlSWNxYlBhOUxlSmVaSm5Ua281TkEyQmlvN0NRdUl0NnNMRWlsVlpnR1hscFdscGthci1wOVdfV1RjTFBjM0txTDd1ZTdKRHRuWmVKMXMzR2NXdkhuVUxWZTk2QXhKRE1zZWRJbk1lOFI3Y3hXUGd5S3JOVFA2QktsZjZUNWtV?oc=5",
+      "s": "Database Trends and Applications",
+      "c": "US",
+      "l": "en",
+      "p": 1793741486,
+      "r": "unrated"
+     },
+     {
+      "t": "World Internet Conference | Anheng Information deeply contributes to the report \"Frontier Artificial Intelligence Security and Governance 2026: Risk Perception and Collaborative Governance",
+      "o": "世界互联网大会|安恒信息深度参编《前沿人工智能安全与治理 2026：风险认知与协同治理》报告",
+      "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Zb19fZzViRkhGY2NsUlJwazYyX3RtQmdCUU1tZGJfUFBESk1EcEZmWDZpNnlRZnNFNTlzQ1dnaHFIaFVEdFdyRzh3UWJiV0xZb09XLW5PTUY?oc=5",
+      "s": "Jiemian.com",
+      "c": "CN",
+      "l": "zh",
+      "p": 1793692800,
+      "r": "unrated"
+     },
+     {
+      "t": "World Internet Conference: \"Frontier Artificial Intelligence Safety and Governance 2026: Risk Perception and Collaborative Governance | Information Technology Research Report",
+      "o": "世界互联网大会:《前沿人工智能安全与治理2026：风险认知与协同治理｜信息技术研报》",
+      "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tNHg3T0VUbDdtNF9reUtJQ2QwZTFsZThROFMxbW4tQVl6UXRaRXNRc3NQMlZqNXZJUzlubnpBX3ZYTC1aWW0wNGxTMEl6R1ZJ?oc=5",
+      "s": "发现报告",
+      "c": "CN",
+      "l": "zh",
+      "p": 1793837455,
+      "r": "unrated"
+     }
+    ],
+    "headlines": 8,
+    "outlets": 8,
+    "independent": 8,
+    "countries": [
+     "CN",
+     "MX",
+     "US"
+    ],
+    "primary": false
+   },
+   {
+    "id": "tencent-limited-cyber-data",
+    "category": "cyber",
+    "category_label": "Cyberattacks",
+    "title": "Tencent releases AI model trained with limited cybersecurity data",
+    "what": "Reuters reports that Tencent rolled out an AI model trained with limited cybersecurity data amid fears about hacking.",
+    "why": "Limiting what a model learns about hacking is one way to reduce its usefulness to attackers. Whether such limits hold up matters for the spread of offensive cyber ability.",
+    "who": "Tencent, as reported by Reuters and others",
+    "us": "",
+    "watch": "Whether independent tests show the model's hacking abilities are actually reduced.",
+    "evidence": "reported",
+    "severity": "watch",
+    "status": "new",
+    "first_seen": "2026-11-05",
+    "date": "2026-11-05",
+    "sources": [
+     {
+      "t": "Tencent rolls out AI model trained with limited cybersecurity data amid hacking fears",
+      "u": "https://www.rappler.com/technology/tencent-hy4-ai-model-trained-limited-cybersecurity-data/",
+      "s": "Rappler",
+      "c": "PH",
+      "l": "en",
+      "p": 1793845368,
+      "r": "known"
+     },
+     {
+      "t": "Chinese \"Tencent\" launches AI model to reduce cyberattack risks",
+      "o": "\"تينسنت\" الصينية تطلق نموذج ذكاء اصطناعي للحد من مخاطر الهجمات السيبرانية",
+      "u": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxOTDZDT2xuMEdFeHNzLWlWRngyX01qUE1vSS1pbnpDd1RSUXRMM1BpbE8xb1dhNWMxWXNzbzRpQkZXYWxta2JTQmp1VDNZbDZZR2ViUTBoekpfcUJFd3VVQVIzaHpsLVRrbnppR2hsMTVNUWlydTV0RmZ6RUZXejVxeHRjSWtRSjF0bnUyWHdKcHdhYkdONi1zdV9zcV9pTTlnVHFOdGZON0w1TVFnVlJTUjhrVndzVkxtNi1iWlRyekF4bjZDWXY5Yy1USVlBMUNwVjRZUkhhb19xcTFlLXpWWnhic3hicTJ5ZzRLbGlvTTk4dWk1RGJHWEdSdklTYXhtcFZtZkpVNU42SFBoeUxxZlR4WUNNSFUyQVNCMFM4ZTBLNWIzazhBV2FpZmFhMEJ1QWVjVzdKcVMyUGJLVXFfXzRzX0JKLWhFZFNDaGdOZGc5RzRfRmZLRldUdFVSRUVTb0drejJqeDc1SXljYmQ2c3lhME84Z3pJdmZodEN4a3FmdnFLV3VCekhWdl9kaHBIdjBZandKbWYzWUtIUDljMk5",
+      "s": "Al Arabiya",
+      "c": "SA",
+      "l": "ar",
+      "p": 1793805240,
+      "r": "known"
+     },
+     {
+      "t": "Tencent rolls out AI model trained with limited cybersecurity data amid hacking fears",
+      "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSmctOGpnNzF6QjZkU1BvQ3VUSmhmb2I3bXRQQjQyeWRudFp4bHR2WXpIbDFpY0FLR2JTUnp4eTMzN3ozWDk5cGpydzkxZ205MzFWRThkb2ZLVXVjak5LaUNQaFZFeUllQ0YydHFoUWVWNVZ0Z2JNS19YUTR0TWYzNkw3YTVhY3VRRnRoM3NqYzBoWG5wdE94aktTcXp2OGE3czlRQnUtQm1Vd3RBQ1NJNExRLW1ndTlvckpwSFhzTDZ2MkYtbm9OVmNfa2M?oc=5",
+      "s": "Reuters",
+      "c": "GB",
+      "l": "en",
+      "p": 1793796012,
+      "r": "known"
+     },
+     {
+      "t": "Tencent rolls out AI model trained with limited cybersecurity data amid hacking fears",
+      "u": "https://www.straitstimes.com/world/tencent-rolls-out-ai-model-trained-with-limited-cybersecurity-data-amid-hacking-fears",
+      "s": "The Straits Times",
+      "c": "SG",
+      "l": "en",
+      "p": 1793791912,
+      "r": "known"
+     }
+    ],
+    "headlines": 8,
+    "outlets": 8,
+    "independent": 4,
+    "countries": [
+     "GB",
+     "PH",
+     "SA",
+     "SG",
+     "US"
+    ],
+    "primary": false
+   },
+   {
+    "id": "superintelligence-control-statements",
+    "category": "loss-of-control",
+    "category_label": "Loss of control",
+    "title": "Altman and Hinton speak on limits and risks of advanced AI",
+    "what": "OpenAI's Sam Altman said human control must set limits on superintelligence. Geoffrey Hinton told The Guardian that the world might turn out to have been better off without AI.",
+    "why": "Leading figures stress that keeping control of very capable AI is unsolved. Experts disagree on how close or how likely such risks are.",
+    "who": "Sam Altman (OpenAI); Geoffrey Hinton (researcher)",
+    "us": "",
+    "watch": "Whether such statements are followed by concrete commitments or rules.",
+    "evidence": "claimed",
+    "severity": "watch",
+    "status": "new",
+    "first_seen": "2026-11-05",
+    "date": "2026-11-05",
+    "sources": [
+     {
+      "t": "Human control must set limits on superintelligence, says OpenAI's Sam Altman",
+      "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbHkzQzBlcU1BbzhTSDhQVExQS0lrN2hLNkYzSEV2S1kxNVF4VUl4V3VLZ19lY2ZUYkY3OGhCX3hpS2VEdXlXTXlyTjFueHo5TlhQNFpLcmotQ2VMNlEyZ1RSaWJhX0xxbmZKdDA5SGJFbWRhenVIY212V04zckFwX0VTXzQtUUFTQ1RGVGprdGlCVlktQnZRV1hPcHZIbDJldTgwNFpIYWdaZFNGTnR2Y09FUnNhb29tUXNMRThLdUE4cmM?oc=5",
+      "s": "ANI",
+      "c": "IN",
+      "l": "en",
+      "p": 1793760360,
+      "r": "known"
+     },
+     {
+      "t": "Superintelligent AI needs human limits, says Sam Altman",
+      "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9mU3R3Rk1FVkhlWDlDM0ZwWlU5OXlLYjRWbldIVzlVcWFLUWtKSF80d19ac3lnSXJPcFpSTG84YTI0NzBPQU5lZWZVT183RWUyTGxFcGg1ZlZueDdxOHBKV3ZSQ21CZUg0QmVjNE13blJVY3JMdFJWdWxGRDQ0OE0?oc=5",
+      "s": "YourStory.com",
+      "c": "US",
+      "l": "en",
+      "p": 1793785918,
+      "r": "unrated"
+     },
+     {
+      "t": "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI",
+      "u": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "s": "The Guardian",
+      "c": "GB",
+      "l": "en",
+      "p": 1793741742,
+      "r": "known"
+     },
+     {
+      "t": "Godfather of AI\" Geoffrey Hinton: the world might have been better off without developing this technology",
+      "o": "\"عرّاب الذكاء الاصطناعي\" جيفري هينتون: ربما كان العالم أفضل من دون تطوير هذه التقنية",
+      "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pSGNCUExCUndsS2ZJV0dyaXFjRDg0dVRlLUpwNXYwTllNOHVMMldtZG5VX05fdnBmTWwtZkdaNGtPMWtRTEJOVHdCQQ?oc=5",
+      "s": "عرب لندن",
+      "c": "EG",
+      "l": "ar",
+      "p": 1793792295,
+      "r": "unrated"
+     }
+    ],
+    "headlines": 6,
+    "outlets": 6,
+    "independent": 6,
+    "countries": [
+     "EG",
+     "GB",
+     "IN",
+     "US"
+    ],
+    "primary": false
+   }
+  ],
+  "read": {
+   "headlines": 510,
+   "outlets": 372,
+   "countries": 44,
+   "languages": 13,
+   "stories": 45
+  },
+  "categories": {
+   "ai-building-ai": "AI building AI",
+   "weapons": "Weapons of mass destruction",
+   "cyber": "Cyberattacks",
+   "loss-of-control": "Loss of control",
+   "military": "Military AI",
+   "critical-systems": "Critical systems",
+   "misuse": "Misuse at scale",
+   "race-and-rules": "Race and rules"
+  }
+ }
 }
