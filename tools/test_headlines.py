@@ -192,6 +192,8 @@ class EndToEnd(unittest.TestCase):
             gn = [x for x in out["items"] if x["v"] == "gnews"][0]
             self.assertEqual((gn["s"], gn["c"]), ("Le Monde", "FR"))
             self.assertGreaterEqual(out["stats"]["languages"], 3)
+            full = json.load(open(os.path.join(d, "live", "corpus.json"), encoding="utf-8"))
+            self.assertEqual(len(full["items"]), len(out["items"]))           # all fit under the app's size limit here
             r = next(x for x in out["items"] if x["t"].startswith("Exclusive"))
             self.assertEqual((r["v"], r["s"], r["c"]), ("site", "Reuters", "GB"))
             a = next(x for x in out["items"] if "sabotage" in x["t"])

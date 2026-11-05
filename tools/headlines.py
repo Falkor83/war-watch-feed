@@ -26,6 +26,7 @@ WAIT_MIN = float(os.environ.get("WW_TRANSLATE_WAIT_MIN", "15"))
 MAX_TRANSLATE = int(os.environ.get("WW_MAX_TRANSLATE", "2500"))       # per run, so a flood can't run up a bill
 WINDOW_H = 48
 MAX_ITEMS = 12000
+APP_BYTES = int(os.environ.get("WW_APP_BYTES", str(3_600_000)))      # headlines.json for the app (0.3.0 limit: 4 MiB)
 POLL_S = 20
 GNEWS_GAP = 1.0
 GDELT_BUDGET_S = float(os.environ.get("WW_GDELT_BUDGET_S", "720"))  # at most 12 minutes of GDELT a run; the rest next hour
@@ -566,7 +567,16 @@ def main():
            "items": [{k: v for k, v in (("u", x["u"]), ("t", x["t"]), ("o", x["o"] if x["l"] != "en" else ""), ("l", x["l"]),
                                          ("s", x["s"]), ("d", x["d"]), ("c", x["c"]), ("p", x["p"]), ("v", x["v"]),
                                          ("h", x["h"]), ("x", x.get("x", ""))) if v not in ("", [], None)} for x in shown]}
-    save_json(os.path.join(LIVE, "headlines.json"), out, indent=None)
+    # corpus.json: everything, for the ratings and focus jobs. headlines.json: what the app downloads, newest first,
+    # kept under APP_BYTES (War Watch 0.3.0 refuses downloads over 4 MiB and then shows no worldwide headlines at all).
+    save_json(os.path.join(LIVE, "corpus.json"), out, indent=None)
+    app, size = [], 2000
+    for x in out["items"]:
+        size += len(json.dumps(x, ensure_ascii=False).encode("utf-8")) + 2
+        if size > APP_BYTES: break
+        app.append(x)
+    save_json(os.path.join(LIVE, "headlines.json"), dict(out, items=app, app_items=len(app)), indent=None)
+    if len(app) < len(out["items"]): ok(f"app file: newest {len(app)} of {len(out['items'])} headlines (size limit)")
     # the full window (also the irrelevant and untranslated ones) so the next run doesn't fetch-and-translate twice
     save_json(os.path.join(LIVE, "state.json"), {"tr": state["tr"], "pending": state.get("pending", []),
                                                  "items": [x for x in items if x["p"] >= cutoff]}, indent=None)

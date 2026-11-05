@@ -24,7 +24,7 @@ jobs:
       - name: Get the worldwide headlines
         run: |
           mkdir -p live
-          git fetch -q --depth 1 origin live && git archive FETCH_HEAD headlines.json spend.json | tar -x -C live && echo "[OK] headlines ready"
+          git fetch -q --depth 1 origin live && git archive FETCH_HEAD | tar -x -C live && echo "[OK] headlines ready"
       - name: Update now
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

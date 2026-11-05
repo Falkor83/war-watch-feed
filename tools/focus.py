@@ -20,6 +20,10 @@ from wwapi import step, ok, warn, err, save_json
 
 ROOT = wwapi.ROOT
 LIVE = os.environ.get("WW_LIVE_DIR", os.path.join(ROOT, "live"))
+def corpus_path():
+    """The full worldwide corpus (corpus.json); headlines.json, the app's smaller copy, before that existed."""
+    c = os.path.join(LIVE, "corpus.json")
+    return c if os.path.exists(c) else os.path.join(LIVE, "headlines.json")
 FEED = os.path.join(ROOT, "feed.json")
 CFG = os.path.join(ROOT, "config", "focus.json")
 OUT = os.environ.get("WW_FOCUS_OUT", os.path.join(ROOT, ".focus_out.json"))
@@ -238,7 +242,7 @@ def compute(force):
     cfg = load(CFG, {"focus": []})
     feed = load(FEED, None)
     if not feed: raise SystemExit("[ERROR] feed.json missing")
-    corpus = load(os.path.join(LIVE, "headlines.json"), {"items": []}) or {"items": []}
+    corpus = load(corpus_path(), {"items": []}) or {"items": []}
     items = corpus.get("items") or []
     run_budget = os.path.join(ROOT, ".focus_run_budget.json")
     if os.path.exists(run_budget): os.remove(run_budget)

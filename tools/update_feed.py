@@ -34,6 +34,10 @@ REGIONS = ["Europe", "Middle East", "Africa", "Asia-Pacific", "Americas"]
 ROOT = wwapi.ROOT
 FEED, HISTORY, OUTLOOKS = (os.path.join(ROOT, f) for f in ("feed.json", "history.json", "outlooks.json"))
 LIVE = os.environ.get("WW_LIVE_DIR", os.path.join(ROOT, "live"))     # the hourly headlines job's branch, fetched by the workflow
+def corpus_path():
+    """The full worldwide corpus (corpus.json); headlines.json, the app's smaller copy, before that existed."""
+    c = os.path.join(LIVE, "corpus.json")
+    return c if os.path.exists(c) else os.path.join(LIVE, "headlines.json")
 BOIL_GDELT = os.environ.get("WW_BOIL_GDELT", "1") == "1"
 CORPUS = {"items": []}
 NOTES_DIR = os.path.join(ROOT, "notes")
@@ -715,7 +719,7 @@ def main():
         validate_feed(feed); ok(f"feed.json is valid: {len(feed['conflicts'])} hotspots, schema {feed.get('schema', 1)}"); return
     history = load(HISTORY, {"days": []})["days"]
     if mode == "panel":                                      # dry run of the boiling point's data: no API call, nothing saved
-        CORPUS.update(load(os.path.join(LIVE, "headlines.json"), {"items": []}) or {"items": []})
+        CORPUS.update(load(corpus_path(), {"items": []}) or {"items": []})
         t = today(); cands, scores = wwboil.candidates(feed, feed.get("boil") or [], t, LISTS.get("nuclear_states", []))
         print(f"candidates: {[(c, scores[c]) for c in cands]}")
         src, n = wwboil.Sources(t), 1
@@ -744,7 +748,7 @@ def main():
     fb = load(os.path.join(ROOT, "focus_budget.json"), {}) or {}        # the every-few-hours focus updates (tools/focus.py)
     if fb.get("month") == budget["month"]: budget["focus_usd"] = round(fb.get("usd", 0.0), 4)
     budget["total_usd"] = round(budget["usd"] + budget.get("headlines_usd", 0.0) + budget.get("focus_usd", 0.0), 4)
-    CORPUS.update(load(os.path.join(LIVE, "headlines.json"), {"items": []}) or {"items": []})
+    CORPUS.update(load(corpus_path(), {"items": []}) or {"items": []})
     ok(f"worldwide headlines: {len(CORPUS.get('items') or [])} available (generated {CORPUS.get('generated', 'never')})")
     level = pace(budget)
     if level == "stop" or (mode == "weekly" and budget["total_usd"] > MONTHLY_CAP_USD - 4):
