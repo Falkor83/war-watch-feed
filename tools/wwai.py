@@ -93,7 +93,9 @@ def check(ans, stories, prev, today, log):
         if len(out) >= 8: break
     order = {s: i for i, s in enumerate(SEVERITY)}
     out.sort(key=lambda x: (order[x["severity"]], x["status"] != "new"))
-    summary, cut = wwscore.drop_unsupported_sentences(str((ans or {}).get("summary", ""))[:600], facts(list(by)))
+    raw = str((ans or {}).get("summary", "")).strip()
+    if len(raw) > 600: raw = raw[:600].rsplit(". ", 1)[0].rstrip(".") + "."     # whole sentences only
+    summary, cut = wwscore.drop_unsupported_sentences(raw, facts(list(by)))
     if cut: log.append(f"{cut} summary sentence(s) with unbacked numbers removed")
     return summary, out
 
