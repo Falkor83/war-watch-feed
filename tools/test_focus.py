@@ -3,7 +3,7 @@ python3 -m unittest -v tools/test_focus.py"""
 import json, os, shutil, sys, tempfile, time, unittest, datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import wwapi, wwboil, wwstories, focus
+import wwapi, wwboil, wwstories, wwai, focus
 from test_feed import FakeSources, msg
 
 CID = "us-israel-iran-war"
@@ -172,3 +172,65 @@ class FocusTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+AI = [item("Anthropic co-founder says AI could build smarter AI on its own within a few years", "US", "Axios", "axios.com", 60, h=["ai-risk"]),
+      item("Anthropic's co-founder warns AI may soon build better AI on its own", "GB", "Guardian", "theguardian.com", 70, h=["ai-risk"]),
+      item("AI co-founder: smarter AI could build itself in a few years", "IN", "Times of India", "timesofindia.indiatimes.com", 80, h=["ai-risk"]),
+      item("Safety institute: model helped novices with 3 of 5 bioweapon steps", "GB", "UK AI Security Institute", "aisi.gov.uk", 90, h=["ai-risk"]),
+      item("Chatbot jailbreak spreads on forums", "US", "Some Blog", "blog.example", 100, v="gsearch", h=["ai-risk"]),
+      item("Pentagon to test AI targeting aids in drills", "US", "Defense News", "defensenews.com", 110, h=["ai-risk"])]
+
+class WorldNotesAndAITests(unittest.TestCase):
+    def setUp(self):
+        import update_feed
+        self.uf = update_feed
+        self.saved = (dict(update_feed.CORPUS), wwapi.BUDGET, wwapi.http, wwapi.USE_BATCH)
+        wwapi.USE_BATCH = False
+        self.dir = tempfile.mkdtemp(); wwapi.BUDGET = os.path.join(self.dir, "budget.json")
+        update_feed.CORPUS.clear(); update_feed.CORPUS["items"] = HEADLINES + AI
+        os.environ["ANTHROPIC_API_KEY"] = "test"
+        wwboil._ASSIGNED.clear()
+    def tearDown(self):
+        self.uf.CORPUS.clear(); self.uf.CORPUS.update(self.saved[0]); wwapi.BUDGET, wwapi.http, wwapi.USE_BATCH = self.saved[1:]
+        wwboil._ASSIGNED.clear(); shutil.rmtree(self.dir)
+
+    def test_world_notes(self):
+        feed = json.load(open(os.path.join(HERE, "fixtures", "feed.json")))
+        notes = self.uf.world_notes(feed)
+        iran = [n for n in notes if n["hotspot"] == CID]
+        self.assertTrue(iran); self.assertTrue(all(n["id"].startswith("g") for n in notes))
+        strike = next(n for n in iran if "Qeshm" in n["fact"] and "independent" in n["fact"])
+        self.assertIn("independent sources in", strike["fact"])
+        self.assertNotEqual(strike["home"], "IR")                      # the outside account comes first...
+        self.assertTrue(any(n["home"] == "IR" for n in iran))          # ...and the sides' own version is there too
+
+    def test_ai_stage(self):
+        ans = {"summary": "A lab co-founder forecast AI building AI; a safety institute reported bioweapon help in tests.",
+               "items": [{"id": "ai-builds-ai", "category": "ai-building-ai", "title": "Anthropic co-founder: AI may build better AI on its own",
+                          "what": "Anthropic's co-founder said AI could build smarter AI on its own within a few years.",
+                          "why": "AI improving AI quickly could outrun safety checks.", "evidence": "forecast", "who": "Anthropic co-founder",
+                          "severity": "high", "status": "new", "us": "", "watch": "Lab safety reports", "stories": ["a1"]},
+                         {"id": "bio-uplift", "category": "weapons", "title": "Institute: model helped with 3 of 5 bioweapon steps",
+                          "what": "The UK AI Security Institute said a model helped novices with 3 of 5 steps.", "why": "Uplift for attackers.",
+                          "evidence": "demonstrated", "who": "UK AI Security Institute", "severity": "high", "status": "new", "stories": ["a2"]},
+                         {"id": "jailbreak", "category": "misuse", "title": "Jailbreak spreads", "what": "A jailbreak spread on 40 forums.",
+                          "why": "x", "evidence": "reported", "who": "blog", "severity": "high", "status": "new", "stories": ["a3"]},
+                         {"id": "jb2", "category": "misuse", "title": "Jailbreak spreads", "what": "A jailbreak spread on forums.",
+                          "why": "Misuse.", "evidence": "reported", "who": "a blog", "severity": "high", "status": "new", "stories": ["a4", "a99"]}]}
+        st = wwai.stories_for(wwai.ai_items(AI, NOW))
+        ids = {f"a{i + 1}": s for i, s in enumerate(st)}
+        sid = lambda w: next(k for k, s in ids.items() if any(w in x["t"] for x in s["items"]))
+        ans["items"][0]["stories"] = [sid("co-founder")]; ans["items"][1]["stories"] = [sid("Safety institute")]
+        ans["items"][2]["stories"] = [sid("jailbreak")]; ans["items"][3]["stories"] = [sid("jailbreak")]
+        wwapi.http = lambda m, u, body=None, timeout=900, raw=False: msg("```json\n" + json.dumps(ans) + "\n```", tin=12000, tout=3000)
+        budget = wwapi.load_budget()
+        out = self.uf.ai_stage({"conflicts": []}, budget)
+        a = out["ai_risk"]
+        got = {i["id"]: i for i in a["items"]}
+        self.assertEqual(got["ai-builds-ai"]["severity"], "high")          # 3 independent sources in 3 countries
+        self.assertEqual(got["bio-uplift"]["severity"], "high")            # a primary source
+        self.assertTrue(got["bio-uplift"]["primary"])
+        self.assertNotIn("jailbreak", got)                                 # 40 is in no headline
+        self.assertEqual(got["jb2"]["severity"], "elevated")               # one blog: not high
+        self.assertEqual(a["read"]["headlines"], 6)
+        self.assertGreater(budget["usd"], 0)

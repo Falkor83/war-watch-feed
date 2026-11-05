@@ -25,7 +25,7 @@ night because Matt is moving back to the $100/month plan and everything on his A
 """
 import json, os, re, sys, time, datetime, calendar
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import wwapi, wwdata, wwscore, wwboil
+import wwapi, wwdata, wwscore, wwboil, wwstories, wwai
 from wwapi import step, ok, warn, err, save_json, MONTHLY_CAP_USD
 
 GATHER_MODEL = os.environ.get("WW_GATHER_MODEL", "claude-sonnet-5-5")
@@ -284,6 +284,66 @@ def collect_notes(results, feed, prefix="n"):
         except OSError: pass
     return notes
 
+def world_notes(feed, hours=36, total=140):
+    """The deep dive: every hotspot's worldwide headlines of the last day and a half, grouped into stories, become citable
+    notes (g01, g02 ...): for each of its best-covered stories, the clearest headline from outside the fighting sides,
+    plus the sides' own version when they reported it, each saying how many independent sources in how many countries
+    and regions carried the story. Red, '!' and escalating hotspots get more stories."""
+    items = CORPUS.get("items") or []
+    if not items: return []
+    now, t = int(time.time()), today()
+    tags = wwboil.assigned(feed["conflicts"], items)
+    by_hot = {}
+    for x, ids in zip(items, tags):
+        if (x.get("p") or 0) < now - hours * 3600 or not x.get("t"): continue
+        for cid in ids: by_hot.setdefault(cid, []).append(x)
+    def weight(c): return 6 if c["severity"] == "red" or c.get("us_watch") or c["trend"] == "escalating" else 3
+    pm, raw = parties_map(feed), []
+    for c in sorted(feed["conflicts"], key=lambda c: -weight(c)):
+        mine = by_hot.get(c["id"]) or []
+        if len(mine) < 3: continue
+        parties = {wwdata.iso(p) for p in c.get("parties") or []} - {""}
+        st = wwstories.cluster(mine)
+        for s_ in st: s_["stats"] = wwstories.stats(s_, parties)
+        st = [s_ for s_ in st if s_["stats"]["independent"] >= 2 or (c["severity"] == "red" and s_["stats"]["headlines"] >= 1 and s_["stats"]["party_only"])]
+        st.sort(key=lambda s_: (-(s_["stats"]["independent"] + 2 * s_["stats"]["outside_regions"]), -s_["stats"]["newest"]))
+        for k, s_ in enumerate(st[:weight(c)]):
+            sts = s_["stats"]
+            line = (f"{sts['independent']} independent source{'s' if sts['independent'] != 1 else ''} in {len(sts['countries'])} "
+                    f"countr{'ies' if len(sts['countries']) != 1 else 'y'} ({', '.join(sts['countries'][:6])})"
+                    + ("; only the sides' own media" if sts["party_only"] else ""))
+            pick = sorted(s_["items"], key=lambda x: (x.get("c") in parties, wwstories.tier(x) != "known", -(x.get("p") or 0)))
+            chosen = [pick[0]]
+            side = next((x for x in pick if x.get("c") in parties and x is not pick[0]), None)
+            if side and not sts["party_only"]: chosen.append(side)
+            for x in chosen:
+                raw.append({"hotspot": c["id"], "event": f"world story {c['id'][:30]} {k + 1}",
+                            "date": min(t, datetime.datetime.fromtimestamp(x.get("p") or now, datetime.timezone.utc).date().isoformat()),
+                            "fact": f"Headline{' (translated from ' + x['l'] + ')' if x.get('l', 'en') != 'en' else ''}: {x['t'][:240]} "
+                                    f"[story carried by {line}]",
+                            "url": x["u"], "outlet": x.get("s", ""), "country": wwdata.country_name(x.get("c", "")) if x.get("c") else "",
+                            "origin": "own", "claim_by": "reporters", "stance": "neutral", "frame": "", "tripwire": "",
+                            "state_media": wwstories.tier(x) == "state"})
+        if len(raw) >= total: break
+    notes, _ = wwdata.clean_notes([r for r in raw if r["url"].startswith("https://")], set(), pm, t, "g")
+    seen, out = set(), []
+    for n in notes:
+        u = wwapi.norm_url(n["url"])
+        if u in seen: continue
+        seen.add(u); n["id"] = f"g{len(out) + 1:02d}"; out.append(n)
+    ok(f"{len(out)} worldwide-headline notes for {len({n['hotspot'] for n in out})} hotspots, from {len({n['home'] for n in out})} countries")
+    return out
+
+def ai_stage(out, budget):
+    system = prompt("rules.md") + "\n\n" + prompt("ai_risk.md")
+    before = (out.get("ai_risk") or {}).get("date")
+    out = wwai.stage(out, CORPUS.get("items") or [], budget, ANALYST_MODEL, system, today(), warn)
+    a = out.get("ai_risk") or {}
+    if a.get("date") == today() and before != today():
+        ok(f"AI risk: {len(a['items'])} items from {a['read']['headlines']} headlines ({a['read']['outlets']} outlets, "
+           f"{a['read']['countries']} countries): " + "; ".join(f"{i['severity']} {i['category']}: {i['title']}" for i in a["items"][:5]))
+    return out
+
 def coverage_table(feed, hours=24):
     """Who reported each hotspot in the last day, from the hourly worldwide headlines (all languages, translated).
     Context for the analyst: it can't be cited, but it shows where coverage is one-sided or silent."""
@@ -307,7 +367,11 @@ def analyst_request(feed, notes, label="daily analysis"):
             f"WORLDWIDE COVERAGE in the last 24 hours (hourly headline collection, all languages translated; context only, not citable)\n"
             f"{coverage_table(feed)}\n\n"
             f"CYBER AND SABOTAGE ITEMS\n{cyber_table(feed)}\n\nUS OVERVIEW NOW\n{feed.get('us_overview', '')}\n\n"
-            f"NOTES gathered today (cite these IDs only)\n{notes_table(notes)}\n\nReturn the JSON described in your instructions.")
+            f"NOTES gathered today (cite these IDs only). n- and w-notes come from today's searches and read articles; g-notes are "
+            f"worldwide headlines from the hourly collection (all languages, translated), one per story, each saying how many "
+            f"independent sources in how many countries carried it. Use g-notes to confirm, contest or widen the others and to "
+            f"see what other regions report; a headline is thinner evidence than an article, so prefer the others for details.\n"
+            f"{notes_table(notes)}\n\nReturn the JSON described in your instructions.")
     return {"label": label, "model": ANALYST_MODEL, "system": system, "user": user, "max_uses": 0, "max_tokens": 20000, "estimate": 0.3}
 
 SEV_RANK = {"yellow": 0, "red": 1}; LEVEL_RANK = {"low": 0, "indirect": 1, "direct": 2}
@@ -557,12 +621,14 @@ def run_daily(feed, budget, history, level):
     if not res: raise SystemExit("[ERROR] no research notes came back; feed left as it was")
     notes = collect_notes(res, feed)
     if len(notes) < 8: raise SystemExit(f"[ERROR] only {len(notes)} usable notes; feed left as it was")
+    notes += world_notes(feed)
     ans = wwapi.run([analyst_request(feed, notes)], budget)
     if not ans: raise SystemExit("[ERROR] the analysis didn't come back; feed left as it was")
     patch = wwapi_extract(ans["daily analysis"][0])
     out, changed = merge_analysis(feed, patch, notes, history, "daily")
     if isinstance(patch, dict) and patch.get("log"): print(f"Notes: {str(patch['log'])[:400]}")
     out = boil_stage(out, notes, budget)
+    out = ai_stage(out, budget)
     return out, changed
 
 def run_weekly(feed, budget, history, level):
@@ -574,6 +640,7 @@ def run_weekly(feed, budget, history, level):
     res = wwapi.run(gather_requests(feed, focus, searches), budget)
     if not res: raise SystemExit("[ERROR] no research notes came back; feed left as it was")
     notes = collect_notes(res, feed, prefix="w")
+    notes += world_notes(feed)
     system = prompt("rules.md") + "\n\n" + prompt("weekly.md")
     reqs = []
     for r in REGIONS:
@@ -602,6 +669,7 @@ def run_weekly(feed, budget, history, level):
     else:
         warn("big picture didn't come back; signals kept as they were"); out = work
     out = boil_stage(out, notes, budget)
+    out = ai_stage(out, budget)
     return out, changed
 
 def migrate(feed):
