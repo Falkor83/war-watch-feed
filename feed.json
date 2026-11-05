@@ -9985,7 +9985,7 @@
  ],
  "ai_risk": {
   "date": "2026-11-05",
-  "summary": "This is the first day of tracking, so there is no comparison with yesterday. The most serious threads are Anthropic's reported warning that AI may soon be able to improve itself, and government cyber agencies in the UK and India warning that AI is boosting attacks on critical systems. Reports that OpenAI staff flagged security lapses for years, and India gaining access to a restricted Anthropic model for vulnerability testing, raise questions about who can reach powerful cyber-capable AI. Much of the remaining AI-risk coverage was about workplace safety, privacy, stock markets and product laun",
+  "summary": "This is the first day of tracking, so there is no comparison with yesterday. The most serious threads are Anthropic's reported warning that AI may soon be able to improve itself, and government cyber agencies in the UK and India warning that AI is boosting attacks on critical systems. Reports that OpenAI staff flagged security lapses for years, and India gaining access to a restricted Anthropic model for vulnerability testing, raise questions about who can reach powerful cyber-capable AI.",
   "items": [
    {
     "id": "anthropic-self-improving-ai",
