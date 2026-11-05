@@ -1686,9 +1686,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Tanker fires reported in Hormuz, cause unconfirmed; Trump says no attack planned soon",
+   "status": "Mine and shelling reports in Hormuz; Iran and Oman discuss reopening the strait",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been disrupted. Iran's Revolutionary Guards say several tankers hit mines or caught fire while crossing the strait on Nov 4-5. Reports name between two and four ships, and no independent source has confirmed what caused the fires. Trump told Fox News the US may need to strike Iran hard. Outlets from South Asia, Europe and the Gulf report that the Republicans' midterm losses complicate his options, and Trump says he would still choose the war again.",
    "latest": [
+    {
+     "date": "2026-11-05",
+     "text": "Iranian state media (IRNA) and Iran's army say tankers hit mines east of the Strait of Hormuz, with one tanker on fire. Turkish broadcaster TRT carries the army's claim that two oil tankers hit sea mines. These are Iran's accounts and are not independently confirmed.",
+     "outlet": "IRNA English",
+     "country": "Iran",
+     "url": "https://en.irna.ir/news/86313445/Offending-tanker-hits-mines-catches-fire-east-of-Hormuz",
+     "region": "iran",
+     "tag": "non-party",
+     "state_media": true
+    },
+    {
+     "date": "2026-11-05",
+     "text": "Russian agency Interfax, citing the UK Maritime Trade Operations (UKMTO), reports shelling of a tanker in the Persian Gulf. This comes from one source so far.",
+     "outlet": "Interfax",
+     "country": "Russia",
+     "url": "https://www.interfax.ru/world/1127235",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-05",
+     "text": "A South Korean outlet reports a South Korean maritime patrol aircraft is watching just off Hormuz and that an explosive ordnance disposal unit is preparing for mine clearance.",
+     "outlet": "Hankyoreh English",
+     "country": "South Korea",
+     "url": "https://www.hani.co.kr/arti/politics/defense/1286028.html",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-05",
      "text": "Tagesschau and other outlets report two oil tankers apparently caught fire in the Strait of Hormuz. Iran's Revolutionary Guards say they caused the fires and also claim they captured two US drones. Iran's navy says a tanker hit a mine in the eastern strait. None of these accounts has been independently confirmed.",
@@ -1735,36 +1765,6 @@
      "outlet": "The Hindu",
      "country": "India",
      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOd2dzTGNyR0pZVHVVMS00c3JMR1p1RVZBeDljUFctczYwNGNqN3k3MDV1MTlHaUhWLWFXVmlVWHZ0TnlGaEduNUdtMmhVVklhbzk5UGJ0enQtd0k0TVFBS2RyRUU1aFg3aW4wb21oeDQycFZNUHVpSElPLVZRNmR5dS1idjRkeUVvTVBwMnhHUldQMVVkSXhRd2hlUVVWeDNFU1B1QktwRFhoZnQwX0p1Ri1sTVBGQjUwbGVmWVdJOWUxS3p0blZhc0U0bkk0Vl9pZVhjVVROTEU2Yy1NSXJTWWpyOGs1QXU5YTkzZXVodkJHc2NLWlJFb2FGbHBGUnRhYUNwMHhR?oc=5",
-     "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "Headline: Trump under pressure on Iran war after Republicans' midterms defeat [story carried by 11 independent sources in 12 countries (BR, EG, FR, IL, IR, LB)]",
-     "outlet": "Geo News",
-     "country": "Pakistan",
-     "url": "https://www.geo.tv/latest/689809-trump-under-pressure-on-iran-war-after-republicans-midterms-defeat",
-     "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "Iran's Revolutionary Guards say two tankers and a tug caught fire in the Strait of Hormuz; one report gives a count of three ships. Outlets from several countries carry the claim, and the BBC reports fires on two oil tankers. The cause has not been independently confirmed.",
-     "outlet": "CNN",
-     "country": "United States",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMm1WOTBKZmx3S3BXdnFiNmczbXUyVTQ4ZkRKaXZaa2lMQUVJc1FYWDFPLU9pZ1BveWNGenlGS2kyVGJPT2ZLU2FCc0dOSTlUYk5naWxFd2Z5ZldkelFnVXNYNnp6NGNJNGpqNjZQdS11ZW5WOTh1WjRZLWV4aVE1cC1DWHJ5UkJJOWN2V3FnU2NlUUVLQ0NJ?oc=5",
-     "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "The UK Maritime Trade Operations (UKMTO) reports a tanker was hit by two unidentified projectiles off the Qatar coast. Crew status is unknown. This comes from a single outlet so far.",
-     "outlet": "Hindustan Times World",
-     "country": "India",
-     "url": "https://www.hindustantimes.com/world-news/tanker-hit-by-2-unidentified-projectiles-off-qatar-coast-crew-status-remains-unknown-ukmto-101793868023275.html",
      "region": "south-asia",
      "tag": "non-party",
      "state_media": false
@@ -10430,91 +10430,86 @@
      "at": "2026-11-05T12:34:19Z",
      "headline": "Tanker fires reported in Hormuz, cause unconfirmed; Trump says no attack planned soon",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-05T15:36:32Z",
+     "headline": "Mine and shelling reports in Hormuz; Iran and Oman discuss reopening the strait",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-05T12:34:19Z",
-   "next_at": "2026-11-05T15:34:19Z",
-   "headline": "Tanker fires reported in Hormuz, cause unconfirmed; Trump says no attack planned soon",
+   "updated_at": "2026-11-05T15:36:32Z",
+   "next_at": "2026-11-05T18:36:32Z",
+   "headline": "Mine and shelling reports in Hormuz; Iran and Oman discuss reopening the strait",
    "direction": "steady",
    "points": [
     {
-     "text": "Tagesschau and other outlets report two oil tankers apparently caught fire in the Strait of Hormuz. Iran's Revolutionary Guards say they caused the fires and also claim they captured two US drones. Iran's navy says a tanker hit a mine in the eastern strait. None of these accounts has been independently confirmed.",
+     "text": "Iranian state media (IRNA) and Iran's army say tankers hit mines east of the Strait of Hormuz, with one tanker on fire. Turkish broadcaster TRT carries the army's claim that two oil tankers hit sea mines. These are Iran's accounts and are not independently confirmed.",
      "stories": [
-      "s3",
-      "s9"
+      "s5",
+      "s10"
      ],
      "sources": [
       {
-       "t": "Strait of Hormuz: two oil tankers apparently caught fire",
-       "o": "Straße von Hormus: Zwei Öltanker offenbar in Brand geraten",
-       "u": "https://www.tagesschau.de/ausland/asien/iran-hormus-oeltanker-100.html",
-       "s": "Tagesschau Ausland",
-       "c": "DE",
-       "l": "de",
-       "p": 1793879278,
-       "r": "known"
-      },
-      {
-       "t": "Iranian navy reports tanker on fire in Strait of Hormuz",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-navy-reports-tanker-fire-strait-hormuz",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1793878533,
-       "r": "known"
-      },
-      {
-       "t": "IRGC Reports Tanker Fires in Hormuz and Capture of Two U.S. Drones",
-       "u": "https://iranwire.com/en/news/159824-irgc-reports-tanker-fires-in-hormuz-and-capture-of-two-us-drones/",
-       "s": "IranWire",
+       "t": "Offending tanker hits mines, catches fire east of Hormuz",
+       "u": "https://en.irna.ir/news/86313445/Offending-tanker-hits-mines-catches-fire-east-of-Hormuz",
+       "s": "IRNA English",
        "c": "IR",
        "l": "en",
-       "p": 1793873249,
-       "r": "known"
+       "p": 1793886458,
+       "r": "state"
       },
       {
-       "t": "Iranian navy: a tanker hit a mine in the eastern part of the Strait of Hormuz",
-       "o": "ВМС Ирана: в восточной части Ормузского пролива танкер подорвался на мине",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28288905",
-       "s": "TASS",
-       "c": "RU",
-       "l": "ru",
-       "p": 1793878320,
-       "r": "state"
+       "t": "Houthi fires missile toward Medina, Saudi Arabia shoots it down in the air, tanker hits mine in Hormuz",
+       "o": "मदीना की तरफ हूती ने दागी मिसाइल, सऊदी अरब ने हवा में मार गिराया, होर्मुज में माइन से टकराया टैंकर",
+       "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYWhnMmJBQTEwLXRYeXFpMml2aHdVdXRaTllyQm5vYk5jSHRPZWNJNmJyMjl4blRyOWZhTi1Nc1pzRm1Mb2Z4SXB6aWRqV3dURDJvNlB3NEdJam5rcXV4TXBpRE9FYThtblU4S1Z6NzctbmdBVXRqVFViV191OVFJeVI1V1l4cXpPTl9pNGhrV0I0MTV6NEtGX1BMRDZncjkzWUZwVnVxSmNZUy1RbFFaXzVYaElaU0tWS3RadDc5Y1RleTQ2UkU1NlRWTjRsQ2hmS0hmV9IB2gFBVV95cUxPa041ZXdVNVRlZ0lpcWt0TldaYnZKMUhCQThnRm1pZ0NvSExrSWlwdVNHeGVtSmlFTGMwRjlRUDNBeTRDS2s0aWFFa3Z5UWtwWnJqeVdZMFFOeEgxNk1EdS1WMWZhVEt0bC1ZQUo2WVlCVDJGaWxsdnZOVUNzN2RmdzVKMW5ONTJXNmY5LTl5VjZNVHNWTjVmT2F5XzZ4Wlo0N210SFlKa0Z2QnJNaUVlSW1lREhwWHFSRllUS2drWGp2NmtOSTU0cDl",
+       "s": "AajTak",
+       "c": "IN",
+       "l": "hi",
+       "p": 1793884451,
+       "r": "unrated"
+      },
+      {
+       "t": "Iranian Army: 2 oil tankers hit sea mines east of the Strait of Hormuz",
+       "o": "İran Ordusu: Hürmüz Boğazı'nın doğusunda 2 petrol tankeri deniz mayınlarına çarptı",
+       "u": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinin-dogusunda-2-petrol-tankeri-deniz-mayinlarina-carpti-962359.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1793889900,
+       "r": "known"
       }
      ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 5,
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 3,
      "countries": [
-      "DE",
-      "GB",
+      "IN",
       "IR",
-      "RU"
+      "TR"
      ],
      "regions": 3,
      "party_only": false,
      "state": 2
     },
     {
-     "text": "Russian outlet RIA Novosti reports that the UK Maritime Trade Operations (UKMTO) recorded shelling of a tanker off the Qatari coast. This comes from one outlet so far.",
+     "text": "Russian agency Interfax, citing the UK Maritime Trade Operations (UKMTO), reports shelling of a tanker in the Persian Gulf. This comes from one source so far.",
      "stories": [
-      "s8"
+      "s11"
      ],
      "sources": [
       {
-       "t": "UKMTO reports shelling of a tanker off the coast of Qatar",
-       "o": "UKMTO сообщило об обстреле танкера у берегов Катара",
-       "u": "https://ria.ru/20261105/katar-2129409555.html",
-       "s": "RIA Novosti",
+       "t": "UKMTO reported shelling of a tanker in the Persian Gulf",
+       "o": "UKMTO сообщило об обстреле танкера в Персидском заливе",
+       "u": "https://www.interfax.ru/world/1127235",
+       "s": "Interfax",
        "c": "RU",
        "l": "ru",
-       "p": 1793879061,
-       "r": "state"
+       "p": 1793889540,
+       "r": "known"
       }
      ],
      "headlines": 1,
@@ -10525,69 +10520,58 @@
      ],
      "regions": 1,
      "party_only": false,
-     "state": 1
+     "state": 0
     },
     {
-     "text": "Italian live coverage quotes Trump saying 'no attack planned in the short term' and quotes Iran's Khamenei warning of 'a much broader war if it resumes'. Iranian outlet IranWire reports Trump saying the war was worth the political cost of the midterm loss. Each of these is a single-source report.",
+     "text": "A South Korean outlet reports a South Korean maritime patrol aircraft is watching just off Hormuz and that an explosive ordnance disposal unit is preparing for mine clearance.",
      "stories": [
-      "s13",
-      "s31"
+      "s18"
      ],
      "sources": [
       {
-       "t": "Iran-US war, live news from the Middle East | Khamenei: \"A much broader war if it resumes\". Trump: \"No attack planned in the short term\". Arab party Ra'am points to Eisenkot as prime minister",
-       "o": "Guerra Iran-Usa, le notizie in diretta dal Medio Oriente | Khamenei: «Guerra molto più ampia se riprenderà». Trump: «Nessun attacco in programma a breve». Il partito arabo Ra'am indica Eisenkot come premier",
-       "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVWRJZnlIV1hUWklITGZPV0VldW1aOUwzZ2tRNmlSY3FwNmViZzBTZE5ON21sSFhES0w2ZlZ2TEFuN0xMSmp2YUNheUVhcGhMempyNVJDbmxmNHUtWEhPWnBXT1Ezd3Noa3ctOUtHc1hvcXhvb2xDaXdobkt0MDk5YmstdTJ6WVZrZHFMa3RnUdIBlAFBVV95cUxON3hZdGJTVm1ZdVVuZHpsLWJkNE9VMW11cU9mZUY2b3pZQzhiY1pPNWNqYlptaEpUOTdvNnNMLXdaanN4M3hTZTNic3FVX3p6NUNiQTlmcThtYUtUQ0Fwb2RjdUJjTWtmSXhsZHdqTnBoUDVIZGdjVjBzdzRTb0R2MktrNjQyVzhDMGJER2w1SURTbnhR?oc=5",
-       "s": "Corriere della Sera",
-       "c": "IT",
-       "l": "it",
-       "p": 1793876723,
-       "r": "unrated"
-      },
-      {
-       "t": "Trump: War with Iran Was Worth the Political Cost of Election Loss",
-       "u": "https://iranwire.com/en/news/159821-trump-war-with-iran-was-worth-the-political-cost-of-election-loss/",
-       "s": "IranWire",
-       "c": "IR",
+       "t": "South Korean maritime patrol aircraft watch just off Hormuz; explosive ordnance disposal unit prepares for \"mine clearance",
+       "u": "https://www.hani.co.kr/arti/politics/defense/1286028.html",
+       "s": "Hankyoreh English",
+       "c": "KR",
        "l": "en",
-       "p": 1793873071,
+       "p": 1793885255,
        "r": "known"
       }
      ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
      "countries": [
-      "IR",
-      "IT"
+      "KR"
      ],
-     "regions": 2,
+     "regions": 1,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "TASS, citing Axios, reports that the CIA director and Treasury secretary are pushing Trump to keep the Iran blockade in place. Iran's Mehr news agency reports Iran demanding that the IMO condemn the US naval blockade.",
+     "text": "CNN reports that the foreign ministers of Oman and Iran discussed arrangements to open the Strait of Hormuz. TASS reports that Iran's and Turkey's foreign ministers discussed Tehran's negotiations with Washington.",
      "stories": [
-      "s16",
-      "s32"
+      "s3"
      ],
      "sources": [
       {
-       "t": "CIA director, US Treasury secretary push Trump to maintain Iran blockade — Axios",
-       "u": "https://tass.com/world/2213221",
-       "s": "TASS English",
-       "c": "RU",
-       "l": "en",
-       "p": 1793876096,
-       "r": "state"
+       "t": "Arrangements to open the Strait of Hormuz: what did the foreign ministers of Oman and Iran discuss?",
+       "o": "ترتيبات فتح مضيق هرمز.. ماذا ناقش وزيرا خارجية سلطنة عُمان وإيران؟",
+       "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONk1hSVZ4MjY3WW1vUGE4UjZLUFNDQzdnWUdsRDU4cEIyRzI3bVhnU01iTlhmTmZwNWZtZkJVTGxQZGY5NjlGYlBVMmVDNWVOOUxrdGpIRS1JcW1xRmE3NVczaFBaMmIxQzFYQ29DZHluX3V5aGE0RDFaZDJzR0paYjRQSWVpTUVCNGdxZ1FiU2tOTWdVVUR6MUlVTDhyMmVfX285NnJjUXY4MUpiblJpdUVTeC1peFV3Y3RhV3BzRllIVTFy?oc=5",
+       "s": "CNN",
+       "c": "US",
+       "l": "ar",
+       "p": 1793887521,
+       "r": "known"
       },
       {
-       "t": "Iran demands IMO condemn US naval blockade",
-       "u": "https://en.mehrnews.com/news/249181/Iran-demands-IMO-condemn-US-naval-blockade",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1793872871,
+       "t": "Foreign ministers of Turkey and Iran discussed Tehran's negotiations with Washington",
+       "o": "Главы МИД Турции и Ирана обсудили переговоры Тегерана с Вашингтоном",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28289681",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1793889337,
        "r": "state"
       }
      ],
@@ -10595,71 +10579,74 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "IR",
-      "RU"
+      "RU",
+      "US"
      ],
      "regions": 2,
      "party_only": false,
-     "state": 2
+     "state": 1
     },
     {
-     "text": "The US has sanctioned Indian and Turkish companies and people for helping Iran, according to Al Jazeera, Daily Maverick and DW.",
+     "text": "Putin received Iran's Security Council secretary, Mohsen Rezaei, at the Kremlin in Moscow, according to RBC and Al Arabiya. Ushakov and Kostyukov took part in the meeting, per RIA Novosti.",
      "stories": [
-      "s1"
+      "s1",
+      "s6",
+      "s7"
      ],
      "sources": [
       {
-       "t": "US sanctions on Indian and Turkish companies for helping Iran",
-       "o": "ایران کی مدد کرنے پر بھارتی اور ترک کمپنیوں پر امریکی پابندیاں",
-       "u": "https://www.dw.com/ur/ایران-کی-مدد-کرنے-پر-بھارتی-اور-ترک-کمپنیوں-پر-امریکی-پابندیاں/a-79862699?maca=urd-rss-urd-all-1497-rdf",
-       "s": "DW Urdu",
-       "c": "DE",
-       "l": "ur",
-       "p": 1793874900,
+       "t": "Putin received Iranian Security Council Secretary Rezaei at the Kremlin",
+       "o": "Путин принял в Кремле секретаря Совбеза Ирана Резаи",
+       "u": "https://www.rbc.ru/rbcfreenews/6aec967594076a0133c11b9b",
+       "s": "RBC",
+       "c": "RU",
+       "l": "ru",
+       "p": 1793890853,
        "r": "known"
       },
       {
-       "t": "US slaps sanctions on Indian, Turkish firms and people for aiding Iran",
-       "u": "https://www.dailymaverick.co.za/article/2026-11-05-us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran/",
-       "s": "Daily Maverick",
-       "c": "ZA",
-       "l": "en",
-       "p": 1793874334,
-       "r": "known"
+       "t": "Ushakov and Kostyukov took part in Putin's meeting with Rezaei",
+       "o": "Ушаков и Костюков приняли участие во встрече Путина с Резаи",
+       "u": "https://ria.ru/20261105/vstrecha-2129501419.html",
+       "s": "RIA Novosti",
+       "c": "RU",
+       "l": "ru",
+       "p": 1793890938,
+       "r": "state"
       },
       {
-       "t": "US sanctions Indian and Turkish firms accused of helping Iran",
-       "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc2VIc2Q5WHBYNE9lazFZbklucXZiWUFsWndGOHFxNWdYZTNWX2x2SVhnMGgyc21OeERuaDVyNjBYS1Q3Uk5KUHRlMkpJY0N2c1Zob3BGMFdIU0pLR1R6NnFpczQ4WEJPbTI2b0p3T1pORmJ6T2JEckhDcDg5MUJoNkZsZHlQZHdHV3FfTW90YjJ0MjNJOWpScC1qTnVzeXhjLWpCaNIBqgFBVV95cUxNbWtRbGN5RU1XcHJ4a3BHXzRRVmxXY1pQd3hPeVdCaFRyMHRwNlprZmhSQk92SFB0U2stQUUtYUFuakhrWGxSWEdNZlI0bkc4NkRhVXJyOWNKZEtmS21fODF4LTJQeTMzTXNzaUZ3WDdJbU1ka1FoMkpFaHhTSEtGemE4Mnp0VVNWNGtnTDVQZjAzRVpPUG83cURENzBfUkwwUktMRmxfMUZ1Zw?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "en",
-       "p": 1793872982,
+       "t": "Amid regional tensions… Putin meets Mohsen Rezaei in Moscow",
+       "o": "وسط توترات المنطقة.. بوتين يلتقي محسن رضائي بموسكو",
+       "u": "https://news.google.com/rss/articles/CBMipgNBVV95cUxQMjYtdzY3QTJKLXB0UlJfMHk5ejZ6N0l6eklfNkhMWG9COVl5Ui1mZ01qcWtnRlJPUUhGQ3JkaURpZHdDNHZETlkwYS16b3J6M1Bna2x0eV9KOF92Njc2OHdabWV6NHk3SlpCNmdlRkNqaFpIeVlkcUZXVy1GWWt3THV6a2dpRDNBZVJKeUNoY3F3U1RBNXJxRnMyVDFxbmJyZ1hDYl9ROHprOTYzMTJFWEdvZkJZY19wQ21GOW84SFcxQ3BxNUQyM0J0YnBJbTBlcXBTX296SDlNS1FSZ0FvemFVZl9XWjdUZnFyMnllc2szWlJTOWxZVFllTG1JdVdaRHAyakdqVG5Zb1FQN1BkYjhuSmdaV2VkYnB3RThwTlpfS0VIYXVhMlIyZldaYU5OeVdPSU81S3MyOVBVM2d4NjZzN1lad3cza3BjTWNscG5IdW45VXNTUE5OZGkyZmJleldJemlfajlKLXc2SUY3amtyYVQzaVQxZ0k2bmpxY1pfakdjaFpZVjM3eW5OeUVBLThLcVNSZGhxdnAxR2ZIZ1p",
+       "s": "Al Arabiya",
+       "c": "SA",
+       "l": "ar",
+       "p": 1793890200,
        "r": "known"
       }
      ],
      "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
+     "outlets": 4,
+     "independent": 4,
      "countries": [
-      "DE",
-      "QA",
-      "ZA"
+      "RU",
+      "SA"
      ],
-     "regions": 3,
+     "regions": 2,
      "party_only": false,
-     "state": 0
+     "state": 1
     }
    ],
    "watch": [
-    "Whether the cause of the tanker fires and the mine claim is confirmed by UKMTO or independent sources",
-    "Whether Trump's 'no attack planned in the short term' remark holds",
-    "Any US decision on keeping or lifting the Iran blockade"
+    "Whether UKMTO or another independent body confirms the mine hits and the tanker shelling",
+    "Whether mine-clearance operations begin in or near the strait",
+    "Whether the Oman–Iran talks on reopening the strait lead to a stated arrangement"
    ],
    "window_hours": 3,
-   "headlines_read": 43,
-   "outlets_read": 30,
-   "countries_read": 18,
-   "languages_read": 12,
+   "headlines_read": 29,
+   "outlets_read": 23,
+   "countries_read": 14,
+   "languages_read": 8,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-05T07:03:41Z",
    "ladder_note": "Re-checked after: Iran's Revolutionary Guards report fires on tankers and a tug in the Strait of Hormuz, a shipping incident in the strait; the cause is Iran's account and is not yet independently confirmed."
