@@ -1686,9 +1686,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Iran reports more tankers hit by mines in Hormuz; Tehran rejects direct US talks offer",
+   "status": "Iran's nuclear proposal reportedly sent to US via Qatar; tanker, drone incidents go on",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been disrupted. Iran's Revolutionary Guards say several tankers hit mines or caught fire while crossing the strait on Nov 4-5. Reports name between two and four ships, and no independent source has confirmed what caused the fires. Trump told Fox News the US may need to strike Iran hard. Outlets from South Asia, Europe and the Gulf report that the Republicans' midterm losses complicate his options, and Trump says he would still choose the war again.",
    "latest": [
+    {
+     "date": "2026-11-05",
+     "text": "A senior Iranian official says a nuclear proposal was delivered to the US via Qatar and is under review, per Yonhap and Middle East Eye. The Jerusalem Post, citing Israeli-side media only, reports that Tehran is reviewing 'concrete proposals' on its nuclear program amid talks with the US.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-sent-nuclear-proposal-us-qatar-senior-iranian-official-tells",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-05",
+     "text": "The AP reports, and three outlets in three countries carry, that the Trump administration held secret talks with Iran on deporting Iranians during the war.",
+     "outlet": "DW Arabic",
+     "country": "Germany",
+     "url": "https://www.dw.com/ar/مباحثات-سرية-بين-إدارة-ترامب-وإيران-بشأن-ترحيل-إيرانيين-خلال-الحرب/live-79860485?maca=ara-rss-ar-all-1125-rdf",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-05",
+     "text": "Iran says tankers were struck in Hormuz amid fears of a new US attack, a claim reported by Al Jazeera and not independently confirmed. Iran's security chief Rezaei told Putin in Moscow of conditions for reopening Hormuz, according to RIA Novosti.",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSndUR0pGRi1MMEthNENuNFlReHRUcGJUVjdxMm9mbEp0bnVncHFlX0ZyMTVXUkR0Ql9CR2lLRElpcnRvQU5mUVFuT2oyakMxaEdGeHZqMnd5dTJyN3hhaFoyX1Z6NS03eUpMTmlCSFd2NktOeU43b0hhRXFKY0tqWHhKYW9FRzNibFFTVHdjSGFTVDhzMnZwak1MMGhTY1N0X3hCZkV30gGrAUFVX3lxTE5jd3JPYU1KcGFXeEJsc0VoM1FsaklHcnVnMkkwTmpZbkNNM2owMDlIOFViMmxWaTlwSzFSX0lqd2FCTWhNejlPeWE1QWxpcFEtbHZ5eklHbXJhTW0yWWlwQ05PeU04OVFLamJvcjBvUHI4ZW9INDFILXVGUHZFQmUwd3hVeW1NUFVmdVZTMGJMSUJfeEtFZS16bTI1SkhKZ3pIVzZaWWd0VG13aw?oc=5",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-05",
      "text": "Iran's navy says more tankers were hit by mines east of the Strait of Hormuz. Iranian media give different counts: two more tankers in one report and five tankers plus a tugboat on fire in another. Iran's accounts are not independently confirmed, though several outlets in different regions carry them.",
@@ -1738,36 +1768,6 @@
      "region": "russia",
      "tag": "non-party",
      "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "A South Korean outlet reports a South Korean maritime patrol aircraft is watching just off Hormuz and that an explosive ordnance disposal unit is preparing for mine clearance.",
-     "outlet": "Hankyoreh English",
-     "country": "South Korea",
-     "url": "https://www.hani.co.kr/arti/politics/defense/1286028.html",
-     "region": "east-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "Tagesschau and other outlets report two oil tankers apparently caught fire in the Strait of Hormuz. Iran's Revolutionary Guards say they caused the fires and also claim they captured two US drones. Iran's navy says a tanker hit a mine in the eastern strait. None of these accounts has been independently confirmed.",
-     "outlet": "Tagesschau Ausland",
-     "country": "Germany",
-     "url": "https://www.tagesschau.de/ausland/asien/iran-hormus-oeltanker-100.html",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "Russian outlet RIA Novosti reports that the UK Maritime Trade Operations (UKMTO) recorded shelling of a tanker off the Qatari coast. This comes from one outlet so far.",
-     "outlet": "RIA Novosti",
-     "country": "Russia",
-     "url": "https://ria.ru/20261105/katar-2129409555.html",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": true
     }
    ],
    "us_impact": {
@@ -10440,158 +10440,187 @@
      "at": "2026-11-05T18:21:23Z",
      "headline": "Iran reports more tankers hit by mines in Hormuz; Tehran rejects direct US talks offer",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-05T21:01:59Z",
+     "headline": "Iran's nuclear proposal reportedly sent to US via Qatar; tanker, drone incidents go on",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-05T18:21:23Z",
-   "next_at": "2026-11-05T21:21:23Z",
-   "headline": "Iran reports more tankers hit by mines in Hormuz; Tehran rejects direct US talks offer",
-   "direction": "escalating",
+   "updated_at": "2026-11-05T21:01:59Z",
+   "next_at": "2026-11-06T00:01:59Z",
+   "headline": "Iran's nuclear proposal reportedly sent to US via Qatar; tanker, drone incidents go on",
+   "direction": "steady",
    "points": [
     {
-     "text": "Iran's navy says more tankers were hit by mines east of the Strait of Hormuz. Iranian media give different counts: two more tankers in one report and five tankers plus a tugboat on fire in another. Iran's accounts are not independently confirmed, though several outlets in different regions carry them.",
+     "text": "A senior Iranian official says a nuclear proposal was delivered to the US via Qatar and is under review, per Yonhap and Middle East Eye. The Jerusalem Post, citing Israeli-side media only, reports that Tehran is reviewing 'concrete proposals' on its nuclear program amid talks with the US.",
      "stories": [
-      "s1",
-      "s5",
-      "s22"
+      "s2",
+      "s25"
      ],
      "sources": [
       {
-       "t": "Iranian navy reports two more tankers hit by mines in the Strait of Hormuz",
-       "o": "ВМС Ирана заявили о подрыве в Ормузском проливе на минах еще двух танкеров",
-       "u": "https://www.interfax.ru/world/1127259",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1793893680,
-       "r": "known"
-      },
-      {
-       "t": "Iran says 5 tankers catch fire after striking naval mines in Strait of Hormuz",
-       "u": "https://www.scmp.com/news/world/middle-east/article/3373454/iran-says-5-tankers-catch-fire-after-striking-naval-mines-strait-hormuz",
-       "s": "South China Morning Post",
-       "c": "HK",
+       "t": "Iran sent nuclear proposal to the US via Qatar, report says",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-sent-nuclear-proposal-us-qatar-senior-iranian-official-tells",
+       "s": "Middle East Eye",
+       "c": "GB",
        "l": "en",
-       "p": 1793892951,
+       "p": 1793909870,
        "r": "known"
       },
       {
-       "t": "Iranian Navy: two oil tankers hit naval mines east of the Strait of Hormuz",
-       "o": "البحرية الإيرانية: اصطدام ناقلتي نفط بألغام بحرية شرقي مضيق هرمز",
-       "u": "https://news.google.com/rss/articles/CBMioARBVV95cUxNSU1TYXEzbGJneDJJRVM0TUlZQ2RkSzdxUU1fVm44VDlYOHQ0X2E3cVVrZWR4dkJyT18zeU16T25qTG1OSzN3TUdlekt0ZFh1c2d5QTZzcWd5VWVNWlB4c1ZXWVFpYllCb0h2SkVfZHFrOUFKNDJkR1RfUWhqaWQtdW4xMWdWVmRJLWRXeVYxX0tnTkFOTjZIb05JQ1NZNjQxeGNTNHA4M2trNW4wOFlQMlMySmJFTlpmQnlWR0FUZ01kVlRjN0dMNmx0LW9pMWVjX3hucURlOGVuNThrNU80YVFXbU4tX2JKYkl6cjFUTVE0QnRBbWc3TkNndTFYTUszZ0NFM3lpT1p3b1pXYVh6Y3BoOWhKNjFSa1NvYm1kMkRCU1NnNGY0MjY1ZVpaMzBxbi00QlJJR0FFRTJwcmFfSWo3bnIxanJKSmJfREtWTlZ4R2EwS2Jmc1lKSVBaU0ZmZUlqNjhWbXJnUGR0eS1KMDNhRlZ5LUVXUkdDWENwcVBRZzlCdERrdFFuSmhmOG55aGlWZ0xsbU1IZVlNZ2h2bTJ",
-       "s": "Anadolu Agency",
-       "c": "TR",
-       "l": "ar",
-       "p": 1793892149,
-       "r": "state"
+       "t": "Senior Iranian official: \"Nuclear proposal delivered to the US via Qatar… under review",
+       "o": "이란 고위 관리 \"카타르 통해 美에 핵 제안서 전달…검토 중\"",
+       "u": "https://www.yna.co.kr/view/AKR20261106006400079",
+       "s": "Yonhap Korean",
+       "c": "KR",
+       "l": "ko",
+       "p": 1793908761,
+       "r": "known"
       },
       {
-       "t": "Iran says five tankers, tugboat caught fire in Hormuz",
-       "u": "https://www.thehindu.com/news/international/iran-says-five-tankers-tugboat-caught-fire-in-hormuz/article71671070.ece",
-       "s": "The Hindu",
+       "t": "Tehran reviews 'concrete proposals' on future of nuclear program amid talks with US - report",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914000",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1793908403,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "GB",
+      "IL",
+      "KR"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "The AP reports, and three outlets in three countries carry, that the Trump administration held secret talks with Iran on deporting Iranians during the war.",
+     "stories": [
+      "s1"
+     ],
+     "sources": [
+      {
+       "t": "Secret talks between the Trump administration and Iran over deporting Iranians during the war",
+       "o": "مباحثات سرية بين إدارة ترامب وإيران بشأن ترحيل إيرانيين خلال الحرب",
+       "u": "https://www.dw.com/ar/مباحثات-سرية-بين-إدارة-ترامب-وإيران-بشأن-ترحيل-إيرانيين-خلال-الحرب/live-79860485?maca=ara-rss-ar-all-1125-rdf",
+       "s": "DW Arabic",
+       "c": "DE",
+       "l": "ar",
+       "p": 1793907720,
+       "r": "known"
+      },
+      {
+       "t": "AP Exclusive: Trump administration held talks with Iran on deporting Iranians during the war",
+       "u": "https://www.hindustantimes.com/world-news/us-news/ap-exclusive-trump-administration-held-talks-with-iran-on-deporting-iranians-during-the-war-101793905331276.html",
+       "s": "Hindustan Times World",
        "c": "IN",
        "l": "en",
-       "p": 1793894352,
+       "p": 1793905330,
        "r": "known"
       },
       {
-       "t": "Iran says five tankers and tugboat caught fire in Hormuz - Region - World",
-       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU050ZndQVlJMcVI3ZURjRWFzRWNpMXdGTWV3UkRtbTNudTBuckctbGowSU5ucDJSOW1pVUp0WHJHWlpnSThCcTg0bDFJb0FkcUJEcmJHMzJCWThkajJXbDRHSzZ3T2N5N0ZRZ2w0ZzJaQXVtdzlSS1BsMFctcmQ5ZHpBcjhHMy1MMDZpaGgtWXZWOVU3UDdmbTdtY01qS0tmRUdqZlJTTWpCdF8ycnNDb09B?oc=5",
-       "s": "Ahram Online",
-       "c": "EG",
+       "t": "Trump administration's secret talks with Iran on deportations exposed",
+       "u": "https://gulfnews.com/world/mena/trump-administrations-secret-talks-with-iran-on-deportations-exposed-1.500737652",
+       "s": "Gulf News",
+       "c": "AE",
        "l": "en",
-       "p": 1793892873,
+       "p": 1793903456,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "AE",
+      "DE",
+      "IN"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran says tankers were struck in Hormuz amid fears of a new US attack, a claim reported by Al Jazeera and not independently confirmed. Iran's security chief Rezaei told Putin in Moscow of conditions for reopening Hormuz, according to RIA Novosti.",
+     "stories": [
+      "s11",
+      "s18"
+     ],
+     "sources": [
+      {
+       "t": "Iran says tankers struck in Hormuz amid fears of new US attack",
+       "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSndUR0pGRi1MMEthNENuNFlReHRUcGJUVjdxMm9mbEp0bnVncHFlX0ZyMTVXUkR0Ql9CR2lLRElpcnRvQU5mUVFuT2oyakMxaEdGeHZqMnd5dTJyN3hhaFoyX1Z6NS03eUpMTmlCSFd2NktOeU43b0hhRXFKY0tqWHhKYW9FRzNibFFTVHdjSGFTVDhzMnZwak1MMGhTY1N0X3hCZkV30gGrAUFVX3lxTE5jd3JPYU1KcGFXeEJsc0VoM1FsaklHcnVnMkkwTmpZbkNNM2owMDlIOFViMmxWaTlwSzFSX0lqd2FCTWhNejlPeWE1QWxpcFEtbHZ5eklHbXJhTW0yWWlwQ05PeU04OVFLamJvcjBvUHI4ZW9INDFILXVGUHZFQmUwd3hVeW1NUFVmdVZTMGJMSUJfeEtFZS16bTI1SkhKZ3pIVzZaWWd0VG13aw?oc=5",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1793905650,
+       "r": "known"
+      },
+      {
+       "t": "Secretary of Iran's Security Council told Putin the conditions for reopening Hormuz",
+       "o": "Секретарь СБ Ирана рассказал Путину об условиях открытия Ормуза",
+       "u": "https://ria.ru/20261105/iran-2129545410.html",
+       "s": "RIA Novosti",
+       "c": "RU",
+       "l": "ru",
+       "p": 1793904417,
        "r": "state"
       }
      ],
-     "headlines": 7,
-     "outlets": 7,
-     "independent": 7,
+     "headlines": 3,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "EG",
-      "HK",
-      "IN",
-      "IR",
-      "RU",
-      "TR"
+      "QA",
+      "RU"
      ],
-     "regions": 5,
+     "regions": 2,
      "party_only": false,
-     "state": 4
+     "state": 1
     },
     {
-     "text": "Al-Monitor and a Lebanese outlet report that tankers were hit in Hormuz as Iran keeps up pressure after the US midterm vote.",
+     "text": "IRNA says Iran downed a fifth and sixth US MQM-170 drone over Qeshm Island; this comes only from Iranian media. A Turkish outlet separately reports Iran's Revolutionary Guards shot down a US drone over Kish Island.",
      "stories": [
-      "s7"
+      "s23",
+      "s5"
      ],
      "sources": [
       {
-       "t": "Tankers hit in Hormuz as Iran keeps up pressure after US vote",
-       "u": "https://www.al-monitor.com/originals/2026/11/tankers-hit-hormuz-iran-keeps-pressure-after-us-vote",
-       "s": "Al-Monitor",
-       "c": "US",
+       "t": "Iran downs fifth and sixth MQM-170 US drones over Qeshm Island",
+       "u": "https://en.irna.ir/news/86313659/Iran-downs-fifth-and-sixth-MQM-170-US-drones-over-Qeshm-Island",
+       "s": "IRNA English",
+       "c": "IR",
        "l": "en",
-       "p": 1793897209,
-       "r": "known"
+       "p": 1793910122,
+       "r": "state"
       },
       {
-       "t": "Escalation continues: Iran keeps targeting tankers in the Strait of Hormuz",
-       "o": "تصعيد مستمر.. إيران تواصل استهداف الناقلات في مضيق هرمز",
-       "u": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOTnJZVE5yZ0xpMXNGQU9nRUZnUmJlakF5R0Y3UlFzM0RLSHptWU9Dd1RESGw1dmJyR0lsR2x6U05hMEswMXFBT3dJRXludDVCdE0zZUM5TlZ0LUFkMWxwYm5KTmhTeFRRVzg0dF9TUEVMT3YyUDRYaGtYSU5RbDBWcDNfZnJ3WWpxUjBOa00wVTE4U3I4RUFvcFdubVJfNzRkVHB6NjR4TmdaU1NjSmxBRG1OZnp1dVpmQ3l3RWRVeF8tWmQ4YV8zS1BWOWtsMk00LTE2QzdaMmpITjBIZHFnV1pJMlNlSkpJTGFlTW5kaVFNZzU2aGNiNWdxUDJuQTlfUWtHdFIweU9sMHJLM2dTblBOMkp6TmYxa2lJVWdQb2JKbl9OTjlDMzJVdDFiRGJnazZMdFlKdy1CZ2NPemY4cmdVTHE2YlVxMW0wWnlnV2Z3VmNFaER6eGFqdXc2dmc1VUNoc05ILVJsOTRpTnVrM0pjODROVVVvQWJPN1UzZnRyRUNyQ0JNXzhQM3FCMkktMlE4aHlFaUM3V1cyZjZpb09",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1793898357,
-       "r": "unrated"
+       "t": "Iran's Revolutionary Guards: a US MQM-170-type UAV was shot down over Kish Island",
+       "o": "İran Devrim Muhafızları: Keşm Adası'nda ABD'ye ait MQM-170 tipi İHA düşürüldü",
+       "u": "https://www.hurriyet.com.tr/dunya/iran-devrim-muhafizlari-kesm-adasinda-abdye-ait-mqm-170-tipi-iha-dusuruldu-43367675",
+       "s": "Hurriyet Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1793910909,
+       "r": "known"
       }
      ],
      "headlines": 2,
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "LB",
-      "US"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "An Iranian official says Tehran has not accepted the US proposal for direct negotiations, according to TRT. Tehran also accuses Trump of preparing for the 'next phase' of the war, a claim reported by one outlet.",
-     "stories": [
-      "s8",
-      "s10"
-     ],
-     "sources": [
-      {
-       "t": "Iranian official says Tehran has not accepted the US proposal for direct negotiations",
-       "o": "İranlı yetkili, ABD'nin doğrudan müzakere önerisini Tahran'ın kabul etmediğini söyledi",
-       "u": "https://www.trthaber.com/haber/dunya/iranli-yetkili-abdnin-dogrudan-muzakere-onerisini-tahranin-kabul-etmedigini-soyledi-962367.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1793901420,
-       "r": "known"
-      },
-      {
-       "t": "Tehran accuses Trump of preparing for the \"next phase\" of the war",
-       "o": "طهران تتهم ترمب بالتحضير لـ«المرحلة التالية» من الحرب",
-       "u": "https://aawsat.com/node/5338040",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1793899344,
-       "r": "known"
-      }
-     ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 2,
-     "countries": [
-      "SA",
+      "IR",
       "TR"
      ],
      "regions": 2,
@@ -10599,147 +10628,42 @@
      "state": 1
     },
     {
-     "text": "Iran's security council secretary Mohsen Rezaei delivered a message from Supreme Leader Khamenei to Putin in Moscow. Reuters and Anadolu confirm the meeting; Iranian state media report the message.",
+     "text": "Turkey says Iranian fire killed a soldier on the Turkish border, according to a report carried only by Israeli media; this has not been confirmed by other sources.",
      "stories": [
-      "s2",
-      "s4"
+      "s22"
      ],
      "sources": [
       {
-       "t": "Rezaei passed a message from Iran's Supreme Leader Khamenei to Putin",
-       "o": "Резаи передал Путину сообщение от верховного лидера Ирана Хаменеи",
-       "u": "https://www.kommersant.ru/doc/9081175",
-       "s": "Kommersant",
-       "c": "RU",
-       "l": "ru",
-       "p": 1793894456,
-       "r": "known"
-      },
-      {
-       "t": "Mohsen Rezaei delivers a message from Khamenei to Putin",
-       "o": "محسن رضائي : بوتين مستعد لتقديم أي مساعدة لإنهاء الحرب",
-       "u": "https://aawsat.com/node/5337993",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1793892588,
-       "r": "known"
-      },
-      {
-       "t": "Rezaei delivers Leader's message to Putin in Moscow",
-       "u": "https://en.mehrnews.com/news/249188/Rezaei-delivers-Leader-s-message-to-Putin-in-Moscow",
-       "s": "Mehr English",
-       "c": "IR",
+       "t": "Turkey says Iranian fire killed soldier on border as foreign ministers discuss US-Iran talks",
+       "u": "https://www.jpost.com/middle-east/article-914015",
+       "s": "Jerusalem Post",
+       "c": "IL",
        "l": "en",
-       "p": 1793893809,
-       "r": "state"
-      },
-      {
-       "t": "Putin met Iranian security council chief Rezaei in Moscow",
-       "u": "https://www.al-monitor.com/originals/2026/11/putin-met-iranian-security-council-chief-rezaei-moscow",
-       "s": "Al-Monitor",
-       "c": "US",
-       "l": "en",
-       "p": 1793897209,
-       "r": "known"
-      },
-      {
-       "t": "Putin met Iranian security council chief Rezaei in Moscow",
-       "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkR5dEUwb2FoSDZrZ2p1UVF1T3VzbjEwSmhUWFBSeElYM0lHamE3SE0zYVViRHNqZ2piYTBjbWtoZThDU01hQmpYRFlwMHJTTFl3S2MyWnFoZWh1VTRCdEFvckJZcHktYjNpMWxLbU1vOGp3N0k1Yi1FZ0xTMXYzU2I2OHVZeGZrVXdiUmJOZ0phb2dLTjVGTTQ4aGF0WEdOLTVzS2RLQzBYNXR5?oc=5",
-       "s": "Reuters",
-       "c": "GB",
-       "l": "en",
-       "p": 1793892378,
+       "p": 1793911445,
        "r": "known"
       }
      ],
-     "headlines": 6,
-     "outlets": 6,
-     "independent": 5,
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
      "countries": [
-      "GB",
-      "IR",
-      "RU",
-      "SA",
-      "TR",
-      "US"
+      "IL"
      ],
-     "regions": 6,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "US Democrats are pressing to end the Iran war. Vance has criticised the war after midterm losses, and Israel's UN ambassador rejects Vance's claim that the war cost the Republicans the vote. These are political accounts, not battlefield reports.",
-     "stories": [
-      "s3",
-      "s11",
-      "s16"
-     ],
-     "sources": [
-      {
-       "t": "Iran war between Democratic pressure and Trump's powers",
-       "o": "حرب إيران بين ضغوط الديمقراطيين وصلاحيات ترمب",
-       "u": "https://aawsat.com/node/5338052",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1793901097,
-       "r": "known"
-      },
-      {
-       "t": "US Democrats press \"end the Iran war\"... Trump caught between attack and negotiation",
-       "o": "\"이란전 끝내라\" 美민주 압박…트럼프, 공격도 협상도 진퇴양난",
-       "u": "https://www.yna.co.kr/view/AKR20261106001600071",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1793898969,
-       "r": "known"
-      },
-      {
-       "t": "Iran war ignites rifts within Trump's administration... Vance criticizes while the Pentagon awaits dismissals",
-       "o": "حرب إيران تفجّر خلافات داخل إدارة ترمب.. فانس ينتقد والبنتاغون يترقب الإقالات",
-       "u": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNSDM5dThtQ29BU282U3RaT19HSkh2SWhsVDVMOGdHaWpldFY3YU9TT0RzX0hTMUxMbFpwclB3NzIxT2VJTmp0a3kzRDJNYmdhT2kzclpLMmdGbjM3LWI0OTNocXVaTUJITTRLd00ybW5XU2Yta2NudlQ1bmJHNzFWVlhSclhPVkJIMUFmaXd4WXpLcGltWkFIdkMxV3cyNmlkYkx2UFRNZllTMFBadkk2MzNTcTdVLWwxWEMwdHVKRU5hNkROVUIzLUZMLTRrUHUwOUMzSTlkak1mSDRTV3ZtSUkyUXFKbDloR0NOLXZTUk8tZlFvUWRCNVlZdVp0djVQT284MTJmVTFXbDJZRnNXaXhDakttR1NIcDZpLVlYSVRsLVh5eFpOUGFqZDF2OGhBV01uZkQ0cGZ3dWZqUEZCbmFpRjFNazUtb3ZVUUhONkQ1Y3NqZnNTLQ?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "ar",
-       "p": 1793899327,
-       "r": "known"
-      },
-      {
-       "t": "Israel's UN ambassador rejects Vance's claim that Iran war was behind midterm losses",
-       "u": "https://www.middleeasteye.net/news/israels-un-ambassador-rejects-vances-claim-iran-war-was-behind-midterm-losses",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1793894252,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "GB",
-      "KR",
-      "QA",
-      "SA"
-     ],
-     "regions": 3,
-     "party_only": false,
+     "regions": 1,
+     "party_only": true,
      "state": 0
     }
    ],
    "watch": [
-    "Whether independent sources confirm the tanker and mine casualty counts Iran has reported",
-    "Tehran's answer to the US proposal for direct talks",
-    "Any US response to the Qeshm bombing reported by a single outlet"
+    "Iran's formal response to the nuclear proposal sent via Qatar",
+    "Independent confirmation of tanker strikes and mine reports in Hormuz",
+    "Any US response to Iranian claims of downed drones or any new US strikes"
    ],
    "window_hours": 3,
-   "headlines_read": 40,
-   "outlets_read": 32,
-   "countries_read": 17,
-   "languages_read": 10,
+   "headlines_read": 35,
+   "outlets_read": 23,
+   "countries_read": 15,
+   "languages_read": 8,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-05T07:03:41Z",
    "ladder_note": "Re-checked after: Iran's Revolutionary Guards report fires on tankers and a tug in the Strait of Hormuz, a shipping incident in the strait; the cause is Iran's account and is not yet independently confirmed."
