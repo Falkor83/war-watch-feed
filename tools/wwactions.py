@@ -112,6 +112,12 @@ def request(stories, log, feed, prev, model, system, today):
 
 _CODE = re.compile(r"^[A-Z]{2}$")
 
+def sentences(text, n):
+    """At most n characters, whole sentences only."""
+    if len(text) <= n: return text
+    cut = text[:n].rsplit(". ", 1)[0].rstrip(".")
+    return cut + "." if cut else text[:n]
+
 def check(ans, stories, log, feed, today, msgs):
     """New actions into the log (checked), then patterns resting on logged actions. Returns (new actions, patterns, summary)."""
     ids = {c["id"] for c in feed["conflicts"]}
@@ -155,7 +161,7 @@ def check(ans, stories, log, feed, today, msgs):
         countries = sorted({a["country"] for a in acts})
         if not pid or len(acts) < 3 or len(countries) < 2:
             msgs.append(f"pattern {pid or '?'} dropped: needs 3 logged actions from 2 countries ({len(acts)}, {len(countries)})"); continue
-        texts = {k: str(p.get(k, "")).strip()[:360] for k in ("points_to", "unsaid", "plain_explanation")}
+        texts = {k: sentences(str(p.get(k, "")).strip(), 480) for k in ("points_to", "unsaid", "plain_explanation")}
         title = str(p.get("title", "")).strip()[:90]
         if not title or not texts["points_to"] or not texts["plain_explanation"]:
             msgs.append(f"pattern {pid} dropped: title, points_to and plain_explanation are required"); continue
