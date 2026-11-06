@@ -1686,9 +1686,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Iran nuclear proposal via Qatar in review; Trump threatens strikes; Hormuz drone claims",
+   "status": "Trump warns Iran could be 'destroyed' further; Hormuz shipping attacks reported rising",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been disrupted. Iran's Revolutionary Guards say several tankers hit mines or caught fire while crossing the strait on Nov 4-5. Reports name between two and four ships, and no independent source has confirmed what caused the fires. Trump told Fox News the US may need to strike Iran hard. Outlets from South Asia, Europe and the Gulf report that the Republicans' midterm losses complicate his options, and Trump says he would still choose the war again.",
    "latest": [
+    {
+     "date": "2026-11-06",
+     "text": "Trump warned that the US may have to 'destroy' what remains of Iran, saying 'you'll know soon enough'. Reports in the UAE, India and Qatar carry the remark, and it is a threat rather than a new strike.",
+     "outlet": "Gulf News",
+     "country": "United Arab Emirates",
+     "url": "https://gulfnews.com/world/mena/trump-threatens-more-destruction-in-iran-youll-know-soon-enough-1.500737884",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-06",
+     "text": "AP and NBC report that the Trump administration held talks with Iran on deporting Iranians, even during the war. Israeli and Ukrainian outlets carry the same report.",
+     "outlet": "maariv.co.il",
+     "country": "Israel",
+     "url": "https://www.maariv.co.il/news/world/article-1385495",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-06",
+     "text": "UKMTO has warned that Hormuz attacks are rising as Iran steps up pressure on shipping, according to Gulf News. A Chinese market report says a Hormuz incident pushed oil sharply higher, while a South Korean outlet says the strait is blocked but oil keeps flowing. Each of these comes from a single outlet.",
+     "outlet": "Gulf News",
+     "country": "United Arab Emirates",
+     "url": "https://gulfnews.com/business/energy/hormuz-attacks-rise-as-iran-steps-up-pressure-on-shipping-ukmto-warns-1.500737866",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-05",
      "text": "Iran's Revolutionary Guards say they shot down two American drones over Qeshm Island in the Strait of Hormuz. Reports in several countries carry the claim, and Anadolu separately reports a US MQM-170-type drone downed there. These are Iranian claims, and no independent confirmation appears in the stories.",
@@ -1736,36 +1766,6 @@
      "country": "Germany",
      "url": "https://www.dw.com/ar/مباحثات-سرية-بين-إدارة-ترامب-وإيران-بشأن-ترحيل-إيرانيين-خلال-الحرب/live-79860485?maca=ara-rss-ar-all-1125-rdf",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "Iran says tankers were struck in Hormuz amid fears of a new US attack, a claim reported by Al Jazeera and not independently confirmed. Iran's security chief Rezaei told Putin in Moscow of conditions for reopening Hormuz, according to RIA Novosti.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSndUR0pGRi1MMEthNENuNFlReHRUcGJUVjdxMm9mbEp0bnVncHFlX0ZyMTVXUkR0Ql9CR2lLRElpcnRvQU5mUVFuT2oyakMxaEdGeHZqMnd5dTJyN3hhaFoyX1Z6NS03eUpMTmlCSFd2NktOeU43b0hhRXFKY0tqWHhKYW9FRzNibFFTVHdjSGFTVDhzMnZwak1MMGhTY1N0X3hCZkV30gGrAUFVX3lxTE5jd3JPYU1KcGFXeEJsc0VoM1FsaklHcnVnMkkwTmpZbkNNM2owMDlIOFViMmxWaTlwSzFSX0lqd2FCTWhNejlPeWE1QWxpcFEtbHZ5eklHbXJhTW0yWWlwQ05PeU04OVFLamJvcjBvUHI4ZW9INDFILXVGUHZFQmUwd3hVeW1NUFVmdVZTMGJMSUJfeEtFZS16bTI1SkhKZ3pIVzZaWWd0VG13aw?oc=5",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "Iran's navy says more tankers were hit by mines east of the Strait of Hormuz. Iranian media give different counts: two more tankers in one report and five tankers plus a tugboat on fire in another. Iran's accounts are not independently confirmed, though several outlets in different regions carry them.",
-     "outlet": "Interfax",
-     "country": "Russia",
-     "url": "https://www.interfax.ru/world/1127259",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "Al-Monitor and a Lebanese outlet report that tankers were hit in Hormuz as Iran keeps up pressure after the US midterm vote.",
-     "outlet": "Al-Monitor",
-     "country": "United States",
-     "url": "https://www.al-monitor.com/originals/2026/11/tankers-hit-hormuz-iran-keeps-pressure-after-us-vote",
-     "region": "north-america",
      "tag": "non-party",
      "state_media": false
     }
@@ -10450,254 +10450,150 @@
      "at": "2026-11-05T23:45:31Z",
      "headline": "Iran nuclear proposal via Qatar in review; Trump threatens strikes; Hormuz drone claims",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-06T02:52:56Z",
+     "headline": "Trump warns Iran could be 'destroyed' further; Hormuz shipping attacks reported rising",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-05T23:45:31Z",
-   "next_at": "2026-11-06T02:45:31Z",
-   "headline": "Iran nuclear proposal via Qatar in review; Trump threatens strikes; Hormuz drone claims",
+   "updated_at": "2026-11-06T02:52:56Z",
+   "next_at": "2026-11-06T05:52:56Z",
+   "headline": "Trump warns Iran could be 'destroyed' further; Hormuz shipping attacks reported rising",
    "direction": "steady",
    "points": [
     {
-     "text": "Iran's Revolutionary Guards say they shot down two American drones over Qeshm Island in the Strait of Hormuz. Reports in several countries carry the claim, and Anadolu separately reports a US MQM-170-type drone downed there. These are Iranian claims, and no independent confirmation appears in the stories.",
+     "text": "Trump warned that the US may have to 'destroy' what remains of Iran, saying 'you'll know soon enough'. Reports in the UAE, India and Qatar carry the remark, and it is a threat rather than a new strike.",
      "stories": [
-      "s1",
-      "s20"
-     ],
-     "sources": [
-      {
-       "t": "The IRGC said its forces shot down two American drones over Qeshm Island",
-       "o": "КСИР заявил, что его силы сбили два американских беспилотника над островом Кешм",
-       "u": "https://www.interfax.ru/world/1127305",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1793915760,
-       "r": "known"
-      },
-      {
-       "t": "Iran says it shot down two American reconnaissance drones over the strategically important island of Qeshm",
-       "o": "Iran saopćio da je oborio dva američka izviđačka drona iznad strateški važnog ostrva Qeshm",
-       "u": "https://faktor.ba/svijet/svijet/iran-saopcio-da-je-oborio-dva-americka-izvidacka-drona-iznad-strateski-vaznog-ostrva-qeshm/268202",
-       "s": "faktor.ba",
-       "c": "BA",
-       "l": "bs",
-       "p": 1793916000,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran claims it shot down two American drones over Qeshm Island in Hormuz",
-       "o": "Teherani pretendon rrëzimin e dy dronëve amerikanë mbi ishullin Qeshm në Hormuz",
-       "u": "https://24-ore.com/teherani-pretendon-rrezimin-e-dy-droneve-amerikane-mbi-ishullin-qeshm-ne-hormuz/",
-       "s": "24-ore.com",
-       "c": "AL",
-       "l": "sq",
-       "p": 1793916000,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran's Revolutionary Guards: a US MQM-170-type UAV shot down over Qeshm Island in the Strait of Hormuz",
-       "o": "İran Devrim Muhafızları: Hürmüz Boğazı'ndaki Keşm Adası'nda ABD'ye ait MQM-170 tipi İHA düşürüldü",
-       "u": "https://www.aa.com.tr/tr/dunya/iran-devrim-muhafizlari-hurmuz-bogazindaki-kesm-adasinda-abdye-ait-mqm-170-tipi-iha-dusuruldu/4113466",
-       "s": "Anadolu Turkish",
-       "c": "TR",
-       "l": "tr",
-       "p": 1793911658,
-       "r": "state"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 5,
-     "countries": [
-      "AL",
-      "BA",
-      "RU",
-      "TR"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "Trump says he is 'locked and loaded' for potential strikes on Iran but would 'rather not destroy' what remains of the country. Al Arabiya reports that the agreement is still on the table.",
-     "stories": [
-      "s3",
-      "s5",
-      "s15"
-     ],
-     "sources": [
-      {
-       "t": "Trump ‘locked and loaded’ for potential strikes in Iran but would ‘rather not destroy rest of the country’",
-       "u": "https://www.hindustantimes.com/world-news/trump-locked-and-loaded-for-potential-strikes-in-iran-but-would-rather-not-destroy-rest-of-the-country-101793915375654.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1793917135,
-       "r": "known"
-      },
-      {
-       "t": "Trump hints at more strikes against Iran: \"I'd rather not destroy what remains of the country",
-       "o": "ترمب يلوح بمزيد من الضربات ضد إيران: أفضل عدم تدمير ما تبقى من البلاد",
-       "u": "https://news.google.com/rss/articles/CBMioARBVV95cUxQZVdUWDFDS0ZSNUFlUmk3Vmg4UXVkSjVaVU9fMFdSYk1FWWs0LVNjVVlDT01ydkpyWDJfcC1CWC01T1JFUDBtTWVJZ1BmbnB5OUxHTzIwTkRCNFB5QlNtSUpYMjRfWm9OTzBUOWhjc1JCMWd3TnRDX29leGhKWWNlSWRvUzg2SDJwX3BtQU5vS2xhdnZyM19ZOVZQa0ItZzM3VlBuX2RuY1VsTjQwMmNMb1JsQTRiRnpNNFJGeEdMdDFZWjAyMUkzSzdoZjdJelBvRTVNTUxlOGU5XzBTZVRJbWtCYzhzTW9rdnczM2NacFJtMDR6UUxZX3A1S1dnTFNRSGcwWE5ZWlhyNVFPanBTa2ZQbmJ0WkFTdFBBT0Fubm1rWk5JNXctMVdIX3pZcTk3V1Rfc0RNMXlaT29GWWgzbU55bjZqaDc1d1NNVFZ3QXE4Sl8xTnBrcE1MT0NOZXNfZmlnaVF1RHF1a2s0dzNJbXkxUFloRHNFU203RkNMRmUxelhJWkMyQU1haExyWGh5OWlwSGRYR1hKaF9pNGk5MFh",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1793915045,
-       "r": "unrated"
-      },
-      {
-       "t": "Trump threatens Iran: \"I may have to destroy what's left of the country",
-       "o": "טראמפ באיום על איראן: \"אולי אצטרך להרוס את מה שנותר מהמדינה\"",
-       "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSZzlpT1d4SXkzQ0FEWktxdzItSW5fb2dORV9zOVIxU0JwcHdnYi1iV0RkVTMxS3pfYXZLakZ0LUFabldPOWFtcHhkWlM5Z1I3MUNfYVFGWlVmeGxYU1hnb3dQNWJvR1pxT0V4Z1Q0S0hDMDMzUjRycVFONEg?oc=5",
-       "s": "Mako",
-       "c": "IL",
-       "l": "he",
-       "p": 1793914860,
-       "r": "unrated"
-      },
-      {
-       "t": "Trump threatens Iran with widening destruction... but the agreement is still on the table",
-       "o": "ترامب يهدد إيران باتساع الدمار.. والاتفاق لا يزال مطروحاً",
-       "u": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxOT1J4YWcyQXZSQUJscUIwVDI2d200RU5kS044V2paSEZ6eV9ZcnlXQ0xCQTFNLWIwZkxvZUFCQkx6YWl2WXAtS2M4cl90ZEo4YTR3aHREVXowQ2wtMFlVaEpOX2k1Y2pwNUZSOEJGbXlVR3JpQW9qbnBrSDh1SXNmNHdWVVByU2JLeUZWYWkxWnFzbzNvbG1xcWNIZDNVenJ2T0huNVdMZUp0ZzBVdVA2T1gxT2FraHBKbGtEbGZ3aHRvM1NFcWd0T01rOW94Y3FBdjdWWldtYzR1Y2lzSlVFcWphNTNTM0w1OFl6X2tLbzA3YVlTakVMTTl4cjVaRjFNZ2JseXF5dWxlbkdiUWJIaDdCNWlYeGItOUJZaVo2VjFkT2Q2TFU4dDJFdEtwQzhIOTRlSXFRVW53S3luWmdHZm5tUUluMTFLOWYtMElTWkNIZEVBTGRpdDkxbWVXOEZ3anNkRVpGMUFobHRYLTIwRy1PZW1zR010d2M5Sm4xX2hKUW9GZS15c3g3eWNRNzNiZExlWjJrQWFUMU5LSV82d1h",
-       "s": "Al Arabiya",
-       "c": "SA",
-       "l": "ar",
-       "p": 1793914980,
-       "r": "known"
-      },
-      {
-       "t": "Trump threatens Iran with widening destruction... but the agreement is still on the table",
-       "o": "ترامب يهدد إيران باتساع الدمار.. والاتفاق لا يزال مطروحاً",
-       "u": "https://news.google.com/rss/articles/CBMiyANBVV95cUxPMC04bHZPLXY1UDM4a3dVaTc3cXBXYWx6bGk3UGh2MUwzY1dvajU4a05aMHVmblhhQU0xaWp5LVFZV2JwYjd5aEZRa3RscHhqSDE4eGVhVm5MYm4yNmJfdk93ZGhrb2VERWdNWFo2R1puVTVGa1piUHVNcXI0WXhPdm04UkJuZ2xBQXZhRF9jdjRBZnlSTWdjRUF4LVRLMWdHTEwzR1FqOGJISU8xQk11ZkNaRV9zUE5pYm5CanFOcy10RzZfVnlMa056WEVmbmJpZXpLRFlwb0VoVzFvVlM3TkFVdmlSVzNFeE1lUTBxSkJVMTVzS2Q1WjlsZlFWUlV0WFExQWYyS2ZqaUZidThYWWpsdS1PcjBCWmNGT25fbUFSeFA0aHRDalRkV2pVa0pya3hyRFdyVDVOYWpRZGhnX1IyWEhrQVNIYkx4MldHYXRHQW1VYzBfRE1SZ0MwSDZReWRXVUN5aHBqN3hKQnNXSGI2aVQ2eV9fWUNocUczMTQ2WmxvSzUtZnVFU0V5cEVGNEtZWjVaTno2bWJObWZmb24",
-       "s": "الحدث",
-       "c": "LB",
-       "l": "ar",
-       "p": 1793914980,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 8,
-     "outlets": 6,
-     "independent": 6,
-     "countries": [
-      "BR",
-      "IL",
-      "IN",
-      "LB",
-      "SA"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "A senior Iranian official says Iran sent a nuclear proposal to the US via Qatar, and one report says it sets seven conditions for negotiations. Trump says Iran is 'not doing anything' on its nuclear programme without US approval.",
-     "stories": [
-      "s4",
-      "s7",
       "s2"
      ],
      "sources": [
       {
-       "t": "Arab News | Iran sent nuclear proposal to the US via Qatar , senior Iranian official says",
-       "u": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067",
-       "s": "Arab News",
-       "c": "SA",
+       "t": "Trump threatens more destruction in Iran: 'You’ll know soon enough'",
+       "u": "https://gulfnews.com/world/mena/trump-threatens-more-destruction-in-iran-youll-know-soon-enough-1.500737884",
+       "s": "Gulf News",
+       "c": "AE",
        "l": "en",
-       "p": 1793916000,
+       "p": 1793930202,
        "r": "known"
       },
       {
-       "t": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
-       "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlJZVlphdWhPcDNGc1E5eDVNdDdMQkJNTXVDS0RYSVRqaC1tblFqQy1FekRQdldnV0FsMU5RdnVHNEI3UEZWMC1MY1l5cnRtcjBlcDlpUXdvX0hXbV91S1UxajV1TEx1VmJ2SzNLNElXSjc3YkdmYWw4VGNXZEl5NXR4RFNjRXBxeEZMLWpBT1Z5X2JRc3NEdkdMZDljQ0dkZXZRbzc3U1NmNkhnaFN5QzNhVmRzSmhsM0Q5VzU3Mm11OWZBa3M1V1lvaw?oc=5",
-       "s": "Reuters",
-       "c": "GB",
-       "l": "en",
-       "p": 1793913790,
-       "r": "known"
-      },
-      {
-       "t": "Iran sent a proposal to the US on its nuclear program",
-       "o": "Το Ιράν απέστειλε στις ΗΠΑ πρόταση για το πυρηνικό του πρόγραμμα",
-       "u": "https://www.in.gr/2026/11/05/world/to-iran-apesteile-stis-ipa-protasi-gia-to-pyriniko-tou-programma/",
-       "s": "in.gr",
-       "c": "GR",
-       "l": "el",
-       "p": 1793916000,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran sends nuclear proposal to US through Qatar, sets seven conditions for negotiations: Report",
-       "u": "https://www.hindustantimes.com/world-news/us-news/iran-sends-nuclear-proposal-to-us-through-qatar-sets-seven-conditions-for-negotiations-report-101793917492007.html",
-       "s": "Hindustan Times World",
+       "t": "'You'll know soon enough': Trump's warning on 'destroying' rest of Iran",
+       "u": "https://timesofindia.indiatimes.com/world/us/youll-know-soon-enough-trumps-warning-on-destroying-rest-of-iran/articleshow/135590265.cms",
+       "s": "Times of India",
        "c": "IN",
        "l": "en",
-       "p": 1793920894,
+       "p": 1793930072,
        "r": "known"
       },
       {
-       "t": "Trump says Iran 'not doing anything' on nuclear programme without US approval",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-not-doing-anything-nuclear-program-without-us-approval",
-       "s": "Middle East Eye",
-       "c": "GB",
+       "t": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
+       "u": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
        "l": "en",
-       "p": 1793918126,
+       "p": 1793923200,
        "r": "known"
       }
      ],
-     "headlines": 10,
-     "outlets": 8,
-     "independent": 7,
+     "headlines": 4,
+     "outlets": 3,
+     "independent": 3,
      "countries": [
-      "GB",
-      "GR",
+      "AE",
       "IN",
-      "RU",
-      "SA"
+      "QA"
      ],
-     "regions": 4,
+     "regions": 2,
      "party_only": false,
-     "state": 2
+     "state": 0
     },
     {
-     "text": "Iran's government says five oil tankers and a tugboat caught fire in the Strait of Hormuz. Only one outlet carries this, so it stands as Iran's claim. Trump has said a decision on the Iran war is coming 'soon', and US outlets quote him saying none of the soldiers has been killed for months.",
+     "text": "AP and NBC report that the Trump administration held talks with Iran on deporting Iranians, even during the war. Israeli and Ukrainian outlets carry the same report.",
      "stories": [
-      "s6",
-      "s21",
-      "s22"
+      "s3"
      ],
      "sources": [
       {
-       "t": "Iran's regime says five oil tankers and a tugboat caught fire in the Strait of Hormuz",
-       "o": "El régimen de Irán aseguró que cinco petroleros y un remolcador se incendiaron en el estrecho de Ormuz",
-       "u": "https://www.infobae.com/america/mundo/2026/11/05/el-regimen-de-iran-aseguro-que-cinco-petroleros-y-un-remolcador-se-incendiaron-en-el-estrecho-de-ormuz/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1793921068,
-       "r": "known"
+       "t": "Despite the war: Trump administration held secret talks with Iran | Report",
+       "o": "למרות המלחמה : ממשל טראמפ ניהל מגעים חשאיים עם איראן | דיווח",
+       "u": "https://www.maariv.co.il/news/world/article-1385495",
+       "s": "maariv.co.il",
+       "c": "IL",
+       "l": "he",
+       "p": 1793930400,
+       "r": "unrated"
       },
       {
-       "t": "Trump meets with national security team, says Iran war decision coming \"soon\"",
-       "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbW9jcGlzTlNQdWswMmp6NFFqVi1CRE9RSEtaOHp1U3FIUWp6Z0xYLW4tb2dld0tyQ3I0ODVILXBmZGNuSGxSNXo3TXJ4VWloN2tPeXZYcUZ5R195eno1U2lYUzloME1PN094Q2llQkZtWHpiNEtKOGU0d0k2SFRoSjFUTHpvUQ?oc=5",
-       "s": "Axios",
+       "t": "AP: Trump administration held talks with Iran on deportation of Iranians",
+       "o": "AP : Адміністрація Трампа провела переговори з Іраном щодо депортації іранців",
+       "u": "https://glavcom.ua/world/world-politics/-ap-administratsija-trampa-provela-perehovori-z-iranom-shchodo-deportatsiji-irantsiv--1153755.html",
+       "s": "glavcom.ua",
+       "c": "UA",
+       "l": "uk",
+       "p": 1793930400,
+       "r": "unrated"
+      },
+      {
+       "t": "Trump administration held talks with Iran on deporting Iranians – NBC10 Philadelphia",
+       "u": "https://www.nbcphiladelphia.com/news/national-international/trump-administration-talks-iran-deporting-iranians-war/4492564/",
+       "s": "nbcphiladelphia.com",
        "c": "US",
        "l": "en",
-       "p": 1793921350,
+       "p": 1793925000,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
+     "countries": [
+      "IL",
+      "UA",
+      "US"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "UKMTO has warned that Hormuz attacks are rising as Iran steps up pressure on shipping, according to Gulf News. A Chinese market report says a Hormuz incident pushed oil sharply higher, while a South Korean outlet says the strait is blocked but oil keeps flowing. Each of these comes from a single outlet.",
+     "stories": [
+      "s8",
+      "s11",
+      "s13"
+     ],
+     "sources": [
+      {
+       "t": "Hormuz attacks rise as Iran steps up pressure on shipping, UKMTO warns",
+       "u": "https://gulfnews.com/business/energy/hormuz-attacks-rise-as-iran-steps-up-pressure-on-shipping-ukmto-warns-1.500737866",
+       "s": "Gulf News",
+       "c": "AE",
+       "l": "en",
+       "p": 1793928998,
        "r": "known"
       },
       {
-       "t": "None of our soldiers has been killed for months\" - Trump praises Hegseth's work in the Iran war | CNN Arabic | CNN",
-       "o": "\"لم يُقتل أحد من جنودنا منذ أشهر\"..ترامب مشيداً بعمل هيغسيث بحرب إيران | CNN Arabic | CNN",
-       "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVzg5VDVobHU2cGREYk1QUmhDTlVtOENkQUVXUVVYbUl5cjFjSmx3OHFKVEZPQ3RvNEJ2MlMzc1QtSTl5b29BcmtSUFJaZmJqR2ZPMnZqTVBvblRZMzJxaWJvd1hqRFJZd2tNcFp4Rmg1NU5nZDlYNGZGWVFVRE85M2tRc2xQS055TTNLdzBCUzMwZzJqaThRRTkyOUxTbWE5ZWVnYW0ySnJiWXlER0dkVkhQanhGUVpORUZZd3A4cjJFRGpQ?oc=5",
-       "s": "CNN",
-       "c": "US",
-       "l": "ar",
-       "p": 1793918734,
+       "t": "Gold closes: Wall Street's plunge boosts gold! Gold price surges to $4,147 as Hormuz incident again sends oil sharply higher – Gold Market Live – Gold Network – CNFOL",
+       "o": "黄金收评 ： 华尔街崩跌助攻黄金 ！ 金价冲上4147美元 ， 霍尔木兹再出事 、 油价猛涨 _ 金市直播 _ 黄金网 _ 中金在线",
+       "u": "http://gold.cnfol.com/jinshizhibo/20261106/32417189.shtml",
+       "s": "gold.cnfol.com",
+       "c": "CN",
+       "l": "zh",
+       "p": 1793926800,
+       "r": "unrated"
+      },
+      {
+       "t": "Hormuz is blocked, but oil keeps flowing",
+       "u": "https://www.hani.co.kr/arti/economy/economy_general/1286063.html",
+       "s": "Hankyoreh English",
+       "c": "KR",
+       "l": "en",
+       "p": 1793924655,
        "r": "known"
       }
      ],
@@ -10705,24 +10601,63 @@
      "outlets": 3,
      "independent": 3,
      "countries": [
-      "AR",
-      "US"
+      "AE",
+      "CN",
+      "KR"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Russian state media TASS reports Trump saying the US will soon decide whether to 'go further' in the Iran conflict, and a Lebanese outlet says he is awaiting a decision with his national security team. Both are single-source reports.",
+     "stories": [
+      "s9",
+      "s17"
+     ],
+     "sources": [
+      {
+       "t": "US to soon decide whether to 'go further' in Iran conflict — Trump",
+       "u": "https://tass.com/world/2213593",
+       "s": "TASS English",
+       "c": "RU",
+       "l": "en",
+       "p": 1793928121,
+       "r": "state"
+      },
+      {
+       "t": "Trump discusses options for dealing with Iran with national security team, awaiting decision on war",
+       "o": "ترمب يبحث مع فريق الأمن القومي خيارات التعامل مع إيران ويترقب قراراً بشأن الحرب",
+       "u": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxPNkJ2TktYY1g2OUZJdnF4ZEFOamF2Q2taMlNPbktMdnY4b2wxVUR6aS1jaER0RGNQYmI1VHRTMTZGb2luOHd5STRvRm0yaTlxUVRHNDA5OUYwRktzR0hGbVlKWURhbHl3ZlBsbnRaTDA5TmNpTDlsaGZENndqNzVmY0QwSHhFem5GSTJYSjk1R1drRjBqV3RhbDFqQm1UVTVhTG14VEZMTlFpam1MdTZfX3N5RG1KbUlWTWZfNmE2Q2Y4MkFUdkpiS1Niek45TGdsSzNjdkhadGQ5OXdJaXZwNGpkaHlxbFl5WG5kbjEtUTV3UlpNNFNrZXlWQ0FJaWpiVGNDWlFRTk5HX1VoNFpnN3FTVTZITVFrNnFTd1FmWlB4T3U4RW8tZGVyUUZoZTBQdlhwSG40U1hzMkZaRzJtY24yaF9zVm0xUnNOT1hIcE1UQVBkRDl3ZldKckhvcWFFWElyRmZXbzBVNW9EQzEyelNEYkxuMjRtNV9kVW9YWVV5TC1LMHFUVlRkOXBhbTJwMkJvbi1kYmtXSUgwQ0xvbTd",
+       "s": "الشرق للأخبار",
+       "c": "LB",
+       "l": "ar",
+       "p": 1793923146,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "LB",
+      "RU"
      ],
      "regions": 2,
      "party_only": false,
-     "state": 0
+     "state": 1
     }
    ],
    "watch": [
-    "Trump's 'soon' decision on the Iran war, which US outlets report",
-    "Whether the US confirms or denies the Iranian drone shoot-down claims over Qeshm",
-    "Any Iranian reply to the US on the Qatar-channel nuclear proposal"
+    "UKMTO and shipping reports on new Hormuz incidents",
+    "Any announced US decision on going further in Iran",
+    "Iranian reply to US on the nuclear proposal sent via Qatar"
    ],
    "window_hours": 3,
-   "headlines_read": 39,
-   "outlets_read": 28,
-   "countries_read": 18,
-   "languages_read": 13,
+   "headlines_read": 32,
+   "outlets_read": 27,
+   "countries_read": 19,
+   "languages_read": 10,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-05T07:03:41Z",
    "ladder_note": "Re-checked after: Iran's Revolutionary Guards report fires on tankers and a tug in the Strait of Hormuz, a shipping incident in the strait; the cause is Iran's account and is not yet independently confirmed."
