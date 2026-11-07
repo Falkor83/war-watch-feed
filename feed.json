@@ -1713,9 +1713,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Limited US strikes on Iran continue as Hormuz attacks rise; Qatar says talks go on",
+   "status": "Tanker hits mine in Hormuz as new US strikes hit Qeshm; mediators say talks continue",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been heavily disrupted. Trump said the US carried out new limited strikes on an Iranian air defence system on Nov 6, the first action since the midterms; Iranian media report missiles hitting Qeshm Island. Iran's Revolutionary Guards say they shot down a US MQ-1 drone over Qeshm and that two tankers struck mines; the US has not confirmed the drone loss in these notes. IMO and UKMTO data cited by Al Jazeera count over 120 ships hit, with October the worst month. Talks continue: a senior Iranian official says Iran sent a nuclear proposal via Qatar, and Qatar is urging both sides to settle.",
    "latest": [
+    {
+     "date": "2026-11-07",
+     "text": "Iran's navy says a tanker hit a mine on a 'prohibited' route in the Strait of Hormuz and caught fire. Several outlets from six countries carry the Iranian account, and it has not been independently confirmed.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/agencias/2026/11/07/iran-informa-de-un-incendio-en-un-petrolero-que-impacto-contra-una-mina-en-una-ruta-prohibida-en-ormuz/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-07",
+     "text": "US forces carried out new targeted strikes on Iran, including on Qeshm Island. Trump called them 'minor strikes' and said talks are ongoing. Reports from several countries describe the strikes; one Turkish outlet reports a missile attack on a tanker in the Persian Gulf that killed one sailor.",
+     "outlet": "Euronews",
+     "country": "France",
+     "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-07",
+     "text": "Iran's IRGC says it has lifted limits on missile range and that it will show its new capabilities in practice. An IRGC spokesman says Iran has downed 260 hostile aircraft and seized 7 intact drones; these are Iran's own claims, carried only by Iranian-linked outlets.",
+     "outlet": "tvzvezda.ru",
+     "country": "Russia",
+     "url": "https://tvzvezda.ru/news/2026117145-vR2bg.html",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-07",
      "text": "US forces carried out further limited strikes on Iran, with reports of two missiles hitting Qeshm (Kishm) Island. Trump confirmed a strike there and called it a minor operation.",
@@ -1764,36 +1794,6 @@
      "url": "https://www.jpost.com/middle-east/iran-news/article-914113",
      "region": "middle-east",
      "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Iran claims its forces shot down a US drone over Qeshm Island. Outlets differ on the model, with one naming the MQ-9 and another the MQ-1; this is Iran's claim and has not been independently confirmed.",
-     "outlet": "Antara",
-     "country": "Indonesia",
-     "url": "https://www.antaranews.com/berita/5838063/iran-klaim-tembak-jatuh-drone-mq-9-as-di-atas-pulau-qeshm",
-     "region": "southeast-asia",
-     "tag": "non-party",
-     "state_media": true
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Headline (translated from ru): Trump reports new \"targeted\" strike on Iran [story carried by 9 independent sources in 6 countries (EC, GB, IL, IN, RU, SA)]",
-     "outlet": "RBC",
-     "country": "Russia",
-     "url": "https://www.rbc.ru/rbcfreenews/6aeeadf4bc080529508ff9e7",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Headline (translated from ar): Bakra site: Trump announces a limited military strike on Iran... targeting an air defense facility within minutes [story carried by 9 independent sources in 6 countries (EC, GB, IL, IN, RU, SA)]",
-     "outlet": "bokra.net",
-     "country": "Israel",
-     "url": "https://bokra.net/Article-1607329",
-     "region": "middle-east",
-     "tag": "party-press",
      "state_media": false
     }
    ],
@@ -11228,73 +11228,281 @@
      "at": "2026-11-07T10:20:31Z",
      "headline": "Limited US strikes on Iran continue as Hormuz attacks rise; Qatar says talks go on",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-07T13:37:18Z",
+     "headline": "Tanker hits mine in Hormuz as new US strikes hit Qeshm; mediators say talks continue",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-07T10:20:31Z",
-   "next_at": "2026-11-07T13:20:31Z",
-   "headline": "Limited US strikes on Iran continue as Hormuz attacks rise; Qatar says talks go on",
+   "updated_at": "2026-11-07T13:37:18Z",
+   "next_at": "2026-11-07T16:37:18Z",
+   "headline": "Tanker hits mine in Hormuz as new US strikes hit Qeshm; mediators say talks continue",
    "direction": "steady",
    "points": [
     {
-     "text": "US forces carried out further limited strikes on Iran, with reports of two missiles hitting Qeshm (Kishm) Island. Trump confirmed a strike there and called it a minor operation.",
+     "text": "Iran's navy says a tanker hit a mine on a 'prohibited' route in the Strait of Hormuz and caught fire. Several outlets from six countries carry the Iranian account, and it has not been independently confirmed.",
      "stories": [
-      "s2",
-      "s5",
-      "s21",
-      "s28"
+      "s1"
      ],
      "sources": [
       {
-       "t": "Iran has intensified its attacks on the Strait of Hormuz",
-       "o": "ایران حملات خود بر تنگه هرمز را تشدید کرده است",
-       "u": "https://www.dw.com/fa-af/ایران-حملات-خود-بر-تنگه-هرمز-را-تشدید-کرده-است/a-79883721?maca=dar-rss-dar-all-1481-rdf",
-       "s": "DW Dari",
-       "c": "DE",
-       "l": "fa",
-       "p": 1794043860,
+       "t": "Iran reports fire on a tanker that hit a mine on a \"prohibited\" route in Hormuz",
+       "o": "Irán informa de un incendio en un petrolero que impactó contra una mina en una ruta \"prohibida\" en Ormuz",
+       "u": "https://www.infobae.com/america/agencias/2026/11/07/iran-informa-de-un-incendio-en-un-petrolero-que-impacto-contra-una-mina-en-una-ruta-prohibida-en-ormuz/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794055587,
        "r": "known"
       },
       {
-       "t": "US military carries out new targeted strikes on Iran",
-       "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY29KVW44dlQ1RmROWTBaaFdnVmZaaU9RRWtVYnJ5bU8zUzdVVlBuMUdzbTVyVzBnUS1TbU9TT3F1QkFNajItaThLQmpkcUhLZUhpdVozQjJidVJrV0U3NXhBbWoySUxuMDE3MnhkWVNvSXRVd1prMUJkME9qY2E3LXk1RlpIeWd6RFNaMUhkd1pIRGx5ZDFhMGxFTy1kcGlKcUt5OWdFRHFBSDFqM3Rr0gG0AUFVX3lxTFAzanA5Q0RRby1JYkZ4QzRmTzVYeVd4dUxiaDZSTmpCZ1F5YlZyT2JiTHRsM3FNanV6YVAyeVZ6N1ozbENwUEF1ZmcyV0t0LThRTTB4MTBQbFZNSFllNnpwdmM3UVFnRTl0Mk8tRno4ZzJIUjlTZzV5bUFBUXRfNzhoTVI1WndwQVhtUDdVYURwMGFSc24yaXF2eDFtZFBzR3pORDZHNVhUb3lHRmpHM2M1TVFFQw?oc=5",
+       "t": "Iran navy says tanker hits mine, catches fire in Hormuz",
+       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMDRnUEg2QTB1blV5ckVFRXg1Q0JXcUpTZ2liS2RHYlRvQ01MQjNVSHp4NVpMRGc0dW1HQTQ3WFpqNy0yWGhGZlkzMm9Jckg1aUZPU09tT21oTDFaZy1lQlpiY3cwY3BPTE1vTHlacTNIWXI0STltdURYcGdwdUozaTNXd1dEd1N4VlFjQUFTTUxyNVpUNlVuM1pjQUQtbGxFclBGZU54cDJoUWtRZXg1d2NB0gG3AUFVX3lxTE1BN2RnTzhyNWZtU0tGWmlvQ1E4MHRwOE5XQlE0NmVuM2ZVRVFlS2RKUnJKSDE2Nk1fb25IbXRVZ3Vxb1NSdXByWlM1UFBySHVaTTRBeXRveVl4NW1DSXhMM3h5NmJLUmN4NmI5aDBvRDFMbWpPNTFmcHJnSjE0RmVBa1U1c214S0hxcGVlTm1JaDdGc2I2czdFU3cxLUtuNElaS2lCbDYyVWFDbFRHQTN4YWhlMXZSWQ?oc=5",
        "s": "Al Arabiya English",
        "c": "SA",
        "l": "en",
-       "p": 1794037200,
+       "p": 1794050040,
        "r": "known"
       },
       {
-       "t": "'Trump' confirms US limited strikes on Iran after reports of two missiles falling on Kheshm island",
-       "o": "‘ทรัมป์’ ยืนยันสหรัฐโจมตีอิหร่านวงจำกัด หลังมีข่าวขีปนาวุธ 2 ลูกตกเกาะเกชม์",
-       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Pdk5jSDdLU3dRQTY1dGs0UzFla25abk9hdFpZNmtvUmVjR09hNE10OEVBVzdJT1Q3eGF4blhiZzd0Tmp5WnQ3M3E3akxROUJPNFhBYTlfRFd1R2J4b09WU2w4RWQ4QzQ?oc=5",
-       "s": "bangkokbiznews",
-       "c": "TH",
-       "l": "th",
-       "p": 1794043800,
+       "t": "Iranian Navy: fire on a tanker in the Strait of Hormuz due to a mine",
+       "o": "البحرية الإيرانية: حريق في ناقلة بمضيق هرمز بسبب لغم",
+       "u": "https://news.google.com/rss/articles/CBMiugNBVV95cUxPSXFNN295OVBYX3FQVklPQlFDM1V1T0t0NW1IdzYwSmc3THdqSy1jUjhJenplMTNuUjBDaFQySGV6REg5M3BUbVcyTE9zOGFYUHNhVk95aGEwYTQ2SmhFbUtyTDlfUmgtY0FvdGxsWm52N0FHOERHYnRMbnpRTEpzQURPbC1KVF9JT2FaWFE4Tm9pMGhwWkJfcUFGMFR5V29Ta2xscEVLX2xONXlpelkxRW0xdmpGRC1DQlZBN0o4Ql9pMHlnd0xSZVJ5eGtpcmVHWXhYdHZ6TXdyMF9HbXZTRlo2Z28xeVJPQzFCUlNMMWI0eVI3VlZtQ3M3aWlZd1VOdWp6anNkblEteXhOUmdlcW5aS0M3M3huQ3ROeVFKMXlsekNxOGRmWlNBeUdGS195MXUtXzVOdDg3N0ZSSkdQX0h6RVByNi1JZnZuT05ucF93MVdiVWloczhSR2FqYkRiV1JJbVdwRU9RaEZvVkNrMUpDa2FhN2dXdkxFcE1YR1RwaXVHRWZDbEhSOTVneHZNdFNLdERHeENsOU9NWjM5RGR",
+       "s": "الشرق للأخبار",
+       "c": "LB",
+       "l": "ar",
+       "p": 1794056783,
        "r": "unrated"
       },
       {
-       "t": "Trump confirmed the US struck Kishm Island in Iran: \"A minor operation",
-       "o": "טראמפ אישר שארה\"ב תקפה באי קשם באיראן: \"פעולה מינורית\"",
-       "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWm84RTNybUxJbDhabHM2cHVRem1XTnNMS2lwNV9YUDBNM24zcW1aWkh2eUk2cl9POTNBNkZtZlVlUDlqSExESnFhejVNaU9yMmI1SGJSNzczZ3BtbHhlSHdBV2p3VHRVRE12YW5leG00a2JuWUdaVTB3VTduUzZvcGI5WXItVHV0VTBBdTZmM1dCanpKNHF1TGt0WnA4MUtRUnI2cHZkNVRTRWc?oc=5",
-       "s": "הארץ",
-       "c": "IL",
-       "l": "he",
-       "p": 1794041100,
+       "t": "Iran’s Navy: Tanker catches fire after hitting sea mine east of Strait of Hormuz",
+       "u": "https://en.irna.ir/news/86314896/Iran-s-Navy-Tanker-catches-fire-after-hitting-sea-mine-east",
+       "s": "IRNA English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794051593,
+       "r": "state"
+      }
+     ],
+     "headlines": 8,
+     "outlets": 7,
+     "independent": 7,
+     "countries": [
+      "AR",
+      "IR",
+      "LB",
+      "RU",
+      "SA",
+      "TR"
+     ],
+     "regions": 5,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "US forces carried out new targeted strikes on Iran, including on Qeshm Island. Trump called them 'minor strikes' and said talks are ongoing. Reports from several countries describe the strikes; one Turkish outlet reports a missile attack on a tanker in the Persian Gulf that killed one sailor.",
+     "stories": [
+      "s4",
+      "s5",
+      "s7",
+      "s15",
+      "s22"
+     ],
+     "sources": [
+      {
+       "t": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran",
+       "u": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran",
+       "s": "Euronews",
+       "c": "FR",
+       "l": "en",
+       "p": 1794051353,
+       "r": "known"
+      },
+      {
+       "t": "Trump claims 'minor strikes' on Iran's Qeshm Island, but says talks ongoing",
+       "u": "https://www.middleeasteye.net/news/trump-says-us-military-carried-out-fresh-round-minor-strikes-irans-qesham-island-claims-talks",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794049399,
+       "r": "known"
+      },
+      {
+       "t": "US in new targeted strikes on Iran as Tehran leaders weigh mediator proposals",
+       "u": "https://www.naharnet.com/stories/en/323622-us-in-new-targeted-strikes-on-iran-as-tehran-leaders-weigh-mediator-s-proposals",
+       "s": "Naharnet",
+       "c": "SY",
+       "l": "en",
+       "p": 1794051000,
+       "r": "known"
+      },
+      {
+       "t": "Donald Trump weighs Iran proposal amid 15 - minute air defense strikes Details Of Iran New Nuclear Proposal To The United States",
+       "u": "https://www.el-balad.com/17064708",
+       "s": "el-balad.com",
+       "c": "EG",
+       "l": "en",
+       "p": 1794051000,
        "r": "unrated"
       },
       {
-       "t": "US strikes Iran for the first time since the midterm elections",
-       "o": "США вперше після проміжних виборів вдарили по Ірану",
-       "u": "https://www.pravda.com.ua/news/2026/11/07/8061689/",
-       "s": "Ukrainska Pravda UA",
-       "c": "UA",
-       "l": "uk",
-       "p": 1794038400,
+       "t": "US military attacks Iranian island of Qeshm",
+       "o": "US - Militär greift iranische Insel Qeschm an",
+       "u": "https://brf.be/international/2123817/",
+       "s": "brf.be",
+       "c": "BE",
+       "l": "de",
+       "p": 1794051000,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 8,
+     "outlets": 8,
+     "independent": 8,
+     "countries": [
+      "BE",
+      "EG",
+      "FR",
+      "GB",
+      "IT",
+      "SY",
+      "TR"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran's IRGC says it has lifted limits on missile range and that it will show its new capabilities in practice. An IRGC spokesman says Iran has downed 260 hostile aircraft and seized 7 intact drones; these are Iran's own claims, carried only by Iranian-linked outlets.",
+     "stories": [
+      "s6",
+      "s11",
+      "s18",
+      "s29"
+     ],
+     "sources": [
+      {
+       "t": "IRGC: restrictions on the range of Iranian missiles lifted",
+       "o": "КСИР : ограничения на дальность действия иранских ракет сняты",
+       "u": "https://tvzvezda.ru/news/2026117145-vR2bg.html",
+       "s": "tvzvezda.ru",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794051000,
+       "r": "unrated"
+      },
+      {
+       "t": "Iran ramps up threats against US, removes cap on ballistic missile range",
+       "u": "https://timesofindia.indiatimes.com/world/middle-east/beyond-2000-km-iran-removes-cap-on-ballistic-missile-range-vows-to-demonstrate-capabilities-on-battlefield/articleshow/135636348.cms",
+       "s": "Times of India",
+       "c": "IN",
+       "l": "en",
+       "p": 1794053877,
+       "r": "known"
+      },
+      {
+       "t": "IRGC representative: Iran will demonstrate in practice its capabilities for responding to threats",
+       "o": "Представитель КСИР : Иран продемонстрирует на практике свои возможности по реагированию на угрозы",
+       "u": "https://ru.apa.az/aziya/predstavitel-ksir-iran-prodemonstriruet-na-praktike-svoi-vozmoznosti-po-reagirovaniyu-na-ugrozy-682971",
+       "s": "ru.apa.az",
+       "c": "AZ",
+       "l": "ru",
+       "p": 1794051000,
+       "r": "unrated"
+      },
+      {
+       "t": "We downed 260 hostile aircraft , seized 7 intact enemy drones ; new capabilities will astonish foes : IRGC Spokesman",
+       "u": "http://www.iranherald.com/news/279418328/we-downed-260-hostile-aircraft-seized-7-intact-enemy-drones-new-capabilities-will-astonish-foes-irgc-spokesman",
+       "s": "iranherald.com",
+       "c": "IR",
+       "l": "en",
+       "p": 1794051000,
+       "r": "unrated"
+      },
+      {
+       "t": "We downed 260 hostile aircraft , seized 7 intact enemy drones ; new capabilities will astonish foes : IRGC Spokesman",
+       "u": "http://www.bignewsnetwork.com/news/279418328/we-downed-260-hostile-aircraft-seized-7-intact-enemy-drones-new-capabilities-will-astonish-foes-irgc-spokesman",
+       "s": "bignewsnetwork.com",
+       "c": "US",
+       "l": "en",
+       "p": 1794051000,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 6,
+     "outlets": 6,
+     "independent": 5,
+     "countries": [
+      "AZ",
+      "IN",
+      "IR",
+      "RU",
+      "US"
+     ],
+     "regions": 5,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "On diplomacy, Bloomberg, as reported by a Taiwanese outlet, says US-Iran talks are nearly at an agreement and Tehran is weighing a plan on the nuclear issue. Qatar says progress is being made and that the sides cannot wait for a perfect deal. Separately, the US has offered up to $20 million for information on Iran's nu",
+     "stories": [
+      "s16",
+      "s27",
+      "s2",
+      "s5"
+     ],
+     "sources": [
+      {
+       "t": "US media Bloomberg reports: US-Iran diplomatic talks nearly reach an agreement; Tehran weighs a plan on the Qatari nuclear issue | Ignoring US maximum pressure; Cuba expands military drills, rehearsing against a US invasion | 2026/11/07 CNA Global Evening News",
+       "u": "https://www.cna.com.tw:443/youtube/a6A7uFDvAug.aspx",
+       "s": "cna.com.tw",
+       "c": "TW",
+       "l": "en",
+       "p": 1794051000,
+       "r": "unrated"
+      },
+      {
+       "t": "Is the end of the US war with Iran getting closer? Qatar signals progress. \"We cannot wait",
+       "o": "Coraz bliżej końca wojny USA z Iranem? Katar sygnalizuje postęp. \"Nie możemy czekać\"",
+       "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX0JyeTJBampWYWJXdnlwenFQdEVRaWdtZC1Ec2FTM3ZQRE96NXpBd21GQmJwUmswTkI3TkY3MzA5TmVXQzRhZ1lFal9pd28wcGpXVmI1WWtNUzdFM0tGUC1jQWQwaEY2Wnp2VndmVllYb1FVbjFhNzdoUWE3MUNfRXhiU1ZoR1lDa25ybDlKVG5LTWE0V3B2RnpzY2RTMWlGeU9CVjY3Z3Y2bjBqb2g0d1dVWVBkY2dNVnJtRTB3?oc=5",
+       "s": "Wiadomości Onet",
+       "c": "PL",
+       "l": "pl",
+       "p": 1794049448,
+       "r": "unrated"
+      },
+      {
+       "t": "After Trump spoke of \"destroying the rest of Iran,\" the US offers $20 million for information on Iran's nuclear program",
+       "o": "Após Trump falar em 'destruir o resto do Irã', EUA oferecem US$ 20 milhões por informações sobre o programa nuclear iraniano",
+       "u": "https://g1.globo.com/mundo/noticia/2026/11/07/eua-oferecem-us-20-milhoes-por-informacoes-programa-nuclear-ira.ghtml",
+       "s": "G1 Mundo",
+       "c": "BR",
+       "l": "pt",
+       "p": 1794053905,
+       "r": "known"
+      },
+      {
+       "t": "US sets bounty \"up to $20 million\" in exchange for information on Iran's nuclear program",
+       "o": "امریکا د ایران د اټومي پروګرام په اړه د معلوماتو په بدل کې \"تر ۲۰ میلیونه ډالرو\" انعام ټاکلی",
+       "u": "https://www.bbc.com/pashto/articles/c8wy95xld3k7o?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Pashto",
+       "c": "GB",
+       "l": "ps",
+       "p": 1794053654,
+       "r": "known"
+      },
+      {
+       "t": "US offers $20 million reward and 'possible relocation' for information on 'Iran’s nuclear program'",
+       "u": "https://www.euronews.com/2026/11/07/us-offers-20-million-reward-and-possible-relocation-for-information-on-irans-nuclear-progr",
+       "s": "Euronews",
+       "c": "FR",
+       "l": "en",
+       "p": 1794051079,
        "r": "known"
       }
      ],
@@ -11302,184 +11510,31 @@
      "outlets": 9,
      "independent": 8,
      "countries": [
-      "DE",
-      "ID",
-      "IL",
-      "SA",
-      "TH",
-      "UA"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "Reports say Iran has intensified its attacks on the Strait of Hormuz. A seafarer died in a tanker blast in the strait, reported by one Indian outlet.",
-     "stories": [
-      "s2",
-      "s11"
-     ],
-     "sources": [
-      {
-       "t": "Iran has intensified its attacks on the Strait of Hormuz",
-       "o": "ایران حملات خود بر تنگه هرمز را تشدید کرده است",
-       "u": "https://www.dw.com/fa-af/ایران-حملات-خود-بر-تنگه-هرمز-را-تشدید-کرده-است/a-79883721?maca=dar-rss-dar-all-1481-rdf",
-       "s": "DW Dari",
-       "c": "DE",
-       "l": "fa",
-       "p": 1794043860,
-       "r": "known"
-      },
-      {
-       "t": "US military carries out new targeted strikes on Iran",
-       "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY29KVW44dlQ1RmROWTBaaFdnVmZaaU9RRWtVYnJ5bU8zUzdVVlBuMUdzbTVyVzBnUS1TbU9TT3F1QkFNajItaThLQmpkcUhLZUhpdVozQjJidVJrV0U3NXhBbWoySUxuMDE3MnhkWVNvSXRVd1prMUJkME9qY2E3LXk1RlpIeWd6RFNaMUhkd1pIRGx5ZDFhMGxFTy1kcGlKcUt5OWdFRHFBSDFqM3Rr0gG0AUFVX3lxTFAzanA5Q0RRby1JYkZ4QzRmTzVYeVd4dUxiaDZSTmpCZ1F5YlZyT2JiTHRsM3FNanV6YVAyeVZ6N1ozbENwUEF1ZmcyV0t0LThRTTB4MTBQbFZNSFllNnpwdmM3UVFnRTl0Mk8tRno4ZzJIUjlTZzV5bUFBUXRfNzhoTVI1WndwQVhtUDdVYURwMGFSc24yaXF2eDFtZFBzR3pORDZHNVhUb3lHRmpHM2M1TVFFQw?oc=5",
-       "s": "Al Arabiya English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794037200,
-       "r": "known"
-      },
-      {
-       "t": "Seafarer dead in Hormuz tanker blast - News Today",
-       "u": "https://newstodaynet.com/2026/11/07/seafarer-dead-in-hormuz-tanker-blast/",
-       "s": "newstodaynet.com",
-       "c": "IN",
-       "l": "en",
-       "p": 1794043800,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "DE",
-      "IN",
-      "SA"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran says its forces shot down a US MQ-9 drone over Qeshm. This is Iran's own claim and has not been independently confirmed. Iran's IRGC also says it has lifted limits on missile range and warns of new capabilities if attacks resume.",
-     "stories": [
-      "s36",
-      "s7",
-      "s33"
-     ],
-     "sources": [
-      {
-       "t": "Iran’s Army intercepts, destroys US MQ-9 drone over Qeshm",
-       "u": "https://en.mehrnews.com/news/249211/Iran-s-Army-air-defense-destroys-US-MQ-9-drone-over-Qeshm",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794043263,
-       "r": "state"
-      },
-      {
-       "t": "Iran lifted restrictions on missile range, IRGC says",
-       "o": "Иран снял ограничения на дальность полета ракет, заявили в КСИР",
-       "u": "https://ria.ru/20261107/iran-2129929136.html",
-       "s": "RIA Novosti",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794044405,
-       "r": "state"
-      },
-      {
-       "t": "Restrictions on range of Iranian missiles lifted: IRGC spox",
-       "u": "https://en.mehrnews.com/news/249207/Advancing-air-defense-sys-IRGC-Aerospace-s-key-achievements",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794036131,
-       "r": "state"
-      },
-      {
-       "t": "New surprises to be unveiled on battlefield if attacks on Iran resume: IRGC",
-       "u": "https://en.irna.ir/news/86314803/New-surprises-to-be-unveiled-on-battlefield-if-attacks-on-Iran",
-       "s": "IRNA English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794045279,
-       "r": "state"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "IR",
-      "RU"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 4
-    },
-    {
-     "text": "On diplomacy, Qatar's prime minister says the sides cannot wait for a 'flawless agreement'. Sky News Arabia reports the chances of a wider war are shrinking, and NBC, as reported by RBC, says the White House has disagreed internally over the strikes.",
-     "stories": [
-      "s23",
-      "s6",
-      "s24"
-     ],
-     "sources": [
-      {
-       "t": "Qatar's prime minister on Iran-US talks: we cannot wait for a \"flawless agreement",
-       "o": "نخست‌وزیر قطر در مورد مذاکرات ایران و آمریکا: نمی‌توانیم منتظر یک «توافق بی‌نقص» بمانیم",
-       "u": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261107-%D9%86%D8%AE%D8%B3%D8%AA-%D9%88%D8%B2%DB%8C%D8%B1-%D9%82%D8%B7%D8%B1-%D8%AF%D8%B1-%D9%85%D9%88%D8%B1%D8%AF-%D9%85%D8%B0%D8%A7%DA%A9%D8%B1%D8%A7%D8%AA-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%88-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D9%86%D9%85%DB%8C-%D8%AA%D9%88%D8%A7%D9%86%DB%8C%D9%85-%D9%85%D9%86%D8%AA%D8%B8%D8%B1-%DB%8C%DA%A9-%D8%AA%D9%88%D8%A7%D9%81%D9%82-%D8%A8%DB%8C-%D9%86%D9%82%D8%B5-%D8%A8%D9%85%D8%A7%D9%86%DB%8C%D9%85",
-       "s": "RFI Persian",
-       "c": "FR",
-       "l": "fa",
-       "p": 1794040348,
-       "r": "known"
-      },
-      {
-       "t": "Trump under pressure: chances of resuming a broader war on Iran dwindle",
-       "o": "ترامب تحت الضغط.. تضاؤل احتمالات استئناف حرب موسعة على إيران",
-       "u": "https://www.skynewsarabia.com/world/1903237-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A7%D9%84%D8%B6%D8%BA%D8%B7-%D8%AA%D8%B6%D8%A7%D8%A4%D9%84-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81-%D8%AD%D8%B1%D8%A8-%D9%85%D9%88%D8%B3%D8%B9%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1794036872,
-       "r": "known"
-      },
-      {
-       "t": "NBC learned of disagreements in the White House over strikes on Iran",
-       "o": "NBC узнал о разногласиях в Белом доме по поводу ударов по Ирану",
-       "u": "https://www.rbc.ru/rbcfreenews/6aeed040bc080529508ffa04",
-       "s": "RBC",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794039300,
-       "r": "known"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "AE",
+      "BR",
+      "EG",
       "FR",
-      "RU"
+      "GB",
+      "IL",
+      "IR",
+      "PL",
+      "SY",
+      "TW"
      ],
-     "regions": 3,
+     "regions": 5,
      "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Whether Iran's attacks on Hormuz shipping continue, and any further casualties among crews",
-    "Whether Qatar's mediation produces a deal that could reopen the strait",
-    "Further US security alerts about possible Iranian or Houthi attacks in the region"
+    "Whether Tehran answers the mediator proposals on its nuclear program",
+    "Further mine or tanker incidents in the Strait of Hormuz",
+    "Whether the Pickaxe Mountain question, which Gulf News links to November 9, moves into official statements"
    ],
    "window_hours": 3,
-   "headlines_read": 67,
-   "outlets_read": 44,
-   "countries_read": 21,
-   "languages_read": 14,
+   "headlines_read": 50,
+   "outlets_read": 38,
+   "countries_read": 25,
+   "languages_read": 13,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-05T07:03:41Z",
    "ladder_note": "Re-checked after: Iran's Revolutionary Guards report fires on tankers and a tug in the Strait of Hormuz, a shipping incident in the strait; the cause is Iran's account and is not yet independently confirmed."
