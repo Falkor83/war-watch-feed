@@ -3,7 +3,7 @@
 Usage: python3 tools/check_tests_ahead.py DAYS [test_module ...]   (default: all four suites)"""
 import datetime, os, sys, time, unittest
 
-off = int(sys.argv[1]) * 86400
+off = float(sys.argv[1]) * 86400                               # days; 0.25 = 6 hours
 names = sys.argv[2:] or ["test_feed", "test_headlines", "test_focus", "test_actions"]
 _t, _gm, _lt, _sf = time.time, time.gmtime, time.localtime, time.strftime
 time.time = lambda: _t() + off                                   # date.today() reads time.time() too

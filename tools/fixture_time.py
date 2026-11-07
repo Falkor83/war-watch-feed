@@ -4,11 +4,15 @@ Every test loads the fixture feed through here, with all its dates moved forward
 import datetime, json, os, re, time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FIXTURE_DAY = datetime.date(2026, 11, 4)          # the day tools/fixtures/feed.json was captured
 _DATE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})(?=$|T)")
+_STAMP = re.compile(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z")
 
-def shift_days():
-    return (datetime.date.fromtimestamp(time.time()) - FIXTURE_DAY).days
+def shift_days(raw):
+    """Whole days to move the fixture by: as far as possible without its newest timestamp landing in the future
+    (a future time reads as 'newer than this update' and changes what the jobs keep)."""
+    newest = max(datetime.datetime.strptime(m, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc).timestamp()
+                 for m in _STAMP.findall(raw))
+    return max(0, int((time.time() - newest) // 86400))
 
 def shift(obj, days):
     """Every string that starts with a YYYY-MM-DD date (plain dates and ISO timestamps), moved by `days`."""
@@ -23,8 +27,9 @@ def shift(obj, days):
     return obj
 
 def feed():
-    """tools/fixtures/feed.json as if it had been written today."""
-    return shift(json.load(open(os.path.join(HERE, "fixtures", "feed.json"), encoding="utf-8")), shift_days())
+    """tools/fixtures/feed.json as if it had been written within the last day."""
+    raw = open(os.path.join(HERE, "fixtures", "feed.json"), encoding="utf-8").read()
+    return shift(json.loads(raw), shift_days(raw))
 
 def write_feed(dst_dir):
     json.dump(feed(), open(os.path.join(dst_dir, "feed.json"), "w", encoding="utf-8"), ensure_ascii=False)
