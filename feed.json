@@ -1713,9 +1713,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "New US strike on Iranian air defences Nov 6; Iran says two tankers hit mines in Hormuz",
+   "status": "New limited US strike on Iran air defences; Qatar says talks continue",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been heavily disrupted. Trump said the US carried out new limited strikes on an Iranian air defence system on Nov 6, the first action since the midterms; Iranian media report missiles hitting Qeshm Island. Iran's Revolutionary Guards say they shot down a US MQ-1 drone over Qeshm and that two tankers struck mines; the US has not confirmed the drone loss in these notes. IMO and UKMTO data cited by Al Jazeera count over 120 ships hit, with October the worst month. Talks continue: a senior Iranian official says Iran sent a nuclear proposal via Qatar, and Qatar is urging both sides to settle.",
    "latest": [
+    {
+     "date": "2026-11-07",
+     "text": "The US carried out a new limited strike on Iranian air defences, reported by several outlets in different regions. Trump confirmed it and said the US destroyed air defence equipment, while describing the damage as small.",
+     "outlet": "Hankyoreh English",
+     "country": "South Korea",
+     "url": "https://www.hani.co.kr/arti/international/international_general/1286232.html",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-07",
+     "text": "The US has offered rewards of up to $20 million for information on Iran's nuclear programme, reported by nine independent outlets in nine countries.",
+     "outlet": "Jerusalem Post",
+     "country": "Israel",
+     "url": "https://www.jpost.com/middle-east/iran-news/article-914113",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-07",
+     "text": "Iran claims its forces shot down a US drone over Qeshm Island. Outlets differ on the model, with one naming the MQ-9 and another the MQ-1; this is Iran's claim and has not been independently confirmed.",
+     "outlet": "Antara",
+     "country": "Indonesia",
+     "url": "https://www.antaranews.com/berita/5838063/iran-klaim-tembak-jatuh-drone-mq-9-as-di-atas-pulau-qeshm",
+     "region": "southeast-asia",
+     "tag": "non-party",
+     "state_media": true
+    },
     {
      "date": "2026-11-07",
      "text": "Headline (translated from ru): Trump reports new \"targeted\" strike on Iran [story carried by 9 independent sources in 6 countries (EC, GB, IL, IN, RU, SA)]",
@@ -1763,36 +1793,6 @@
      "country": "Russia",
      "url": "https://www.kommersant.ru/doc/9091836",
      "region": "russia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Trump confirmed new US strikes on Qeshm Island, and Israeli and Indian outlets report two missiles hit the island. Trump said the US had hit Iranian air defences, though he described the damage as a 'little bit of anti-aircraft device'. Iran says its air defence downed a US drone over Qeshm. Outlets differ on the model",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNmpOc3NISlNqd2RIa3JOMjU1TUxPQ1loWXFoN2ZycXNmZ1QyU3hBVG9TWVhHcDNuWlZ2MGE1eVdLRGw5b2tCOTdseGZ6RHQ0RDB6UzZQVWpMSENnTmRSZFhWaGpBRWgyZXJEalpsc0xIbnpHQi1mQmJya1BXTlE4MTdnd056SkZlc1BXTnE2YktwRmhrR1kw0gGcAUFVX3lxTFBQamY0WVlzbUcwRjcyeXRQVFhPZWc0cTZmZWw5WEZxQmhwRkk0TnZlNDhwMFBLb2RZVWNKcGRjTENOV2NKeDlDbHkzUWs0SnBFS3ZkRkpwOXl5VWUza3RELUtQZm1HbTkzMlZCUjJMdHRoN1dHb1FTTTZxZlF1TzFKSXlnU1VWbnBSSjFJUzBqWWVPOUFHYmJua2pabA?oc=5",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Qatar denies reports that the US and Iran had failed to reach a deal and says talks continue. Trump says the US is 'talking to Iran' and doing 'very well'. Bloomberg reports Iran is reviewing a nuclear proposal, and Bloomberg and the Japan Times say the two sides are edging closer to a deal.",
-     "outlet": "Middle East Eye",
-     "country": "United Kingdom",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-denies-reports-us-and-iran-failed-reach-deal-says-talks-continue",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "UKMTO says 11 ships were attacked in the week to 4 November in Hormuz and the Arabian Gulf. Russian state media TASS cites the UN Maritime Organization as saying 25 sailors have died in the strait since 28 February. An Indian outlet reports Iran's Revolutionary Guards say two tankers caught fire in Hormuz; this is a si",
-     "outlet": "Middle East Eye",
-     "country": "United Kingdom",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-11-ships-attacked-week-4-nov-hormuz-arabian-gulf",
-     "region": "europe",
      "tag": "non-party",
      "state_media": false
     }
@@ -11218,297 +11218,347 @@
      "at": "2026-11-07T04:43:43Z",
      "headline": "US strikes hit Qeshm Island and Iranian air defences; talks continue, Qatar says",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-07T07:35:45Z",
+     "headline": "New limited US strike on Iran air defences; Qatar says talks continue",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-07T04:43:43Z",
-   "next_at": "2026-11-07T07:43:43Z",
-   "headline": "US strikes hit Qeshm Island and Iranian air defences; talks continue, Qatar says",
-   "direction": "escalating",
+   "updated_at": "2026-11-07T07:35:45Z",
+   "next_at": "2026-11-07T10:35:45Z",
+   "headline": "New limited US strike on Iran air defences; Qatar says talks continue",
+   "direction": "steady",
    "points": [
     {
-     "text": "Trump confirmed new US strikes on Qeshm Island, and Israeli and Indian outlets report two missiles hit the island. Trump said the US had hit Iranian air defences, though he described the damage as a 'little bit of anti-aircraft device'. Iran says its air defence downed a US drone over Qeshm. Outlets differ on the model",
+     "text": "The US carried out a new limited strike on Iranian air defences, reported by several outlets in different regions. Trump confirmed it and said the US destroyed air defence equipment, while describing the damage as small.",
      "stories": [
       "s2",
-      "s5",
-      "s6",
-      "s8",
-      "s16",
-      "s4"
+      "s9",
+      "s12"
      ],
      "sources": [
       {
-       "t": "Trump confirms new US strikes on Iran’s Qeshm Island",
-       "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNmpOc3NISlNqd2RIa3JOMjU1TUxPQ1loWXFoN2ZycXNmZ1QyU3hBVG9TWVhHcDNuWlZ2MGE1eVdLRGw5b2tCOTdseGZ6RHQ0RDB6UzZQVWpMSENnTmRSZFhWaGpBRWgyZXJEalpsc0xIbnpHQi1mQmJya1BXTlE4MTdnd056SkZlc1BXTnE2YktwRmhrR1kw0gGcAUFVX3lxTFBQamY0WVlzbUcwRjcyeXRQVFhPZWc0cTZmZWw5WEZxQmhwRkk0TnZlNDhwMFBLb2RZVWNKcGRjTENOV2NKeDlDbHkzUWs0SnBFS3ZkRkpwOXl5VWUza3RELUtQZm1HbTkzMlZCUjJMdHRoN1dHb1FTTTZxZlF1TzFKSXlnU1VWbnBSSjFJUzBqWWVPOUFHYmJua2pabA?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
+       "t": "US carries out first strike on Hormuz since Trump's election defeat… \"minor",
+       "u": "https://www.hani.co.kr/arti/international/international_general/1286232.html",
+       "s": "Hankyoreh English",
+       "c": "KR",
        "l": "en",
-       "p": 1794023821,
+       "p": 1794035913,
        "r": "known"
       },
       {
-       "t": "Two missiles struck Iran's Qeshm Island after aircraft heard above - report",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914097",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794010746,
+       "t": "First since Republican defeat in midterm elections: Trump announces new strike against Iran",
+       "o": "الأولى منذ هزيمة الجمهوريين في انتخابات التجديد النصفي .. ترامب يعلن تنفيذ ضربة جديدة ضد إيران",
+       "u": "https://www.dw.com/ar/الأولى-منذ-هزيمة-الجمهوريين-في-انتخابات-التجديد-النصفي-ترامب-يعلن-تنفيذ-ضربة-جديدة-ضد-إيران/live-79860485?maca=ara-rss-ar-all-1125-rdf",
+       "s": "DW Arabic",
+       "c": "DE",
+       "l": "ar",
+       "p": 1794032880,
        "r": "known"
       },
       {
-       "t": "2 Missiles Hit Iran's Qeshm Island: Report",
-       "u": "https://www.ndtv.com/world-news/2-missiles-hit-irans-qeshm-island-report-12295224#publisher=newsstand",
-       "s": "NDTV World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794010538,
-       "r": "known"
-      },
-      {
-       "t": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says",
-       "u": "https://www.al-monitor.com/originals/2026/11/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says",
-       "s": "Al-Monitor",
-       "c": "US",
-       "l": "en",
-       "p": 1794008786,
-       "r": "known"
-      },
-      {
-       "t": "US carries out new targeted strikes on Iran, targeting air defense system",
-       "u": "https://www.hindustantimes.com/world-news/us-news/us-military-carries-out-new-targeted-strikes-on-iran-targeting-air-defense-system-101794018415195.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794018868,
-       "r": "known"
-      }
-     ],
-     "headlines": 24,
-     "outlets": 17,
-     "independent": 16,
-     "countries": [
-      "AE",
-      "CA",
-      "GB",
-      "IL",
-      "IN",
-      "IR",
-      "QA",
-      "RU",
-      "SA",
-      "SG",
-      "US"
-     ],
-     "regions": 8,
-     "party_only": false,
-     "state": 3
-    },
-    {
-     "text": "Qatar denies reports that the US and Iran had failed to reach a deal and says talks continue. Trump says the US is 'talking to Iran' and doing 'very well'. Bloomberg reports Iran is reviewing a nuclear proposal, and Bloomberg and the Japan Times say the two sides are edging closer to a deal.",
-     "stories": [
-      "s7",
-      "s28",
-      "s22",
-      "s12",
-      "s10",
-      "s27"
-     ],
-     "sources": [
-      {
-       "t": "Qatar denies reports US and Iran failed to reach deal, says talks continue",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-denies-reports-us-and-iran-failed-reach-deal-says-talks-continue",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794006257,
-       "r": "known"
-      },
-      {
-       "t": "US continues talks with Iran — Trump",
-       "u": "https://tass.com/world/2214091",
-       "s": "TASS English",
+       "t": "Trump reports new \"targeted\" strike on Iran",
+       "o": "Трамп сообщил о новом «точечном» ударе по Ирану",
+       "u": "https://www.rbc.ru/rbcfreenews/6aeeadf4bc080529508ff9e7",
+       "s": "RBC",
        "c": "RU",
-       "l": "en",
-       "p": 1793997798,
-       "r": "state"
-      },
-      {
-       "t": "Qatar rejects reports claiming PM said US-Iran talks had failed",
-       "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY2dzdE43ZGFNYWNMZ2kyWk1CNVEyNW1GcUNqb0Y2Mlh1MlMzLVFySFhrX0hrLWRvNVBlWENMNDZ6MEhnYlczM3ViVk12X01uajNLZEpEbFEyRzc3bVBlVlZsa25yemxfMEJTcXo4ZGU0aWVqMmc3TjRtUmJfVlBXNy1zNUhBRFh6dnZsdTdJeWVPN3pMc25sYlltbWxrS0Vna0JQOGd0a1NYa1FC?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1794007105,
+       "l": "ru",
+       "p": 1794028834,
        "r": "known"
       },
       {
-       "t": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
-       "u": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "en",
-       "p": 1794009600,
-       "r": "known"
-      },
-      {
-       "t": "Trump: U.S. Is 'Talking to Iran' and Doing 'Very Well' With Tehran",
-       "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUtCb0FFV1NDWUZqVC1wZGZhSV81VlZIWHhsLUFlSlJMbXZGX0RLRm9tQUdzS09CVFRsSHVzUE9yZnhycFZUcHRUT0U5b09veFE2aFVBOW9YWGx4NFlSSXNYQzRDWmw4ZTQtbk5MbDA1bHMtbjBrV05BMFI4NU5Cc1hodXpZT1ZkdDJxNjdDME1ma2dROF9qTHN4TU8waGhiWFhBdGQtQWI0Q2MxOGRiY0d0b0laVThqUW5aNEN2ZFh5YktCZmZLdzNXYThDWkNpdGxVOFYyeU9BQ0hfRnNqWjltY1FnQQ?oc=5",
-       "s": "Haaretz",
-       "c": "IL",
-       "l": "en",
-       "p": 1793996400,
-       "r": "known"
-      }
-     ],
-     "headlines": 10,
-     "outlets": 8,
-     "independent": 8,
-     "countries": [
-      "GB",
-      "IL",
-      "JP",
-      "PH",
-      "QA",
-      "RU",
-      "SA",
-      "US"
-     ],
-     "regions": 7,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "UKMTO says 11 ships were attacked in the week to 4 November in Hormuz and the Arabian Gulf. Russian state media TASS cites the UN Maritime Organization as saying 25 sailors have died in the strait since 28 February. An Indian outlet reports Iran's Revolutionary Guards say two tankers caught fire in Hormuz; this is a si",
-     "stories": [
-      "s19",
-      "s23",
-      "s39"
-     ],
-     "sources": [
-      {
-       "t": "UKMTO says 11 ships attacked in week to 4 Nov in Hormuz, Arabian Gulf",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-11-ships-attacked-week-4-nov-hormuz-arabian-gulf",
-       "s": "Middle East Eye",
+       "t": "Trump blames the Iran war for losses in midterm elections",
+       "o": "Madaxweyne Trump oo sheegay in laba toddobaad gudahood Washington go’aan ka gaarayso arrinta Iiraan",
+       "u": "https://www.bbc.co.uk/somali/live/cm62ye49w1yzt?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Somali",
        "c": "GB",
-       "l": "en",
-       "p": 1794018309,
+       "l": "so",
+       "p": 1794028045,
        "r": "known"
       },
       {
-       "t": "UN Maritime Organization says 25 sailors died in Strait of Hormuz since February 28",
-       "u": "https://tass.com/world/2214123",
-       "s": "TASS English",
-       "c": "RU",
-       "l": "en",
-       "p": 1794009438,
-       "r": "state"
-      },
-      {
-       "t": "Iran Guards say two tankers caught fire in Hormuz",
-       "u": "https://www.thehindu.com/news/international/iran-guards-say-two-tankers-caught-fire-in-hormuz/article71675787.ece",
-       "s": "The Hindu",
-       "c": "IN",
-       "l": "en",
-       "p": 1793983744,
+       "t": "Trump confirms new limited US strikes against Iran's anti-aircraft systems",
+       "o": "Trump confirma nuevos ataques limitados de EEUU contra sistemas antiaéreos de Irán",
+       "u": "https://www.elmundo.es/internacional/2026/11/07/6aeec8a9e4d4d8f45d8b4592.html",
+       "s": "El Mundo Internacional",
+       "c": "ES",
+       "l": "es",
+       "p": 1794033910,
        "r": "known"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 7,
+     "outlets": 5,
+     "independent": 5,
      "countries": [
+      "DE",
+      "ES",
       "GB",
-      "IN",
+      "KR",
       "RU"
      ],
      "regions": 3,
      "party_only": false,
-     "state": 1
+     "state": 0
     },
     {
-     "text": "The US Treasury sanctioned eight money-service firms in Canada over alleged links to Iran. Iran has warned it will attack 'without geographic limits', and a US warning for Americans across the Middle East over Houthi attacks was also reported.",
+     "text": "The US has offered rewards of up to $20 million for information on Iran's nuclear programme, reported by nine independent outlets in nine countries.",
      "stories": [
-      "s3",
-      "s25",
-      "s13",
-      "s14"
+      "s1"
      ],
      "sources": [
       {
-       "t": "US, Canada sanction eight money service firms over links to Iran",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914099",
+       "t": "US offers reward of up to $20 million, possible relocation for information on Iran nuclear program",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914113",
        "s": "Jerusalem Post",
        "c": "IL",
        "l": "en",
-       "p": 1794012975,
+       "p": 1794035913,
        "r": "known"
       },
       {
-       "t": "US sanctions 8 Canadian entities over alleged Iran links and money transfers",
-       "u": "https://www.hindustantimes.com/world-news/us-news/us-sanctions-8-canadian-entities-over-alleged-iran-links-and-money-transfers-101794005070848.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794006470,
+       "t": "US offers rewards of up to $20 million for information on Iran's nuclear programme",
+       "o": "ABD, İran'ın nükleer programı hakkında bilgi verenlere 20 milyon dolara kadar ödül vadetti",
+       "u": "https://www.trthaber.com/haber/dunya/abd-iranin-nukleer-programi-hakkinda-bilgi-verenlere-20-milyon-dolara-kadar-odul-vadetti-962498.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794035580,
        "r": "known"
       },
       {
-       "t": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
-       "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
-       "s": "Reuters",
-       "c": "GB",
-       "l": "en",
-       "p": 1794005217,
+       "t": "US offers rewards of up to $20 million for information on Iran's nuclear program",
+       "o": "США объявили награду до $20 млн за сведения о ядерной программе Ирана",
+       "u": "https://www.rbc.ru/rbcfreenews/6aeeb3f13eeddcdbc2d9396a",
+       "s": "RBC",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794034036,
        "r": "known"
       },
       {
-       "t": "US Sanctions Eight Canadian Companies Over Iran Transactions",
-       "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcXNvVVI5NHhsNjBDVE1uREtNa2dXdXU5MDQ0LTJ5THpROVZ5U0R5ZkdnZVh4cFZIaTVOMTN3ZDlYQ3N3dnZDWlB2UnpFSVhzdjZXcy1BbzFTUGI2emFRaTdET2xQN193TXFaS2F0dVJBVF9ETFBFTFE0LTN3Y1FSaFhJQnBjLTE1OTJwV2VMT0tzVFpxUGJPcHdTbWVvcHgxMmxJeFNFbjhady1OT2pYSmtfbGJjeHZrZWdnMFd4NEVfTE9vTnktS0h5U2s?oc=5",
-       "s": "Bloomberg",
-       "c": "US",
+       "t": "Washington Offers $20 Million Reward for Information on Iran's Nuclear Program",
+       "u": "https://english.aawsat.com/node/5338498",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
        "l": "en",
-       "p": 1794002304,
-       "r": "known"
-      },
-      {
-       "t": "U.S. sanctions Canadian money-exchange businesses allegedly connected to Iranian regime, Ryan Wedding",
-       "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEoxMkV4SkN2dHpVdG9ybmRkMDlRMllxR1pia3c4eWtWbXRwUGEtbjZYNlhleEs4V0hfeEQwaVRuWkNuT1VPWmp4QzExNFBtVWNlVkFiUjVVZTh2UDRfZVhta05BbnVEbmMxRVFrWWU3U0ktVkFVdmRlUktBdXdaa1Y3VEdiemNwQjFMWEFEb1RkaTVQdVQ0ZnVRMkU0ZzZBUGlRWg?oc=5",
-       "s": "CBC News",
-       "c": "CA",
-       "l": "en",
-       "p": 1794009060,
+       "p": 1794033880,
        "r": "known"
       }
      ],
-     "headlines": 9,
-     "outlets": 7,
-     "independent": 7,
+     "headlines": 13,
+     "outlets": 13,
+     "independent": 9,
      "countries": [
-      "CA",
+      "FR",
       "GB",
       "IL",
       "IN",
-      "SG",
+      "KR",
+      "NG",
+      "RU",
+      "SA",
+      "TR"
+     ],
+     "regions": 7,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "Iran claims its forces shot down a US drone over Qeshm Island. Outlets differ on the model, with one naming the MQ-9 and another the MQ-1; this is Iran's claim and has not been independently confirmed.",
+     "stories": [
+      "s5"
+     ],
+     "sources": [
+      {
+       "t": "Iran claims it shot down a US MQ-9 drone over Qeshm Island",
+       "o": "Iran klaim tembak jatuh drone MQ - 9 AS di atas pulau Qeshm",
+       "u": "https://www.antaranews.com/berita/5838063/iran-klaim-tembak-jatuh-drone-mq-9-as-di-atas-pulau-qeshm",
+       "s": "Antara",
+       "c": "ID",
+       "l": "id",
+       "p": 1794027600,
+       "r": "state"
+      },
+      {
+       "t": "Iran claims it shot down the 16th US MQ-1 drone over Qeshm Island",
+       "o": "ईरान का दावा : केशम द्वीप के ऊपर 16वां अमेरिकी एमक्‍यू - 1 ड्रोन मार गिराया",
+       "u": "https://www.deshbandhu.co.in/world/iran-claims-16th-us-mq-1-drone-shot-down-over-qeshm-island-330250",
+       "s": "deshbandhu.co.in",
+       "c": "IN",
+       "l": "hi",
+       "p": 1794027600,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "ID",
+      "IN"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Iranian state media say the Strait of Hormuz will stay closed until the US accepts Iran's terms. Qatar says its mediation between the US and Iran continues, and The Guardian reports the strait could reopen under a Qatari plan for nuclear inspections.",
+     "stories": [
+      "s31",
+      "s35",
+      "s29",
+      "s6"
+     ],
+     "sources": [
+      {
+       "t": "Strait of Hormuz will stay closed until US accepts its terms: Iran",
+       "u": "https://en.irna.ir/news/86314322/Strait-of-Hormuz-will-stay-closed-until-US-accepts-its-terms",
+       "s": "IRNA English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794033443,
+       "r": "state"
+      },
+      {
+       "t": "Hormuz not to be reopened until Iran’s 7 conditions are met",
+       "u": "https://en.mehrnews.com/news/249202/Hormuz-not-to-be-reopened-until-Iran-s-7-conditions-are-met",
+       "s": "Mehr English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794028870,
+       "r": "state"
+      },
+      {
+       "t": "Qatar says its mediation efforts between US and Iran continue to prevent escalation",
+       "u": "https://www.jpost.com/middle-east/article-914112",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794035913,
+       "r": "known"
+      },
+      {
+       "t": "Qatar says its mediation efforts between US and Iran continue to prevent escalation",
+       "u": "https://www.al-monitor.com/originals/2026/11/qatar-says-its-mediation-efforts-between-us-and-iran-continue-prevent-escalation",
+       "s": "Al-Monitor",
+       "c": "US",
+       "l": "en",
+       "p": 1794026787,
+       "r": "known"
+      },
+      {
+       "t": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+       "u": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
+       "s": "The Guardian",
+       "c": "GB",
+       "l": "en",
+       "p": 1794034804,
+       "r": "known"
+      }
+     ],
+     "headlines": 6,
+     "outlets": 5,
+     "independent": 4,
+     "countries": [
+      "GB",
+      "IL",
+      "IR",
       "US"
      ],
-     "regions": 5,
+     "regions": 4,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "Iran's army says it will not allow the US to rebuild its bases in the region, and Iran says its military is stronger than at the start of the war. These are Iranian statements. In Washington, Hegseth reportedly urges Trump to resume strikes while Vance opposes this, according to reports.",
+     "stories": [
+      "s3",
+      "s8",
+      "s27",
+      "s19"
+     ],
+     "sources": [
+      {
+       "t": "Iran's army warns it will not allow the US to rebuild its bases in the Middle East",
+       "o": "El Ejército iraní advierte que no permitirá a EEUU reconstruir sus bases en Oriente Medio",
+       "u": "https://www.infobae.com/america/agencias/2026/11/07/el-ejercito-irani-advierte-que-no-permitira-a-eeuu-reconstruir-sus-bases-en-oriente-medio/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794033923,
+       "r": "known"
+      },
+      {
+       "t": "Iran will not allow US bases in the region to be rebuilt, army spokesman says",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-will-not-allow-us-rebuild-bases-region-army-spokesman-says",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794029538,
+       "r": "known"
+      },
+      {
+       "t": "Iran's army bans US from restoring bases in the Middle East :: Daily News / VZGLYAD",
+       "o": "Армия Ирана запретила США восстанавливать базы на Ближнем Востоке :: Новости дня / ВЗГЛЯД",
+       "u": "https://vz.ru/news/2026/11/7/1473253.html",
+       "s": "vz.ru",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794034800,
+       "r": "unrated"
+      },
+      {
+       "t": "Iran: \"Army stronger than at the start of the war.\" US \"rapid\" attack on Qeshm island",
+       "o": "L'Iran: 'Esercito più forte dall'inizio della guerra'. Attacco 'rapido' Usa all'isola di Qeshm",
+       "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/07/liran-esercito-piu-forte-dallinizio-della-guerra.-attacco-rapido-usa_d3eb6266-aaec-4271-9d11-336fd196698b.html",
+       "s": "ANSA Mondo",
+       "c": "IT",
+       "l": "it",
+       "p": 1794034435,
+       "r": "known"
+      },
+      {
+       "t": "Hegseth advises Trump to resume strikes on Iran, Vance opposes",
+       "o": "Хегсет советует Трампу возобновить удары по Ирану, Вэнс выступает против",
+       "u": "https://www.interfax.ru/world/1127524",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794026940,
+       "r": "known"
+      }
+     ],
+     "headlines": 6,
+     "outlets": 6,
+     "independent": 6,
+     "countries": [
+      "AR",
+      "GB",
+      "IT",
+      "RU",
+      "TW"
+     ],
+     "regions": 4,
      "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Whether Iran confirms or denies the drone shootdown over Qeshm, and whether the US confirms the missile strikes",
-    "Iran's response to the nuclear proposal it is reviewing, and whether Qatar's 'talks continue' line holds",
-    "Further UKMTO or shipping incident reports from Hormuz"
+    "Whether Iran responds militarily to the strike on its air defences",
+    "Whether the Qatari mediation produces a concrete step on nuclear inspections or the Strait of Hormuz",
+    "Further reports of ship attacks or mines in Hormuz and the Arabian Gulf"
    ],
-   "window_hours": 12,
-   "headlines_read": 94,
-   "outlets_read": 44,
-   "countries_read": 17,
-   "languages_read": 1,
+   "window_hours": 3,
+   "headlines_read": 64,
+   "outlets_read": 48,
+   "countries_read": 20,
+   "languages_read": 14,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-05T07:03:41Z",
    "ladder_note": "Re-checked after: Iran's Revolutionary Guards report fires on tankers and a tug in the Strait of Hormuz, a shipping incident in the strait; the cause is Iran's account and is not yet independently confirmed."
