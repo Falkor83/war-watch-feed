@@ -1713,9 +1713,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "US sets up task force to widen Iran blockade to land routes; strike reports unconfirmed",
+   "status": "Explosions reported at Iranian ports as US-Iran diplomacy via Vance and Qatar continues",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been heavily disrupted. Trump said the US carried out new limited strikes on an Iranian air defence system on Nov 6, the first action since the midterms; Iranian media report missiles hitting Qeshm Island. Iran's Revolutionary Guards say they shot down a US MQ-1 drone over Qeshm and that two tankers struck mines; the US has not confirmed the drone loss in these notes. IMO and UKMTO data cited by Al Jazeera count over 120 ships hit, with October the worst month. Talks continue: a senior Iranian official says Iran sent a nuclear proposal via Qatar, and Qatar is urging both sides to settle.",
    "latest": [
+    {
+     "date": "2026-11-07",
+     "text": "Explosions were heard on Qeshm Island and at the port of Jask in Iran, according to Middle East Eye, The Straits Times and Jerusalem Post, which cite Iranian state media. No cause has been confirmed.",
+     "outlet": "Jerusalem Post",
+     "country": "Israel",
+     "url": "https://www.jpost.com/middle-east/iran-news/article-914153",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-07",
+     "text": "Greek outlets report that JD Vance has taken over the Iran negotiations, with a plan covering the Strait of Hormuz and a Qatari proposal, and that Tehran has added new conditions. These are single-source reports, citing Axios.",
+     "outlet": "sofokleous10.gr",
+     "country": "Greece",
+     "url": "https://sofokleous10.gr/2026/11/07/%CE%BE%CE%B1%CE%BD%CE%AC-%CF%83%CF%84%CE%B1-%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%AE-%CE%BD%CE%AD%CE%B1-%CF%83%CF%85%CE%BC%CF%86%CF%89%CE%BD%CE%AF%CE%B1-%CF%84%CE%BF-%CF%80/",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-07",
+     "text": "Israeli and Arabic outlets report that the US has extended its blockade of Iran to land borders and the Caspian Sea, under the name 'Iron Gate'. Only the sides' own media carry this so far.",
+     "outlet": "rtarabic.com",
+     "country": "",
+     "url": "https://rtarabic.com/world/1851303-united-states-activates-iron-gate-against-iran/",
+     "region": "unknown",
+     "tag": "party-press",
+     "state_media": false
+    },
     {
      "date": "2026-11-07",
      "text": "The US military has set up a task force, reported as 'Iron Gate', to restrict Iranian land trade and arms transport alongside its naval blockade. Several outlets from different countries carry the report, which is based on a Reuters exclusive.",
@@ -1762,36 +1792,6 @@
      "outlet": "Wiadomości Onet",
      "country": "Poland",
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMm5COGEyRzFpVklHaG5xZ1lXeE9JajNKSTJzQXpDUHZJRURZWkVFV1p4cjlKM0hWUU5Nc0xZNlNOcUdPRm9sTndSU2Jrc1l0N2tOTzZQOHZXTHlFdmZadDBrS3Q0NHdvZEZRVEY3WG5rMlBTdWFqS2gteVM1dllpZFl3VHozWGZQdHA2TVZqRkpzeG9YR2RUWWxZNjNLMnlwcHh6ZzRjX0lUcGhTd3c?oc=5",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Reports of new US strikes on Iran are single-source so far. An Irish outlet describes a new Trump 'blitz', a Taiwanese outlet says Trump ordered strikes after the midterms, and an Indonesian outlet reports two missiles hit islands in the Strait of Hormuz. None of these accounts has been confirmed by other sources.",
-     "outlet": "The Irish Sun",
-     "country": "Ireland",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vc2w3Z25YWjEzLW1BUV95LU1wRXlsVHg5aWhuNk82cWNtYUFCR3Z0Y0pRa1RHdHhGNDNxeFo5TDlDR21xVE9mdVh4b1BFc2E3em10eFZHTVE0R1BQUTRkWEZrX19Ea3ZKblpIQWJYZDAyTS1NbkpORzBEVU0?oc=5",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Iran's navy says a tanker hit a mine on a 'prohibited' route in the Strait of Hormuz and caught fire. Several outlets from six countries carry the Iranian account, and it has not been independently confirmed.",
-     "outlet": "Infobae",
-     "country": "Argentina",
-     "url": "https://www.infobae.com/america/agencias/2026/11/07/iran-informa-de-un-incendio-en-un-petrolero-que-impacto-contra-una-mina-en-una-ruta-prohibida-en-ormuz/",
-     "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "US forces carried out new targeted strikes on Iran, including on Qeshm Island. Trump called them 'minor strikes' and said talks are ongoing. Reports from several countries describe the strikes; one Turkish outlet reports a missile attack on a tanker in the Persian Gulf that killed one sailor.",
-     "outlet": "Euronews",
-     "country": "France",
-     "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran",
      "region": "europe",
      "tag": "non-party",
      "state_media": false
@@ -11243,161 +11243,201 @@
      "at": "2026-11-07T18:17:46Z",
      "headline": "US sets up task force to widen Iran blockade to land routes; strike reports unconfirmed",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-07T21:05:47Z",
+     "headline": "Explosions reported at Iranian ports as US-Iran diplomacy via Vance and Qatar continues",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-07T18:17:46Z",
-   "next_at": "2026-11-07T21:17:46Z",
-   "headline": "US sets up task force to widen Iran blockade to land routes; strike reports unconfirmed",
-   "direction": "escalating",
+   "updated_at": "2026-11-07T21:05:47Z",
+   "next_at": "2026-11-08T00:05:47Z",
+   "headline": "Explosions reported at Iranian ports as US-Iran diplomacy via Vance and Qatar continues",
+   "direction": "steady",
    "points": [
     {
-     "text": "The US military has set up a task force, reported as 'Iron Gate', to restrict Iranian land trade and arms transport alongside its naval blockade. Several outlets from different countries carry the report, which is based on a Reuters exclusive.",
+     "text": "Explosions were heard on Qeshm Island and at the port of Jask in Iran, according to Middle East Eye, The Straits Times and Jerusalem Post, which cite Iranian state media. No cause has been confirmed.",
      "stories": [
-      "s1",
-      "s3",
-      "s8",
-      "s11",
-      "s15"
+      "s1"
      ],
      "sources": [
       {
-       "t": "US ‘Task Force Iron Gate’ in the works to restrict Iranian land commerce alongside naval blockade",
-       "u": "https://www.dawn.com/news/2042856/us-task-force-iron-gate-in-the-works-to-restrict-iranian-land-commerce-alongside-naval-blockade",
-       "s": "Dawn",
-       "c": "PK",
-       "l": "en",
-       "p": 1794069574,
-       "r": "known"
-      },
-      {
-       "t": "U.S. military launches task force to bolster naval blockade against Iran",
-       "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObl9MdTZyV2I5RWM4Qk1oY0Y4bno2R0V5Y1oxMk9hY0tBUmdNdmFWU21ZQWNseFF2MWRvQVFfZk1NSUJpSGFsM1VXSllBOVRrNHU3MEFaeXllSG9OV3JrOVRZSjRQTUJhY3JGQXMwWUFzTzBHWFFOSFVLRVUwN1BOV0EwelNGN3UxdWVmWm03SGJLbHM?oc=5",
-       "s": "Globe and Mail",
-       "c": "CA",
-       "l": "en",
-       "p": 1794066116,
-       "r": "known"
-      },
-      {
-       "t": "U.S. Military Launches Task Force to Restrict Iran's Land-Based Arms Trade",
-       "u": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQQXZOY1lrd3JBbDBiUl9ZWlZwa05BUy1xR0I1Wjd4aGNZbHp0b3ZjcWowRm5GTDVzUGx4c3lZODZ3WXpKMm9qYzBmS3VZaU8xN3hXVGgyaDQ4U0xyX3R6T0xKWXBnd1ZseTFRZDh1WTdBYlk5d2sxQVRXbGszZ1BKR0pxU1QySzRaWjJJT1AxM1NTZGVDQ2ZCTGREM0VJSVk5NjdZNFZ4c0RhYTYyVTdMRnBhMHN3eWltMjBJcGtORy14ck1Jb0RrVnduT2h3TjJEOG5LamdmNE5BLUVMUWZzd04teW52M2Q3TGtVV0FLZ2JWOVZfSmJWNEV0a2pYaDd3TXM5RkFvQUI?oc=5",
-       "s": "Haaretz",
+       "t": "Explosions heard on Qeshm Island, multiple locations in Iran, state media says - report",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914153",
+       "s": "Jerusalem Post",
        "c": "IL",
        "l": "en",
-       "p": 1794065580,
+       "p": 1794083707,
        "r": "known"
       },
       {
-       "t": "US tries Iran land blockade after failure of naval blockade",
-       "u": "https://en.mehrnews.com/news/249220/US-tries-Iran-land-blockade-after-failure-of-naval-blockade",
-       "s": "Mehr English",
-       "c": "IR",
+       "t": "Explosions reported on Iran's Qeshm Island and in port of Jask",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-reported-irans-qeshm-island-and-port-jask",
+       "s": "Middle East Eye",
+       "c": "GB",
        "l": "en",
-       "p": 1794065693,
-       "r": "state"
+       "p": 1794083517,
+       "r": "known"
       },
       {
-       "t": "US announces task force to expand blockade of Iran - 07/11/2026 - World",
-       "o": "EUA anunciam força - tarefa para ampliar bloqueio ao Irã - 07 / 11 / 2026 - Mundo",
-       "u": "https://www1.folha.uol.com.br/mundo/2026/11/eua-anunciam-forca-tarefa-para-ampliar-bloqueio-e-conter-envio-de-armas-ao-ira.shtml",
-       "s": "Folha de S.Paulo",
-       "c": "BR",
-       "l": "pt",
-       "p": 1794072600,
+       "t": "Explosions heard in Iran's Qeshm Island, Iranian media reports",
+       "u": "https://www.straitstimes.com/world/middle-east/explosions-heard-in-irans-qeshm-island-iranian-media-reports",
+       "s": "The Straits Times",
+       "c": "SG",
+       "l": "en",
+       "p": 1794082998,
        "r": "known"
+      },
+      {
+       "t": "Two explosions reported on Iran’s Qeshm Island",
+       "u": "https://tass.com/world/2214325",
+       "s": "TASS English",
+       "c": "RU",
+       "l": "en",
+       "p": 1794081774,
+       "r": "state"
       }
      ],
-     "headlines": 10,
-     "outlets": 9,
-     "independent": 9,
+     "headlines": 6,
+     "outlets": 6,
+     "independent": 5,
      "countries": [
-      "BR",
-      "CA",
+      "GB",
       "IL",
-      "IN",
-      "IR",
-      "PK",
-      "TW"
+      "RU",
+      "SG"
      ],
-     "regions": 6,
+     "regions": 4,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Reports of new US strikes on Iran remain single-source. An Irish outlet calls it a new Trump 'blitz', and a mostly unrated site reports a strike on Iran's air defence. A US outlet reports new targeted strikes, but none of these accounts has been confirmed by other sources.",
+     "text": "Greek outlets report that JD Vance has taken over the Iran negotiations, with a plan covering the Strait of Hormuz and a Qatari proposal, and that Tehran has added new conditions. These are single-source reports, citing Axios.",
      "stories": [
-      "s6",
-      "s14",
-      "s19"
+      "s3",
+      "s5"
      ],
      "sources": [
       {
-       "t": "Trump launches new Iran blitz after US issues $20m for info on nuke program",
-       "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vc2w3Z25YWjEzLW1BUV95LU1wRXlsVHg5aWhuNk82cWNtYUFCR3Z0Y0pRa1RHdHhGNDNxeFo5TDlDR21xVE9mdVh4b1BFc2E3em10eFZHTVE0R1BQUTRkWEZrX19Ea3ZKblpIQWJYZDAyTS1NbkpORzBEVU0?oc=5",
-       "s": "The Irish Sun",
-       "c": "IE",
-       "l": "en",
-       "p": 1794068187,
+       "t": "Back in the trenches or a new deal? Vance takes on a diplomatic solution with Iran, Qatar's plan, Tehran's additional conditions",
+       "o": "Ξανά στα χαρακώματα ή νέα συμφωνία ; Το παίρνει πάνω του ο Βανς για διπλωματική λύση με το Ιράν , το σχέδιο του Κατάρ , οι πρόσθετοι όροι της Τεχεράνης",
+       "u": "https://sofokleous10.gr/2026/11/07/%CE%BE%CE%B1%CE%BD%CE%AC-%CF%83%CF%84%CE%B1-%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%AE-%CE%BD%CE%AD%CE%B1-%CF%83%CF%85%CE%BC%CF%86%CF%89%CE%BD%CE%AF%CE%B1-%CF%84%CE%BF-%CF%80/",
+       "s": "sofokleous10.gr",
+       "c": "GR",
+       "l": "el",
+       "p": 1794076200,
        "r": "unrated"
       },
       {
-       "t": "US military carries out missile strike on Iran's air defense system",
-       "o": "Военные США нанесли ракетный удар по системе противовоздушной обороны Ирана",
-       "u": "http://mignews.com/news/disasters/voennye-ssha-nanesli-raketnyj-udar-po-sisteme-protivovozdushnoj-oborony-irana.html",
-       "s": "mignews.com",
-       "l": "ru",
-       "p": 1794072600,
+       "t": "Axios: JD Vance takes on the Iran negotiations - the plan for the Strait of Hormuz and also Qatar",
+       "o": "Axios : Ο Τζέι Ντι Βανς αναλαμβάνει τις διαπραγματεύσεις για το Ιράν - Το σχέδιο για τα Στενά του Ορμούζ αλλά και το Κατάρ",
+       "u": "https://www.huffingtonpost.gr/diethnes/tzei-nti-vans-iran-stena-katar/",
+       "s": "huffingtonpost.gr",
+       "c": "GR",
+       "l": "el",
+       "p": 1794076200,
        "r": "unrated"
-      },
-      {
-       "t": "US launches new targeted strikes against Iran",
-       "o": "EE . UU . lanza nuevos ataques selectivos contra Irán",
-       "u": "https://es.euronews.com/2026/11/07/eeuu-lanza-nuevos-ataques-selectivos-en-iran-mientras-trump-dice-avanzar-en-las-negociacio",
-       "s": "Euronews",
-       "c": "US",
-       "l": "es",
-       "p": 1794067200,
-       "r": "known"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "IE",
-      "US"
+      "GR"
      ],
-     "regions": 2,
+     "regions": 1,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran's navy says a tanker caught fire after hitting a sea mine in the Strait of Hormuz. Iran's account is the only source for the cause; Interfax reports the navy's statement, but no independent check has been published.",
+     "text": "Israeli and Arabic outlets report that the US has extended its blockade of Iran to land borders and the Caspian Sea, under the name 'Iron Gate'. Only the sides' own media carry this so far.",
      "stories": [
-      "s2"
+      "s7"
      ],
      "sources": [
       {
-       "t": "Iranian navy says tanker catches fire after striking sea mine in Strait of Hormuz",
-       "u": "https://www.tehrantimes.com/news/531917/Iranian-navy-says-tanker-catches-fire-after-striking-sea-mine",
-       "s": "Tehran Times",
+       "t": "The Iron Gate: Washington expands the blockade of Iran to the Caspian Sea and land borders",
+       "o": "البوابة الحديدية .. واشنطن توسع حصار إيران إلى بحر قزوين والحدود البرية",
+       "u": "https://rtarabic.com/world/1851303-united-states-activates-iron-gate-against-iran/",
+       "s": "rtarabic.com",
+       "l": "ar",
+       "p": 1794076200,
+       "r": "unrated"
+      },
+      {
+       "t": "After the naval blockade: the US announced a land blockade of Iran",
+       "o": "אחרי המצור הימי : ארה ב הכריזה על מצור יבשתי על איראן",
+       "u": "https://www.srugim.co.il/101015509-%D7%90%D7%97%D7%A8%D7%99-%D7%94%D7%9E%D7%A6%D7%95%D7%A8-%D7%94%D7%99%D7%9E%D7%99-%D7%90%D7%A8%D7%94%D7%91-%D7%94%D7%9B%D7%A8%D7%99%D7%96%D7%94-%D7%A2%D7%9C-%D7%9E%D7%A6%D7%95%D7%A8",
+       "s": "srugim.co.il",
+       "c": "IL",
+       "l": "he",
+       "p": 1794076200,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "IL"
+     ],
+     "regions": 1,
+     "party_only": true,
+     "state": 0
+    },
+    {
+     "text": "Iran's Mehr News reports that Rezaei warned of a severe response to any aggression. This is Iran's own claim.",
+     "stories": [
+      "s8"
+     ],
+     "sources": [
+      {
+       "t": "Rezaei warns of devestating response to any aggression",
+       "u": "https://en.mehrnews.com/news/249223/Rezaei-warns-of-devestating-response-to-any-aggression",
+       "s": "Mehr English",
        "c": "IR",
        "l": "en",
-       "p": 1794072825,
+       "p": 1794083008,
+       "r": "state"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "IR"
+     ],
+     "regions": 1,
+     "party_only": true,
+     "state": 1
+    },
+    {
+     "text": "Erdogan says he called Trump to reaffirm Turkish support for US-Iran diplomacy. The only report of this comes from Jerusalem Post, which cites Erdogan's account.",
+     "stories": [
+      "s2",
+      "s9"
+     ],
+     "sources": [
+      {
+       "t": "Erdogan tells Trump Turkey will keep pushing for US-Iran peace",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/erdogan-tells-trump-turkey-will-keep-pushing-us-iran-peace",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794078407,
        "r": "known"
       },
       {
-       "t": "Iranian Navy reports tanker hit a sea mine near the Strait of Hormuz",
-       "o": "ВМС Ирана сообщили о подрыве танкера на морской мине вблизи Ормузского пролива",
-       "u": "https://www.interfax.ru/world/1127602",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794072780,
+       "t": "Erdogan says he called Trump, reaffirmed Turkish support for US-Iran diplomacy",
+       "u": "https://www.jpost.com/middle-east/article-914146",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794077102,
        "r": "known"
       }
      ],
@@ -11405,119 +11445,24 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "IR",
-      "RU"
+      "GB",
+      "IL"
      ],
      "regions": 2,
      "party_only": false,
      "state": 0
-    },
-    {
-     "text": "The US has offered a reward for information on Iran's nuclear programme. The US Central Command (CENTCOM) gives the amount as $20 million, while one Taiwanese outlet reports $660 million.",
-     "stories": [
-      "s5",
-      "s10"
-     ],
-     "sources": [
-      {
-       "t": "US offers $20 mn reward for info on 'Iran's nuclear program': CENTCOM - Region - World",
-       "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVGF3QkVDc2s5RUpNVldpYlBfNVU2YkJmaDZhaDlqYkR1RkdJMHVIMmpFSC1GdnA5WWlxMmhJV2JOVmdKNmx3TU9tMGJTVDlYR2dsdWlpZmJ0UE4wVHcyZGRJbFhQVC1oZkdOT3pyUEwxYnpPRFBmZ3k2YTI5aXQxNi1meTFVZDdWMXZ2MjFFbXN4YWdtcC1EWmdFdTV4RC1wNGQyLW0wMUc0MVRZajlsUjJ3ZnlIZUVTMUVSNw?oc=5",
-       "s": "Ahram Online",
-       "c": "EG",
-       "l": "en",
-       "p": 1794068728,
-       "r": "state"
-      },
-      {
-       "t": "US government offers $660 million \"Justice Reward\" for intelligence on stopping Iran's nuclear program",
-       "o": "美政府提供6.6億元「正義獎賞」 徵求阻止伊朗核計畫情資",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5633071",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794065176,
-       "r": "known"
-      }
-     ],
-     "headlines": 3,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "EG",
-      "TW"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "Iran's Revolutionary Guards say they are building underground sites for weapons production and storage and will unveil a new underground missile city. Iranian state media also say the Strait of Hormuz will stay closed until the US accepts Iran's terms, and that a minister named Hussein said the US asked Iraq to close its border crossings with Iran.",
-     "stories": [
-      "s9",
-      "s12",
-      "s16",
-      "s13"
-     ],
-     "sources": [
-      {
-       "t": "Iran’s IRGC says building underground sites for weapons production, storage",
-       "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUnVtZjdfQnc2S1FwTXpEWnFWRFVxMzVDblFHdFFYaHlNenEzQjlBeGlyaW5waEhQSnJYVDh6d19nRExqTzhTT0JZSzFQUnlaRDFpcHF2dmJwd2ZDNW9uc1FqajJuNXpObEY1ZE9QX05uWndIZTJhQ1JqUWVWOTFlV2gtVWR1LUVDVWhaUWtINUstNEMtdnVCbFhPblU4X2tHR0tmMzNlU0pOVHFPbUpfXzlvMkPSAboBQVVfeXFMT24yWU5kekw4SXgtbXRBMW5IUDhkejNrbEJ2YlZZNkdNdWx5V3J1NU5GWTNHdHNBNkloSXJBTFFUZnVqdWJQaVZUZDRyVGZaY0ZtOExrMS11bW5CME13MVlDUXNUcWJYeW4wRmg4aHJoTTJ1WGVIWXlJb3JSWmZkY0Z4TEFHX0FZNTg1QnM5MWlUVmpBNmllMWFaQllEd3huX2JKZzdURzRncHBUR2ZSUDRTTGJCMmplLTln?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "en",
-       "p": 1794065993,
-       "r": "known"
-      },
-      {
-       "t": "IRGC to unveil new underground missile city, vows uninterrupted weapons production",
-       "u": "https://www.tehrantimes.com/news/531921/IRGC-to-unveil-new-underground-missile-city-vows-uninterrupted",
-       "s": "Tehran Times",
-       "c": "IR",
-       "l": "en",
-       "p": 1794073697,
-       "r": "known"
-      },
-      {
-       "t": "Strait of Hormuz will stay closed until US accepts its terms: Iran",
-       "u": "https://www.tehrantimes.com/news/531914/Strait-of-Hormuz-will-stay-closed-until-US-accepts-its-terms",
-       "s": "Tehran Times",
-       "c": "IR",
-       "l": "en",
-       "p": 1794071764,
-       "r": "known"
-      },
-      {
-       "t": "US asked Iraq to close border crossings with Iran: FM Hussein",
-       "u": "https://en.mehrnews.com/news/249221/US-asked-Iraq-to-close-border-crossings-with-Iran-FM-Hussein",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794072838,
-       "r": "state"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "IR",
-      "QA"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 1
     }
    ],
    "watch": [
-    "Whether US officials confirm the Iron Gate task force and its scope on land routes",
-    "Whether any independent source confirms the new US strikes on Iran",
-    "Whether Iraq responds to the reported US request to close border crossings"
+    "Whether the cause of the Qeshm and Jask explosions is confirmed by independent sources",
+    "Whether Vance's talks with Iran produce a response to the Qatari plan",
+    "Whether the land-route blockade is confirmed beyond the sides' own media"
    ],
    "window_hours": 3,
-   "headlines_read": 27,
-   "outlets_read": 20,
-   "countries_read": 13,
-   "languages_read": 8,
+   "headlines_read": 18,
+   "outlets_read": 15,
+   "countries_read": 8,
+   "languages_read": 5,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-05T07:03:41Z",
    "ladder_note": "Re-checked after: Iran's Revolutionary Guards report fires on tankers and a tug in the Strait of Hormuz, a shipping incident in the strait; the cause is Iran's account and is not yet independently confirmed."
