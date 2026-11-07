@@ -18,9 +18,11 @@ How trust is kept (design: claude/war-watch-review-2026-11-03/analysis.md in Mat
 - A severity or US-impact change needs 2 independent sources, at least one not from a party to the fighting.
 - Hotspots are only removed by a sourced "ended" call in the Sunday review; at most 6 at once.
 
-Cost (Batch API, half price): about $0.60 a day and $3 on Sundays, about $25-30 a month; cap $35 (WW_MONTHLY_CAP_USD).
+Cost (Batch API, half price): about $0.80 a day and $2.50 on Sundays, about $41-42 a month with translation, focus
+updates and actions; cap $45 (WW_MONTHLY_CAP_USD).
 History of the cap: $40, raised to $50 on 2026-11-03 (Matt approved, for cyber tracking), then lowered to $35 the same
-night because Matt is moving back to the $100/month plan and everything on his API credits must stay under $100. A run that would pass the cap is skipped and the app is told
+night because Matt is moving back to the $100/month plan and everything on his API credits must stay under $100;
+raised to $45 on 2026-11-07 (Matt approved; Aegis's share drops from $65 to $55, total still $100). A run that would pass the cap is skipped and the app is told
 ("paused"); the workflow then fails so GitHub emails. Prints [STEP]/[OK]/[WARN]/[ERROR]. Never prints the API key.
 """
 import json, os, re, sys, time, datetime, calendar

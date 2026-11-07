@@ -8,7 +8,7 @@ import json, os, re, time, datetime, socket, http.client, urllib.request, urllib
 
 API = "https://api.anthropic.com/v1"
 SEARCH_TOOL = os.environ.get("WW_SEARCH_TOOL", "web_search_20250305")
-MONTHLY_CAP_USD = float(os.environ.get("WW_MONTHLY_CAP_USD", "35"))
+MONTHLY_CAP_USD = float(os.environ.get("WW_MONTHLY_CAP_USD", "45"))
 USE_BATCH = os.environ.get("WW_USE_BATCH", "1") == "1"
 BATCH_WAIT_MIN = float(os.environ.get("WW_BATCH_WAIT_MIN", "100"))
 # USD per million tokens: input, output, cache write (5 min), cache read. platform.claude.com pricing, checked 2026-11-03.

@@ -14,6 +14,7 @@ United States, and an analysis of where worldwide reporting points. Schema 2.
   world tension index are computed by rule (`tools/wwscore.py`), never written by the model.
 - Files: `feed.json` (the app's feed), `history.json` (one row a day), `notes/` (each day's research notes, 120 days),
   `outlooks.json` (calls to check later), `outlets.json` (outlet registry), `config/lists.json`, `budget.json`.
-- Spending: estimated from the API's own usage numbers in `budget.json` (Batch API, half price; about $25-30 a month),
-  capped at $35 a month. Tests: `python3 -m unittest tools/test_feed.py` (fake API, no cost).
+- Spending: estimated from the API's own usage numbers in `budget.json` (Batch API, half price; about $41-42 a month),
+  capped at $45 a month (Aegis paces Matt's other Claude jobs against $100 minus this cap). Tests: `tools/run_tests.sh`
+  (fake API, no cost).
 - Public on purpose: it contains only public news summaries and links, nothing personal.
