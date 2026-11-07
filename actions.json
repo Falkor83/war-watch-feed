@@ -418,6 +418,130 @@
    "added": "2026-11-05",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-05-jp-1",
+   "date": "2026-11-05",
+   "country": "JP",
+   "kind": "civil-preparedness",
+   "what": "Japan's Disaster Management Agency asks households for a week of stockpiles, fixed furniture and heaters ahead of winter disasters",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrcVBDaUIzYUM5VTFIRXhPdkxBM0Vfa0dpSkp5bWIzNmswWnBhSEtoWmVlVVhmTGpzMjFjcTA3eDJ5RWd5Rk55eFhsT3VjbHZYd2lFQlo4aVFzZFlNWFJvMHprckZ0RUN3QURFbjFB?oc=5",
+   "outlet": "au Webポータル",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-07",
+   "independent": 2,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-06-ir-1",
+   "date": "2026-11-06",
+   "country": "IR",
+   "kind": "civil-preparedness",
+   "what": "Iran reportedly hands out iodine tablets and a survival guide near nuclear sites; widely repeated abroad, not confirmed independently",
+   "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxNU2F4S0JpY01oNkJUVFV3TlZDNDRqekwzaVRESFBwNmI3R1BmQ3BOM3Njcl9iTlVuV0UzTWpUX1F1T0pCVUFsMzR3eFdCYWE0dUVaYk9PamRSS2dpaW5mTUstVm1qaEU3UUExN0lia0piWWllWnpLZTJfcWFDRVMxdGVoc0xRTUFjMEdBS0RDdE1CQXc5WjlPZDlRSHdJS1pmeUMyVjRuNWFHRXRFQXdaS0x6U0VlT3B3a2tYeE1tZk5PTzVOMkp2UWl1UTNYQ0xQMnZyT2xvOHBBbzJOakkwWDc3ckU5SFYtelNwS1NWQ1RjckxkWTBBZ3lvWVhsdWFHenZOOHJaQjZfaUc1OEkwQTdCRGZyNkdsTGtQcVQ4Nm1ybkVCTXkzUThzUWx5dmJfQ011dW90M2d1U29lUUNrWFNxbW16V1BETU9CWk9TZ2xQRFVRbDB2VWlzdC1PbzVhZFNiWjZfN241ZnkyeE1SQ3VnX2stZXpTZXpPQ2JqRmdBTEtZdDhpRHJlZzlVWnRZV1hCa1V5alRRWFRNWXhxa2l",
+   "outlet": "Yahoo News",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-07",
+   "independent": 9,
+   "countries_reporting": 5
+  },
+  {
+   "id": "a-2026-11-06-ir-2",
+   "date": "2026-11-06",
+   "country": "IR",
+   "kind": "reassurance",
+   "what": "Iran's health ministry denies reports that it is handing out iodine tablets over fears of a US strike (Middle East Eye)",
+   "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-health-ministry-denies-report-iodine-distribution-over-us-strike",
+   "outlet": "Middle East Eye",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-07",
+   "independent": 5,
+   "countries_reporting": 3
+  },
+  {
+   "id": "a-2026-11-06-mx-1",
+   "date": "2026-11-06",
+   "country": "MX",
+   "kind": "civil-preparedness",
+   "what": "Mexico reportedly asks households to prepare an emergency backpack (single Spanish business outlet)",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbEYyanBobHhaUHlMMEFTdWxZYkp3eGd1UjVtNG1xbEJySUp4ZTV0N3huaUp0ZEZCRTh2MjhvOUpjeWlKWjhVZzRzVGVHc1VZSmpkOEJXbVRoQmw0Ql8xc3BhdW5kZ282eWp5bTF5RWFZZjZXeFlFMVBOVUxVWmRob3Q1VWZ3WG9FbnoxdG5RRlgtQTBFRXIxSVdMZ24zZklPRjh6b1dUYkNvX0swNEprTTdlZktnSXltZE9sRdIBvAFBVV95cUxNbEYyanBobHhaUHlMMEFTdWxZYkp3eGd1UjVtNG1xbEJySUp4ZTV0N3huaUp0ZEZCRTh2MjhvOUpjeWlKWjhVZzRzVGVHc1VZSmpkOEJXbVRoQmw0Ql8xc3BhdW5kZ282eWp5bTF5RWFZZjZXeFlFMVBOVUxVWmRob3Q1VWZ3WG9FbnoxdG5RRlgtQTBFRXIxSVdMZ24zZklPRjh6b1dUYkNvX0swNEprTTdlZktnSXltZE9sRQ?oc=5",
+   "outlet": "Emprendedor | El medio líder de Emprendimiento y Negocios",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-07",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-06-us-1",
+   "date": "2026-11-06",
+   "country": "US",
+   "kind": "infrastructure-protection",
+   "what": "US reportedly strengthens protection of Pacific undersea cable networks against possible Chinese sabotage (Liberty Times)",
+   "url": "https://news.ltn.com.tw/news/world/paper/1777489",
+   "outlet": "Liberty Times",
+   "hotspots": [
+    "china-taiwan-pressure",
+    "south-china-sea-philippines"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-07",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-07-de-1",
+   "date": "2026-11-07",
+   "country": "DE",
+   "kind": "reassurance",
+   "what": "German defence minister Pistorius says the Bundeswehr is growing and conscription is likely unnecessary; selective call-up kept for a bad sc",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41b2VsQmZ5Z0ZscVNwakU3R3FQRHJLR21vY0lyWWdvV1BIU3NlVzNxd2NtdDk2czNpTHlBOUtLUGRnVkd2N08xWUlPYlB3UGNTcVZYSlpFeGZ3UXNrVWZFbndJYldHWDZTaXBtVVBn?oc=5",
+   "outlet": "SuaraGarut.ID",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-07",
+   "independent": 2,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-07-il-1",
+   "date": "2026-11-07",
+   "country": "IL",
+   "kind": "civil-preparedness",
+   "what": "Israel reportedly deploys mobile bomb shelters in the Negev (single Vietnamese outlet; no wider confirmation)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaXJFTGoxYlhxWTQ3VmpMeFZJVVpXOW5JaHB5WUV2QlA0TWhXZGhPLVFETmQ4bkZSTVN0QjhIMW9TRmFwdFBtU2tGY2l0U1lrV1lHSWRpRzJLcDUzQ1VFQ2dZMlhEOWxtcG5scHpPQWFGYmpnVnlIRHBUbUJJRmMtVE05aXdyQWhpS3h5MklB?oc=5",
+   "outlet": "Vietnam.vn",
+   "hotspots": [
+    "us-israel-iran-war",
+    "yemen-houthi-saudi-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-07",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -997,6 +1121,194 @@
    "hotspot": "black-sea-shipping-attacks",
    "url": "",
    "source": "rule"
+  },
+  {
+   "id": "e-2026-11-07-5",
+   "date": "2026-11-06",
+   "kind": "news",
+   "what": "Iran Guards say two tankers caught fire in Hormuz",
+   "countries": [
+    "IN",
+    "IR",
+    "KR",
+    "LB",
+    "SA",
+    "TR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.thehindu.com/news/international/iran-guards-say-two-tankers-caught-fire-in-hormuz/article71675787.ece",
+   "source": "corpus",
+   "independent": 10
+  },
+  {
+   "id": "e-2026-11-07-5",
+   "date": "2026-11-06",
+   "kind": "news",
+   "what": "Ukraine, Russian attack on energy infrastructure. Death toll from the November 2 attack rises to 53",
+   "countries": [
+    "BR",
+    "CA",
+    "FR",
+    "GB",
+    "IT",
+    "KR",
+    "SA",
+    "US"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOU1ZaeVdNSzhvMWtCWWpQVHl0REhJYjlzQlZJS1I0ZkNFNTRtV3JQZVYyYjFzTFVmNHV4dzBmZG44dnRZWTd4NjQyVlQyYVRCWkZROTRBa1RRZDlWM3V4UDNocE1CX1NObkJVY29ONm5jcUU4TjVyam83cERXR2tLRWJtMXoxdFBURjg1ZUllUHE4WWh1cEFFRk03LUZRY0xjNHVtYWk5T01QclJjUVFlNVN1N1BGcDlzVWhVbUZwOE1kd2RTY3lzMVZrZTBSYXJCMjI4WWQ4VDVGQXNTa1BUX0MxaXp6ZlhocjhOaktMY05NNDkxYWhiblYxeEluVXd2cWZHZHFvUk9kcDNCNkc0MDkwRnDSAZoCQVVfeXFMTzhUTlp1NGh2dVMxNktlSC1NWDlNVVkxMV9hLTIxTUpkTEJnOTduR3hHU3poYXVSTGxUcmFkMnpqSUU4bTl4NVpYdUtRcE5QN0RwUmp5NmpxeUlJM0VGbElKSWJxeWQtQk0zX1o4WkZYVEdGX3BiWVJxZVZxdDhTRHBtamVkRzlSSld",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
+   "id": "e-2026-11-07-7",
+   "date": "2026-11-06",
+   "kind": "news",
+   "what": "Ukraine's Zelenskiy: Russian forces plan new strikes on energy targets, bridges, infrastructure",
+   "countries": [
+    "FR",
+    "GB",
+    "SA",
+    "SG",
+    "UA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.straitstimes.com/world/europe/ukraines-zelenskiy-russian-forces-plan-new-strikes-on-energy-targets-bridges-infrastructure",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
+   "id": "e-2026-11-07-1",
+   "date": "2026-11-07",
+   "kind": "news",
+   "what": "US to pay up to $20 million for information on Iran's nuclear program",
+   "countries": [
+    "AE",
+    "AU",
+    "EG",
+    "FR",
+    "GB",
+    "HK",
+    "IL",
+    "IN"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.kommersant.ru/doc/9091836",
+   "source": "corpus",
+   "independent": 14
+  },
+  {
+   "id": "e-2026-11-07-2",
+   "date": "2026-11-07",
+   "kind": "news",
+   "what": "Tehran claims to have shot down a US drone over Qeshm island amid rising tensions",
+   "countries": [
+    "AR",
+    "GB",
+    "ID",
+    "IL",
+    "IN",
+    "IR",
+    "RU",
+    "SA"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.infobae.com/america/agencias/2026/11/07/teheran-afirma-haber-derribado-un-dron-estadounidense-sobre-la-isla-de-qeshm-en-pleno-repunte-de-las-tensiones/",
+   "source": "corpus",
+   "independent": 13
+  },
+  {
+   "id": "e-2026-11-07-3",
+   "date": "2026-11-07",
+   "kind": "news",
+   "what": "Trump reports new \"targeted\" strike on Iran",
+   "countries": [
+    "EC",
+    "GB",
+    "IL",
+    "IN",
+    "RU",
+    "SA"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.rbc.ru/rbcfreenews/6aeeadf4bc080529508ff9e7",
+   "source": "corpus",
+   "independent": 8
+  },
+  {
+   "id": "e-2026-11-07-4",
+   "date": "2026-11-07",
+   "kind": "news",
+   "what": "Iranian media: two missiles targeted Qeshm Island",
+   "countries": [
+    "CN",
+    "GB",
+    "IT",
+    "LB",
+    "RU",
+    "SA",
+    "SG",
+    "US"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxON2R3WUpqaW9LWldQb3A3enJFbGRldURYamtXblFXTFZKRlliSVUyUTNXdG9oQUlqdkM1dndGdGFjMVE0OExTTWhLUzJ4NC1UR2MxbmJoMFJ3VXltbFV1UnBZakVRczBzM1lFbFZYSnI4Wk1kYzlGcEg5aGRwUkVBUExQRkZDQTR4VG1GMlBNZEZDTWFfeVFhYXB1OEFXaUF3TG9SWDNRVk1kTmFRNm83MC1xTnhUYVBPakdRUU9rSE0taFZ5UWZPcDctVGdESXhiZnZoT1ZhLTVBZWZMeWVlUXBDY3dmSGpvY0otVmdTR3VjRVFJZmVUSzZBa3NtcHJBUUxfb0FNbmMxTi1mRG55dmJ2UzVlYXBrdFZPcnFGMDdSSEhCV0tQaTdjRllQd21LbE9CdVR4RkwzYlVFTU5UTDZlaHlvSU5talJ1REhiV1BTSFpLbFBYT3RsdnNUeG44SWhVNHpiYkx6OXZYai1HOUl4NkJUQVpSZjJXUERjUHl6eHZGOVlxWlFEa19ua0d6Ni1pVVNIWjhqcjBjU2hKS3B",
+   "source": "corpus",
+   "independent": 6
+  },
+  {
+   "id": "e-2026-11-07-5",
+   "date": "2026-11-07",
+   "kind": "news",
+   "what": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
+   "countries": [
+    "AE",
+    "EG",
+    "GB",
+    "IL",
+    "IN",
+    "QA",
+    "SG",
+    "US"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUkZpaVVfVFZ3Y2VIY3pzZkJSckJyNnZBMjRGT1lTUXV0bUZ1elBKd3JQVWlFYjZ1NTFMU0xabll1dk1ZRTJzQnVyQ29JaEhmeXZXLWU4TWpJQm9uVUl3SkV5bmgwVFVNaDZRNTJQLVZ3SnJsSTJtNDBpSm05cmVFTW9lb2VuWGZya2FkVnNfWGlxczI2TGxGTGN1VUlHZktzbjBuUUN1U081QkhTN0xUdUkweV9vNUnSAbwBQVVfeXFMUDhaaEt0Y1Jnb1BVQ2VSMEZhd25XZ1FyM05KVTExa2I3eFZOV1F0Q3VMOVBIaTl4V1NOTHloLW9DclN5b2VjY0dveDhXc0s2NUxHMmxNR2o1V2R6SEt2UGlTTlFocFFMeXJpeC1wTzA1d0wzOGhCb1d6X29qZXotVlkwOVMxbjA3X0owMFE3SlByUmQ1X0F0Wm9VOXZvbFNjMWhBTmxtMkN6Q0phYVhRa3pRMHJjOGFiV1ZUeVg?oc=5",
+   "source": "corpus",
+   "independent": 6
+  },
+  {
+   "id": "e-2026-11-07-6",
+   "date": "2026-11-07",
+   "kind": "news",
+   "what": "Man arrested near the White House, 'threatened to kill Trump'",
+   "countries": [
+    "EC",
+    "GB",
+    "IT",
+    "RU",
+    "TW",
+    "US"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/07/arrestato-un-uomo-vicino-alla-casa-bianca-minacciava-di-uccidere-trump_88b6529e-22bb-4c51-a6b1-785de0f07eef.html",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
+   "id": "e-2026-11-07-7",
+   "date": "2026-11-07",
+   "kind": "news",
+   "what": "Nuclear war coming? Iran rushes out iodine tablets and publishes survival guide; Trump threatens to destroy the underground nuclear fortress within an hour",
+   "countries": [
+    "GB",
+    "IN",
+    "TR",
+    "TW",
+    "US"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxNU2F4S0JpY01oNkJUVFV3TlZDNDRqekwzaVRESFBwNmI3R1BmQ3BOM3Njcl9iTlVuV0UzTWpUX1F1T0pCVUFsMzR3eFdCYWE0dUVaYk9PamRSS2dpaW5mTUstVm1qaEU3UUExN0lia0piWWllWnpLZTJfcWFDRVMxdGVoc0xRTUFjMEdBS0RDdE1CQXc5WjlPZDlRSHdJS1pmeUMyVjRuNWFHRXRFQXdaS0x6U0VlT3B3a2tYeE1tZk5PTzVOMkp2UWl1UTNYQ0xQMnZyT2xvOHBBbzJOakkwWDc3ckU5SFYtelNwS1NWQ1RjckxkWTBBZ3lvWVhsdWFHenZOOHJaQjZfaUc1OEkwQTdCRGZyNkdsTGtQcVQ4Nm1ybkVCTXkzUThzUWx5dmJfQ011dW90M2d1U29lUUNrWFNxbW16V1BETU9CWk9TZ2xQRFVRbDB2VWlzdC1PbzVhZFNiWjZfN241ZnkyeE1SQ3VnX2stZXpTZXpPQ2JqRmdBTEtZdDhpRHJlZzlVWnRZV1hCa1V5alRRWFRNWXhxa2l",
+   "source": "corpus",
+   "independent": 5
   }
  ]
 }

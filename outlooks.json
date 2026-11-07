@@ -126,6 +126,56 @@
 "basis": [
 "https://sg.headtopics.com/news/newborn-among-15-killed-as-myanmar-military-strikes-89477373"
 ]
+},
+{
+"made": "2026-11-07",
+"hotspot": "russia-ukraine-war",
+"text": "Large Russian strikes on Ukraine's energy grid continue through the planned Abu Dhabi round.",
+"likelihood": "likely",
+"check_by": "2026-11-21",
+"basis": [
+"https://unn.ua/en/news/russia-is-preparing-strikes-on-ukraines-energy-infrastructure-bridges-and-civilian-infrastructure-zelenskyy",
+"https://www.themoscowtimes.com/2026/11/06/ukraine-and-russia-trade-volley-of-strikes-against-each-others-energy-infrastructure-a94189",
+"https://tass.com/defense/2214177",
+"https://www.straitstimes.com/world/europe/ukraines-zelenskiy-russian-forces-plan-new-strikes-on-energy-targets-bridges-infrastructure"
+]
+},
+{
+"made": "2026-11-07",
+"hotspot": "us-israel-iran-war",
+"text": "Limited US-Iran exchanges around Qeshm and Hormuz continue while Qatar-mediated talks go on.",
+"likelihood": "likely",
+"check_by": "2026-11-21",
+"basis": [
+"https://nbcnews.com/news/us-news/us-military-carries-new-targeted-strikes-iran-rcna607969",
+"https://aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
+"https://www.aljazeera.com/where/iran/",
+"https://www.kommersant.ru/doc/9081433"
+]
+},
+{
+"made": "2026-11-07",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Houthi missile or drone fire toward Saudi cities continues over the next two weeks.",
+"likelihood": "likely",
+"check_by": "2026-11-21",
+"basis": [
+"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-forces-destroy-houthi-missile-over-riyadh-region",
+"https://www.beritasatu.com/internasional/3039176/houthi-kembali-serang-arab-saudi-rudal-balistik-mengarah-ke-madinah",
+"https://maps.southfront.press/houthi-advance-toward-aden"
+]
+},
+{
+"made": "2026-11-07",
+"hotspot": "myanmar-civil-war",
+"text": "Military air strikes in Rakhine continue as the army's offensive to retake the state goes on.",
+"likelihood": "very likely",
+"check_by": "2026-11-21",
+"basis": [
+"https://www.france24.com/en/asia-pacific/20261105-myanmar-civilians-under-fire-from-military-junta",
+"https://www.aa.com.tr/en/asia-pacific/myanmar-military-airstrikes-kill-at-least-15-civilians-including-12-in-rakhine-state-report/4108750",
+"https://news.az/news/why-is-myanmar-s-military-intensifying-airstrikes-on-civilian-areas-as-the-war-escalates"
+]
 }
 ]
 }
