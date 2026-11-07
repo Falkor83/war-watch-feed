@@ -3,7 +3,7 @@ python3 -m unittest -v tools/test_focus.py"""
 import json, os, shutil, sys, tempfile, time, unittest, datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import wwapi, wwboil, wwstories, wwai, focus
+import wwapi, wwboil, wwstories, wwai, focus, fixture_time
 from test_feed import FakeSources, msg
 
 CID = "us-israel-iran-war"
@@ -59,7 +59,7 @@ class FocusTests(unittest.TestCase):
     def setUp(self):
         self.dir = tempfile.mkdtemp()
         src = os.path.dirname(HERE)
-        shutil.copy(os.path.join(HERE, "fixtures", "feed.json"), self.dir)
+        fixture_time.write_feed(self.dir)
         for d in ("prompt", "config"): shutil.copytree(os.path.join(src, d), os.path.join(self.dir, d))
         os.makedirs(os.path.join(self.dir, "live"))
         json.dump({"generated": "x", "items": HEADLINES}, open(os.path.join(self.dir, "live", "headlines.json"), "w"))
@@ -157,7 +157,7 @@ class FocusTests(unittest.TestCase):
         self.run_focus(FakeAPI(answer([{"text": "US forces struck missile sites near Qeshm.", "stories": [strike]}])))
         ours = self.feed()
         # the daily ratings pushed meanwhile: a new feed without our focus part; apply puts it back
-        newer = json.load(open(os.path.join(HERE, "fixtures", "feed.json"))); newer["generated_at"] = "2000-01-01T00:00:00Z"
+        newer = fixture_time.feed(); newer["generated_at"] = "2000-01-01T00:00:00Z"
         json.dump(newer, open(focus.FEED, "w"))
         os.remove(focus.FOCUS_BUDGET)
         sys.argv = ["focus.py", "--apply"]; focus.main()
@@ -195,7 +195,7 @@ class WorldNotesAndAITests(unittest.TestCase):
         wwboil._ASSIGNED.clear(); shutil.rmtree(self.dir)
 
     def test_world_notes(self):
-        feed = json.load(open(os.path.join(HERE, "fixtures", "feed.json")))
+        feed = fixture_time.feed()
         notes = self.uf.world_notes(feed)
         iran = [n for n in notes if n["hotspot"] == CID]
         self.assertTrue(iran); self.assertTrue(all(n["id"].startswith("g") for n in notes))

@@ -1,8 +1,8 @@
 """Tests for the War Watch feed job, with a fake Claude API (no network, no cost).  python3 -m unittest -v tools/test_feed.py"""
-import json, os, shutil, sys, tempfile, unittest, datetime
+import json, os, shutil, sys, tempfile, time, unittest, datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import wwapi, wwdata, wwscore, wwboil
+import wwapi, wwdata, wwscore, wwboil, fixture_time
 
 class FakeSources:
     """The boiling point's public data, offline."""
@@ -58,7 +58,7 @@ class Base(unittest.TestCase):
         self.dir = tempfile.mkdtemp()
         src = os.path.dirname(HERE)
         # a frozen copy of the feed, so tests never depend on what the live ratings say today
-        shutil.copy(os.path.join(HERE, "fixtures", "feed.json"), self.dir)
+        fixture_time.write_feed(self.dir)
         shutil.copy(os.path.join(src, "outlets.json"), self.dir)
         for d in ("prompt", "config"): shutil.copytree(os.path.join(src, d), os.path.join(self.dir, d))
         os.environ["ANTHROPIC_API_KEY"] = "test"; os.environ["WW_FORCE"] = "1"
@@ -70,7 +70,7 @@ class Base(unittest.TestCase):
         update_feed.ROOT = self.dir; wwapi.BUDGET = os.path.join(self.dir, "budget.json")
         self.sleep = wwapi.time.sleep; wwapi.time.sleep = lambda s: None
         os.makedirs(os.path.join(self.dir, "live"))
-        shutil.copy(os.path.join(HERE, "fixtures", "headlines.json"), os.path.join(self.dir, "live", "headlines.json"))
+        json.dump(fixture_time.headlines(), open(os.path.join(self.dir, "live", "headlines.json"), "w", encoding="utf-8"))
         json.dump({"month": TODAY[:7], "usd": 0.5}, open(os.path.join(self.dir, "live", "spend.json"), "w"))
         self.boil = (update_feed.LIVE, update_feed.BOIL_GDELT, wwboil.Sources)
         update_feed.LIVE = os.path.join(self.dir, "live"); update_feed.BOIL_GDELT = False; wwboil.Sources = FakeSources
@@ -286,7 +286,9 @@ class JobTests(Base):
         self.assertEqual(iran["parties"], ["United States", "Israel", "Iran"]); self.assertEqual(iran["week_verdict"]["verdict"], "deteriorated")
         tws = [tw for tw in feed["tripwires"] if tw["hotspot"] == "us-israel-iran-war" and tw.get("source") != "action"]
         self.assertEqual(sorted(tw["kind"] for tw in tws), ["easing", "escalation"])
-        self.assertTrue(any(tw.get("source") == "action" for tw in feed["tripwires"]))    # the UK's Be Ready (seed) as a warning sign
+        seed = json.load(open(os.path.join(os.path.dirname(HERE), "config", "actions_seed.json"), encoding="utf-8"))
+        if any(wwscore.days_between(x["date"], TODAY) <= 25 and x["kind"] != "reassurance" for x in seed["actions"]):
+            self.assertTrue(any(tw.get("source") == "action" for tw in feed["tripwires"]))  # a recent seed action (e.g. the UK's Be Ready) as a warning sign
         self.assertIn("X", feed["tension"]["parts"]); self.assertIn("T", feed["tension"]["parts"])
         b = json.load(open(wwapi.BUDGET))
         self.assertEqual(sum(1 for r in b["runs"] if "notes" in r["what"]), 6)

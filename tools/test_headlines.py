@@ -2,7 +2,7 @@
 import json, os, sys, tempfile, time, unittest, shutil
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import wwapi, headlines as H
+import wwapi, fixture_time, headlines as H
 
 RSS = b"""<?xml version="1.0"?><rss><channel>
 <item><title>Russian drones hit Odesa port overnight</title><link>https://example.ua/1</link><pubDate>Tue, 03 Nov 2026 22:00:00 GMT</pubDate>
@@ -59,7 +59,7 @@ class Items(unittest.TestCase):
         self.assertEqual(H.merge([a], [], 1500), [])                   # left the window
 
     def test_relevance_is_loose(self):
-        feed = json.load(open(os.path.join(HERE, "fixtures", "feed.json"), encoding="utf-8"))
+        feed = fixture_time.feed()
         terms = H.term_regex(feed)
         def it(t, h=()): return {"t": t, "x": "", "h": list(h)}
         self.assertTrue(H.relevant(it("Ukraine's grid operator warns of long outages"), terms))
@@ -69,7 +69,7 @@ class Items(unittest.TestCase):
         self.assertFalse(H.relevant(it("Brazil beat Argentina in friendly"), terms))        # a country name alone isn't enough
 
     def test_ai_risk_tagging(self):
-        feed = json.load(open(os.path.join(HERE, "fixtures", "feed.json"), encoding="utf-8"))
+        feed = fixture_time.feed()
         terms = H.term_regex(feed)
         def it(t, h=()): return {"t": t, "x": "", "h": list(h)}
         x = it("Anthropic co-founder says AI could soon build smarter AI on its own")
@@ -148,7 +148,7 @@ class EndToEnd(unittest.TestCase):
         d = tempfile.mkdtemp()
         try:
             root = os.path.join(d, "root"); os.makedirs(os.path.join(root, "config"))
-            shutil.copy(os.path.join(HERE, "fixtures", "feed.json"), root)
+            fixture_time.write_feed(root)
             shutil.copy(os.path.join(os.path.dirname(HERE), "outlets.json"), root)
             json.dump({"rss": [{"name": "Example UA", "home": "UA", "lang": "en", "url": "https://example.ua/rss"},
                                {"name": "Example FR", "home": "FR", "lang": "fr", "url": "https://example.fr/rss"}],
@@ -161,6 +161,7 @@ class EndToEnd(unittest.TestCase):
             fr = f"""<rss><channel><item><title>Le Kremlin menace la Pologne de représailles</title><link>https://example.fr/k</link>
                      <pubDate>{time.strftime('%a, %d %b %Y %H:%M:%S GMT', time.gmtime(now - 3600))}</pubDate></item></channel></rss>""".encode()
             ua = RSS.replace(b"Tue, 03 Nov 2026 22:00:00 GMT", time.strftime('%a, %d %b %Y %H:%M:%S GMT', time.gmtime(now - 7200)).encode())
+            gn_now = GNEWS.replace(b"Wed, 04 Nov 2026 05:00:00 GMT", time.strftime('%a, %d %b %Y %H:%M:%S GMT', time.gmtime(now - 1800)).encode())
             H.ROOT, H.LIVE = root, os.path.join(d, "live")
             ai = f"""<rss><channel><item><title>Lab says its AI model tried to sabotage safety tests - Example Wire</title>
                      <link>https://news.google.com/a1</link><source url="https://wire.example">Example Wire</source>
@@ -171,7 +172,7 @@ class EndToEnd(unittest.TestCase):
             def fake_fetch(url, timeout=25, browser=False):
                 if "search?q=site%3Areuters" in url: return site
                 if "search?q=" in url: return ai
-                return {"https://example.ua/rss": ua, "https://example.fr/rss": fr}.get(url, GNEWS)
+                return {"https://example.ua/rss": ua, "https://example.fr/rss": fr}.get(url, gn_now)
             H.fetch = fake_fetch
             H.gdelt_get = lambda url, last=None: {"articles": [{"url": "https://ar.example/1", "title": "غارات جديدة على قطاع غزة اليوم", "language": "Arabic",
                                                                 "sourcecountry": "Qatar", "domain": "ar.example", "seendate": time.strftime('%Y%m%dT%H%M%SZ', time.gmtime(now - 600))}]}

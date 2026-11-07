@@ -23,12 +23,12 @@ jobs:
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v5
-      - name: Test the job (offline, no cost)
-        run: python3 -m unittest tools/test_headlines.py tools/test_focus.py
       - name: Get the last run's state
         run: |
           mkdir -p live
           if git fetch -q --depth 1 origin live 2>/dev/null; then git archive FETCH_HEAD | tar -x -C live; echo "[OK] state restored"; else echo "[WARN] first run: no live branch yet"; fi
+      - name: Test the job (offline, no cost)
+        run: tools/run_tests.sh
       - name: Collect and translate
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

@@ -2,7 +2,7 @@
 import json, os, shutil, sys, tempfile, time, unittest, datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import wwapi, wwboil, wwscore, wwactions
+import wwapi, wwboil, wwscore, wwactions, fixture_time
 from test_feed import msg
 
 NOW = int(time.time())
@@ -47,7 +47,7 @@ class ActionsTests(unittest.TestCase):
         self.dir = tempfile.mkdtemp()
         src = os.path.dirname(HERE)
         for d in ("prompt", "config"): shutil.copytree(os.path.join(src, d), os.path.join(self.dir, d))
-        self.feed = json.load(open(os.path.join(HERE, "fixtures", "feed.json")))
+        self.feed = fixture_time.feed()
         self.saved = (wwapi.BUDGET, wwapi.http, wwapi.USE_BATCH)
         wwapi.BUDGET = os.path.join(self.dir, "budget.json"); wwapi.USE_BATCH = False
         os.environ["ANTHROPIC_API_KEY"] = "test"
@@ -70,7 +70,9 @@ class ActionsTests(unittest.TestCase):
 
     def test_seed_new_actions_patterns_and_warning_signs(self):
         r, logs, prompt, budget = self.run_stage(answer())
-        self.assertIn("a-2024-11-18-se", prompt); self.assertIn("e-2024-11-19-nuclear", prompt)          # the seed is read
+        seed = json.load(open(os.path.join(os.path.dirname(HERE), "config", "actions_seed.json"), encoding="utf-8"))
+        for x in seed["actions"] + seed["events"]:                       # the seed is read (the log keeps 730 days)
+            if wwscore.days_between(x["date"], TODAY) <= 720: self.assertIn(x["id"], prompt)
         self.assertNotIn("Taylor Swift", prompt)
         self.assertEqual(r["new_actions"], 2)
         log = json.load(open(os.path.join(self.dir, "actions.json")))
