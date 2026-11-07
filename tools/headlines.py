@@ -24,6 +24,10 @@ MODEL = os.environ.get("WW_TRANSLATE_MODEL", "claude-haiku-5-5")
 SUB_CAP = float(os.environ.get("WW_HEADLINES_CAP_USD", "5"))       # translation's own monthly limit, inside War Watch's cap
 WAIT_MIN = float(os.environ.get("WW_TRANSLATE_WAIT_MIN", "15"))
 MAX_TRANSLATE = int(os.environ.get("WW_MAX_TRANSLATE", "2500"))       # per run, so a flood can't run up a bill
+# A batch can sit for hours (two 2026-11-07 batches with the post-outage backlog did). After this long its headlines
+# are sent again in this run's batch (Haiku: about $0.03 for 2,500), so they don't wait up to a day; the old batch is
+# still collected if it ends.
+RESEND_MIN = float(os.environ.get("WW_TRANSLATE_RESEND_MIN", "75"))
 WINDOW_H = 48
 MAX_ITEMS = 12000
 APP_BYTES = int(os.environ.get("WW_APP_BYTES", str(3_600_000)))      # headlines.json for the app (0.3.0 limit: 4 MiB)
@@ -483,7 +487,9 @@ def translate(queue, state, spend, budget_total):
         except wwapi.CallFailed as e:
             warn(f"couldn't check batch {p['id']}: {e}"); still.append(p)
     state["pending"] = still
-    in_flight = {k for p in still for k in p.get("keys", [])}
+    in_flight = {k for p in still if now_ts() - p["at"] < RESEND_MIN * 60 for k in p.get("keys", [])}
+    slow = [p for p in still if now_ts() - p["at"] >= RESEND_MIN * 60]
+    if slow: warn(f"{len(slow)} batch(es) older than {RESEND_MIN:.0f} min; sending their headlines again")
     todo = [x for x in queue if x["k"] not in cache and x["k"] not in in_flight][:MAX_TRANSLATE]
     if not todo: return
     if spend["usd"] >= SUB_CAP:

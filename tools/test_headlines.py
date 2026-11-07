@@ -134,6 +134,17 @@ class Translate(unittest.TestCase):
         H.translate(self.q(5), state, spend, 0)
         self.assertEqual(state["pending"], []); self.assertEqual(len(state["tr"]), 5)
 
+    def test_stuck_batch_is_sent_again(self):
+        self.done = False
+        state, spend = {"tr": {}, "pending": []}, H.load_spend()
+        H.translate(self.q(5), state, spend, 0)
+        state["pending"][0]["at"] -= int(H.RESEND_MIN * 60) + 1              # stuck for longer than the limit
+        H.translate(self.q(5), state, spend, 0)
+        self.assertEqual(len(self.sent), 2); self.assertEqual(len(state["pending"]), 2)   # sent again; the old one still watched
+        self.done = True
+        H.translate(self.q(5), state, spend, 0)
+        self.assertEqual(state["pending"], []); self.assertEqual(len(state["tr"]), 5)
+
     def test_limits(self):
         state, spend = {"tr": {}, "pending": []}, H.load_spend()
         spend["usd"] = H.SUB_CAP
