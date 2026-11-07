@@ -1686,9 +1686,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Trump warns Iran could be 'destroyed' further; Hormuz shipping attacks reported rising",
+   "status": "US strikes hit Qeshm Island and Iranian air defences; talks continue, Qatar says",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been disrupted. Iran's Revolutionary Guards say several tankers hit mines or caught fire while crossing the strait on Nov 4-5. Reports name between two and four ships, and no independent source has confirmed what caused the fires. Trump told Fox News the US may need to strike Iran hard. Outlets from South Asia, Europe and the Gulf report that the Republicans' midterm losses complicate his options, and Trump says he would still choose the war again.",
    "latest": [
+    {
+     "date": "2026-11-07",
+     "text": "Trump confirmed new US strikes on Qeshm Island, and Israeli and Indian outlets report two missiles hit the island. Trump said the US had hit Iranian air defences, though he described the damage as a 'little bit of anti-aircraft device'. Iran says its air defence downed a US drone over Qeshm. Outlets differ on the model",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNmpOc3NISlNqd2RIa3JOMjU1TUxPQ1loWXFoN2ZycXNmZ1QyU3hBVG9TWVhHcDNuWlZ2MGE1eVdLRGw5b2tCOTdseGZ6RHQ0RDB6UzZQVWpMSENnTmRSZFhWaGpBRWgyZXJEalpsc0xIbnpHQi1mQmJya1BXTlE4MTdnd056SkZlc1BXTnE2YktwRmhrR1kw0gGcAUFVX3lxTFBQamY0WVlzbUcwRjcyeXRQVFhPZWc0cTZmZWw5WEZxQmhwRkk0TnZlNDhwMFBLb2RZVWNKcGRjTENOV2NKeDlDbHkzUWs0SnBFS3ZkRkpwOXl5VWUza3RELUtQZm1HbTkzMlZCUjJMdHRoN1dHb1FTTTZxZlF1TzFKSXlnU1VWbnBSSjFJUzBqWWVPOUFHYmJua2pabA?oc=5",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-07",
+     "text": "Qatar denies reports that the US and Iran had failed to reach a deal and says talks continue. Trump says the US is 'talking to Iran' and doing 'very well'. Bloomberg reports Iran is reviewing a nuclear proposal, and Bloomberg and the Japan Times say the two sides are edging closer to a deal.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-denies-reports-us-and-iran-failed-reach-deal-says-talks-continue",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-07",
+     "text": "UKMTO says 11 ships were attacked in the week to 4 November in Hormuz and the Arabian Gulf. Russian state media TASS cites the UN Maritime Organization as saying 25 sailors have died in the strait since 28 February. An Indian outlet reports Iran's Revolutionary Guards say two tankers caught fire in Hormuz; this is a si",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-11-ships-attacked-week-4-nov-hormuz-arabian-gulf",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-06",
      "text": "Trump warned that the US may have to 'destroy' what remains of Iran, saying 'you'll know soon enough'. Reports in the UAE, India and Qatar carry the remark, and it is a threat rather than a new strike.",
@@ -1736,36 +1766,6 @@
      "country": "India",
      "url": "https://www.hindustantimes.com/world-news/trump-locked-and-loaded-for-potential-strikes-in-iran-but-would-rather-not-destroy-rest-of-the-country-101793915375654.html",
      "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "A senior Iranian official says Iran sent a nuclear proposal to the US via Qatar, and one report says it sets seven conditions for negotiations. Trump says Iran is 'not doing anything' on its nuclear programme without US approval.",
-     "outlet": "Arab News",
-     "country": "Saudi Arabia",
-     "url": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "A senior Iranian official says a nuclear proposal was delivered to the US via Qatar and is under review, per Yonhap and Middle East Eye. The Jerusalem Post, citing Israeli-side media only, reports that Tehran is reviewing 'concrete proposals' on its nuclear program amid talks with the US.",
-     "outlet": "Middle East Eye",
-     "country": "United Kingdom",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-sent-nuclear-proposal-us-qatar-senior-iranian-official-tells",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-05",
-     "text": "The AP reports, and three outlets in three countries carry, that the Trump administration held secret talks with Iran on deporting Iranians during the war.",
-     "outlet": "DW Arabic",
-     "country": "Germany",
-     "url": "https://www.dw.com/ar/مباحثات-سرية-بين-إدارة-ترامب-وإيران-بشأن-ترحيل-إيرانيين-خلال-الحرب/live-79860485?maca=ara-rss-ar-all-1125-rdf",
-     "region": "europe",
      "tag": "non-party",
      "state_media": false
     }
@@ -10455,145 +10455,206 @@
      "at": "2026-11-06T02:52:56Z",
      "headline": "Trump warns Iran could be 'destroyed' further; Hormuz shipping attacks reported rising",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-07T04:43:43Z",
+     "headline": "US strikes hit Qeshm Island and Iranian air defences; talks continue, Qatar says",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-06T02:52:56Z",
-   "next_at": "2026-11-06T05:52:56Z",
-   "headline": "Trump warns Iran could be 'destroyed' further; Hormuz shipping attacks reported rising",
-   "direction": "steady",
+   "updated_at": "2026-11-07T04:43:43Z",
+   "next_at": "2026-11-07T07:43:43Z",
+   "headline": "US strikes hit Qeshm Island and Iranian air defences; talks continue, Qatar says",
+   "direction": "escalating",
    "points": [
     {
-     "text": "Trump warned that the US may have to 'destroy' what remains of Iran, saying 'you'll know soon enough'. Reports in the UAE, India and Qatar carry the remark, and it is a threat rather than a new strike.",
+     "text": "Trump confirmed new US strikes on Qeshm Island, and Israeli and Indian outlets report two missiles hit the island. Trump said the US had hit Iranian air defences, though he described the damage as a 'little bit of anti-aircraft device'. Iran says its air defence downed a US drone over Qeshm. Outlets differ on the model",
      "stories": [
-      "s2"
+      "s2",
+      "s5",
+      "s6",
+      "s8",
+      "s16",
+      "s4"
      ],
      "sources": [
       {
-       "t": "Trump threatens more destruction in Iran: 'You’ll know soon enough'",
-       "u": "https://gulfnews.com/world/mena/trump-threatens-more-destruction-in-iran-youll-know-soon-enough-1.500737884",
-       "s": "Gulf News",
-       "c": "AE",
-       "l": "en",
-       "p": 1793930202,
-       "r": "known"
-      },
-      {
-       "t": "'You'll know soon enough': Trump's warning on 'destroying' rest of Iran",
-       "u": "https://timesofindia.indiatimes.com/world/us/youll-know-soon-enough-trumps-warning-on-destroying-rest-of-iran/articleshow/135590265.cms",
-       "s": "Times of India",
-       "c": "IN",
-       "l": "en",
-       "p": 1793930072,
-       "r": "known"
-      },
-      {
-       "t": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
-       "u": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?traffic_source=rss",
+       "t": "Trump confirms new US strikes on Iran’s Qeshm Island",
+       "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNmpOc3NISlNqd2RIa3JOMjU1TUxPQ1loWXFoN2ZycXNmZ1QyU3hBVG9TWVhHcDNuWlZ2MGE1eVdLRGw5b2tCOTdseGZ6RHQ0RDB6UzZQVWpMSENnTmRSZFhWaGpBRWgyZXJEalpsc0xIbnpHQi1mQmJya1BXTlE4MTdnd056SkZlc1BXTnE2YktwRmhrR1kw0gGcAUFVX3lxTFBQamY0WVlzbUcwRjcyeXRQVFhPZWc0cTZmZWw5WEZxQmhwRkk0TnZlNDhwMFBLb2RZVWNKcGRjTENOV2NKeDlDbHkzUWs0SnBFS3ZkRkpwOXl5VWUza3RELUtQZm1HbTkzMlZCUjJMdHRoN1dHb1FTTTZxZlF1TzFKSXlnU1VWbnBSSjFJUzBqWWVPOUFHYmJua2pabA?oc=5",
        "s": "Al Jazeera",
        "c": "QA",
        "l": "en",
-       "p": 1793923200,
+       "p": 1794023821,
        "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "AE",
-      "IN",
-      "QA"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "AP and NBC report that the Trump administration held talks with Iran on deporting Iranians, even during the war. Israeli and Ukrainian outlets carry the same report.",
-     "stories": [
-      "s3"
-     ],
-     "sources": [
+      },
       {
-       "t": "Despite the war: Trump administration held secret talks with Iran | Report",
-       "o": "למרות המלחמה : ממשל טראמפ ניהל מגעים חשאיים עם איראן | דיווח",
-       "u": "https://www.maariv.co.il/news/world/article-1385495",
-       "s": "maariv.co.il",
+       "t": "Two missiles struck Iran's Qeshm Island after aircraft heard above - report",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914097",
+       "s": "Jerusalem Post",
        "c": "IL",
-       "l": "he",
-       "p": 1793930400,
-       "r": "unrated"
+       "l": "en",
+       "p": 1794010746,
+       "r": "known"
       },
       {
-       "t": "AP: Trump administration held talks with Iran on deportation of Iranians",
-       "o": "AP : Адміністрація Трампа провела переговори з Іраном щодо депортації іранців",
-       "u": "https://glavcom.ua/world/world-politics/-ap-administratsija-trampa-provela-perehovori-z-iranom-shchodo-deportatsiji-irantsiv--1153755.html",
-       "s": "glavcom.ua",
-       "c": "UA",
-       "l": "uk",
-       "p": 1793930400,
-       "r": "unrated"
+       "t": "2 Missiles Hit Iran's Qeshm Island: Report",
+       "u": "https://www.ndtv.com/world-news/2-missiles-hit-irans-qeshm-island-report-12295224#publisher=newsstand",
+       "s": "NDTV World",
+       "c": "IN",
+       "l": "en",
+       "p": 1794010538,
+       "r": "known"
       },
       {
-       "t": "Trump administration held talks with Iran on deporting Iranians – NBC10 Philadelphia",
-       "u": "https://www.nbcphiladelphia.com/news/national-international/trump-administration-talks-iran-deporting-iranians-war/4492564/",
-       "s": "nbcphiladelphia.com",
+       "t": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says",
+       "u": "https://www.al-monitor.com/originals/2026/11/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says",
+       "s": "Al-Monitor",
        "c": "US",
        "l": "en",
-       "p": 1793925000,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "IL",
-      "UA",
-      "US"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "UKMTO has warned that Hormuz attacks are rising as Iran steps up pressure on shipping, according to Gulf News. A Chinese market report says a Hormuz incident pushed oil sharply higher, while a South Korean outlet says the strait is blocked but oil keeps flowing. Each of these comes from a single outlet.",
-     "stories": [
-      "s8",
-      "s11",
-      "s13"
-     ],
-     "sources": [
-      {
-       "t": "Hormuz attacks rise as Iran steps up pressure on shipping, UKMTO warns",
-       "u": "https://gulfnews.com/business/energy/hormuz-attacks-rise-as-iran-steps-up-pressure-on-shipping-ukmto-warns-1.500737866",
-       "s": "Gulf News",
-       "c": "AE",
-       "l": "en",
-       "p": 1793928998,
+       "p": 1794008786,
        "r": "known"
       },
       {
-       "t": "Gold closes: Wall Street's plunge boosts gold! Gold price surges to $4,147 as Hormuz incident again sends oil sharply higher – Gold Market Live – Gold Network – CNFOL",
-       "o": "黄金收评 ： 华尔街崩跌助攻黄金 ！ 金价冲上4147美元 ， 霍尔木兹再出事 、 油价猛涨 _ 金市直播 _ 黄金网 _ 中金在线",
-       "u": "http://gold.cnfol.com/jinshizhibo/20261106/32417189.shtml",
-       "s": "gold.cnfol.com",
-       "c": "CN",
-       "l": "zh",
-       "p": 1793926800,
-       "r": "unrated"
+       "t": "US carries out new targeted strikes on Iran, targeting air defense system",
+       "u": "https://www.hindustantimes.com/world-news/us-news/us-military-carries-out-new-targeted-strikes-on-iran-targeting-air-defense-system-101794018415195.html",
+       "s": "Hindustan Times World",
+       "c": "IN",
+       "l": "en",
+       "p": 1794018868,
+       "r": "known"
+      }
+     ],
+     "headlines": 24,
+     "outlets": 17,
+     "independent": 16,
+     "countries": [
+      "AE",
+      "CA",
+      "GB",
+      "IL",
+      "IN",
+      "IR",
+      "QA",
+      "RU",
+      "SA",
+      "SG",
+      "US"
+     ],
+     "regions": 8,
+     "party_only": false,
+     "state": 3
+    },
+    {
+     "text": "Qatar denies reports that the US and Iran had failed to reach a deal and says talks continue. Trump says the US is 'talking to Iran' and doing 'very well'. Bloomberg reports Iran is reviewing a nuclear proposal, and Bloomberg and the Japan Times say the two sides are edging closer to a deal.",
+     "stories": [
+      "s7",
+      "s28",
+      "s22",
+      "s12",
+      "s10",
+      "s27"
+     ],
+     "sources": [
+      {
+       "t": "Qatar denies reports US and Iran failed to reach deal, says talks continue",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-denies-reports-us-and-iran-failed-reach-deal-says-talks-continue",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794006257,
+       "r": "known"
       },
       {
-       "t": "Hormuz is blocked, but oil keeps flowing",
-       "u": "https://www.hani.co.kr/arti/economy/economy_general/1286063.html",
-       "s": "Hankyoreh English",
-       "c": "KR",
+       "t": "US continues talks with Iran — Trump",
+       "u": "https://tass.com/world/2214091",
+       "s": "TASS English",
+       "c": "RU",
        "l": "en",
-       "p": 1793924655,
+       "p": 1793997798,
+       "r": "state"
+      },
+      {
+       "t": "Qatar rejects reports claiming PM said US-Iran talks had failed",
+       "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY2dzdE43ZGFNYWNMZ2kyWk1CNVEyNW1GcUNqb0Y2Mlh1MlMzLVFySFhrX0hrLWRvNVBlWENMNDZ6MEhnYlczM3ViVk12X01uajNLZEpEbFEyRzc3bVBlVlZsa25yemxfMEJTcXo4ZGU0aWVqMmc3TjRtUmJfVlBXNy1zNUhBRFh6dnZsdTdJeWVPN3pMc25sYlltbWxrS0Vna0JQOGd0a1NYa1FC?oc=5",
+       "s": "Arab News",
+       "c": "SA",
+       "l": "en",
+       "p": 1794007105,
+       "r": "known"
+      },
+      {
+       "t": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+       "u": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1794009600,
+       "r": "known"
+      },
+      {
+       "t": "Trump: U.S. Is 'Talking to Iran' and Doing 'Very Well' With Tehran",
+       "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUtCb0FFV1NDWUZqVC1wZGZhSV81VlZIWHhsLUFlSlJMbXZGX0RLRm9tQUdzS09CVFRsSHVzUE9yZnhycFZUcHRUT0U5b09veFE2aFVBOW9YWGx4NFlSSXNYQzRDWmw4ZTQtbk5MbDA1bHMtbjBrV05BMFI4NU5Cc1hodXpZT1ZkdDJxNjdDME1ma2dROF9qTHN4TU8waGhiWFhBdGQtQWI0Q2MxOGRiY0d0b0laVThqUW5aNEN2ZFh5YktCZmZLdzNXYThDWkNpdGxVOFYyeU9BQ0hfRnNqWjltY1FnQQ?oc=5",
+       "s": "Haaretz",
+       "c": "IL",
+       "l": "en",
+       "p": 1793996400,
+       "r": "known"
+      }
+     ],
+     "headlines": 10,
+     "outlets": 8,
+     "independent": 8,
+     "countries": [
+      "GB",
+      "IL",
+      "JP",
+      "PH",
+      "QA",
+      "RU",
+      "SA",
+      "US"
+     ],
+     "regions": 7,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "UKMTO says 11 ships were attacked in the week to 4 November in Hormuz and the Arabian Gulf. Russian state media TASS cites the UN Maritime Organization as saying 25 sailors have died in the strait since 28 February. An Indian outlet reports Iran's Revolutionary Guards say two tankers caught fire in Hormuz; this is a si",
+     "stories": [
+      "s19",
+      "s23",
+      "s39"
+     ],
+     "sources": [
+      {
+       "t": "UKMTO says 11 ships attacked in week to 4 Nov in Hormuz, Arabian Gulf",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-11-ships-attacked-week-4-nov-hormuz-arabian-gulf",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794018309,
+       "r": "known"
+      },
+      {
+       "t": "UN Maritime Organization says 25 sailors died in Strait of Hormuz since February 28",
+       "u": "https://tass.com/world/2214123",
+       "s": "TASS English",
+       "c": "RU",
+       "l": "en",
+       "p": 1794009438,
+       "r": "state"
+      },
+      {
+       "t": "Iran Guards say two tankers caught fire in Hormuz",
+       "u": "https://www.thehindu.com/news/international/iran-guards-say-two-tankers-caught-fire-in-hormuz/article71675787.ece",
+       "s": "The Hindu",
+       "c": "IN",
+       "l": "en",
+       "p": 1793983744,
        "r": "known"
       }
      ],
@@ -10601,63 +10662,95 @@
      "outlets": 3,
      "independent": 3,
      "countries": [
-      "AE",
-      "CN",
-      "KR"
+      "GB",
+      "IN",
+      "RU"
      ],
      "regions": 3,
      "party_only": false,
-     "state": 0
+     "state": 1
     },
     {
-     "text": "Russian state media TASS reports Trump saying the US will soon decide whether to 'go further' in the Iran conflict, and a Lebanese outlet says he is awaiting a decision with his national security team. Both are single-source reports.",
+     "text": "The US Treasury sanctioned eight money-service firms in Canada over alleged links to Iran. Iran has warned it will attack 'without geographic limits', and a US warning for Americans across the Middle East over Houthi attacks was also reported.",
      "stories": [
-      "s9",
-      "s17"
+      "s3",
+      "s25",
+      "s13",
+      "s14"
      ],
      "sources": [
       {
-       "t": "US to soon decide whether to 'go further' in Iran conflict — Trump",
-       "u": "https://tass.com/world/2213593",
-       "s": "TASS English",
-       "c": "RU",
+       "t": "US, Canada sanction eight money service firms over links to Iran",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914099",
+       "s": "Jerusalem Post",
+       "c": "IL",
        "l": "en",
-       "p": 1793928121,
-       "r": "state"
+       "p": 1794012975,
+       "r": "known"
       },
       {
-       "t": "Trump discusses options for dealing with Iran with national security team, awaiting decision on war",
-       "o": "ترمب يبحث مع فريق الأمن القومي خيارات التعامل مع إيران ويترقب قراراً بشأن الحرب",
-       "u": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxPNkJ2TktYY1g2OUZJdnF4ZEFOamF2Q2taMlNPbktMdnY4b2wxVUR6aS1jaER0RGNQYmI1VHRTMTZGb2luOHd5STRvRm0yaTlxUVRHNDA5OUYwRktzR0hGbVlKWURhbHl3ZlBsbnRaTDA5TmNpTDlsaGZENndqNzVmY0QwSHhFem5GSTJYSjk1R1drRjBqV3RhbDFqQm1UVTVhTG14VEZMTlFpam1MdTZfX3N5RG1KbUlWTWZfNmE2Q2Y4MkFUdkpiS1Niek45TGdsSzNjdkhadGQ5OXdJaXZwNGpkaHlxbFl5WG5kbjEtUTV3UlpNNFNrZXlWQ0FJaWpiVGNDWlFRTk5HX1VoNFpnN3FTVTZITVFrNnFTd1FmWlB4T3U4RW8tZGVyUUZoZTBQdlhwSG40U1hzMkZaRzJtY24yaF9zVm0xUnNOT1hIcE1UQVBkRDl3ZldKckhvcWFFWElyRmZXbzBVNW9EQzEyelNEYkxuMjRtNV9kVW9YWVV5TC1LMHFUVlRkOXBhbTJwMkJvbi1kYmtXSUgwQ0xvbTd",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1793923146,
-       "r": "unrated"
+       "t": "US sanctions 8 Canadian entities over alleged Iran links and money transfers",
+       "u": "https://www.hindustantimes.com/world-news/us-news/us-sanctions-8-canadian-entities-over-alleged-iran-links-and-money-transfers-101794005070848.html",
+       "s": "Hindustan Times World",
+       "c": "IN",
+       "l": "en",
+       "p": 1794006470,
+       "r": "known"
+      },
+      {
+       "t": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
+       "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
+       "s": "Reuters",
+       "c": "GB",
+       "l": "en",
+       "p": 1794005217,
+       "r": "known"
+      },
+      {
+       "t": "US Sanctions Eight Canadian Companies Over Iran Transactions",
+       "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcXNvVVI5NHhsNjBDVE1uREtNa2dXdXU5MDQ0LTJ5THpROVZ5U0R5ZkdnZVh4cFZIaTVOMTN3ZDlYQ3N3dnZDWlB2UnpFSVhzdjZXcy1BbzFTUGI2emFRaTdET2xQN193TXFaS2F0dVJBVF9ETFBFTFE0LTN3Y1FSaFhJQnBjLTE1OTJwV2VMT0tzVFpxUGJPcHdTbWVvcHgxMmxJeFNFbjhady1OT2pYSmtfbGJjeHZrZWdnMFd4NEVfTE9vTnktS0h5U2s?oc=5",
+       "s": "Bloomberg",
+       "c": "US",
+       "l": "en",
+       "p": 1794002304,
+       "r": "known"
+      },
+      {
+       "t": "U.S. sanctions Canadian money-exchange businesses allegedly connected to Iranian regime, Ryan Wedding",
+       "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEoxMkV4SkN2dHpVdG9ybmRkMDlRMllxR1pia3c4eWtWbXRwUGEtbjZYNlhleEs4V0hfeEQwaVRuWkNuT1VPWmp4QzExNFBtVWNlVkFiUjVVZTh2UDRfZVhta05BbnVEbmMxRVFrWWU3U0ktVkFVdmRlUktBdXdaa1Y3VEdiemNwQjFMWEFEb1RkaTVQdVQ0ZnVRMkU0ZzZBUGlRWg?oc=5",
+       "s": "CBC News",
+       "c": "CA",
+       "l": "en",
+       "p": 1794009060,
+       "r": "known"
       }
      ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
+     "headlines": 9,
+     "outlets": 7,
+     "independent": 7,
      "countries": [
-      "LB",
-      "RU"
+      "CA",
+      "GB",
+      "IL",
+      "IN",
+      "SG",
+      "US"
      ],
-     "regions": 2,
+     "regions": 5,
      "party_only": false,
-     "state": 1
+     "state": 0
     }
    ],
    "watch": [
-    "UKMTO and shipping reports on new Hormuz incidents",
-    "Any announced US decision on going further in Iran",
-    "Iranian reply to US on the nuclear proposal sent via Qatar"
+    "Whether Iran confirms or denies the drone shootdown over Qeshm, and whether the US confirms the missile strikes",
+    "Iran's response to the nuclear proposal it is reviewing, and whether Qatar's 'talks continue' line holds",
+    "Further UKMTO or shipping incident reports from Hormuz"
    ],
-   "window_hours": 3,
-   "headlines_read": 32,
-   "outlets_read": 27,
-   "countries_read": 19,
-   "languages_read": 10,
+   "window_hours": 12,
+   "headlines_read": 94,
+   "outlets_read": 44,
+   "countries_read": 17,
+   "languages_read": 1,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-05T07:03:41Z",
    "ladder_note": "Re-checked after: Iran's Revolutionary Guards report fires on tankers and a tug in the Strait of Hormuz, a shipping incident in the strait; the cause is Iran's account and is not yet independently confirmed."
