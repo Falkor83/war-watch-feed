@@ -55,6 +55,15 @@ class StoryTests(unittest.TestCase):
         self.assertEqual(wwstories.tier(HEADLINES[0]), "known")                    # one of the picked outlet feeds
         self.assertEqual(wwstories.tier(item("x y z words here", "XX", "Blog", "randomblog.example", v="gdelt")), "unrated")
 
+class ClipTests(unittest.TestCase):
+    def test_never_cuts_a_word_or_sentence(self):
+        long = "The US plans to widen the blockade. Al Arabiya says the plan includes the Caspian Sea. Haaretz says more."
+        self.assertEqual(focus.clip(long, 90), "The US plans to widen the blockade. Al Arabiya says the plan includes the Caspian Sea.")
+        head = "US widens Iran blockade to land and Caspian routes; second tanker fire; talks reported ongoing"
+        out = focus.clip(head, 90)
+        self.assertTrue(out.endswith("reported…") and len(out) <= 90, out)        # whole words, marked as cut
+        self.assertEqual(focus.clip("short", 90), "short")
+
 class FocusTests(unittest.TestCase):
     def setUp(self):
         self.dir = tempfile.mkdtemp()

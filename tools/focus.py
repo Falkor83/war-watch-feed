@@ -39,7 +39,7 @@ few hours (translated to English). Each STORY (s1, s2 ...) groups headlines abou
 how many independent sources in how many countries and regions reported it, and whether ONLY the sides' own media did.
 
 Return one ```json block:
-{"headline": "max 90 characters: where things stand right now",
+{"headline": "max 90 characters (a longer one is cut): where things stand right now",
  "direction": "escalating" | "steady" | "easing"   (compared with the previous update),
  "points": [{"text": "one or two plain sentences on what happened; attribute claims ('Iran says', 'US officials say')",
              "stories": ["s3", "s7"]}],
@@ -113,7 +113,7 @@ def check(ans, stories, log):
     for p in (ans.get("points") or [])[:5]:
         if not isinstance(p, dict): continue
         ids = [i for i in dict.fromkeys(p.get("stories") or []) if i in by]
-        text = str(p.get("text", "")).strip()[:320]
+        text = clip(p.get("text", ""), 480)
         if not ids or not text: log.append("a point without valid stories was dropped"); continue
         bad = wwscore.numbers_supported(text, facts(ids))
         if bad: log.append(f"a point with unbacked numbers {sorted(bad)} was dropped"); continue
@@ -129,7 +129,7 @@ def check(ans, stories, log):
         pts.append({"text": text, "stories": ids, "sources": srcs[:5], "headlines": st["headlines"], "outlets": st["outlets"],
                     "independent": st["independent"], "countries": st["countries"], "regions": st["regions"],
                     "party_only": st["party_only"], "state": st["state"]})
-    headline = str(ans.get("headline", "")).strip()[:90]
+    headline = clip(ans.get("headline", ""), 110)
     if headline and wwscore.numbers_supported(headline, facts(list(by))): log.append("headline had unbacked numbers"); headline = ""
     flag = ans.get("flag") if isinstance(ans.get("flag"), dict) else {}
     fids = [i for i in flag.get("stories") or [] if i in by]
@@ -138,12 +138,23 @@ def check(ans, stories, log):
     if flag.get("step_up") and not step_up: log.append("step-up flag not backed by independent outlets in 2 countries; ignored")
     return {"headline": headline,
             "direction": ans.get("direction") if ans.get("direction") in ("escalating", "steady", "easing") else "steady",
-            "points": pts, "watch": [str(w)[:140] for w in (ans.get("watch") or [])[:3] if str(w).strip()],
-            "step_up": step_up, "step_up_why": str(flag.get("why", ""))[:200] if step_up else ""}
+            "points": pts, "watch": [clip(w, 180) for w in (ans.get("watch") or [])[:3] if str(w).strip()],
+            "step_up": step_up, "step_up_why": clip(flag.get("why", ""), 240) if step_up else ""}
+
+def clip(text, n):
+    """At most n characters without cutting a word or sentence (cut text showed up in the app on 2026-11-07):
+    whole sentences if any fit, else whole words and an ellipsis."""
+    text = " ".join(str(text).split())
+    if len(text) <= n: return text
+    cut = text[:n + 1]
+    ends = [i for i in range(len(cut) - 1) if cut[i] in ".!?" and cut[i + 1] == " "]
+    if ends and ends[-1] + 1 >= n // 3: return cut[:ends[-1] + 1]
+    words = text[:n - 1].rsplit(" ", 1)[0].rstrip(" ,;:-")
+    return words + "…"
 
 def apply_to_hotspot(c, upd, feed_generated, today):
     """The app shows the hotspot's status line and latest developments: refresh them (a newer daily rating wins)."""
-    if upd["headline"] and ts_of(upd["at"]) >= ts_of(feed_generated): c["status"] = upd["headline"][:120]
+    if upd["headline"] and ts_of(upd["at"]) >= ts_of(feed_generated): c["status"] = clip(upd["headline"], 120)
     have = {wwapi.norm_url(d["url"]) for d in c.get("latest") or [] if d.get("url")}
     have_txt = {d.get("text") for d in c.get("latest") or []}
     new = []
@@ -152,7 +163,7 @@ def apply_to_hotspot(c, upd, feed_generated, today):
         src = next((s for s in p["sources"] if wwapi.norm_url(s["u"]) not in have), None)
         if not src: continue
         home = src.get("c", "")
-        new.append({"date": today, "text": p["text"][:400], "outlet": src.get("s", "")[:60],
+        new.append({"date": today, "text": clip(p["text"], 480), "outlet": src.get("s", "")[:60],
                     "country": wwdata.country_name(home) if home else "", "url": src["u"],
                     "region": wwdata.REGION_OF.get(home, "unknown"),
                     "tag": "party-press" if p["party_only"] else "non-party", "state_media": src.get("r") == "state"})
