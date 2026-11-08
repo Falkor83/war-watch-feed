@@ -35,12 +35,20 @@ IRAN = re.compile(r"\b(Iran\w*|IRGC|Revolutionary Guard\w*|Quds Force|MOIS|Hezbo
 OFFICIAL = {"justice.gov": "Justice Department", "fbi.gov": "FBI", "dhs.gov": "Homeland Security",
             "state.gov": "State Department", "treasury.gov": "Treasury", "cisa.gov": "CISA"}
 HOMELAND_SEARCHES = [
-    ("case", '(site:justice.gov OR site:fbi.gov) (Iran OR IRGC OR "Revolutionary Guard" OR Hezbollah OR Hizballah OR "Kata\'ib" OR Houthi)'),
+    ("case", 'site:justice.gov Iran (charged OR indicted OR sentenced OR arrested OR convicted)'),
+    ("case", 'site:justice.gov (IRGC OR "Revolutionary Guard" OR Hezbollah OR Hizballah OR "Kata\'ib" OR Houthi OR Houthis)'),
+    ("case", 'site:fbi.gov (Iran OR IRGC OR Hezbollah OR Hizballah OR Houthi)'),
     ("bulletin", 'site:dhs.gov ("National Terrorism Advisory System" OR NTAS) bulletin'),
     ("advisory", 'site:state.gov ("Worldwide Caution" OR "Level 4") (Iran OR Iraq OR Israel OR Lebanon OR Yemen OR "Middle East")'),
 ]
 HOMELAND_FEEDS = [("case", "https://www.justice.gov/news/rss?type=press_release&search_api_language=en&require_all=0"),
                   ("case", "https://www.fbi.gov/feeds/national-press-releases/rss.xml")]
+# State Department pages that count: travel advisories and alerts for the war's region, and the worldwide caution
+# (its site search also returns passport pages).
+ADVISORY = re.compile(r"(Travel Advisory|Worldwide Caution|Security Alert|Health Alert)", re.I)
+ADVISORY_PLACES = re.compile(r"\b(Worldwide|Iran|Iraq|Israel|Gaza|West Bank|Lebanon|Syria|Yemen|Jordan|Saudi|Kuwait|Bahrain|Qatar|"
+                             r"United Arab Emirates|UAE|Oman|Egypt|Turkey|T[uü]rkiye|Pakistan|Afghanistan|Azerbaijan)\b", re.I)
+LIMITS = {"case": 25, "bulletin": 3, "advisory": 8}
 CASE_WORDS = re.compile(r"\b(charged|indicted|indictment|arrested|convicted|sentenced|pleads?|pleaded|guilty|complaint|"
                         r"plot|scheme|material support|murder.for.hire|seized|forfeiture)\b", re.I)
 KEEP_DAYS, MAX_ITEMS = 365, 40
@@ -160,9 +168,12 @@ def homeland_items(get=_get, log=print, parse_feed=None, parse_date=None, sleep=
     for kind, it, src in got:
         title = re.sub(r"\s+-\s+(U\.S\.\s+)?(Department of Justice|Federal Bureau of Investigation|FBI|Homeland Security|"
                        r"DHS|U\.S\. Department of State|State Department|Travel\.State\.gov|\(\.gov\)).*$", "", it["title"]).strip()
+        title = re.sub(r"\s*\|\s*Travel\.State\.gov\s*$", "", title)
+        title = re.sub(r"^[^|]{3,60}(District of|Attorney.s Office|Field Office)[^|]*\|\s*", "", title)   # "Western District of X | ..."
         if not src or not IRAN.search(title) and kind == "case": continue
         if kind == "case" and not CASE_WORDS.search(title): continue
         if kind == "bulletin" and not re.search(r"NTAS|Terrorism Advisory", title, re.I): continue
+        if kind == "advisory" and not (ADVISORY.search(title) and ADVISORY_PLACES.search(title)): continue
         ts = parse_date(it.get("date"))
         if not ts: continue
         out.append({"title": wwscore.clip(title, 220), "url": it["link"], "source": src, "kind": kind,
@@ -170,12 +181,15 @@ def homeland_items(get=_get, log=print, parse_feed=None, parse_date=None, sleep=
     return out
 
 def merge_homeland(old, new, today):
-    """Keep a year of notices, newest first, one per title."""
-    seen, out = set(), []
+    """Keep a year of notices, newest first, one per title, at most LIMITS per kind (an old advisory that no longer
+    passes the filters is dropped too)."""
+    seen, out, n = set(), [], {}
     for x in sorted((old or []) + new, key=lambda x: x["date"], reverse=True):
         k = re.sub(r"\W+", " ", x["title"].lower()).strip()[:90]
         if k in seen or wwscore.days_between(x["date"], today) > KEEP_DAYS: continue
-        seen.add(k); out.append(x)
+        if x["kind"] == "advisory" and not (ADVISORY.search(x["title"]) and ADVISORY_PLACES.search(x["title"])): continue
+        if n.get(x["kind"], 0) >= LIMITS.get(x["kind"], 10): continue
+        seen.add(k); out.append(x); n[x["kind"]] = n.get(x["kind"], 0) + 1
     return out[:MAX_ITEMS]
 
 def homeland_summary(items, today):
