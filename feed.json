@@ -1713,9 +1713,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Ship attacks spread to UAE coast as Iran sends nuclear proposal; talks still open",
+   "status": "Tankers hit mines and caught fire in Hormuz; ship strikes by both sides reported",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been heavily disrupted. Trump said the US carried out new limited strikes on an Iranian air defence system on Nov 6, the first action since the midterms; Iranian media report missiles hitting Qeshm Island. Iran's Revolutionary Guards say they shot down a US MQ-1 drone over Qeshm and that two tankers struck mines; the US has not confirmed the drone loss in these notes. IMO and UKMTO data cited by Al Jazeera count over 120 ships hit, with October the worst month. Talks continue: a senior Iranian official says Iran sent a nuclear proposal via Qatar, and Qatar is urging both sides to settle.",
    "latest": [
+    {
+     "date": "2026-11-08",
+     "text": "Iran says two tankers hit mines and caught fire in the Strait of Hormuz, with explosions heard in several places. A separate Iranian claim says two more oil tankers caught fire after hitting naval mines. Four independent outlets from three countries carried the first report, but the mine claims rest on Iran's account.",
+     "outlet": "Yahoo News",
+     "country": "United States",
+     "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxNX1ZlbXFHRG9SX3NwZ0ozU2h6NzBILUZ5RVJqdFJ3ZW5Ld0xvc0dkSW9aV1hnMEhPSmMtSldMa19FSGI1TlZHQmxNTTlKTjN1V184S0xKQU42dVZmTEVDS1ZZVkZKUWIwaWY5bnBNVExicmliOHFQeWR6OUp3dThXWmlfWXBQaTQwV2FnQWp3NU9TLWtJMEJGcEJLdnlCa2J2UHFSVVYxYmt1VkJJQnl6QkhHLW9Xa0hMTElaOVpWSl9YejJIVmNoeHI1Z2NhcWF1cVZ3bmdpNXYwVHZrcVpyaG9TZUVTNVpjdDVPMGhuMnBoeFhHUHNtaEhaTDBpdU8yWTFnc25BU0VtOFRZb1d1Q3RlRFdNTGxtSDZEV09FVHgxd2dULWlIN09SZTYxUGpmUUVWSlRGT1BxNzBVUW1vYVBmZzZKUklibzlZM2NzbkVVWVJpT3BUQ0Z6TWJyY0ZrZUxWMHRGbkpQdw?oc=5",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "text": "One Ukrainian outlet reports that US and Iranian militaries both struck commercial vessels in the Strait of Hormuz. A Colombian outlet reports that US forces attacked a commercial ship in the Gulf of Oman that was trying to break the US maritime blockade against Iran.",
+     "outlet": "Ukrinform Ukrainian",
+     "country": "Ukraine",
+     "url": "https://www.ukrinform.ua/rubric-world/4182579-vijskovi-ssa-ta-iranu-urazili-torgovelni-sudna-v-ormuzkij-protoci.html",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": true
+    },
+    {
+     "date": "2026-11-08",
+     "text": "Iranian state and party-linked media say the Strait of Hormuz gives Iran strategic leverage, and that the IRGC is monitoring a US 'Scorpion Strike' task force. These are the sides' own claims.",
+     "outlet": "IRNA English",
+     "country": "Iran",
+     "url": "https://en.irna.ir/news/86315606/Strait-of-Hormuz-gives-Iran-strategic-leverage-in-global-affairs",
+     "region": "iran",
+     "tag": "party-press",
+     "state_media": true
+    },
     {
      "date": "2026-11-08",
      "text": "The UK Maritime Trade Operations (UKMTO) reported an incident involving a bulk carrier near the UAE coast, according to TASS. The UAE says it rescued 22 crew members from a burning cargo ship in the Gulf of Oman.",
@@ -1763,36 +1793,6 @@
      "country": "Saudi Arabia",
      "url": "https://akhbaregy.com/2026/11/08/%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D9%88%D8%B3%D9%85%D8%A7%D8%B9-%D8%AF%D9%88%D9%8A-%D8%A7%D9%86%D9%81%D8%AC%D8%A7/",
      "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "text": "US-side reports say a Task Force Iron Gate has expanded the blockade of Iran and moved to restrict land trade and weapons routes. These reports come from US and regional outlets citing the US side.",
-     "outlet": "Gulf News",
-     "country": "United Arab Emirates",
-     "url": "https://gulfnews.com/world/mena/task-force-iron-gate-us-expands-iran-blockade-tightens-squeeeze-as-tehran-lifts-missile-limits-is-another-war-looming-1.500739838",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "text": "The Revolutionary Guards say two more oil tankers hit mines near the Strait of Hormuz. Independent outlets carry the claim, and no independent confirmation of the mine strikes is cited.",
-     "outlet": "TRT Haber Dunya",
-     "country": "Turkey",
-     "url": "https://www.trthaber.com/haber/dunya/devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti-962564.html",
-     "region": "middle-east",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "text": "UKMTO reports an incident in the Gulf of Oman involving a bulk carrier and military forces. US military officials say they disabled a commercial ship that tried to breach the blockade of Iran, and Russian and Turkish outlets report the same US announcement.",
-     "outlet": "Middle East Eye",
-     "country": "United Kingdom",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-and-military-forces-involved-gulf-oman-incident-ukmto",
-     "region": "europe",
      "tag": "non-party",
      "state_media": false
     }
@@ -11236,174 +11236,253 @@
      "at": "2026-11-08T05:53:05Z",
      "headline": "Ship attacks spread to UAE coast as Iran sends nuclear proposal; talks still open",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-08T08:43:24Z",
+     "headline": "Tankers hit mines and caught fire in Hormuz; ship strikes by both sides reported",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-08T05:53:05Z",
-   "next_at": "2026-11-08T08:53:05Z",
-   "headline": "Ship attacks spread to UAE coast as Iran sends nuclear proposal; talks still open",
+   "updated_at": "2026-11-08T08:43:24Z",
+   "next_at": "2026-11-08T11:43:24Z",
+   "headline": "Tankers hit mines and caught fire in Hormuz; ship strikes by both sides reported",
    "direction": "escalating",
    "points": [
     {
-     "text": "The UK Maritime Trade Operations (UKMTO) reported an incident involving a bulk carrier near the UAE coast, according to TASS. The UAE says it rescued 22 crew members from a burning cargo ship in the Gulf of Oman.",
+     "text": "Iran says two tankers hit mines and caught fire in the Strait of Hormuz, with explosions heard in several places. A separate Iranian claim says two more oil tankers caught fire after hitting naval mines. Four independent outlets from three countries carried the first report, but the mine claims rest on Iran's account.",
      "stories": [
-      "s8",
-      "s9",
-      "s13"
+      "s1",
+      "s11"
      ],
      "sources": [
       {
-       "t": "UKMTO reported incident with bulk carrier near UAE coast",
-       "u": "https://tass.com/world/2214365",
-       "s": "TASS English",
-       "c": "RU",
-       "l": "en",
-       "p": 1794111461,
-       "r": "state"
-      },
-      {
-       "t": "Iran war latest: UAE rescues 22 crew members from burning cargo ship in Gulf of Oman",
-       "u": "https://www.thenationalnews.com/news/mena/2026/11/08/live-uae-rescue-cargo-ship-iran-war/",
-       "s": "The National",
-       "c": "AE",
-       "l": "en",
-       "p": 1794110010,
+       "t": "Iran says two violating tankers hit mines and caught fire in the Strait of Hormuz; explosions heard in several places",
+       "o": "伊朗稱2違規油輪在荷姆茲海峽觸雷起火 多地傳爆炸聲",
+       "u": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxNX1ZlbXFHRG9SX3NwZ0ozU2h6NzBILUZ5RVJqdFJ3ZW5Ld0xvc0dkSW9aV1hnMEhPSmMtSldMa19FSGI1TlZHQmxNTTlKTjN1V184S0xKQU42dVZmTEVDS1ZZVkZKUWIwaWY5bnBNVExicmliOHFQeWR6OUp3dThXWmlfWXBQaTQwV2FnQWp3NU9TLWtJMEJGcEJLdnlCa2J2UHFSVVYxYmt1VkJJQnl6QkhHLW9Xa0hMTElaOVpWSl9YejJIVmNoeHI1Z2NhcWF1cVZ3bmdpNXYwVHZrcVpyaG9TZUVTNVpjdDVPMGhuMnBoeFhHUHNtaEhaTDBpdU8yWTFnc25BU0VtOFRZb1d1Q3RlRFdNTGxtSDZEV09FVHgxd2dULWlIN09SZTYxUGpmUUVWSlRGT1BxNzBVUW1vYVBmZzZKUklibzlZM2NzbkVVWVJpT3BUQ0Z6TWJyY0ZrZUxWMHRGbkpQdw?oc=5",
+       "s": "Yahoo News",
+       "c": "US",
+       "l": "zh",
+       "p": 1794122217,
        "r": "known"
       },
       {
-       "t": "Middle East conflict: UAE rescues 22 crew in Gulf of Oman as US tightens Iran blockade and Tehran lifts missile limits",
-       "u": "https://gulfnews.com/world/mena/uae-rescues-22-crew-in-gulf-of-oman-as-us-tightens-iran-blockade-and-tehran-lifts-missile-limits-1.500739993",
-       "s": "Gulf News",
-       "c": "AE",
+       "t": "Iran Says Two Tankers Caught Fire in Hormuz after Hitting Mines",
+       "u": "https://english.aawsat.com/node/5338803",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
        "l": "en",
-       "p": 1794107864,
+       "p": 1794117343,
+       "r": "known"
+      },
+      {
+       "t": "IRGC navy reports explosions on two tankers in Strait of Hormuz",
+       "u": "https://en.irna.ir/news/86315378/IRGC-navy-reports-explosions-on-two-tankers-in-Strait-of-Hormuz",
+       "s": "IRNA English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794117975,
+       "r": "state"
+      },
+      {
+       "t": "Two more oil tankers catch fire after hitting naval mines in Hormuz, according to Iran",
+       "o": "Dos petroleros más se incendian tras chocar con minas navales en Ormuz, según Irán",
+       "u": "https://www.infobae.com/america/agencias/2026/11/08/dos-petroleros-mas-se-incendian-tras-chocar-con-minas-navales-en-ormuz-segun-iran/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794120321,
+       "r": "known"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 5,
+     "countries": [
+      "AR",
+      "IR",
+      "SA",
+      "US"
+     ],
+     "regions": 4,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "One Ukrainian outlet reports that US and Iranian militaries both struck commercial vessels in the Strait of Hormuz. A Colombian outlet reports that US forces attacked a commercial ship in the Gulf of Oman that was trying to break the US maritime blockade against Iran.",
+     "stories": [
+      "s6",
+      "s7"
+     ],
+     "sources": [
+      {
+       "t": "US and Iranian military strike commercial vessels in the Strait of Hormuz",
+       "o": "Військові США та Ірану уразили торговельні судна в Ормузькій протоці",
+       "u": "https://www.ukrinform.ua/rubric-world/4182579-vijskovi-ssa-ta-iranu-urazili-torgovelni-sudna-v-ormuzkij-protoci.html",
+       "s": "Ukrinform Ukrainian",
+       "c": "UA",
+       "l": "uk",
+       "p": 1794124560,
+       "r": "state"
+      },
+      {
+       "t": "US Armed Forces attacked a commercial ship in the Gulf of Oman for trying to break the maritime blockade against Iran",
+       "o": "Las Fuerzas Armadas de Estados Unidos atacaron un buque comercial en el golfo de Omán por intentar incumplir el bloqueo marítimo contra Irán",
+       "u": "https://www.eltiempo.com/mundo/eeuu-y-canada/las-fuerzas-armadas-de-estados-unidos-atacaron-un-buque-comercial-en-el-golfo-de-oman-por-intentar-incumplir-el-bloqueo-maritimo-contra-iran-3599355",
+       "s": "El Tiempo Mundo",
+       "c": "CO",
+       "l": "es",
+       "p": 1794123036,
        "r": "known"
       }
      ],
      "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "AE",
-      "RU"
+      "CO",
+      "UA"
      ],
      "regions": 2,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Pakistan's Hormuz agreement with Iran is under strain after an attack on an LNG tanker, according to Nikkei Asia.",
+     "text": "Iranian state and party-linked media say the Strait of Hormuz gives Iran strategic leverage, and that the IRGC is monitoring a US 'Scorpion Strike' task force. These are the sides' own claims.",
      "stories": [
-      "s4"
+      "s16",
+      "s20"
      ],
      "sources": [
       {
-       "t": "Pakistan's Hormuz agreement with Iran faces test after LNG tanker attack",
-       "u": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/pakistan-s-hormuz-agreement-with-iran-faces-test-after-lng-tanker-attack",
-       "s": "Nikkei Asia",
-       "c": "JP",
+       "t": "Strait of Hormuz gives Iran strategic leverage in global affairs: Official",
+       "u": "https://en.irna.ir/news/86315606/Strait-of-Hormuz-gives-Iran-strategic-leverage-in-global-affairs",
+       "s": "IRNA English",
+       "c": "IR",
        "l": "en",
-       "p": 1794112037,
+       "p": 1794125779,
+       "r": "state"
+      },
+      {
+       "t": "IRGC closely monitoring U.S. “Scorpion Strike” Task Force",
+       "u": "https://en.mehrnews.com/news/249237/IRGC-closely-monitoring-U-S-Scorpion-Strike-Task-Force",
+       "s": "Mehr English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794121741,
+       "r": "state"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "IR"
+     ],
+     "regions": 1,
+     "party_only": true,
+     "state": 2
+    },
+    {
+     "text": "A Korean outlet reports the White House is divided between negotiation and escalation over the Iran war. Iranian hardliners say the US midterm elections are their victory and are pressing for ceasefire talks.",
+     "stories": [
+      "s9",
+      "s12"
+     ],
+     "sources": [
+      {
+       "t": "White House divided over the Iran war: 'negotiation or escalation'",
+       "u": "https://www.hani.co.kr/arti/international/international_general/1286291.html",
+       "s": "Hankyoreh English",
+       "c": "KR",
+       "l": "en",
+       "p": 1794121942,
+       "r": "known"
+      },
+      {
+       "t": "Iran hardliners: \"US midterm elections are our victory,\" raising demands for ceasefire negotiations",
+       "o": "이란 강경파 \"미 중간선거는 우리 승리\"…종전협상 요구 높였다",
+       "u": "https://www.yna.co.kr/view/AKR20261108032800009",
+       "s": "Yonhap Korean",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794119691,
        "r": "known"
       }
      ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "JP"
+      "KR"
      ],
      "regions": 1,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran's top official says Tehran has sent a recommendation to the United States on the nuclear issue. Iran also told Russia that talks with the US without guarantees will not end the conflict, according to Middle East Eye.",
+     "text": "Iran says it has lifted its self-imposed limit on missile ranges. An Iranian-sourced report says Iran is handing out iodine tablets near nuclear sites, and another says it is moving missile and drone factories underground; these reports are unconfirmed.",
      "stories": [
       "s3",
-      "s7"
+      "s17",
+      "s13"
      ],
      "sources": [
       {
-       "t": "Iran has sent a recommendation to the United States on the nuclear issue, the country's top official says",
-       "o": "የሁቲ አማፂያን ሳዑዲ አረቢያ በፈጸመችው የአየር ጥቃት ቢያንስ 33 ሰዎች መገደላቸውን አስታወቁ",
-       "u": "https://www.bbc.co.uk/amharic/live/cmq8nn0qn9evt?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Amharic",
-       "c": "GB",
-       "l": "am",
-       "p": 1794112037,
-       "r": "known"
+       "t": "Iran says it lifted its self-imposed limit on missile ranges - Region - World",
+       "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMFJ3MGFScWhoZHQ3WTM2UzNMaXdDajR1c2ViVms3QnRLMjVEU0VuRWVmRTZybkVvdjAxQ3V1N01idU5LY3hRbnVzWTk0U2NIZ0NHdDkxYjBpY3A0ckhuQ3ZEWGt3ajR4NEtaRlVwanZoS1RmQmZjTDVDbFUyc1o4ZDBZZDMxRTI5aDQtYXhFWUFxNUtYdEl6c2MteEJiQ1ZtNkRFUmI3VV9aUW5vVzBySE03UVNJU2E1a1hvaw?oc=5",
+       "s": "Ahram Online",
+       "c": "EG",
+       "l": "en",
+       "p": 1794125025,
+       "r": "state"
       },
       {
-       "t": "Iran tells Russia talks with US without guarantees won't end conflict, report says",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-tells-russia-talks-us-without-guarantees-wont-end-conflict-report",
-       "s": "Middle East Eye",
-       "c": "GB",
+       "t": "Iran Distributes Iodine Tablets Near Nuclear Sites as US Strike Fears Grow",
+       "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbGZJdmtwdEpyTlpqaU5lNW5ERlZ6R1dNcWZUcEtNSVVtTUVHS096V09zTUtBTGZfQWRUR0Z4X3RyMmprb2RtZTZtM3c3UGdTaDhFcnQzbGREd1NBOWI4OXNiaV9rNW5XZWRrSXJhVnZXNlJYZ3NtUHpkdzlFa29lRjd2T0FyTWQ0ald4Si1lSV9BY3YyUlRtaENLNmxuSGRmY3BCNjdn?oc=5",
+       "s": "RTV English",
+       "c": "US",
        "l": "en",
-       "p": 1794111570,
-       "r": "known"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "GB"
-     ],
-     "regions": 1,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran's navy warned US forces that the enemy 'will no longer dare attack', according to the Times of India. Explosions were heard on Qeshm Island after reported missile strikes, but the cause is not confirmed.",
-     "stories": [
-      "s2",
-      "s6"
-     ],
-     "sources": [
-      {
-       "t": "'Enemy will no longer dare attack': Iran's navy issues warning to US forces",
-       "u": "https://timesofindia.indiatimes.com/world/middle-east/enemy-will-no-longer-dare-attack-irans-navy-issues-warning-to-us-forces/articleshow/135651481.cms",
-       "s": "Times of India",
-       "c": "IN",
-       "l": "en",
-       "p": 1794112847,
-       "r": "known"
+       "p": 1794123172,
+       "r": "unrated"
       },
       {
-       "t": "Explosions Heard On Iran's Qeshm Island After Missile Strikes",
-       "u": "https://www.ndtv.com/world-news/us-iran-war-explosions-heard-on-irans-qeshm-island-after-missile-strikes-12299181#publisher=newsstand",
-       "s": "NDTV World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794111593,
-       "r": "known"
+       "t": "Iran moves missile and drone factories underground",
+       "o": "Iran Pindahkan Pabrik Rudal dan Drone ke Bawah Tanah",
+       "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNjU4aVBQWkdSR0Vobjd4S1VrMWVZajA0MU9VUEJweDJIM2J3TkNqMURoWnFfZ012dkx6Q2FPbzM4U1BoVU11UW1PLVlHMGRwNG1kRjhEa0g5YU41TGdldHJFNzk5UFA1WDlHZEJoYzBiaFc2NHFiNjMxRlhjRXZCblpLZE9YYnZMUkpLd2Y5Zm12c19NWEo1VVhvSEFNcnBw0gGmAUFVX3lxTE51eXpQRHJPVkRiNWN6eF82d2o3THdRcnduWWFlei1maDF6WlkxNUxzVDQxVVB1OXlvMGVBbHZmc2tRLXpidFZjV1JDUkhqamVodG0yWE9Ld01ZeXV2YlBwTzNrNjJKUFByUkRJUlhpaThkQ2lPWlZld2JaWERDbndnNUQxV2toMnA4Z2E5ZmZEdHB2MFU3d1dTWjQyU0dhVVZWSW01X2c?oc=5",
+       "s": "detikNews",
+       "c": "ID",
+       "l": "id",
+       "p": 1794119004,
+       "r": "unrated"
       }
      ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
      "countries": [
-      "IN"
+      "EG",
+      "ID",
+      "US"
      ],
-     "regions": 1,
+     "regions": 3,
      "party_only": false,
-     "state": 0
+     "state": 1
     }
    ],
    "watch": [
-    "Whether UKMTO or the UAE confirm the cause of the bulk carrier and cargo ship fires",
-    "US response to Iran's nuclear recommendation",
-    "Whether Pakistan and Iran keep the Hormuz arrangement after the LNG tanker attack"
+    "Whether independent outlets confirm the tanker mine incidents, which so far rest mainly on Iranian accounts",
+    "Any US response to the Gulf of Oman blockade incident or to the Hormuz ship strikes",
+    "Whether the White House shifts toward talks or escalation"
    ],
    "window_hours": 3,
-   "headlines_read": 16,
-   "outlets_read": 14,
-   "countries_read": 10,
-   "languages_read": 5,
+   "headlines_read": 29,
+   "outlets_read": 24,
+   "countries_read": 14,
+   "languages_read": 11,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T00:00:30Z",
    "ladder_note": "Re-checked after: Reports of tankers hitting mines near Hormuz, a US disabling of a ship under the blockade, and US strikes on Iranian air defenses are concrete escalations, though the mine and strike claims come from one side each."
