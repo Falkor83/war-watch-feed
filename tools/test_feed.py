@@ -1,5 +1,5 @@
 """Tests for the War Watch feed job, with a fake Claude API (no network, no cost).  python3 -m unittest -v tools/test_feed.py"""
-import json, os, shutil, sys, tempfile, time, unittest, datetime
+import json, os, shutil, sys, tempfile, time, unittest, datetime, urllib.parse
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import wwapi, wwdata, wwscore, wwboil, fixture_time
@@ -107,6 +107,64 @@ class TrackRecordTests(unittest.TestCase):
         self.assertEqual(self.T.stage(feed, self.path, [], [], wwapi.load_budget(), "m", "s", TODAY, print, json.loads), (0, 0))
         self.assertEqual(feed["track"]["pending"], 4); self.assertEqual(wwapi.http.calls, [])
 
+class FactsTests(unittest.TestCase):
+    """Prices, chokepoints and official notices, from canned answers (no network)."""
+    def setUp(self):
+        import wwfacts, headlines
+        self.F, self.H = wwfacts, headlines
+        today = datetime.date.today()
+        weeks = [(today - datetime.timedelta(days=7 * i)).isoformat() for i in range(8, -1, -1)]
+        fred = {"GASREGWCW": "observation_date,GASREGWCW\n" + "".join(f"{d},{4.0 + 0.05 * i:.3f}\n" for i, d in enumerate(weeks)),
+                "GASREGW": "observation_date,GASREGW\n" + "".join(f"{d},3.100\n" for d in weeks),
+                "DCOILBRENTEU": "observation_date,DCOILBRENTEU\n2026-01-02,.\n" + "".join(f"{d},90.0\n" for d in weeks)}
+        days = [datetime.date(2025, 1, 1) + datetime.timedelta(days=i) for i in range(365)] + \
+               [today - datetime.timedelta(days=i) for i in range(20, 0, -1)]
+        def pw(total): return json.dumps({"features": [{"attributes": {"year": d.year, "month": d.month, "day": d.day,
+                     "n_total": total(d), "n_tanker": total(d) / 2}} for d in days]}).encode()
+        rss = lambda items: ("<rss><channel>" + "".join(f"<item><title>{t}</title><link>{u}</link><pubDate>{today.strftime('%a, %d %b %Y')} 12:00:00 GMT</pubDate>"
+                              f"<source url='{su}'>x</source></item>" for t, u, su in items) + "</channel></rss>").encode()
+        def get(url, timeout=30, accept="*/*"):
+            if "fredgraph" in url: return fred[url.split("id=")[1]].encode()
+            if "arcgis" in url:
+                if "Hormuz" in urllib.parse.unquote(url): return pw(lambda d: 90 if d.year == 2025 else 9)
+                if "Taiwan" in urllib.parse.unquote(url): raise OSError("down")
+                return pw(lambda d: 50)
+            if "justice.gov/news/rss" in url:
+                return rss([("Iranian national charged in plot to kill US official", "https://www.justice.gov/opa/pr/a", ""),
+                            ("Man sentenced for tax fraud", "https://www.justice.gov/opa/pr/b", "")])
+            if "news.google.com" in url and "dhs.gov" in urllib.parse.unquote(url):
+                return rss([("DHS issues National Terrorism Advisory System bulletin - Homeland Security (.gov)", "https://news.google.com/x", "https://www.dhs.gov")])
+            if "news.google.com" in url:
+                return rss([("Iran hackers indicted for attacks on US water systems - Department of Justice (.gov)", "https://news.google.com/y", "https://www.justice.gov"),
+                            ("Iran charged in plot, says blog", "https://news.google.com/z", "https://someblog.example")])   # not official
+            raise OSError("unexpected " + url)
+        self.get = get
+
+    def test_stage(self):
+        import urllib.parse as _u
+        out, logs = {}, []
+        self.F.stage(out, datetime.date.today().isoformat(), log=logs.append, get=self.get, sleep=lambda s: None)
+        p = {x["id"]: x for x in out["prices"]["items"]}
+        self.assertEqual(p["gas_west"]["value"], 4.4); self.assertEqual(p["gas_west"]["then"], 4.2)
+        self.assertEqual(p["gas_west"]["change_pct"], round(100 * 0.2 / 4.2, 1))
+        c = {x["id"]: x for x in out["chokepoints"]["items"]}
+        self.assertEqual(c["hormuz"]["pct_of_normal"], 10); self.assertEqual(c["hormuz"]["level"], "severe")
+        self.assertEqual(c["suez"]["level"], "normal"); self.assertNotIn("taiwan", c)
+        self.assertTrue(any("Taiwan Strait failed" in m for m in logs))
+        titles = [x["title"] for x in out["homeland"]["items"]]
+        self.assertIn("Iranian national charged in plot to kill US official", titles)
+        self.assertIn("Iran hackers indicted for attacks on US water systems", titles)        # " - Department of Justice" trimmed
+        self.assertNotIn("Man sentenced for tax fraud", titles)                              # not about Iran
+        self.assertFalse(any("blog" in t for t in titles))                                    # not an official source
+        self.assertTrue(any(x["kind"] == "bulletin" for x in out["homeland"]["items"]))
+        self.assertIn("2 Justice Department or FBI announcements", out["homeland"]["line"])
+
+    def test_failures_keep_the_last_values(self):
+        def down(url, timeout=30, accept="*/*"): raise OSError("down")
+        out = {"prices": {"date": "2026-11-01", "items": [{"id": "brent"}]}}
+        self.F.stage(out, datetime.date.today().isoformat(), log=lambda m: None, get=down, sleep=lambda s: None)
+        self.assertEqual(out["prices"]["date"], "2026-11-01"); self.assertNotIn("chokepoints", out)
+
 class RequestTests(unittest.TestCase):
     def test_effort_only_where_asked(self):
         r = {"model": "claude-opus-5-5", "max_tokens": 10, "system": "s"}
@@ -121,7 +179,7 @@ class Base(unittest.TestCase):
         fixture_time.write_feed(self.dir)
         shutil.copy(os.path.join(src, "outlets.json"), self.dir)
         for d in ("prompt", "config"): shutil.copytree(os.path.join(src, d), os.path.join(self.dir, d))
-        os.environ["ANTHROPIC_API_KEY"] = "test"; os.environ["WW_FORCE"] = "1"
+        os.environ["ANTHROPIC_API_KEY"] = "test"; os.environ["WW_FORCE"] = "1"; os.environ["WW_FACTS"] = "off"     # no network in tests
         import update_feed
         self.uf = update_feed
         self.paths = (update_feed.FEED, update_feed.HISTORY, update_feed.OUTLOOKS, update_feed.NOTES_DIR, wwapi.BUDGET, update_feed.ROOT, wwapi.ROOT)

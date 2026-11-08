@@ -27,7 +27,7 @@ raised to $45 on 2026-11-07 (Matt approved; Aegis's share drops from $65 to $55,
 """
 import json, os, re, sys, time, datetime, calendar
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import wwapi, wwdata, wwscore, wwboil, wwstories, wwai, wwactions, wwtrack
+import wwapi, wwdata, wwscore, wwboil, wwstories, wwai, wwactions, wwtrack, wwfacts
 from wwapi import step, ok, warn, err, save_json, MONTHLY_CAP_USD
 
 GATHER_MODEL = os.environ.get("WW_GATHER_MODEL", "claude-sonnet-5-5")
@@ -376,6 +376,12 @@ def ai_stage(out, budget):
            f"{a['read']['countries']} countries): " + "; ".join(f"{i['severity']} {i['category']}: {i['title']}" for i in a["items"][:5]))
     return out
 
+def facts_stage(out):
+    """Gas and oil prices, chokepoint traffic, official homeland notices: no Claude, $0 (tools/wwfacts.py)."""
+    if os.environ.get("WW_FACTS", "on") == "off": return out
+    try: return wwfacts.stage(out, today(), log=lambda m: (warn(m[7:]) if m.startswith("[WARN]") else ok(m[5:]) if m.startswith("[OK]") else print(m)))
+    except Exception as e: warn(f"facts failed ({type(e).__name__}: {e}); the last ones are kept"); return out
+
 def track_stage(out, notes, budget):
     """Track record: the outlooks whose date has passed, checked by Sonnet with a few searches (tools/wwtrack.py)."""
     system = prompt("rules.md") + "\n\n" + prompt("track.md")
@@ -713,6 +719,7 @@ def run_daily(feed, budget, history, level):
     out = ai_stage(out, budget)
     out = actions_stage(out, budget)
     out = track_stage(out, notes, budget)
+    out = facts_stage(out)
     return out, changed
 
 def run_weekly(feed, budget, history, level):
@@ -761,6 +768,7 @@ def run_weekly(feed, budget, history, level):
     out = ai_stage(out, budget)
     out = actions_stage(out, budget)
     out = track_stage(out, notes, budget)
+    out = facts_stage(out)
     return out, changed
 
 def migrate(feed):
@@ -800,8 +808,8 @@ def migrate(feed):
 
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
-    if mode not in ("daily", "weekly", "check", "migrate", "panel", "ai", "actions", "track"):
-        raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate, panel, ai, actions, track)")
+    if mode not in ("daily", "weekly", "check", "migrate", "panel", "ai", "actions", "track", "facts"):
+        raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate, panel, ai, actions, track, facts)")
     feed = load(FEED)
     if mode == "check":
         validate_feed(feed); ok(f"feed.json is valid: {len(feed['conflicts'])} hotspots, schema {feed.get('schema', 1)}"); return
@@ -847,8 +855,9 @@ def main():
         warn(f"${budget['total_usd']:.2f} of ${MONTHLY_CAP_USD:.0f} spent this month; running the daily update instead of the weekly")
         mode = "daily"
     if level == "lite": warn(f"spending is ahead of pace (${budget['usd']:.2f}); running a lighter update")
-    if mode in ("ai", "actions", "track"):                     # one reading alone, between daily runs
-        if mode == "track": out = track_stage(dict(feed), [], budget)
+    if mode in ("ai", "actions", "track", "facts"):            # one reading alone, between daily runs
+        if mode == "facts": out = facts_stage(dict(feed))
+        elif mode == "track": out = track_stage(dict(feed), [], budget)
         else: out = (ai_stage if mode == "ai" else actions_stage)(dict(feed), budget)
         save_json(FEED, out); ok(f"feed.json: {mode} updated"); return
     if feed.get("schema", 1) < 2: feed = migrate(feed)
