@@ -206,7 +206,10 @@ def homeland_summary(items, today):
     bul = next((x for x in items if x["kind"] == "bulletin"), None)
     line = (f"{len(year)} Justice Department or FBI announcement{'s' if len(year) != 1 else ''} about cases tied to Iran or "
             f"its proxies in the last 12 months ({len(month)} in the last 30 days).")
-    if bul: line += f" Latest terrorism advisory (DHS): {bul['date']}."
+    if bul:
+        try: d = datetime.date.fromisoformat(bul["date"][:10]); when = f"{d.strftime('%b')} {d.day}, {d.year}"
+        except ValueError: when = bul["date"]
+        line += f" Latest terrorism advisory (DHS): {when}."
     return line
 
 # ---------- stage ----------
