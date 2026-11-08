@@ -1713,9 +1713,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Ships hit near Hormuz and Gulf of Oman; US strikes Iranian air defenses, talks continue",
+   "status": "Tankers hit near Hormuz, blockade widened, Iran lifts missile limit; talks still open",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been heavily disrupted. Trump said the US carried out new limited strikes on an Iranian air defence system on Nov 6, the first action since the midterms; Iranian media report missiles hitting Qeshm Island. Iran's Revolutionary Guards say they shot down a US MQ-1 drone over Qeshm and that two tankers struck mines; the US has not confirmed the drone loss in these notes. IMO and UKMTO data cited by Al Jazeera count over 120 ships hit, with October the worst month. Talks continue: a senior Iranian official says Iran sent a nuclear proposal via Qatar, and Qatar is urging both sides to settle.",
    "latest": [
+    {
+     "date": "2026-11-08",
+     "text": "Iran's Revolutionary Guards say two tankers hit mines in the Strait of Hormuz, and one report says both are burning. No independent confirmation of the mine strikes is cited. US forces say they disabled a commercial ship trying to break the blockade in the Gulf of Oman, and a US video of the strike has been released.",
+     "outlet": "BBC Persian",
+     "country": "United Kingdom",
+     "url": "https://www.bbc.co.uk/persian/live/c9x28erk2yv0t?at_medium=RSS&at_campaign=rss",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "text": "Explosions were heard on Qeshm Island and in southern Iranian counties, according to Iranian state TV and regional outlets. Their cause has not been confirmed.",
+     "outlet": "akhbaregy.com",
+     "country": "Saudi Arabia",
+     "url": "https://akhbaregy.com/2026/11/08/%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D9%88%D8%B3%D9%85%D8%A7%D8%B9-%D8%AF%D9%88%D9%8A-%D8%A7%D9%86%D9%81%D8%AC%D8%A7/",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "text": "US-side reports say a Task Force Iron Gate has expanded the blockade of Iran and moved to restrict land trade and weapons routes. These reports come from US and regional outlets citing the US side.",
+     "outlet": "Gulf News",
+     "country": "United Arab Emirates",
+     "url": "https://gulfnews.com/world/mena/task-force-iron-gate-us-expands-iran-blockade-tightens-squeeeze-as-tehran-lifts-missile-limits-is-another-war-looming-1.500739838",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-08",
      "text": "The Revolutionary Guards say two more oil tankers hit mines near the Strait of Hormuz. Independent outlets carry the claim, and no independent confirmation of the mine strikes is cited.",
@@ -1763,36 +1793,6 @@
      "country": "Greece",
      "url": "https://sofokleous10.gr/2026/11/07/%CE%BE%CE%B1%CE%BD%CE%AC-%CF%83%CF%84%CE%B1-%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%AE-%CE%BD%CE%AD%CE%B1-%CF%83%CF%85%CE%BC%CF%86%CF%89%CE%BD%CE%AF%CE%B1-%CF%84%CE%BF-%CF%80/",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Israeli and Arabic outlets report that the US has extended its blockade of Iran to land borders and the Caspian Sea, under the name 'Iron Gate'. Only the sides' own media carry this so far.",
-     "outlet": "rtarabic.com",
-     "country": "",
-     "url": "https://rtarabic.com/world/1851303-united-states-activates-iron-gate-against-iran/",
-     "region": "unknown",
-     "tag": "party-press",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "The US military has set up a task force, reported as 'Iron Gate', to restrict Iranian land trade and arms transport alongside its naval blockade. Several outlets from different countries carry the report, which is based on a Reuters exclusive.",
-     "outlet": "Globe and Mail",
-     "country": "Canada",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObl9MdTZyV2I5RWM4Qk1oY0Y4bno2R0V5Y1oxMk9hY0tBUmdNdmFWU21ZQWNseFF2MWRvQVFfZk1NSUJpSGFsM1VXSllBOVRrNHU3MEFaeXllSG9OV3JrOVRZSjRQTUJhY3JGQXMwWUFzTzBHWFFOSFVLRVUwN1BOV0EwelNGN3UxdWVmWm03SGJLbHM?oc=5",
-     "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Reports of new US strikes on Iran remain single-source. An Irish outlet calls it a new Trump 'blitz', and a mostly unrated site reports a strike on Iran's air defence. A US outlet reports new targeted strikes, but none of these accounts has been confirmed by other sources.",
-     "outlet": "mignews.com",
-     "country": "",
-     "url": "http://mignews.com/news/disasters/voennye-ssha-nanesli-raketnyj-udar-po-sisteme-protivovozdushnoj-oborony-irana.html",
-     "region": "unknown",
      "tag": "non-party",
      "state_media": false
     }
@@ -11226,223 +11226,202 @@
      "at": "2026-11-08T00:00:30Z",
      "headline": "Ships hit near Hormuz and Gulf of Oman; US strikes Iranian air defenses, talks continue",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-08T02:56:06Z",
+     "headline": "Tankers hit near Hormuz, blockade widened, Iran lifts missile limit; talks still open",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-08T00:00:30Z",
-   "next_at": "2026-11-08T03:00:30Z",
-   "headline": "Ships hit near Hormuz and Gulf of Oman; US strikes Iranian air defenses, talks continue",
+   "updated_at": "2026-11-08T02:56:06Z",
+   "next_at": "2026-11-08T05:56:06Z",
+   "headline": "Tankers hit near Hormuz, blockade widened, Iran lifts missile limit; talks still open",
    "direction": "escalating",
    "points": [
     {
-     "text": "The Revolutionary Guards say two more oil tankers hit mines near the Strait of Hormuz. Independent outlets carry the claim, and no independent confirmation of the mine strikes is cited.",
+     "text": "Iran's Revolutionary Guards say two tankers hit mines in the Strait of Hormuz, and one report says both are burning. No independent confirmation of the mine strikes is cited. US forces say they disabled a commercial ship trying to break the blockade in the Gulf of Oman, and a US video of the strike has been released.",
      "stories": [
-      "s3"
+      "s1",
+      "s10",
+      "s11",
+      "s5",
+      "s18",
+      "s4"
      ],
      "sources": [
       {
-       "t": "Revolutionary Guards: 2 oil tankers hit mines in the Strait of Hormuz",
-       "o": "Devrim Muhafızları: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
-       "u": "https://www.trthaber.com/haber/dunya/devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti-962564.html",
-       "s": "TRT Haber Dunya",
+       "t": "Tensions Escalate in Strait of Hormuz and Gulf of Oman: US Attacks a Ship and IRGC Reports Two Tankers Hit by Mines",
+       "o": "تشدید تنش در تنگه هرمز و دریای عمان؛ حمله آمریکا به یک کشتی و گزارش سپاه از انفجار دو نفتکش با مین",
+       "u": "https://www.bbc.co.uk/persian/live/c9x28erk2yv0t?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Persian",
+       "c": "GB",
+       "l": "fa",
+       "p": 1794098326,
+       "r": "known"
+      },
+      {
+       "t": "Iran IRGC says 2 violating tankers hit mines in Hormuz Strait , U . S . forces disable vessel in Gulf of Oman - Xinhua",
+       "u": "https://english.news.cn/20261108/35f56d5f87294f648f3223cea814e580/c.html",
+       "s": "Xinhua",
+       "c": "CN",
+       "l": "en",
+       "p": 1794096000,
+       "r": "state"
+      },
+      {
+       "t": "Revolutionary Guard: 2 oil tankers hit mines in the Strait of Hormuz",
+       "o": "Devrim Muhafızları : Hürmüz Boğazı nda 2 petrol tankeri mayına çarptı",
+       "u": "https://www.haber7.com/dunya/haber/3675092-devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti",
+       "s": "haber7.com",
        "c": "TR",
        "l": "tr",
-       "p": 1794090540,
-       "r": "known"
-      },
-      {
-       "t": "IRGC says two more tankers hit mines near Strait of Hormuz",
-       "o": "КСИР заявил, что еще два танкера подорвались на минах близ Ормузского пролива",
-       "u": "https://www.interfax.ru/world/1127621",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794089040,
-       "r": "known"
-      },
-      {
-       "t": "Report in Iran: two oil tankers hit by naval mines near the Strait of Hormuz",
-       "o": "דיווח באיראן: שתי מכליות נפט נפגעו ממוקשים ימיים סמוך למצר הורמוז",
-       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PZ1Y1VkV4SkYwUHlRd2lUMVNWWjN2MUZ5NHA3UDVTOHRsUlhlQ3ViNjlQZU5uTmxhQjk0QVRaZTluZ1d5Y3ZpdVlGM29TbHFYVjk2ODRPODVkZmpnZlRFdzFXMlg?oc=5",
-       "s": "מעריב",
-       "c": "IL",
-       "l": "he",
-       "p": 1794088339,
+       "p": 1794096000,
        "r": "unrated"
+      },
+      {
+       "t": "Live blog Middle East: According to Iran, two oil tankers are burning in the Strait of Hormuz",
+       "o": "Liveblog Nahost: Laut Iran brennen zwei Öltanker in der Straße von Hormus",
+       "u": "https://www.faz.net/aktuell/politik/ausland/liveblog-nahost-laut-iran-brennen-zwei-oeltanker-in-der-strasse-von-hormus-faz-200583539.html",
+       "s": "FAZ Ausland",
+       "c": "DE",
+       "l": "de",
+       "p": 1794098120,
+       "r": "known"
+      },
+      {
+       "t": "Two Oil Tankers Catch Fire in Strait of Hormuz After Colliding with Sea Mines",
+       "o": "Dos petroleros se incendian en el estrecho de Ormuz tras colisionar con minas marítimas",
+       "u": "https://www.infobae.com/america/agencias/2026/11/08/dos-petroleros-se-incendian-en-el-estrecho-de-ormuz-tras-colisionar-con-minas-maritimas/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794096083,
+       "r": "known"
       }
      ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 5,
+     "headlines": 9,
+     "outlets": 8,
+     "independent": 8,
      "countries": [
-      "IL",
-      "RU",
+      "AE",
+      "AR",
+      "CN",
+      "DE",
+      "GB",
+      "IQ",
       "TR"
      ],
-     "regions": 2,
+     "regions": 5,
      "party_only": false,
-     "state": 2
+     "state": 1
     },
     {
-     "text": "UKMTO reports an incident in the Gulf of Oman involving a bulk carrier and military forces. US military officials say they disabled a commercial ship that tried to breach the blockade of Iran, and Russian and Turkish outlets report the same US announcement.",
+     "text": "Explosions were heard on Qeshm Island and in southern Iranian counties, according to Iranian state TV and regional outlets. Their cause has not been confirmed.",
      "stories": [
-      "s1",
-      "s4",
-      "s5",
+      "s3",
+      "s17",
       "s6"
      ],
      "sources": [
       {
-       "t": "Bulk carrier and military forces involved in Gulf of Oman incident: UKMTO",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-and-military-forces-involved-gulf-oman-incident-ukmto",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794092711,
-       "r": "known"
-      },
-      {
-       "t": "Bulk carrier, military forces involved in latest Gulf of Oman incident, UKMTO says",
-       "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMU00LVBQUlp5TkJxaEwzUFgxRk9Gc2d1TDBJQV9rS2pUamI1QnFVdkw1ZlRQUFhDbWhfalBmTDgtbEhEYTZUNWZXX2RfdXRyd3lmSzFMcVdTWVFkQUlJQlBtdTlwd1pqLWRRUE5WQTk4dFRyWm1Sd05SVzQ0d2c1bVhYS1RlTDRYYjFHMmhxMG0wWE4zamlxc3ZPcnRfdldLRnRVSWFUNnZpeW9iRjI1eWx4RWZHaDRWZ0IxSlM3VXpnc00?oc=5",
-       "s": "Arab News",
+       "t": "Explosions in the Strait of Hormuz; two explosions heard on Qeshm Island",
+       "o": "انفجارات في مضيق هرمز .. وسماع دوي انفجارين في جزيرة قشم",
+       "u": "https://akhbaregy.com/2026/11/08/%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D9%88%D8%B3%D9%85%D8%A7%D8%B9-%D8%AF%D9%88%D9%8A-%D8%A7%D9%86%D9%81%D8%AC%D8%A7/",
+       "s": "akhbaregy.com",
        "c": "SA",
-       "l": "en",
-       "p": 1794092548,
-       "r": "known"
-      },
-      {
-       "t": "UKMTO: Incident between a cargo ship and military forces reported in the Gulf of Oman",
-       "o": "UKMTO: Umman Körfezi'nde yük gemisi ile askeri güçler arasında bir olay rapor edildi",
-       "u": "https://www.aa.com.tr/tr/dunya/ukmto-umman-korfezinde-yuk-gemisi-ile-askeri-gucler-arasinda-bir-olay-rapor-edildi/4115598",
-       "s": "Anadolu Turkish",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794090270,
-       "r": "state"
-      },
-      {
-       "t": "UKMTO reports incident involving a dry cargo ship and armed forces off a port in the UAE",
-       "o": "UKMTO сообщил об инциденте с участием сухогруза и вооруженных сил у порта в ОАЭ",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28295437",
-       "s": "TASS",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794088643,
-       "r": "state"
-      },
-      {
-       "t": "Escalation in the Strait of Hormuz and Gulf of Oman… explosions and attacks",
-       "o": "تصعيد في مضيق هرمز وخليج عمان.. انفجارات واستهدافات",
-       "u": "https://www.skynewsarabia.com/middle-east/1903305-%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D9%88%D8%AE%D9%84%D9%8A%D8%AC-%D8%B9%D9%85%D8%A7%D9%86-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81%D8%A7%D8%AA",
-       "s": "Sky News Arabia",
-       "c": "AE",
        "l": "ar",
-       "p": 1794089972,
-       "r": "known"
-      }
-     ],
-     "headlines": 11,
-     "outlets": 10,
-     "independent": 9,
-     "countries": [
-      "AE",
-      "AR",
-      "AT",
-      "EG",
-      "GB",
-      "IN",
-      "RU",
-      "SA",
-      "TR"
-     ],
-     "regions": 6,
-     "party_only": false,
-     "state": 3
-    },
-    {
-     "text": "Trump says US strikes destroyed an Iranian air defense system in minutes. Taiwanese outlet Liberty Times reports renewed limited US strikes on Iranian air defenses; this rests on the US side's account.",
-     "stories": [
-      "s7"
-     ],
-     "sources": [
-      {
-       "t": "Renewed bombing of Iran: US targets air defense systems in limited strikes",
-       "o": "重啟轟伊 美鎖定防空系統有限打擊",
-       "u": "https://news.ltn.com.tw/news/world/paper/1777664",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794087000,
-       "r": "known"
+       "p": 1794096000,
+       "r": "unrated"
       },
       {
-       "t": "Trump Says U . S . Strikes on Iran Destroyed Air Defense System in Minutes",
-       "u": "https://www.breitbart.com/politics/2026/11/07/trump-u-s-carried-out-minor-strikes-iran-destroyed-anti-aircraft-system-minutes/",
-       "s": "breitbart.com",
-       "c": "US",
+       "t": "Explosions heard on Iran Qeshm island linked to Strait of Hormuz , Iranian media says",
+       "u": "http://www.iraqsun.com/news/279418873/explosions-heard-on-iran-qeshm-island-linked-to-strait-of-hormuz-iranian-media-says",
+       "s": "iraqsun.com",
+       "c": "IQ",
        "l": "en",
-       "p": 1794088800,
+       "p": 1794096000,
        "r": "unrated"
+      },
+      {
+       "t": "Explosions heard in Iran southern counties -- state TV - Xinhua",
+       "u": "https://english.news.cn/20261108/f39c2d4022aa443bbbfe219090babf62/c.html",
+       "s": "Xinhua",
+       "c": "CN",
+       "l": "en",
+       "p": 1794096000,
+       "r": "state"
+      },
+      {
+       "t": "Explosions in Strait of Hormuz as Iran reviews de-escalation proposals",
+       "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWGVLOEY3dVN3V2tiNnQzMWg4V0QtZWZpMXhnLVczYzBCUWFpdEJEa090cWlFOHIyZU5VcVF6MTRhbDFHUnoyQjZzZnByVnF5akE2Mjdka05jUmFlbFFaVG1vREpIRGpmcFRURnVaT0g5RjBHVVh3RXNnV05IbXlINzlzY0VuZDA1OUhIZW4zZ09QN3VHQ0ZCbkxB?oc=5",
+       "s": "ABC News Australia",
+       "c": "AU",
+       "l": "en",
+       "p": 1794100164,
+       "r": "known"
       }
      ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
+     "headlines": 5,
+     "outlets": 4,
+     "independent": 4,
      "countries": [
-      "TW",
-      "US"
+      "AU",
+      "CN",
+      "IQ",
+      "SA"
      ],
-     "regions": 2,
+     "regions": 4,
      "party_only": false,
-     "state": 0
+     "state": 1
     },
     {
-     "text": "Two explosions were heard on Qeshm Island and at Jask port in southern Iran, according to Russian, Saudi and Turkish outlets. Iranian state media reported explosions at several locations; no cause has been confirmed.",
+     "text": "US-side reports say a Task Force Iron Gate has expanded the blockade of Iran and moved to restrict land trade and weapons routes. These reports come from US and regional outlets citing the US side.",
      "stories": [
-      "s2",
+      "s7",
+      "s16",
+      "s23",
       "s12"
      ],
      "sources": [
       {
-       "t": "Two explosions sounded on the Iranian island of Qeshm near Hormuz",
-       "o": "Два взрыва прогремели на иранском острове Кешм в районе Ормуза",
-       "u": "https://www.interfax.ru/world/1127626",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794093300,
+       "t": "Task Force Iron Gate: US expands Iran blockade, tightens squeeze, as Tehran lifts missile limits. Is another war looming?",
+       "u": "https://gulfnews.com/world/mena/task-force-iron-gate-us-expands-iran-blockade-tightens-squeeeze-as-tehran-lifts-missile-limits-is-another-war-looming-1.500739838",
+       "s": "Gulf News",
+       "c": "AE",
+       "l": "en",
+       "p": 1794100140,
        "r": "known"
       },
       {
-       "t": "Explosions reported on Qeshm Island and Jask port in southern Iran",
-       "o": "سماع دوي انفجارات في جزيرة قشم وميناء جاسك جنوب إيران",
-       "u": "https://aawsat.com/node/5338751",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1794085514,
-       "r": "known"
-      },
-      {
-       "t": "Explosion sounds in Iran! What is happening on Qeshm Island and Chabahar?",
-       "o": "İranda patlama sesleri ! Keşm Adası ve Caskta neler oluyor ?",
-       "u": "https://mansethaber.com/dunya/iranda-patlama-sesleri-kesm-adasi-ve-caskta-neler-oluyor",
-       "s": "mansethaber.com",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794088800,
+       "t": "US creates task force to block land transport of Iranian weapons, etc. … restricts military rebuilding",
+       "o": "美 , 이란 무기 등 육상운송 차단 TF 신설 … 군사력 재건 제한",
+       "u": "https://www.fnnews.com/news/202611080501430264",
+       "s": "fnnews.com",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794096000,
        "r": "unrated"
       },
       {
-       "t": "Explosions heard on Qeshm Island, multiple locations in Iran, state media says - report",
-       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96OUdicS1vRHlsNmhSSW1Ic2hYbXF5OUM1dUllOWNETFRtT256VW9nMVNqeVIwNmRzN3pQWk9CWmwzczh2bERTRE50dmpkNk9LVWV2c3oyLVg5U3ItU1N4YmdlSmVxMVk4NFE?oc=5",
-       "s": "Jerusalem Post",
-       "c": "IL",
+       "t": "World News : US looks to restrict Iran land trade",
+       "u": "https://www.gdnonline.com:443/Details/1412160/US-looks-to-restrict-Iran-land-trade",
+       "s": "gdnonline.com",
+       "c": "US",
        "l": "en",
-       "p": 1794086575,
+       "p": 1794096000,
+       "r": "unrated"
+      },
+      {
+       "t": "Iran war live: US moves to block land supply routes; UAE rescues 22 sailors",
+       "u": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1794096056,
        "r": "known"
       }
      ],
@@ -11450,26 +11429,97 @@
      "outlets": 4,
      "independent": 4,
      "countries": [
-      "IL",
-      "RU",
-      "SA",
-      "TR"
+      "AE",
+      "KR",
+      "QA",
+      "US"
      ],
      "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "The Revolutionary Guards say Iran has lifted its self-imposed 2,000-km limit on ballistic missile range, per Indian and Russian outlets. Iran's Rezaei warns of a 'devastating response' to the US, while Iran is reportedly reviewing de-escalation proposals and US aides remain split between talks and airstrikes.",
+     "stories": [
+      "s2",
+      "s8",
+      "s6",
+      "s9"
+     ],
+     "sources": [
+      {
+       "t": "Iran's IRGC claims self-imposed 2,000-km ballistic missile range limit 'has been lifted'",
+       "u": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPZlJjdDFESnFaRmZ3SEg4QmUzQ2FWWUF2dGhKWVRDTTBWUjBVZmhaQjItRFRWTF9acGFSX0VGUlEySThNeEJidEZaX0xDQnQ2QWdtU0Y1UjY2NWctTFdhYXRCWWk2YzdyZmlxUktMTEFyOElDNnM0VEVFSEFhRUw0OEYzX21HYzdtbExJa3BGLVFXaWNnYXE5VDc3Z3pmNGpWWW0zeElOenNmdHJRc1BRTHZKWEJ4V1pLb1ZXQ2x4WHVjc2JIRVZQUmhFekswdXhfVFNFY1F1b0NyTUR2dzF5UWxiQlNKMmpyZmZWaTZYLWVxQ1ZNXzNz0gH8AUFVX3lxTE5XeWd1bkxJaXgtSFdwX3NkWkNGOFNQTkhwVEFJR3NHajM2T2VnQkFfVlZnbmhxT1hjQUJsZXFnSDBQVzFoNTUtOHQ5ejFRM2lSNnJocXVBaFpmS1dGYUI0R3FsZlNmbkMzeGVIRGkwSFFVRmxqSWpDbTNlRlZUdjhWWlg0R3JmZm9pdG1oaEhET1VINk1vYjlTTEtkekYyeVRFZ3B5dGh",
+       "s": "Times of India",
+       "c": "IN",
+       "l": "en",
+       "p": 1794097140,
+       "r": "known"
+      },
+      {
+       "t": "IRGC Lifts Range Restrictions on Iranian Ballistic Missiles",
+       "o": "КСИР отменил ограничения дальности полета иранских баллистических ракет",
+       "u": "https://www.interfax.ru/world/1127628",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794096960,
+       "r": "known"
+      },
+      {
+       "t": "'You lost war and election': Iran's Rezaei warns US of 'devastating response'",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/you-lost-war-and-election-irans-rezaei-warns-us-devastating-response",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794100033,
+       "r": "known"
+      },
+      {
+       "t": "Explosions in Strait of Hormuz as Iran reviews de-escalation proposals",
+       "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWGVLOEY3dVN3V2tiNnQzMWg4V0QtZWZpMXhnLVczYzBCUWFpdEJEa090cWlFOHIyZU5VcVF6MTRhbDFHUnoyQjZzZnByVnF5akE2Mjdka05jUmFlbFFaVG1vREpIRGpmcFRURnVaT0g5RjBHVVh3RXNnV05IbXlINzlzY0VuZDA1OUhIZW4zZ09QN3VHQ0ZCbkxB?oc=5",
+       "s": "ABC News Australia",
+       "c": "AU",
+       "l": "en",
+       "p": 1794100164,
+       "r": "known"
+      },
+      {
+       "t": "After midterms, Trump agonizes over Iran war; aides split between \"negotiation vs. airstrikes",
+       "o": "중간선거 후 트럼프 이란전 고심…참모들은 '협상 vs 공습' 대립",
+       "u": "https://www.yna.co.kr/view/AKR20261108016000072",
+       "s": "Yonhap Korean",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794099848,
+       "r": "known"
+      }
+     ],
+     "headlines": 6,
+     "outlets": 5,
+     "independent": 5,
+     "countries": [
+      "AU",
+      "GB",
+      "IN",
+      "KR",
+      "RU"
+     ],
+     "regions": 5,
      "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Further UKMTO notices on the Gulf of Oman incident and any new tanker reports near Hormuz",
-    "Whether Iran's army keeps Hormuz closed, as it said, and how shipping moves through the strait",
-    "Progress of US-Iran talks led by Vance with a Qatari proposal, and the new conditions Tehran reportedly set"
+    "Whether the mine-strike claims in the Strait of Hormuz are confirmed by independent maritime sources",
+    "The cause of the explosions in southern Iran, and whether they are linked to the strait",
+    "Iran's formal response to the de-escalation proposals"
    ],
    "window_hours": 3,
-   "headlines_read": 27,
-   "outlets_read": 21,
-   "countries_read": 13,
-   "languages_read": 9,
+   "headlines_read": 33,
+   "outlets_read": 26,
+   "countries_read": 17,
+   "languages_read": 10,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T00:00:30Z",
    "ladder_note": "Re-checked after: Reports of tankers hitting mines near Hormuz, a US disabling of a ship under the blockade, and US strikes on Iranian air defenses are concrete escalations, though the mine and strike claims come from one side each."
