@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "usd": 0.1522,
+ "usd": 0.2218,
  "runs": [
   {
    "at": "2026-11-05T03:38:50Z",
@@ -231,6 +231,26 @@
    "searches": 0,
    "batch": false,
    "usd": 0.0017
+  },
+  {
+   "at": "2026-11-08T14:13:56Z",
+   "what": "focus update",
+   "model": "claude-haiku-5-5",
+   "in": 3524,
+   "out": 2012,
+   "searches": 0,
+   "batch": false,
+   "usd": 0.0014
+  },
+  {
+   "at": "2026-11-08T14:14:28Z",
+   "what": "boiling point re-check",
+   "model": "claude-opus-5-5",
+   "in": 6169,
+   "out": 2174,
+   "searches": 0,
+   "batch": false,
+   "usd": 0.0682
   }
  ],
  "cap": 3.0
