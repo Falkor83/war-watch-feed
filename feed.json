@@ -1716,9 +1716,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Trump: new Iran strikes 'highly unlikely' if talks progress; US presses Iraq on border",
+   "status": "Trump says new Iran strikes 'highly unlikely' if talks progress; Qeshm blasts reported",
    "summary": "The US and Israel have fought Iran on and off in 2026, and an April ceasefire and a June memorandum both broke down by July. The US then reimposed its blockade, and Iran has kept the Strait of Hormuz closed to traffic it does not approve. Trump confirmed new US strikes on an Iranian air defence system and called them minor. Iran's military says two more tankers caught fire after hitting mines on what it calls an unauthorised route, and explosions were reported on Qeshm Island and at Jask; no maritime authority has confirmed the mine claims. The US has also offered up to $20 million for information on Iran's nuclear programme, while Oman and Qatar keep up mediation.",
    "latest": [
+    {
+     "date": "2026-11-08",
+     "at": "2026-11-08T23:06:57Z",
+     "text": "Trump says new strikes on Iran are 'highly unlikely' if talks make progress, but he has also warned he could still strike. Several outlets in different regions carried the remark.",
+     "outlet": "CNA World",
+     "country": "Singapore",
+     "url": "https://www.channelnewsasia.com/world/trump-says-he-highly-unlikely-order-iran-strikes-if-talks-progress-6534521",
+     "region": "southeast-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "at": "2026-11-08T23:06:57Z",
+     "text": "Iranian state media reports explosions on Qeshm Island, and Israeli and UK outlets relay the report. The cause of the blasts has not been confirmed.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-heard-irans-qeshm-island-state-media-reports",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "at": "2026-11-08T23:06:57Z",
+     "text": "Iran's foreign minister says Tehran is waiting to resume talks after the US midterms. Iran also threatens to 'rain down hell' if the US escalates the war.",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/iran-waiting-to-resume-talks-after-us-midterms-shockiranian-foreign-minis?traffic_source=rss",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-08",
      "at": "2026-11-08T20:21:19Z",
@@ -1771,39 +1804,6 @@
      "country": "Brazil",
      "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/ministro-de-netanyahu-diz-que-missao-de-israel-contra-o-ira-nao-esta-concluida.shtml",
      "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "at": "2026-11-08T17:30:46Z",
-     "text": "The US plans a task force to cut off overland cargo routes to Iran, which Iran mocks as 'wordplay'. Analysts question whether the land blockade will work.",
-     "outlet": "Middle East Eye",
-     "country": "United Kingdom",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iron-gate-plan-merely-wordplay-iran-mocks-us-military-initiative-disrupt",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "at": "2026-11-08T14:13:47Z",
-     "text": "UKMTO reports two incidents involving tankers in the Strait of Hormuz, and Britain says two tankers were attacked overnight. Iran's Revolutionary Guards say three tankers were hit by mines or ships blown up and caught fire, a higher count than the independent reports give.",
-     "outlet": "TASS English",
-     "country": "Russia",
-     "url": "https://tass.com/world/2214475",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": true
-    },
-    {
-     "date": "2026-11-08",
-     "at": "2026-11-08T14:13:47Z",
-     "text": "Israeli Defence Minister Katz says Israel's mission in Iran is not complete and that Tehran is seeking a nuclear weapon. He also warned Hezbollah against joining the fighting. These are Israel's claims.",
-     "outlet": "Hindustan Times World",
-     "country": "India",
-     "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-     "region": "south-asia",
      "tag": "non-party",
      "state_media": false
     }
@@ -11443,11 +11443,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-05T03:38:42Z",
-     "headline": "Trump rules out immediate Iran strikes as oil falls; midterm losses tied to the war",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-05T07:03:41Z",
      "headline": "Iran says tankers hit mines and caught fire in Hormuz; war fallout over midterms continues",
      "direction": "escalating"
@@ -11561,136 +11556,72 @@
      "at": "2026-11-08T20:21:19Z",
      "headline": "Trump: new Iran strikes 'highly unlikely' if talks progress; US presses Iraq on border",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-08T23:06:57Z",
+     "headline": "Trump says new Iran strikes 'highly unlikely' if talks progress; Qeshm blasts reported",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-08T20:21:19Z",
-   "next_at": "2026-11-08T23:21:19Z",
-   "headline": "Trump: new Iran strikes 'highly unlikely' if talks progress; US presses Iraq on border",
+   "updated_at": "2026-11-08T23:06:57Z",
+   "next_at": "2026-11-09T02:06:57Z",
+   "headline": "Trump says new Iran strikes 'highly unlikely' if talks progress; Qeshm blasts reported",
    "direction": "steady",
    "points": [
     {
-     "text": "Trump says resuming strikes on Iran is 'highly unlikely' if negotiations produce progress, according to reports carried by several outlets in different regions. The remark is conditional on talks.",
+     "text": "Trump says new strikes on Iran are 'highly unlikely' if talks make progress, but he has also warned he could still strike. Several outlets in different regions carried the remark.",
      "stories": [
       "s1",
-      "s2"
+      "s5"
      ],
      "sources": [
       {
        "t": "Trump says he is highly unlikely to order Iran strikes if talks progress",
-       "u": "https://www.dailymaverick.co.za/article/2026-11-08-trump-says-he-is-highly-unlikely-to-order-iran-strikes-if-talks-progress/",
-       "s": "Daily Maverick",
-       "c": "ZA",
-       "l": "en",
-       "p": 1794167405,
-       "r": "known"
-      },
-      {
-       "t": "U.S. unlikely to resume strikes on Iran if talks progress, Trump says",
-       "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iZk9xc0lrWUhfaGVlYWR2Q3pTUk1SdWo3cGhqS2JmdDc3b2o5LWZSWVA2UFNRUFpKWE13R2EteFZ5bWQzTFZwWHN3RXplQzRnV2x4NVlLMkRzdV9lc3VXd2FnTEUzVkw0NjFOdVVyYzB5dw?oc=5",
-       "s": "Globe and Mail",
-       "c": "CA",
-       "l": "en",
-       "p": 1794165473,
-       "r": "known"
-      },
-      {
-       "t": "Trump says fresh strikes on Iran ‘highly unlikely’ if talks progress",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-fresh-strikes-iran-highly-unlikely-if-talks-progress",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794164034,
-       "r": "known"
-      },
-      {
-       "t": "Trump says he is unlikely to order Iran attack if talks progress, CNN reports",
-       "u": "https://www.al-monitor.com/originals/2026/11/trump-says-he-unlikely-order-iran-attack-if-talks-progress-cnn-reports",
-       "s": "Al-Monitor",
-       "c": "US",
-       "l": "en",
-       "p": 1794163587,
-       "r": "known"
-      },
-      {
-       "t": "Trump says resumption of war with Iran ‘highly unlikely’",
-       "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZEdWbjg1aWNmU2VXVk1RblZYY2twUlNUTWdaNnBOR2FkcU1MenRzSHlGdG5qT1czOWpvTXJWbHQyMkhRXzVzX05ha29wTXVzcWlKd0g0NFJmV281SWcxZjNWci1wR2RtRWNRRXozc1NGZGRXSlZuRkJjZzRUSm9ibldLUE80SDFwUDJuWFdKU3Z1T1JrSGtNWURDaEdrTGhi?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1794165107,
-       "r": "known"
-      }
-     ],
-     "headlines": 11,
-     "outlets": 10,
-     "independent": 10,
-     "countries": [
-      "CA",
-      "EG",
-      "GB",
-      "IL",
-      "RU",
-      "SA",
-      "US",
-      "ZA"
-     ],
-     "regions": 6,
-     "party_only": false,
-     "state": 3
-    },
-    {
-     "text": "The US has asked Iraq to shut most of its border crossings with Iran, Iraq's foreign minister says. This is reported by one independent outlet, carried by several others.",
-     "stories": [
-      "s3"
-     ],
-     "sources": [
-      {
-       "t": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
-       "u": "https://www.al-monitor.com/originals/2026/11/us-asks-iraq-shut-most-iran-border-crossings-iraqi-foreign-minister-says",
-       "s": "Al-Monitor",
-       "c": "US",
-       "l": "en",
-       "p": 1794167253,
-       "r": "known"
-      },
-      {
-       "t": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
-       "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU0xvM082aUhJSFBhMmo3R09sRHRhcU1PV1FOVnIxOHhiSUllSWtvYl9tV0FzbjNwdWZOY0Ryd2o1cGVaZUI3emhPYmRLNWR2Z05iRDZoMlIybG4tZVRlOWNCUndSaS1UZUw3S3daeXd4X0R3ekZ2QlFsRHBlVmZJOEJNUGxVSW4zcjBQSnNNaG94RDl0aENUdjFfQ0JkSEY3T1p6cXNDU0hwMGRYQTdnVTIxRlJVa0hrc3NpSg?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1794164947,
-       "r": "known"
-      },
-      {
-       "t": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
-       "u": "https://www.straitstimes.com/world/middle-east/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says",
-       "s": "The Straits Times",
+       "u": "https://www.channelnewsasia.com/world/trump-says-he-highly-unlikely-order-iran-strikes-if-talks-progress-6534521",
+       "s": "CNA World",
        "c": "SG",
        "l": "en",
-       "p": 1794164618,
+       "p": 1794171909,
        "r": "known"
       },
       {
-       "t": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
-       "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVVxWlAwOFI0ZGd4TUdTNFozbzE5TXN5UGx3R0NnX0JRdExfcVhSb21iYklFOXJ2QUpncXdoSFB3eE1NS0FFeHljZXQxeWlEVTNKVWd1eFVLWTZmbVpsSUs5Q3NqNUk2b1JYQVNxSFIyTTMxZERFdDBWVUFfUFZ2MkFtOUlIYm5VbE9kQ2kzVmdUTV9pZHFxNWNvUVFhYkI1WHc5LTZSS0JMR1Nka3gwSjgzWWFZZXN6OFFTRHB5Rzk1THIz?oc=5",
-       "s": "Reuters",
-       "c": "GB",
+       "t": "Trump Says New Iran Strikes Unlikely If Talks Progress, CNN Says",
+       "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZzA3VUJ1UWpnaXNfMkt1RFJGUWxuRG5EX3VsRWJBVngwNVJETXBfS1dUUGFZel9lMEJIdi10dFNlZWduc1ZSOU50bTBfbXVyLUpaQ2EzSmpXSWZGM2pNcFJJaFExVWhDTmxVSnc0TWozMTc5T1lhSHIwU2hTVU1XSzdYU3dDQldWZ2dRS012TUpsSFRBSmJjcEtRbkFIU09NMkFORGpxanpXaXhIVF81TzZoSTE?oc=5",
+       "s": "Bloomberg",
+       "c": "US",
        "l": "en",
-       "p": 1794164503,
+       "p": 1794171563,
+       "r": "known"
+      },
+      {
+       "t": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+       "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb0l6UllaNWstdHV3YXVHY3FsaTV6blctcjJ2aDl5dnNwZF9OOFdrRXM5RlN6bUYzU2ZnTGU1bndLek5kTDFTWG1LZUFuamZLbFUwUmJiMDF1a21pOFNhcjI2SzdLVHRtWWYzOHVJVl9qMk9CY3E3Y2lEY1VOZ2txYTRHOA?oc=5",
+       "s": "CNBC",
+       "c": "IL",
+       "l": "en",
+       "p": 1794173292,
+       "r": "unrated"
+      },
+      {
+       "t": "'They’re a failing nation': Trump says fresh strikes on Iran 'highly unlikely'",
+       "u": "https://www.hindustantimes.com/world-news/us-news/theyre-a-failing-nation-trump-says-fresh-strikes-on-iran-highly-unlikely-101794167568324.html",
+       "s": "Hindustan Times World",
+       "c": "IN",
+       "l": "en",
+       "p": 1794168552,
        "r": "known"
       }
      ],
      "headlines": 5,
      "outlets": 5,
-     "independent": 1,
+     "independent": 5,
      "countries": [
-      "GB",
-      "SA",
+      "IL",
+      "IN",
       "SG",
       "US"
      ],
@@ -11699,114 +11630,113 @@
      "state": 0
     },
     {
-     "text": "Iran's foreign minister Araghchi says it is now the White House's turn to choose between a deal and war, and calls on the US to end the war 'on all fronts'. These are Iranian statements, reported by Iranian and UK outlets.",
+     "text": "Iranian state media reports explosions on Qeshm Island, and Israeli and UK outlets relay the report. The cause of the blasts has not been confirmed.",
      "stories": [
-      "s7",
-      "s12",
-      "s13"
+      "s2"
      ],
      "sources": [
       {
-       "t": "Iran's Araghchi calls on the US to end war 'on all fronts'",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-araghchi-calls-us-end-war-all-fronts",
+       "t": "Explosions heard on Iran's Qeshm Island, state media reports",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-heard-irans-qeshm-island-state-media-reports",
        "s": "Middle East Eye",
        "c": "GB",
        "l": "en",
-       "p": 1794162842,
+       "p": 1794174135,
        "r": "known"
       },
       {
-       "t": "Araghchi: Now it is White House’s turn to make a choice",
-       "u": "https://en.irna.ir/news/86316245/Araghchi-Now-it-is-White-House-s-turn-to-make-a-choice",
-       "s": "IRNA English",
-       "c": "IR",
+       "t": "Four explosions heard on Qeshm Island, Iranian state media says - report",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914265",
+       "s": "Jerusalem Post",
+       "c": "IL",
        "l": "en",
-       "p": 1794162505,
-       "r": "state"
-      },
-      {
-       "t": "White House must choose between deal and war: Iran FM",
-       "u": "https://en.mehrnews.com/news/249250/White-House-must-choose-between-deal-and-war-Iran-FM",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794161906,
-       "r": "state"
-      }
-     ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "GB",
-      "IR"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "Iran's army reports another tanker fire east of the Strait of Hormuz. This is Iran's own claim and has not been confirmed by independent sources.",
-     "stories": [
-      "s9"
-     ],
-     "sources": [
-      {
-       "t": "Iranian Army reports another tanker fire in east of Hormuz",
-       "u": "https://en.irna.ir/news/86316283/Iranian-Army-reports-another-tanker-fire-in-east-of-Hormuz",
-       "s": "IRNA English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794166782,
-       "r": "state"
+       "p": 1794174009,
+       "r": "known"
       }
      ],
      "headlines": 2,
      "outlets": 2,
      "independent": 1,
      "countries": [
-      "IR"
+      "GB",
+      "IL"
      ],
-     "regions": 1,
-     "party_only": true,
-     "state": 2
+     "regions": 2,
+     "party_only": false,
+     "state": 0
     },
     {
-     "text": "Trump says Iran has preserved about 10% of its missile production facilities and 15% of its drone production facilities. This is a single Russian state-media report of Trump's claim.",
+     "text": "Iran's foreign minister says Tehran is waiting to resume talks after the US midterms. Iran also threatens to 'rain down hell' if the US escalates the war.",
      "stories": [
+      "s3",
       "s4"
      ],
      "sources": [
       {
-       "t": "Iran preserves 10% of missile, 15% of drone production facilities — Trump",
-       "u": "https://tass.com/world/2214525",
-       "s": "TASS English",
-       "c": "RU",
+       "t": "Iran waiting to resume talks after US midterms ‘shock’Iranian Foreign Minis",
+       "u": "https://www.aljazeera.com/video/newsfeed/2026/11/8/iran-waiting-to-resume-talks-after-us-midterms-shockiranian-foreign-minis?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
        "l": "en",
-       "p": 1794165669,
-       "r": "state"
+       "p": 1794171082,
+       "r": "known"
+      },
+      {
+       "t": "Iran threatens to ‘rain down hell’ if US escalates war",
+       "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeGY4UThBZ2p5aG5CeVd1RWktVFhWbjVMUGJmaEZmdWdkLXpFa3dfcW1PRkZlcUJvLWFBbU1lc05NbmVTT2I1bDB3M1M4Rzg5VkxleDJJNkRZNlJPRHFrOFQxYkxZdzVRY29lR1hZY09oUko3Y2pUZGlqdG42Y2lIZ1lEWDQ1dlRSMXFoTnFTczZvclUzclMxNtIBngFBVV95cUxNNnV4cG5GTnQ4SmJXeWxmV1pXY0pQRDQyZWwtcWVFYnhPRHNsQ2VIRnhVZlhybWdObWVreUNJSGU1UzIzdHcxU2RkU3B5WFVHVHFrUFprNkthQ2JQaWNPMm1ET3ZKNTd2eW5wTkFDOC1GSDJpemZWelk4ZlhCaWdVUWdBRWx3TkFiWUd1OVlCTWktODJlNkVya1BmZDVTdw?oc=5",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1794168972,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "QA"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Israel's Jerusalem Post, citing sources, reports that Trump held off on an Iran strike while Israel and the US were prepared for a military operation. Only Israeli media carry this account.",
+     "stories": [
+      "s8"
+     ],
+     "sources": [
+      {
+       "t": "Trump held off on Iran strike as Israel, US prepared for military operation, sources tell 'Post'",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914268",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794170705,
+       "r": "known"
       }
      ],
      "headlines": 1,
      "outlets": 1,
      "independent": 1,
      "countries": [
-      "RU"
+      "IL"
      ],
      "regions": 1,
-     "party_only": false,
-     "state": 1
+     "party_only": true,
+     "state": 0
     }
    ],
    "watch": [
-    "Whether the talks Trump refers to produce a visible step, and whether Iran's proposals on reopening Hormuz stay on the table",
-    "Whether Iraq confirms closing most Iran border crossings and how the US land-cargo plan proceeds",
-    "Whether the Iranian tanker-fire claims are confirmed by independent shipping or maritime sources"
+    "Whether US-Iran talks resume after the midterms",
+    "Official confirmation of the cause of the Qeshm Island explosions",
+    "Whether the US asks Iraq to close most of its Iran border crossings"
    ],
    "window_hours": 3,
-   "headlines_read": 29,
-   "outlets_read": 17,
-   "countries_read": 11,
+   "headlines_read": 15,
+   "outlets_read": 10,
+   "countries_read": 7,
    "languages_read": 1,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
