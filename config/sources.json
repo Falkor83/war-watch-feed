@@ -2511,7 +2511,7 @@
   },
   {
    "name": "Sudan war (EN)",
-   "q": "(Sudan OR Darfur OR Kordofan OR \"El Fasher\" OR \"Blue Nile\") (RSF OR \"Rapid Support Forces\" OR army OR drone OR attack OR killed OR fighting)",
+   "q": "(Sudan OR Darfur OR Kordofan OR \"El Fasher\" OR \"Blue Nile\") (RSF OR \"Rapid Support Forces\" OR army OR drone OR attack OR killed OR fighting) -\"South Sudan\"",
    "hints": [
     "sudan-civil-war"
    ],
