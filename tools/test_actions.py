@@ -34,7 +34,7 @@ def answer(extra_patterns=None):
         "patterns": [
             {"id": "baltic-72h", "title": "Countries near Russia add civil and military readiness steps",
              "actions": ["a-2026-10-22-gb", "a-2026-10-09-lu", "S_PL", "S_LT"], "events": ["e-2026-10-24-streeting", "e-bogus"],
-             "points_to": "Preparation for disruption from Russian hybrid attacks.", "unsaid": "The timing suggests readiness for a longer confrontation.",
+             "points_to": "Preparation for disruption from Russian hybrid attacks.", "unsaid": "The timing suggests readiness for a longer confrontation. Officials expect 400,000 evacuations.",
              "plain_explanation": "Several were scheduled under the EU 72-hour strategy.", "support": "strong",
              "confirm": ["more call-ups"], "refute": ["campaigns stay routine"], "hotspots": ["russia-nato-eastern-flank-kaliningrad"]},
             {"id": "too-thin", "title": "One country only", "actions": ["a-2026-10-22-gb"], "points_to": "x", "plain_explanation": "y"},
@@ -82,6 +82,7 @@ class ActionsTests(unittest.TestCase):
         self.assertEqual([p["id"] for p in a["patterns"]], ["baltic-72h"])
         p = a["patterns"][0]
         self.assertEqual(p["support"], "moderate")                    # 'strong' needs 5 actions in 3 countries
+        self.assertNotIn("400,000", p["unsaid"]); self.assertIn("longer confrontation", p["unsaid"])   # only that sentence goes
         self.assertEqual(p["countries"], ["GB", "LT", "LU", "PL"]); self.assertEqual([e["id"] for e in p["events"]], ["e-2026-10-24-streeting"])
         self.assertNotIn("99", a["summary"])                          # unbacked number dropped
         self.assertTrue(any("50,000" in l or "numbers" in l for l in logs))

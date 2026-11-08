@@ -108,15 +108,13 @@ def request(stories, log, feed, prev, model, system, today):
     user = (f"Today is {today}.\n\nHOTSPOTS\n{hot}\n\nTHE ACTION LOG\n{acts or 'empty'}\n\nEVENTS\n{evs or 'none'}\n\n"
             f"YESTERDAY'S PATTERNS\n{old}\n\nNEW STORIES (last 3 days)\n" + ("\n".join(lines) or "none") +
             "\n\nReturn the JSON described in your instructions.")
-    return {"label": "actions", "model": model, "system": system, "user": user, "max_uses": 0, "max_tokens": 24000, "estimate": 0.2}
+    return {"label": "actions", "model": model, "system": system, "user": user, "max_uses": 0, "max_tokens": 24000, "estimate": 0.2, "effort": "medium"}
 
 _CODE = re.compile(r"^[A-Z]{2}$")
 
 def sentences(text, n):
-    """At most n characters, whole sentences only."""
-    if len(text) <= n: return text
-    cut = text[:n].rsplit(". ", 1)[0].rstrip(".")
-    return cut + "." if cut else text[:n]
+    """At most n characters: whole sentences, or whole words and an ellipsis (never a cut word)."""
+    return wwscore.clip(text, n)
 
 def check(ans, stories, log, feed, today, msgs):
     """New actions into the log (checked), then patterns resting on logged actions. Returns (new actions, patterns, summary)."""
@@ -128,7 +126,7 @@ def check(ans, stories, log, feed, today, msgs):
         s = by.get(a.get("story"))
         code = str(a.get("country", "")).strip().upper()
         kind = a.get("kind")
-        what = str(a.get("what", "")).strip()[:140]
+        what = wwscore.clip(a.get("what", ""), 160)                   # app 0.5.0 keeps 160
         if not s or kind not in KINDS or not what or not (_CODE.match(code) or code in BODIES):
             msgs.append(f"action from {a.get('story')!r} dropped (story, kind, country or text missing)"); continue
         if wwscore.numbers_supported(what, [{"fact": " ".join(x["t"] for x in s["items"][:15])}]):
@@ -161,13 +159,19 @@ def check(ans, stories, log, feed, today, msgs):
         countries = sorted({a["country"] for a in acts})
         if not pid or len(acts) < 3 or len(countries) < 2:
             msgs.append(f"pattern {pid or '?'} dropped: needs 3 logged actions from 2 countries ({len(acts)}, {len(countries)})"); continue
-        texts = {k: sentences(str(p.get(k, "")).strip(), 480) for k in ("points_to", "unsaid", "plain_explanation")}
-        title = str(p.get("title", "")).strip()[:90]
+        facts = [{"fact": a["what"] + " " + a["date"]} for a in acts] + [{"fact": e["what"] + " " + e["date"]} for e in evs]
+        # A sentence with a number no action or event backs is removed, not the whole pattern (on 2026-11-07 one such
+        # sentence hid the European 72-hour pattern).
+        texts, cut = {}, 0
+        for k in ("points_to", "unsaid", "plain_explanation"):
+            texts[k], n = wwscore.drop_unsupported_sentences(str(p.get(k, "")).strip(), facts)
+            texts[k] = sentences(texts[k], 480); cut += n
+        if cut: msgs.append(f"pattern {pid}: {cut} sentence(s) with numbers not in its actions or events removed")
+        title = wwscore.clip(p.get("title", ""), 90)
+        if wwscore.numbers_supported(title, facts):
+            msgs.append(f"pattern {pid} dropped: numbers in the title not in its actions or events"); continue
         if not title or not texts["points_to"] or not texts["plain_explanation"]:
             msgs.append(f"pattern {pid} dropped: title, points_to and plain_explanation are required"); continue
-        facts = [{"fact": a["what"] + " " + a["date"]} for a in acts] + [{"fact": e["what"] + " " + e["date"]} for e in evs]
-        if any(wwscore.numbers_supported(t, facts) for t in [title] + list(texts.values())):
-            msgs.append(f"pattern {pid} dropped: numbers not in its actions or events"); continue
         support = p.get("support") if p.get("support") in SUPPORT else "weak"
         sudden = [a for a in acts if a.get("scheduled") is False]
         if support == "strong" and not (len(acts) >= 5 and len(countries) >= 3 and sudden):
@@ -176,7 +180,7 @@ def check(ans, stories, log, feed, today, msgs):
             msgs.append(f"pattern {pid}: every action was scheduled long before; set to weak"); support = "weak"
         dates = sorted(a["date"] for a in acts)
         pats.append({"id": pid, "title": title, **texts, "support": support,
-                     "confirm": [str(x)[:140] for x in (p.get("confirm") or [])[:3]], "refute": [str(x)[:140] for x in (p.get("refute") or [])[:3]],
+                     "confirm": [wwscore.clip(x, 140) for x in (p.get("confirm") or [])[:3]], "refute": [wwscore.clip(x, 140) for x in (p.get("refute") or [])[:3]],
                      "hotspots": [h for h in p.get("hotspots") or [] if h in ids][:4], "countries": countries,
                      "window": {"from": dates[0], "to": dates[-1]},
                      "actions": [public_action(a) for a in sorted(acts, key=lambda a: a["date"])],
@@ -184,8 +188,7 @@ def check(ans, stories, log, feed, today, msgs):
         if len(pats) >= 6: break
     order = {s: i for i, s in enumerate(reversed(SUPPORT))}
     pats.sort(key=lambda p: (order[p["support"]], -len(p["actions"])))
-    raw = str((ans or {}).get("summary", "")).strip()
-    if len(raw) > 600: raw = raw[:600].rsplit(". ", 1)[0].rstrip(".") + "."
+    raw = wwscore.clip((ans or {}).get("summary", ""), 600)
     summary, cut = wwscore.drop_unsupported_sentences(raw, [{"fact": a["what"] + " " + a["date"]} for a in allacts.values()] +
                                                       [{"fact": e["what"] + " " + e["date"]} for e in events.values()])
     if cut: msgs.append(f"{cut} summary sentence(s) with unbacked numbers removed")
@@ -209,7 +212,7 @@ def tripwires(feed, log, today):
             per[h] = per.get(h, 0) + 1
             home = a["country"]
             keep.append({"id": f"act-{a['id']}-{h}"[:90], "hotspot": h, "kind": "escalation",
-                         "text": f"{cname(home)}: {a['what']}"[:110], "status": "tripped" if age <= 14 else "signs",
+                         "text": wwscore.clip(f"{cname(home)}: {a['what']}", 110), "status": "tripped" if age <= 14 else "signs",
                          "since": a["date"], "last_seen": a["date"], "source": "action",
                          "why": "A government preparedness action tied to this hotspot (Actions, not words)" +
                                 (f"; part of {a['program']}" if a.get("program") else ""),

@@ -55,6 +55,26 @@ class StoryTests(unittest.TestCase):
         self.assertEqual(wwstories.tier(HEADLINES[0]), "known")                    # one of the picked outlet feeds
         self.assertEqual(wwstories.tier(item("x y z words here", "XX", "Blog", "randomblog.example", v="gdelt")), "unrated")
 
+class MatcherTests(unittest.TestCase):
+    """Which hotspot a headline counts for (2026-11-07: 87% of GDELT-tagged matches were unrelated; real stories missed)."""
+    def setUp(self): self.m = wwboil.CorpusMatcher(fixture_time.feed()["conflicts"])
+    def a(self, t, v="rss", h=()): return self.m.assign({"t": t, "v": v, "h": list(h)})
+
+    def test_gdelt_tag_alone_is_not_enough(self):
+        self.assertEqual(self.a("What to do in Mexico City today? Concerts and free activities", "gdelt", ["colombia-eln-catatumbo"]), [])
+        self.assertIn("colombia-eln-catatumbo", self.a("ELN fighters seize village", "gdelt", ["colombia-eln-catatumbo"]))
+
+    def test_own_country_and_a_security_word(self):
+        self.assertIn("colombia-eln-catatumbo", self.a("In Colombia, three military personnel killed in drone attack on military base"))
+        self.assertIn("sudan-civil-war", self.a("War in Sudan: recruitment networks worry the region"))
+        self.assertNotIn("sudan-civil-war", self.a("South Sudan army says clashes killed 12"))          # not Sudan's war
+        self.assertNotIn("us-boat-strikes-caribbean-pacific", self.a("US military warns of tension"))  # US news is too broad
+
+    def test_sport_and_exclude_words(self):
+        self.assertEqual(self.a("2027 AFCON qualifier: CAR referee to officiate Ghana v Somalia game"), [])
+        self.assertEqual(self.a("Colombia coffee exports hit record after border attack fears"), [])  # 'coffee' excluded
+        self.assertIn("somalia-al-shabaab", self.a("al-Shabaab attack near football stadium"))           # anchors still count
+
 class ClipTests(unittest.TestCase):
     def test_never_cuts_a_word_or_sentence(self):
         long = "The US plans to widen the blockade. Al Arabiya says the plan includes the Caspian Sea. Haaretz says more."

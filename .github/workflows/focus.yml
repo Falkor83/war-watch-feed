@@ -20,9 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Get the worldwide headlines
-        run: |
-          mkdir -p live
-          git fetch -q --depth 1 origin live && git archive FETCH_HEAD | tar -x -C live && echo "[OK] headlines ready"
+        run: tools/get_live.sh
       - name: Test (fake API, no cost)
         run: tools/run_tests.sh
       - name: Update now

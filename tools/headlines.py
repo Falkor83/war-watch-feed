@@ -155,10 +155,15 @@ def parse_date(s):
 def parse_feed(body):
     """RSS, RDF or Atom -> [{title, link, date, summary, source, source_url}]. Falls back to a forgiving scan when the
     XML is not well-formed (many news feeds aren't)."""
-    text = body.decode("utf-8", errors="replace").lstrip("﻿ \r\n\t") if isinstance(body, bytes) else body
+    # The XML parser gets the raw bytes, so it honours the feed's declared encoding (ISO-8859-1, windows-1251...).
+    # Decoding as UTF-8 first garbled them: Folha's "até" came out as "atï¿½" (2026-11-07).
+    raw = (body if isinstance(body, bytes) else body.encode("utf-8")).lstrip(b"\xef\xbb\xbf \r\n\t")
+    m_enc = re.search(rb"""<\?xml[^>]*encoding=["']([\w.-]+)""", raw[:300])
+    try: text = raw.decode(m_enc.group(1).decode() if m_enc else "utf-8", errors="replace")
+    except LookupError: text = raw.decode("utf-8", errors="replace")
     items = []
     try:
-        root = ET.fromstring(text.encode("utf-8"))
+        root = ET.fromstring(raw)
         for el in root.iter():
             if local(el.tag) not in ("item", "entry"): continue
             it = {"title": "", "link": "", "date": "", "summary": "", "source": "", "source_url": ""}
@@ -305,6 +310,8 @@ def gdelt_url(query, timespan="4h", maxrecords=100):
     return ("https://api.gdeltproject.org/api/v2/doc/doc?query=" + urllib.parse.quote(query) +
             f"&mode=artlist&format=json&maxrecords={maxrecords}&timespan={timespan}&sort=datedesc")
 
+GDELT_ERRORS = {}                                  # why GDELT calls failed this run, for the log
+
 def gdelt_get(url, last=[0.0]):
     """One paced GDELT call; None when GDELT is busy (it answers 429 or plain text)."""
     for attempt in range(2):
@@ -319,10 +326,13 @@ def gdelt_get(url, last=[0.0]):
         except urllib.error.HTTPError as e:
             last[0] = time.time()
             if e.code == 429 and attempt == 0: time.sleep(25); continue
+            GDELT_ERRORS[f"HTTP {e.code}"] = GDELT_ERRORS.get(f"HTTP {e.code}", 0) + 1
             return None
-        except Exception:
+        except Exception as e:
             last[0] = time.time()
             if attempt == 0: time.sleep(10); continue
+            why = "plain-text answer" if isinstance(e, ValueError) else type(e).__name__
+            GDELT_ERRORS[why] = GDELT_ERRORS.get(why, 0) + 1
             return None
     return None
 
@@ -386,7 +396,9 @@ def relevant(item, terms):
         item["h"] = sorted(set(item["h"] or []) | {"action"})
         return True
     if "action" in (item["h"] or []): item["h"] = [h for h in item["h"] if h != "action"]
-    if item["h"]: return True
+    # A feed's or search's hotspot hint is enough, except GDELT's: it answers a hotspot's query with whatever mentions
+    # the country, so its results must be about security or name a hotspot like any other headline.
+    if item["h"] and item.get("v") != "gdelt": return True
     return bool(SECURITY.search(text) or terms.search(text))
 
 # ---------- translation ----------
@@ -541,6 +553,8 @@ def main():
     budget = load_json(os.path.join(ROOT, "budget.json"), {})
     month = datetime.date.today().isoformat()[:7]
     analysis_usd = budget.get("usd", 0.0) if budget.get("month") == month else 0.0
+    fb = load_json(os.path.join(ROOT, "focus_budget.json"), {})           # the focus updates count toward the cap too
+    if fb.get("month") == month: analysis_usd += fb.get("usd", 0.0)
     t0 = now_ts()
     cutoff = t0 - WINDOW_H * 3600
 
@@ -554,7 +568,8 @@ def main():
     ok(f"Google News searches: {len(se)} headlines from {se_ok} of {len(sources.get('search') or [])} searches" +
        (f" (failed: {', '.join(se_bad[:20])})" if se_bad else ""))
     gd, gd_ok, gd_n, gd_bad = collect_gdelt(feed, os.environ.get("WW_GDELT_TIMESPAN", "1d"))
-    ok(f"GDELT: {len(gd)} headlines from {gd_ok} of {gd_n} searches" + (f" (busy for: {', '.join(gd_bad[:12])})" if gd_bad else ""))
+    ok(f"GDELT: {len(gd)} headlines from {gd_ok} of {gd_n} searches" + (f" (busy for: {', '.join(gd_bad[:12])})" if gd_bad else "") +
+       (f"; failures: {', '.join(f'{k} x{v}' for k, v in sorted(GDELT_ERRORS.items()))}" if GDELT_ERRORS else ""))
 
     fresh = [x for x in rss + gn + se + gd if not x["p"] or x["p"] >= cutoff]
     for x in fresh:
@@ -574,14 +589,18 @@ def main():
     terms = term_regex(feed)
     shown = [x for x in items if x["t"] and relevant(x, terms)]
     shown.sort(key=lambda x: -x["p"])
-    shown = shown[:MAX_ITEMS]
+    window = WINDOW_H
+    if len(shown) > MAX_ITEMS:                 # over the cap the oldest go: say how many hours the corpus really covers
+        shown = shown[:MAX_ITEMS]
+        window = max(1, int((t0 - shown[-1]["p"]) // 3600))
+        warn(f"{MAX_ITEMS} headlines is the cap; the corpus covers the last {window} h, not {WINDOW_H} h")
     waiting = sum(1 for x in items if not x["t"])
 
     # forget translations of headlines that left the window
     keep = {x["k"] for x in items}
     state["tr"] = {k: v for k, v in cache.items() if k in keep or v.get("at", 0) > cutoff}
     langs = sorted({x["l"] for x in shown})
-    out = {"generated": iso(t0), "window_hours": WINDOW_H,
+    out = {"generated": iso(t0), "window_hours": window,
            "stats": {"items": len(shown), "outlets": len({x["d"] or x["s"] for x in shown}),
                      "countries": len({x["c"] for x in shown if x["c"]}), "languages": len(langs),
                      "translated": sum(1 for x in shown if x["l"] != "en"), "waiting_translation": waiting,

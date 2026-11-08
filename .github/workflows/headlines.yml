@@ -24,9 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Get the last run's state
-        run: |
-          mkdir -p live
-          if git fetch -q --depth 1 origin live 2>/dev/null; then git archive FETCH_HEAD | tar -x -C live; echo "[OK] state restored"; else echo "[WARN] first run: no live branch yet"; fi
+        run: tools/get_live.sh
       - name: Test the job (offline, no cost)
         id: tests
         run: tools/run_tests.sh

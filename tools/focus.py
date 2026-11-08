@@ -145,16 +145,7 @@ def check(ans, stories, log):
 # together: on 2026-11-07 points clipped at 480 here showed up cut at 320 in the app.
 APP_POINT, APP_WATCH, APP_LATEST, APP_LADDER = 320, 140, 400, 240
 
-def clip(text, n):
-    """At most n characters without cutting a word or sentence (cut text showed up in the app on 2026-11-07):
-    whole sentences if any fit, else whole words and an ellipsis."""
-    text = " ".join(str(text).split())
-    if len(text) <= n: return text
-    cut = text[:n + 1]
-    ends = [i for i in range(len(cut) - 1) if cut[i] in ".!?" and cut[i + 1] == " "]
-    if ends and ends[-1] + 1 >= n // 3: return cut[:ends[-1] + 1]
-    words = text[:n - 1].rsplit(" ", 1)[0].rstrip(" ,;:-")
-    return words + "…"
+clip = wwscore.clip          # shared: whole sentences, or whole words and an ellipsis
 
 def apply_to_hotspot(c, upd, feed_generated, today):
     """The app shows the hotspot's status line and latest developments: refresh them (a newer daily rating wins)."""
@@ -341,11 +332,11 @@ def main():
     if "--keep" in sys.argv: keep(sys.argv[sys.argv.index("--keep") + 1]); return
     if "--apply" in sys.argv:
         out = load(OUT, None)
-        if out and out["state"]: apply(out)
+        if out and (out["state"] or out.get("spent", 0) > 0): apply(out)
         return
     out = compute("--now" in sys.argv)
     save_json(OUT, out)
-    if out["state"]: apply(out)
+    if out["state"] or out["spent"] > 0: apply(out)           # an unusable answer still cost money: book it
     else: ok("no focus update due")
     print(f"focus spend this run ${out['spent']:.3f}")
 

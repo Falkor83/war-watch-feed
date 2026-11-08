@@ -53,6 +53,66 @@ def msg(text, urls=(), searches=0, tin=1000, tout=500):
     return {"content": content, "stop_reason": "end_turn",
             "usage": {"input_tokens": tin, "output_tokens": tout, "server_tool_use": {"web_search_requests": searches}}}
 
+class TrackRecordTests(unittest.TestCase):
+    """Outlooks whose date has passed get a verdict backed by a URL; feed.json gets counts and a Brier score."""
+    def setUp(self):
+        import wwtrack
+        self.T = wwtrack
+        self.dir = tempfile.mkdtemp()
+        self.saved = (wwapi.BUDGET, wwapi.http, wwapi.USE_BATCH)
+        wwapi.BUDGET = os.path.join(self.dir, "budget.json"); wwapi.USE_BATCH = False
+        os.environ["ANTHROPIC_API_KEY"] = "test"
+        d = lambda n: (datetime.date.today() + datetime.timedelta(days=n)).isoformat()
+        self.ol = {"outlooks": [
+            {"made": d(-9), "hotspot": "russia-ukraine-war", "text": "The Abu Dhabi round ending without a ceasefire deal", "likelihood": "likely", "check_by": d(-1)},
+            {"made": d(-9), "hotspot": "sudan-civil-war", "text": "The UN naming a venue for talks", "likelihood": "unlikely", "check_by": d(-1)},
+            {"made": d(-3), "hotspot": "korean-peninsula", "text": "A new missile test", "likelihood": "roughly even chance", "check_by": d(5)},
+            {"made": d(-20), "hotspot": "haiti-gang-war", "text": "Elections scheduled", "likelihood": "unlikely", "check_by": d(-8),
+             "result": "unclear", "checked": d(-4)}]}
+        self.path = os.path.join(self.dir, "outlooks.json")
+        json.dump(self.ol, open(self.path, "w"))
+    def tearDown(self):
+        wwapi.BUDGET, wwapi.http, wwapi.USE_BATCH = self.saved
+        shutil.rmtree(self.dir)
+
+    def test_due_calls_get_backed_verdicts(self):
+        o = self.ol["outlooks"]
+        ids = [self.T.oid(x) for x in o]
+        reply = "```json\n" + json.dumps({"results": [
+            {"id": ids[0], "result": "happened", "why": "Reuters reports the round ended without a deal.", "evidence": ["https://www.reuters.com/x"]},
+            {"id": ids[1], "result": "did_not", "why": "No venue was named.", "evidence": ["https://made-up.example/y"]},   # URL never seen
+            {"id": ids[2], "result": "happened", "why": "Not due yet.", "evidence": ["https://www.reuters.com/x"]}]}) + "\n```"
+        wwapi.http = FakeAPI({"OUTLOOKS TO CHECK": msg(reply, urls=["https://www.reuters.com/x"], searches=2)})
+        feed = fixture_time.feed()
+        warns = []
+        calls, n = self.T.stage(feed, self.path, [], [], wwapi.load_budget(), "claude-sonnet-5-5", "sys", TODAY, warns.append,
+                                lambda t: json.loads(t.split("```json")[1].split("```")[0]))
+        self.assertEqual(calls, 3)                                     # two due, plus the unclear one ready for a re-check
+        got = {x["text"]: x for x in json.load(open(self.path))["outlooks"]}
+        self.assertEqual(got["The Abu Dhabi round ending without a ceasefire deal"]["result"], "happened")
+        self.assertEqual(got["The UN naming a venue for talks"]["result"], "unclear")         # no seen URL, no verdict
+        self.assertNotIn("result", got["A new missile test"])                                # not due: untouched
+        self.assertTrue(got["Elections scheduled"].get("final"))                             # a week past due: given up
+        tr = feed["track"]
+        self.assertEqual(tr["checked"], 3); self.assertEqual(tr["pending"], 1)
+        self.assertEqual(tr["brier"], round((0.7 - 1.0) ** 2, 3))                            # only clear verdicts are scored
+        self.assertTrue(any("without a URL" in w for w in warns))
+        self.assertGreater(wwapi.load_budget()["usd"], 0)                                   # the check is paid for and booked
+
+    def test_nothing_due_costs_nothing(self):
+        for x in self.ol["outlooks"]: x["check_by"] = "2999-01-01"; x.pop("result", None)
+        json.dump(self.ol, open(self.path, "w"))
+        wwapi.http = FakeAPI({})
+        feed = fixture_time.feed()
+        self.assertEqual(self.T.stage(feed, self.path, [], [], wwapi.load_budget(), "m", "s", TODAY, print, json.loads), (0, 0))
+        self.assertEqual(feed["track"]["pending"], 4); self.assertEqual(wwapi.http.calls, [])
+
+class RequestTests(unittest.TestCase):
+    def test_effort_only_where_asked(self):
+        r = {"model": "claude-opus-5-5", "max_tokens": 10, "system": "s"}
+        self.assertNotIn("output_config", wwapi.make_body(r, []))
+        self.assertEqual(wwapi.make_body(dict(r, effort="medium"), [])["output_config"], {"effort": "medium"})
+
 class Base(unittest.TestCase):
     def setUp(self):
         self.dir = tempfile.mkdtemp()

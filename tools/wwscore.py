@@ -38,6 +38,17 @@ def numbers_in(text):
         out.add(n + unit)
     return out
 
+def clip(text, n):
+    """At most n characters without cutting a word or sentence (cut text showed up in the app on 2026-11-07):
+    whole sentences if any fit, else whole words and an ellipsis."""
+    text = " ".join(str(text).split())
+    if len(text) <= n: return text
+    cut = text[:n + 1]
+    ends = [i for i in range(len(cut) - 1) if cut[i] in ".!?" and cut[i + 1] == " "]
+    if ends and ends[-1] + 1 >= n // 3: return cut[:ends[-1] + 1]
+    words = text[:n - 1].rsplit(" ", 1)[0].rstrip(" ,;:-")
+    return words + "…"
+
 def numbers_supported(text, notes):
     """The claim numbers in the text that no cited note backs (empty set = all backed)."""
     have = set()

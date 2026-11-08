@@ -1,5 +1,5 @@
 {
- "about": "War Watch worldwide headline sources. rss: outlets' world/international feeds (home = the outlet's country, lang = its usual language; items are re-checked one by one). gnews: Google News 'World' page per country edition. GDELT is queried per hotspot in addition. Checked from GitHub's servers with tools/probe_sources.py on 2026-11-04. search: Google News searches, one outlet each (site:, for wires and institutes without a usable feed) or one topic (AI with catastrophic risk, in 11 languages). Feeds and searches with hints ['ai-risk'] keep only headlines with a risk word; ['ai-safety'] keeps all. Searches with hints ['action'] look for what governments DO to prepare (stockpiling advice, shelters, reservists, embassy departures, reserves) in 15 languages.",
+ "about": "War Watch worldwide headline sources. rss: outlets' world/international feeds (home = the outlet's country, lang = its usual language; items are re-checked one by one). gnews: Google News 'World' page per country edition. GDELT is queried per hotspot in addition. Checked from GitHub's servers with tools/probe_sources.py on 2026-11-04. search: Google News searches, one outlet each (site:, for wires and institutes without a usable feed) or one topic (AI with catastrophic risk, in 11 languages). Feeds and searches with hints ['ai-risk'] keep only headlines with a risk word; ['ai-safety'] keeps all. Searches with hints ['action'] look for what governments DO to prepare (stockpiling advice, shelters, reservists, embassy departures, reserves) in 15 languages. Conflict searches (hints = a hotspot id) cover wars the outlet feeds barely carry (Sudan, Myanmar, Somalia, Mozambique: 2-9 headlines a day on 2026-11-07).",
  "rss": [
   {
    "name": "BBC Arabic",
@@ -2508,6 +2508,52 @@
    "when": "3d",
    "lang": "tr",
    "ed": "tr|TR|TR:tr"
+  },
+  {
+   "name": "Sudan war (EN)",
+   "q": "(Sudan OR Darfur OR Kordofan OR \"El Fasher\" OR \"Blue Nile\") (RSF OR \"Rapid Support Forces\" OR army OR drone OR attack OR killed OR fighting)",
+   "hints": [
+    "sudan-civil-war"
+   ],
+   "when": "1d",
+   "lang": "en"
+  },
+  {
+   "name": "Sudan war (AR)",
+   "q": "السودان (\"الدعم السريع\" OR الجيش OR مسيرة OR هجوم OR قتلى OR معارك)",
+   "hints": [
+    "sudan-civil-war"
+   ],
+   "when": "1d",
+   "lang": "ar",
+   "ed": "ar|EG|EG:ar"
+  },
+  {
+   "name": "Myanmar war (EN)",
+   "q": "(Myanmar OR Rakhine OR \"Arakan Army\" OR Kachin OR junta) (fighting OR airstrike OR attack OR killed OR resistance OR offensive)",
+   "hints": [
+    "myanmar-civil-war"
+   ],
+   "when": "1d",
+   "lang": "en"
+  },
+  {
+   "name": "Somalia al-Shabaab (EN)",
+   "q": "(Somalia OR \"al-Shabaab\" OR Mogadishu) (attack OR killed OR forces OR militants OR airstrike OR offensive)",
+   "hints": [
+    "somalia-al-shabaab"
+   ],
+   "when": "1d",
+   "lang": "en"
+  },
+  {
+   "name": "Mozambique Cabo Delgado (EN/PT)",
+   "q": "(\"Cabo Delgado\" OR Mocímboa OR Macomia) (insurgents OR attack OR killed OR ataque OR insurgentes)",
+   "hints": [
+    "mozambique-cabo-delgado"
+   ],
+   "when": "2d",
+   "lang": "en"
   }
  ]
 }

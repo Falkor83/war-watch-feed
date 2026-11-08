@@ -61,10 +61,12 @@ class Items(unittest.TestCase):
     def test_relevance_is_loose(self):
         feed = fixture_time.feed()
         terms = H.term_regex(feed)
-        def it(t, h=()): return {"t": t, "x": "", "h": list(h)}
+        def it(t, h=(), v="rss"): return {"t": t, "x": "", "h": list(h), "v": v}
         self.assertTrue(H.relevant(it("Ukraine's grid operator warns of long outages"), terms))
         self.assertTrue(H.relevant(it("Navy deploys second carrier group"), terms))       # security words alone
-        self.assertTrue(H.relevant(it("Odd story with no place", ["korean-peninsula"]), terms))   # GDELT found it for a hotspot
+        self.assertTrue(H.relevant(it("Odd story with no place", ["korean-peninsula"]), terms))   # a feed made for a hotspot
+        self.assertFalse(H.relevant(it("Life is good for a family's cattle farm", ["iraq-militias-us-exit"], "gdelt"), terms))
+        self.assertTrue(H.relevant(it("Drones pound militia strongholds", ["yemen-houthi-saudi-war"], "gdelt"), terms))
         self.assertFalse(H.relevant(it("Recipe of the week: apple pie"), terms))
         self.assertFalse(H.relevant(it("Brazil beat Argentina in friendly"), terms))        # a country name alone isn't enough
 
@@ -153,6 +155,14 @@ class Translate(unittest.TestCase):
         spend["usd"] = 0
         H.translate(self.q(5), state, spend, wwapi.MONTHLY_CAP_USD)         # War Watch as a whole is at its cap
         self.assertEqual(self.sent, [])
+
+class EncodingTests(unittest.TestCase):
+    def test_declared_encodings_are_honoured(self):          # Folha's ISO-8859-1 "até" came out as "atï¿½" (2026-11-07)
+        latin = '<?xml version="1.0" encoding="ISO-8859-1"?><rss><channel><item><title>Ataque até 2028</title><link>https://x.br/a</link></item></channel></rss>'
+        cyr = '<?xml version="1.0" encoding="windows-1251"?><rss><channel><item><title>Удар по Киеву</title><link>https://x.ru/a</link></item></channel></rss>'
+        self.assertEqual(H.parse_feed(latin.encode("latin-1"))[0]["title"], "Ataque até 2028")
+        self.assertEqual(H.parse_feed(cyr.encode("cp1251"))[0]["title"], "Удар по Киеву")
+        self.assertEqual(H.parse_feed(("\ufeff" + latin.replace("ISO-8859-1", "UTF-8")).encode("utf-8"))[0]["title"], "Ataque até 2028")
 
 class EndToEnd(unittest.TestCase):
     def test_main_offline(self):

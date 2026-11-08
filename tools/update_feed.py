@@ -27,7 +27,7 @@ raised to $45 on 2026-11-07 (Matt approved; Aegis's share drops from $65 to $55,
 """
 import json, os, re, sys, time, datetime, calendar
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import wwapi, wwdata, wwscore, wwboil, wwstories, wwai, wwactions
+import wwapi, wwdata, wwscore, wwboil, wwstories, wwai, wwactions, wwtrack
 from wwapi import step, ok, warn, err, save_json, MONTHLY_CAP_USD
 
 GATHER_MODEL = os.environ.get("WW_GATHER_MODEL", "claude-sonnet-5-5")
@@ -214,12 +214,38 @@ def parties_map(feed):
 def blocked_domains(): return sorted(wwdata.registry()["blocked"])
 
 # ---------- stages ----------
-def gather_requests(feed, focus_list, searches):
+def leads(feed, n=20, hours=24):
+    """The day's biggest stories in the hourly worldwide collection, one line each, for the gather to check rather than
+    rediscover (its searches then go to primary reporting and to what the collection misses)."""
+    items = CORPUS.get("items") or []
+    if not items: return ""
+    now = int(time.time())
+    tags = wwboil.assigned(feed["conflicts"], items)
+    by_hot = {}
+    for x, ids in zip(items, tags):
+        if (x.get("p") or 0) >= now - hours * 3600 and x.get("t"):
+            for cid in ids: by_hot.setdefault(cid, []).append(x)
+    names = {c["id"]: c.get("short_name") or c["name"] for c in feed["conflicts"]}
+    found = []
+    for cid, mine in by_hot.items():
+        if len(mine) < 3: continue
+        for s_ in wwstories.cluster(mine):
+            st = wwstories.stats(s_)
+            if st["independent"] >= 3: found.append((st["independent"] + 2 * len(st["countries"]), cid, s_, st))
+    found.sort(key=lambda f: -f[0])
+    lines = [f"- [{names.get(cid, cid)}] {wwstories.pick_titles(s_, 1)[0]['t'][:180]} ({st['independent']} sources, "
+             f"{len(st['countries'])} countries)" for _, cid, s_, st in found[:n]]
+    return ("LEADS: the biggest stories in today's worldwide headline collection (headlines only, not citable). Don't spend "
+            "searches rediscovering them: check the ones that matter with primary reporting, and use the rest of your "
+            "searches on what they miss.\n" + "\n".join(lines) + "\n\n") if lines else ""
+
+def gather_requests(feed, focus_list, searches, with_leads=False):
     system = prompt("rules.md") + "\n\n" + prompt("gather.md")
     reqs = []
+    lead = leads(feed) if with_leads else ""
     for label, focus, region in focus_list:
         user = (f"Today is {today()}. Focus: {focus}.\n\nCurrent hotspots:\n{hotspot_table(feed, region)}\n\n"
-                f"Current cyber/sabotage items:\n{cyber_table(feed)}\n\nSearch and return the research-notes JSON described in your instructions.")
+                f"Current cyber/sabotage items:\n{cyber_table(feed)}\n\n{lead}Search and return the research-notes JSON described in your instructions.")
         reqs.append({"label": label, "model": GATHER_MODEL, "system": system, "user": user, "max_uses": searches,
                      "max_tokens": 48000, "estimate": 0.4, "blocked_domains": blocked_domains()})
     return reqs
@@ -350,6 +376,16 @@ def ai_stage(out, budget):
            f"{a['read']['countries']} countries): " + "; ".join(f"{i['severity']} {i['category']}: {i['title']}" for i in a["items"][:5]))
     return out
 
+def track_stage(out, notes, budget):
+    """Track record: the outlooks whose date has passed, checked by Sonnet with a few searches (tools/wwtrack.py)."""
+    system = prompt("rules.md") + "\n\n" + prompt("track.md")
+    calls, verdicts = wwtrack.stage(out, OUTLOOKS, CORPUS.get("items") or [], notes, budget, GATHER_MODEL, system, today(), warn,
+                                    wwapi_extract)
+    tr = out.get("track") or {}
+    if calls: ok(f"track record: {verdicts} of {calls} due calls checked; {tr.get('checked', 0)} scored so far"
+                 + (f", Brier {tr['brier']}" if tr.get("brier") is not None else ""))
+    return out
+
 def actions_stage(out, budget):
     """Actions, not words: preparedness actions vs the events around them (tools/wwactions.py, prompt/actions.md)."""
     system = prompt("rules.md") + "\n\n" + prompt("actions.md")
@@ -376,6 +412,16 @@ def coverage_table(feed, hours=24):
                     + "".join(f"\n   - [{x.get('c', '?')}] {x['t'][:140]}" for x in outside))
     return "\n".join(rows)
 
+def track_lines(feed):
+    """Your earlier calls and how they came out, so the likelihood words stay honest (empty until some are checked)."""
+    tr = feed.get("track") or {}
+    bands = [b for b in tr.get("bands") or [] if b["calls"] - b["unclear"] > 0]
+    if not bands: return ""
+    lines = [f"- '{b['likelihood']}': {b['happened']} happened, {b['partly']} partly, {b['did_not']} didn't" for b in bands]
+    return ("YOUR TRACK RECORD (outlooks checked after their date"
+            + (f"; Brier {tr['brier']} over {tr['brier_calls']} calls, 0 is perfect, 0.25 is coin-flipping" if tr.get("brier") is not None else "")
+            + "). Keep the likelihood words calibrated to it:\n" + "\n".join(lines) + "\n\n")
+
 def analyst_request(feed, notes, label="daily analysis"):
     system = prompt("rules.md") + "\n\n" + prompt("daily.md")
     user = (f"Today is {today()}.\n\nHOTSPOTS\n{hotspot_table(feed)}\n\nYESTERDAY'S SIGNALS\n{signals_table(feed)}\n\n"
@@ -384,7 +430,7 @@ def analyst_request(feed, notes, label="daily analysis"):
             f"CYBER AND SABOTAGE ITEMS\n{cyber_table(feed)}\n\n"
             f"GOVERNMENT PREPAREDNESS ACTIONS, last 60 days (the action log: what governments did, e.g. stockpiling advice, "
             f"reservists, embassy drawdowns; context, not citable; weigh them with the news, they often say what statements don't)\n"
-            f"{wwactions.context_lines(wwactions.load_log(ROOT), today())}\n\nUS OVERVIEW NOW\n{feed.get('us_overview', '')}\n\n"
+            f"{wwactions.context_lines(wwactions.load_log(ROOT), today())}\n\n{track_lines(feed)}US OVERVIEW NOW\n{feed.get('us_overview', '')}\n\n"
             f"NOTES gathered today (cite these IDs only). n- and w-notes come from today's searches and read articles; g-notes are "
             f"worldwide headlines from the hourly collection (all languages, translated), one per story, each saying how many "
             f"independent sources in how many countries carried it. Use g-notes to confirm, contest or widen the others and to "
@@ -591,6 +637,13 @@ def boil_stage(out, notes, budget):
         ok(f"  {cid}: {len(pts)} data points, {len(hs)} headlines")
     nb = {}
     for n in notes: nb.setdefault(n["hotspot"], []).append(n)
+    # Nothing new to read (no headlines, no notes) and a reading from the last 3 days: keep it instead of paying for it
+    quiet = [cid for cid in cands if not heads[cid] and not nb.get(cid) and cid in prev]
+    if quiet: ok(f"boiling point: nothing new for {', '.join(quiet)}; their last reading is kept")
+    cands = [cid for cid in cands if cid not in quiet]
+    kept = [prev[cid] for cid in quiet]
+    if not cands:
+        out["boil"] = sorted(kept, key=lambda b: (-b["stage"], b["direction"] != "rising", -b.get("score", 0))); return out
     system = prompt("rules.md") + "\n\n" + prompt("boil.md")
     ans = wwapi.run([wwboil.boil_request(cands, out, panels, heads, nb, prev, ANALYST_MODEL, system, t)], budget)
     if not ans:
@@ -602,7 +655,8 @@ def boil_stage(out, notes, budget):
     for line in log: warn("boiling point: " + line)
     res = [wwboil.public(it, raws[it["id"]], heads[it["id"]], nb.get(it["id"], [])) for it in checked]
     for it in res: it["score"] = scores.get(it["id"], 0)
-    res.sort(key=lambda b: (-b["stage"], b["direction"] != "rising", -b["score"]))
+    res += kept
+    res.sort(key=lambda b: (-b["stage"], b["direction"] != "rising", -b.get("score", 0)))
     out["boil"] = res
     ok("boiling point: " + "; ".join(f"{b['id']} stage {b['stage']} ({b['stage_label']}), {b['likelihood'] or 'no likelihood'}, {b['direction']}" for b in res))
     return out
@@ -637,12 +691,15 @@ def pace(budget):
     return "lite" if total > 0.9 * fair + 3 else "normal"
 
 def run_daily(feed, budget, history, level):
-    searches = int(os.environ.get("WW_DAILY_SEARCHES", "12")) - (4 if level == "lite" else 0)
-    focus = ("everything from the last 48 hours: about two thirds of your searches on red, '!' and US-direct hotspots, two on how "
-             "other sides and regions cover today's two biggest events, one on the hotspots' tripwires, one sweep for new hotspots, "
-             "and three on cyberattacks and sabotage against infrastructure (food, water, power, telecom, hospitals, transport) "
-             "anywhere, plus official advisories (CISA, FBI, CERT-FR, NCSC)")
-    res = wwapi.run(gather_requests(feed, [("daily search notes", focus, None)], searches), budget)
+    # 8 searches (12 before 2026-11-08): the hourly collection now hands the gather the day's biggest stories as leads,
+    # so searches go to checking them and to what it misses. +2 on a day a hotspot is at the brink or climbing.
+    hot = any(b.get("stage", 0) >= 4 or b.get("direction") == "rising" for b in feed.get("boil") or [])
+    searches = int(os.environ.get("WW_DAILY_SEARCHES", "8")) + (2 if hot else 0) - (3 if level == "lite" else 0)
+    focus = ("everything from the last 48 hours: about two thirds of your searches on red, '!' and US-direct hotspots (start "
+             "with the leads), one on how other sides and regions cover today's biggest event, one on the hotspots' tripwires "
+             "or a sweep for new hotspots, and two on cyberattacks and sabotage against infrastructure (food, water, power, "
+             "telecom, hospitals, transport) anywhere, plus official advisories (CISA, FBI, CERT-FR, NCSC)")
+    res = wwapi.run(gather_requests(feed, [("daily search notes", focus, None)], searches, with_leads=True), budget)
     if not res: raise SystemExit("[ERROR] no research notes came back; feed left as it was")
     notes = collect_notes(res, feed)
     if len(notes) < 8: raise SystemExit(f"[ERROR] only {len(notes)} usable notes; feed left as it was")
@@ -655,6 +712,7 @@ def run_daily(feed, budget, history, level):
     out = boil_stage(out, notes, budget)
     out = ai_stage(out, budget)
     out = actions_stage(out, budget)
+    out = track_stage(out, notes, budget)
     return out, changed
 
 def run_weekly(feed, budget, history, level):
@@ -672,7 +730,7 @@ def run_weekly(feed, budget, history, level):
     for r in REGIONS:
         rn = [n for n in notes if any(n["hotspot"] == c["id"] for c in feed["conflicts"] if c["region"] == r) or
               (n["hotspot"].startswith("new") and n["region"] != "unknown")]
-        reqs.append({"label": f"weekly {r} review", "model": ANALYST_MODEL, "system": system, "max_uses": 0, "max_tokens": 16000, "estimate": 0.3,
+        reqs.append({"label": f"weekly {r} review", "model": ANALYST_MODEL, "system": system, "max_uses": 0, "max_tokens": 16000, "estimate": 0.3, "effort": "medium",
                      "user": f"Today is {today()}. Region: {r}.\n\nHOTSPOTS IN THIS REGION\n{hotspot_table(feed, r, with_sources=True)}\n\n"
                              f"NOTES gathered today (cite these IDs only)\n{notes_table(rn)}\n\nReturn the JSON described in your instructions."})
     ans = wwapi.run(reqs, budget)
@@ -702,6 +760,7 @@ def run_weekly(feed, budget, history, level):
     out = boil_stage(out, notes, budget)
     out = ai_stage(out, budget)
     out = actions_stage(out, budget)
+    out = track_stage(out, notes, budget)
     return out, changed
 
 def migrate(feed):
@@ -741,8 +800,8 @@ def migrate(feed):
 
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
-    if mode not in ("daily", "weekly", "check", "migrate", "panel", "ai", "actions"):
-        raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate, panel, ai, actions)")
+    if mode not in ("daily", "weekly", "check", "migrate", "panel", "ai", "actions", "track"):
+        raise SystemExit(f"[ERROR] unknown mode {mode!r} (daily, weekly, check, migrate, panel, ai, actions, track)")
     feed = load(FEED)
     if mode == "check":
         validate_feed(feed); ok(f"feed.json is valid: {len(feed['conflicts'])} hotspots, schema {feed.get('schema', 1)}"); return
@@ -780,14 +839,18 @@ def main():
     CORPUS.update(load(corpus_path(), {"items": []}) or {"items": []})
     ok(f"worldwide headlines: {len(CORPUS.get('items') or [])} available (generated {CORPUS.get('generated', 'never')})")
     level = pace(budget)
-    if level == "stop" or (mode == "weekly" and budget["total_usd"] > MONTHLY_CAP_USD - 4):
-        feed["paused"] = f"Monthly budget reached (${budget['usd']:.2f} of ${MONTHLY_CAP_USD:.0f}); ratings resume on the 1st."
+    if level == "stop":
+        feed["paused"] = f"Monthly budget reached (${budget['total_usd']:.2f} of ${MONTHLY_CAP_USD:.0f}); ratings resume on the 1st."
         save_json(FEED, feed)
         err(feed["paused"]); sys.exit(1)
+    if mode == "weekly" and budget["total_usd"] > MONTHLY_CAP_USD - 4:      # can't afford the ~$2.50 weekly: a daily instead
+        warn(f"${budget['total_usd']:.2f} of ${MONTHLY_CAP_USD:.0f} spent this month; running the daily update instead of the weekly")
+        mode = "daily"
     if level == "lite": warn(f"spending is ahead of pace (${budget['usd']:.2f}); running a lighter update")
-    if mode in ("ai", "actions"):                              # one reading alone, between daily runs
-        out = (ai_stage if mode == "ai" else actions_stage)(dict(feed), budget)
-        save_json(FEED, out); ok(f"feed.json: {'AI risk' if mode == 'ai' else 'actions'} updated"); return
+    if mode in ("ai", "actions", "track"):                     # one reading alone, between daily runs
+        if mode == "track": out = track_stage(dict(feed), [], budget)
+        else: out = (ai_stage if mode == "ai" else actions_stage)(dict(feed), budget)
+        save_json(FEED, out); ok(f"feed.json: {mode} updated"); return
     if feed.get("schema", 1) < 2: feed = migrate(feed)
     step(f"{mode} update: {wwapi.GATHER_MODEL if hasattr(wwapi, 'GATHER_MODEL') else GATHER_MODEL} searches, {ANALYST_MODEL} decides"
          f"{', Batch API (half price)' if wwapi.USE_BATCH else ''}")

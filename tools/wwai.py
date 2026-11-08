@@ -47,7 +47,7 @@ def request(stories, prev, model, system, today):
                     for it in (prev or {}).get("items") or []) or "none"
     user = (f"Today is {today}.\n\nYESTERDAY'S ITEMS\n{old}\n\nSTORIES (last 48 hours)\n" + "\n".join(lines) +
             "\n\nReturn the JSON described in your instructions.")
-    return {"label": "ai risk", "model": model, "system": system, "user": user, "max_uses": 0, "max_tokens": 16000, "estimate": 0.15}
+    return {"label": "ai risk", "model": model, "system": system, "user": user, "max_uses": 0, "max_tokens": 16000, "estimate": 0.15, "effort": "medium"}
 
 def check(ans, stories, prev, today, log):
     by = {f"a{i + 1}": s for i, s in enumerate(stories)}
@@ -63,8 +63,8 @@ def check(ans, stories, prev, today, log):
             if iid in old and it.get("status") == "ongoing":           # yesterday's thread, no new headlines: carried as it was
                 out.append(dict(old[iid], status="ongoing")); continue
             log.append(f"{iid}: no valid stories; dropped"); continue
-        texts = {k: str(it.get(k, "")).strip()[n] for k, n in (("title", slice(0, 90)), ("what", slice(0, 320)), ("why", slice(0, 320)),
-                                                               ("who", slice(0, 120)), ("us", slice(0, 200)), ("watch", slice(0, 140)))}
+        texts = {k: wwscore.clip(it.get(k, ""), n) for k, n in (("title", 90), ("what", 320), ("why", 320),   # app 0.5.0's limits
+                                                                   ("who", 120), ("us", 200), ("watch", 140))}
         bad = set()
         for k in ("title", "what", "why"): bad |= wwscore.numbers_supported(texts[k], facts(ids))
         if bad: log.append(f"{iid}: numbers {sorted(bad)} not in its stories; dropped"); continue
@@ -93,8 +93,7 @@ def check(ans, stories, prev, today, log):
         if len(out) >= 8: break
     order = {s: i for i, s in enumerate(SEVERITY)}
     out.sort(key=lambda x: (order[x["severity"]], x["status"] != "new"))
-    raw = str((ans or {}).get("summary", "")).strip()
-    if len(raw) > 600: raw = raw[:600].rsplit(". ", 1)[0].rstrip(".") + "."     # whole sentences only
+    raw = wwscore.clip((ans or {}).get("summary", ""), 600)
     summary, cut = wwscore.drop_unsupported_sentences(raw, facts(list(by)))
     if cut: log.append(f"{cut} summary sentence(s) with unbacked numbers removed")
     return summary, out

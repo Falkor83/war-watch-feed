@@ -108,17 +108,22 @@ def gdelt_timeline(query, mode, gap, deadline=None, last=[0.0]):
             return None
     return None
 
-def gdelt_prefetch(queries, gap=12.0, budget_s=900):
+def gdelt_prefetch(queries, gap=12.0, budget_s=300):
     """All hotspots' timelines in passes (coverage for all first, then escalation words, tone, talk words), so a slow
-    GDELT leaves every hotspot with its most useful tiles. {id: {kind: series}}."""
+    GDELT leaves every hotspot with its most useful tiles. {id: {kind: series}}.
+    At most 5 minutes, and it stops after 4 failures in a row: on 2026-11-07 it waited 933 s for 7 of 24, which held
+    up the ratings by a quarter of an hour."""
     deadline = time.time() + budget_s
     out = {cid: {} for cid in queries}
     passes = [("vol", "timelinevol", ""), ("esc", "timelinevol", ESCALATION_Q), ("tone", "timelinetone", ""), ("talk", "timelinevol", TALKS_Q)]
+    misses = 0
     for kind, mode, extra in passes:
         for cid, q in queries.items():
-            if not q: continue
+            if not q or misses >= 4 or time.time() > deadline: continue
             r = gdelt_timeline(f"{q} {extra}".strip(), mode, gap, deadline)
-            if r is not None: out[cid][kind] = r
+            if r is not None: out[cid][kind] = r; misses = 0
+            else: misses += 1
+    if misses >= 4: warn("GDELT timelines: 4 failures in a row (GDELT busy); stopped early")
     got = sum(len(v) for v in out.values())
     (ok if got else warn)(f"GDELT timelines: {got} of {4 * len([q for q in queries.values() if q])} in {round(time.time() - deadline + budget_s)} s")
     return out
@@ -161,9 +166,21 @@ _SEC = re.compile(r"\b(war|military|troops|army|navy|missile|drone|strike|attack
                   r"sanction|drill|exercise|deploy|evacuat|airspace|mobili|threat|warn|tension|escalat|incursion|blockade|"
                   r"shell|bomb|killed|militia|rebel|insurgen|forces|soldiers|hostage|kidnap|refugee)", re.I)
 
+# Sport and entertainment: a country's name in these is never about its war ("Ghana v Somalia game", "Copa Argentina").
+_OFFTOPIC = re.compile(r"\b(football|soccer|f[uú]tbol|league|copa|world cup|afcon|olympic\w*|tournament|referee|striker|"
+                       r"goalkeeper|semi-?final|quarter-?final|friendly match|cricket|rugby|tennis|nba|nfl|box office|"
+                       r"concert|festival|album|fashion week|recipe|horoscope)(?:s|es)?\b", re.I)
+
+_BROAD = {"United States", "Russia", "China", "Poland"}
+
 def _names_re(names):
-    names = sorted({n for n in names if len(n) >= 4}, key=len, reverse=True)
-    return re.compile(r"(?<!\w)(" + "|".join(re.escape(n) for n in names) + r")", re.I) if names else None
+    """Names of 4+ letters in any case; short all-caps ones (RSF, ELN, M23, SAF) only as written, as a whole word."""
+    long_ = sorted({n for n in names if len(n) >= 4}, key=len, reverse=True)
+    short = sorted({n for n in names if 2 <= len(n) < 4 and n.upper() == n and any(ch.isalpha() for ch in n)}, key=len, reverse=True)
+    parts = []
+    if long_: parts.append(r"(?i:(?<!\w)(?:" + "|".join(re.escape(n) for n in long_) + r"))")
+    if short: parts.append(r"(?<![\w-])(?:" + "|".join(re.escape(n) for n in short) + r")(?![\w-])")
+    return re.compile("|".join(parts)) if parts else None
 
 ALIASES = {"United States": (r"US|U\.S\.|USA", "American|Americans|Washington|Pentagon|White House"),
            "United Kingdom": (r"UK|U\.K\.", "Britain|British|London"),
@@ -177,40 +194,57 @@ def _country_re(name):
     """A country's name, its demonym and capital (any case), and its all-caps short forms (US, UK, DPRK) exactly."""
     caps, words = ALIASES.get(name, ("", ""))
     parts = [re.escape(name)] + ([words] if words else [])
-    rx = r"(?<!\w)(?i:" + "|".join(parts) + r")(?!\w)"
+    rx = (r"(?<!South )" if name == "Sudan" else "") + r"(?<!\w)(?i:" + "|".join(parts) + r")(?!\w)"   # Sudan, not South Sudan
     if caps: rx += r"|(?<![\w.])(?:" + caps + r")(?![\w])"
     return re.compile(rx)
 
 class CorpusMatcher:
-    """Which hotspots a worldwide headline is about, by points: its own names (anchors, GDELT hint) count most, then
-    local names (a town, a leader; 1 point only for names in several hotspots' context, like Trump), its first country,
-    its other sides (with demonyms, capitals and US/UK); a headline must reach 3 points, or 2 with a security word. Shared headlines go to every hotspot within 75% of the best score,
-    so general Russia-Ukraine news doesn't also count as Moldova's."""
+    """Which hotspots a worldwide headline is about, by points: its own names (anchors) and a feed's hotspot hint count
+    most, then local names (a town, a leader; 1 point only for names in several hotspots' context, like Trump), its
+    first country (2 with a security word, else 1.5), its other sides (with demonyms, capitals and US/UK); a headline
+    must reach 3 points, or 2 with a security word. Shared headlines go to every hotspot within 75% of the best score,
+    so general Russia-Ukraine news doesn't also count as Moldova's.
+    A GDELT result's hotspot tag counts 1, not 3: GDELT answers a hotspot's query with whatever mentions the country
+    (87% of tagged results on 2026-11-07 were unrelated: cattle farms, Medicare, football). Sport and entertainment
+    headlines, and a hotspot's own 'exclude' words, only match on its anchors."""
     def __init__(self, conflicts):
         countries = {n.lower() for n in wwdata.COUNTRIES.values()}
         shared = {}
         for c in conflicts:
             for x in {x.lower() for x in c.get("context") or []}: shared[x] = shared.get(x, 0) + 1
         self.hs = []
+        firsts = {}
+        for c in conflicts:
+            f = (c.get("countries") or [""])[0]
+            firsts[f] = firsts.get(f, 0) + 1
         for c in conflicts:
             ctx = [x for x in c.get("context") or [] if x.lower() not in countries and shared[x.lower()] == 1]
             common = [x for x in c.get("context") or [] if x.lower() not in countries and shared[x.lower()] > 1]
             first = (c.get("countries") or [""])[0]
             parties = [p for p in c.get("parties") or [] if p.lower() in countries and p != first]
+            excl = [x for x in c.get("exclude") or [] if len(x) >= 4]
+            # Its own country plus a security word is enough ("In Colombia, three soldiers killed in drone attack"),
+            # but only for a country that leads no other hotspot and isn't a power whose security news is everywhere
+            # (US, Russia, China; Poland's hotspot is about Russia).
+            own = 2.0 if first and firsts.get(first) == 1 and first not in _BROAD else 1.5
             self.hs.append((c["id"], _names_re(c.get("anchors") or []), _names_re(ctx), _country_re(first) if first else None,
-                            [_country_re(p) for p in parties], _names_re(common)))
+                            [_country_re(p) for p in parties], _names_re(common), _names_re(excl), own))
 
     def assign(self, item):
         t = item.get("t", "")
         sec = bool(_SEC.search(t))
+        offtopic = bool(_OFFTOPIC.search(t))
+        gdelt = item.get("v") == "gdelt"
         scores = {}
-        for cid, strong, local, first, sides, common in self.hs:
+        for cid, strong, local, first, sides, common, excl, own in self.hs:
+            anchored = bool(strong and strong.search(t))
+            if not anchored and (offtopic or (excl and excl.search(t))): continue
             sc = 0.0
-            if cid in (item.get("h") or []): sc += 3
-            if strong and strong.search(t): sc += 3
+            if cid in (item.get("h") or []): sc += 1 if gdelt else 3
+            if anchored: sc += 3
             if local and local.search(t): sc += 2
             elif common and common.search(t): sc += 1          # a name in several hotspots' context (Trump, Netanyahu)
-            if first and first.search(t): sc += 1.5
+            if first and first.search(t): sc += own if sec else 1.5
             sc += 1.0 * sum(1 for rx in sides if rx.search(t))
             if sc >= 3 or (sc >= 2 and sec): scores[cid] = sc
         if not scores: return []
@@ -488,7 +522,7 @@ def boil_request(cands, feed, panels, heads, notes_by_hot, prev, model, system, 
             "\nNOTES (today's checked research notes)\n" +
             "\n".join(f"{n['id']}: [{n['home']} {n['tag']}] {n['fact']}" for n in notes_by_hot.get(cid, [])[:10]))
     user = (f"Today is {today}.\n\n" + "\n\n".join(blocks) + "\n\nReturn the JSON described in your instructions.")
-    return {"label": "boiling point", "model": model, "system": system, "user": user, "max_uses": 0, "max_tokens": 24000, "estimate": 0.2}
+    return {"label": "boiling point", "model": model, "system": system, "user": user, "max_uses": 0, "max_tokens": 24000, "estimate": 0.2, "effort": "medium"}
 
 def check(ans, cands, panels, heads, notes_by_hot, prev, today, log):
     """The model's ladder -> what the app shows. Citations must exist; numbers must be in what was cited; the ladder

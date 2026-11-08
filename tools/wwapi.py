@@ -11,6 +11,13 @@ SEARCH_TOOL = os.environ.get("WW_SEARCH_TOOL", "web_search_20250305")
 MONTHLY_CAP_USD = float(os.environ.get("WW_MONTHLY_CAP_USD", "45"))
 USE_BATCH = os.environ.get("WW_USE_BATCH", "1") == "1"
 BATCH_WAIT_MIN = float(os.environ.get("WW_BATCH_WAIT_MIN", "100"))
+# One time budget for the whole process (the daily job's limit is 240 min): each batch waits at most until JOB_MIN minus
+# a reserve for running late requests directly and saving, so 5-6 slow stages in a row can't run past the job's limit
+# and lose the day's work.
+JOB_MIN = float(os.environ.get("WW_JOB_MIN", "200"))
+RESERVE_MIN = 25
+_T0 = time.time()
+EFFORT_ON = os.environ.get("WW_EFFORT", "on") != "off"
 # USD per million tokens: input, output, cache write (5 min), cache read. platform.claude.com pricing, checked 2026-11-03.
 PRICES = {"claude-opus-5-5": (4.0, 20.0, 5.0, 0.20), "claude-sonnet-5-5": (2.0, 10.0, 2.50, 0.10),
           "claude-haiku-5-5": (0.10, 0.50, 0.125, 0.01)}
@@ -45,6 +52,11 @@ def usage_usd(model, u, batch=False):
     if batch: tok *= 0.5
     return tok + (u.get("server_tool_use") or {}).get("web_search_requests", 0) * SEARCH_USD
 
+def _retotal(b):
+    """total_usd (the stages here + translation + focus updates) kept current, not a copy from the start of the run."""
+    if "total_usd" in b: b["total_usd"] = round(b["usd"] + b.get("headlines_usd", 0.0) + b.get("focus_usd", 0.0), 4)
+    return b.get("total_usd", b["usd"])
+
 def add_cost(b, model, u, label, batch=False):
     usd = usage_usd(model, u, batch)
     tin = u.get("input_tokens", 0) + u.get("cache_creation_input_tokens", 0) + u.get("cache_read_input_tokens", 0)
@@ -53,15 +65,17 @@ def add_cost(b, model, u, label, batch=False):
     b["runs"] = (b.get("runs") or [])[-80:] + [{"at": now_iso(), "what": label, "model": model, "in": tin,
                                                 "out": u.get("output_tokens", 0), "searches": searches,
                                                 "batch": batch, "usd": round(usd, 4)}]
+    total = _retotal(b)
     save_json(BUDGET, b)
     ok(f"{label}: {tin} in / {u.get('output_tokens', 0)} out tokens, {searches} searches{' (batch, half price)' if batch else ''}, "
-       f"about ${usd:.2f} (month so far ${b['usd']:.2f} of ${MONTHLY_CAP_USD:.0f})")
+       f"about ${usd:.2f} (month so far ${total:.2f} of ${MONTHLY_CAP_USD:.0f})")
 
 def add_estimate(b, model, usd, label):
     """A call that failed after it was sent may still be billed: count a safe estimate so the cap stays honest."""
     b["usd"] = round(b["usd"] + usd, 4)
     b["runs"] = (b.get("runs") or [])[-80:] + [{"at": now_iso(), "what": label + " (failed; estimated)", "model": model,
                                                 "in": 0, "out": 0, "searches": 0, "usd": usd}]
+    _retotal(b)
     save_json(BUDGET, b)
     warn(f"{label}: failed; counted an estimated ${usd:.2f} toward the cap")
 
@@ -137,6 +151,9 @@ def make_body(r, messages):
         tool = {"type": SEARCH_TOOL, "name": "web_search", "max_uses": r["max_uses"]}
         if r.get("blocked_domains"): tool["blocked_domains"] = r["blocked_domains"][:50]
         body["tools"] = [tool]
+    # Effort: lower on the routine Opus stages (boiling point, AI risk, actions, weekly reviews) to cut their thinking
+    # tokens, most of what they cost. The daily analysis and the gathers keep the default. WW_EFFORT=off turns it off.
+    if r.get("effort") and EFFORT_ON: body["output_config"] = {"effort": r["effort"]}
     return body
 
 class Job:
@@ -196,10 +213,15 @@ def _run_batch(jobs, budget, deadline):
                 warn(f"batch {b.get('id')} not done in time; cancelling it and running directly at full price")
                 try: http("POST", f"{API}/messages/batches/{b['id']}/cancel", {})
                 except CallFailed: pass
-                time.sleep(30)                             # let finished results land, so they are not paid twice
-                try: b = http("GET", f"{API}/messages/batches/{b['id']}")
-                except CallFailed: return
-                if b.get("processing_status") != "ended" or not b.get("results_url"): return
+                # Wait for the cancel to finish (up to 5 min) and read what did finish, so it is booked and not paid twice.
+                for _ in range(20):
+                    time.sleep(15)
+                    try: b = http("GET", f"{API}/messages/batches/{b['id']}")
+                    except CallFailed: continue
+                    if b.get("processing_status") == "ended": break
+                if b.get("processing_status") != "ended" or not b.get("results_url"):
+                    for j in todo: add_estimate(budget, j.r["model"], round(j.r.get("estimate", 0.5) * 0.5, 4), j.r["label"] + " (batch cancelled)")
+                    return
                 break
             time.sleep(30)
             try: b = http("GET", f"{API}/messages/batches/{b['id']}")
@@ -224,11 +246,21 @@ def run(requests, budget, batch=None):
     A request that failed for good is missing from the result."""
     batch = USE_BATCH if batch is None else batch
     jobs = [Job(r) for r in requests]
+    left = _T0 + JOB_MIN * 60 - time.time()
+    if left < 10 * 60:
+        warn(f"out of time for {', '.join(r['label'] for r in requests)} ({left / 60:.0f} min left of {JOB_MIN:.0f}); skipped")
+        return {}
     if batch:
-        try: _run_batch(jobs, budget, time.time() + BATCH_WAIT_MIN * 60)
+        wait = min(BATCH_WAIT_MIN * 60, left - RESERVE_MIN * 60)
+        try: _run_batch(jobs, budget, time.time() + max(wait, 5 * 60))
         except Exception as e: warn(f"batch mode failed ({type(e).__name__}: {e}); running directly")
     for j in jobs:
         if not j.done and not j.error: _run_sync(j, budget)
+    for j in jobs:                    # the API refused the effort setting: once more without it, rather than lose the stage
+        if j.error and j.r.get("effort") and ("effort" in j.error or "output_config" in j.error):
+            warn(f"{j.r['label']}: effort setting refused ({j.error[:120]}); running it again without")
+            j.r = dict(j.r, effort=None); j.error = ""; j.messages = [{"role": "user", "content": j.r["user"]}]
+            _run_sync(j, budget)
     out = {}
     for j in jobs:
         _book(j, budget)
