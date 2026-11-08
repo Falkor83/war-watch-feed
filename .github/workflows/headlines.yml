@@ -28,13 +28,15 @@ jobs:
           mkdir -p live
           if git fetch -q --depth 1 origin live 2>/dev/null; then git archive FETCH_HEAD | tar -x -C live; echo "[OK] state restored"; else echo "[WARN] first run: no live branch yet"; fi
       - name: Test the job (offline, no cost)
+        id: tests
         run: tools/run_tests.sh
       - name: Collect and translate
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 tools/headlines.py
       - name: Publish
-        if: always()
+        id: publish
+        if: ${{ !cancelled() && steps.tests.outcome == 'success' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -54,8 +56,10 @@ jobs:
             echo "[WARN] push failed (GitHub hiccup); retrying in $((i * 20)) s"; sleep $((i * 20))
           done
           echo "[ERROR] could not publish"; exit 1
+      # Only after a good publish: it calls the API and pushes the app's feed.json, so not on code that failed the
+      # tests and not on a stale corpus.
       - name: Focus updates (Iran every 3 hours until it calms)
-        if: always()
+        if: ${{ !cancelled() && steps.tests.outcome == 'success' && steps.publish.outcome == 'success' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |

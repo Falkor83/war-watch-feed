@@ -113,7 +113,7 @@ def check(ans, stories, log):
     for p in (ans.get("points") or [])[:5]:
         if not isinstance(p, dict): continue
         ids = [i for i in dict.fromkeys(p.get("stories") or []) if i in by]
-        text = clip(p.get("text", ""), 480)
+        text = clip(p.get("text", ""), APP_POINT)
         if not ids or not text: log.append("a point without valid stories was dropped"); continue
         bad = wwscore.numbers_supported(text, facts(ids))
         if bad: log.append(f"a point with unbacked numbers {sorted(bad)} was dropped"); continue
@@ -138,8 +138,12 @@ def check(ans, stories, log):
     if flag.get("step_up") and not step_up: log.append("step-up flag not backed by independent outlets in 2 countries; ignored")
     return {"headline": headline,
             "direction": ans.get("direction") if ans.get("direction") in ("escalating", "steady", "easing") else "steady",
-            "points": pts, "watch": [clip(w, 180) for w in (ans.get("watch") or [])[:3] if str(w).strip()],
-            "step_up": step_up, "step_up_why": clip(flag.get("why", ""), 240) if step_up else ""}
+            "points": pts, "watch": [clip(w, APP_WATCH) for w in (ans.get("watch") or [])[:3] if str(w).strip()],
+            "step_up": step_up, "step_up_why": clip(flag.get("why", ""), APP_LADDER - 20) if step_up else ""}
+
+# The app (0.5.0, data/FeedCodec.kt) cuts longer text mid-word at these lengths, so clip to them here. Raise both
+# together: on 2026-11-07 points clipped at 480 here showed up cut at 320 in the app.
+APP_POINT, APP_WATCH, APP_LATEST, APP_LADDER = 320, 140, 400, 240
 
 def clip(text, n):
     """At most n characters without cutting a word or sentence (cut text showed up in the app on 2026-11-07):
@@ -163,7 +167,7 @@ def apply_to_hotspot(c, upd, feed_generated, today):
         src = next((s for s in p["sources"] if wwapi.norm_url(s["u"]) not in have), None)
         if not src: continue
         home = src.get("c", "")
-        new.append({"date": today, "text": clip(p["text"], 480), "outlet": src.get("s", "")[:60],
+        new.append({"date": today, "text": clip(p["text"], APP_LATEST), "outlet": src.get("s", "")[:60],
                     "country": wwdata.country_name(home) if home else "", "url": src["u"],
                     "region": wwdata.REGION_OF.get(home, "unknown"),
                     "tag": "party-press" if p["party_only"] else "non-party", "state_media": src.get("r") == "state"})
@@ -326,7 +330,7 @@ def compute(force):
                 item = recheck_ladder(feed, cid, items, budget)
                 if item:
                     out["boil"].append(item); st["ladder_checked_at"] = iso(now)
-                    st["ladder_note"] = f"Re-checked after: {upd['step_up_why']}"
+                    st["ladder_note"] = clip(f"Re-checked after: {upd['step_up_why']}", APP_LADDER)
         out["state"][cid] = st
     out["spent"] = round(budget["usd"], 4)
     out["runs"] = budget.get("runs") or []

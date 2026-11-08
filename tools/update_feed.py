@@ -689,11 +689,16 @@ def run_weekly(feed, budget, history, level):
         changed += [c for c in ch if not c.startswith(("analysis", "watch list"))]
     # then the daily decision over all of today's notes (signals, frames, tripwire states, '!', brief, cyber)
     ans2 = wwapi.run([analyst_request(work, notes, "weekly big picture")], budget)
+    patch2 = None
     if ans2:
-        out, ch = merge_analysis(work, wwapi_extract(ans2["weekly big picture"][0]), notes, history, "daily")
+        try: patch2 = wwapi_extract(ans2["weekly big picture"][0])
+        except ValueError: warn("big picture came back without usable JSON; region reviews kept, signals kept as they were")
+    if patch2 is not None:
+        out, ch = merge_analysis(work, patch2, notes, history, "daily")
         changed += ch
     else:
-        warn("big picture didn't come back; signals kept as they were"); out = work
+        if not ans2: warn("big picture didn't come back; signals kept as they were")
+        out = work
     out = boil_stage(out, notes, budget)
     out = ai_stage(out, budget)
     out = actions_stage(out, budget)

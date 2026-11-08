@@ -30,6 +30,10 @@ jobs:
     timeout-minutes: 240
     steps:
       - uses: actions/checkout@v5
+      # A run that waited in the queue was checked out at the commit from when it was started. Move to the newest main,
+      # so "already ran today" sees the run that finished meanwhile (else it would redo and pay for the whole day).
+      - name: Use the newest ratings
+        run: git fetch -q origin main && git reset -q --hard FETCH_HEAD && echo "[OK] at $(git log -1 --format='%h %s')"
       - name: Get the worldwide headlines (from the hourly job)
         run: |
           mkdir -p live
