@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "usd": 0.2229,
+ "usd": 0.2241,
  "runs": [
   {
    "at": "2026-11-05T03:38:50Z",
@@ -261,6 +261,16 @@
    "searches": 0,
    "batch": false,
    "usd": 0.0011
+  },
+  {
+   "at": "2026-11-08T20:21:27Z",
+   "what": "focus update",
+   "model": "claude-haiku-5-5",
+   "in": 2426,
+   "out": 1824,
+   "searches": 0,
+   "batch": false,
+   "usd": 0.0012
   }
  ],
  "cap": 3.0

@@ -1716,9 +1716,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Hormuz tanker fires disputed; Iran denies US strikes, Israel says Iran mission not over",
+   "status": "Trump: new Iran strikes 'highly unlikely' if talks progress; US presses Iraq on border",
    "summary": "The US and Israel have fought Iran on and off in 2026, and an April ceasefire and a June memorandum both broke down by July. The US then reimposed its blockade, and Iran has kept the Strait of Hormuz closed to traffic it does not approve. Trump confirmed new US strikes on an Iranian air defence system and called them minor. Iran's military says two more tankers caught fire after hitting mines on what it calls an unauthorised route, and explosions were reported on Qeshm Island and at Jask; no maritime authority has confirmed the mine claims. The US has also offered up to $20 million for information on Iran's nuclear programme, while Oman and Qatar keep up mediation.",
    "latest": [
+    {
+     "date": "2026-11-08",
+     "at": "2026-11-08T20:21:19Z",
+     "text": "Trump says resuming strikes on Iran is 'highly unlikely' if negotiations produce progress, according to reports carried by several outlets in different regions. The remark is conditional on talks.",
+     "outlet": "Daily Maverick",
+     "country": "South Africa",
+     "url": "https://www.dailymaverick.co.za/article/2026-11-08-trump-says-he-is-highly-unlikely-to-order-iran-strikes-if-talks-progress/",
+     "region": "africa",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "at": "2026-11-08T20:21:19Z",
+     "text": "The US has asked Iraq to shut most of its border crossings with Iran, Iraq's foreign minister says. This is reported by one independent outlet, carried by several others.",
+     "outlet": "Al-Monitor",
+     "country": "United States",
+     "url": "https://www.al-monitor.com/originals/2026/11/us-asks-iraq-shut-most-iran-border-crossings-iraqi-foreign-minister-says",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "at": "2026-11-08T20:21:19Z",
+     "text": "Iran's foreign minister Araghchi says it is now the White House's turn to choose between a deal and war, and calls on the US to end the war 'on all fronts'. These are Iranian statements, reported by Iranian and UK outlets.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-araghchi-calls-us-end-war-all-fronts",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-08",
      "at": "2026-11-08T17:30:46Z",
@@ -1771,39 +1804,6 @@
      "country": "India",
      "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
      "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "at": "2026-11-08T14:13:47Z",
-     "text": "Iran warns that mines are waiting in the Strait, and the Revolutionary Guards vow a 'devastating response' to a new US and Israeli operation. Iran also says the Strait is fully under Revolutionary Guard Navy control. These are Iranian statements that independent outlets have not confirmed.",
-     "outlet": "Hurriyet Dunya",
-     "country": "Turkey",
-     "url": "https://www.hurriyet.com.tr/dunya/irandan-hurmuz-uyarisi-mayinlar-bekliyor-43370550",
-     "region": "middle-east",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "at": "2026-11-08T11:26:58Z",
-     "text": "Iran's Revolutionary Guards announced it has lifted its self-imposed 2,000 km missile range limit, and reports say US and NATO bases in the region could be at risk. The announcement comes from Iran; the reports carrying it come from Taiwanese and Vietnamese outlets.",
-     "outlet": "news.ltn.com.tw",
-     "country": "Taiwan",
-     "url": "https://news.ltn.com.tw/news/world/breakingnews/5633783",
-     "region": "east-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "at": "2026-11-08T11:26:58Z",
-     "text": "Iran says two oil tankers struck mines in the Strait of Hormuz and caught fire, and a French outlet reports fires on two oil tankers plus interception of missiles aimed at Riyadh. Explosions were heard around Qeshm Island and Bandar Abbas.",
-     "outlet": "Asharq Al-Awsat",
-     "country": "Saudi Arabia",
-     "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxNSVRMa0htSXF1MjlOUnM2WnZ0c1pZakZmR1kwSnQwWkNUaUZlRnJHTWJvR21nbWxISGY4VHZUMlVobTZyNXFOdnNNZ09sWWpCS0pjaTVEOGE5T3RCWUNycWk0dWRicEZEU2RRcGNLSXlwdUJEZE4zZFlHNkhLb0taRDV5OU5pYnpCSDZyeUV1aktKMEFOZHlxdmF0Z3VDcE9DYkQ4Y01EVjFkby0xUUt0UXFxaU9kazRTRldGdEU5RmhoeFU0eGdQQTdSRjFncUlvN3NJTS1ZcWxVTlZHREZYaV9KM1ZlMFowS2VINDZ4cnl3Ump0NmNsYXBjNXFGX2JJamlMcUhzczByN2lONTRzb0k3dlowZC1ISV9FZGtvcHoxajAtbXJSanlGeVRiTWpWTGRBQldUdm9VeHo4bVZ5Wlgtc0htZFc5NmZ1cmJDNGNuQklKXzhYQTdNZ2pPS3dUMmt1YVk2bHVsdnBWamNNdDY0R3hNN1oxRDdpWW5GcnRzaUQ5djlSSDRmcTNRc2lfWG03Y0pIWjZMQ2o3dV9WeWN",
-     "region": "gulf",
      "tag": "non-party",
      "state_media": false
     }
@@ -11556,266 +11556,258 @@
      "at": "2026-11-08T17:30:46Z",
      "headline": "Hormuz tanker fires disputed; Iran denies US strikes, Israel says Iran mission not over",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-08T20:21:19Z",
+     "headline": "Trump: new Iran strikes 'highly unlikely' if talks progress; US presses Iraq on border",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-08T17:30:46Z",
-   "next_at": "2026-11-08T20:30:46Z",
-   "headline": "Hormuz tanker fires disputed; Iran denies US strikes, Israel says Iran mission not over",
+   "updated_at": "2026-11-08T20:21:19Z",
+   "next_at": "2026-11-08T23:21:19Z",
+   "headline": "Trump: new Iran strikes 'highly unlikely' if talks progress; US presses Iraq on border",
    "direction": "steady",
    "points": [
     {
-     "text": "Independent outlets report that both sides say ships were hit in the Strait of Hormuz, but Iran says the blasts were not US attacks. The Revolutionary Guards say two tankers caught fire after hitting mines, and a Belgian outlet carries Iran's claim of three tankers on fire.",
+     "text": "Trump says resuming strikes on Iran is 'highly unlikely' if negotiations produce progress, according to reports carried by several outlets in different regions. The remark is conditional on talks.",
      "stories": [
       "s1",
-      "s2",
-      "s7",
-      "s12",
-      "s14"
+      "s2"
      ],
      "sources": [
       {
-       "t": "Iran Suggests Blasts Are Not US Attacks as Both Sides Report Ships Hit",
-       "u": "https://english.aawsat.com/node/5338986",
-       "s": "Asharq Al-Awsat English",
-       "c": "SA",
+       "t": "Trump says he is highly unlikely to order Iran strikes if talks progress",
+       "u": "https://www.dailymaverick.co.za/article/2026-11-08-trump-says-he-is-highly-unlikely-to-order-iran-strikes-if-talks-progress/",
+       "s": "Daily Maverick",
+       "c": "ZA",
        "l": "en",
-       "p": 1794154329,
+       "p": 1794167405,
        "r": "known"
       },
       {
-       "t": "Iran says blasts in southern region not US attacks as both sides report ships hit",
-       "u": "https://www.hindustantimes.com/world-news/iran-says-blasts-in-southern-region-not-us-attacks-as-both-sides-report-ships-hit-101794151688812.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
+       "t": "U.S. unlikely to resume strikes on Iran if talks progress, Trump says",
+       "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iZk9xc0lrWUhfaGVlYWR2Q3pTUk1SdWo3cGhqS2JmdDc3b2o5LWZSWVA2UFNRUFpKWE13R2EteFZ5bWQzTFZwWHN3RXplQzRnV2x4NVlLMkRzdV9lc3VXd2FnTEUzVkw0NjFOdVVyYzB5dw?oc=5",
+       "s": "Globe and Mail",
+       "c": "CA",
        "l": "en",
-       "p": 1794152057,
+       "p": 1794165473,
        "r": "known"
       },
       {
-       "t": "Iran suggests blasts are not US attacks as both sides report ships hit",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit",
+       "t": "Trump says fresh strikes on Iran ‘highly unlikely’ if talks progress",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-fresh-strikes-iran-highly-unlikely-if-talks-progress",
        "s": "Middle East Eye",
        "c": "GB",
        "l": "en",
-       "p": 1794150559,
+       "p": 1794164034,
        "r": "known"
       },
       {
-       "t": "Iran suggests blasts are not US attacks as both sides report ships hit",
-       "u": "https://www.al-monitor.com/originals/2026/11/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit",
+       "t": "Trump says he is unlikely to order Iran attack if talks progress, CNN reports",
+       "u": "https://www.al-monitor.com/originals/2026/11/trump-says-he-unlikely-order-iran-attack-if-talks-progress-cnn-reports",
        "s": "Al-Monitor",
        "c": "US",
        "l": "en",
-       "p": 1794149202,
+       "p": 1794163587,
        "r": "known"
       },
       {
-       "t": "Iranian navy: fire breaks out on an oil tanker after it hits a naval mine east of Hormuz",
-       "o": "البحرية الإيرانية: اندلاع حريق في ناقلة نفط بعد اصطدامها بلغم بحري شرقي هرمز",
-       "u": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxQTjRsMmpLczZQdzNzUUsyeVFlbEgzUnFvSlJxczVXdF8tcm16SDVWTTRISG1QSjg4ekpjeVM5S0R6SEpNM3VseFczX0RYSU00TGxuWHVIWXdTcXB4X05wTHcwbUgwYldheU00VERESmJEWHhmM0xBVDg1M3AzYVpaWTJodWxMeG13cEI5SnhBZ2xiRkRGazJaMEJSY1Z0ZjQzZ0lld0c3NEl1Z1M3MWZjNi1YYWJ4TTVWY2NGa1B3LU81OGlxOHZzakZsSmxXTndvTk5JRS1IbExWZG1iODkyVmxubzB4YmRkc0NPbVd5TUxIaUNOV2cwVi00SVBkc0NweWZwQzNJVUJBNHhxOVFIVXNCM1JDeDhMdGUzNTRfUUVVVTZWb0FtdWhFUWxmcDVkdWpRSHVxZE94dW0wdXFtdTVyWUZmenJsX1VRRzZIU3VmTHBYdDhLQ01pZ2JZWWlqOHg5N2NWZUtVS2p5cWgycTlvMkFXeTJCZVBaTHdxd3FhRW1FdGpIT1RoOTRuMDh3LTZtV1F2MG83c29iYnlPNnN",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794155649,
-       "r": "unrated"
+       "t": "Trump says resumption of war with Iran ‘highly unlikely’",
+       "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZEdWbjg1aWNmU2VXVk1RblZYY2twUlNUTWdaNnBOR2FkcU1MenRzSHlGdG5qT1czOWpvTXJWbHQyMkhRXzVzX05ha29wTXVzcWlKd0g0NFJmV281SWcxZjNWci1wR2RtRWNRRXozc1NGZGRXSlZuRkJjZzRUSm9ibldLUE80SDFwUDJuWFdKU3Z1T1JrSGtNWURDaEdrTGhi?oc=5",
+       "s": "Arab News",
+       "c": "SA",
+       "l": "en",
+       "p": 1794165107,
+       "r": "known"
       }
      ],
-     "headlines": 16,
-     "outlets": 16,
-     "independent": 8,
+     "headlines": 11,
+     "outlets": 10,
+     "independent": 10,
      "countries": [
-      "AR",
-      "AU",
-      "BE",
-      "CH",
+      "CA",
+      "EG",
       "GB",
-      "HK",
-      "IN",
-      "LB",
+      "IL",
       "RU",
       "SA",
+      "US",
+      "ZA"
+     ],
+     "regions": 6,
+     "party_only": false,
+     "state": 3
+    },
+    {
+     "text": "The US has asked Iraq to shut most of its border crossings with Iran, Iraq's foreign minister says. This is reported by one independent outlet, carried by several others.",
+     "stories": [
+      "s3"
+     ],
+     "sources": [
+      {
+       "t": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
+       "u": "https://www.al-monitor.com/originals/2026/11/us-asks-iraq-shut-most-iran-border-crossings-iraqi-foreign-minister-says",
+       "s": "Al-Monitor",
+       "c": "US",
+       "l": "en",
+       "p": 1794167253,
+       "r": "known"
+      },
+      {
+       "t": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
+       "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU0xvM082aUhJSFBhMmo3R09sRHRhcU1PV1FOVnIxOHhiSUllSWtvYl9tV0FzbjNwdWZOY0Ryd2o1cGVaZUI3emhPYmRLNWR2Z05iRDZoMlIybG4tZVRlOWNCUndSaS1UZUw3S3daeXd4X0R3ekZ2QlFsRHBlVmZJOEJNUGxVSW4zcjBQSnNNaG94RDl0aENUdjFfQ0JkSEY3T1p6cXNDU0hwMGRYQTdnVTIxRlJVa0hrc3NpSg?oc=5",
+       "s": "Arab News",
+       "c": "SA",
+       "l": "en",
+       "p": 1794164947,
+       "r": "known"
+      },
+      {
+       "t": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
+       "u": "https://www.straitstimes.com/world/middle-east/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says",
+       "s": "The Straits Times",
+       "c": "SG",
+       "l": "en",
+       "p": 1794164618,
+       "r": "known"
+      },
+      {
+       "t": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
+       "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVVxWlAwOFI0ZGd4TUdTNFozbzE5TXN5UGx3R0NnX0JRdExfcVhSb21iYklFOXJ2QUpncXdoSFB3eE1NS0FFeHljZXQxeWlEVTNKVWd1eFVLWTZmbVpsSUs5Q3NqNUk2b1JYQVNxSFIyTTMxZERFdDBWVUFfUFZ2MkFtOUlIYm5VbE9kQ2kzVmdUTV9pZHFxNWNvUVFhYkI1WHc5LTZSS0JMR1Nka3gwSjgzWWFZZXN6OFFTRHB5Rzk1THIz?oc=5",
+       "s": "Reuters",
+       "c": "GB",
+       "l": "en",
+       "p": 1794164503,
+       "r": "known"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 1,
+     "countries": [
+      "GB",
+      "SA",
+      "SG",
       "US"
      ],
-     "regions": 9,
+     "regions": 4,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Israel's defence minister says Israel's mission against Iran is not over, and the army says it is ready to resume operations. Israel says it is ready for all scenarios.",
+     "text": "Iran's foreign minister Araghchi says it is now the White House's turn to choose between a deal and war, and calls on the US to end the war 'on all fronts'. These are Iranian statements, reported by Iranian and UK outlets.",
      "stories": [
-      "s3",
-      "s8"
+      "s7",
+      "s12",
+      "s13"
      ],
      "sources": [
       {
-       "t": "Netanyahu's minister says Israel's mission against Iran \"is not over",
-       "o": "Ministro de Netanyahu diz que missão de Israel contra o Irã 'não está concluída'",
-       "u": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/ministro-de-netanyahu-diz-que-missao-de-israel-contra-o-ira-nao-esta-concluida.shtml",
-       "s": "Folha Mundo",
-       "c": "BR",
-       "l": "pt",
-       "p": 1794149460,
+       "t": "Iran's Araghchi calls on the US to end war 'on all fronts'",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-araghchi-calls-us-end-war-all-fronts",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794162842,
        "r": "known"
       },
       {
-       "t": "Israel warns the mission against Iran is not over; the army is ready to resume military operations",
-       "o": "Israelul avertizează că misiunea împotriva Iranului nu s - a încheiat . Armata este pregătită să reia operațiunile militare",
-       "u": "https://www.capital.ro/israelul-avertizeaza-ca-misiunea-impotriva-iranului-nu-s-a-incheiat-armata-este-pregatita-sa-reia-operatiunile-militare.html",
-       "s": "capital.ro",
-       "c": "RO",
-       "l": "ro",
-       "p": 1794153600,
-       "r": "unrated"
+       "t": "Araghchi: Now it is White House’s turn to make a choice",
+       "u": "https://en.irna.ir/news/86316245/Araghchi-Now-it-is-White-House-s-turn-to-make-a-choice",
+       "s": "IRNA English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794162505,
+       "r": "state"
       },
       {
-       "t": "War in Iran: Israel says it is \"ready for all scenarios\" facing Tehran",
-       "o": "Guerre en Iran : Israël se dit « prêt à tous les scénarios » face à Téhéran",
-       "u": "https://www.lessentiel.lu/fr/story/proche-orient-la-mission-d-israel-en-iran-n-est-pas-terminee-103664072",
-       "s": "lessentiel.lu",
-       "c": "LU",
-       "l": "fr",
-       "p": 1794153600,
-       "r": "unrated"
+       "t": "White House must choose between deal and war: Iran FM",
+       "u": "https://en.mehrnews.com/news/249250/White-House-must-choose-between-deal-and-war-Iran-FM",
+       "s": "Mehr English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794161906,
+       "r": "state"
       }
      ],
      "headlines": 3,
      "outlets": 3,
      "independent": 3,
      "countries": [
-      "BR",
-      "LU",
-      "RO"
+      "GB",
+      "IR"
      ],
      "regions": 2,
      "party_only": false,
-     "state": 0
+     "state": 2
     },
     {
-     "text": "The US plans a task force to cut off overland cargo routes to Iran, which Iran mocks as 'wordplay'. Analysts question whether the land blockade will work.",
+     "text": "Iran's army reports another tanker fire east of the Strait of Hormuz. This is Iran's own claim and has not been confirmed by independent sources.",
      "stories": [
-      "s5",
-      "s9",
-      "s20"
+      "s9"
      ],
      "sources": [
       {
-       "t": "'Iron Gate plan is merely wordplay': Iran mocks US military initiative to disrupt supply routes",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iron-gate-plan-merely-wordplay-iran-mocks-us-military-initiative-disrupt",
-       "s": "Middle East Eye",
-       "c": "GB",
+       "t": "Iranian Army reports another tanker fire in east of Hormuz",
+       "u": "https://en.irna.ir/news/86316283/Iranian-Army-reports-another-tanker-fire-in-east-of-Hormuz",
+       "s": "IRNA English",
+       "c": "IR",
        "l": "en",
-       "p": 1794153792,
-       "r": "known"
-      },
-      {
-       "t": "US military to set up task force to cut off overland cargo routes to Iran",
-       "o": "กองทัพสหรัฐฯ จ่อตั้งหน่วยเฉพาะกิจ ตัดเส้นทางขนสินค้าทางบกสู่อิหร่าน",
-       "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xYjVfWG42TkpkSk1zQ0pXWHVTTEdocTBwMHNRZDMwVlhKWHZpdEJsSnQ4NnhKdEppb2I0OVN5MG0waGpySnI2VzBKUGxRMThrMTNvUHdIbHRlT1U?oc=5",
-       "s": "www.thairath.co.th",
-       "c": "TH",
-       "l": "th",
-       "p": 1794152162,
-       "r": "unrated"
-      },
-      {
-       "t": "The US wants to cut off Iran’s access to weapons via its land borders, will this work? - analysis",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914225",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794153364,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "GB",
-      "IL",
-      "TH"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "The US has offered up to $20 million for information on Iran's nuclear programme, reported by a Washington Post item and a Ukrainian outlet.",
-     "stories": [
-      "s6"
-     ],
-     "sources": [
-      {
-       "t": "U.S. offers $20 million reward for information on Iran nuclear program",
-       "u": "https://www.washingtonpost.com/national-security/2026/11/08/us-offers-20-million-reward-information-iran-nuclear-program/",
-       "s": "Washington Post World",
-       "c": "US",
-       "l": "en",
-       "p": 1794153600,
-       "r": "known"
-      },
-      {
-       "t": "U.S. offers up to $20 million for information on Iran’s nuclear program",
-       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMTY5UFVQRWxxRFZyUUJiSHNsMHZXWm04VlBTWUE3eEEtSUFaR3R1TU04NHAxbGt5YkRsNDgyWDVJeFNZWkRQazgzWUR2Vm82MHhsbG9mQkNUYnNkOVFodXVvOGQzRlJtelllX25vWWd1MHdyRXp6eGpfY2lrY1hwelJWZEd6UC1rbjVuU3Ffdl9jdUtsQXhqSjk0bFVnTFFnRk1KSmNObWNhTGhVR00wRGRB0gGuAUFVX3lxTE0tTExPbldMek9uQTdVTHczcHNDRzY1M1B1YmJqUmlJVmNjM3JSWENuMS1BMnBEUVVxMi1uQlYwaXpJemVwV0EzUTM1ajUtTlZDLUFBaGVxd1hiX3hfUlEwSDhnRVVNZWhHWmRLQmRwRTNOWjdwU3puY0FoN2FLOUtPc0cwM182VE1GSlR4STFpWnpTSnZMWjg1aFJDM0REQlFJc1NhQkZQZHVRS05sUQ?oc=5",
-       "s": "The New Voice of Ukraine",
-       "c": "UA",
-       "l": "en",
-       "p": 1794153540,
-       "r": "unrated"
+       "p": 1794166782,
+       "r": "state"
       }
      ],
      "headlines": 2,
      "outlets": 2,
      "independent": 1,
      "countries": [
-      "UA",
-      "US"
+      "IR"
      ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
+     "regions": 1,
+     "party_only": true,
+     "state": 2
     },
     {
-     "text": "Iran condemns what it calls 'Saudi aggression' after dozens were reported killed in an attack on a market in Taiz. Only one independent outlet carries this, so it is unconfirmed.",
+     "text": "Trump says Iran has preserved about 10% of its missile production facilities and 15% of its drone production facilities. This is a single Russian state-media report of Trump's claim.",
      "stories": [
       "s4"
      ],
      "sources": [
       {
-       "t": "Iran condemns ‘Saudi aggression’ after dozens killed in attack on Taiz market",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-condemns-saudi-aggression-after-dozens-killed-attack-taiz-market",
-       "s": "Middle East Eye",
-       "c": "GB",
+       "t": "Iran preserves 10% of missile, 15% of drone production facilities — Trump",
+       "u": "https://tass.com/world/2214525",
+       "s": "TASS English",
+       "c": "RU",
        "l": "en",
-       "p": 1794155815,
-       "r": "known"
+       "p": 1794165669,
+       "r": "state"
       }
      ],
      "headlines": 1,
      "outlets": 1,
      "independent": 1,
      "countries": [
-      "GB"
+      "RU"
      ],
      "regions": 1,
      "party_only": false,
-     "state": 0
+     "state": 1
     }
    ],
    "watch": [
-    "Whether Iran's count of three tankers on fire is confirmed by independent sources",
-    "Any move by Israel to resume operations against Iran",
-    "The US overland cargo task force and Iran's response on its northern routes"
+    "Whether the talks Trump refers to produce a visible step, and whether Iran's proposals on reopening Hormuz stay on the table",
+    "Whether Iraq confirms closing most Iran border crossings and how the US land-cargo plan proceeds",
+    "Whether the Iranian tanker-fire claims are confirmed by independent shipping or maritime sources"
    ],
    "window_hours": 3,
-   "headlines_read": 38,
-   "outlets_read": 33,
-   "countries_read": 19,
-   "languages_read": 8,
+   "headlines_read": 29,
+   "outlets_read": 17,
+   "countries_read": 11,
+   "languages_read": 1,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
