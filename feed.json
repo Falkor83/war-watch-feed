@@ -1716,9 +1716,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Tanker fires reported in Hormuz as Israel says Iran mission 'not complete'",
+   "status": "Hormuz tanker fires disputed; Iran denies US strikes, Israel says Iran mission not over",
    "summary": "The US and Israel have fought Iran on and off in 2026, and an April ceasefire and a June memorandum both broke down by July. The US then reimposed its blockade, and Iran has kept the Strait of Hormuz closed to traffic it does not approve. Trump confirmed new US strikes on an Iranian air defence system and called them minor. Iran's military says two more tankers caught fire after hitting mines on what it calls an unauthorised route, and explosions were reported on Qeshm Island and at Jask; no maritime authority has confirmed the mine claims. The US has also offered up to $20 million for information on Iran's nuclear programme, while Oman and Qatar keep up mediation.",
    "latest": [
+    {
+     "date": "2026-11-08",
+     "at": "2026-11-08T17:30:46Z",
+     "text": "Independent outlets report that both sides say ships were hit in the Strait of Hormuz, but Iran says the blasts were not US attacks. The Revolutionary Guards say two tankers caught fire after hitting mines, and a Belgian outlet carries Iran's claim of three tankers on fire.",
+     "outlet": "Asharq Al-Awsat English",
+     "country": "Saudi Arabia",
+     "url": "https://english.aawsat.com/node/5338986",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "at": "2026-11-08T17:30:46Z",
+     "text": "Israel's defence minister says Israel's mission against Iran is not over, and the army says it is ready to resume operations. Israel says it is ready for all scenarios.",
+     "outlet": "Folha Mundo",
+     "country": "Brazil",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/ministro-de-netanyahu-diz-que-missao-de-israel-contra-o-ira-nao-esta-concluida.shtml",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "at": "2026-11-08T17:30:46Z",
+     "text": "The US plans a task force to cut off overland cargo routes to Iran, which Iran mocks as 'wordplay'. Analysts question whether the land blockade will work.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iron-gate-plan-merely-wordplay-iran-mocks-us-military-initiative-disrupt",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-08",
      "at": "2026-11-08T14:13:47Z",
@@ -1770,37 +1803,6 @@
      "outlet": "Asharq Al-Awsat",
      "country": "Saudi Arabia",
      "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxNSVRMa0htSXF1MjlOUnM2WnZ0c1pZakZmR1kwSnQwWkNUaUZlRnJHTWJvR21nbWxISGY4VHZUMlVobTZyNXFOdnNNZ09sWWpCS0pjaTVEOGE5T3RCWUNycWk0dWRicEZEU2RRcGNLSXlwdUJEZE4zZFlHNkhLb0taRDV5OU5pYnpCSDZyeUV1aktKMEFOZHlxdmF0Z3VDcE9DYkQ4Y01EVjFkby0xUUt0UXFxaU9kazRTRldGdEU5RmhoeFU0eGdQQTdSRjFncUlvN3NJTS1ZcWxVTlZHREZYaV9KM1ZlMFowS2VINDZ4cnl3Ump0NmNsYXBjNXFGX2JJamlMcUhzczByN2lONTRzb0k3dlowZC1ISV9FZGtvcHoxajAtbXJSanlGeVRiTWpWTGRBQldUdm9VeHo4bVZ5Wlgtc0htZFc5NmZ1cmJDNGNuQklKXzhYQTdNZ2pPS3dUMmt1YVk2bHVsdnBWamNNdDY0R3hNN1oxRDdpWW5GcnRzaUQ5djlSSDRmcTNRc2lfWG03Y0pIWjZMQ2o3dV9WeWN",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "at": "2026-11-08T11:26:58Z",
-     "text": "The US military has formed an 'Iron Gate' task force to disrupt Iranian weapons supply routes by land. The Revolutionary Guards dismiss the plan as 'wordplay', and Tehran downplays it.",
-     "outlet": "Al Arabiya English",
-     "country": "Saudi Arabia",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQejlsNkRFNWEwZUh0N0hLRzY5NW9uVThFbzRvX1NZbDVfSjZUSjYtMXhKUlhvTXF0ZDNGamY4ZE4zd1pJNTZQOHVvdUloTUV3aHlNX1kybzN1MUc2UUFkTXFLYmpET3JEV0xTcnhVc3N2YzdaMnBOQmxUVkwyOWN0TVJ2YXNUVm9XSE95YUJISVlCaHpyNFZFa21mZU1iaU8zZURYcHpBZFNMVlRFcGdPRTdDTElFQVZ6WFJrRFgyZmxHYVozSUVpOHJRUDlNU0RaVkY4Nk9xSi3SAd4BQVVfeXFMTmJjczdTcmxfVnJIcmxPTFJ4ajY3Q3hvSExLYWFHeTM3dGRjb1ZxMVhfNnNibXVMSy1HMHY4MkRacmtvTVZ3Sjcwdmpaai1udy1ZSzlmRU5UVzFQN0tZcXBUUy1YbVVtRmROQWRjRVJhbjlXY0xvRzE1M291S0U1NmlfR1N1Vk1ReXBySHE0X2ZobzFBeXFkeHFMRmhxU3FfX0J6N2FBaUU2T3A0WG8yNXU4dnFXSGxZWE5iUlg4N0owdDRVM09",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "text": "Iranian military said two more tankers caught fire after hitting mines on an 'unauthorised route'. ABC Australia notes the cause of separate blasts on Qeshm was unclear.",
-     "outlet": "ABC News Australia",
-     "country": "Australia",
-     "url": "https://www.abc.net.au/news/2026-11-08/iran-strait-of-hormuz-update-explosions-talks/107360730",
-     "region": "oceania",
-     "tag": "party-gov",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "text": "Gulf News notes Iran is not known to have missiles beyond 2,000 km. That range already covers the Arabian Peninsula, the Levant and parts of Greece.",
-     "outlet": "Gulf News",
-     "country": "United Arab Emirates",
-     "url": "https://gulfnews.com/world/mena/middle-east-war-update-qeshm-island-strike-raises-tensions-talks-continue-1.500739148",
      "region": "gulf",
      "tag": "non-party",
      "state_media": false
@@ -11549,240 +11551,226 @@
      "at": "2026-11-08T14:13:47Z",
      "headline": "Tanker fires reported in Hormuz as Israel says Iran mission 'not complete'",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-08T17:30:46Z",
+     "headline": "Hormuz tanker fires disputed; Iran denies US strikes, Israel says Iran mission not over",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-08T14:13:47Z",
-   "next_at": "2026-11-08T17:13:47Z",
-   "headline": "Tanker fires reported in Hormuz as Israel says Iran mission 'not complete'",
-   "direction": "escalating",
+   "updated_at": "2026-11-08T17:30:46Z",
+   "next_at": "2026-11-08T20:30:46Z",
+   "headline": "Hormuz tanker fires disputed; Iran denies US strikes, Israel says Iran mission not over",
+   "direction": "steady",
    "points": [
     {
-     "text": "UKMTO reports two incidents involving tankers in the Strait of Hormuz, and Britain says two tankers were attacked overnight. Iran's Revolutionary Guards say three tankers were hit by mines or ships blown up and caught fire, a higher count than the independent reports give.",
-     "stories": [
-      "s6",
-      "s2",
-      "s4"
-     ],
-     "sources": [
-      {
-       "t": "UKMTO reports two incidents with tankers in Strait of Hormuz",
-       "u": "https://tass.com/world/2214475",
-       "s": "TASS English",
-       "c": "RU",
-       "l": "en",
-       "p": 1794145159,
-       "r": "state"
-      },
-      {
-       "t": "Britain: two tankers attacked last night in the Strait of Hormuz",
-       "o": "בריטניה: שתי מכליות הותקפו אמש במצר הורמוז",
-       "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZFZ5T3ZrZER2QTV4SHJ4QV9TZlpZWWZCUDVKV1YyVEdnczNYRTM3TkF2R1BqV21JZ2tYX281WEhZbUlBN0d4X2NZSXFCYUZSX0c1Uld2Z3c1c0kyYXc0T2Y0Tkw2cS1IdDF1T2NmNDFmNkh2N3h2cWRUQ1pYVFhDYlJB?oc=5",
-       "s": "כאן 11",
-       "c": "IL",
-       "l": "he",
-       "p": 1794139253,
-       "r": "unrated"
-      },
-      {
-       "t": "Three tankers hit mines and caught fire in the Strait of Hormuz",
-       "o": "Три танкера подорвались на минах и загорелись в Ормузском проливе",
-       "u": "https://www.rbc.ru/rbcfreenews/6af0650906ff112d6db18e94",
-       "s": "RBC",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794140983,
-       "r": "known"
-      },
-      {
-       "t": "Iran says 3 tankers caught fire in Strait of Hormuz",
-       "u": "https://globalnation.inquirer.net/346316/iran-says-3-tankers-caught-fire-in-strait-of-hormuz",
-       "s": "Inquirer Global Nation",
-       "c": "PH",
-       "l": "en",
-       "p": 1794139514,
-       "r": "known"
-      },
-      {
-       "t": "Iran says three tankers caught fire in Strait of Hormuz",
-       "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTkktRFZfTFk5UDR1THdxSDU1aThxMlNuZldPVkR6SHNVOHpJYVdWbjFTSTlLaDVMLU5iUmlfTjJTWE4wSTM1cW5yd0VXM3RCMXQ2NEhTanZHWlFSWG8tN3djRC1tRlVMblJtWmFpQ21uMkRZODNnTTZVYTVkTGZoblhWc2ZMR2JPR25kdTFiMGl6QzYwNmQxb0NRZHNvdUdZQjJGcWRmS3J3VV9pZHhyRG9HSdIBuAFBVV95cUxQOWZRU2NLN2IyT2dPLXE2SFdxNHpRdHlrVGZaYmtsaHZmaTVLQXRXQkVCdExHci1hUS0wUy1mbmxGN1VMT2JUdk5CbFRpTUFmSk9CX0lqZGQ3VTFWc3p4U0RMM09YNWwxb0M5VGFjMDZiaTZYbm51c01KOGgwTzVaWm9JUDVOOURaTlVHeEp3Y0F3RGlLM2NQMW5Ec0Z5TS1fNkxuQzNVdUd3Z0R6eVlHVnVPTUc0QnBz?oc=5",
-       "s": "Al Arabiya English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794139440,
-       "r": "known"
-      }
-     ],
-     "headlines": 10,
-     "outlets": 9,
-     "independent": 8,
-     "countries": [
-      "GB",
-      "IL",
-      "IR",
-      "PH",
-      "RU",
-      "SA"
-     ],
-     "regions": 6,
-     "party_only": false,
-     "state": 4
-    },
-    {
-     "text": "Israeli Defence Minister Katz says Israel's mission in Iran is not complete and that Tehran is seeking a nuclear weapon. He also warned Hezbollah against joining the fighting. These are Israel's claims.",
+     "text": "Independent outlets report that both sides say ships were hit in the Strait of Hormuz, but Iran says the blasts were not US attacks. The Revolutionary Guards say two tankers caught fire after hitting mines, and a Belgian outlet carries Iran's claim of three tankers on fire.",
      "stories": [
       "s1",
-      "s3",
-      "s5"
+      "s2",
+      "s7",
+      "s12",
+      "s14"
      ],
      "sources": [
       {
-       "t": "Israel says Iran mission ‘not complete’: ‘They’re trying to get nuclear weapons'",
-       "u": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
+       "t": "Iran Suggests Blasts Are Not US Attacks as Both Sides Report Ships Hit",
+       "u": "https://english.aawsat.com/node/5338986",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794154329,
+       "r": "known"
+      },
+      {
+       "t": "Iran says blasts in southern region not US attacks as both sides report ships hit",
+       "u": "https://www.hindustantimes.com/world-news/iran-says-blasts-in-southern-region-not-us-attacks-as-both-sides-report-ships-hit-101794151688812.html",
        "s": "Hindustan Times World",
        "c": "IN",
        "l": "en",
-       "p": 1794142825,
+       "p": 1794152057,
        "r": "known"
       },
       {
-       "t": "Iran reports 3 tanker fires as Israel warns of unfinished mission",
-       "u": "https://www.dailysabah.com/world/mid-east/iran-reports-3-tanker-fires-as-israel-warns-of-unfinished-mission",
-       "s": "Daily Sabah",
-       "c": "TR",
-       "l": "en",
-       "p": 1794138540,
-       "r": "known"
-      },
-      {
-       "t": "Katz: Israel has not completed its mission and Tehran is seeking a nuclear weapon",
-       "o": "كاتس: إسرائيل لم تستكمل مهمتها وطهران تسعى لامتلاك سلاح نووي",
-       "u": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOQ0xPc2JNZVpiTW0zUW1ybnZFcl8taC1GeGtfUHlEQU1acWFGUUtFWV9XYTlWMUdUVHNhNFRwZE16WXlYcjdqQy1pQ0o1SC1GV2tRSEkxQlBGclNhdEV2LWFfUjdzNlVWMk42Wi0tbENTa3hBQ25Dd2xHYWNuMHJqY0lweVdwYVd4dWhHNl9tT09ReVhsOVBoVVJPUGRMYTc3TzFqQWxvTDk4cjA2ZnlPVFh0MHdmbjNnUmI1Z1hWWlFUTlBkSmt6Wmo0dVlLc1pqblBIWlkwdVhFTnNsQm9xNTcyUzBnYTBBbDQ1YWJsN0Yta0UxYnNhS3lkTDI0cHctWWVwVUtRdHJMWnlLYTBGU2RMMS0yMWY0SzJSazM0NnFrMUpyOTFIdzhWbXBPNWpNSFY1NlAxOE1uQTFqbFo3SXFKcENSd0t2Vm9kZkRxbXFYdw?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "ar",
-       "p": 1794138308,
-       "r": "known"
-      },
-      {
-       "t": "Israel says it \"has not yet completed its mission in Iran,\" while Tehran vows to thwart any plan to blockade its economy",
-       "o": "إسرائيل تؤكد أنها \"لم تنجز مهمتها بعد في إيران\"، وطهران تتوعد بإفشال أي خطة لحصار اقتصادها",
-       "u": "https://www.bbc.com/arabic/articles/c5zjxr1vpenro?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Arabic",
+       "t": "Iran suggests blasts are not US attacks as both sides report ships hit",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit",
+       "s": "Middle East Eye",
        "c": "GB",
-       "l": "ar",
-       "p": 1794142260,
+       "l": "en",
+       "p": 1794150559,
        "r": "known"
       },
       {
-       "t": "Israel said the mission against Iran's regime \"is not yet complete\" and warned Hezbollah",
-       "o": "Israel afirmó que la misión contra el régimen de Irán “aún no está completa” y advirtió a Hezbollah",
-       "u": "https://www.infobae.com/america/mundo/2026/11/08/israel-afirmo-que-la-mision-contra-el-regimen-de-iran-aun-no-esta-completa-y-advirtio-a-hezbollah/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1794140837,
+       "t": "Iran suggests blasts are not US attacks as both sides report ships hit",
+       "u": "https://www.al-monitor.com/originals/2026/11/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit",
+       "s": "Al-Monitor",
+       "c": "US",
+       "l": "en",
+       "p": 1794149202,
        "r": "known"
+      },
+      {
+       "t": "Iranian navy: fire breaks out on an oil tanker after it hits a naval mine east of Hormuz",
+       "o": "البحرية الإيرانية: اندلاع حريق في ناقلة نفط بعد اصطدامها بلغم بحري شرقي هرمز",
+       "u": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxQTjRsMmpLczZQdzNzUUsyeVFlbEgzUnFvSlJxczVXdF8tcm16SDVWTTRISG1QSjg4ekpjeVM5S0R6SEpNM3VseFczX0RYSU00TGxuWHVIWXdTcXB4X05wTHcwbUgwYldheU00VERESmJEWHhmM0xBVDg1M3AzYVpaWTJodWxMeG13cEI5SnhBZ2xiRkRGazJaMEJSY1Z0ZjQzZ0lld0c3NEl1Z1M3MWZjNi1YYWJ4TTVWY2NGa1B3LU81OGlxOHZzakZsSmxXTndvTk5JRS1IbExWZG1iODkyVmxubzB4YmRkc0NPbVd5TUxIaUNOV2cwVi00SVBkc0NweWZwQzNJVUJBNHhxOVFIVXNCM1JDeDhMdGUzNTRfUUVVVTZWb0FtdWhFUWxmcDVkdWpRSHVxZE94dW0wdXFtdTVyWUZmenJsX1VRRzZIU3VmTHBYdDhLQ01pZ2JZWWlqOHg5N2NWZUtVS2p5cWgycTlvMkFXeTJCZVBaTHdxd3FhRW1FdGpIT1RoOTRuMDh3LTZtV1F2MG83c29iYnlPNnN",
+       "s": "الشرق للأخبار",
+       "c": "LB",
+       "l": "ar",
+       "p": 1794155649,
+       "r": "unrated"
       }
      ],
-     "headlines": 12,
-     "outlets": 11,
-     "independent": 11,
+     "headlines": 16,
+     "outlets": 16,
+     "independent": 8,
      "countries": [
       "AR",
+      "AU",
+      "BE",
+      "CH",
       "GB",
+      "HK",
       "IN",
-      "QA",
-      "TR",
+      "LB",
+      "RU",
+      "SA",
       "US"
      ],
-     "regions": 6,
+     "regions": 9,
      "party_only": false,
-     "state": 1
+     "state": 0
     },
     {
-     "text": "Iran warns that mines are waiting in the Strait, and the Revolutionary Guards vow a 'devastating response' to a new US and Israeli operation. Iran also says the Strait is fully under Revolutionary Guard Navy control. These are Iranian statements that independent outlets have not confirmed.",
+     "text": "Israel's defence minister says Israel's mission against Iran is not over, and the army says it is ready to resume operations. Israel says it is ready for all scenarios.",
      "stories": [
-      "s7",
-      "s8",
-      "s23"
+      "s3",
+      "s8"
      ],
      "sources": [
       {
-       "t": "Iran warns about Hormuz: \"Mines are waiting",
-       "o": "İran'dan Hürmüz uyarısı: 'Mayınlar bekliyor'",
-       "u": "https://www.hurriyet.com.tr/dunya/irandan-hurmuz-uyarisi-mayinlar-bekliyor-43370550",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794142093,
+       "t": "Netanyahu's minister says Israel's mission against Iran \"is not over",
+       "o": "Ministro de Netanyahu diz que missão de Israel contra o Irã 'não está concluída'",
+       "u": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/ministro-de-netanyahu-diz-que-missao-de-israel-contra-o-ira-nao-esta-concluida.shtml",
+       "s": "Folha Mundo",
+       "c": "BR",
+       "l": "pt",
+       "p": 1794149460,
        "r": "known"
       },
       {
-       "t": "IRGC says Iran will deliver a devastating response to new US and Israeli operation",
-       "o": "В КСИР заявили, что Иран даст разрушительный ответ на новую операцию США и Израиля",
-       "u": "https://www.interfax.ru/world/1127685",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794145380,
-       "r": "known"
+       "t": "Israel warns the mission against Iran is not over; the army is ready to resume military operations",
+       "o": "Israelul avertizează că misiunea împotriva Iranului nu s - a încheiat . Armata este pregătită să reia operațiunile militare",
+       "u": "https://www.capital.ro/israelul-avertizeaza-ca-misiunea-impotriva-iranului-nu-s-a-incheiat-armata-este-pregatita-sa-reia-operatiunile-militare.html",
+       "s": "capital.ro",
+       "c": "RO",
+       "l": "ro",
+       "p": 1794153600,
+       "r": "unrated"
       },
       {
-       "t": "Strait of Hormuz fully under IRGC Navy control: spox",
-       "u": "https://en.mehrnews.com/news/249243/Strait-of-Hormuz-fully-under-IRGC-Navy-control-spox",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794140092,
-       "r": "state"
+       "t": "War in Iran: Israel says it is \"ready for all scenarios\" facing Tehran",
+       "o": "Guerre en Iran : Israël se dit « prêt à tous les scénarios » face à Téhéran",
+       "u": "https://www.lessentiel.lu/fr/story/proche-orient-la-mission-d-israel-en-iran-n-est-pas-terminee-103664072",
+       "s": "lessentiel.lu",
+       "c": "LU",
+       "l": "fr",
+       "p": 1794153600,
+       "r": "unrated"
       }
      ],
-     "headlines": 5,
-     "outlets": 4,
-     "independent": 4,
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
      "countries": [
-      "IR",
-      "RU",
-      "TR"
+      "BR",
+      "LU",
+      "RO"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "The US plans a task force to cut off overland cargo routes to Iran, which Iran mocks as 'wordplay'. Analysts question whether the land blockade will work.",
+     "stories": [
+      "s5",
+      "s9",
+      "s20"
+     ],
+     "sources": [
+      {
+       "t": "'Iron Gate plan is merely wordplay': Iran mocks US military initiative to disrupt supply routes",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iron-gate-plan-merely-wordplay-iran-mocks-us-military-initiative-disrupt",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794153792,
+       "r": "known"
+      },
+      {
+       "t": "US military to set up task force to cut off overland cargo routes to Iran",
+       "o": "กองทัพสหรัฐฯ จ่อตั้งหน่วยเฉพาะกิจ ตัดเส้นทางขนสินค้าทางบกสู่อิหร่าน",
+       "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xYjVfWG42TkpkSk1zQ0pXWHVTTEdocTBwMHNRZDMwVlhKWHZpdEJsSnQ4NnhKdEppb2I0OVN5MG0waGpySnI2VzBKUGxRMThrMTNvUHdIbHRlT1U?oc=5",
+       "s": "www.thairath.co.th",
+       "c": "TH",
+       "l": "th",
+       "p": 1794152162,
+       "r": "unrated"
+      },
+      {
+       "t": "The US wants to cut off Iran’s access to weapons via its land borders, will this work? - analysis",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914225",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794153364,
+       "r": "known"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "GB",
+      "IL",
+      "TH"
      ],
      "regions": 3,
      "party_only": false,
-     "state": 2
+     "state": 0
     },
     {
-     "text": "A Ukrainian outlet reports a US strike on a vessel that tried to bypass Iran's blockade, citing US reports. Only one source carries this, so it stays unconfirmed. The US 'Iron Gate' task force is still in the news, reported only by US outlets.",
+     "text": "The US has offered up to $20 million for information on Iran's nuclear programme, reported by a Washington Post item and a Ukrainian outlet.",
      "stories": [
-      "s11",
-      "s24"
+      "s6"
      ],
      "sources": [
       {
-       "t": "US reports strike on vessel that tried to bypass Iran's blockade",
-       "o": "США розповіли про удар по судну, яке намагалося обійти блокаду Ірану",
-       "u": "https://www.pravda.com.ua/news/2026/11/08/8061818/",
-       "s": "Ukrainska Pravda UA",
-       "c": "UA",
-       "l": "uk",
-       "p": 1794143460,
+       "t": "U.S. offers $20 million reward for information on Iran nuclear program",
+       "u": "https://www.washingtonpost.com/national-security/2026/11/08/us-offers-20-million-reward-information-iran-nuclear-program/",
+       "s": "Washington Post World",
+       "c": "US",
+       "l": "en",
+       "p": 1794153600,
        "r": "known"
       },
       {
-       "t": "Trump unveils 'Iron Gate' task force against Iran as Saudis launch deadly strikes on Houthi rebels",
-       "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcDdXQmM2WGt1cDZsNmt4Nk1iUWZTdTdzT2lvNnJtak1XbUVURkNlaWNsci1wOEUxTkdwZjFHSUNkMENJWEJuX0J2RTZoXzh2NHUxUFZxZ2hfb3NPcE03UzBfdGs5ckxkNWtKS2RBM21KenFHRlgzRlJTdnA5RnRpQXBpcw?oc=5",
-       "s": "Fox News",
-       "c": "US",
+       "t": "U.S. offers up to $20 million for information on Iran’s nuclear program",
+       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMTY5UFVQRWxxRFZyUUJiSHNsMHZXWm04VlBTWUE3eEEtSUFaR3R1TU04NHAxbGt5YkRsNDgyWDVJeFNZWkRQazgzWUR2Vm82MHhsbG9mQkNUYnNkOVFodXVvOGQzRlJtelllX25vWWd1MHdyRXp6eGpfY2lrY1hwelJWZEd6UC1rbjVuU3Ffdl9jdUtsQXhqSjk0bFVnTFFnRk1KSmNObWNhTGhVR00wRGRB0gGuAUFVX3lxTE0tTExPbldMek9uQTdVTHczcHNDRzY1M1B1YmJqUmlJVmNjM3JSWENuMS1BMnBEUVVxMi1uQlYwaXpJemVwV0EzUTM1ajUtTlZDLUFBaGVxd1hiX3hfUlEwSDhnRVVNZWhHWmRLQmRwRTNOWjdwU3puY0FoN2FLOUtPc0cwM182VE1GSlR4STFpWnpTSnZMWjg1aFJDM0REQlFJc1NhQkZQZHVRS05sUQ?oc=5",
+       "s": "The New Voice of Ukraine",
+       "c": "UA",
        "l": "en",
-       "p": 1794140004,
-       "r": "known"
+       "p": 1794153540,
+       "r": "unrated"
       }
      ],
      "headlines": 2,
      "outlets": 2,
-     "independent": 2,
+     "independent": 1,
      "countries": [
       "UA",
       "US"
@@ -11790,18 +11778,44 @@
      "regions": 2,
      "party_only": false,
      "state": 0
+    },
+    {
+     "text": "Iran condemns what it calls 'Saudi aggression' after dozens were reported killed in an attack on a market in Taiz. Only one independent outlet carries this, so it is unconfirmed.",
+     "stories": [
+      "s4"
+     ],
+     "sources": [
+      {
+       "t": "Iran condemns ‘Saudi aggression’ after dozens killed in attack on Taiz market",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-condemns-saudi-aggression-after-dozens-killed-attack-taiz-market",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794155815,
+       "r": "known"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "GB"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 0
     }
    ],
    "watch": [
-    "Whether UKMTO or other shipping bodies confirm the number of tankers hit, since Iran's figure of three is above the two independent reports",
-    "Any Israeli move against Hezbollah after Katz's warning",
-    "Whether the US confirms a strike on a blockade-running vessel or a new Iron Gate action"
+    "Whether Iran's count of three tankers on fire is confirmed by independent sources",
+    "Any move by Israel to resume operations against Iran",
+    "The US overland cargo task force and Iran's response on its northern routes"
    ],
    "window_hours": 3,
-   "headlines_read": 45,
-   "outlets_read": 36,
-   "countries_read": 16,
-   "languages_read": 11,
+   "headlines_read": 38,
+   "outlets_read": 33,
+   "countries_read": 19,
+   "languages_read": 8,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
