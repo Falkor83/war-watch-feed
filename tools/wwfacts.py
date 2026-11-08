@@ -166,10 +166,7 @@ def homeland_items(get=_get, log=print, parse_feed=None, parse_date=None, sleep=
         sleep(2)
     out = []
     for kind, it, src in got:
-        title = re.sub(r"\s+-\s+(U\.S\.\s+)?(Department of Justice|Federal Bureau of Investigation|FBI|Homeland Security|"
-                       r"DHS|U\.S\. Department of State|State Department|Travel\.State\.gov|\(\.gov\)).*$", "", it["title"]).strip()
-        title = re.sub(r"\s*\|\s*Travel\.State\.gov\s*$", "", title)
-        title = re.sub(r"^[^|]{3,60}(District of|Attorney.s Office|Field Office)[^|]*\|\s*", "", title)   # "Western District of X | ..."
+        title = tidy_title(it["title"])
         if not src or not IRAN.search(title) and kind == "case": continue
         if kind == "case" and not CASE_WORDS.search(title): continue
         if kind == "bulletin" and not re.search(r"NTAS|Terrorism Advisory", title, re.I): continue
@@ -180,11 +177,21 @@ def homeland_items(get=_get, log=print, parse_feed=None, parse_date=None, sleep=
                     "date": datetime.datetime.fromtimestamp(ts, datetime.timezone.utc).date().isoformat()})
     return out
 
+def tidy_title(t):
+    """Drops the site names Google News and the agencies add ("- FBI", "| Travel.State.gov", "Western District of X |",
+    "Office of Public Affairs |")."""
+    t = re.sub(r"\s+-\s+(U\.S\.\s+)?(Department of Justice|Federal Bureau of Investigation|FBI|Homeland Security|"
+               r"DHS|U\.S\. Department of State|State Department|Travel\.State\.gov|\(\.gov\)).*$", "", t).strip()
+    t = re.sub(r"\s*\|\s*Travel\.State\.gov\s*$", "", t)
+    for _ in range(2):   # "Office of Public Affairs | District of X | ..."
+        t = re.sub(r"^[^|]{3,60}(District of|Attorney.s Office|Field Office|Office of Public Affairs|Public Affairs)[^|]*\|\s*", "", t)
+    return t.strip()
+
 def merge_homeland(old, new, today):
     """Keep a year of notices, newest first, one per title, at most LIMITS per kind (an old advisory that no longer
     passes the filters is dropped too)."""
     seen, out, n = set(), [], {}
-    for x in sorted((old or []) + new, key=lambda x: x["date"], reverse=True):
+    for x in sorted(new + [dict(x, title=tidy_title(x["title"])) for x in (old or [])], key=lambda x: x["date"], reverse=True):
         k = re.sub(r"\W+", " ", x["title"].lower()).strip()[:90]
         if k in seen or wwscore.days_between(x["date"], today) > KEEP_DAYS: continue
         if x["kind"] == "advisory" and not (ADVISORY.search(x["title"]) and ADVISORY_PLACES.search(x["title"])): continue

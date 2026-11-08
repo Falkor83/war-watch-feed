@@ -159,6 +159,17 @@ class FactsTests(unittest.TestCase):
         self.assertTrue(any(x["kind"] == "bulletin" for x in out["homeland"]["items"]))
         self.assertIn("2 Justice Department or FBI announcements", out["homeland"]["line"])
 
+    def test_merge_tidies_kept_titles(self):
+        today = datetime.date.today().isoformat()
+        old = [{"title": "Gaza Travel Advisory | Travel.State.gov", "url": "a", "date": today, "source": "State Department", "kind": "advisory"},
+               {"title": "Office of Public Affairs | Man convicted of Iran sanctions breach", "url": "b", "date": today,
+                "source": "Justice Department", "kind": "case"}]
+        new = [{"title": "Gaza Travel Advisory", "url": "c", "date": today, "source": "State Department", "kind": "advisory"},
+               {"title": "Man convicted of Iran sanctions breach", "url": "d", "date": today, "source": "Justice Department", "kind": "case"}]
+        got = self.F.merge_homeland(old, new, today)
+        self.assertEqual(sorted(x["url"] for x in got), ["c", "d"])                         # one each, the new copy kept
+        self.assertEqual(self.F.tidy_title("Western District of Washington | Iranian national sentenced"), "Iranian national sentenced")
+
     def test_failures_keep_the_last_values(self):
         def down(url, timeout=30, accept="*/*"): raise OSError("down")
         out = {"prices": {"date": "2026-11-01", "items": [{"id": "brent"}]}}
