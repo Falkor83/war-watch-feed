@@ -85,8 +85,11 @@ def summary(outlooks, today):
     br = [(PROB[o["likelihood"]] - OUTCOME[o["result"]]) ** 2 for o in scored
           if o.get("likelihood") in PROB and o["result"] in OUTCOME]
     recent = sorted(scored, key=lambda o: (o.get("checked", ""), o["check_by"]), reverse=True)[:12]
-    pending = sum(1 for o in outlooks if not o.get("result"))
+    waiting = sorted((o for o in outlooks if not o.get("result")), key=lambda o: (o.get("check_by", ""), o.get("made", "")))
+    pending = len(waiting)
     return {"date": today, "checked": len(scored), "pending": pending,
+            "next": [{"id": oid(o), "hotspot": o.get("hotspot"), "text": o.get("text"), "likelihood": o.get("likelihood"),
+                      "made": o.get("made"), "check_by": o.get("check_by")} for o in waiting[:10]],
             "brier": round(sum(br) / len(br), 3) if br else None, "brier_calls": len(br),
             "bands": [dict(likelihood=k, **v) for k, v in sorted(bands.items(), key=lambda kv: PROB.get(kv[0], 0.5))],
             "recent": [{"id": oid(o), "hotspot": o.get("hotspot"), "text": o.get("text"), "likelihood": o.get("likelihood"),

@@ -158,7 +158,7 @@ def apply_to_hotspot(c, upd, feed_generated, today):
         src = next((s for s in p["sources"] if wwapi.norm_url(s["u"]) not in have), None)
         if not src: continue
         home = src.get("c", "")
-        new.append({"date": today, "text": clip(p["text"], APP_LATEST), "outlet": src.get("s", "")[:60],
+        new.append({"date": today, "at": upd["at"], "text": clip(p["text"], APP_LATEST), "outlet": src.get("s", "")[:60],
                     "country": wwdata.country_name(home) if home else "", "url": src["u"],
                     "region": wwdata.REGION_OF.get(home, "unknown"),
                     "tag": "party-press" if p["party_only"] else "non-party", "state_media": src.get("r") == "state"})

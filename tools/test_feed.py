@@ -106,6 +106,7 @@ class TrackRecordTests(unittest.TestCase):
         feed = fixture_time.feed()
         self.assertEqual(self.T.stage(feed, self.path, [], [], wwapi.load_budget(), "m", "s", TODAY, print, json.loads), (0, 0))
         self.assertEqual(feed["track"]["pending"], 4); self.assertEqual(wwapi.http.calls, [])
+        self.assertEqual(len(feed["track"]["next"]), 4); self.assertEqual(feed["track"]["next"][0]["check_by"], "2999-01-01")
 
 class FactsTests(unittest.TestCase):
     """Prices, chokepoints and official notices, from canned answers (no network)."""
