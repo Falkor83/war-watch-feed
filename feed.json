@@ -1713,9 +1713,39 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Explosions reported at Iranian ports as US-Iran diplomacy via Vance and Qatar continues",
+   "status": "Ships hit near Hormuz and Gulf of Oman; US strikes Iranian air defenses, talks continue",
    "summary": "The United States and Israel are at war with Iran, and shipping through the Strait of Hormuz has been heavily disrupted. Trump said the US carried out new limited strikes on an Iranian air defence system on Nov 6, the first action since the midterms; Iranian media report missiles hitting Qeshm Island. Iran's Revolutionary Guards say they shot down a US MQ-1 drone over Qeshm and that two tankers struck mines; the US has not confirmed the drone loss in these notes. IMO and UKMTO data cited by Al Jazeera count over 120 ships hit, with October the worst month. Talks continue: a senior Iranian official says Iran sent a nuclear proposal via Qatar, and Qatar is urging both sides to settle.",
    "latest": [
+    {
+     "date": "2026-11-08",
+     "text": "The Revolutionary Guards say two more oil tankers hit mines near the Strait of Hormuz. Independent outlets carry the claim, and no independent confirmation of the mine strikes is cited.",
+     "outlet": "TRT Haber Dunya",
+     "country": "Turkey",
+     "url": "https://www.trthaber.com/haber/dunya/devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti-962564.html",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "text": "UKMTO reports an incident in the Gulf of Oman involving a bulk carrier and military forces. US military officials say they disabled a commercial ship that tried to breach the blockade of Iran, and Russian and Turkish outlets report the same US announcement.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-and-military-forces-involved-gulf-oman-incident-ukmto",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-08",
+     "text": "Trump says US strikes destroyed an Iranian air defense system in minutes. Taiwanese outlet Liberty Times reports renewed limited US strikes on Iranian air defenses; this rests on the US side's account.",
+     "outlet": "Liberty Times",
+     "country": "Taiwan",
+     "url": "https://news.ltn.com.tw/news/world/paper/1777664",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-07",
      "text": "Explosions were heard on Qeshm Island and at the port of Jask in Iran, according to Middle East Eye, The Straits Times and Jerusalem Post, which cite Iranian state media. No cause has been confirmed.",
@@ -1763,36 +1793,6 @@
      "country": "",
      "url": "http://mignews.com/news/disasters/voennye-ssha-nanesli-raketnyj-udar-po-sisteme-protivovozdushnoj-oborony-irana.html",
      "region": "unknown",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Iran's navy says a tanker caught fire after hitting a sea mine in the Strait of Hormuz. Iran's account is the only source for the cause; Interfax reports the navy's statement, but no independent check has been published.",
-     "outlet": "Tehran Times",
-     "country": "Iran",
-     "url": "https://www.tehrantimes.com/news/531917/Iranian-navy-says-tanker-catches-fire-after-striking-sea-mine",
-     "region": "iran",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "Reuters, in an exclusive report, says the US military is planning to expand its naval blockade of Iran to restrict Iranian land trade and arms transport, and a US task force for this is reported. Other outlets from several countries carry the same report, and Al Arabiya says the plan includes the Caspian Sea. Haaretz, ",
-     "outlet": "Dawn",
-     "country": "Pakistan",
-     "url": "https://www.dawn.com/news/2042856/us-task-force-iron-gate-in-the-works-to-restrict-iranian-land-commerce-alongside-naval-blockade",
-     "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-07",
-     "text": "A second tanker reportedly burned in the Strait of Hormuz, in what a Polish outlet calls a 'forbidden zone'. A British outlet reports the fire followed a mine collision. Iran's navy earlier said a tanker hit a mine on a 'prohibited' route; this has not been independently confirmed.",
-     "outlet": "Wiadomości Onet",
-     "country": "Poland",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMm5COGEyRzFpVklHaG5xZ1lXeE9JajNKSTJzQXpDUHZJRURZWkVFV1p4cjlKM0hWUU5Nc0xZNlNOcUdPRm9sTndSU2Jrc1l0N2tOTzZQOHZXTHlFdmZadDBrS3Q0NHdvZEZRVEY3WG5rMlBTdWFqS2gteVM1dllpZFl3VHozWGZQdHA2TVZqRkpzeG9YR2RUWWxZNjNLMnlwcHh6ZzRjX0lUcGhTd3c?oc=5",
-     "region": "europe",
      "tag": "non-party",
      "state_media": false
     }
@@ -8921,297 +8921,285 @@
  "boil": [
   {
    "id": "us-israel-iran-war",
-   "date": "2026-11-07",
-   "question": "Will the US/Israel-Iran fighting widen into a regional war that hits other states' territory?",
+   "date": "2026-11-08",
+   "question": "Will the US/Israel–Iran fighting widen into a regional war, with a new state joining, attacks on a new country's territory, or nuclear use?",
    "stage": 3,
    "stage_label": "Mobilizing",
    "likelihood": "unlikely",
-   "likelihood_of": "reaching stage 4 (Iranian attacks on Gulf states aiding the US, or full resumption of the war) within 30 days",
+   "likelihood_of": "a clearly wider war (stage 5) within 30 days",
    "horizon": "30 days",
    "direction": "steady",
-   "summary": "Trump says the US made new limited strikes on an Iranian air defence site on Nov 6. The IRGC says it downed a US drone and that two tankers hit mines in Hormuz. Iran warns that states aiding the US would be legitimate targets, but Qatar and Pakistan are mediating, and Qatar says its efforts are holding off escalation.",
+   "summary": "The US has carried out what outlets in several regions describe as limited new strikes on Iranian air defences. It has also attacked a commercial ship it says broke its blockade. Indirect talks led by Vance and involving Qatar are reported to be continuing, and travel advice for the region has not changed since late October.",
    "drivers": [
     {
-     "text": "Trump says the US carried out new limited strikes, and US officials say Revolutionary Guards fired at a US jet first",
+     "text": "US strikes on Iranian air defence systems resumed, described as limited in reporting from Taiwan, Korea and Venezuela",
      "cites": [
-      "n13",
-      "n10",
-      "h45"
+      "h6",
+      "h10",
+      "h15"
      ]
     },
     {
-     "text": "The IRGC says two tankers hit mines; Al Jazeera cites IMO and UKMTO data showing over 120 ships hit, with October the worst month",
+     "text": "The US attacked a commercial ship in the Gulf of Oman over the blockade, keeping Hormuz shipping in the line of fire",
      "cites": [
-      "n14",
-      "n16"
+      "h5",
+      "h8"
      ]
     },
     {
-     "text": "Al Jazeera reports Iran says states aiding the US would be legitimate targets",
+     "text": "The IRGC says a self-imposed limit on its ballistic missile range has been lifted, and says it would prepare if Iran changes its nuclear doctrine",
      "cites": [
-      "n15"
+      "h7",
+      "h19"
      ]
     },
     {
-     "text": "Hindustan Times reports Trump's advisers are pressing him for a decision on the war",
+     "text": "Iranian officials warn of a devastating response to any further attacks",
      "cites": [
-      "h41"
+      "h11",
+      "h21"
      ]
     }
    ],
    "brakes": [
     {
-     "text": "Reuters reports Qatar says its mediation continues to prevent escalation",
+     "text": "Axios, as reported in Italian, Greek and Turkish outlets, says Vance has led indirect talks for about two weeks on a nuclear deal and a plan for Hormuz",
      "cites": [
-      "h58",
-      "n17"
+      "h13",
+      "h14",
+      "h22"
      ]
     },
     {
-     "text": "Yonhap TV reports a mediator proposes bringing nuclear talks forward, and CBS reports Trump says a deal still could happen",
+     "text": "Headlines about mobilization and evacuation are almost absent (2 and 1), while 114 are about talks",
      "cites": [
-      "h47",
-      "n18"
+      "d2"
      ]
     },
     {
-     "text": "Antara reports US warships have been withdrawn, and the US describes the strikes as limited",
+     "text": "US and UK travel advice for Israel, Iran, Qatar and the UAE has not been raised since 22 and 27 October",
      "cites": [
-      "h52",
-      "n13"
+      "d3",
+      "d5",
+      "d7",
+      "d9",
+      "d4",
+      "d6"
      ]
     }
    ],
-   "tip": "Iranian fire hitting a Gulf state hosting US forces, or US personnel killed, followed by a wide US strike campaign.",
-   "offramp": "The US and Iran agree terms to reopen Hormuz, or UKMTO reports no attacks for two weeks.",
+   "tip": "Iranian missiles striking a Gulf state or another country not yet in the fighting, or a new state's forces joining the strikes, would move it up a stage.",
+   "offramp": "An announced US-Iran framework to reopen the Strait of Hormuz, or two weeks with no UKMTO-reported attacks on shipping, would move it down.",
    "watch": [
-    "Further US strikes or Iranian replies around Qeshm and Bandar Abbas",
-    "Mine or ship incidents in Hormuz",
-    "The timing of Qatar- and Pakistan-mediated talks"
+    "Outcome of the Vance-led indirect talks via Qatar",
+    "Iranian missile launches toward Gulf states or US bases",
+    "Further US action against ships under the blockade"
    ],
-   "agree": "Partly. Clash and nuclear words are high, but talk words are also high, and the Brent price has fallen 13.1% in 7 days.",
-   "sides": "Coverage is spread widely across regions, with only 20% from involved countries, but strike details rest largely on US and Iranian officials' accounts, and Outlook India found no public CENTCOM confirmation.",
+   "agree": "Partly: headlines show both strikes and talks rising, but the data shows almost no mobilization or evacuation signals and no change in travel advice; the shekel's 2.3% weekly fall may also reflect Israel's coalition change, not only the war",
+   "sides": "Coverage is broad, from 66 countries with 21% from the countries involved, but accounts of the Qeshm island explosions differ: Trump says US strikes hit it, while Russia's TASS, citing an agency, says they were not caused by an attack.",
    "prev_stage": 3,
    "headlines": [
     {
-     "id": "h41",
-     "t": "Trump’s Clashing Advisers Press Him to Make Iran War Decision",
-     "o": "",
-     "u": "https://www.hindustantimes.com/world-news/trumps-clashing-advisers-press-him-to-make-iran-war-decision-101794030622042.html",
-     "s": "Hindustan Times World",
-     "c": "IN",
-     "l": "en",
-     "p": 1794030751
-    },
-    {
-     "id": "h45",
-     "t": "Trump reports new \"targeted\" strike on Iran",
-     "o": "Трамп сообщил о новом «точечном» ударе по Ирану",
-     "u": "https://www.rbc.ru/rbcfreenews/6aeeadf4bc080529508ff9e7",
-     "s": "RBC",
-     "c": "RU",
-     "l": "ru",
-     "p": 1794028834
-    },
-    {
-     "id": "h47",
-     "t": "US-Iran nuclear talks may be brought forward: mediator proposes starting \"immediately upon agreement",
-     "o": "미·이란 핵협상 앞당기나…중재국, ’협상 즉시 착수’ 제안",
-     "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCN2J0VDhvZ3kzdm14dm9vckhZWWVINmlrSHF6eXhzZzZsb0c3WFg4WkdyWC1nY2M5cC16anliM0RkUXo5UHNISm0yTTNZYlVOaERBR3B2WERUSWM4X1ZONHh1eGNGNW8?oc=5",
-     "s": "연합뉴스TV",
+     "id": "h10",
+     "t": "US launches new strikes on Iran targets: \"air defense systems neutralized",
+     "o": "미국, 이란에 새 표적 공격…“방공체계 무력화”",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAxTGFIakRmXzVKMHYtTGl0SHJTWlZBZ3Ewc1l5LWZqVmU0d0NSUTgyNnY3c05Bb216dXZIU0laUTVwaTROS1ByWkc1NkxxWDl40gFTQVVfeXFMTVI1RXdkdkI5TlN4NHN5S3kwY2hOLWhjcURwQmlzaHBpVzFpWnRycXdhWmhBU1RhWU1iR3JXUHRMa0RRTTdNdnBQNW5aalNtX3BGMWc?oc=5",
+     "s": "VOA 한국어 홈페이지",
      "c": "KR",
      "l": "ko",
-     "p": 1794028140
+     "p": 1794084019
     },
     {
-     "id": "h52",
-     "t": "Iran wary of new US attack even as warships have been withdrawn",
-     "o": "Iran waspadai serangan baru AS meski kapal perang telah ditarik",
-     "u": "https://www.antaranews.com/berita/5838035/iran-waspadai-serangan-baru-as-meski-kapal-perang-telah-ditarik",
-     "s": "Antara",
-     "c": "ID",
-     "l": "id",
-     "p": 1794027600
-    },
-    {
-     "id": "h58",
-     "t": "Qatar says its mediation efforts between US and Iran continue to prevent escalation",
+     "id": "h11",
+     "t": "Rezaei warns of devestating response to any aggression",
      "o": "",
-     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnBiR0l0NVE4d1Rpd2xSTmFvVGtGSTU2SDJmZXRndk9yS2Z0TlhsUW1ZNldhRnZtOGs0UUhJZWt0VFYzNEtrV1FJMW9QU05BMl94azJLZkZNNTNDWm9TbDFualhlV0VBbHJyQzdnZEJOVnd5Z0pMNzJUZkQ1dF82TU83MkNJbkxsRlhkRVVCYWxxbXF0SlhGaGdvcEhYdVFRQm05bVM4b1BHZzlhcEEta21QQzZRZUl6NUtQZ0o4ajVTTzJxV3lEdVhB?oc=5",
-     "s": "Reuters",
-     "c": "GB",
+     "u": "https://en.mehrnews.com/news/249223/Rezaei-warns-of-devestating-response-to-any-aggression",
+     "s": "Mehr English",
+     "c": "IR",
      "l": "en",
-     "p": 1794025380
+     "p": 1794083008
+    },
+    {
+     "id": "h13",
+     "t": "Iran-US war, live news from the Middle East | Herzog entrusts government to Eisenkot: mandate tomorrow at 5 pm. Axios: Vance leads indirect contacts in attempt to reach nuclear agreement",
+     "o": "Guerra Iran-Usa, le notizie in diretta dal Medio Oriente | Herzog affida il governo a Eisenkot: incarico domani alle 17. Axios: Vance guida i contatti indiretti nel tentativo di giungere a un accordo sul nucleare",
+     "u": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOU2lKTjhRUUFTVHlVdExQc3poY2c3MTE2TUZCZEh3Ml9SVlBWOWREVUJoX1ZkVUowbGdqRkZCbGt2SEJMM0lpcG9tckFvT083VFg4OU1hZGlseWJPOFptRFdhMXZOUG5wWkxIQzZ5OWZJOGt1UnJxcjQ0Z2dRNktITjlQMF9sYmswNjhORkxvcU9jb0Q3S29IN3dSZlIwekllVXBvbXFjVTNzY19vS2oxaUhndGRtUm40TUVqRnRhVXVZaXdFc05aSnQ0aW5vVWZXUFlxSVF4NjJwQVQ1dWpITC1VVHNhZDBKMjZKM282RnVpNG83SzU5bVllMXNjVGdYZnJNN1czdzVqQS0wcVdBOWFQSVU5VXPSAZwCQVVfeXFMTTU0LWdkSmQzSk16N2lONXNzNnlXR2t0aDR5blM5M3p2ajBPYWRDQmtZVVEwLXFDb3ozQXl4WXRBOVRnUzE5d0xrYkEyZXhUcFlxY3Vjd2xQV3NKTk9mSHR2NC13N2Y4TXhWY2ZHeXAwa0N4Tzd1ZGJFaGdQTmotQUhwYi00S2t",
+     "s": "Corriere della Sera",
+     "c": "IT",
+     "l": "it",
+     "p": 1794079892
+    },
+    {
+     "id": "h14",
+     "t": "Axios: JD Vance takes on the Iran negotiations - the plan for the Strait of Hormuz and also Qatar",
+     "o": "Axios : Ο Τζέι Ντι Βανς αναλαμβάνει τις διαπραγματεύσεις για το Ιράν - Το σχέδιο για τα Στενά του Ορμούζ αλλά και το Κατάρ",
+     "u": "https://www.huffingtonpost.gr/diethnes/tzei-nti-vans-iran-stena-katar/",
+     "s": "huffingtonpost.gr",
+     "c": "GR",
+     "l": "el",
+     "p": 1794076200
+    },
+    {
+     "id": "h15",
+     "t": "Trump confirms new limited US attacks against an Iranian air defense system",
+     "o": "Trump confirma nuevos ataques limitados de Estados Unidos contra un sistema antiaéreo de Irán",
+     "u": "https://confirmado.com.ve/trump-confirma-nuevos-ataques-limitados-de-estados-unidos-contra-un-sistema-antiaereo-de-iran/",
+     "s": "confirmado.com.ve",
+     "c": "VE",
+     "l": "es",
+     "p": 1794076200
+    },
+    {
+     "id": "h19",
+     "t": "IRGC says it will get ready if Iran decides to alter nuclear doctrine",
+     "o": "",
+     "u": "https://bdnews24.com/world/25zh0y8ddg",
+     "s": "bdnews24.com",
+     "c": "BD",
+     "l": "en",
+     "p": 1794074400
+    },
+    {
+     "id": "h21",
+     "t": "Iran's war warning to the US: Our response will be devastating",
+     "o": "İran'dan ABD'ye savaş resti: Cevabımız yıkıcı olur",
+     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRkRNY0dCS2N3OV8taWVzRHhYVHJPWFhnZDVpVVY5b0ZQQVR3MVo1TlVKX2xabl9qaXAwbHRVaE0ySlVId19Vbl9ETkJNS0dJX3JoUEo0Q3p0RW5ERldQUHc1UkpEZHJyUjRWWFM4SDI0ZlJpTjlydmVjZUlCNlM2V3AyQ2MySjNGaHJMUUdjSdIBkgFBVV95cUxPdkNBYmZVYThFWXpXX2NNVkp5RzRsbUpabnpaaURhbTM5S05VZnlsTkRmS2dkaVJkY0NIUktWS21YeDZWTzZIcEZhdVg4QXlPTFZiazZzcGgwSV9SS3BXbzI3MVVYdTJHQ3VCeWZ5SmFkTUFNMUZDcFRONGhkOENUek9ta3kyam1VNTMteUJocXpJUQ?oc=5",
+     "s": "Sabah",
+     "c": "TR",
+     "l": "tr",
+     "p": 1794072232
+    },
+    {
+     "id": "h22",
+     "t": "US press: Vance has been conducting indirect talks for two weeks to reach an agreement with Iran",
+     "o": "ABD basını : Vance , İranla anlaşma sağlamak için 2 haftadır dolaylı görüşmeler yürütüyor",
+     "u": "https://www.ogunhaber.com/dunya/abd-basini-vance-iranla-anlasma-saglamak-icin-2-haftadir-dolayli-gorusmeler-yurutuyor-3003559h.html",
+     "s": "ogunhaber.com",
+     "c": "TR",
+     "l": "tr",
+     "p": 1794070800
+    },
+    {
+     "id": "h5",
+     "t": "Explosions near the Strait of Hormuz; US confirms attack on ship",
+     "o": "Explosionen bei Straße von Hormus, USA bestätigt Angriff auf Schiff",
+     "u": "https://www.derstandard.at/story/3000000348043/explosionen-bei-strasse-von-hormus-usa-bestaetigt-angriff-auf-schiff?ref=rss",
+     "s": "Der Standard International",
+     "c": "AT",
+     "l": "de",
+     "p": 1794087159
+    },
+    {
+     "id": "h6",
+     "t": "Renewed bombing of Iran: US targets air defense systems in limited strikes",
+     "o": "重啟轟伊 美鎖定防空系統有限打擊",
+     "u": "https://news.ltn.com.tw/news/world/paper/1777664",
+     "s": "Liberty Times",
+     "c": "TW",
+     "l": "zh",
+     "p": 1794087000
+    },
+    {
+     "id": "h7",
+     "t": "IRGC claims a self-imposed limit on ballistic missile range ‘has been lifted’",
+     "o": "",
+     "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV2FpM1prWWlfTEtQdVR2Qk5GQWRLRHpqTjNyVTRCMVFfU05pVlI3Mk5IaThDd3RuMjhzdmUtSFh1TzRhb2FQRHEwcFFnZmNpV0tqbWplQUs5UGlfelU5OWp6UlIxUmhCVV9ORVZNOTVnMmNpckZpTTMtaFJJWW1Vd0RkczdLTUtoQTJkNjh4WGVtVDFOZmxzdEZ2bE1JWF9xTS1UOGVGNzM5QdIBrwFBVV95cUxNNjZOY0NUaW1TWlFORmdoWFdHdmU3cU9Ud2NKNnFfSWNmbGFWUVZyWWhOS3hZN3BKMWNMMHQxbFg5RVhZNDNLTllwSXNwOUpITzBFMTBZSW5RVmJXeFItblVwOWJtYVMyc1NoWktDMkpERkVYOHlSWWZLZ1U0UlJ4VFFvb09Kc0xwbXdpWU9QOWRHYVdQUjFjYWxzeldkUUctemRFbXdSSmVZcU9WNE1R?oc=5",
+     "s": "The Times of Israel",
+     "c": "IL",
+     "l": "en",
+     "p": 1794085666
+    },
+    {
+     "id": "h8",
+     "t": "US attacks a commercial ship in the Gulf of Oman for violating the blockade against Iran",
+     "o": "EE.UU. ataca un buque comercial en el golfo de Omán por violar el bloqueo contra Irán",
+     "u": "https://www.infobae.com/america/agencias/2026/11/07/eeuu-ataca-un-buque-comercial-en-el-golfo-de-oman-por-violar-el-bloqueo-contra-iran/",
+     "s": "Infobae",
+     "c": "AR",
+     "l": "es",
+     "p": 1794085237
     }
    ],
-   "notes": [
-    {
-     "id": "n10",
-     "date": "2026-11-02",
-     "fact": "US officials told CBS the US made limited defensive strikes on Qeshm Island after Iran's Revolutionary Guards fired at a US jet. They also said Iran fired a missile that threatened shipping.",
-     "url": "https://www.cbsnews.com/news/u-s-strikes-iran-targets/",
-     "outlet": "CBS News",
-     "home": "US",
-     "region": "north-america",
-     "media": "private",
-     "tag": "party-gov",
-     "key": "claim:us officials unnamed",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n13",
-     "date": "2026-11-06",
-     "fact": "NBC says Trump stated the US carried out new limited strikes on an Iranian air defence system on Friday. It is the first action since the midterms.",
-     "url": "https://nbcnews.com/news/us-news/us-military-carries-new-targeted-strikes-iran-rcna607969",
-     "outlet": "NBC News",
-     "home": "US",
-     "region": "north-america",
-     "media": "private",
-     "tag": "party-gov",
-     "key": "claim:us president",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n14",
-     "date": "2026-11-06",
-     "fact": "Al Jazeera reports the IRGC says it shot down a US MQ-1 over Qeshm and that two tankers hit mines on Friday. Another tanker reported an explosion.",
-     "url": "https://aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
-     "outlet": "Al Jazeera",
-     "home": "QA",
-     "region": "gulf",
-     "media": "state-funded",
-     "tag": "party-gov",
-     "key": "claim:iran irgc",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n15",
-     "date": "2026-11-06",
-     "fact": "Al Jazeera says Iran warns it will respond more widely than before if the US resumes the war. It says states aiding the US would be legitimate targets.",
-     "url": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know",
-     "outlet": "Al Jazeera",
-     "home": "QA",
-     "region": "gulf",
-     "media": "state-funded",
-     "tag": "party-gov",
-     "key": "claim:iranian officials",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n16",
-     "date": "2026-11-06",
-     "fact": "Al Jazeera cites an Iranian lawmaker saying ships from India, China, Iraq and Qatar may pass Hormuz. It cites IMO and UKMTO data: over 120 ships hit, October worst month.",
-     "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions",
-     "outlet": "Al Jazeera",
-     "home": "QA",
-     "region": "gulf",
-     "media": "state-funded",
-     "tag": "party-gov",
-     "key": "claim:iranian parliament committee deputy chair",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n17",
-     "date": "2026-11-07",
-     "fact": "Al Jazeera's Iran page says Qatar urged the US and Iran to settle the war without waiting for a perfect moment. It also reports Trump claiming a lot of progress in talks.",
-     "url": "https://www.aljazeera.com/where/iran/",
-     "outlet": "Al Jazeera",
-     "home": "QA",
-     "region": "gulf",
-     "media": "state-funded",
-     "tag": "non-party",
-     "key": "claim:qatar",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n18",
-     "date": "2026-11-03",
-     "fact": "CBS reports Qatar and Pakistan are mediating. Iran says it will reopen Hormuz only if the US meets seven conditions. Trump said a deal still could happen.",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
-     "outlet": "CBS News",
-     "home": "US",
-     "region": "north-america",
-     "media": "private",
-     "tag": "party-press",
-     "key": "outlet:cbs-news",
-     "hotspot": "us-israel-iran-war"
-    }
-   ],
+   "notes": [],
    "tiles": [
     {
-     "id": "d29",
+     "id": "d1",
      "kind": "who_reports",
      "label": "Who's reporting (48 h)",
-     "value": "816 headlines",
-     "note": "264 outlets, 54 countries, 30 languages; 20% from the sides' own countries",
+     "value": "1048 headlines",
+     "note": "405 outlets, 66 countries, 38 languages; 21% from the sides' own countries",
      "level": 0,
      "parts": [
       [
        "Europe",
-       153
+       208
       ],
       [
        "Middle East",
-       135
-      ],
-      [
-       "Gulf",
-       105
+       195
       ],
       [
        "South & Central Asia",
-       80
+       127
+      ],
+      [
+       "Gulf",
+       121
       ],
       [
        "N. America",
-       72
+       100
       ],
       [
        "Russia",
-       71
-      ],
-      [
-       "East Asia",
-       59
+       67
       ],
       [
        "Iran",
-       56
+       62
+      ],
+      [
+       "SE Asia",
+       55
       ]
      ]
     },
     {
-     "id": "d30",
+     "id": "d2",
      "kind": "headline_signals",
      "label": "Headline signals (48 h)",
-     "value": "462",
+     "value": "661",
      "note": "what the headlines are about (one headline can count twice)",
      "level": 1,
      "parts": [
       [
        "mobilization",
-       6
+       2
+      ],
+      [
+       "evacuation",
+       1
       ],
       [
        "threats",
-       87
+       95
       ],
       [
        "clashes",
-       153
+       236
       ],
       [
        "talks",
-       102
+       114
       ],
       [
        "nuclear",
-       114
+       213
       ]
      ]
     },
     {
-     "id": "d31",
+     "id": "d3",
      "kind": "advice_us",
      "label": "US travel advice: Israel",
      "value": "Level 3 of 4",
@@ -9220,7 +9208,7 @@
      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.isr.html"
     },
     {
-     "id": "d32",
+     "id": "d4",
      "kind": "advice_uk",
      "label": "UK travel advice: Israel",
      "value": "Avoid all travel to parts",
@@ -9229,7 +9217,7 @@
      "url": "https://www.gov.uk/foreign-travel-advice/israel"
     },
     {
-     "id": "d33",
+     "id": "d5",
      "kind": "advice_us",
      "label": "US travel advice: Iran",
      "value": "Level 4 of 4",
@@ -9238,7 +9226,7 @@
      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.irn.html"
     },
     {
-     "id": "d34",
+     "id": "d6",
      "kind": "advice_uk",
      "label": "UK travel advice: Iran",
      "value": "Avoid all travel to whole country",
@@ -9247,7 +9235,7 @@
      "url": "https://www.gov.uk/foreign-travel-advice/iran"
     },
     {
-     "id": "d35",
+     "id": "d7",
      "kind": "advice_us",
      "label": "US travel advice: Qatar",
      "value": "Level 3 of 4",
@@ -9256,7 +9244,7 @@
      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.qat.html"
     },
     {
-     "id": "d36",
+     "id": "d8",
      "kind": "advice_uk",
      "label": "UK travel advice: Qatar",
      "value": "No travel warning",
@@ -9265,7 +9253,7 @@
      "url": "https://www.gov.uk/foreign-travel-advice/qatar"
     },
     {
-     "id": "d37",
+     "id": "d9",
      "kind": "advice_us",
      "label": "US travel advice: United Arab Emirates",
      "value": "Level 3 of 4",
@@ -9274,7 +9262,7 @@
      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.are.html"
     },
     {
-     "id": "d38",
+     "id": "d10",
      "kind": "advice_uk",
      "label": "UK travel advice: United Arab Emirates",
      "value": "No travel warning",
@@ -9283,23 +9271,23 @@
      "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates"
     },
     {
-     "id": "d39",
+     "id": "d11",
      "kind": "currency",
      "label": "ILS vs US dollar",
-     "value": "2.0% weaker",
-     "note": "in 7 days; 4.6% weaker in 30",
+     "value": "2.3% weaker",
+     "note": "in 7 days; 4.4% weaker in 30",
      "level": 0
     },
     {
-     "id": "d40",
+     "id": "d12",
      "kind": "currency",
      "label": "IRR vs US dollar",
-     "value": "0.8% weaker",
-     "note": "in 7 days; 9.2% weaker in 30; a managed rate, moves little",
+     "value": "1.3% weaker",
+     "note": "in 7 days; 9.3% weaker in 30; a managed rate, moves little",
      "level": 0
     },
     {
-     "id": "d41",
+     "id": "d13",
      "kind": "currency",
      "label": "QAR vs US dollar",
      "value": "0.0% stronger",
@@ -9307,7 +9295,7 @@
      "level": 0
     },
     {
-     "id": "d42",
+     "id": "d14",
      "kind": "currency",
      "label": "AED vs US dollar",
      "value": "0.0% stronger",
@@ -9315,28 +9303,12 @@
      "level": 0
     },
     {
-     "id": "d43",
-     "kind": "oil",
-     "label": "Brent crude",
-     "value": "$107.03",
-     "note": "-13.1% in 7 days (price of 2026-11-03)",
-     "level": 0
-    },
-    {
-     "id": "d44",
+     "id": "d15",
      "kind": "outages",
      "label": "Internet outages: Israel",
      "value": "4 alerts",
      "note": "2 critical, last 7 days (IODA)",
      "level": 2
-    },
-    {
-     "id": "d45",
-     "kind": "actions",
-     "label": "Preparedness actions (30 days)",
-     "value": "2",
-     "note": "2 countries: Israel, United Kingdom); latest 2026-11-03",
-     "level": 1
     }
    ],
    "score": 10.0,
@@ -9353,7 +9325,8 @@
      "2026-11-07",
      3
     ]
-   ]
+   ],
+   "recheck": "2026-11-08T00:01:11Z"
   },
   {
    "id": "yemen-houthi-saudi-war",
@@ -11248,134 +11221,170 @@
      "at": "2026-11-07T21:05:47Z",
      "headline": "Explosions reported at Iranian ports as US-Iran diplomacy via Vance and Qatar continues",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-08T00:00:30Z",
+     "headline": "Ships hit near Hormuz and Gulf of Oman; US strikes Iranian air defenses, talks continue",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-07T21:05:47Z",
-   "next_at": "2026-11-08T00:05:47Z",
-   "headline": "Explosions reported at Iranian ports as US-Iran diplomacy via Vance and Qatar continues",
-   "direction": "steady",
+   "updated_at": "2026-11-08T00:00:30Z",
+   "next_at": "2026-11-08T03:00:30Z",
+   "headline": "Ships hit near Hormuz and Gulf of Oman; US strikes Iranian air defenses, talks continue",
+   "direction": "escalating",
    "points": [
     {
-     "text": "Explosions were heard on Qeshm Island and at the port of Jask in Iran, according to Middle East Eye, The Straits Times and Jerusalem Post, which cite Iranian state media. No cause has been confirmed.",
+     "text": "The Revolutionary Guards say two more oil tankers hit mines near the Strait of Hormuz. Independent outlets carry the claim, and no independent confirmation of the mine strikes is cited.",
      "stories": [
-      "s1"
+      "s3"
      ],
      "sources": [
       {
-       "t": "Explosions heard on Qeshm Island, multiple locations in Iran, state media says - report",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914153",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794083707,
+       "t": "Revolutionary Guards: 2 oil tankers hit mines in the Strait of Hormuz",
+       "o": "Devrim Muhafızları: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarptı",
+       "u": "https://www.trthaber.com/haber/dunya/devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carpti-962564.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794090540,
        "r": "known"
       },
       {
-       "t": "Explosions reported on Iran's Qeshm Island and in port of Jask",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-reported-irans-qeshm-island-and-port-jask",
+       "t": "IRGC says two more tankers hit mines near Strait of Hormuz",
+       "o": "КСИР заявил, что еще два танкера подорвались на минах близ Ормузского пролива",
+       "u": "https://www.interfax.ru/world/1127621",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794089040,
+       "r": "known"
+      },
+      {
+       "t": "Report in Iran: two oil tankers hit by naval mines near the Strait of Hormuz",
+       "o": "דיווח באיראן: שתי מכליות נפט נפגעו ממוקשים ימיים סמוך למצר הורמוז",
+       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PZ1Y1VkV4SkYwUHlRd2lUMVNWWjN2MUZ5NHA3UDVTOHRsUlhlQ3ViNjlQZU5uTmxhQjk0QVRaZTluZ1d5Y3ZpdVlGM29TbHFYVjk2ODRPODVkZmpnZlRFdzFXMlg?oc=5",
+       "s": "מעריב",
+       "c": "IL",
+       "l": "he",
+       "p": 1794088339,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 5,
+     "countries": [
+      "IL",
+      "RU",
+      "TR"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "UKMTO reports an incident in the Gulf of Oman involving a bulk carrier and military forces. US military officials say they disabled a commercial ship that tried to breach the blockade of Iran, and Russian and Turkish outlets report the same US announcement.",
+     "stories": [
+      "s1",
+      "s4",
+      "s5",
+      "s6"
+     ],
+     "sources": [
+      {
+       "t": "Bulk carrier and military forces involved in Gulf of Oman incident: UKMTO",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-and-military-forces-involved-gulf-oman-incident-ukmto",
        "s": "Middle East Eye",
        "c": "GB",
        "l": "en",
-       "p": 1794083517,
+       "p": 1794092711,
        "r": "known"
       },
       {
-       "t": "Explosions heard in Iran's Qeshm Island, Iranian media reports",
-       "u": "https://www.straitstimes.com/world/middle-east/explosions-heard-in-irans-qeshm-island-iranian-media-reports",
-       "s": "The Straits Times",
-       "c": "SG",
+       "t": "Bulk carrier, military forces involved in latest Gulf of Oman incident, UKMTO says",
+       "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMU00LVBQUlp5TkJxaEwzUFgxRk9Gc2d1TDBJQV9rS2pUamI1QnFVdkw1ZlRQUFhDbWhfalBmTDgtbEhEYTZUNWZXX2RfdXRyd3lmSzFMcVdTWVFkQUlJQlBtdTlwd1pqLWRRUE5WQTk4dFRyWm1Sd05SVzQ0d2c1bVhYS1RlTDRYYjFHMmhxMG0wWE4zamlxc3ZPcnRfdldLRnRVSWFUNnZpeW9iRjI1eWx4RWZHaDRWZ0IxSlM3VXpnc00?oc=5",
+       "s": "Arab News",
+       "c": "SA",
        "l": "en",
-       "p": 1794082998,
+       "p": 1794092548,
        "r": "known"
       },
       {
-       "t": "Two explosions reported on Iran’s Qeshm Island",
-       "u": "https://tass.com/world/2214325",
-       "s": "TASS English",
-       "c": "RU",
-       "l": "en",
-       "p": 1794081774,
+       "t": "UKMTO: Incident between a cargo ship and military forces reported in the Gulf of Oman",
+       "o": "UKMTO: Umman Körfezi'nde yük gemisi ile askeri güçler arasında bir olay rapor edildi",
+       "u": "https://www.aa.com.tr/tr/dunya/ukmto-umman-korfezinde-yuk-gemisi-ile-askeri-gucler-arasinda-bir-olay-rapor-edildi/4115598",
+       "s": "Anadolu Turkish",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794090270,
        "r": "state"
-      }
-     ],
-     "headlines": 6,
-     "outlets": 6,
-     "independent": 5,
-     "countries": [
-      "GB",
-      "IL",
-      "RU",
-      "SG"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "Greek outlets report that JD Vance has taken over the Iran negotiations, with a plan covering the Strait of Hormuz and a Qatari proposal, and that Tehran has added new conditions. These are single-source reports, citing Axios.",
-     "stories": [
-      "s3",
-      "s5"
-     ],
-     "sources": [
-      {
-       "t": "Back in the trenches or a new deal? Vance takes on a diplomatic solution with Iran, Qatar's plan, Tehran's additional conditions",
-       "o": "Ξανά στα χαρακώματα ή νέα συμφωνία ; Το παίρνει πάνω του ο Βανς για διπλωματική λύση με το Ιράν , το σχέδιο του Κατάρ , οι πρόσθετοι όροι της Τεχεράνης",
-       "u": "https://sofokleous10.gr/2026/11/07/%CE%BE%CE%B1%CE%BD%CE%AC-%CF%83%CF%84%CE%B1-%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%AE-%CE%BD%CE%AD%CE%B1-%CF%83%CF%85%CE%BC%CF%86%CF%89%CE%BD%CE%AF%CE%B1-%CF%84%CE%BF-%CF%80/",
-       "s": "sofokleous10.gr",
-       "c": "GR",
-       "l": "el",
-       "p": 1794076200,
-       "r": "unrated"
       },
       {
-       "t": "Axios: JD Vance takes on the Iran negotiations - the plan for the Strait of Hormuz and also Qatar",
-       "o": "Axios : Ο Τζέι Ντι Βανς αναλαμβάνει τις διαπραγματεύσεις για το Ιράν - Το σχέδιο για τα Στενά του Ορμούζ αλλά και το Κατάρ",
-       "u": "https://www.huffingtonpost.gr/diethnes/tzei-nti-vans-iran-stena-katar/",
-       "s": "huffingtonpost.gr",
-       "c": "GR",
-       "l": "el",
-       "p": 1794076200,
-       "r": "unrated"
+       "t": "UKMTO reports incident involving a dry cargo ship and armed forces off a port in the UAE",
+       "o": "UKMTO сообщил об инциденте с участием сухогруза и вооруженных сил у порта в ОАЭ",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28295437",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794088643,
+       "r": "state"
+      },
+      {
+       "t": "Escalation in the Strait of Hormuz and Gulf of Oman… explosions and attacks",
+       "o": "تصعيد في مضيق هرمز وخليج عمان.. انفجارات واستهدافات",
+       "u": "https://www.skynewsarabia.com/middle-east/1903305-%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D9%88%D8%AE%D9%84%D9%8A%D8%AC-%D8%B9%D9%85%D8%A7%D9%86-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81%D8%A7%D8%AA",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1794089972,
+       "r": "known"
       }
      ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
+     "headlines": 11,
+     "outlets": 10,
+     "independent": 9,
      "countries": [
-      "GR"
+      "AE",
+      "AR",
+      "AT",
+      "EG",
+      "GB",
+      "IN",
+      "RU",
+      "SA",
+      "TR"
      ],
-     "regions": 1,
+     "regions": 6,
      "party_only": false,
-     "state": 0
+     "state": 3
     },
     {
-     "text": "Israeli and Arabic outlets report that the US has extended its blockade of Iran to land borders and the Caspian Sea, under the name 'Iron Gate'. Only the sides' own media carry this so far.",
+     "text": "Trump says US strikes destroyed an Iranian air defense system in minutes. Taiwanese outlet Liberty Times reports renewed limited US strikes on Iranian air defenses; this rests on the US side's account.",
      "stories": [
       "s7"
      ],
      "sources": [
       {
-       "t": "The Iron Gate: Washington expands the blockade of Iran to the Caspian Sea and land borders",
-       "o": "البوابة الحديدية .. واشنطن توسع حصار إيران إلى بحر قزوين والحدود البرية",
-       "u": "https://rtarabic.com/world/1851303-united-states-activates-iron-gate-against-iran/",
-       "s": "rtarabic.com",
-       "l": "ar",
-       "p": 1794076200,
-       "r": "unrated"
+       "t": "Renewed bombing of Iran: US targets air defense systems in limited strikes",
+       "o": "重啟轟伊 美鎖定防空系統有限打擊",
+       "u": "https://news.ltn.com.tw/news/world/paper/1777664",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794087000,
+       "r": "known"
       },
       {
-       "t": "After the naval blockade: the US announced a land blockade of Iran",
-       "o": "אחרי המצור הימי : ארה ב הכריזה על מצור יבשתי על איראן",
-       "u": "https://www.srugim.co.il/101015509-%D7%90%D7%97%D7%A8%D7%99-%D7%94%D7%9E%D7%A6%D7%95%D7%A8-%D7%94%D7%99%D7%9E%D7%99-%D7%90%D7%A8%D7%94%D7%91-%D7%94%D7%9B%D7%A8%D7%99%D7%96%D7%94-%D7%A2%D7%9C-%D7%9E%D7%A6%D7%95%D7%A8",
-       "s": "srugim.co.il",
-       "c": "IL",
-       "l": "he",
-       "p": 1794076200,
+       "t": "Trump Says U . S . Strikes on Iran Destroyed Air Defense System in Minutes",
+       "u": "https://www.breitbart.com/politics/2026/11/07/trump-u-s-carried-out-minor-strikes-iran-destroyed-anti-aircraft-system-minutes/",
+       "s": "breitbart.com",
+       "c": "US",
+       "l": "en",
+       "p": 1794088800,
        "r": "unrated"
       }
      ],
@@ -11383,89 +11392,87 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "IL"
+      "TW",
+      "US"
      ],
-     "regions": 1,
-     "party_only": true,
+     "regions": 2,
+     "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran's Mehr News reports that Rezaei warned of a severe response to any aggression. This is Iran's own claim.",
-     "stories": [
-      "s8"
-     ],
-     "sources": [
-      {
-       "t": "Rezaei warns of devestating response to any aggression",
-       "u": "https://en.mehrnews.com/news/249223/Rezaei-warns-of-devestating-response-to-any-aggression",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794083008,
-       "r": "state"
-      }
-     ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
-     "countries": [
-      "IR"
-     ],
-     "regions": 1,
-     "party_only": true,
-     "state": 1
-    },
-    {
-     "text": "Erdogan says he called Trump to reaffirm Turkish support for US-Iran diplomacy. The only report of this comes from Jerusalem Post, which cites Erdogan's account.",
+     "text": "Two explosions were heard on Qeshm Island and at Jask port in southern Iran, according to Russian, Saudi and Turkish outlets. Iranian state media reported explosions at several locations; no cause has been confirmed.",
      "stories": [
       "s2",
-      "s9"
+      "s12"
      ],
      "sources": [
       {
-       "t": "Erdogan tells Trump Turkey will keep pushing for US-Iran peace",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/erdogan-tells-trump-turkey-will-keep-pushing-us-iran-peace",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794078407,
+       "t": "Two explosions sounded on the Iranian island of Qeshm near Hormuz",
+       "o": "Два взрыва прогремели на иранском острове Кешм в районе Ормуза",
+       "u": "https://www.interfax.ru/world/1127626",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794093300,
        "r": "known"
       },
       {
-       "t": "Erdogan says he called Trump, reaffirmed Turkish support for US-Iran diplomacy",
-       "u": "https://www.jpost.com/middle-east/article-914146",
+       "t": "Explosions reported on Qeshm Island and Jask port in southern Iran",
+       "o": "سماع دوي انفجارات في جزيرة قشم وميناء جاسك جنوب إيران",
+       "u": "https://aawsat.com/node/5338751",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794085514,
+       "r": "known"
+      },
+      {
+       "t": "Explosion sounds in Iran! What is happening on Qeshm Island and Chabahar?",
+       "o": "İranda patlama sesleri ! Keşm Adası ve Caskta neler oluyor ?",
+       "u": "https://mansethaber.com/dunya/iranda-patlama-sesleri-kesm-adasi-ve-caskta-neler-oluyor",
+       "s": "mansethaber.com",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794088800,
+       "r": "unrated"
+      },
+      {
+       "t": "Explosions heard on Qeshm Island, multiple locations in Iran, state media says - report",
+       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96OUdicS1vRHlsNmhSSW1Ic2hYbXF5OUM1dUllOWNETFRtT256VW9nMVNqeVIwNmRzN3pQWk9CWmwzczh2bERTRE50dmpkNk9LVWV2c3oyLVg5U3ItU1N4YmdlSmVxMVk4NFE?oc=5",
        "s": "Jerusalem Post",
        "c": "IL",
        "l": "en",
-       "p": 1794077102,
+       "p": 1794086575,
        "r": "known"
       }
      ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
      "countries": [
-      "GB",
-      "IL"
+      "IL",
+      "RU",
+      "SA",
+      "TR"
      ],
-     "regions": 2,
+     "regions": 3,
      "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Whether the cause of the Qeshm and Jask explosions is confirmed by independent sources",
-    "Whether Vance's talks with Iran produce a response to the Qatari plan",
-    "Whether the land-route blockade is confirmed beyond the sides' own media"
+    "Further UKMTO notices on the Gulf of Oman incident and any new tanker reports near Hormuz",
+    "Whether Iran's army keeps Hormuz closed, as it said, and how shipping moves through the strait",
+    "Progress of US-Iran talks led by Vance with a Qatari proposal, and the new conditions Tehran reportedly set"
    ],
    "window_hours": 3,
-   "headlines_read": 18,
-   "outlets_read": 15,
-   "countries_read": 8,
-   "languages_read": 5,
+   "headlines_read": 27,
+   "outlets_read": 21,
+   "countries_read": 13,
+   "languages_read": 9,
    "model": "Claude Haiku 5.5",
-   "ladder_checked_at": "2026-11-05T07:03:41Z",
-   "ladder_note": "Re-checked after: Iran's Revolutionary Guards report fires on tankers and a tug in the Strait of Hormuz, a shipping incident in the strait; the cause is Iran's account and is not yet independently confirmed."
+   "ladder_checked_at": "2026-11-08T00:00:30Z",
+   "ladder_note": "Re-checked after: Reports of tankers hitting mines near Hormuz, a US disabling of a ship under the blockade, and US strikes on Iranian air defenses are concrete escalations, though the mine and strike claims come from one side each."
   }
  ],
  "ai_risk": {
