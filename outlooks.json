@@ -176,6 +176,43 @@
 "https://www.aa.com.tr/en/asia-pacific/myanmar-military-airstrikes-kill-at-least-15-civilians-including-12-in-rakhine-state-report/4108750",
 "https://news.az/news/why-is-myanmar-s-military-intensifying-airstrikes-on-civilian-areas-as-the-war-escalates"
 ]
+},
+{
+"made": "2026-11-08",
+"hotspot": "russia-ukraine-war",
+"text": "The Abu Dhabi round is likely to go ahead on Nov 10-11, since both Moscow and Washington have confirmed delegations; past rounds produced prisoner swaps but no deal.",
+"likelihood": "likely",
+"check_by": "2026-11-12",
+"basis": [
+"https://meduza.io/en/news/2026/11/03/trilateral-talks-between-russia-ukraine-and-us-set-for-november-10-11-in-abu-dhabi",
+"https://ua.news/en/war-vs-rf/kreml-pidtverdiv-uchast-rosiyi-v-peregovorakh-shchodo-ukrayini-v-abu-dabi-10-11-listopada",
+"https://www.jpost.com/international/article-914121",
+"https://www.kyivpost.com/post/88971"
+]
+},
+{
+"made": "2026-11-08",
+"hotspot": "us-israel-iran-war",
+"text": "A deal to reopen Hormuz in the next few weeks looks unlikely, since Iran's army ties reopening to US concessions and no mediation outcome is reported.",
+"likelihood": "unlikely",
+"check_by": "2026-11-29",
+"basis": [
+"https://tehrantimes.com/news/531914/Strait-of-Hormuz-will-stay-closed-until-US-accepts-its-terms",
+"https://www.outlookindia.com/international/us-iran-strikes-hormuz-tanker-attacks-iran-peace-talks",
+"https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+]
+},
+{
+"made": "2026-11-08",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Further Saudi-Houthi strikes are likely in the coming weeks, given the Nov 8 exchange and Houthi pressure near Aden; a truce would change this.",
+"likelihood": "likely",
+"check_by": "2026-11-22",
+"basis": [
+"https://www.hindustantimes.com/world-news/saudi-airstrikes-kill-33-injure-39-near-yemen-s-capital-sanaa-houthi-health-ministry-says-101794103641681.html",
+"https://news.google.com/rss/articles/CBMikgFBVV95cUxOU1hPV0p1dkZfcU92OEJVMkYtQTNHb3hKSDdGZHp5U1RkUTZlc2dzTU9oNjQ4dk5nUGZ6WVhkTlk2VTJ0cFkxOHozbE9aWUJObXFUYVBCZEwtaktnOGExQjVfUlhNdFlxRV9KeHMzS1Rsc2c3OFAxNHF6RjM2X0FRamhCalJsTk1BY1g2NFhHX2ZnUQ?oc=5",
+"https://www.usnews.com/news/world/articles/2026-11-02/yemens-houthis-advance-to-within-80-km-of-aden-sources-say"
+]
 }
 ]
 }

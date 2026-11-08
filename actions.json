@@ -542,6 +542,95 @@
    "added": "2026-11-07",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-07-ru-1",
+   "date": "2026-11-07",
+   "country": "RU",
+   "kind": "military-readiness",
+   "what": "Moscow police reportedly detain 200+ young men and hand out conscription summonses (Ukrainska Pravda, Infobae)",
+   "url": "https://www.infobae.com/america/agencias/2026/11/08/policia-rusa-entrega-citaciones-de-alistamiento-a-jovenes-detenidos-en-moscu/",
+   "outlet": "Infobae",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-08",
+   "independent": 2,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-07-iq-1",
+   "date": "2026-11-07",
+   "country": "IQ",
+   "kind": "civil-preparedness",
+   "what": "Iraq reportedly activates response plans for a nuclear incident (single Romanian outlet; not confirmed elsewhere)",
+   "url": "https://www.romaniatv.net/doua-rachete-au-lovit-o-insula-din-sudul-iranului-explozii-in-zona-stramtorii-ormuz-iranul-distribuie-pastile-cu-iod-irakul-activeaza-planurile-de-interventie-pentru-atac-nuclear_9903955.html",
+   "outlet": "romaniatv.net",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-08",
+   "independent": 2,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-07-br-1",
+   "date": "2026-11-07",
+   "country": "BR",
+   "kind": "civil-preparedness",
+   "what": "Brazil's Civil Defense advises households to put together an emergency kit",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZXk1aXYyUmpfbG82NFZWVXZMWmgxdy1ONk9IVDVIdmNHdU5lWEdlNEducHg1eVlkUWlWVzUxNGstLW1tby15dE14ZWN4YXU2V2JoQS0yUFN5eWRyUW1PdTFBbXlrZGJkbGFUS3JrV2JwZXVEUV9QQWFmQkVPbGNicUNDQVdkTXkyc1RZeXNlTUFWMHowcE56UnV3cHM0U2I0X2F5MVp1a2N5R3FXNVhfY1JDYnB0TzhhMDlZNmFMR1NHNEJHejE5NUNpWGpNZ0daa3hMdTVKM0RxemRVdlRjU21TTHB1LWxiV1dV?oc=5",
+   "outlet": "Terra",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-08",
+   "independent": 3,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-08-eg-1",
+   "date": "2026-11-08",
+   "country": "EG",
+   "kind": "supply-reserves",
+   "what": "Egypt's President el-Sisi orders a new emergency agency to build up strategic reserves (The National)",
+   "url": "https://www.thenationalnews.com/news/mena/2026/11/08/egypts-el-sisi-orders-new-emergency-agency-to-build-up-strategic-reserves/",
+   "outlet": "The National",
+   "hotspots": [
+    "us-israel-iran-war",
+    "yemen-houthi-saudi-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-08",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-08-mm-1",
+   "date": "2026-11-08",
+   "country": "MM",
+   "kind": "military-readiness",
+   "what": "Myanmar's military government adds lessons on its conscription law to the school curriculum (Karen News)",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU3NPRXg4LXQ0LW5RcG50ZmRFUzdVdW9sS0tQNU5Ba2g3b2NNRk1DcVRoMXVMYWV1MTFnYlphdTZBTFMwU29YanpBR3U2YTUyczlOaVl6TFRZRzVzSEdwMG5YVzVzMkdzTmo0ZUhZUmFoZm56YVhTYTV0REU1cnEyc0dBX2Y4U3N6SGdSaF9NNUhyUnZsQkJ1OFpHeEZTbkVpNHdFX1Y3eUItUXpvQWUxMFB3?oc=5",
+   "outlet": "Karen News",
+   "hotspots": [
+    "myanmar-civil-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-08",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -1309,6 +1398,202 @@
    "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxNU2F4S0JpY01oNkJUVFV3TlZDNDRqekwzaVRESFBwNmI3R1BmQ3BOM3Njcl9iTlVuV0UzTWpUX1F1T0pCVUFsMzR3eFdCYWE0dUVaYk9PamRSS2dpaW5mTUstVm1qaEU3UUExN0lia0piWWllWnpLZTJfcWFDRVMxdGVoc0xRTUFjMEdBS0RDdE1CQXc5WjlPZDlRSHdJS1pmeUMyVjRuNWFHRXRFQXdaS0x6U0VlT3B3a2tYeE1tZk5PTzVOMkp2UWl1UTNYQ0xQMnZyT2xvOHBBbzJOakkwWDc3ckU5SFYtelNwS1NWQ1RjckxkWTBBZ3lvWVhsdWFHenZOOHJaQjZfaUc1OEkwQTdCRGZyNkdsTGtQcVQ4Nm1ybkVCTXkzUThzUWx5dmJfQ011dW90M2d1U29lUUNrWFNxbW16V1BETU9CWk9TZ2xQRFVRbDB2VWlzdC1PbzVhZFNiWjZfN241ZnkyeE1SQ3VnX2stZXpTZXpPQ2JqRmdBTEtZdDhpRHJlZzlVWnRZV1hCa1V5alRRWFRNWXhxa2l",
    "source": "corpus",
    "independent": 5
+  },
+  {
+   "id": "e-2026-11-08-7",
+   "date": "2026-11-07",
+   "kind": "news",
+   "what": "Drone, Missile Attacks Wound 9 as Ukraine Prepares for Talks with Russia and the US",
+   "countries": [
+    "AZ",
+    "GB",
+    "KR",
+    "SA",
+    "TH",
+    "US"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://english.aawsat.com/node/5338721",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-08-8",
+   "date": "2026-11-07",
+   "kind": "news",
+   "what": "Thousands of Syrian troops to deploy to Yemen, Saudi Arabia: sources to AFP",
+   "countries": [
+    "EG",
+    "FR",
+    "IL",
+    "IN",
+    "KR",
+    "LB",
+    "SG",
+    "TH"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.al-monitor.com/originals/2026/11/thousands-syrian-troops-deploy-yemen-saudi-arabia-sources-afp",
+   "source": "corpus",
+   "independent": 9
+  },
+  {
+   "id": "e-2026-11-08-1",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "Saudi airstrikes kill 33, injure 39 near Yemen’s capital Sanaa, Houthi health ministry says",
+   "countries": [
+    "AT",
+    "AU",
+    "CA",
+    "DE",
+    "EG",
+    "FR",
+    "GB",
+    "HK"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.hindustantimes.com/world-news/saudi-airstrikes-kill-33-injure-39-near-yemen-s-capital-sanaa-houthi-health-ministry-says-101794103641681.html",
+   "source": "corpus",
+   "independent": 17
+  },
+  {
+   "id": "e-2026-11-08-2",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "According to Houthi authorities, 33 people, including 13 children and eight women, were killed in Saudi-led coalition airstrikes in Sanaa.",
+   "countries": [
+    "AR",
+    "DE",
+    "FR",
+    "GB",
+    "ID",
+    "IL",
+    "IN",
+    "LB"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.dw.com/ur/حوثی-حکام-کے-مطابق-صنعاء-میں-سعودی-قیادت-والے-اتحاد-کے-فضائی-حملوں-میں-13-بچوں-اور-آٹھ-خواتین-سمیت-33-افراد-ہلاک-ہوئے۔/live-79889434?maca=urd-rss-urd-all-1497-rdf",
+   "source": "corpus",
+   "independent": 20
+  },
+  {
+   "id": "e-2026-11-08-3",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "[Video] Houthis say 33 killed in Saudi airstrikes, retaliate with attacks on oil facilities and airports",
+   "countries": [
+    "AR",
+    "AZ",
+    "CO",
+    "CY",
+    "GB",
+    "GR",
+    "ID",
+    "IL"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.yna.co.kr/view/AKR20261108026300704",
+   "source": "corpus",
+   "independent": 16
+  },
+  {
+   "id": "e-2026-11-08-4",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
+   "countries": [
+    "AE",
+    "AR",
+    "FR",
+    "GB",
+    "IN",
+    "PT",
+    "QA",
+    "RU"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU1hPV0p1dkZfcU92OEJVMkYtQTNHb3hKSDdGZHp5U1RkUTZlc2dzTU9oNjQ4dk5nUGZ6WVhkTlk2VTJ0cFkxOHozbE9aWUJObXFUYVBCZEwtaktnOGExQjVfUlhNdFlxRV9KeHMzS1Rsc2c3OFAxNHF6RjM2X0FRamhCalJsTk1BY1g2NFhHX2ZnUQ?oc=5",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-08-5",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "In Colombia, three soldiers killed and 35 wounded in drone attack",
+   "countries": [
+    "AE",
+    "AR",
+    "DE",
+    "IN",
+    "RU",
+    "SA",
+    "TR"
+   ],
+   "hotspot": "colombia-eln-catatumbo",
+   "url": "https://www.rbc.ru/rbcfreenews/6af02ed79e543f790d79ca5a",
+   "source": "corpus",
+   "independent": 13
+  },
+  {
+   "id": "e-2026-11-08-6",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "Saudi Arabia: Riyadh's financial district attacked; two ballistic missiles intercepted",
+   "countries": [
+    "AE",
+    "AR",
+    "AZ",
+    "DE",
+    "FR",
+    "GB",
+    "GR",
+    "IL"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.lemonde.fr/international/article/2026/11/08/arabie-saoudite-le-quartier-financier-de-riyad-attaque-deux-missiles-balistiques-interceptes_6808413_3210.html",
+   "source": "corpus",
+   "independent": 14
+  },
+  {
+   "id": "e-2026-11-08-7",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
+   "countries": [
+    "AE",
+    "EG",
+    "GB",
+    "IN",
+    "RU",
+    "SA",
+    "SG"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.hindustantimes.com/world-news/saudi-aramco-building-in-riyadh-damaged-by-falling-debris-after-attempted-attack-ministry-says-101794129796592.html",
+   "source": "corpus",
+   "independent": 9
+  },
+  {
+   "id": "e-2026-11-08-8",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "Iran says it has lifted its self-imposed limit on missile ranges",
+   "countries": [
+    "AZ",
+    "EG",
+    "IL",
+    "IN",
+    "RU",
+    "SA",
+    "US",
+    "VN"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT0VSQVpRYXVRNTdoeGdydWczeEluLU1kUUtDYk15ZFVZSkV1OFJNMVprd2hzcFRDRXFfM2N2S3NPbC1tYlQxV0JPaVBkOUduaUFQVHBDRGl6TmZ0SlZiLTdBQzhUdndxOVh0Q3hNMS02dzBCTmd1a05aUER0NEF0c1p6OVdJOUNEMHZWNy1US3Z1Y3pseXhYWjN0U2xiZWgtU3VLNTZMUFU1bm5FS0E?oc=5",
+   "source": "corpus",
+   "independent": 8
   }
  ]
 }
