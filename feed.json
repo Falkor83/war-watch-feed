@@ -1716,9 +1716,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Talks stalled as Rubio calls Iran's demands 'outrageous'; Trump says new strikes unlikely",
+   "status": "Talks stalled; Trump to meet Qatar's PM Monday; reports of new strikes in southern Iran unconfirmed",
    "summary": "The US and Israel have fought Iran on and off in 2026, and an April ceasefire and a June memorandum both broke down by July. The US then reimposed its blockade, and Iran has kept the Strait of Hormuz closed to traffic it does not approve. Trump confirmed new US strikes on an Iranian air defence system and called them minor. Iran's military says two more tankers caught fire after hitting mines on what it calls an unauthorised route, and explosions were reported on Qeshm Island and at Jask; no maritime authority has confirmed the mine claims. The US has also offered up to $20 million for information on Iran's nuclear programme, while Oman and Qatar keep up mediation.",
    "latest": [
+    {
+     "date": "2026-11-09",
+     "at": "2026-11-09T04:42:13Z",
+     "text": "Trump is due to meet Qatar's prime minister, the mediator between the US and Iran, on Monday, according to reports in Argentina, India and France. Those reports describe the peace talks as facing hurdles.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/agencias/2026/11/09/trump-se-reunira-este-lunes-con-el-primer-ministro-de-catar-mediador-entre-eeuu-e-iran/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-09",
+     "at": "2026-11-09T04:42:13Z",
+     "text": "BBC Persian reports new attacks on several points in southern Iran. Trump says the US destroyed Iran's air defence equipment. Only one source carries this, so it is not confirmed.",
+     "outlet": "BBC Persian",
+     "country": "United Kingdom",
+     "url": "https://www.bbc.co.uk/persian/live/cjg477wl2dg2t?at_medium=RSS&at_campaign=rss",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-09",
+     "at": "2026-11-09T04:42:13Z",
+     "text": "Iran's foreign minister warns that if the US does not accept its proposal it will face a 'hellish, heavy strike', and gives Washington two days to decide. Trump has said new strikes are 'highly unlikely' and that he does not seek to escalate.",
+     "outlet": "Liberty Times",
+     "country": "Taiwan",
+     "url": "https://news.ltn.com.tw/news/world/breakingnews/5634242",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-09",
      "at": "2026-11-09T01:57:08Z",
@@ -1771,39 +1804,6 @@
      "country": "United Kingdom",
      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-heard-irans-qeshm-island-state-media-reports",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "at": "2026-11-08T23:06:57Z",
-     "text": "Iran's foreign minister says Tehran is waiting to resume talks after the US midterms. Iran also threatens to 'rain down hell' if the US escalates the war.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/iran-waiting-to-resume-talks-after-us-midterms-shockiranian-foreign-minis?traffic_source=rss",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "at": "2026-11-08T20:21:19Z",
-     "text": "Trump says resuming strikes on Iran is 'highly unlikely' if negotiations produce progress, according to reports carried by several outlets in different regions. The remark is conditional on talks.",
-     "outlet": "Daily Maverick",
-     "country": "South Africa",
-     "url": "https://www.dailymaverick.co.za/article/2026-11-08-trump-says-he-is-highly-unlikely-to-order-iran-strikes-if-talks-progress/",
-     "region": "africa",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-08",
-     "at": "2026-11-08T20:21:19Z",
-     "text": "The US has asked Iraq to shut most of its border crossings with Iran, Iraq's foreign minister says. This is reported by one independent outlet, carried by several others.",
-     "outlet": "Al-Monitor",
-     "country": "United States",
-     "url": "https://www.al-monitor.com/originals/2026/11/us-asks-iraq-shut-most-iran-border-crossings-iraqi-foreign-minister-says",
-     "region": "north-america",
      "tag": "non-party",
      "state_media": false
     }
@@ -11443,11 +11443,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-05T09:48:30Z",
-     "headline": "Tankers caught fire in Hormuz; Trump admits Iran war hurt midterms, strike talk grows",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-05T12:34:19Z",
      "headline": "Tanker fires reported in Hormuz, cause unconfirmed; Trump says no attack planned soon",
      "direction": "steady"
@@ -11561,217 +11556,236 @@
      "at": "2026-11-09T01:57:08Z",
      "headline": "Talks stalled as Rubio calls Iran's demands 'outrageous'; Trump says new strikes unlikely",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-09T04:42:13Z",
+     "headline": "Talks stalled; Trump to meet Qatar's PM Monday; reports of new strikes in southern Iran unconfirmed",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-09T01:57:08Z",
-   "next_at": "2026-11-09T04:57:08Z",
-   "headline": "Talks stalled as Rubio calls Iran's demands 'outrageous'; Trump says new strikes unlikely",
+   "updated_at": "2026-11-09T04:42:13Z",
+   "next_at": "2026-11-09T07:42:13Z",
+   "headline": "Talks stalled; Trump to meet Qatar's PM Monday; reports of new strikes in southern Iran unconfirmed",
    "direction": "steady",
    "points": [
     {
-     "text": "Rubio says peace talks with Iran are 'not very productive' and sees no breakthrough, calling Tehran's demands 'outrageous'. Qatar rejects reports that its prime minister said the talks had failed. Israeli media report Trump will meet Qatar's prime minister tomorrow.",
+     "text": "Trump is due to meet Qatar's prime minister, the mediator between the US and Iran, on Monday, according to reports in Argentina, India and France. Those reports describe the peace talks as facing hurdles.",
      "stories": [
-      "s5",
-      "s10",
-      "s16",
-      "s8",
-      "s30"
+      "s1"
      ],
      "sources": [
       {
-       "t": "'Iranian demands are outrageous,' Rubio says as talks fail to make progress",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914276",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794180611,
+       "t": "Trump will meet with the prime minister of Qatar, mediator between the U.S. and Iran, this Monday",
+       "o": "Trump se reunirá este lunes con el primer ministro de Catar, mediador entre EE.UU. e Irán",
+       "u": "https://www.infobae.com/america/agencias/2026/11/09/trump-se-reunira-este-lunes-con-el-primer-ministro-de-catar-mediador-entre-eeuu-e-iran/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794195015,
        "r": "known"
       },
       {
-       "t": "Marco Rubio says peace talks with Iran 'not very productive,' calls Tehran's demands ‘outrageous’",
-       "u": "https://www.hindustantimes.com/world-news/us-news/marco-rubio-says-peace-talks-with-iran-not-very-productive-calls-tehrans-demands-outrageous-101794178617537.html",
+       "t": "Trump to meet Qatar's prime minister at White House as Iran peace talks face hurdles",
+       "u": "https://www.hindustantimes.com/world-news/trump-to-meet-qatars-prime-minister-at-white-house-as-iran-peace-talks-face-hurdles-101794190113364.html",
        "s": "Hindustan Times World",
        "c": "IN",
        "l": "en",
-       "p": 1794179192,
+       "p": 1794194317,
        "r": "known"
       },
       {
-       "t": "Rubio says no 'breakthrough' in US-Iran talks",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-says-no-breakthrough-us-iran-talks",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794185343,
-       "r": "known"
-      },
-      {
-       "t": "Rubio sees no Iran breakthrough as Trump downplays new strikes",
-       "u": "https://www.straitstimes.com/world/united-states/rubio-sees-no-iran-breakthrough-as-trump-downplays-new-strikes",
-       "s": "The Straits Times",
-       "c": "SG",
-       "l": "en",
-       "p": 1794184080,
-       "r": "known"
-      },
-      {
-       "t": "Qatar rejects reports claiming PM said US-Iran talks had failed",
-       "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY2dzdE43ZGFNYWNMZ2kyWk1CNVEyNW1GcUNqb0Y2Mlh1MlMzLVFySFhrX0hrLWRvNVBlWENMNDZ6MEhnYlczM3ViVk12X01uajNLZEpEbFEyRzc3bVBlVlZsa25yemxfMEJTcXo4ZGU0aWVqMmc3TjRtUmJfVlBXNy1zNUhBRFh6dnZsdTdJeWVPN3pMc25sYlltbWxrS0Vna0JQOGd0a1NYa1FC?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1794186002,
-       "r": "known"
-      }
-     ],
-     "headlines": 8,
-     "outlets": 6,
-     "independent": 6,
-     "countries": [
-      "GB",
-      "IL",
-      "IN",
-      "SA",
-      "SG"
-     ],
-     "regions": 5,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran's foreign minister Abbas Araghchi says 'Our 2-day proposal stands' in an ultimatum on ending the war. Iran says the talks are deadlocked over fallout from the US midterms.",
-     "stories": [
-      "s19",
-      "s22",
-      "s32"
-     ],
-     "sources": [
-      {
-       "t": "Iran's FM Abbas Araghchi gives ultimatum to US on ending war: 'Our 2-day proposal stands'",
-       "u": "https://www.hindustantimes.com/world-news/irans-fm-abbas-araghchi-gives-ultimatum-to-us-on-ending-war-our-2-day-proposal-stands-101794181550576.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794182968,
-       "r": "known"
-      },
-      {
-       "t": "Trump says chance of renewed Iran attack is \"very small\"... Iran says negotiations deadlocked over midterm fallout",
-       "u": "https://www.hani.co.kr/arti/international/america/1286372.html",
-       "s": "Hankyoreh English",
-       "c": "KR",
-       "l": "en",
-       "p": 1794181759,
-       "r": "known"
-      },
-      {
-       "t": "Iran vows ‘astonishing’ strikes and lifts missile-range limit as US targets land routes",
-       "u": "https://www.foxnews.com/world/iran-vows-astonishing-strikes-lifts-missile-range-limit-us-targets-land-routes",
-       "s": "Fox News World",
-       "c": "US",
-       "l": "en",
-       "p": 1794179337,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "IN",
-      "KR",
-      "US"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Trump says he is ready to strike Iran again, with three aircraft carriers deployed and power plants and bridges identified as targets; this comes from one Chinese outlet and is not confirmed elsewhere. Trump has also said new strikes are 'highly unlikely' if talks progress.",
-     "stories": [
-      "s14",
-      "s24"
-     ],
-     "sources": [
-      {
-       "t": "Trump: US military is ready to strike Iran again; three aircraft carriers currently deployed, with targets such as power plants and bridges identified",
-       "o": "特朗普 ： 美军已做好再次打伊朗的准备 ， 目前部署了3艘航母 ， 已确定发电厂 、 桥梁等目标",
-       "u": "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyauwh6645976.shtml",
-       "s": "finance.sina.com.cn",
-       "c": "CN",
-       "l": "zh",
-       "p": 1794184200,
+       "t": "G7 ministers meet in Paris amid tensions with Iran",
+       "o": "Les ministres du G7 réunis à Paris sur fond de tensions avec lIran",
+       "u": "https://www.martinique.franceantilles.fr/actualite/france/les-ministres-du-g7-reunis-a-paris-sur-fond-de-tensions-avec-liran-1098996.php",
+       "s": "martinique.franceantilles.fr",
+       "c": "FR",
+       "l": "fr",
+       "p": 1794189600,
        "r": "unrated"
-      },
-      {
-       "t": "Trump says resumption of war with Iran ‘highly unlikely’",
-       "u": "https://globalnation.inquirer.net/346370/trump-says-resumption-of-war-with-iran-highly-unlikely",
-       "s": "Inquirer Global Nation",
-       "c": "PH",
-       "l": "en",
-       "p": 1794180611,
-       "r": "known"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "CN",
-      "PH"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "On the ground, the Iraqi foreign minister says the US has asked Iraq to shut most Iran border crossings. US Central Command has blocked a land detour after the sea blockade of Iran, and Al Jazeera reports a drone hit an Iraqi gasfield.",
-     "stories": [
-      "s15",
-      "s23",
-      "s21"
-     ],
-     "sources": [
-      {
-       "t": "US asks Iraq to shut most Iran border crossings , Iraqi foreign minister says – Ya Libnan",
-       "u": "https://yalibnan.com/2026/11/09/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says/",
-       "s": "yalibnan.com",
-       "c": "SY",
-       "l": "en",
-       "p": 1794184200,
-       "r": "unrated"
-      },
-      {
-       "t": "US Central Command blocks land detour after sea blockade of Iran",
-       "o": "美 중부사령부, 이란 해상봉쇄 이어 육상 우회로도 틀어막는다",
-       "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nLUE3cWNHcWJfanF0U2llbmF3b0RDbUR4WC1ScXJlNE1CNXlLQm5ydEJZSkhhRVc2LXh1VmdkQjlJRFVpSTlaMGoxZE5DUVhvNkduVEoteGM1NmNY?oc=5",
-       "s": "뉴스핌",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794181080,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran war live: Trump says ‘Iron Gate’ in effect; drone hits Iraq gasfield",
-       "u": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "en",
-       "p": 1794182434,
-       "r": "known"
       }
      ],
      "headlines": 3,
      "outlets": 3,
      "independent": 3,
      "countries": [
-      "KR",
+      "AR",
+      "FR",
+      "IN"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "BBC Persian reports new attacks on several points in southern Iran. Trump says the US destroyed Iran's air defence equipment. Only one source carries this, so it is not confirmed.",
+     "stories": [
+      "s6",
+      "s2"
+     ],
+     "sources": [
+      {
+       "t": "Reports of new attacks on several points in southern Iran; Trump: we destroyed their air defense equipment",
+       "o": "آنچه گذشت؛ سنتکام: نیروهای آمریکایی یک کشتی تجاری را در دریای عمان هدف قرار دادند",
+       "u": "https://www.bbc.co.uk/persian/live/cjg477wl2dg2t?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Persian",
+       "c": "GB",
+       "l": "fa",
+       "p": 1794198270,
+       "r": "known"
+      },
+      {
+       "t": "Iran war: Operation \"Iron Gate\" – Trump sends special forces to the mainland",
+       "o": "Iran-Krieg: Operation „Iron Gate“ – Trump schickt Spezialeinheit aufs Festland",
+       "u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUTUtQUVUcFlzaEp3a1R2SERabnRWRHFTVms3N21HaV81U1UtV2hieXFwQklXcnp1X3VqRWRIR2dBR0NqTDcwdnRfVFFIamx4cDVCX2VfdklISFd0alBnZ2VNV1Z5UExxTDF4ZUxCWlZEajJ2c3JhcGg5QVZDX1ZJczZINlhSZkNmeWh5UHFNbDdiLVlwNTV3ZkNVM19yOHM0dXh3SVNXb0l6cW9aUDJTR0loQzEyT0lsb1J4ZUdiODVYMnlqLU9uRTQ2S1BlNFZ1Wmdjc0xUVUNFUnZNbkpV?oc=5",
+       "s": "WELT",
+       "c": "DE",
+       "l": "de",
+       "p": 1794189825,
+       "r": "unrated"
+      },
+      {
+       "t": "Could a new US special forces unit change the course of the war with Iran?",
+       "o": "Lực lượng đặc nhiệm mới của Mỹ có thể thay đổi cục diện chiến tranh với Iran ?",
+       "u": "https://baotintuc.vn/luc-luong-dac-nhiem-moi-cua-my-co-the-thay-doi-cuc-dien-chien-tranh-voi-iran-post1401056.html",
+       "s": "baotintuc.vn",
+       "c": "VN",
+       "l": "vi",
+       "p": 1794189600,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "DE",
+      "GB",
+      "VN"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran's foreign minister warns that if the US does not accept its proposal it will face a 'hellish, heavy strike', and gives Washington two days to decide. Trump has said new strikes are 'highly unlikely' and that he does not seek to escalate.",
+     "stories": [
+      "s10",
+      "s27",
+      "s13",
+      "s19"
+     ],
+     "sources": [
+      {
+       "t": "Iran's foreign minister warns the US that if it does not accept the proposal, it will face a \"hellish, heavy strike",
+       "o": "伊朗外長警告美國接受提議 否則將面臨「地獄猛烈打擊」",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5634242",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794196823,
+       "r": "known"
+      },
+      {
+       "t": "Choose war and you'll get hell\": Iran threatens the US and gives it 2 days to think",
+       "o": "\"Оберіть війну і отримаєте пекло\": Іран пригрозив США та дав 2 дні на роздуми",
+       "u": "https://www.pravda.com.ua/news/2026/11/09/8061868/",
+       "s": "Ukrainska Pravda UA",
+       "c": "UA",
+       "l": "uk",
+       "p": 1794189000,
+       "r": "known"
+      },
+      {
+       "t": "Trump claims he \"does not seek to escalate\" the war in Iran after US elections",
+       "o": "Trump asegura que \"no busca escalar\" la guerra en Irán tras las elecciones en EE.UU.",
+       "u": "https://www.infobae.com/america/agencias/2026/11/09/trump-asegura-que-no-busca-escalar-la-guerra-en-iran-tras-las-elecciones-en-eeuu/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794195916,
+       "r": "known"
+      },
+      {
+       "t": "Donald Trump says it is \"highly unlikely\" that the war with Iran will resume",
+       "o": "Donald Trump dice que es ‘altamente improbable’ que la guerra con Irán se reanude",
+       "u": "https://eluniverso.com/internacional/estados-unidos/donald-trump-dice-que-es-altamente-improbable-que-la-guerra-con-iran-se-reanude-nota/",
+       "s": "El Universo",
+       "c": "EC",
+       "l": "es",
+       "p": 1794191400,
+       "r": "known"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
+     "countries": [
+      "AR",
+      "EC",
+      "TW",
+      "UA"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Rubio says the war is unpopular but 'necessary' to stop Iran's nuclear threat. Oil prices fell on hopes of talks: Brent dropped more than $1 after Trump signalled that fresh strikes are unlikely.",
+     "stories": [
+      "s4",
+      "s29",
+      "s11"
+     ],
+     "sources": [
+      {
+       "t": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
+       "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMFlYWG5HNENyZGpLS1JGNzJvMzJqTjJReEplWTNFMnBXTjFQM0ZiblN3WVh3ZEpfcWxGbTE5aTY1MjgtajEwU19vLUlPZUNTdXk4VE9oY0dBblkybmVoOHJ4WUJ4bHhIcjk2akRPRlhYV1pVbVdBZ09hRzFKazJLZUhVSl8zbURINVFMWHZKcDZ0UWRab09ka3hWSkpDaVU4YXVlSzNrLWNMVUZkUXlJ0gG0AUFVX3lxTE11UV9jSEd6eTNyZU5EYXhJMTQyNzJRMS02eHExS0NUZi1PWXV3T0l3NHhHc0xDQ0xNLXB4eU9CUGxJaWxZZEt3REFLMHFlTGlIMUFjX3Myc3duczRGSmRIMVBMNjF4eHpIVy1nT3VRaUhKQXpKUTc1YVFpb0NOQmpVSU85eW9MWGRkQnpxcVFzem9NUmJmR3lQOExkTDNJd2wtemJJQ0dVeGd1MVFocldSdXBEVQ?oc=5",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1794197184,
+       "r": "known"
+      },
+      {
+       "t": "Rubio says Trump war against Iran not necessarily popular but needed to stop a nuclear threat",
+       "u": "http://www.goskagit.com/news/politics/rubio-says-trumps-war-against-iran-not-necessarily-popular-but-needed-to-stop-a-nuclear/article_956c74a4-76f2-5934-89b7-d465e94ccadb.html",
+       "s": "goskagit.com",
+       "c": "US",
+       "l": "en",
+       "p": 1794189600,
+       "r": "unrated"
+      },
+      {
+       "t": "Brent crude falls over $1 as Trump signals fresh US strikes on Iran are unlikely",
+       "u": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQeHlFR1lmaUdJZkhmU0Mtckg3bm02Zzg5NGRNdHdDdmN0WDF2LXByMmNhWVEyZmlFc1JjX0dVR0ZIZWJHNnMwSnJtejFwMW5KYWktcFBkaTFYdkE0ckpJR3BjNkZ2ZExDc0FMb1kwQjRId21FbU1FeDR2bjNvaGFuSTdXNTdLT3JYeENsMVJXWXIxM1plU290YlF1ZW53R0tYWDROSFRPZUwzUWZvRnRVUm5nNGJMWnRPZVBBbF95OTYtUzdyYnRSUUU5bEEtX004M1VMM0xTY24tbmJwN003NldfdFpkeExkQUhqTE1yTTJOSDlYdHVqSTE4TXFLYUJDZld3?oc=5",
+       "s": "Times of India",
+       "c": "IN",
+       "l": "en",
+       "p": 1794188640,
+       "r": "known"
+      },
+      {
+       "t": "Oil dips again on Iran talks hopes, but physical Gulf crude climbs",
+       "u": "https://gulfnews.com/business/energy/oil-dips-again-on-iran-talks-hopes-but-physical-gulf-crude-climbs-1.500740662",
+       "s": "Gulf News",
+       "c": "AE",
+       "l": "en",
+       "p": 1794196738,
+       "r": "known"
+      }
+     ],
+     "headlines": 7,
+     "outlets": 6,
+     "independent": 4,
+     "countries": [
+      "AE",
+      "IN",
       "QA",
-      "SY"
+      "US"
      ],
      "regions": 3,
      "party_only": false,
@@ -11779,14 +11793,14 @@
     }
    ],
    "watch": [
-    "Trump's meeting with Qatar's prime minister, and whether talks restart",
-    "Whether Iran's '2-day' proposal deadline passes without a US response",
-    "Whether Iraq closes the border crossings and whether more drone attacks hit Iraqi energy sites"
+    "Trump's meeting with Qatar's prime minister on Monday",
+    "Whether Iran's two-day deadline passes without a deal",
+    "Confirmation or denial of the reported strikes in southern Iran"
    ],
    "window_hours": 3,
-   "headlines_read": 43,
-   "outlets_read": 30,
-   "countries_read": 20,
+   "headlines_read": 42,
+   "outlets_read": 33,
+   "countries_read": 19,
    "languages_read": 13,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
