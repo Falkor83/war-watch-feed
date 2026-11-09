@@ -1742,9 +1742,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Trump to meet Qatar mediator as Iran halts tankers; Qeshm strike reports unconfirmed",
+   "status": "Trump calls renewed Iran strikes 'highly unlikely'; Qatar meeting set",
    "summary": "The US and Israel have fought Iran on and off in 2026, and an April ceasefire and a June memorandum both broke down by July. The US then reimposed its blockade, and Iran has kept the Strait of Hormuz closed to traffic it does not approve. Trump confirmed new US strikes on an Iranian air defence system and called them minor. Iran's military says two more tankers caught fire after hitting mines on what it calls an unauthorised route, and explosions were reported on Qeshm Island and at Jask; no maritime authority has confirmed the mine claims. The US has also offered up to $20 million for information on Iran's nuclear programme, while Oman and Qatar keep up mediation.",
    "latest": [
+    {
+     "date": "2026-11-09",
+     "at": "2026-11-09T19:06:08Z",
+     "text": "Trump says resuming the war with Iran is 'highly unlikely', and oil prices hit a 10-week low after his remarks. Ahram Online reports Vance and Rezaei are eyeing talks in Doha as Trump meets Qatar's prime minister, but CNA reports no imminent deal to end the war.",
+     "outlet": "The Hindu",
+     "country": "India",
+     "url": "https://www.thehindu.com/news/international/trump-says-resumption-of-war-with-iran-highly-unlikely/article71683793.ece",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-09",
+     "at": "2026-11-09T19:06:08Z",
+     "text": "France accuses Iran's Revolutionary Guards of a cyberattack on supermarket refrigeration systems. Paris has launched a probe and vowed sanctions, and Kallas has opened the door to EU sanctions. TASS reports France summoned Iran's chargé d'affaires.",
+     "outlet": "Asharq Al-Awsat",
+     "country": "Saudi Arabia",
+     "url": "https://aawsat.com/node/5339383",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-09",
+     "at": "2026-11-09T19:06:08Z",
+     "text": "Iranian President Pezeshkian is quoted by CNN as saying Supreme Leader Khamenei ordered an end to the 'neither war nor peace' situation with America. Kommersant separately reports Khamenei calling for settling relations with the US; this is a single-source report.",
+     "outlet": "CNN",
+     "country": "United States",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV0NLNGxvZHVILXNoOV9jNjBOT1JfRnBjOUJUZVV1azJ0SFRTdi0xQ1Z5a1VpVFhkNEI1YVhrNjJpS1J0SDU4Nl9MT3RNQmJzMkROTU9ueU1sOFdKN19INk5QYl91NWRKcHFfR1lONE44WVotTzlKYVNRVmJKM0R3MHdUMHQtQmRheEpueUNpVHJWRmlqcVo4dlBIZTdVSTF3VThBMll4dm1CbDZueW1wcA?oc=5",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-09",
      "at": "2026-11-09T15:39:50Z",
@@ -1796,37 +1829,6 @@
      "outlet": "Reuters",
      "country": "United Kingdom",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0pwQmJtMVdmZDY2NVhWalgxSHZ0d0NvUzJ4cldzTHFQUmdHSERzZENUOXljYldMbFpRa3J5d0VhbkNtZGJVM1paVkFWZ1ZHZTFOQlNkNm5xZ2tkc0FYQkxvQkU3RHc5cm9lcjFXSzdCNlE5QjNXNnRoZktjUHhGRTRGOXZYbWZtUXlTaFBXN096VFZrTDBQQll5ZDJaZDlPdUlueEtHaGMyQ1ZnWHdxQll3UWI3WHdYZmc?oc=5",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-09",
-     "at": "2026-11-09T11:59:29Z",
-     "text": "Erdogan says he told Trump that Turkey is concerned about possible attacks on Iran, and he offered to help mediate a settlement. These are Turkish accounts relayed by several outlets.",
-     "outlet": "Jerusalem Post",
-     "country": "Israel",
-     "url": "https://www.jpost.com/middle-east/iran-news/article-914324",
-     "region": "middle-east",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-09",
-     "text": "Trump told CNN on Sunday that renewed US strikes are highly unlikely if Iran makes progress on a nuclear deal and reopens Hormuz. He also told 60 Minutes he is not looking to escalate.",
-     "outlet": "CNN",
-     "country": "United States",
-     "url": "https://edition.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl",
-     "region": "north-america",
-     "tag": "party-gov",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-09",
-     "text": "Headline (translated from ar): Breaking: Rubio announces no progress in negotiations with Iran... Trump reveals possible targets for new strikes [story carried by 24 independent sources in 18 countries (AU, BR, CA, CN, FR, GB)]",
-     "outlet": "Euronews",
-     "country": "France",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa196NWtVZGl2dER1LVE0M3pxdl9nM0lNQVNwU3FJaG5MNzA3MGRyeG1SV3dqNEotUEdjWDV4QW01SGxXZ2FoWDJtcHZhSF9JRXdEcFBId3RmUFRFTUVNVm1RbWUxUmEydjYzcGNlQmVJYS1GZnYyMlJ5V2Z2YXpmNkt1Z3dtaHpaR2gyRThtNWdjS2xQMm93SWt5X25OendlSU5BSkpKYVdzU0xMbWJwb1ppSmpqdTg?oc=5",
      "region": "europe",
      "tag": "non-party",
      "state_media": false
@@ -11949,11 +11951,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-05T21:01:59Z",
-     "headline": "Iran's nuclear proposal reportedly sent to US via Qatar; tanker, drone incidents go on",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-05T23:45:31Z",
      "headline": "Iran nuclear proposal via Qatar in review; Trump threatens strikes; Hormuz drone claims",
      "direction": "steady"
@@ -12067,244 +12064,262 @@
      "at": "2026-11-09T15:39:50Z",
      "headline": "Trump to meet Qatar mediator as Iran halts tankers; Qeshm strike reports unconfirmed",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-09T19:06:08Z",
+     "headline": "Trump calls renewed Iran strikes 'highly unlikely'; Qatar meeting set",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-09T15:39:50Z",
-   "next_at": "2026-11-09T18:39:50Z",
-   "headline": "Trump to meet Qatar mediator as Iran halts tankers; Qeshm strike reports unconfirmed",
-   "direction": "escalating",
+   "updated_at": "2026-11-09T19:06:08Z",
+   "next_at": "2026-11-09T22:06:08Z",
+   "headline": "Trump calls renewed Iran strikes 'highly unlikely'; Qatar meeting set",
+   "direction": "steady",
    "points": [
     {
-     "text": "The IRGC says its forces stopped four tankers in the Strait of Hormuz within a day, and IranWire reports a halt to tanker transit in the southern strait. Shipping crews describe the constant danger in the strait.",
+     "text": "Trump says resuming the war with Iran is 'highly unlikely', and oil prices hit a 10-week low after his remarks. Ahram Online reports Vance and Rezaei are eyeing talks in Doha as Trump meets Qatar's prime minister, but CNA reports no imminent deal to end the war.",
      "stories": [
       "s4",
-      "s19"
+      "s15",
+      "s11"
      ],
      "sources": [
       {
-       "t": "IRGC says its forces stopped four tankers in the Strait of Hormuz within a day",
-       "o": "КСИР заявил, что его силы остановили четыре танкера в Ормузском проливе за сутки",
-       "u": "https://www.interfax.ru/world/1127851",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794228840,
+       "t": "Trump says resumption of war with Iran 'highly unlikely'",
+       "u": "https://www.thehindu.com/news/international/trump-says-resumption-of-war-with-iran-highly-unlikely/article71683793.ece",
+       "s": "The Hindu",
+       "c": "IN",
+       "l": "en",
+       "p": 1794242771,
        "r": "known"
       },
       {
-       "t": "IRGC Says Tanker Transit Halted in Southern Strait of Hormuz",
-       "u": "https://iranwire.com/en/news/159987-irgc-says-tanker-transit-halted-in-southern-strait-of-hormuz/",
-       "s": "IranWire",
-       "c": "IR",
+       "t": "Oil prices hit 10-week low after Donald Trump says strikes on Iran ‘highly unlikely’",
+       "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVdMbllYT0JtVGNxZ2ZKdlpxUjBLMWJESlU0emF1eDk0NDdweHBndXV1MEtYV0I3UlZVTTljS1NoUnBLX1VpMVUwVE5jNmM2OU9iMEV5WklTUENZdTlqTUpGMS1nRlNpNzVyclZxbTJGM3B2ODcwem5xNVhVX1I4NldLVUs?oc=5",
+       "s": "Financial Times",
+       "c": "GB",
        "l": "en",
-       "p": 1794224820,
+       "p": 1794242118,
        "r": "known"
       },
       {
-       "t": "Constant state of danger takes toll on shipping crews in Strait of Hormuz",
-       "u": "https://www.thenationalnews.com/news/uae/2026/11/09/safety-elusive-for-crews-stuck-at-sea-in-strait-of-hormuz-as-death-toll-climbs/",
-       "s": "The National",
-       "c": "AE",
+       "t": "Vance, Rezaei eye Iran talks in Doha as Trump meets Qatar PM - Region - World",
+       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUWdPbzczLUFFMHhtandYSGU0c3M5QWs3MVV1UENkY3Z0ekZXTkpiajRZS01ZcXVSbjI3NG1INFVxbmFzRjhoaUhBa3RGeUJJaDBpT21zdzYxUnFHZ2JiU0h2MWdHNXA5dGpwWUJleXRMdEQtMVJ4VDlDY2xnV3g2OGRzNjRfWXNKX1gwTGtzVmVzOS1mWU16YmE4YTcwdjh1UjFoamVXT1ExUnBJRVdIUjBB?oc=5",
+       "s": "Ahram Online",
+       "c": "EG",
        "l": "en",
-       "p": 1794227565,
+       "p": 1794243953,
+       "r": "state"
+      },
+      {
+       "t": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war",
+       "u": "https://www.channelnewsasia.com/world/trump-qatar-iran-talks-war-deal-6536646",
+       "s": "CNA World",
+       "c": "SG",
+       "l": "en",
+       "p": 1794244757,
        "r": "known"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
      "countries": [
-      "AE",
-      "IR",
-      "RU"
+      "EG",
+      "GB",
+      "IN",
+      "SG"
      ],
-     "regions": 3,
+     "regions": 4,
      "party_only": false,
-     "state": 0
+     "state": 1
     },
     {
-     "text": "Reports say the US attacked Iran's Qeshm island as talks stall, but only one outlet reports it, so the strike is unconfirmed. A Thai outlet says the US was poised to launch a further attack on Qeshm.",
-     "stories": [
-      "s7",
-      "s11",
-      "s8"
-     ],
-     "sources": [
-      {
-       "t": "US attacks Iran's Qeshm island as negotiations stall after the Democratic tsunami",
-       "o": "EEUU ataca la isla iraní de Qeshm mientras las negociaciones quedan en un limbo tras el tsunami demócrata",
-       "u": "https://www.elmundo.es/internacional/2026/11/09/6af1cfdbe85ece005b8b458d.html",
-       "s": "El Mundo Internacional",
-       "c": "ES",
-       "l": "es",
-       "p": 1794232378,
-       "r": "known"
-      },
-      {
-       "t": "Highlight | \"Trump\" for sure!? US poised to launch attack on Iran's Qeshm Island, a third round | PPTV News",
-       "o": "Highlight | \"ทรัมป์\"เอาแน่!? สหรัฐฯจ่อเปิดศึก โจมตีเกาะเกชม์ อิหร่าน ซ้ำรอบ 3 | PPTV News",
-       "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51Q2p3Rkk5RUxpc0NpRGFTdVowSHAxTDl1NGlYcE1Ld1BaRTFzU1NaQkVhSDlRMTBFNDVDN1V2VGdPVHhvQWJ4bExxRjg4Nml2Q0FiVw?oc=5",
-       "s": "pptvhd36.com",
-       "c": "TH",
-       "l": "th",
-       "p": 1794231000,
-       "r": "unrated"
-      },
-      {
-       "t": "Strike Iran again, Trump hopes history will be set right",
-       "o": "再來一次照打伊朗 川普盼歷史還公道",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5635011",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794232129,
-       "r": "known"
-      }
-     ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "ES",
-      "TH",
-      "TW"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Trump is set to meet Qatar's prime minister, the mediator, though reports say no imminent deal to end the war is in sight. Iran's state-linked media say Iran stands by its demands to end the war as the US increases military pressure.",
+     "text": "France accuses Iran's Revolutionary Guards of a cyberattack on supermarket refrigeration systems. Paris has launched a probe and vowed sanctions, and Kallas has opened the door to EU sanctions. TASS reports France summoned Iran's chargé d'affaires.",
      "stories": [
       "s1",
+      "s3",
+      "s12",
+      "s18"
+     ],
+     "sources": [
+      {
+       "t": "France accuses the \"Revolutionary Guard\" of being behind a cyberattack on refrigeration systems",
+       "o": "فرنسا تتهم «الحرس الثوري» بالوقوف وراء هجوم إلكتروني على أنظمة تبريد",
+       "u": "https://aawsat.com/node/5339383",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794244030,
+       "r": "known"
+      },
+      {
+       "t": "France accuses Iran's Islamic Revolutionary Guards Corps of cyberattack on supermarket fridges",
+       "u": "https://www.jpost.com/international/article-914364",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794243493,
+       "r": "known"
+      },
+      {
+       "t": "France blames Iran’s Revolutionary Guards for refrigerator cyberattacks",
+       "u": "https://www.iranintl.com/en/202611097252",
+       "s": "Iran International",
+       "c": "IR",
+       "l": "en",
+       "p": 1794243337,
+       "r": "known"
+      },
+      {
+       "t": "France investigates Iran's Revolutionary Guard over cyberattacks on European supermarkets",
+       "o": "Francia investiga a la Guardia Revolucionaria de Irán por los ciberataques a supermercados europeos",
+       "u": "https://www.infobae.com/espana/2026/11/09/francia-investiga-a-la-guardia-revolucionaria-de-iran-por-los-ciberataques-a-supermercados-europeos/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794242984,
+       "r": "known"
+      },
+      {
+       "t": "France blames Iran for ‘unprecedented’ cyberattack on fridges, launches probe and vows sanctions",
+       "u": "https://www.hindustantimes.com/world-news/france-blames-iran-for-unprecedented-cyberattack-on-fridges-launches-probe-and-vows-sanctions-101794243778662.html",
+       "s": "Hindustan Times World",
+       "c": "IN",
+       "l": "en",
+       "p": 1794244944,
+       "r": "known"
+      }
+     ],
+     "headlines": 12,
+     "outlets": 11,
+     "independent": 11,
+     "countries": [
+      "AR",
+      "FR",
+      "IL",
+      "IN",
+      "IR",
+      "PT",
+      "QA",
+      "RU",
+      "SA"
+     ],
+     "regions": 7,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Iranian President Pezeshkian is quoted by CNN as saying Supreme Leader Khamenei ordered an end to the 'neither war nor peace' situation with America. Kommersant separately reports Khamenei calling for settling relations with the US; this is a single-source report.",
+     "stories": [
+      "s29",
+      "s13"
+     ],
+     "sources": [
+      {
+       "t": "Pezeshkian: Khamenei ordered \"ending the state of neither war nor peace\" with America",
+       "o": "بزشكيان: خامنئي وجّه \"بإنهاء حالة اللاحرب واللاسلم\" مع أمريكا",
+       "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV0NLNGxvZHVILXNoOV9jNjBOT1JfRnBjOUJUZVV1azJ0SFRTdi0xQ1Z5a1VpVFhkNEI1YVhrNjJpS1J0SDU4Nl9MT3RNQmJzMkROTU9ueU1sOFdKN19INk5QYl91NWRKcHFfR1lONE44WVotTzlKYVNRVmJKM0R3MHdUMHQtQmRheEpueUNpVHJWRmlqcVo4dlBIZTdVSTF3VThBMll4dm1CbDZueW1wcA?oc=5",
+       "s": "CNN",
+       "c": "US",
+       "l": "ar",
+       "p": 1794241300,
+       "r": "known"
+      },
+      {
+       "t": "Iran's Supreme Leader Khamenei calls for settling relations with the US",
+       "o": "Верховный лидер Ирана Хаменеи призвал урегулировать отношения с США",
+       "u": "https://www.kommersant.ru/doc/9093131",
+       "s": "Kommersant",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794244345,
+       "r": "known"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "RU",
+      "US"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran's army says it is shifting to an offensive military doctrine with no geographical limits on its response, according to Interfax and Tehran Times. Iranian state-linked media also say Israel is trying to draw the US into an endless war; these are the sides' own claims.",
+     "stories": [
+      "s6",
       "s5"
      ],
      "sources": [
       {
-       "t": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war",
-       "u": "https://clubofmozambique.com/news/trump-to-meet-iran-war-mediator-qatar-no-imminent-deal-seen-to-end-the-war/",
-       "s": "Club of Mozambique",
-       "c": "MZ",
-       "l": "en",
-       "p": 1794232266,
+       "t": "Iranian military to shift to an offensive doctrine of conducting combat operations",
+       "o": "Иранские военные перейдут к наступательной доктрине ведения боевых действий",
+       "u": "https://www.interfax.ru/world/1127910",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794244980,
        "r": "known"
       },
       {
-       "t": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war",
-       "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMTJmQjZyXzV6WndUR3ZMMWtUMjRuSGtKbmJIQkR0bTBBRHBhb1Awajh6aUUtaXFBZXk0QUZ5NXd0QnJQN2xUMWxzVTNNS2VDZXRNUlRhLXhDd3lfdFJHS1otXzI2UTQxc1JTbGkwOHFJZFhVNEc4WHhteTg3M1FLVk9uNlN6NjFtbmNMTGlGSVlhRmU0WVlTYWdlS2J0S3NMcFN2UkxyLUNuaVIwZ2tTTEtTV0R6dUNjSXZn?oc=5",
-       "s": "Arab News",
-       "c": "SA",
+       "t": "Iran shifts towards offensive military doctrine, with no geographical limits on response: Army",
+       "u": "https://www.tehrantimes.com/news/531994/Iran-shifts-towards-offensive-military-doctrine-with-no-geographical",
+       "s": "Tehran Times",
+       "c": "IR",
        "l": "en",
-       "p": 1794230946,
+       "p": 1794244720,
        "r": "known"
       },
       {
-       "t": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end war",
-       "u": "https://www.thehindu.com/news/international/trump-to-meet-iran-war-mediator-qatar-no-imminent-deal-seen-to-end-war/article71682536.ece",
-       "s": "The Hindu",
-       "c": "IN",
+       "t": "Israelis trying day and night to draw US in endless war",
+       "u": "https://en.mehrnews.com/news/249280/Israelis-trying-day-and-night-to-draw-US-in-endless-war",
+       "s": "Mehr English",
+       "c": "IR",
        "l": "en",
-       "p": 1794228429,
-       "r": "known"
-      },
-      {
-       "t": "Trump to meet mediator Qatar as efforts to end the Iran war ramp up",
-       "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSndTc05JSWpQREJiQU1OV0tNNE1VdGNIWkl0RXYxX2RaM0U4NjFzTnZhM2xjVHE1WWxlR24tLW92WTBuaGM4V1ZXb2dJdDZLclNORGlrUm13djJyZExlY0x5cnVRRkcwblZUaFBJcDU4Wnc2b0wxTm1DNGVuaDFqbVNR?oc=5",
-       "s": "Globe and Mail",
-       "c": "CA",
-       "l": "en",
-       "p": 1794225823,
-       "r": "known"
-      },
-      {
-       "t": "Iran stands by demands to end the war as US ramps up military pressure",
-       "u": "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure?traffic_source=rss",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "en",
-       "p": 1794235172,
-       "r": "known"
-      }
-     ],
-     "headlines": 6,
-     "outlets": 6,
-     "independent": 3,
-     "countries": [
-      "CA",
-      "IN",
-      "MZ",
-      "QA",
-      "SA",
-      "US"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran's President Pezeshkian is reported to have said the Supreme Leader ordered an end to the 'No War, No Peace' situation with Washington. TASS, citing Iranian state-linked media, reports Iran says it could quickly create nuclear weapons; this is a single-source claim.",
-     "stories": [
-      "s10",
-      "s17",
-      "s6"
-     ],
-     "sources": [
-      {
-       "t": "US-Iran war LIVE: Pezeshkian says Khamenei has issued directives to end standoff with Washington",
-       "u": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOYVBKZWlPRWZkR290TS1VWXNxamNMODVBNWdaWnNqQTVNancyY19PaWMtTjFWdXhIZlFhZ1BqV1h4dGhHWUZoTWxZOElHdHVLcWw4U1d3SlI2aXBzQTZULWsyMXMxaUQxU2lhbmhaaXA4Tk5vSEZMWDJBa1VISk9KMjhaVl9ZQUJid3U4a2ZXaVdnczdNZnRnM3hOX19yRkdvZEV2M0U1WE9TOUxrZHVacXFBTVRvcVliY3FiTG9WV1Y1X3JXSjhUWVVhQmNpZ1FtTWxDZkZUb3BQR0RObDYzZlUxbHFfVGZRNnpOYmVkcWtQT2lvb2Z3Tml4QmlWUFpxVXdfZndYVGM3UEU?oc=5",
-       "s": "Hindustan Times",
-       "c": "IN",
-       "l": "en",
-       "p": 1794231468,
-       "r": "known"
-      },
-      {
-       "t": "Supreme leader ordered end to 'No War, No Peace' situation: Iran's President - Region - World",
-       "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNWtEWWw3LWlJNEZLcHhLclREUThNbTZuMkVJTnQ4Z3p1eDItaTh4WmJYUkFMUWU5NG02Q0RkbXVVeHdmdHBGQ0ZvbFF3NmtsQ3NTQ2pZVEpmcU1FMWxZUjJSRTNzQjkzNDhVUlZqS3FaZmxkb2g0bWFpSUJCTEx2Y1JyMERUZkFVMEJfX0xzVlEwTGl4S0gyLTdxenZuOVhGaEpDVWg2alFLRjcyR2l1SWtvN0pzMFRuY01nQQ?oc=5",
-       "s": "Ahram Online",
-       "c": "EG",
-       "l": "en",
-       "p": 1794229064,
+       "p": 1794247484,
        "r": "state"
       },
       {
-       "t": "Iran says it could quickly create nuclear weapons",
-       "o": "В Иране заявили о возможности быстро создать ядерное оружие",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28299535",
+       "t": "Iran says Israel is trying to draw the US into an endless war",
+       "o": "В Иране заявили, что Израиль пытается втянуть США в бесконечную войну",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28300003",
        "s": "TASS",
        "c": "RU",
        "l": "ru",
-       "p": 1794233168,
+       "p": 1794244970,
        "r": "state"
       }
      ],
-     "headlines": 5,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
      "countries": [
-      "EG",
-      "IN",
+      "IR",
       "RU"
      ],
-     "regions": 3,
+     "regions": 2,
      "party_only": false,
-     "state": 3
+     "state": 2
     }
    ],
    "watch": [
-    "Outcome of Trump's meeting with Qatar's prime minister",
-    "Whether the reported US strike on Qeshm island is confirmed by independent sources",
-    "Whether tanker transit in the southern Strait of Hormuz resumes or stays halted"
+    "Outcome of Trump's meeting with Qatar's prime minister and any Doha talks",
+    "Whether France moves ahead with its promised sanctions against Iran",
+    "Any confirmation of the reported US strike on Qeshm island, still unconfirmed"
    ],
-   "window_hours": 4,
-   "headlines_read": 57,
-   "outlets_read": 37,
-   "countries_read": 20,
-   "languages_read": 8,
+   "window_hours": 3,
+   "headlines_read": 47,
+   "outlets_read": 35,
+   "countries_read": 18,
+   "languages_read": 10,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
