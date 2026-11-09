@@ -631,6 +631,94 @@
    "added": "2026-11-08",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-08-ne-1",
+   "date": "2026-11-08",
+   "country": "NE",
+   "kind": "military-readiness",
+   "what": "Niger's military reportedly mobilises troops for a large-scale operation against armed groups (single outlet, Daily Beirut)",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZTkyUE1pLWNmSE9ZZGRxM1VNTW11WFJ6Yk9lb0l2UmlFVzNoNzVudTY0YkVJa1V2R3NVOFFxWXloTlFsTWZJREJ0TTVPWTdMODR5a2dzSkttLWstTG40QnMwSkViamZMNk9MRjVEWDlQWUQ5YlctSGg3blphTXBHMlRidER0UXA3RnZ3eG1Cbw?oc=5",
+   "outlet": "Daily Beirut",
+   "hotspots": [
+    "burkina-niger-sahel"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-09",
+   "independent": 1,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-08-il-1",
+   "date": "2026-11-08",
+   "country": "IL",
+   "kind": "military-readiness",
+   "what": "Israel's army calls recently released reservists back to duty amid a reported manpower shortage (Jerusalem Post)",
+   "url": "https://www.jpost.com/israel-news/article-914181",
+   "outlet": "Jerusalem Post",
+   "hotspots": [
+    "israel-hezbollah-lebanon",
+    "israel-hamas-gaza",
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-09",
+   "independent": 1,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-09-ye-1",
+   "date": "2026-11-09",
+   "country": "YE",
+   "kind": "military-readiness",
+   "what": "Houthi-run Saba says tribes in Hubaysh district, Ibb, held a mass mobilisation and called for general mobilisation against Saudi Arabia",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBfZ0t3OHE1OUtXc3pRWm1zeXI0VFFjcEJWQjUwb2E4bENFNmtyQzdlLTVDdGZYY09ocU5hTnlFakNReF9ONWJnQVdB?oc=5",
+   "outlet": "Saba",
+   "hotspots": [
+    "yemen-houthi-saudi-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-09",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-09-kr-1",
+   "date": "2026-11-09",
+   "country": "KR",
+   "kind": "civil-preparedness",
+   "what": "Boryeong city, South Korea, holds a civil defence drill focused on fire response",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ENDNrTUttQ3Rad2o2cXJidGxJSWdxUExFdnVObWhKZFJqRVpTLVd3R3VtWkNGdl9JTnNQZjd0WFpNa2hQQkZPSTJBRjlRNlJzSUdMd0NvRFI1UnNCelNtX1BCX2VKSkR1OEpz0gFvQVVfeXFMTmVibTNya2d6VWxXMXRyZE0wRW1iczZoTUdJbk9mT1pqOTRNZTBWc1JYZURWUnZwOG5HVFNGRWR4cXAzN2lkV1pMZXJVVU5pdE9BZUZwbDQyc09OczFwYUt6X1dYbGRTbjJwMUxQSnZR?oc=5",
+   "outlet": "서울일보",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-09",
+   "independent": 3,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-09-vn-1",
+   "date": "2026-11-09",
+   "country": "VN",
+   "kind": "military-readiness",
+   "what": "Hoang Mai ward, Hanoi, holds preliminary checks of young men for the 2027 military conscription intake",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVF9KcW1Vb0w4VHFqV2gwcTlfR3BKUS1RcnBTUk5kNURXVFZzYzl0Qko1QWVqdERpbG9vY210VGtIY0dCUjlRWnZPbndsVHdITnFfd0U0WFdDdkpIdVllWUhuTkhQeXBueXlVLWhHcXZPVE1DUlJiRzR3alRTZVZkdDhIbVNWYVZXcEE?oc=5",
+   "outlet": "Vietnam.vn",
+   "hotspots": [],
+   "scheduled": true,
+   "program": "Vietnam's annual conscription cycle",
+   "source": "corpus",
+   "added": "2026-11-09",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -1594,6 +1682,206 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT0VSQVpRYXVRNTdoeGdydWczeEluLU1kUUtDYk15ZFVZSkV1OFJNMVprd2hzcFRDRXFfM2N2S3NPbC1tYlQxV0JPaVBkOUduaUFQVHBDRGl6TmZ0SlZiLTdBQzhUdndxOVh0Q3hNMS02dzBCTmd1a05aUER0NEF0c1p6OVdJOUNEMHZWNy1US3Z1Y3pseXhYWjN0U2xiZWgtU3VLNTZMUFU1bm5FS0E?oc=5",
    "source": "corpus",
    "independent": 8
+  },
+  {
+   "id": "e-2026-11-09-3",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "Iran warns about Hormuz: \"Mines are waiting",
+   "countries": [
+    "AE",
+    "AR",
+    "CN",
+    "GB",
+    "IL",
+    "IR",
+    "KE",
+    "LB"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.hurriyet.com.tr/dunya/irandan-hurmuz-uyarisi-mayinlar-bekliyor-43370550",
+   "source": "corpus",
+   "independent": 20
+  },
+  {
+   "id": "e-2026-11-09-3",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "Europeans will join Ukraine talks in Abu Dhabi, French foreign minister says",
+   "countries": [
+    "AU",
+    "BE",
+    "CN",
+    "FR",
+    "GB",
+    "GR",
+    "IL",
+    "IN"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.hindustantimes.com/world-news/us-news/europeans-will-join-ukraine-talks-in-abu-dhabi-french-foreign-minister-says-101794178293707.html",
+   "source": "corpus",
+   "independent": 19
+  },
+  {
+   "id": "e-2026-11-09-6",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "Herzog entrusts Eisenkot with forming Israel's next government",
+   "countries": [
+    "AE",
+    "AR",
+    "DE",
+    "EG",
+    "IL",
+    "KE",
+    "LB",
+    "SA"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://www.infobae.com/america/agencias/2026/11/08/herzog-encarga-a-eisenkot-la-formacion-del-proximo-gobierno-de-israel/",
+   "source": "corpus",
+   "independent": 13
+  },
+  {
+   "id": "e-2026-11-09-6",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "Houthis attack an Aramco building in Riyadh, worsening the military escalation between Saudi Arabia and Yemen",
+   "countries": [
+    "CN",
+    "EG",
+    "FR",
+    "IL",
+    "IN",
+    "KR",
+    "OM",
+    "SY"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.france24.com/es/medio-oriente/20261108-los-hut%C3%ADes-atacan-un-edificio-de-aramco-en-riad-y-agravan-la-escalada-militar-entre-arabia-saudita-y-yemen",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-09-6",
+   "date": "2026-11-08",
+   "kind": "news",
+   "what": "Houthis claim attacks on the airport of Saudi Arabia's capital and facilities of the oil company Aramco",
+   "countries": [
+    "AR",
+    "AU",
+    "CH",
+    "CO",
+    "DE",
+    "EC",
+    "ES",
+    "IN"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.clarin.com/mundo/huties-reivindican-ataques-aeropuerto-capital-arabia-saudita-instalaciones-petrolera-aramco_0_hucF9xMjr4.html",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-09-1",
+   "date": "2026-11-09",
+   "kind": "news",
+   "what": "[Shorts] Saudi Arabia's Aramco Tower damaged in Houthi attack",
+   "countries": [
+    "AM",
+    "AR",
+    "AU",
+    "BE",
+    "DE",
+    "EG",
+    "FR",
+    "GB"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.yna.co.kr/view/AKR20261109140600704",
+   "source": "corpus",
+   "independent": 44
+  },
+  {
+   "id": "e-2026-11-09-2",
+   "date": "2026-11-09",
+   "kind": "news",
+   "what": "Eisenkot seeks alliances to address the \"national emergency\" and oust Netanyahu from government in Israel",
+   "countries": [
+    "AE",
+    "AR",
+    "AU",
+    "BR",
+    "CH",
+    "DE",
+    "EG",
+    "ES"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQTBMTGdBNXFBa0Fja1gtV01GYmMxc2dCLTFSUnpDSU1TOFdscWpnbWhOdWhOTXA3RGpQelo5ZHBiSG01em5PZ1A1TUhUamhlTXB6dlBGY1FLR0tpSllRM0Y1d3JWaTl0eUsxOFVkRUNjQTlMYndLLVF4aDh0TTdrd3Y1THdXZUJ4U0puRV9jeUxMYmU1TDhkRjU2OG9CRjlldHJOTjhNRWFGdmFpYTFDQ3ViWFhWR2lHQ3JyZWh3UXYtd2hQMEpQQjh3cWJVWGRMWGdnS29VYk1LRUVGbS03Tg?oc=5",
+   "source": "corpus",
+   "independent": 22
+  },
+  {
+   "id": "e-2026-11-09-3",
+   "date": "2026-11-09",
+   "kind": "news",
+   "what": "Iran war 'highly unlikely' to resume but decision depends on whether Tehran signs 'very strong' deal: Trump",
+   "countries": [
+    "CH",
+    "DE",
+    "EC",
+    "EG",
+    "ES",
+    "FR",
+    "IL",
+    "IN"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.dawn.com/news/2043269/iran-war-highly-unlikely-to-resume-but-decision-depends-on-whether-tehran-signs-very-strong-deal-trump",
+   "source": "corpus",
+   "independent": 14
+  },
+  {
+   "id": "e-2026-11-09-4",
+   "date": "2026-11-09",
+   "kind": "news",
+   "what": "Kremlin rules out European participation in the Abu Dhabi negotiations",
+   "countries": [
+    "AE",
+    "AR",
+    "DE",
+    "ES",
+    "FR",
+    "RU",
+    "SA",
+    "SY"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.infobae.com/america/agencias/2026/11/09/el-kremlin-descarta-la-participacion-europea-en-las-negociaciones-de-abu-dabi/",
+   "source": "corpus",
+   "independent": 18
+  },
+  {
+   "id": "e-2026-11-09-5",
+   "date": "2026-11-09",
+   "kind": "news",
+   "what": "Israel: forming a government will not be a simple task for Gadi Eisenkot",
+   "countries": [
+    "AE",
+    "CH",
+    "CO",
+    "DE",
+    "EG",
+    "FR",
+    "GB",
+    "IL"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://www.rfi.fr/es/oriente-medio/20261109-israel-formar-gobierno-no-ser%C3%A1-una-tarea-sencilla-para-eisenkot",
+   "source": "corpus",
+   "independent": 15
   }
  ]
 }

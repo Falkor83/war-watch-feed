@@ -213,6 +213,43 @@
 "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU1hPV0p1dkZfcU92OEJVMkYtQTNHb3hKSDdGZHp5U1RkUTZlc2dzTU9oNjQ4dk5nUGZ6WVhkTlk2VTJ0cFkxOHozbE9aWUJObXFUYVBCZEwtaktnOGExQjVfUlhNdFlxRV9KeHMzS1Rsc2c3OFAxNHF6RjM2X0FRamhCalJsTk1BY1g2NFhHX2ZnUQ?oc=5",
 "https://www.usnews.com/news/world/articles/2026-11-02/yemens-houthis-advance-to-within-80-km-of-aden-sources-say"
 ]
+},
+{
+"made": "2026-11-09",
+"hotspot": "russia-ukraine-war",
+"text": "The Abu Dhabi round is likely to go ahead with modest results, given both delegations are named and Moscow says it offers no new concessions.",
+"likelihood": "likely",
+"check_by": "2026-11-12",
+"basis": [
+"https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+"https://tass.com/politics/2214649",
+"https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace/",
+"https://www.arabnews.com/world/kremlin-says-abu-dhabi-ukraine-talks-still-trilateral-3010692"
+]
+},
+{
+"made": "2026-11-09",
+"hotspot": "us-israel-iran-war",
+"text": "A resumption of large-scale US strikes on Iran in the next two weeks is unlikely, based on Trump's stated position, though talks remain stuck.",
+"likelihood": "unlikely",
+"check_by": "2026-11-23",
+"basis": [
+"https://edition.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl",
+"https://www.dawn.com/news/2043269/iran-war-highly-unlikely-to-resume-but-decision-depends-on-whether-tehran-signs-very-strong-deal-trump",
+"https://www.thehawk.in/news/world/rubio-says-little-progress-in-diplomacy-with-iran"
+]
+},
+{
+"made": "2026-11-09",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Further Houthi missile fire at Saudi cities is likely, given repeated launches and Houthi vows to punish Saudi Arabia.",
+"likelihood": "likely",
+"check_by": "2026-11-23",
+"basis": [
+"https://www.middleeasteye.net/news/saudi-aramco-tower-damaged-after-houthi-missile-attacks-riyadh",
+"https://www.turkiyetoday.com/region/aramco-tower-in-riyadh-financial-district-damaged-as-houthi-missiles-fly-3231959",
+"https://www.publico.pt/2026/11/08/mundo/noticia/arabia-saudita-intercepta-misseis-riad-houthis-falam-33-mortos-iemen-2194189"
+]
 }
 ]
 }
