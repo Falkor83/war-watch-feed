@@ -1742,9 +1742,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Trump calls new strikes highly unlikely; Rubio sees no breakthrough; Iran claims mine hits",
+   "status": "Trump rules out new strikes for now as US-Iran talks stall; Qatar mediating",
    "summary": "The US and Israel have fought Iran on and off in 2026, and an April ceasefire and a June memorandum both broke down by July. The US then reimposed its blockade, and Iran has kept the Strait of Hormuz closed to traffic it does not approve. Trump confirmed new US strikes on an Iranian air defence system and called them minor. Iran's military says two more tankers caught fire after hitting mines on what it calls an unauthorised route, and explosions were reported on Qeshm Island and at Jask; no maritime authority has confirmed the mine claims. The US has also offered up to $20 million for information on Iran's nuclear programme, while Oman and Qatar keep up mediation.",
    "latest": [
+    {
+     "date": "2026-11-09",
+     "at": "2026-11-09T11:59:29Z",
+     "text": "Trump says resuming the war with Iran is 'highly unlikely', and that this depends on whether Tehran signs a 'very strong' deal. Rubio reports no progress in talks, and Iran defends its two-day peace proposal after the US rejected its conditions.",
+     "outlet": "RFI Persian",
+     "country": "France",
+     "url": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261109-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%A7%D8%B2%D8%B3%D8%B1%DA%AF%DB%8C%D8%B1%DB%8C-%D8%AC%D9%86%DA%AF-%D8%A8%D8%A7-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%B1%D8%A7-%D8%A8%D8%B3%DB%8C%D8%A7%D8%B1-%D8%A8%D8%B9%DB%8C%D8%AF-%D8%AF%D8%A7%D9%86%D8%B3%D8%AA%D8%9B-%D8%B9%D8%B1%D8%A7%D9%82%DA%86%DB%8C-%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1-%D8%AA%D8%B5%D9%85%DB%8C%D9%85-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88%D8%A7%D8%B4%D9%86%DA%AF%D8%AA%D9%86-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF-%D8%AA%D9%87%D8%B1%D8%A7%D9%86",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-09",
+     "at": "2026-11-09T11:59:29Z",
+     "text": "Trump is set to meet Qatar's prime minister, the mediator, though reports say no imminent deal is in sight. Asharq Al-Awsat reports Trump expects to meet Putin and Xi next week to discuss ending the war.",
+     "outlet": "Reuters",
+     "country": "United Kingdom",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0pwQmJtMVdmZDY2NVhWalgxSHZ0d0NvUzJ4cldzTHFQUmdHSERzZENUOXljYldMbFpRa3J5d0VhbkNtZGJVM1paVkFWZ1ZHZTFOQlNkNm5xZ2tkc0FYQkxvQkU3RHc5cm9lcjFXSzdCNlE5QjNXNnRoZktjUHhGRTRGOXZYbWZtUXlTaFBXN096VFZrTDBQQll5ZDJaZDlPdUlueEtHaGMyQ1ZnWHdxQll3UWI3WHdYZmc?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-09",
+     "at": "2026-11-09T11:59:29Z",
+     "text": "Erdogan says he told Trump that Turkey is concerned about possible attacks on Iran, and he offered to help mediate a settlement. These are Turkish accounts relayed by several outlets.",
+     "outlet": "Jerusalem Post",
+     "country": "Israel",
+     "url": "https://www.jpost.com/middle-east/iran-news/article-914324",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-09",
      "text": "Trump told CNN on Sunday that renewed US strikes are highly unlikely if Iran makes progress on a nuclear deal and reopens Hormuz. He also told 60 Minutes he is not looking to escalate.",
@@ -1792,36 +1825,6 @@
      "country": "Turkey",
      "url": "https://www.trthaber.com/haber/dunya/iran-abd-dun-gece-kesm-adasindaki-hedeflere-saldirdi-962646.html",
      "region": "middle-east",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-09",
-     "text": "Iran says no unauthorised vessels transited the Strait of Hormuz overnight after navigation aids were destroyed. The Revolutionary Guards say oil smuggling through the strait has been completely halted. These are Iran's claims.",
-     "outlet": "Al-Monitor",
-     "country": "United States",
-     "url": "https://www.al-monitor.com/originals/2026/11/iran-says-no-unauthorised-vessels-transited-strait-hormuz-overnight-after",
-     "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-09",
-     "text": "Trump is due to meet Qatar's prime minister, the mediator between the US and Iran, on Monday, according to reports in Argentina, India and France. Those reports describe the peace talks as facing hurdles.",
-     "outlet": "Infobae",
-     "country": "Argentina",
-     "url": "https://www.infobae.com/america/agencias/2026/11/09/trump-se-reunira-este-lunes-con-el-primer-ministro-de-catar-mediador-entre-eeuu-e-iran/",
-     "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-09",
-     "text": "BBC Persian reports new attacks on several points in southern Iran. Trump says the US destroyed Iran's air defence equipment. Only one source carries this, so it is not confirmed.",
-     "outlet": "BBC Persian",
-     "country": "United Kingdom",
-     "url": "https://www.bbc.co.uk/persian/live/cjg477wl2dg2t?at_medium=RSS&at_campaign=rss",
-     "region": "europe",
      "tag": "non-party",
      "state_media": false
     }
@@ -11943,11 +11946,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-05T15:36:32Z",
-     "headline": "Mine and shelling reports in Hormuz; Iran and Oman discuss reopening the strait",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-05T18:21:23Z",
      "headline": "Iran reports more tankers hit by mines in Hormuz; Tehran rejects direct US talks offer",
      "direction": "escalating"
@@ -12061,83 +12059,90 @@
      "at": "2026-11-09T08:14:41Z",
      "headline": "Trump says new Iran strikes unlikely; Iran reports US hits on Qeshm Island, unconfirmed",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-09T11:59:29Z",
+     "headline": "Trump rules out new strikes for now as US-Iran talks stall; Qatar mediating",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-09T08:14:41Z",
-   "next_at": "2026-11-09T11:14:41Z",
-   "headline": "Trump says new Iran strikes unlikely; Iran reports US hits on Qeshm Island, unconfirmed",
+   "updated_at": "2026-11-09T11:59:29Z",
+   "next_at": "2026-11-09T14:59:29Z",
+   "headline": "Trump rules out new strikes for now as US-Iran talks stall; Qatar mediating",
    "direction": "steady",
    "points": [
     {
-     "text": "Trump says new strikes on Iran are 'highly unlikely' and that he is not seeking escalation. Rubio, separately, called the talks' progress minimal and defended the war as necessary to stop Iran's nuclear threat.",
+     "text": "Trump says resuming the war with Iran is 'highly unlikely', and that this depends on whether Tehran signs a 'very strong' deal. Rubio reports no progress in talks, and Iran defends its two-day peace proposal after the US rejected its conditions.",
      "stories": [
       "s1",
-      "s35",
-      "s2"
+      "s5",
+      "s4"
      ],
      "sources": [
       {
-       "t": "Trump rules out fresh war with Iran",
-       "u": "https://punchng.com/trump-rules-out-fresh-war-with-iran/?utm_source=rss.punchng.com&utm_medium=web",
-       "s": "Punch",
+       "t": "Iran war 'highly unlikely' to resume but decision depends on whether Tehran signs 'very strong' deal: Trump",
+       "u": "https://www.dawn.com/news/2043269/iran-war-highly-unlikely-to-resume-but-decision-depends-on-whether-tehran-signs-very-strong-deal-trump",
+       "s": "Dawn",
+       "c": "PK",
+       "l": "en",
+       "p": 1794215305,
+       "r": "known"
+      },
+      {
+       "t": "Trump called resuming war with Iran \"very unlikely",
+       "o": "ترامپ ازسرگیری جنگ با ایران را «بسیار بعید» دانست",
+       "u": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261109-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%A7%D8%B2%D8%B3%D8%B1%DA%AF%DB%8C%D8%B1%DB%8C-%D8%AC%D9%86%DA%AF-%D8%A8%D8%A7-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%B1%D8%A7-%D8%A8%D8%B3%DB%8C%D8%A7%D8%B1-%D8%A8%D8%B9%DB%8C%D8%AF-%D8%AF%D8%A7%D9%86%D8%B3%D8%AA%D8%9B-%D8%B9%D8%B1%D8%A7%D9%82%DA%86%DB%8C-%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1-%D8%AA%D8%B5%D9%85%DB%8C%D9%85-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88%D8%A7%D8%B4%D9%86%DA%AF%D8%AA%D9%86-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF-%D8%AA%D9%87%D8%B1%D8%A7%D9%86",
+       "s": "RFI Persian",
+       "c": "FR",
+       "l": "fa",
+       "p": 1794214444,
+       "r": "known"
+      },
+      {
+       "t": "Trump says Iran war ‘highly unlikely’ to resume",
+       "u": "https://www.vanguardngr.com/2026/11/trump-says-iran-war-highly-unlikely-to-resume/",
+       "s": "Vanguard",
        "c": "NG",
        "l": "en",
-       "p": 1794210471,
+       "p": 1794212915,
        "r": "known"
       },
       {
-       "t": "Trump says Iran war 'highly unlikely' to resume",
-       "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd3J6ZWJkdXh2UUpNalBHZkEyTTBwR1lVRFZnOGhyRFQtRmNIVnFQZU5PRkxtdjdGSDVIOG9WRmp6MHU2NHd5QUUxbFdQYUExUWdKaHY1d3BUMGItQUFtaE9QTUdrYUxVZHFWQkRCRzVVZDQ4NThhejlDWjJFV09sb0dnWnBxLXBMSnByM01yY0xkZzVzZm8wLXB3NDJFTEE?oc=5",
-       "s": "L'Orient-Le Jour",
-       "c": "LB",
-       "l": "en",
-       "p": 1794210143,
-       "r": "known"
+       "t": "Erdogan: I asked Trump not to resume the war in Iran",
+       "o": "ארדואן: ביקשתי מטראמפ שלא לחדש את המלחמה באיראן",
+       "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZFBfOHR2LVJiM2x5eXpQNEhzaFV1VWgxNnRQbnhEZFJOalRCYVpHeDFIYU9pelNkYjBYS2pvQUgyVGVXTDcxcDRzRlJEMlZZRXFTbXRKdEViTmN1U2hjVU5mRGFhVHRSMTZWaEpwZEVxOGhZN2xEV0N2b0swNkxaSVhn?oc=5",
+       "s": "כאן 11",
+       "c": "IL",
+       "l": "he",
+       "p": 1794219968,
+       "r": "unrated"
       },
       {
-       "t": "Trump says Iran war 'highly unlikely' to resume",
-       "u": "https://www.al-monitor.com/originals/2026/11/trump-says-iran-war-highly-unlikely-resume",
-       "s": "Al-Monitor",
-       "c": "US",
-       "l": "en",
-       "p": 1794209456,
-       "r": "known"
-      },
-      {
-       "t": "Trump says Iran war 'highly unlikely' to resume",
-       "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZE90X2ZNX3ZtcXdYcmhTZ0REVlQ4cE81QXNmbHoyaGQ1Y0ZTUkFJXzVlZW5qZ2JLcUxUSWNiczJDQWppQVJ3NVNWN1pLVUpQektaNDBZYzkzbHFUVGFTQ2dybDBRRng1NFE5SlJNbklNamdqb2lvcTg0VEY4N2c4Slhzb3p1amhBM1AzS0RDTXdjbm84bHZn?oc=5",
-       "s": "France 24",
+       "t": "Trump says US has ‘won’ Iran war as Rubio reports no progress in talks",
+       "u": "https://www.euronews.com/2026/11/09/trump-says-us-has-won-iran-war-as-rubio-reports-no-progress-in-talks",
+       "s": "Euronews",
        "c": "FR",
        "l": "en",
-       "p": 1794207114,
-       "r": "known"
-      },
-      {
-       "t": "Rubio Rejects Breakthrough With Iran, Trump Says Strikes \"Highly Unlikely\"",
-       "u": "https://www.ndtv.com/world-news/rubio-rejects-breakthrough-with-iran-trump-says-strikes-highly-unlikely-12302217#publisher=newsstand",
-       "s": "NDTV World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794204251,
+       "p": 1794220958,
        "r": "known"
       }
      ],
-     "headlines": 12,
-     "outlets": 11,
+     "headlines": 13,
+     "outlets": 13,
      "independent": 7,
      "countries": [
       "FR",
       "GB",
-      "IN",
-      "LB",
+      "IL",
+      "KR",
       "NG",
-      "PH",
-      "RU",
+      "PK",
       "SA",
+      "SG",
       "US"
      ],
      "regions": 8,
@@ -12145,265 +12150,205 @@
      "state": 0
     },
     {
-     "text": "Iran says the US attacked Qeshm Island overnight, the third such attack in a week. Iranian officials say no vital infrastructure was damaged. Only Iranian and Iran-aligned outlets carry the strike claim beyond Turkish and Argentine reports, so it is Iran's account.",
+     "text": "Trump is set to meet Qatar's prime minister, the mediator, though reports say no imminent deal is in sight. Asharq Al-Awsat reports Trump expects to meet Putin and Xi next week to discuss ending the war.",
      "stories": [
-      "s4",
-      "s6",
-      "s2"
+      "s2",
+      "s9",
+      "s6"
      ],
      "sources": [
       {
-       "t": "Iran: US attacked targets on Qeshm Island last night",
-       "o": "İran: ABD, dün gece Keşm Adası'ndaki hedeflere saldırdı",
-       "u": "https://www.trthaber.com/haber/dunya/iran-abd-dun-gece-kesm-adasindaki-hedeflere-saldirdi-962646.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794207960,
-       "r": "known"
-      },
-      {
-       "t": "Iran announces new US attacks on Qeshm Island, the third in a week",
-       "o": "Irán anuncia nuevos ataques de EEUU contra la isla de Qeshm, los terceros en una semana",
-       "u": "https://www.infobae.com/america/agencias/2026/11/09/iran-anuncia-nuevos-ataques-de-eeuu-contra-la-isla-de-qeshm-los-terceros-en-una-semana/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1794205824,
-       "r": "known"
-      },
-      {
-       "t": "Fars: US struck Iran's Qeshm island overnight",
-       "o": "Fars: ночной удар по иранскому острову Кешм нанесли США",
-       "u": "https://www.kommersant.ru/doc/9092461",
-       "s": "Kommersant",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794204691,
-       "r": "known"
-      },
-      {
-       "t": "Official details U.S. strikes on Qeshm Island",
-       "u": "https://en.mehrnews.com/news/249255/Official-details-U-S-strikes-on-Qeshm-Island",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794199177,
-       "r": "state"
-      },
-      {
-       "t": "Iran denies damage to its infrastructure from US attack, while Rubio says negotiations have achieved only \"minimal progress",
-       "o": "إيران تنفي تضرر بنيتها التحتية إثر هجوم أمريكي، وروبيو يقول إن المفاوضات لم تحرز سوى ‌\"تقدماً ⁠ضئيلاً\"",
-       "u": "https://www.bbc.com/arabic/articles/cw98z810nv68o?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Arabic",
-       "c": "GB",
-       "l": "ar",
-       "p": 1794208520,
-       "r": "known"
-      }
-     ],
-     "headlines": 11,
-     "outlets": 11,
-     "independent": 8,
-     "countries": [
-      "AR",
-      "GB",
-      "IR",
-      "PH",
-      "RU",
-      "SA",
-      "TR"
-     ],
-     "regions": 7,
-     "party_only": false,
-     "state": 4
-    },
-    {
-     "text": "Iran says no unauthorised vessels transited the Strait of Hormuz overnight after navigation aids were destroyed. The Revolutionary Guards say oil smuggling through the strait has been completely halted. These are Iran's claims.",
-     "stories": [
-      "s10",
-      "s13"
-     ],
-     "sources": [
-      {
-       "t": "Iran says no unauthorised vessels transited Strait of Hormuz overnight after navigation aids destroyed",
-       "u": "https://www.al-monitor.com/originals/2026/11/iran-says-no-unauthorised-vessels-transited-strait-hormuz-overnight-after",
-       "s": "Al-Monitor",
-       "c": "US",
-       "l": "en",
-       "p": 1794199596,
-       "r": "known"
-      },
-      {
-       "t": "Iran says no unauthorized vessels transited Strait of Hormuz overnight after navigation aids destroyed",
-       "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMnd1OTNSVWpHN2JyRDNfWHRLOUpfVWRZd285MjVtVXN2blNHS3B4SkhpS3pkM2hOYzg4aUVlMGtpTWVYWDRJeHVmNWc3SUxhd05tNG9ObW83UnFFd0p5dFp4RWpMbVI0dDVldlRjU1o2blNDTDZJa0RILUxoeE1PX3VFQ2U5WnFNQ3JwTElFQjItNkJTb0hGZUFMcDdLclBLSjI1c1RRZHpVa3hlOVBTVnBjaDNMd0x0QWNKNzRQa2p4OHd5cGdkaExlT2VwWjVhQmhLVTVvTVZIclAwX1pFbw?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1794198320,
-       "r": "known"
-      },
-      {
-       "t": "Iran says no unauthorised vessels transited Strait of Hormuz overnight after navigation aids destroyed",
-       "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNFkyaVpFU2VKQUVYc0xKQ1NmMFhuUmhEZXpCRFF5Ym5HaVpwSENiYk9QaWJhd1BtcU9sSEVyeGVoZ1RxUS1UamJHbEJOTUJwQjhzWUhrYko5RmZCMXJZQ04wZ2tyeFJZTGNFdUotNURHOXpDQTdGdXlMMEpaU3pWT0lvVzNPVkV1aHRIdjVYTE5yM2dwdVpDM0pQdV9TTDhTLXRQTlgxRkVlVFZtU0haT29fdEpyZw?oc=5",
+       "t": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war",
+       "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0pwQmJtMVdmZDY2NVhWalgxSHZ0d0NvUzJ4cldzTHFQUmdHSERzZENUOXljYldMbFpRa3J5d0VhbkNtZGJVM1paVkFWZ1ZHZTFOQlNkNm5xZ2tkc0FYQkxvQkU3RHc5cm9lcjFXSzdCNlE5QjNXNnRoZktjUHhGRTRGOXZYbWZtUXlTaFBXN096VFZrTDBQQll5ZDJaZDlPdUlueEtHaGMyQ1ZnWHdxQll3UWI3WHdYZmc?oc=5",
        "s": "Reuters",
        "c": "GB",
        "l": "en",
-       "p": 1794198180,
+       "p": 1794223446,
        "r": "known"
       },
       {
-       "t": "IRGC says 'oil smuggling' through Hormuz Strait has been completely halted",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-oil-smuggling-through-hormuz-strait-has-been-completely-halted",
-       "s": "Middle East Eye",
-       "c": "GB",
+       "t": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war",
+       "u": "https://www.straitstimes.com/world/middle-east/trump-to-meet-iran-war-mediator-qatar-no-imminent-deal-seen-to-end-the-war",
+       "s": "The Straits Times",
+       "c": "SG",
        "l": "en",
-       "p": 1794203571,
+       "p": 1794223142,
        "r": "known"
       },
       {
-       "t": "Iranian report: oil shipments through the southern Strait of Hormuz route halted",
-       "o": "דיווח איראני: נעצר שינוע הנפט דרך הנתיב הדרומי של מצר הורמוז",
-       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KRmt6VlR3QkpoQzJGblgyQ29tQ2JkdThLSzlvYkYtTkF6bUpmM0pBTUtCSFBoU0hPX3JMYlJRWnp2MU54ZHBaT0o5a0l5aEczUDBpR1pFczNPQQ?oc=5",
-       "s": "YNET",
-       "c": "IL",
-       "l": "he",
-       "p": 1794202391,
+       "t": "4 complex options on Trump's table to end the war with Iran",
+       "o": "4 خيارات معقدة على طاولة ترمب لإنهاء حرب إيران",
+       "u": "https://news.google.com/rss/articles/CBMigANBVV95cUxNLTUtb19SYVFQQ1N3eUxEbGpMeHFJZXNMdnpQUVlyUFNTTVlYaHlWb1RJUXptS2p1UnY3TkxMN0dhZUtCSmtFWjEwZkxwdHN5elNtVDJKaTR3VkdJbHlZYms4b2lvY3ZCb2pPcmxmZm9GUzZOQmhxSnE3OVpEeUpMRUN5UHNUSmtkdC11SzVjaEp2Vzd0eDZ3Vms2d2VYX05CeWwyRXBqVXo2dFNsaWFyNHhZaXItems4M0J3R0stNFNvZXBLYl9IeV93dmpFa1lNOGYzUlpBSVMtLXZTd0t3RldyMjdDRktxQlBkcVdlY2k5RDlLTlFtVjJHNXk0WVZTWW9hcFlRbFdnaTZKdlFLczZJQ1NGb3B2S010QS03UW11MUNqMFNaN0dSdlpqLXJQR2owNjVKOWUwQ01YeVBhMWpFMTRNaW1rRzlBaFUxVy1NWjJpbnM5VzI1WkZVdUNGWTN1WEhnNjNKSE94SVpNUXN3eUZXMGllMm5LMG9wVHk?oc=5",
+       "s": "الشرق للأخبار",
+       "c": "LB",
+       "l": "ar",
+       "p": 1794214117,
        "r": "unrated"
+      },
+      {
+       "t": "US-Iran talks deadlocked; Trump to meet Qatar's prime minister",
+       "o": "美伊談判陷僵局 川普將會晤卡達總理",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5634726",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794216863,
+       "r": "known"
+      },
+      {
+       "t": "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations?",
+       "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTG54ck5HeEc1SFBfeF83WGR0SGxuS0FUcFhzQUtBa1pLOXphcDdvNk9QYS0xUkpBd1JnNkVybHoyOUlUeHVfYUF4eUpzWnd1Z2RWTW85VTdYdGVZb3NaekZOSUVsSmlWTXVqN1luWXV2ZjhtWWlpdElSY251Vkl4cTFWS3kxak9GZnBxS3JPckFmUlF6Nk9fOUl1R1gyckxIa19aX29mRdIBrAFBVV95cUxNYjNzN21zZTFQOFlUOUNqZndVM0IyMUgtZ2lZZlRtLWxRZm1ILV8yZ1pWc1NLWnJvd0p1QW13OS1mZERoLUkySDhFZDB6WmFmZEdHaDlCREdxeHd5N3ozVkJpeE5ndkl0YnJ3ekhYT1JaUGUtdXFSbWJDaUM0OU1VZWh5SU5ERGZWOVNPZEFWNTQ5dnVjMWxVd1Z2Z3I4ZDFmQ2laWC1MMnVaVE1O?oc=5",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1794216712,
+       "r": "known"
       }
      ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 3,
+     "headlines": 8,
+     "outlets": 7,
+     "independent": 6,
      "countries": [
       "GB",
-      "IL",
+      "LB",
+      "PL",
+      "QA",
       "SA",
-      "US"
+      "SG",
+      "TW"
      ],
-     "regions": 4,
+     "regions": 5,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Trump has formed a new military task force, 'Iron Gate', to tighten the blockade on Iran, including a land blockade. Reports say it targets Iranian weapons shipments.",
+     "text": "Erdogan says he told Trump that Turkey is concerned about possible attacks on Iran, and he offered to help mediate a settlement. These are Turkish accounts relayed by several outlets.",
      "stories": [
-      "s5",
-      "s33"
+      "s3",
+      "s13",
+      "s16"
      ],
      "sources": [
       {
-       "t": "US - Iran war : What is Trump Task Force Iron Gate ? How will land blockade impact Tehran , its economy ? Explained",
-       "u": "https://www.livemint.com/news/us-news/usiran-war-what-is-trumps-task-force-iron-gate-how-will-land-blockade-impact-tehran-its-economy-explained-11794198846233.html",
-       "s": "livemint.com",
-       "c": "IN",
+       "t": "Erdogan says Turkey concerned about potential attacks on Iran, reaches out to Trump",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914324",
+       "s": "Jerusalem Post",
+       "c": "IL",
        "l": "en",
-       "p": 1794205800,
-       "r": "unrated"
+       "p": 1794223680,
+       "r": "known"
       },
       {
-       "t": "Trump Forms New Military Task Force to Tighten Blockade Against Iran",
-       "o": "Trump Bentuk Satgas Militer Baru untuk Perketat Blokade terhadap Iran",
-       "u": "https://www.metrotvnews.com/read/bw6CAWqR-trump-bentuk-satgas-militer-baru-untuk-perketat-blokade-terhadap-iran",
-       "s": "metrotvnews.com",
-       "c": "ID",
-       "l": "id",
-       "p": 1794205800,
-       "r": "unrated"
+       "t": "Erdogan Says He Conveyed Türkiye's Concerns on Potential Attacks on Iran to Trump",
+       "u": "https://english.aawsat.com/node/5339232",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794221346,
+       "r": "known"
       },
       {
-       "t": "Iran war: Operation \"Iron Gate\" – Trump deploys special unit against Iranian weapons shipments",
-       "o": "Iran-Krieg: Operation „Iron Gate“ – Trump setzt Spezialeinheit gegen iranische Waffentransporte ein",
-       "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOUS1GU2tjNER3Y05WcGJtakUtTjU1VWVPX0k3YkRIOVI3bW9lRU5xQ0NYTkhkbm5YY0pCWURyOUdxZGQzT0pHSlBhRmViZXNzZHdEM3dTY2luZEQyLTFfemtGeWdTa01LMU1VdkxncndOdE52MWNwdE9zMTUwODdkNUg3b1gwZl9sRXh0TXVzUG9UMVRtUDBmS21QeS1KNU4yZlluRU5neFBLSHpLdHZuTUpiMTVEVmlCanpCV1h3a0JGOU5SMDhoMmp3VkgtNXhyU2h0ZkZ4WFhZOXMxamNfLXhvVzFEb3c3aklhRW9Wb3ZuZXpiamtwUGVfOA?oc=5",
-       "s": "WELT",
-       "c": "DE",
-       "l": "de",
-       "p": 1794204897,
-       "r": "unrated"
+       "t": "Erdogan warns Trump against further attacks on Iran",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/erdogan-warns-trump-against-further-attacks-iran",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794220294,
+       "r": "known"
+      },
+      {
+       "t": "Erdogan urges Trump to avoid fresh Iran strikes as Turkey pushes for deal",
+       "u": "https://www.middleeasteye.net/news/erdogan-urges-trump-avoid-fresh-iran-strikes-turkey-pushes-deal",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794221155,
+       "r": "known"
+      },
+      {
+       "t": "Erdogan told Trump he is ready to help settle relations between the US and Iran",
+       "o": "Эрдоган заявил о готовности содействовать урегулированию между США и Ираном",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28298571",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794219956,
+       "r": "state"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 4,
+     "independent": 4,
+     "countries": [
+      "GB",
+      "IL",
+      "RU",
+      "SA"
+     ],
+     "regions": 4,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Oil prices fell and Gulf markets rose as Trump signalled restraint, according to The Globe and Mail, The National and Asharq Al-Awsat. The Globe and Mail also notes fresh shipping attacks, which only one outlet reports.",
+     "stories": [
+      "s18",
+      "s26",
+      "s34"
+     ],
+     "sources": [
+      {
+       "t": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks",
+       "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMnFyT2JCM0xtU09TOGhFZXM5S3kzc0NvYjdmTzBXSXVEYUdKUy1rd0xSRk04djVFSGNhOG9EZ2FiUUhWV2tiRmpDclp2RzdDVWw4ei1iWmNlZ3lKNGt1ektmSVpmeTdxaHFmaXZKQnJ1YXgwQTQ4VFY3cno4QS02MWJmRmg1VF9oM3Fxcm42N0ZRXzZjNDlYYlpONzRORFlIR2RCRTBrZFRrbGNEcHZfdUR2TFRqM0dTS0E?oc=5",
+       "s": "Globe and Mail",
+       "c": "CA",
+       "l": "en",
+       "p": 1794219022,
+       "r": "known"
+      },
+      {
+       "t": "Oil edges lower as Trump plays down prospect of new US attacks on Iran",
+       "u": "https://www.thenationalnews.com/business/energy/2026/11/09/oil-edges-lower-as-trump-plays-down-prospect-of-new-us-attacks-on-iran/",
+       "s": "The National",
+       "c": "AE",
+       "l": "en",
+       "p": 1794218000,
+       "r": "known"
+      },
+      {
+       "t": "Gulf markets rise as chances of new strikes on Iran recede",
+       "o": "الأسواق الخليجية ترتفع مع تراجع احتمالات ضربات جديدة على إيران",
+       "u": "https://aawsat.com/node/5339183",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794214850,
+       "r": "known"
       }
      ],
      "headlines": 3,
      "outlets": 3,
      "independent": 3,
      "countries": [
-      "DE",
-      "ID",
-      "IN"
+      "AE",
+      "CA",
+      "SA"
      ],
-     "regions": 3,
+     "regions": 2,
      "party_only": false,
      "state": 0
-    },
-    {
-     "text": "Trump is due to meet Qatar's prime minister at the White House to discuss containing escalation with Iran. Oil prices stayed below $100 as Trump played down new strikes.",
-     "stories": [
-      "s12",
-      "s8"
-     ],
-     "sources": [
-      {
-       "t": "Trump will meet with Qatari Prime Minister Al Thani, who has mediated talks with Iran, at the White House",
-       "o": "Trump, İran'la görüşmelere arabuluculuk eden Katar Başbakanı Al Sani ile Beyaz Saray'da görüşecek",
-       "u": "https://www.aa.com.tr/tr/dunya/trump-iranla-gorusmelere-arabuluculuk-eden-katar-basbakani-al-sani-ile-beyaz-sarayda-gorusecek/4116436",
-       "s": "Anadolu Turkish",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794204593,
-       "r": "state"
-      },
-      {
-       "t": "Trump meets Qatari prime minister to discuss containing escalation with Iran",
-       "o": "ترامب يلتقي رئيس الوزراء القطري لبحث احتواء التصعيد مع إيران",
-       "u": "https://news.google.com/rss/articles/CBMinAVBVV95cUxOanJqeVlERDZUY0k2SFZfeTZfZVlRZnc5VVlYRXo4NkY0UzdtaWU3TnFHRXA0NG9tVC1ZQnNlODhBTGZ5TVFiQmxOcVVCTXlNRWhsT2pkMUQ1OGpBUlAxZzU3UVl2ck12Q3V2X1dWZFBnTGk0UE9ldHpzTE9CbzZSdThYLWY0TVJIMW1FOUw1aFA2WjBuN1NWd3B2a3NicURPQ25IR1JKcFM4UVJRdkZpb2NUcUpwTC1kcjN2SkotdFE2dThFYzJBV3JpakNQOThIN3A1UDJrUkp5ajhYazlYbklISFU0MUVzaklPUXNrUEN6cnVJSDAxZWpJRzhRV3N3S0hFMHhmRkUwMm9RUldCUTNIX0lUekZOTk5aZ2F6S1NRc0JHWS10Um85QXduSnJsY1RIRjdJbHlUUVZjVkllb3k2VlBBS3k4Ukt2bVVvSzB0LUh0cmlILVlMRXA0QWYteFZZeUNSMjYtOWM5YVFKNXpGU0hsV1ltU3Q3ZFlQSk91a2lDY1hGVGZxZF9uQWR0Z3Zwb2x0dDdaSUp2bFR0OG1",
-       "s": "عرب 48",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794199440,
-       "r": "unrated"
-      },
-      {
-       "t": "Oil Prices Fall, Staying below $100, as Trump Plays Down New Iran Strikes",
-       "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS29XR2VmWjE0VXk0djYtZVB1ZHpfSXBjYS02b1psblVVYjBUWjMtejVmMzhmREwtNHZrdGFHQzNub0o1STNxRV9DclpWOG8tdTNGNzVJYnJKdWxiM1ZjOC1GLXQ0OGxvTXE3SWp2eGV3WEJ2ZS1VbnUxZk9aMHYtcEtVbi1MUTd1RnRLdjhudUcxbW9GOVh1akQyazdXSV83QURqM3g4VEtTc0VtNGd2a25pczBoT2FJ?oc=5",
-       "s": "Wall Street Journal",
-       "c": "US",
-       "l": "en",
-       "p": 1794209220,
-       "r": "known"
-      },
-      {
-       "t": "Oil Falls as Trump Says New Iran Attacks ‘Unlikely’",
-       "u": "https://english.aawsat.com/node/5339128",
-       "s": "Asharq Al-Awsat English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794202331,
-       "r": "known"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 5,
-     "countries": [
-      "LB",
-      "SA",
-      "TR",
-      "US"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 1
     }
    ],
    "watch": [
-    "Whether the Qeshm Island strikes are confirmed by independent sources or by US officials",
-    "Outcome of Trump's meeting with Qatar's prime minister",
-    "Whether Iron Gate's blockade begins to restrict shipping through Hormuz"
+    "Outcome of Trump's meeting with Qatar's prime minister and any change in the 'Iron Gate' blockade plans",
+    "Whether the reported Trump meetings with Putin and Xi next week take place",
+    "Hormuz shipping: UAE outlet Sky News Arabia reports a night-time transit ban for ships"
    ],
    "window_hours": 4,
-   "headlines_read": 86,
-   "outlets_read": 53,
-   "countries_read": 27,
-   "languages_read": 18,
+   "headlines_read": 82,
+   "outlets_read": 50,
+   "countries_read": 24,
+   "languages_read": 12,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
