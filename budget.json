@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "usd": 10.9453,
+ "usd": 11.8044,
  "runs": [
   {
    "at": "2026-11-04T04:16:08Z",
@@ -517,10 +517,60 @@
    "searches": 0,
    "batch": true,
    "usd": 0.1001
+  },
+  {
+   "at": "2026-11-10T10:29:36Z",
+   "what": "daily search notes",
+   "model": "claude-sonnet-5-5",
+   "in": 156170,
+   "out": 17052,
+   "searches": 10,
+   "batch": true,
+   "usd": 0.3414
+  },
+  {
+   "at": "2026-11-10T10:32:40Z",
+   "what": "daily analysis",
+   "model": "claude-opus-5-5",
+   "in": 43461,
+   "out": 14478,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.2317
+  },
+  {
+   "at": "2026-11-10T10:40:40Z",
+   "what": "boiling point",
+   "model": "claude-opus-5-5",
+   "in": 20355,
+   "out": 7107,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.1118
+  },
+  {
+   "at": "2026-11-10T10:43:42Z",
+   "what": "ai risk",
+   "model": "claude-opus-5-5",
+   "in": 9132,
+   "out": 5811,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.0764
+  },
+  {
+   "at": "2026-11-10T10:46:15Z",
+   "what": "actions",
+   "model": "claude-opus-5-5",
+   "in": 18116,
+   "out": 6152,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.0978
   }
  ],
  "cap": 45.0,
- "headlines_usd": 0.7231,
- "total_usd": 11.8978,
- "focus_usd": 0.2294
+ "headlines_usd": 0.8556,
+ "total_usd": 12.8993,
+ "focus_usd": 0.2393
 }

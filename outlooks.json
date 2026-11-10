@@ -250,6 +250,42 @@
 "https://www.turkiyetoday.com/region/aramco-tower-in-riyadh-financial-district-damaged-as-houthi-missiles-fly-3231959",
 "https://www.publico.pt/2026/11/08/mundo/noticia/arabia-saudita-intercepta-misseis-riad-houthis-falam-33-mortos-iemen-2194189"
 ]
+},
+{
+"made": "2026-11-10",
+"hotspot": "russia-ukraine-war",
+"text": "The Abu Dhabi round ends without a general ceasefire, given Putin's stated rejection of a halt and Zelenskyy's refusal to cede land.",
+"likelihood": "likely",
+"check_by": "2026-11-24",
+"basis": [
+"https://assamtribune.com/international/russia-ukraine-us-begin-trilateral-talks-in-abu-dhabi-as-peace-efforts-gain-pace-1622482",
+"https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621",
+"https://www.nbcnews.com/world/ukraine/us-mediated-talks-ending-war-russia-ukraine-begin-abu-dhabi-rcna608499"
+]
+},
+{
+"made": "2026-11-10",
+"hotspot": "us-israel-iran-war",
+"text": "Hormuz traffic stays well below pre-war levels, with the US blockade in place and Iran tying talks to its conditions.",
+"likelihood": "likely",
+"check_by": "2026-11-24",
+"basis": [
+"https://gulfnews.com/world/mena/hormuz-shipping-below-normal-but-not-stalled-ukmto-1.500741839",
+"https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm",
+"https://www.business-standard.com/amp/world-news/iran-sets-seven-conditions-for-peace-as-trump-signals-war-may-not-resume-126111000098_1.html"
+]
+},
+{
+"made": "2026-11-10",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Houthi missile and drone fire at Saudi cities and energy sites continues, with no truce talks reported.",
+"likelihood": "likely",
+"check_by": "2026-11-24",
+"basis": [
+"https://www.yahoo.com/news/articles/saudi-led-coalition-says-intercepts-015649777.html",
+"https://www.timeslive.co.za/news/world/2026-11-10-saudi-coalition-says-it-intercepted-houthi-missiles-over-riyadh/",
+"https://www.thenationalnews.com/news/gulf/2026/11/08/saudi-led-coalition-intercepts-two-houthi-missiles-fired-towards-riyadh/"
+]
 }
 ]
 }

@@ -719,6 +719,92 @@
    "added": "2026-11-09",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-09-ir-1",
+   "date": "2026-11-09",
+   "country": "IR",
+   "kind": "military-readiness",
+   "what": "IRGC, regular army and Basij start joint mobilisation training for civilians (IranWire; not independently confirmed)",
+   "url": "https://iranwire.com/en/news/160006-irgc-army-and-basij-launch-joint-mobilization-training-for-civilians/",
+   "outlet": "IranWire",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-10",
+   "independent": 1,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-09-ke-1",
+   "date": "2026-11-09",
+   "country": "KE",
+   "kind": "supply-reserves",
+   "what": "Nairobi water authorities lengthen water rationing as Ndakaini Dam levels fall (drought, not conflict)",
+   "url": "https://allafrica.com/stories/202611090360.html",
+   "outlet": "AllAfrica",
+   "hotspots": [],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-10",
+   "independent": 2,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-10-ru-1",
+   "date": "2026-11-10",
+   "country": "RU",
+   "kind": "military-readiness",
+   "what": "Reservists of Bashkortostan's BARS volunteer reserve detachment leave for combat training, regional Russian outlets report",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUd5MzlMdXkxOXFTVFh4TWFsS0pBSzZ5azRKNHJvRzZXLTVzVUw0R2lZdnNSczZYcnNHdFV6eUo5dHF5d2ZFSGF2dmNybWpFMUVmMjFnam1IYVBkek40aGdubmZqd3pSZGFwTXRENWhyelhMalVWb1dwOUsxZWdTWFJYZXZTR3FoamhoeFBJeXF6RXZnTG5meVNad01PS1lDSFpEamxqMzBqbjFId25lQzBqQjB6bWpaQUU4Yw?oc=5",
+   "outlet": "Панорама Башкортостана",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-10",
+   "independent": 3,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-10-fr-1",
+   "date": "2026-11-10",
+   "country": "FR",
+   "kind": "military-readiness",
+   "what": "French reservists in the Gard department train against 'hybrid threats' (Le Point)",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNd0hiTktvblA5ZFU1Zk91UGlrbkl4Yk1yc2dXSTNuV1FzNlRhcHVPVDFWcUwtbl9oemZCMHFCV2cwSXNmYzROZ1JZQVNnaDVEbFJuOWZwc0ZhSFVDSWhLSjEzZ0N3YWVWQmpEdkViSkZqWDNRb0h0Rnh6UWdGT1ZQRGV3Y3R5T1pTZWQyLUNqT05aMVZadXZKZlp4R3I4ekJleTdtNlJPZnFZSHJha1pIUUJlZHUtWHhmc2RKcHFBMktrM1NxVG1uUGZJNllSczNNX2c?oc=5",
+   "outlet": "Le Point",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-10",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-10-kh-1",
+   "date": "2026-11-10",
+   "country": "KH",
+   "kind": "military-readiness",
+   "what": "Cambodia launches military conscription training in Kampong Speu province",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZXd4YnlzeFJRZS1kZmg1eUVUaVc1ZjNVY1I1MGNKaHJnUzZRYXlhMW9pZ3JCRUZzV0xzN09JLVZ6dzF2TTFuLUNYS2hsZC1OMUFRT1IxcTRSbngtQUZfOHdkMlBRN3hYLWs3YnhNekFhV2ZqZnRyTl82dkk2WEZXNmllZWs2S2VrZFlpRnNTYThfaUY4TDZ0S29OOERkbXdHZ1ZaSy0xNzA?oc=5",
+   "outlet": "Big News Network.com",
+   "hotspots": [],
+   "scheduled": true,
+   "program": "Cambodia's reinstated conscription, announced in 2025 to start in 2026",
+   "source": "corpus",
+   "added": "2026-11-10",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -1882,6 +1968,205 @@
    "url": "https://www.rfi.fr/es/oriente-medio/20261109-israel-formar-gobierno-no-ser%C3%A1-una-tarea-sencilla-para-eisenkot",
    "source": "corpus",
    "independent": 15
+  },
+  {
+   "id": "e-2026-11-10-8",
+   "date": "2026-11-09",
+   "kind": "news",
+   "what": "Ukraine: One dead in drone attack on Zaporizhzhia nuclear power plant",
+   "countries": [
+    "AR",
+    "CN",
+    "DE",
+    "KR",
+    "RU",
+    "SA",
+    "TR"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.spiegel.de/ausland/ukraine-toter-bei-drohnenangriff-auf-akw-saporischschja-a-caee7885-fe31-4813-a2a3-8c99311887a2#ref=rss",
+   "source": "corpus",
+   "independent": 9
+  },
+  {
+   "id": "e-2026-11-10-1",
+   "date": "2026-11-10",
+   "kind": "news",
+   "what": "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi",
+   "countries": [
+    "AE",
+    "AR",
+    "AT",
+    "CA",
+    "CN",
+    "DE",
+    "EG",
+    "ES"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOWZiRUtnRnFHbVp4bFB3UkhHN1djYXYtOFNHNkE3dmszdkVBVGtUMXFZaEg4RTY5cEZ1aGNSQUpMcnNQY3o2VXRLSl9VYzE5NjVoQS1PLTZnQnJ6TVA0djdxamZaMUVrSGp6d3l1RUxEblVvVVMwLVNOa0NTSUJGMENtQl9SRGh4MHhCWjBtVmRCUmxDVy1PalE2cHBpM2hua0o0YUJESmR6Y0NEajBieGM1bkVtREJOQWs2YkNEVVdkM0RIYWxLUXpzSmRidTdtZlpVbnBXLVQ1ZUd5YTJzVDdPLXA?oc=5",
+   "source": "corpus",
+   "independent": 34
+  },
+  {
+   "id": "e-2026-11-10-2",
+   "date": "2026-11-10",
+   "kind": "news",
+   "what": "NATO's commander for Europe arrived for talks between Russia, Ukraine and the US",
+   "countries": [
+    "AE",
+    "AR",
+    "BE",
+    "CA",
+    "CN",
+    "DE",
+    "ES",
+    "FR"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.rbc.ru/politics/10/11/2026/6af2d6fee89fc253d477927e",
+   "source": "corpus",
+   "independent": 32
+  },
+  {
+   "id": "e-2026-11-10-3",
+   "date": "2026-11-10",
+   "kind": "news",
+   "what": "US withdraws military aircraft from second UK airbase after Iran threat: reports",
+   "countries": [
+    "AE",
+    "AU",
+    "BR",
+    "GB",
+    "HK",
+    "IL",
+    "IN",
+    "IT"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.scmp.com/news/world/europe/article/3373947/us-withdraws-9-military-aircraft-second-uk-airbase-after-iran-threat-reports",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-10-4",
+   "date": "2026-11-10",
+   "kind": "news",
+   "what": "Trump sees ‘positive momentum’ toward Iran deal, says war is ‘effectively over’",
+   "countries": [
+    "AT",
+    "AU",
+    "CA",
+    "CN",
+    "DE",
+    "FR",
+    "GB",
+    "ID"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLW9ibWc5NXNEWHhlQ2k1SHktc0s1QkhWUkF5c042cUtXNVRIdWtnVEpkNXk2QzZEdjZrV3lZbU9PbHVSbWJtSExnSlNSaHltREMtdXJoeHdFcGh3UkxJVFJqQ01tZGFwcElRb0ZFRDJyZkxXUlJ6dlE3RWlBNkpQR2ViaV81WjJNOTMtbXFPLUhNVkZXZFYxRFBsakFYbnk3cGxZOENkZUlFdFBLdFZyZ3dDaXNkQUVyTFBURklYSlQtZVBaNWc?oc=5",
+   "source": "corpus",
+   "independent": 19
+  },
+  {
+   "id": "e-2026-11-10-5",
+   "date": "2026-11-10",
+   "kind": "news",
+   "what": "Iran calls on US to meet its demands to end war",
+   "countries": [
+    "BR",
+    "CN",
+    "EG",
+    "GB",
+    "IN",
+    "KR",
+    "RU",
+    "SA"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLTJwMXNsc2EtMEtIcEFPUzBEckY0cmZBUDFhZjhqRTd1eGV0RWRidFpkYjNLajB4NjFOa1l2eUFWRXNrSjBfUS1wbzBwZ2VYUy1lY2pFUHlRdkFfOGc1YlhNd0psdVlWYmhnMTJBdHhPVXU5R0xRTzc2ekRRV2FfNVRFa3BzVFI1S0U3MUVXd1dieElNcERF?oc=5",
+   "source": "corpus",
+   "independent": 12
+  },
+  {
+   "id": "e-2026-11-10-6",
+   "date": "2026-11-10",
+   "kind": "news",
+   "what": "France Blames IRGC Cyber Unit for Hack on Supermarket Refrigerators",
+   "countries": [
+    "BR",
+    "GB",
+    "IR",
+    "MX",
+    "PH",
+    "RU",
+    "SA",
+    "TR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://iranwire.com/en/news/160028-france-blames-irgc-cyber-unit-for-hack-on-supermarket-refrigerators/",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-10-7",
+   "date": "2026-11-10",
+   "kind": "news",
+   "what": "Iran responds to Trump's optimism: \"illusory\" talks and 7 conditions",
+   "countries": [
+    "AE",
+    "DE",
+    "FR",
+    "ID",
+    "IN",
+    "LB",
+    "TW",
+    "US"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.skynewsarabia.com/world/1903718-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%B1%D8%AF-%D8%AA%D9%81%D8%A7%D8%A4%D9%84-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%88%D9%87%D9%85%D9%8A%D8%A9-%D9%887-%D8%B4%D8%B1%D9%88%D8%B7",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-10-8",
+   "date": "2026-11-10",
+   "kind": "news",
+   "what": "Pentagon chief Hegseth expected to face House impeachment vote this week",
+   "countries": [
+    "AE",
+    "FR",
+    "GB",
+    "HK",
+    "IN",
+    "JP",
+    "NG",
+    "PH"
+   ],
+   "hotspot": "us-boat-strikes-caribbean-pacific",
+   "url": "https://www.dailymaverick.co.za/article/2026-11-10-pentagon-chief-hegseth-expected-to-face-house-impeachment-vote-this-week/",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
+   "id": "e-2026-11-10-9",
+   "date": "2026-11-10",
+   "kind": "news",
+   "what": "France accuses Iran of cyber sabotage in fridge attacks",
+   "countries": [
+    "AR",
+    "AU",
+    "ES",
+    "FR",
+    "GB",
+    "IT",
+    "LB",
+    "US"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.wlrn.org/national-politics/2026-11-09/france-accuses-iran-of-cyber-sabotage-in-fridge-attacks",
+   "source": "corpus",
+   "independent": 10
   }
  ]
 }
