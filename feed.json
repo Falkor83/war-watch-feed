@@ -1794,9 +1794,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "US says no large strike needed for now; aircraft moved from UK base; tanker hit off Oman",
+   "status": "Rubio says no large strike needed now; Iran denies talks; third tanker hit in Hormuz",
    "summary": "The US and Israel have been at war with Iran, and the Strait of Hormuz has been largely shut to normal traffic. On Nov 9, Trump said Iran is militarily 'effectively over' and that renewed strikes are unlikely if Tehran signs a strong deal, while keeping the US naval blockade in place. Iran's security council secretary called the talk of negotiations invented and set seven conditions, including lifting the blockade and sanctions. The UK maritime agency UKMTO counted at least 11 ships attacked and three sunk in the week to Nov 6, with Hormuz transits about 65% below pre-conflict levels. US tankers and Ospreys left RAF Mildenhall after what US officials call a possible Iranian threat, and a US official says two UK bases moved to the second-highest protection level.",
    "latest": [
+    {
+     "date": "2026-11-10",
+     "at": "2026-11-10T20:06:22Z",
+     "text": "US Secretary of State Rubio says there is no need to resume large-scale military operations against Iran, and that sanctions and the blockade are achieving US goals. A separate US-side report quotes him saying major combat operations are no longer needed.",
+     "outlet": "Arab News",
+     "country": "Saudi Arabia",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNm5nX0kxdzVrbkJOWGJKZVNjaGx3eWpyZ0tqbkkwYl9LX3dZSDY1Z1RWLTlkWnZZSXIzWnViTUs4cVc0eDlta1pWZ2dMLUpCd2JULTd6VTlJSk1zc0J6ZTlRd1NWYTBrUHhfeVhOc1dzRVU1elFiRFJHdE52OVN0ZThJX08zdUJaLXgtY0hoREZ4VkpHRzdVMXlaY19lRE5BdnNobEhVaw?oc=5",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-10",
+     "at": "2026-11-10T20:06:22Z",
+     "text": "Iran's military reports a third tanker hit by a mine in the Strait of Hormuz on Tuesday. The IRGC Navy reports a blast, and an Israeli outlet says Iranians claim the tanker caught fire. These are Iranian accounts; the cause has not been independently confirmed.",
+     "outlet": "Mehr English",
+     "country": "Iran",
+     "url": "https://en.mehrnews.com/news/249311/IRGC-Navy-reports-third-tanker-catches-fire-in-Hormuz",
+     "region": "iran",
+     "tag": "non-party",
+     "state_media": true
+    },
+    {
+     "date": "2026-11-10",
+     "at": "2026-11-10T20:06:22Z",
+     "text": "Iran's Supreme National Security Council says Tehran is not in talks with Washington, and Iranian official Rezaei calls the US claim of talks lies. Iran also says the Strait of Hormuz will stay closed until seven conditions are met, and calls the US response to those conditions deceptive.",
+     "outlet": "Al-Monitor",
+     "country": "United States",
+     "url": "https://www.al-monitor.com/originals/2026/11/irans-top-security-official-says-no-talks-underway-us",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-10",
      "at": "2026-11-10T16:46:46Z",
@@ -1849,39 +1882,6 @@
      "country": "France",
      "url": "https://www.lemonde.fr/international/article/2026/11/10/donald-trump-estime-que-la-guerre-contre-l-iran-est-militairement-terminee-apres-sa-rencontre-avec-le-premier-ministre-du-qatar_6808708_3211.html",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-10",
-     "at": "2026-11-10T14:00:52Z",
-     "text": "Iran calls on the US to meet its demands to end the war, which Iranian and Gulf outlets report. Al Jazeera reports that Iran has lifted its 2,000km limit on ballistic missiles.",
-     "outlet": "Gulf News",
-     "country": "United Arab Emirates",
-     "url": "https://gulfnews.com/world/americas/iran-urges-us-to-meet-hormuz-demands-as-trump-sees-momentum-to-end-war-1.500742516",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-10",
-     "at": "2026-11-10T11:16:43Z",
-     "text": "The US has moved aircraft from a second British base over an alleged Iranian threat, according to WSJ reporting carried by CBS, Sky News and other outlets. Sky News and CBS cite the same WSJ report.",
-     "outlet": "CBS News World",
-     "country": "United States",
-     "url": "https://www.cbsnews.com/news/raf-mildenhall-us-tanker-relocation-iran-threat-military-aircraft-moved/",
-     "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-10",
-     "at": "2026-11-10T11:16:43Z",
-     "text": "Qatar's prime minister joined Saudi and European ministers for Iran talks after meeting Trump, and made an unscheduled G7 stop to brief allies, per Al-Monitor and Hindustan Times.",
-     "outlet": "Al Arabiya English",
-     "country": "Saudi Arabia",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSG00aHI3dDNhS2VaUnhyNUhOLUdSWVl2RG9HVFVoSURZZGwzTXVMRjltS1JNcnVlS1h1djk1QTJwSXhieERJVUdTdnZyc2RrVEg0WjJIQ2phTFlNc0M3STNvUXB6a0p0M2tkc09GdTNYSzZLYmU3M1pqVWdFdUs2VzdYSUppOU9kSDJhckl0SkpIT1NaY2FrN181dFl2U2ZvYzE3RHVuTzRiZVdnOUlIdFZMUVdHUTRZZXRVeVZTQWQyME1lUUJsTkV1ZnRiUdIB0wFBVV95cUxPU2J4Q19tTUVmUEtEOEV0WnR6emtrVXREclEtOC1uU0tHSXN1bjVQb2c0SGpEc3hZU3FQaEN2QmtJQVk0Tk4xSUVlOHhjSnA2U2EzbnFldnhfYU41NnREc2E3Qmg5cUxtd3k1NUVYb3M4eTFWby1UYkNCRmRnNFFlbGs5NGtVUjlOdENuV0hydU5YZVdCVFNRamRKOXFvN3RHVVdHZFNxUHRvdG41R2dpSklmWHNrV1oxSGJpT1k0cEllMVVaZHc0QmY4OTJiTXF",
-     "region": "gulf",
      "tag": "non-party",
      "state_media": false
     }
@@ -11881,11 +11881,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-07T18:17:46Z",
-     "headline": "US sets up task force to widen Iran blockade to land routes; strike reports unconfirmed",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-07T21:05:47Z",
      "headline": "Explosions reported at Iranian ports as US-Iran diplomacy via Vance and Qatar continues",
      "direction": "steady"
@@ -11999,70 +11994,77 @@
      "at": "2026-11-10T16:46:46Z",
      "headline": "US says no large strike needed for now; aircraft moved from UK base; tanker hit off Oman",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-10T20:06:22Z",
+     "headline": "Rubio says no large strike needed now; Iran denies talks; third tanker hit in Hormuz",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-10T16:46:46Z",
-   "next_at": "2026-11-10T19:46:46Z",
-   "headline": "US says no large strike needed for now; aircraft moved from UK base; tanker hit off Oman",
+   "updated_at": "2026-11-10T20:06:22Z",
+   "next_at": "2026-11-10T23:06:22Z",
+   "headline": "Rubio says no large strike needed now; Iran denies talks; third tanker hit in Hormuz",
    "direction": "steady",
    "points": [
     {
-     "text": "The US moved military aircraft from a British air base after an Iranian threat, the Wall Street Journal reports, and a second UK base was also cleared, per another report.",
+     "text": "US Secretary of State Rubio says there is no need to resume large-scale military operations against Iran, and that sanctions and the blockade are achieving US goals. A separate US-side report quotes him saying major combat operations are no longer needed.",
      "stories": [
-      "s1",
-      "s25",
-      "s40"
+      "s2",
+      "s6",
+      "s12",
+      "s18"
      ],
      "sources": [
       {
-       "t": "US relocates military aircraft from British base amid Iran threats",
-       "u": "https://www.hindustantimes.com/world-news/us-news/us-relocates-military-aircraft-from-british-base-amid-iran-threats-101794324495306.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794324882,
-       "r": "known"
-      },
-      {
-       "t": "US military withdraws aircraft from a British air base due to Iranian threat",
-       "o": "الجيش الأميركي يسحب طائرات من قاعدة جوية بريطانية جراء التهديد الإيراني",
-       "u": "https://aawsat.com/node/5339751",
-       "s": "Asharq Al-Awsat",
+       "t": "Rubio says ‘no need’ to attack Iran as diplomacy gathers pace",
+       "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNm5nX0kxdzVrbkJOWGJKZVNjaGx3eWpyZ0tqbkkwYl9LX3dZSDY1Z1RWLTlkWnZZSXIzWnViTUs4cVc0eDlta1pWZ2dMLUpCd2JULTd6VTlJSk1zc0J6ZTlRd1NWYTBrUHhfeVhOc1dzRVU1elFiRFJHdE52OVN0ZThJX08zdUJaLXgtY0hoREZ4VkpHRzdVMXlaY19lRE5BdnNobEhVaw?oc=5",
+       "s": "Arab News",
        "c": "SA",
-       "l": "ar",
-       "p": 1794324371,
-       "r": "known"
-      },
-      {
-       "t": "Wall Street Journal: America moved military aircraft from a British base after an Iranian threat",
-       "o": "وول ستريت جورنال: أمريكا نقلت طائرات عسكرية من قاعدة بريطانية بعد تهديد إيراني",
-       "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQLWRTcmRxWmFVdF9jc1phRmtNWDdUZHl1cE9TbWx4cU05ckVMTGtxTUt4VEZNWWVWcGZLM3FGVnZfRXlhbWVrQkx5MEVfMTZMUzItQmM4WldXbXZ2VUFCb2hvbzR6bGJkeFlhcGVlMm9DN2ZTS3VLT1Y0S2h4X2VHUF8yT3lscEgzdUxodWNYTzJSVzlxNFlJUmJLaFZIWmpwN2pvZjRva1RJcmJZQUJJby1IdVhZSERHZG4xWTE2X0o4cklsXzN1c19DNA?oc=5",
-       "s": "CNN",
-       "c": "US",
-       "l": "ar",
-       "p": 1794320299,
-       "r": "known"
-      },
-      {
-       "t": "US moves aircraft from UK base amid reported Iran threat",
-       "u": "https://www.abc.net.au/news/2026-11-11/us-aircaft-evated-from-second-uk-airbase-for-iran-threat/107370924",
-       "s": "ABC News Australia",
-       "c": "AU",
        "l": "en",
-       "p": 1794320132,
+       "p": 1794335112,
        "r": "known"
       },
       {
-       "t": "World News Live Updates: US evacuates aircraft from second UK airbase after Iran threat, says report",
-       "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNekgxdm0xN0ZWVlhFS0tUbHRjZlJiUERwdGFFdW9IYWhsdTQwUGx0M1NMSlVjVDgyTFVNdnh4RHJxUy1YNWdXdGFEZjhCMDNUZ0hwTVZHYUxuZl9GUXVjOWVRem9YTmhuU1FWRU91OWV1QmJFLVgzM3ZJZnVEMzZuTmZLS2U4VWhLLUZOTWYtNkZuNG9WYWRIeHhwczJaZW5wS25UZTB3?oc=5",
-       "s": "Indian Express",
-       "c": "IN",
+       "t": "'No need' to attack Iran as diplomacy gathers pace: Rubio - Region - World",
+       "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TcWQwN1Zkd0RqWGs0MkRpMzkzY0szZlQ0aC00eDhtTGdNTHVISklWUlo4Qkl3MjZzV21hTEN6S3pxczBPdXlxLUVicjhrZWRmZ0FkazBxOHc?oc=5",
+       "s": "Ahram Online",
+       "c": "EG",
        "l": "en",
-       "p": 1794323407,
+       "p": 1794333173,
+       "r": "state"
+      },
+      {
+       "t": "Rubio says US has severely damaged Iran's economy, no need for now to resume large-scale military operations",
+       "o": "盧比歐稱美國重創伊朗經濟 暫無必要重啟大規模軍事行動",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5636397",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794337563,
+       "r": "known"
+      },
+      {
+       "t": "Rubio: \"No need to resume large-scale military operations against Iran; we are achieving our goals through economic sanctions",
+       "o": "루비오 장관 “이란에 대한 대규모 군사작전 재개 불필요…경제 제재로 목표 달성 중\"",
+       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oWWYxU2lIbVpHY1QyQi00VnlyRlpQVGdSYmtIVnU3WU9IXzA1akpGSWVlb2U2Z3Zrb3g5a19wVS1PTTBmdnJ0MkRaZkROOENhR0ZYZ0hBUWY4TjcyQzJrZGVibmrSAWdBVV95cUxQV0psb1lueW9NNTc3MC11cVQ5ak5oMmlHNm9QQmRzWWljbE02NjhabUlXUlJ6M3BlOHVWMDVZTXc2emhHSUJHUlhDZmtoTHc2NXFQRFkwbWxBVmRxdjR2YmZCTDFvTWpV?oc=5",
+       "s": "VOA 한국어 홈페이지",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794337633,
+       "r": "unrated"
+      },
+      {
+       "t": "U.S. State Dept: \"No large-scale military operation against Iran is needed now\" (roundup)",
+       "o": "미 국무 \"이란에 대한 대규모 군사작전 지금은 필요 없어\"(종합)",
+       "u": "https://www.yna.co.kr/view/AKR20261111002051085",
+       "s": "Yonhap Korean",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794337053,
        "r": "known"
       }
      ],
@@ -12070,247 +12072,181 @@
      "outlets": 6,
      "independent": 6,
      "countries": [
-      "AU",
-      "CA",
-      "IN",
+      "EG",
+      "KR",
       "SA",
+      "TW",
       "US"
      ],
      "regions": 4,
      "party_only": false,
-     "state": 0
+     "state": 1
     },
     {
-     "text": "Rubio says US sanctions and the blockade are working and no large-scale military operation is needed now. Trump has also said strikes are unlikely. Rubio called Iran's conditions for talks absurd, according to TASS.",
+     "text": "Iran's military reports a third tanker hit by a mine in the Strait of Hormuz on Tuesday. The IRGC Navy reports a blast, and an Israeli outlet says Iranians claim the tanker caught fire. These are Iranian accounts; the cause has not been independently confirmed.",
      "stories": [
-      "s3",
-      "s22",
-      "s39",
-      "s21",
-      "s37"
+      "s7",
+      "s33"
      ],
      "sources": [
       {
-       "t": "US Secretary of State Rubio's statement on Iran: Sanctions leave no need for a large-scale military operation",
-       "o": "ABD Dışişleri Bakanı Rubio’dan İran açıklaması: Yaptırımlar, büyük çaplı askeri harekata gerek bırakmıyor",
-       "u": "https://www.hurriyet.com.tr/dunya/abd-disisleri-bakani-rubiodan-iran-aciklamasi-yaptirimlar-buyuk-capli-askeri-harekata-gerek-birakmiyor-43373384",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794325768,
-       "r": "known"
-      },
-      {
-       "t": "Rubio explains why the US is not yet planning a large-scale military operation in Iran",
-       "o": "Рубіо пояснив, чому США поки не планують масштабної військової операції в Ірані",
-       "u": "https://www.pravda.com.ua/news/2026/11/10/8062185/",
-       "s": "Ukrainska Pravda UA",
-       "c": "UA",
-       "l": "uk",
-       "p": 1794324180,
-       "r": "known"
-      },
-      {
-       "t": "Rubio: a large-scale military operation against Iran is not needed",
-       "o": "Rubio, non serve un'operazione militare di larga scala contro l'Iran",
-       "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/10/rubio-non-serve-unoperazione-militare-di-larga-scala-contro-liran_98bb7727-f162-4054-b5f5-411a8e8458ca.html",
-       "s": "ANSA Mondo",
-       "c": "IT",
-       "l": "it",
-       "p": 1794318626,
-       "r": "known"
-      },
-      {
-       "t": "US sanctions inflicting ‘extraordinary economic pain’ on Iran, no need for major combat ops: Rubio",
-       "u": "https://www.hindustantimes.com/world-news/iran-facing-extraordinary-economic-pain-from-us-sanctions-no-need-for-major-combat-operations-marco-rubio-101794323324876.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
+       "t": "IRGC Navy reports blast in third tanker in Hormuz Strait",
+       "u": "https://en.mehrnews.com/news/249311/IRGC-Navy-reports-third-tanker-catches-fire-in-Hormuz",
+       "s": "Mehr English",
+       "c": "IR",
        "l": "en",
-       "p": 1794324551,
-       "r": "known"
+       "p": 1794336892,
+       "r": "state"
       },
       {
-       "t": "Rubio: the blockade of Iran is successful and there is no need for military action at present",
-       "o": "روبيو: حصار إيران ناجح ولا حاجة لعمل عسكري حاليا",
-       "u": "https://www.skynewsarabia.com/world/1903907-%D8%B1%D9%88%D8%A8%D9%8A%D9%88-%D8%AD%D8%B5%D8%A7%D8%B1-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%86%D8%A7%D8%AC%D8%AD-%D9%88%D9%84%D8%A7-%D8%AD%D8%A7%D8%AC%D8%A9-%D9%84%D8%B9%D9%85%D9%84-%D8%B9%D8%B3%D9%83%D8%B1%D9%8A-%D8%AD%D8%A7%D9%84%D9%8A%D8%A7",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1794319688,
-       "r": "known"
+       "t": "Iranian military reports third tanker hit by mine in Strait of Hormuz on Tuesday",
+       "u": "https://tass.com/world/2215747",
+       "s": "TASS English",
+       "c": "RU",
+       "l": "en",
+       "p": 1794336802,
+       "r": "state"
+      },
+      {
+       "t": "Iranians claim: a tanker caught fire after hitting a mine in the Strait of Hormuz",
+       "o": "באיראן טוענים: מיכלית עלתה באש לאחר שפגעה במוקש במצר הורמוז",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tUl9lbzFvOVBxZzFCRjN5VzloSElYLVhIS2JmaWdsZENoZGRkZzhmX3ZaTjNtS2VnZWxzMTR1TFdFS0JXWDBtVmZua1VaOUwyQVFsVGFERWNyb1R1NzNGUWVQaERGTlk?oc=5",
+       "s": "ישראל היום",
+       "c": "IL",
+       "l": "he",
+       "p": 1794331217,
+       "r": "unrated"
       }
      ],
-     "headlines": 10,
-     "outlets": 9,
-     "independent": 8,
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
      "countries": [
-      "AE",
-      "IN",
-      "IT",
-      "RU",
-      "SA",
-      "TR",
-      "UA"
+      "IL",
+      "IR",
+      "RU"
      ],
-     "regions": 5,
+     "regions": 3,
      "party_only": false,
      "state": 2
     },
     {
-     "text": "Hegseth says the US will strike Iran if there is activity at its nuclear sites. Russian state media TASS also reports that the Pentagon says over 80% of Iran's nuclear industry has been destroyed; this is a single-source claim.",
+     "text": "Iran's Supreme National Security Council says Tehran is not in talks with Washington, and Iranian official Rezaei calls the US claim of talks lies. Iran also says the Strait of Hormuz will stay closed until seven conditions are met, and calls the US response to those conditions deceptive.",
      "stories": [
-      "s10",
-      "s33",
-      "s27"
+      "s8",
+      "s20",
+      "s9",
+      "s28"
      ],
      "sources": [
       {
-       "t": "Hegseth Says U.S. Will Watch Iran’s Nuclear Sites",
-       "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOF8yTGd3RlRxVW50RGpNUElQR1NRd21GNUFOSk55UjQ2QTlsUW1ZZm53NllEc3hsZkcwandFR3BhZnNZaGdLaTVSX2JnWkhfd3RZNmoxSXRjVklleTNKT3F3aEUxZ0JKeWRraF9Nd20zVHpyZmFkLTZsbHhYZWFIYjBLbWZEbm1qVWlaeVJOT0FhWVkzOWRUTDBHbHpmdWZWbjc5amMyLXl5YmhPZXc?oc=5",
-       "s": "Wall Street Journal",
+       "t": "Iran's top security official says no talks underway with US",
+       "u": "https://www.al-monitor.com/originals/2026/11/irans-top-security-official-says-no-talks-underway-us",
+       "s": "Al-Monitor",
        "c": "US",
        "l": "en",
-       "p": 1794326060,
+       "p": 1794332789,
        "r": "known"
       },
       {
-       "t": "Hegseth: the US will strike Iran if there is activity at nuclear facilities",
-       "o": "Хегсет: США ударят по Ирану в случае активности на ядерных объектах",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28303517",
-       "s": "TASS",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794318803,
-       "r": "state"
-      },
-      {
-       "t": "US ready to strike Iran if finds evidence of 'nefarious activity' at nuke sites — Pentagon",
-       "u": "https://tass.com/world/2215621",
+       "t": "Iran's Supreme National Security Council says Tehran not in talks with Washington",
+       "u": "https://tass.com/world/2215701",
        "s": "TASS English",
        "c": "RU",
        "l": "en",
-       "p": 1794320976,
+       "p": 1794330987,
        "r": "state"
       },
       {
-       "t": "Pentagon says US destroyed over 80% of Iran's nuclear industry",
-       "u": "https://tass.com/world/2215639",
-       "s": "TASS English",
-       "c": "RU",
+       "t": "Rezaei rejects Washington's claim of talks with Iran as lies",
+       "u": "https://en.mehrnews.com/news/249312/Rezaei-rejects-Washington-s-claim-of-talks-with-Iran-as-lies",
+       "s": "Mehr English",
+       "c": "IR",
        "l": "en",
-       "p": 1794322354,
+       "p": 1794337245,
        "r": "state"
+      },
+      {
+       "t": "Iran: The US response to our conditions is deceptive; the Strait of Hormuz will not open until seven conditions are met",
+       "o": "İran: ABD'nin şartlarımıza yanıtı aldatıcı, Hürmüz Boğazı 7 şart yerine getirilene kadar açılmayacak",
+       "u": "https://www.trthaber.com/haber/dunya/iran-abdnin-sartlarimiza-yaniti-aldatici-hurmuz-bogazi-7-sart-yerine-getirilene-kadar-acilmayacak-962851.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794331680,
+       "r": "known"
+      },
+      {
+       "t": "Iran Says Strait of Hormuz Will Stay Closed Until U.S. Meets Demands",
+       "u": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOOTVGNXo5VFdXRzgxenY0LUVlWThxQ1BOMGZUcjJGdEZIUm5FRDFDUGRvbFAzNzFickZ4LUxDdS1RZkZ4Y1NiVWJ6d1NmQXhNOHlMeFNBb1lCd2F0bjlmMHVLNU02SGtHcnZlMm1HZHV0aG81X29zbm84emZCTjh5blEtdk4xSjQwZ0kwWEo2enZlNk9JNmJJbmpvTzZnM3h3SjlQTGdjUWpvc2hsOUFFY2N5TV9GcGgyRE5kNXd2bV9idjNCTUh6U3dmRU9JTXgtWmw5NGNfanlWUEUxNFdUSGdUQjVqQmZ3c1VfMW1zekIwSlNpOGRvaGlsZEtVc3JybHc?oc=5",
+       "s": "Haaretz",
+       "c": "IL",
+       "l": "en",
+       "p": 1794334560,
+       "r": "known"
       }
      ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 7,
+     "outlets": 7,
+     "independent": 6,
      "countries": [
+      "IL",
+      "IR",
       "RU",
+      "TR",
       "US"
      ],
-     "regions": 2,
+     "regions": 4,
      "party_only": false,
      "state": 3
     },
     {
-     "text": "UKMTO says a tanker was hit by an unknown projectile off the Oman coast. The cause and attacker are not yet confirmed.",
+     "text": "Qatar's prime minister told G7 ministers that Doha secured a two-week window to prevent a US attack on Iran, and warned of major US-Iran disagreements, according to an Israeli outlet reporting his remarks.",
      "stories": [
-      "s18",
-      "s15"
+      "s21",
+      "s25"
      ],
      "sources": [
       {
-       "t": "Tanker struck by unknown projectile off Oman, UKMTO says",
-       "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc1k1amZoR0ZVN25IRGhHZ211SE9sTDF4STI2VnU2SzB4SXZCN0JqUy1PbWhGX2ZtcDZwMWlONlUzenpOUW5EaEVYY0VycUdkbXZtVGNUTVF5TDY1LW9Db2U1eVBkZkV3eXo2SzBIZ2EzR3A3cDZURVNzTWRsaDg1NnlSNGVJQmQ0bmlaMFkwQlZDQ244SlFqVG9BUXZmMUYyUlE?oc=5",
-       "s": "Arab News",
-       "c": "SA",
+       "t": "Doha secured two-week window to prevent US attack on Iran, Qatari PM tells G7 ministers",
+       "u": "https://www.jpost.com/middle-east/article-914504",
+       "s": "Jerusalem Post",
+       "c": "IL",
        "l": "en",
-       "p": 1794326333,
+       "p": 1794336798,
        "r": "known"
       },
       {
-       "t": "UKMTO reports attack on a tanker near the Oman coast",
-       "o": "UKMTO сообщил об атаке на танкер вблизи побережья Омана",
-       "u": "https://tass.ru/proisshestviya/28303925",
-       "s": "TASS",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794326797,
-       "r": "state"
+       "t": "Qatar PM warns of major US-Iran disagreements despite two-week reprieve from pos",
+       "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BN0UxYXRjbnM0VnQ0aG5scm9jTWV1VlRTSFdEOXVZN1lzWVU4VFY3b1pmSWx3X3ZKcGFERGt6eXlaSEYyWlctQWppRzhJa3A5MlBoVlFIejRfc2kx?oc=5",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794335076,
+       "r": "known"
       }
      ],
      "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
+     "outlets": 1,
+     "independent": 1,
      "countries": [
-      "RU",
-      "SA"
+      "IL"
      ],
-     "regions": 2,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "Qatar says US-Iran mediation continues despite reports of an imminent strike. Iran's Araghchi denies reports of a possible Iran-US meeting. One Indian outlet reports Netanyahu is calling Trump daily to push for resuming the war; this is a single-source report.",
-     "stories": [
-      "s29",
-      "s20",
-      "s11"
-     ],
-     "sources": [
-      {
-       "t": "US-Iran mediation continues despite reports of imminent strike, says Qatar",
-       "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMkZLLWVISkxRREdCYTh5cDFyaXpfdVRneHdmSVNOdGMwdVJMQWs0VGhLeUlIRWVMOFBWYXJ4UXpRLWFZTWZKTzlsa3FLRm9la0hWcTZ5NFoydWw0SnRXRmFyeURUNXBmbmdqS3ZFcThVWUpZMUNYSXJrdVNzQXpTcmlSZS1SbHEteGtMcHhrTHFqUzZINERYMFlubFlMNXRfb1JhOG1lN1lRUDB5d1I2NGx5eG1IWGF0aFE?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1794321432,
-       "r": "known"
-      },
-      {
-       "t": "Araghchi denies reports of a possible Iranian-US meeting",
-       "o": "عراقجي ينفي أنباء عن لقاء إيراني أميركي محتمل",
-       "u": "https://www.skynewsarabia.com/middle-east/1903911-%D8%B9%D8%B1%D8%A7%D9%82%D8%AC%D9%8A-%D9%8A%D9%86%D9%81%D9%8A-%D8%A3%D9%86%D8%A8%D8%A7%D8%A1-%D9%84%D9%82%D8%A7%D8%A1-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D9%85%D8%AD%D8%AA%D9%85%D9%84",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1794325889,
-       "r": "known"
-      },
-      {
-       "t": "Netanyahu calls Trump daily to push for resuming war against Iran: Report",
-       "u": "https://www.hindustantimes.com/world-news/benjamin-netanyahu-calls-us-president-donald-trump-daily-to-push-for-resuming-war-against-iran-report-101794324814788.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794325151,
-       "r": "known"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "AE",
-      "IN",
-      "SA"
-     ],
-     "regions": 2,
-     "party_only": false,
+     "regions": 1,
+     "party_only": true,
      "state": 0
     }
    ],
    "watch": [
-    "Any activity at Iranian nuclear sites, which US officials have said would prompt strikes",
-    "Whether US-Iran mediation produces a meeting or talks, or the Iranian denial holds",
-    "Cause and attribution of the projectile strike on the tanker off Oman"
+    "Whether Iran's seven conditions for reopening Hormuz move toward any talks, given Tehran's denial of talks",
+    "Further tanker incidents in Hormuz and whether the cause of the blasts is confirmed",
+    "The end of the two-week window Qatar reported, and any US statements on nuclear-site activity"
    ],
    "window_hours": 3,
-   "headlines_read": 85,
-   "outlets_read": 50,
-   "countries_read": 26,
-   "languages_read": 16,
+   "headlines_read": 47,
+   "outlets_read": 31,
+   "countries_read": 15,
+   "languages_read": 8,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
