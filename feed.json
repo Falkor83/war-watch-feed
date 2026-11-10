@@ -1742,9 +1742,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Trump: Iran war 'militarily over', no new strikes for now; Hormuz incidents unverified",
+   "status": "Trump says Iran war militarily over, no new strikes for now; sea blockade stays",
    "summary": "The US and Israel have fought Iran on and off in 2026, and an April ceasefire and a June memorandum both broke down by July. The US then reimposed its blockade, and Iran has kept the Strait of Hormuz closed to traffic it does not approve. Trump confirmed new US strikes on an Iranian air defence system and called them minor. Iran's military says two more tankers caught fire after hitting mines on what it calls an unauthorised route, and explosions were reported on Qeshm Island and at Jask; no maritime authority has confirmed the mine claims. The US has also offered up to $20 million for information on Iran's nuclear programme, while Oman and Qatar keep up mediation.",
    "latest": [
+    {
+     "date": "2026-11-10",
+     "at": "2026-11-10T05:39:09Z",
+     "text": "Trump says the war is militarily 'effectively over' and that new strikes are not needed for now, while the US stays ready if needed. Several outlets in different regions carry the same remarks, and Trump has also said further US attacks are 'highly unlikely'.",
+     "outlet": "Liberty Times",
+     "country": "Taiwan",
+     "url": "https://news.ltn.com.tw/news/world/breakingnews/5635380",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-10",
+     "at": "2026-11-10T05:39:09Z",
+     "text": "Trump says the sea blockade of Iran will be maintained, and he says Tehran wants a deal. Iran's side has set conditions: one report says five, another says seven, and it has called for a US 'surrender' to them. These are the sides' own accounts, not confirmed talks.",
+     "outlet": "Kommersant",
+     "country": "Russia",
+     "url": "https://www.kommersant.ru/doc/9093250",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-10",
+     "at": "2026-11-10T05:39:09Z",
+     "text": "Israeli and Western reports say Netanyahu has been pressing Trump daily to resume the war. This is a press report of private contacts, not an official Israeli statement.",
+     "outlet": "Hindustan Times World",
+     "country": "India",
+     "url": "https://www.hindustantimes.com/world-news/netanyahu-calling-trump-every-day-to-resume-iran-war-as-us-president-mulls-end-financial-times-report-us-midterm-election-israel-news-101794282963605.html",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-10",
      "at": "2026-11-10T02:10:28Z",
@@ -1797,39 +1830,6 @@
      "country": "United Kingdom",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY1lnQXd4UHRweTlsa3dNd2h6QWM3QkpxWFJqc28yQl9ETlg4MlAyejE2WS0ya0tLSU54NXNrcDJZaVRVWEJMWHFUNm5yTzZjb3YzME9DTElTS2V4ak5qaURNOW5pdWVsa0ZVZUIwc0lta1NtYUMtOG9yZndmTW1nS283blhyNmd3OElMdXF2R0VNdw?oc=5",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-09",
-     "at": "2026-11-09T22:45:51Z",
-     "text": "Oil prices fell after Trump's remarks. Brent dropped 5.8% to $92.57, according to Infobae, and Yonhap reports the fall followed his signal of no further attacks.",
-     "outlet": "Axios",
-     "country": "United States",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWmhpTVpNQWZvRlZVdVMtWFNXZldjWXhfVURkUDVZNmNyVENYU0JrN09FbVotWkozWEtxcjEwZ1liRGFwOHhzNlRCcjVWU2c2cUNERk9tSVBLdGZjUm5Yc0Fka3hSc0NpemV0d0pGYmVfMmF2S3NUV0FQeVBUclExeGtPTjdxQ2lXd1pn?oc=5",
-     "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-09",
-     "at": "2026-11-09T19:06:08Z",
-     "text": "Trump says resuming the war with Iran is 'highly unlikely', and oil prices hit a 10-week low after his remarks. Ahram Online reports Vance and Rezaei are eyeing talks in Doha as Trump meets Qatar's prime minister, but CNA reports no imminent deal to end the war.",
-     "outlet": "The Hindu",
-     "country": "India",
-     "url": "https://www.thehindu.com/news/international/trump-says-resumption-of-war-with-iran-highly-unlikely/article71683793.ece",
-     "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-09",
-     "at": "2026-11-09T19:06:08Z",
-     "text": "France accuses Iran's Revolutionary Guards of a cyberattack on supermarket refrigeration systems. Paris has launched a probe and vowed sanctions, and Kallas has opened the door to EU sanctions. TASS reports France summoned Iran's chargé d'affaires.",
-     "outlet": "Asharq Al-Awsat",
-     "country": "Saudi Arabia",
-     "url": "https://aawsat.com/node/5339383",
-     "region": "gulf",
      "tag": "non-party",
      "state_media": false
     }
@@ -11951,11 +11951,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-07T04:43:43Z",
-     "headline": "US strikes hit Qeshm Island and Iranian air defences; talks continue, Qatar says",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-07T07:35:45Z",
      "headline": "New limited US strike on Iran air defences; Qatar says talks continue",
      "direction": "steady"
@@ -12069,245 +12064,318 @@
      "at": "2026-11-10T02:10:28Z",
      "headline": "Trump: Iran war 'militarily over', no new strikes for now; Hormuz incidents unverified",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-10T05:39:09Z",
+     "headline": "Trump says Iran war militarily over, no new strikes for now; sea blockade stays",
+     "direction": "easing"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-10T02:10:28Z",
-   "next_at": "2026-11-10T05:10:28Z",
-   "headline": "Trump: Iran war 'militarily over', no new strikes for now; Hormuz incidents unverified",
-   "direction": "steady",
+   "updated_at": "2026-11-10T05:39:09Z",
+   "next_at": "2026-11-10T08:39:09Z",
+   "headline": "Trump says Iran war militarily over, no new strikes for now; sea blockade stays",
+   "direction": "easing",
    "points": [
     {
-     "text": "Trump says the war is 'militarily effectively over' and new strikes are not needed at this point, but the US is ready if needed. Several outlets across regions carry the same remarks, and oil prices eased on the news.",
+     "text": "Trump says the war is militarily 'effectively over' and that new strikes are not needed for now, while the US stays ready if needed. Several outlets in different regions carry the same remarks, and Trump has also said further US attacks are 'highly unlikely'.",
      "stories": [
       "s1",
-      "s7",
-      "s8",
-      "s13",
-      "s28"
+      "s5",
+      "s6",
+      "s23",
+      "s37"
      ],
      "sources": [
       {
-       "t": "Trump says Iran war ‘effectively over’ militarily, but US ready to strike again",
-       "u": "https://www.iranintl.com/en/202611102662",
-       "s": "Iran International",
-       "c": "IR",
-       "l": "en",
-       "p": 1794272170,
-       "r": "known"
-      },
-      {
-       "t": "Trump says Iran war is ‘militarily effectively over’ at snap news conference",
-       "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMU4zZXY0azVhQmVvRWRHSXRlV0FxOEVQNHZyQ3hUOFYwTXJ3R1RDYlRrc01HVjdWcV92X2Y1OTBZZEZqT0szS0Q4b1JJWWQta3JTSXBNTG9USExKZnBXWVNMUjNDVG5vS3NxQmpWb3pucTZ6eVViZmxpS19Hemh6NjJkaGFGU0RaZjRJU2xMUmluOUNiQ2FWMU9yRG9ITWpvSlJVTHRyM2NSaGdEZ3NmcnUxZzEwSFowTTFJNXduRGo1MDBpMkZKcWhQcUM3UUE?oc=5",
-       "s": "Sydney Morning Herald",
-       "c": "AU",
-       "l": "en",
-       "p": 1794267534,
-       "r": "known"
-      },
-      {
-       "t": "Trump says US war in Iran is ‘militarily effectively over,’ suggests current ‘status quo’ to continue",
-       "u": "https://www.hindustantimes.com/world-news/us-news/trump-says-us-war-in-iran-is-militarily-effectively-over-suggests-current-status-quo-to-continue-101794265507070.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794267163,
-       "r": "known"
-      },
-      {
-       "t": "Trump says US war in Iran ‘effectively over’ as he plays down escalation concerns",
-       "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82aVVBM1M2V2JiUGZLeXU4Xzd6YmV3RVNpVnhPM3U1bFdPYmRUcjNtc3d6YldOczdHNmN4Umx5MmU4eldmbGxSTUdBSW5DaU9xUVRqQ2E4UWZ3bzhjaXE2MFg1TEVkUGtENzllWU5XOA?oc=5",
-       "s": "The Guardian",
-       "c": "GB",
-       "l": "en",
-       "p": 1794265920,
-       "r": "known"
-      },
-      {
-       "t": "Military action on Iran 'doesn’t seem necessary,' but US is 'locked and loaded': Trump",
-       "u": "https://gulfnews.com/world/americas/trump-military-action-on-iran-doesnt-seem-necessary-but-us-is-locked-and-loaded-1.500741829",
-       "s": "Gulf News",
-       "c": "AE",
-       "l": "en",
-       "p": 1794269281,
-       "r": "known"
-      }
-     ],
-     "headlines": 19,
-     "outlets": 18,
-     "independent": 13,
-     "countries": [
-      "AE",
-      "AR",
-      "AU",
-      "GB",
-      "IL",
-      "IN",
-      "IR",
-      "SG",
-      "US"
-     ],
-     "regions": 9,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Trump says Qatar's prime minister brought 'positive momentum' toward ending the war. Some outlets say Trump said the likelihood of resumed attacks is small. These are US statements, not confirmed outcomes of talks.",
-     "stories": [
-      "s3",
-      "s4",
-      "s17"
-     ],
-     "sources": [
-      {
-       "t": "Trump sees 'positive momentum' on Iran after Qatar PM talks",
-       "u": "https://www.al-monitor.com/originals/2026/11/trump-sees-positive-momentum-iran-after-qatar-pm-talks",
-       "s": "Al-Monitor",
-       "c": "US",
-       "l": "en",
-       "p": 1794270626,
-       "r": "known"
-      },
-      {
-       "t": "Trump Sees ‘Momentum’ Toward End of Iran War",
-       "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc1YyYlJHVmNzSUZYckM4QlVzZHUwUDFVUlotRDM5U2FQVmUxcDAtbHpreU9RSXdnMWpYS0JHaXJXQ1VjNFVLNWNrYXBHT3JpYXFMLVpwMmhtMkhvMlcyaUFWX0lsZUw0aVFDdWlyQkxoLVJSc1NDdHNmUVRuYUxxZkt0c3VhcUJQRTFfenZ0aVFNS29TNm84YWZONNIBoAFBVV95cUxPbU5heU1KbDdNZzFxc25DUlRYazhZeDZyVE9SbDFUQlFlSkszUktESzQyQ3FQb1J2MEx4eWlWSHJlNndwZkVUSGZMM0pKVU1lcUNSNlVuSnhuS3o1UmdoOFkyejJsaDQ5WUZYb3NzWjFtTEM3MVplNUM5RjlEM2R2Vng0YkExVDBHbGdWanJfNU5KVnBWeVZDNDJIcEtZMjhM?oc=5",
-       "s": "Al Arabiya English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794266537,
-       "r": "known"
-      },
-      {
-       "t": "US-Iran peace shows signs of dawn again? Trump: momentum toward ending the war is positive, strike on Iran unlikely | East Money",
-       "o": "美伊和平又现曙光 ？ 特朗普 ： 结束战争现积极势头 不太可能打击伊朗 _ 东方财富网",
-       "u": "https://finance.eastmoney.com/a/202611103926852845.html",
-       "s": "finance.eastmoney.com",
-       "c": "CN",
+       "t": "Trump claims the war has effectively ended? US forces have not lifted the blockade, Iran sets five conditions to reject talks",
+       "o": "川普喊戰爭實質結束是假象？美軍未撤封鎖 伊朗開5條件拒和談",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5635380",
+       "s": "Liberty Times",
+       "c": "TW",
        "l": "zh",
-       "p": 1794270600,
+       "p": 1794283121,
+       "r": "known"
+      },
+      {
+       "t": "Sea blockade remains: Trump: Iran war is militarily \"effectively over",
+       "o": "Seeblockade bleibt: Trump: Iran-Krieg ist militärisch \"effektiv vorüber\"",
+       "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDh0NTZ2V1pIalNMTmFRYnc5MzREcl9tS1lqaG1OX1FUb09qNjRhRU12Q0ptWE05SmhFNTlyZTRKanJkNzkweXdUd0FlbEpoSHlieENsMG9zenI5LTRoZHZTNzdvaUsyMWFta0xKWHc3WjBvcEpUQ0IxSFpiSmM0MUpDRVMtN212dVdBRUd4ZFJQM1pFNjNvYWwtUQ?oc=5",
+       "s": "n-tv.de",
+       "c": "DE",
+       "l": "de",
+       "p": 1794283989,
        "r": "unrated"
       },
       {
-       "t": "Trump: resumption of attacks on Iran is very unlikely",
-       "o": "ترامپ: از سرگیری حملات به ایران بسیار بعید است",
-       "u": "https://www.bbc.co.uk/persian/live/cmx2d20qnl88t?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Persian",
-       "c": "GB",
-       "l": "fa",
-       "p": 1794269112,
-       "r": "known"
+       "t": "Trump says he believes war with Iran is militarily effectively over",
+       "u": "https://www.bostonherald.com/2026/11/09/trump-iran-us-war/",
+       "s": "bostonherald.com",
+       "c": "US",
+       "l": "en",
+       "p": 1794281400,
+       "r": "unrated"
       },
       {
-       "t": "Trump: \"Positive momentum toward end of Iran war… likelihood of resuming attacks is small\" (comprehensive 2nd report)",
-       "o": "트럼프 \"이란戰 종식 긍정적 모멘텀…공격재개 가능성 작아\"(종합2보)",
-       "u": "https://www.yna.co.kr/view/AKR20261110010052071",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794267383,
+       "t": "Donald Trump says he believes war with Iran is militarily effectively over",
+       "u": "https://www.dorsetecho.co.uk/news/national/26713949.donald-trump-says-believes-war-iran-militarily-effectively-over/",
+       "s": "dorsetecho.co.uk",
+       "c": "GB",
+       "l": "en",
+       "p": 1794281400,
+       "r": "unrated"
+      },
+      {
+       "t": "Trump announces end of Iran war militarily and warns of return of strikes",
+       "o": "ترامب يعلن انتهاء حرب إيران عسكريا.. ويحذر من عودة الضربات",
+       "u": "https://www.skynewsarabia.com/world/1903711-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D8%A1-%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A7-%D9%88%D9%8A%D8%AD%D8%B0%D8%B1-%D8%B9%D9%88%D8%AF%D8%A9-%D8%A7%D9%84%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1794285769,
        "r": "known"
       }
      ],
-     "headlines": 6,
-     "outlets": 6,
-     "independent": 6,
+     "headlines": 25,
+     "outlets": 24,
+     "independent": 12,
      "countries": [
-      "CN",
-      "CO",
+      "AE",
+      "DE",
       "GB",
-      "KR",
-      "SA",
-      "US"
+      "ID",
+      "LB",
+      "TW",
+      "UA",
+      "US",
+      "VN"
      ],
      "regions": 6,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran's demands are still hard-line: Tehran has called for a US 'surrender' to its conditions, and Trump has warned Iran that the US is 'locked and loaded'. Iran's state-linked media called US reports of talks with Tehran 'fake'.",
+     "text": "Trump says the sea blockade of Iran will be maintained, and he says Tehran wants a deal. Iran's side has set conditions: one report says five, another says seven, and it has called for a US 'surrender' to them. These are the sides' own accounts, not confirmed talks.",
      "stories": [
-      "s2",
-      "s6"
+      "s24",
+      "s4",
+      "s1",
+      "s33"
      ],
      "sources": [
       {
-       "t": "‘Locked and loaded’: Donald Trump warns Iran as Tehran demands US ‘surrender’",
-       "u": "https://timesofindia.indiatimes.com/world/us/locked-and-loaded-donald-trump-warns-iran-as-tehran-demands-us-surrender/articleshow/135696255.cms",
-       "s": "Times of India",
+       "t": "Trump: Middle Eastern countries expect the blockade of Iran to be maintained",
+       "o": "Трамп: страны Ближнего Востока рассчитывают на сохранение блокады Ирана",
+       "u": "https://www.kommersant.ru/doc/9093250",
+       "s": "Kommersant",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794282777,
+       "r": "known"
+      },
+      {
+       "t": "Trump: Tehran wants a deal with us, and we can end the war quickly",
+       "o": "ترامب: طهران تريد الاتفاق معنا ويمكننا إنهاء الحرب بسرعة",
+       "u": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxQYTBURklJajVSV0JDbC1xdWxpSmxsekJ0eUo1bVBFUmtnVG1CNlNzQUk0ZGdiendJVE4wd3djc2dIU2dpMnIySUVNa2treE5nblo3d21rUHlYbGJlVnRNYmFHRjAydlNvU2lQLVoweU1RekhLNXlMS1FaTUJGQUc5VHFkQ09HX3dvVTkyRXRsVjcwdktUVkFORi0wd3NDcFZyaXhOOENSSGdCYzc3d2p4RmhYLTgxNXhYOE5rdzFvem5sQjF3ZGZNTU5GNUlkTlk3S1BQRHYxMEEzWl9VOGNRVnpVUHFiNjhQcWJTaVI0SDQzR0Y4QzQ2NXdoQ3NmUzFoRlhId2U0NGJnbjhTN3FRb3dPN0ZVeFJuM2g1aF9xOTNKc0VJZkJKbWIwMHZWNlZBeHNRcnVQU0cxRndsWjhiMm9pWDRtYkdsWTBVb1RZRTBJdG5OOVlGMlZSYzRjSUo1OTFjRWpKU0xJRkowRHZUX0hDYmtZQ25nclc1NktxeDIyQUZPcXNJQkV5THhIVmdmLXI1TllvLXlLQTJBVE9WaUx",
+       "s": "Al Arabiya",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794284280,
+       "r": "known"
+      },
+      {
+       "t": "Iran wants to reach a deal with the US, Trump says",
+       "o": "Иран хочет заключить сделку с США, заявил Трамп",
+       "u": "https://ria.ru/20261110/tramp-2130457710.html",
+       "s": "RIA Novosti",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794286549,
+       "r": "state"
+      },
+      {
+       "t": "Trump claims the war has effectively ended? US forces have not lifted the blockade, Iran sets five conditions to reject talks",
+       "o": "川普喊戰爭實質結束是假象？美軍未撤封鎖 伊朗開5條件拒和談",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5635380",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794283121,
+       "r": "known"
+      },
+      {
+       "t": "Sea blockade remains: Trump: Iran war is militarily \"effectively over",
+       "o": "Seeblockade bleibt: Trump: Iran-Krieg ist militärisch \"effektiv vorüber\"",
+       "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDh0NTZ2V1pIalNMTmFRYnc5MzREcl9tS1lqaG1OX1FUb09qNjRhRU12Q0ptWE05SmhFNTlyZTRKanJkNzkweXdUd0FlbEpoSHlieENsMG9zenI5LTRoZHZTNzdvaUsyMWFta0xKWHc3WjBvcEpUQ0IxSFpiSmM0MUpDRVMtN212dVdBRUd4ZFJQM1pFNjNvYWwtUQ?oc=5",
+       "s": "n-tv.de",
+       "c": "DE",
+       "l": "de",
+       "p": 1794283989,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 24,
+     "outlets": 24,
+     "independent": 10,
+     "countries": [
+      "DE",
+      "GB",
+      "IN",
+      "LB",
+      "RU",
+      "SA",
+      "TW",
+      "US"
+     ],
+     "regions": 7,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "Israeli and Western reports say Netanyahu has been pressing Trump daily to resume the war. This is a press report of private contacts, not an official Israeli statement.",
+     "stories": [
+      "s2"
+     ],
+     "sources": [
+      {
+       "t": "Netanyahu calling Trump ‘every day’ to resume Iran war as US president mulls end: Report",
+       "u": "https://www.hindustantimes.com/world-news/netanyahu-calling-trump-every-day-to-resume-iran-war-as-us-president-mulls-end-financial-times-report-us-midterm-election-israel-news-101794282963605.html",
+       "s": "Hindustan Times World",
        "c": "IN",
        "l": "en",
-       "p": 1794273523,
+       "p": 1794286363,
        "r": "known"
       },
       {
-       "t": "Iran war live: Iran demands US ‘surrender’ to its conditions",
-       "u": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-war-effectively-over-iran-demands-surrender?traffic_source=rss",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "en",
-       "p": 1794268523,
+       "t": "FT: Netanyahu asks Trump daily to resume war against Iran",
+       "o": "FT: Нетаньяху ежедневно просит Трампа возобновить войну против Ирана",
+       "u": "https://www.kommersant.ru/doc/9093245",
+       "s": "Kommersant",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794280221,
        "r": "known"
       },
       {
-       "t": "Will Donald Trump attack Iran again ?",
-       "u": "https://www.crikey.com.au/2026/11/10/donald-trump-iran-war-us-midterms-nuclear-weapons/",
-       "s": "crikey.com.au",
-       "c": "AU",
-       "l": "en",
-       "p": 1794270600,
+       "t": "Trump Says End of War with Iran Is Near. Media: Netanyahu Demands Resumption of Strikes",
+       "o": "Трамп заявил о скором завершении войны с Ираном . СМИ : Нетаниягу требует возобновления ударов",
+       "u": "https://www.newsru.co.il/mideast/10nov2026/us_iran_101.html",
+       "s": "newsru.co.il",
+       "c": "IL",
+       "l": "ru",
+       "p": 1794286800,
        "r": "unrated"
       },
       {
-       "t": "Iran calls US reports of talks with Tehran \"fake",
-       "o": "В Иране назвали \"фейковыми\" сообщения США о переговорах с Тегераном",
-       "u": "https://www.interfax.ru/world/1127944",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794267540,
-       "r": "known"
+       "t": "Trump : US ready to resume strikes on Iran if necessary",
+       "u": "https://en.apa.az/america/trump-us-ready-to-resume-strikes-on-iran-if-necessary-535160",
+       "s": "en.apa.az",
+       "c": "AZ",
+       "l": "en",
+       "p": 1794279600,
+       "r": "unrated"
       }
      ],
      "headlines": 5,
      "outlets": 5,
      "independent": 5,
      "countries": [
-      "AU",
+      "AZ",
+      "IL",
       "IN",
-      "QA",
       "RU"
      ],
      "regions": 4,
      "party_only": false,
-     "state": 1
+     "state": 0
     },
     {
-     "text": "In the Strait of Hormuz, BBC Persian reports a US attack on a ship and an IRGC claim that two tankers were hit by mines. This is a single report and the IRGC's account, not independently confirmed. UKMTO says Hormuz shipping is 'below normal, but not stalled'.",
+     "text": "Oil prices eased on Trump's remarks, with Brent reported below $92. Iran has also reportedly sent the US a recommendation on the nuclear issue, but this comes from a single BBC report.",
      "stories": [
-      "s11",
-      "s12"
+      "s7",
+      "s40",
+      "s13"
      ],
      "sources": [
       {
-       "t": "Tensions Escalate in Strait of Hormuz and Gulf of Oman: US Attacks a Ship and IRGC Reports Two Tankers Hit by Mines",
-       "o": "آنچه گذشت؛ ترامپ:‌ در صورت پیشرفت مذاکرات، حملات جدید به ایران بسیار بعید است",
-       "u": "https://www.bbc.co.uk/persian/live/c9x28erk2yv0t?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Persian",
-       "c": "GB",
-       "l": "fa",
-       "p": 1794272412,
+       "t": "Brent falls below $92 as Trump's calming remarks ease fears of escalation with Iran",
+       "o": "برنت يهبط دون 92 دولاراً مع تهدئة ترمب مخاوف التصعيد مع إيران",
+       "u": "https://aawsat.com/node/5339509",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794284281,
        "r": "known"
       },
       {
-       "t": "Hormuz shipping 'below normal, but not stalled': UKMTO",
-       "u": "https://gulfnews.com/world/mena/hormuz-shipping-below-normal-but-not-stalled-ukmto-1.500741839",
-       "s": "Gulf News",
-       "c": "AE",
+       "t": "Oil falls as Trump downplays prospect of escalation with Iran",
+       "u": "https://www.thestar.com.my/business/business-news/2026/11/10/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran",
+       "s": "The Star (Malaysia)",
+       "c": "MY",
        "l": "en",
-       "p": 1794272094,
+       "p": 1794279600,
+       "r": "known"
+      },
+      {
+       "t": "Oil Prices : Oil prices today : Crude edges lower as Donald Trump signals pause in military action against Iran",
+       "u": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-today-crude-edges-lower-as-donald-trump-signals-pause-in-military-action-against-iran/articleshow/135696941.cms",
+       "s": "Times of India",
+       "c": "IN",
+       "l": "en",
+       "p": 1794279600,
+       "r": "known"
+      },
+      {
+       "t": "Iran has sent a recommendation to the United States on the nuclear issue, the country's top official says",
+       "o": "የሁቲ አማፂያን ሳዑዲ አረቢያ በፈጸመችው የአየር ጥቃት ቢያንስ 33 ሰዎች መገደላቸውን አስታወቁ",
+       "u": "https://www.bbc.co.uk/amharic/live/cmq8nn0qn9evt?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Amharic",
+       "c": "GB",
+       "l": "am",
+       "p": 1794287961,
+       "r": "known"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
+     "countries": [
+      "GB",
+      "IN",
+      "MY",
+      "SA"
+     ],
+     "regions": 4,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "In the Strait of Hormuz, a Nikkei report says Pakistan's shipping arrangement with Iran faces a test after an LNG tanker attack. Separately, Asharq Al-Awsat reports gas tanker traffic through the strait hit a monthly high since October. Both are single-source reports and not independently confirmed.",
+     "stories": [
+      "s14",
+      "s19"
+     ],
+     "sources": [
+      {
+       "t": "Pakistan's Hormuz agreement with Iran faces test after LNG tanker attack",
+       "u": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/pakistan-s-hormuz-agreement-with-iran-faces-test-after-lng-tanker-attack",
+       "s": "Nikkei Asia",
+       "c": "JP",
+       "l": "en",
+       "p": 1794287961,
+       "r": "known"
+      },
+      {
+       "t": "Gas tankers through the Strait of Hormuz record highest monthly traffic since the war broke out in October",
+       "o": "ناقلات الغاز عبر مضيق هرمز تسجل أعلى حركة شهرية منذ اندلاع الحرب في أكتوبر",
+       "u": "https://aawsat.com/node/5339514",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794286251,
        "r": "known"
       }
      ],
@@ -12315,45 +12383,8 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "AE",
-      "GB"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "France says the IRGC is behind a supermarket refrigerator attack and has summoned the Iranian ambassador. A US-side outlet frames the case as cyber sabotage. This is France's accusation; Iran has not been reported responding to it.",
-     "stories": [
-      "s21",
-      "s30"
-     ],
-     "sources": [
-      {
-       "t": "France says Iran's Revolutionary Guard is behind supermarket refrigerator attack… summons ambassador",
-       "u": "https://www.hani.co.kr/arti/international/europe/1286545.html",
-       "s": "Hankyoreh English",
-       "c": "KR",
-       "l": "en",
-       "p": 1794269112,
-       "r": "known"
-      },
-      {
-       "t": "France accuses Iran of cyber sabotage in fridge attacks",
-       "u": "https://www.krwg.org/national-news/2026-11-09/france-accuses-iran-of-cyber-sabotage-in-fridge-attacks",
-       "s": "krwg.org",
-       "c": "US",
-       "l": "en",
-       "p": 1794270600,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 2,
-     "countries": [
-      "KR",
-      "US"
+      "JP",
+      "SA"
      ],
      "regions": 2,
      "party_only": false,
@@ -12361,14 +12392,14 @@
     }
    ],
    "watch": [
-    "Whether the Hormuz mine and ship-attack reports are confirmed by independent maritime sources",
-    "Whether the Qatar-brokered talks produce a public framework covering nuclear, Hormuz and non-aggression",
-    "Iran's response to Trump's 'locked and loaded' warning and to the 'surrender' demand"
+    "Whether the US lifts or keeps the sea blockade, and whether Iran responds to Trump's remarks on talks",
+    "Whether the Hormuz LNG tanker attack is confirmed and how traffic moves in the strait",
+    "Congressional vote on impeaching Hegseth over the Iran war, expected this week"
    ],
    "window_hours": 3,
-   "headlines_read": 56,
-   "outlets_read": 47,
-   "countries_read": 21,
+   "headlines_read": 97,
+   "outlets_read": 76,
+   "countries_read": 26,
    "languages_read": 13,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
