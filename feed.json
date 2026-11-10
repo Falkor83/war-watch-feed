@@ -1794,9 +1794,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Trump calls war 'effectively over'; UKMTO logs 11 ship attacks a week; UK bases on alert",
+   "status": "Trump: war 'effectively over'; Iran calls talks illusory; US moves jets from 2nd UK base",
    "summary": "The US and Israel have been at war with Iran, and the Strait of Hormuz has been largely shut to normal traffic. On Nov 9, Trump said Iran is militarily 'effectively over' and that renewed strikes are unlikely if Tehran signs a strong deal, while keeping the US naval blockade in place. Iran's security council secretary called the talk of negotiations invented and set seven conditions, including lifting the blockade and sanctions. The UK maritime agency UKMTO counted at least 11 ships attacked and three sunk in the week to Nov 6, with Hormuz transits about 65% below pre-conflict levels. US tankers and Ospreys left RAF Mildenhall after what US officials call a possible Iranian threat, and a US official says two UK bases moved to the second-highest protection level.",
    "latest": [
+    {
+     "date": "2026-11-10",
+     "at": "2026-11-10T11:16:43Z",
+     "text": "The US has moved aircraft from a second British base over an alleged Iranian threat, according to WSJ reporting carried by CBS, Sky News and other outlets. Sky News and CBS cite the same WSJ report.",
+     "outlet": "CBS News World",
+     "country": "United States",
+     "url": "https://www.cbsnews.com/news/raf-mildenhall-us-tanker-relocation-iran-threat-military-aircraft-moved/",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-10",
+     "at": "2026-11-10T11:16:43Z",
+     "text": "Qatar's prime minister joined Saudi and European ministers for Iran talks after meeting Trump, and made an unscheduled G7 stop to brief allies, per Al-Monitor and Hindustan Times.",
+     "outlet": "Al Arabiya English",
+     "country": "Saudi Arabia",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSG00aHI3dDNhS2VaUnhyNUhOLUdSWVl2RG9HVFVoSURZZGwzTXVMRjltS1JNcnVlS1h1djk1QTJwSXhieERJVUdTdnZyc2RrVEg0WjJIQ2phTFlNc0M3STNvUXB6a0p0M2tkc09GdTNYSzZLYmU3M1pqVWdFdUs2VzdYSUppOU9kSDJhckl0SkpIT1NaY2FrN181dFl2U2ZvYzE3RHVuTzRiZVdnOUlIdFZMUVdHUTRZZXRVeVZTQWQyME1lUUJsTkV1ZnRiUdIB0wFBVV95cUxPU2J4Q19tTUVmUEtEOEV0WnR6emtrVXREclEtOC1uU0tHSXN1bjVQb2c0SGpEc3hZU3FQaEN2QmtJQVk0Tk4xSUVlOHhjSnA2U2EzbnFldnhfYU41NnREc2E3Qmg5cUxtd3k1NUVYb3M4eTFWby1UYkNCRmRnNFFlbGs5NGtVUjlOdENuV0hydU5YZVdCVFNRamRKOXFvN3RHVVdHZFNxUHRvdG41R2dpSklmWHNrV1oxSGJpT1k0cEllMVVaZHc0QmY4OTJiTXF",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-10",
+     "at": "2026-11-10T11:16:43Z",
+     "text": "Iran says US talks are 'illusory' and sets seven conditions, and calls on Washington to meet its demands to end the war. These are Iran's own statements, reported by Sky News Arabia and others.",
+     "outlet": "Sky News Arabia",
+     "country": "United Arab Emirates",
+     "url": "https://www.skynewsarabia.com/world/1903718-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%B1%D8%AF-%D8%AA%D9%81%D8%A7%D8%A4%D9%84-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%88%D9%87%D9%85%D9%8A%D8%A9-%D9%887-%D8%B4%D8%B1%D9%88%D8%B7",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-10",
      "text": "Trump told reporters military action 'doesn't seem to be a very necessary thing' but the US is 'locked and loaded'; he kept open the possibility of new strikes.",
@@ -1844,36 +1877,6 @@
      "country": "United Arab Emirates",
      "url": "https://www.thenationalnews.com/news/europe/2026/11/10/us-pulls-aircraft-from-second-uk-airbase-over-iran-threat/",
      "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-10",
-     "text": "UKMTO's weekly report counted 325 Hormuz transits, about 65% below pre-conflict levels, with at least 11 ships attacked in the week to Nov 6 and three sunk.",
-     "outlet": "Gulf News",
-     "country": "United Arab Emirates",
-     "url": "https://gulfnews.com/world/mena/hormuz-shipping-below-normal-but-not-stalled-ukmto-1.500741839",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-10",
-     "text": "Headline: Iran calls on US to meet its demands to end war [story carried by 15 independent sources in 13 countries (AE, BR, CN, EG, GB, HK)]",
-     "outlet": "Arab News",
-     "country": "Saudi Arabia",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLTJwMXNsc2EtMEtIcEFPUzBEckY0cmZBUDFhZjhqRTd1eGV0RWRidFpkYjNLajB4NjFOa1l2eUFWRXNrSjBfUS1wbzBwZ2VYUy1lY2pFUHlRdkFfOGc1YlhNd0psdVlWYmhnMTJBdHhPVXU5R0xRTzc2ekRRV2FfNVRFa3BzVFI1S0U3MUVXd1dieElNcERF?oc=5",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-10",
-     "text": "Trump says the war is 'effectively over' militarily and that new strikes are not needed for now. In a separate remark, he said any new attack could be 'five times more powerful' than earlier US strikes.",
-     "outlet": "L'Orient-Le Jour",
-     "country": "Lebanon",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLW9ibWc5NXNEWHhlQ2k1SHktc0s1QkhWUkF5c042cUtXNVRIdWtnVEpkNXk2QzZEdjZrV3lZbU9PbHVSbWJtSExnSlNSaHltREMtdXJoeHdFcGh3UkxJVFJqQ01tZGFwcElRb0ZFRDJyZkxXUlJ6dlE3RWlBNkpQR2ViaV81WjJNOTMtbXFPLUhNVkZXZFYxRFBsakFYbnk3cGxZOENkZUlFdFBLdFZyZ3dDaXNkQUVyTFBURklYSlQtZVBaNWc?oc=5",
-     "region": "middle-east",
      "tag": "non-party",
      "state_media": false
     }
@@ -11873,11 +11876,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-07T10:20:31Z",
-     "headline": "Limited US strikes on Iran continue as Hormuz attacks rise; Qatar says talks go on",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-07T13:37:18Z",
      "headline": "Tanker hits mine in Hormuz as new US strikes hit Qeshm; mediators say talks continue",
      "direction": "steady"
@@ -11991,223 +11989,329 @@
      "at": "2026-11-10T08:21:56Z",
      "headline": "Trump: Iran war 'effectively over'; US pulls aircraft from UK base; no talks confirmed",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-10T11:16:43Z",
+     "headline": "Trump: war 'effectively over'; Iran calls talks illusory; US moves jets from 2nd UK base",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-10T08:21:56Z",
-   "next_at": "2026-11-10T11:21:56Z",
-   "headline": "Trump: Iran war 'effectively over'; US pulls aircraft from UK base; no talks confirmed",
+   "updated_at": "2026-11-10T11:16:43Z",
+   "next_at": "2026-11-10T14:16:43Z",
+   "headline": "Trump: war 'effectively over'; Iran calls talks illusory; US moves jets from 2nd UK base",
    "direction": "steady",
    "points": [
     {
-     "text": "Trump says the war is 'effectively over' militarily and that new strikes are not needed for now. In a separate remark, he said any new attack could be 'five times more powerful' than earlier US strikes.",
+     "text": "The US has moved aircraft from a second British base over an alleged Iranian threat, according to WSJ reporting carried by CBS, Sky News and other outlets. Sky News and CBS cite the same WSJ report.",
      "stories": [
-      "s3",
-      "s7",
-      "s35"
+      "s1",
+      "s9",
+      "s10"
      ],
      "sources": [
       {
-       "t": "Trump sees ‘positive momentum’ toward Iran deal, says war is ‘effectively over’",
-       "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLW9ibWc5NXNEWHhlQ2k1SHktc0s1QkhWUkF5c042cUtXNVRIdWtnVEpkNXk2QzZEdjZrV3lZbU9PbHVSbWJtSExnSlNSaHltREMtdXJoeHdFcGh3UkxJVFJqQ01tZGFwcElRb0ZFRDJyZkxXUlJ6dlE3RWlBNkpQR2ViaV81WjJNOTMtbXFPLUhNVkZXZFYxRFBsakFYbnk3cGxZOENkZUlFdFBLdFZyZ3dDaXNkQUVyTFBURklYSlQtZVBaNWc?oc=5",
-       "s": "L'Orient-Le Jour",
-       "c": "LB",
+       "t": "Reported Iran threat sees U.S. moves planes from second U.K. base",
+       "u": "https://www.cbsnews.com/news/raf-mildenhall-us-tanker-relocation-iran-threat-military-aircraft-moved/",
+       "s": "CBS News World",
+       "c": "US",
        "l": "en",
-       "p": 1794294414,
+       "p": 1794307843,
        "r": "known"
       },
       {
-       "t": "Trump: Iran war is \"effectively over\" militarily",
-       "o": "Trump: Irankrieg ist militärisch \"effektiv vorüber\"",
-       "u": "https://www.derstandard.at/story/3000000348350/trump-iran-krieg-ist-milit228risch-effektiv-vor252ber?ref=rss",
-       "s": "Der Standard International",
-       "c": "AT",
-       "l": "de",
-       "p": 1794291464,
-       "r": "known"
-      },
-      {
-       "t": "Donald Trump says Iran war is \"effectively over\" – Tehran speaks of \"fake news",
-       "o": "Irankrieg laut Donald Trump »effektiv vorüber« – Teheran spricht von »Fake News«",
-       "u": "https://www.spiegel.de/ausland/irankrieg-laut-donald-trump-effektiv-vorueber-teheran-spricht-von-fake-news-a-f83d28b2-502c-4353-a9df-50ffe4ee8278#ref=rss",
-       "s": "Spiegel Ausland",
-       "c": "DE",
-       "l": "de",
-       "p": 1794289260,
-       "r": "known"
-      },
-      {
-       "t": "Trump Says He Believes War with Iran is Militarily 'Effectively Over'",
-       "u": "https://english.aawsat.com/node/5339522",
-       "s": "Asharq Al-Awsat English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794288794,
-       "r": "known"
-      },
-      {
-       "t": "Trump says hits on Iran could be 'five times bigger' than previous US attacks",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-hits-iran-could-be-five-times-bigger-previous-us-attacks",
-       "s": "Middle East Eye",
+       "t": "RAF Mildenhall latest: US moves aircraft from UK airbase 'over Iran threat'",
+       "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX1A2TW9CeFFSVlc0NkJUQUNqNlBGa2RWZWlINjYwOUFLU3czWVpnVlpfYmJuZExta1JRWDF3cVc1aFFwSG14RWRpTzM3dEZILXpfNl9vdC1NNVJWRGIwX1BTT2h0OUlBTk9EaWhrQmFONnhTNlBKUzJxdmhadmp1UzJHNmZLYXhBenN2Vm5lNzNPVmE4eHZYYWpiUENwbU9JX2xqY0M2TE43bWxnWDVlVzNfVjVNNEtmeDJr?oc=5",
+       "s": "Sky News",
        "c": "GB",
        "l": "en",
-       "p": 1794292932,
+       "p": 1794306060,
+       "r": "known"
+      },
+      {
+       "t": "US moves aircraft out of second British base over Iran threat - WSJ",
+       "u": "https://www.iranintl.com/en/202611107338",
+       "s": "Iran International",
+       "c": "IR",
+       "l": "en",
+       "p": 1794305285,
+       "r": "known"
+      },
+      {
+       "t": "US cites Iran threat to shift military aircraft from 2nd UK air base",
+       "u": "https://www.dailysabah.com/world/europe/us-cites-iran-threat-to-shift-military-aircraft-from-2nd-uk-air-base",
+       "s": "Daily Sabah",
+       "c": "TR",
+       "l": "en",
+       "p": 1794303360,
+       "r": "known"
+      },
+      {
+       "t": "US aircraft reportedly left a British base over alleged Iranian threat, according to media",
+       "o": "Aviones de EEUU abandonaron una base británica por presunta amenaza iraní, según medios",
+       "u": "https://www.infobae.com/america/agencias/2026/11/10/aviones-de-eeuu-abandonaron-una-base-britanica-por-presunta-amenaza-irani-segun-medios/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794305969,
        "r": "known"
       }
      ],
-     "headlines": 9,
-     "outlets": 8,
-     "independent": 7,
+     "headlines": 14,
+     "outlets": 12,
+     "independent": 12,
      "countries": [
-      "AT",
-      "DE",
+      "AR",
+      "ES",
+      "GB",
+      "HK",
+      "IN",
+      "IR",
+      "IT",
+      "MX",
+      "TR",
+      "UA",
+      "US"
+     ],
+     "regions": 7,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Qatar's prime minister joined Saudi and European ministers for Iran talks after meeting Trump, and made an unscheduled G7 stop to brief allies, per Al-Monitor and Hindustan Times.",
+     "stories": [
+      "s3",
+      "s32"
+     ],
+     "sources": [
+      {
+       "t": "Qatari PM joins Saudi, European ministers for Iran talks after meeting Trump",
+       "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSG00aHI3dDNhS2VaUnhyNUhOLUdSWVl2RG9HVFVoSURZZGwzTXVMRjltS1JNcnVlS1h1djk1QTJwSXhieERJVUdTdnZyc2RrVEg0WjJIQ2phTFlNc0M3STNvUXB6a0p0M2tkc09GdTNYSzZLYmU3M1pqVWdFdUs2VzdYSUppOU9kSDJhckl0SkpIT1NaY2FrN181dFl2U2ZvYzE3RHVuTzRiZVdnOUlIdFZMUVdHUTRZZXRVeVZTQWQyME1lUUJsTkV1ZnRiUdIB0wFBVV95cUxPU2J4Q19tTUVmUEtEOEV0WnR6emtrVXREclEtOC1uU0tHSXN1bjVQb2c0SGpEc3hZU3FQaEN2QmtJQVk0Tk4xSUVlOHhjSnA2U2EzbnFldnhfYU41NnREc2E3Qmg5cUxtd3k1NUVYb3M4eTFWby1UYkNCRmRnNFFlbGs5NGtVUjlOdENuV0hydU5YZVdCVFNRamRKOXFvN3RHVVdHZFNxUHRvdG41R2dpSklmWHNrV1oxSGJpT1k0cEllMVVaZHc0QmY4OTJiTXF",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794307440,
+       "r": "known"
+      },
+      {
+       "t": "Qatar PM joins G7 talks on Iran after Trump meeting: Paris",
+       "u": "https://www.al-monitor.com/originals/2026/11/qatar-pm-joins-g7-talks-iran-after-trump-meeting-paris",
+       "s": "Al-Monitor",
+       "c": "US",
+       "l": "en",
+       "p": 1794306658,
+       "r": "known"
+      },
+      {
+       "t": "Qatar PM to brief G7 and Saudi Arabia on Iran war after Trump talks",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-pm-brief-g7-and-saudi-arabia-iran-war-after-trump-talks",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794303940,
+       "r": "known"
+      },
+      {
+       "t": "Qatar PM joins G7 talks on Iran after Trump meeting",
+       "u": "https://www.bangkokpost.com/world/3352241/qatar-pm-joins-g7-talks-on-iran-after-trump-meeting",
+       "s": "Bangkok Post World",
+       "c": "TH",
+       "l": "en",
+       "p": 1794303900,
+       "r": "known"
+      },
+      {
+       "t": "US-Iran war LIVE: Qatari PM makes unscheduled G7 stop to brief allies on Iran after Trump talks | Hindustan Times",
+       "u": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbUx2d1FQM2RDb0VlNWE0d18yTFpmN0ZFMWNRV1I3LWlVU1BYYnM4SE0yZkRmVGtZYVRVUDV1RjVyQzNJOEwyS3dGZ2hHYnpuZWgxU29hT0NTWEhfVjctLXJ6alZWRHl1UERXRWphNExMY2ZxRmRIZ2tOcWZLMEp5R1NValpXck83Y1JXaHk4a2lyTmN3Z0hTOERtUlhwUDZ0ZjRaeFh4MmFBd3NOU3dJeVAyZmtkeHRPdDBoQzNDanJnSXFCWlhTYnZtVEw0SGtDeERSVmZpd0tVV1ozaEdiQUk3Y3ZDaVd0T1Y5RG1GRWc1M3Z3ZzAwZ3JadUpDaEtOM0kzRnJqS0TSAY4CQVVfeXFMTjlGa2Qxb3ZEaGNNT0U1X2xKQUdLVWo2WVdyVFVvelB6ck53R1lQNGd1QUZyQmxUWDlIYWVrSEQ4dzlQbGdpYk1KM1dIMG4xdV9zclZIdXc3RlhSeDcwSVpkTVdPQTByektuRGRmMzFFWGZuWlhmcDRMYV9fdExKc1phVFBBMFNZdXp1emNDNjMwNnVpNV9",
+       "s": "Hindustan Times",
+       "c": "IN",
+       "l": "en",
+       "p": 1794300268,
+       "r": "known"
+      }
+     ],
+     "headlines": 6,
+     "outlets": 5,
+     "independent": 4,
+     "countries": [
       "GB",
       "IN",
-      "IT",
-      "LB",
-      "NG",
-      "SA"
+      "SA",
+      "TH",
+      "US"
      ],
      "regions": 5,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iranian outlets say Iran's security chief has no meeting planned with US Vice President Vance, and Iran has denied a rumoured Doha meeting. Rubio has called Iran's demands unacceptable, a claim from a single Chinese military news site.",
+     "text": "Iran says US talks are 'illusory' and sets seven conditions, and calls on Washington to meet its demands to end the war. These are Iran's own statements, reported by Sky News Arabia and others.",
      "stories": [
-      "s36",
-      "s33",
-      "s30"
+      "s35",
+      "s5"
      ],
      "sources": [
       {
-       "t": "Exclusive | Araghchi says no meeting planned between Iran’s security chief and the US vice president",
-       "u": "https://en.irna.ir/news/86317689/Exclusive-Araghchi-says-no-meeting-planned-between-Iran-s-security",
-       "s": "IRNA English",
-       "c": "IR",
+       "t": "Iran responds to Trump's optimism: \"illusory\" talks and 7 conditions",
+       "o": "إيران ترد على تفاؤل ترامب.. محادثات \"وهمية\" و7 شروط",
+       "u": "https://www.skynewsarabia.com/world/1903718-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%B1%D8%AF-%D8%AA%D9%81%D8%A7%D8%A4%D9%84-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D9%88%D9%87%D9%85%D9%8A%D8%A9-%D9%887-%D8%B4%D8%B1%D9%88%D8%B7",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1794299207,
+       "r": "known"
+      },
+      {
+       "t": "Iran responds to Trump's optimism: \"phantom\" talks and 7 conditions",
+       "o": "إيران ترد على تفاؤل ترامب.. محادثات \"وهمية\" و7 شروط",
+       "u": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPQWE3N3VCNFVERGdjSXRQWS0xX1hpN0dmWm1hT0tWbVQtUTRlODFzT2ZoN1hIcEFtWEhTQWVSV2llQUcxemNMNko1TFFiTjlzWFdBYi1qOWhKRjN6QzhHTF9qUnR6U3ZtczNnNVo5ZmpYdDVsVFNYYTFtM2Fudl9pbFdWOXlKTU1yMGh6cEFiWGE3UGRVdl9IckpiUzdxUjRnbnNhRmR4WlhxRW54LUQtYVVFSFJfRDlKTVJyTTNNUktWaHVQUmdqNEVld3Jhck91LXJHVnlwaDA2TkNXZzF5cGl1a2hpclB3MGMtMWlsYkg1TC1wMEVhZklhUUVodzIyaWY3Vm03cUhac1JFOTZhRmlmZ00yclFWRnhIaENCWGRCbERBYVNZbEJFN2ZVaUlJdUpGaDVscmhBRGhhLVp0RlNyeEQ4TGxJV2k0dzdZVUhUOW1tLW5zUE4yeEQxVTVKVXpzeDM3cWlYeTl3ZC1uTzlkRDRVZ0FvWFHSAf8CQVVfeXFMUHFQUUpCcWhZZVZVWlZUbmNJN2FncTB5b0piSzg",
+       "s": "سكاي نيوز عربية",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794299226,
+       "r": "unrated"
+      },
+      {
+       "t": "Iran urges US to meet demands to end war",
+       "u": "https://punchng.com/iran-urges-us-to-meet-demands-to-end-war/?utm_source=rss.punchng.com&utm_medium=web",
+       "s": "Punch",
+       "c": "NG",
        "l": "en",
-       "p": 1794297713,
-       "r": "state"
-      },
-      {
-       "t": "Doha talks rumor: Iran denies plans to meet US Vice President Vance",
-       "o": "多哈會談傳聞 ： 伊朗否認與美國副總統萬斯會面計畫",
-       "u": "https://www.singtaousa.com/2026/11/09/news/world/iran-denies-planned-doha-meeting-between-mohsen-rezaei-and-jd-vance/",
-       "s": "singtaousa.com",
-       "c": "CN",
-       "l": "zh",
-       "p": 1794290400,
-       "r": "unrated"
-      },
-      {
-       "t": "Rubio: Iran's demands are unacceptable; US airstrikes heighten tensions - Military Channel - China.com",
-       "o": "鲁比奥 ： 伊朗的要求不可接受 美军空袭加剧紧张局势 _ 军事频道 _ 中华网",
-       "u": "https://military.china.com/news/13004177/20261110/49855982.html",
-       "s": "military.china.com",
-       "c": "CN",
-       "l": "zh",
-       "p": 1794290400,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "CN",
-      "IR"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "Oil fell to around $91 after Trump's remarks, and the won weakened on hopes for US-Iran talks. A Financial Times report, carried by Turkish state media, says Netanyahu calls Trump daily urging new attacks on Iran; this is a press report, not an official Israeli statement.",
-     "stories": [
-      "s2",
-      "s18",
-      "s11"
-     ],
-     "sources": [
-      {
-       "t": "It seems the Iran war is nearing its end - Trump",
-       "o": "Da alama yaƙin Iran ya kusa zuwa ƙarshe - Trump",
-       "u": "https://www.bbc.co.uk/hausa/live/cqdr8rmndx06t?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Hausa",
-       "c": "GB",
-       "l": "ha",
-       "p": 1794297869,
+       "p": 1794306379,
        "r": "known"
       },
       {
-       "t": "Oil price falls to $91 after Trump says the war in Iran will end soon",
-       "o": "El precio del petróleo cae a 91 dólares tras afirmar Trump que la guerra en Irán terminará pronto",
-       "u": "https://www.infobae.com/america/agencias/2026/11/10/el-precio-del-petroleo-cae-a-91-dolares-tras-afirmar-trump-que-la-guerra-en-iran-terminara-pronto/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1794297673,
+       "t": "Iran calls on US to meet its demands to end war",
+       "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWm93aUVWb19MaGhqQ0ZOS1dQTTJPZ2JUMXZuRkF6N0ZXNE14SlNpZDF6Ni1mZGd1bEZWbnJ1RE9XcUhOcXhjamY0M2lkRF91cDFpQjluZ0pOTHEyOWtlRlQyVU1XT3NLS1lyV3lBS3BFUFVzNVMyTElkVmtiNjB5ajVfMWZvOG42eVAzel85dEVySWZ6eF8xSUNXZWdiVjlNMGc?oc=5",
+       "s": "L'Orient-Le Jour",
+       "c": "LB",
+       "l": "en",
+       "p": 1794304077,
        "r": "known"
       },
       {
-       "t": "Oil falls as Trump downplays prospect of escalation with Iran",
-       "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX2Z0bUVQRVBaSGlKTE5fa3NBMjRXVjUtWEdhYWJzc3hXLTdXZEVMX0V0b01YMFo3QkZqR09SVjZHcHIwdUY4S1N2cURoSGE2TVZxYWs2SWFlVGk1eFhqV2o0c0trYmVwVVAyQkpCdHMwYy1KN0VZdzN5VWw3ZkpyOUxZMzJXa3VLUWc0WmYwMTRDbVozYjdNUVVmOGVBSFpXN2JB?oc=5",
+       "t": "Iran calls on US to meet its demands to end war",
+       "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLTJwMXNsc2EtMEtIcEFPUzBEckY0cmZBUDFhZjhqRTd1eGV0RWRidFpkYjNLajB4NjFOa1l2eUFWRXNrSjBfUS1wbzBwZ2VYUy1lY2pFUHlRdkFfOGc1YlhNd0psdVlWYmhnMTJBdHhPVXU5R0xRTzc2ekRRV2FfNVRFa3BzVFI1S0U3MUVXd1dieElNcERF?oc=5",
        "s": "Arab News",
        "c": "SA",
        "l": "en",
-       "p": 1794293359,
-       "r": "known"
-      },
-      {
-       "t": "Trump says Iran war to end 'fairly soon'",
-       "u": "https://www.thenationalnews.com/news/gulf/2026/11/10/trump-says-iran-war-to-end-fairly-soon/",
-       "s": "The National",
-       "c": "AE",
-       "l": "en",
-       "p": 1794291691,
-       "r": "known"
-      },
-      {
-       "t": "Won falls 9.6 won to 1,337.5 on hopes for US–Iran talks, risk appetite up",
-       "o": "환율, 美·이란 협상기대 위험선호↑…9.6원 하락한 1,337.5원",
-       "u": "https://www.yna.co.kr/view/AKR20261110134300002",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794295769,
+       "p": 1794303559,
        "r": "known"
       }
      ],
-     "headlines": 10,
-     "outlets": 9,
-     "independent": 8,
+     "headlines": 6,
+     "outlets": 5,
+     "independent": 4,
      "countries": [
       "AE",
-      "AR",
-      "GB",
-      "KR",
-      "SA",
-      "TR",
-      "UA"
+      "LB",
+      "NG",
+      "SA"
      ],
-     "regions": 5,
+     "regions": 3,
      "party_only": false,
-     "state": 2
+     "state": 0
+    },
+    {
+     "text": "A press report, citing an informed source, says Netanyahu calls Trump daily urging a return to the war on Iran. Sky News Arabia also reports Israel floating strikes on Iran's infrastructure. Neither is an official Israeli statement.",
+     "stories": [
+      "s7",
+      "s36"
+     ],
+     "sources": [
+      {
+       "t": "Netanyahu calls Trump daily for Iran strikes. But is diplomacy winning?",
+       "u": "https://gulfnews.com/world/americas/netanyahu-calls-trump-daily-for-iran-strikes-why-is-trump-holding-back-1.500742336",
+       "s": "Gulf News",
+       "c": "AE",
+       "l": "en",
+       "p": 1794306826,
+       "r": "known"
+      },
+      {
+       "t": "Netanyahu calls Trump daily to resume the war on Iran, informed source reveals",
+       "o": "نتنياهو يتصل يومياً بترامب لاستئناف حرب إيران.. مصدر مطلع يكشف",
+       "u": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxQRlQ4MEN5cUVCS1U0RnFLdnJCTV9helhkRG1nTXpzUWtHck41T2hqR21Zdkw3c2N2Rk53NHhJdWZFeW1UajRya1I4VUl3OUdDVGJXVy1NMGFsQWZrS0ZmakZBOTJfWTB0NDR2QXpRMzN4VmF3bjNvQ01OdGNHTnVNbEJBM1pOeGNOekdEV0U2S280MjZvaHlJdWNVTnJRZWhLenp2QTAyVlpYNFNVY2VrUm8zRDA4SVdBT19zQ3BNS0hZUElXWU5zQzh0TXhjYlJOZExYbHYxWVZIVjB4VzhqUDFOdzE1Q2Y2OGFOSGhrSmNqdUdJZko3ZVdGS1Q4clRVdjZhSG5kbVpPVzBaS1VZZ0tyaUsxZHQwXzVSenlRM0Q4VkdhV0dJSklua2Rva0d3LVJsQml3eEVmdTdaQ0tueUtwVE5nRkNkWWowX3FidXdHN19fRjVrVEtZZDJSNmxvTlVORHRfT3VEVUNfaHBiZ1pKM2NBSHJBUDdxNXR6WmN3X19SUGdqQm9jMWE5Qm5OTndEX256NmNHWUZ0a2kyV0U",
+       "s": "Al Arabiya",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794300780,
+       "r": "known"
+      },
+      {
+       "t": "Netanyahu calls Trump daily to resume the war on Iran, informed source reveals",
+       "o": "نتنياهو يتصل يومياً بترامب لاستئناف حرب إيران.. مصدر مطلع يكشف",
+       "u": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxPWDBuN1ZnQzZSemFPRUs5WENna2VhQnFob1B6cjU2WU9HSnYyN0x5Wm1XT0JuZ1R1N25wQXY4V1Z1WGdvdDB2dWY3RlpNdTR2bzJZTVNqZEphYVdvTjdfWlF2SlhpLVloeEF2MkwzNEpZN1dYX0FUVjFZY3dpLXZEMW45dzA0cTBJS2Y1X0o2MjBYUkVfbUlRaHZ3dnBHY0lXUEx5cVlEZWg4RHBwRmV5d3VyckJucGNGMll4N0x6Nk9EMlJudXlwUDMyandYWDJEazZMeTVZUzZHZERPbWgxRHFWd3VCT1dnbnRoR2pHSzRaZXZwOE5NWlBaZ292WUlLUldKLWtXSHJzNXBHYVJHZ0g1aWVzZ1ljakNRb1RKYlhoTFJjbmdkaFhkR3dRNTVfai1VUGFyR2VsZ0JaWm5EMFJWT3RyWXpvRno4bzhDQ1EzRmVFazJWWXZIVmpFZkFQd0lfQTJYWWVqcHFlcTA2eU1oejk5THBfZDl5ODJJc3ZIWWZXTC1mSVJJOVBDZmY5TWlQZ044UUY5NFY4VUVTQU8",
+       "s": "الحدث",
+       "c": "LB",
+       "l": "ar",
+       "p": 1794300780,
+       "r": "unrated"
+      },
+      {
+       "t": "Israel floats striking Iran's infrastructure…will the war return?",
+       "o": "إسرائيل تطرح ضرب البنية التحتية الإيرانية.. هل تعود الحرب؟",
+       "u": "https://www.skynewsarabia.com/world/1903740-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D8%B7%D8%B1%D8%AD-%D8%B6%D8%B1%D8%A8-%D8%A7%D9%84%D8%A8%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%AA%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D8%AA%D8%B9%D9%88%D8%AF-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1794298745,
+       "r": "known"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 4,
+     "independent": 3,
+     "countries": [
+      "AE",
+      "LB",
+      "SA"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iranian media say two tankers caught fire after hitting mines in the Strait of Hormuz. This is Iran's claim, reported by an Israeli outlet, and no independent source has confirmed it.",
+     "stories": [
+      "s40"
+     ],
+     "sources": [
+      {
+       "t": "Iran: two tankers caught fire after hitting mines in the Strait of Hormuz",
+       "o": "איראן: שתי מכליות עלו באש לאחר שפגעו במוקשים במצר הורמוז",
+       "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpWkVGSWhUQ1BUR0pjV2VxUmljTXoxSzVGSXhqS21vYWZpUzQtbWh5dzdGbzlKYVNjMDFCTlhxaGlydHdYWjU4QkE3ZFdOMkZvMERrWnQ0Mk9NVHdJZkE1d0JyU3NpRFE?oc=5",
+       "s": "היום",
+       "c": "IL",
+       "l": "he",
+       "p": 1794307176,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "IL"
+     ],
+     "regions": 1,
+     "party_only": true,
+     "state": 0
     }
    ],
    "watch": [
-    "Whether the Qatar-brokered talks move forward or Iran's denials hold",
-    "Any further US aircraft moves from UK bases, and whether the 'five times' warning is repeated",
-    "Oil and shipping response, including LNG traffic through Hormuz"
+    "Outcome of the Qatari-led G7 and Saudi briefings on Iran, and whether any US-Iran meeting is confirmed",
+    "Whether the US resumes strikes, as Israeli pressure reported in the press continues",
+    "Shipping incidents in the Strait of Hormuz, including the mine reports, and UKMTO attack counts"
    ],
    "window_hours": 3,
-   "headlines_read": 83,
-   "outlets_read": 60,
-   "countries_read": 31,
-   "languages_read": 20,
+   "headlines_read": 93,
+   "outlets_read": 53,
+   "countries_read": 24,
+   "languages_read": 12,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
