@@ -286,6 +286,61 @@
 "https://www.timeslive.co.za/news/world/2026-11-10-saudi-coalition-says-it-intercepted-houthi-missiles-over-riyadh/",
 "https://www.thenationalnews.com/news/gulf/2026/11/08/saudi-led-coalition-intercepts-two-houthi-missiles-fired-towards-riyadh/"
 ]
+},
+{
+"made": "2026-11-11",
+"hotspot": "russia-ukraine-war",
+"text": "A deal settling territory in the next four weeks is very unlikely, as Russia still demands all of Donbas and Ukraine refuses to cede land.",
+"likelihood": "very unlikely",
+"check_by": "2026-12-09",
+"basis": [
+"https://ca.news.yahoo.com/us-russia-ukraine-start-second-101205618.html",
+"https://meduza.io/en/news/2026/11/11/zelensky-says-russian-delegation-claimed-to-control-parts-of-donbas-still-held-by-ukraine-at-abu-dhabi-talks"
+]
+},
+{
+"made": "2026-11-11",
+"hotspot": "us-israel-iran-war",
+"text": "Further ship incidents near Hormuz in the next two weeks are likely, given this week's reports and stalled talks.",
+"likelihood": "likely",
+"check_by": "2026-11-25",
+"basis": [
+"https://www.arabnews.com/middle-east/iran-says-three-oil-tankers-on-fire-in-hormuz-3010988",
+"https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/"
+]
+},
+{
+"made": "2026-11-11",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "More Houthi missile or drone launches at Saudi territory in the next two weeks are likely, with no de-escalation arrangement announced.",
+"likelihood": "likely",
+"check_by": "2026-11-25",
+"basis": [
+"https://www.yahoo.com/news/world/articles/saudi-arabia-downs-missiles-fired-031751140.html",
+"https://english.dainikjagranmpcg.com/international/saudi-arabia-intercepts-three-missiles-as-riyadh-faces-fresh-aerial/article-43554"
+]
+},
+{
+"made": "2026-11-11",
+"hotspot": "somalia-al-shabaab",
+"text": "Further US air strikes in Somalia within a month are likely, given strikes in October and this week.",
+"likelihood": "likely",
+"check_by": "2026-12-09",
+"basis": [
+"https://www.africom.mil/pressrelease/36182/us-forces-conduct-strikes-targeting-al-shabaab",
+"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oWVVxd0JZeEVqUlNNWU9abld4QjRXYlJYSGVTODhSclBKZzRQZWh3OXBTT3czYzczVVIydTlLVnRnX2h0Y0I1OWhfc2oyMVF0Z0VFQzdxQThoZVE?oc=5"
+]
+},
+{
+"made": "2026-11-11",
+"hotspot": "sudan-civil-war",
+"text": "More drone strikes on civilian areas in the next two weeks are very likely, as UN data show drones as the main cause of child casualties.",
+"likelihood": "very likely",
+"check_by": "2026-11-25",
+"basis": [
+"https://news.google.com/rss/articles/CBMiywVBVV95cUxQTTAzXzFWQXk5VUFrSDlWYlJ0U3RZcFBhTl90R0tkY2hlZGtCYmFESE10TXd0X09rbE44RWpIZWk2ZGJoZWMwMmtIN293ckV3QzY1VW5WUnhuSFVRbmc5ZXFtVTNiQTJ3b3VCR24zRGlSU3IyVm1uajVOSWZrbnR2dkxYdm44THFaYktUdlZaZ2NwRG5wMUptYlcwZkZvdzU4bkNmUWFaUGpLdjN6cmwwQzVhNHZScFQtUnM2Z1VlWlFyRFVyd1B1TEpHWEIyaC1jbmJZQzZyejdEQ3NlT2k1QXNkMWdSN0ZnY0NLRGV4dTkwTDA5Wm5WZnJ1S1ZFdk9tdG84ZGdVbkNRQjZEU0xJcUxQVGgtSmd5LV8yNVF3Zm5ZODNxYVZwWEZCTUFIczY5MnJUNGVvZ3RjZU9zajlzZkFDQU9KVzktS0hkMlhaWjRkb1ZNLVJ",
+"https://news.google.com/rss/articles/CBMiUkFVX3lxTE55X1lxUUZLM0QxdnNSbHVpUG12MG1MX1lMRjdVM2NKLUZFT08xdmFzQkZETTNHNlV4dWRpS3ZIbEpoNzBkV2lwdXdwSEdTUWRrenc?oc=5"
+]
 }
 ]
 }

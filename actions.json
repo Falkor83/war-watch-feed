@@ -805,6 +805,78 @@
    "added": "2026-11-10",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-10-eh-1",
+   "date": "2026-11-10",
+   "country": "EH",
+   "kind": "military-readiness",
+   "what": "Polisario Front, the Western Sahara independence movement, declares a 'general mobilisation' against Morocco",
+   "url": "https://www.infobae.com/america/agencias/2026/11/10/el-frente-polisario-anuncia-una-movilizacion-general-contra-marruecos/",
+   "outlet": "Infobae",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-11",
+   "independent": 4,
+   "countries_reporting": 3
+  },
+  {
+   "id": "a-2026-11-10-us-1",
+   "date": "2026-11-10",
+   "country": "US",
+   "kind": "citizens-abroad",
+   "what": "Reports list 23 countries under US 'Do Not Travel' advice, 11 in Africa; unclear whether any were newly added",
+   "url": "https://allafrica.com/stories/202611110179.html",
+   "outlet": "AllAfrica",
+   "hotspots": [
+    "sudan-civil-war",
+    "south-sudan-conflict",
+    "somalia-al-shabaab"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-11",
+   "independent": 3,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-10-gb-1",
+   "date": "2026-11-10",
+   "country": "GB",
+   "kind": "infrastructure-protection",
+   "what": "UK puts £90 million into drones and AI to hunt Russian submarines and protect undersea cables",
+   "url": "https://www.ukrinform.ua/rubric-world/4183388-britania-investue-90-miljoniv-u-zahist-pidvodnih-kabeliv-i-protidiu-pidvodnim-covnam-rf.html",
+   "outlet": "Ukrinform Ukrainian",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-11",
+   "independent": 2,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-11-ru-1",
+   "date": "2026-11-11",
+   "country": "RU",
+   "kind": "military-readiness",
+   "what": "Chelyabinsk region authorities explain how residents can join the BARS volunteer reservist detachment",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSXhMSHcwSXVmTDh1b0JBODFvVlVPdUdaUEk3cmZBZWJDV0hVWWh2b3BwNHFuUGZwUXRzRGs5ZFE1UWI5bks0SFRwNktFRml5SnA4T1I1M2F3allfcmxmdmlKc0ZUU3I1aUtlV3pMWHZkbkxWcVZMb1g0bW1xM09CTGdSeXplYlpiWDl4T29rcm5YMFlXWDNzQmpQV012c0NzSjJ6Y1dTNTd2TWRGeS1WOFpjd3c?oc=5",
+   "outlet": "Pchela.News",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": true,
+   "program": "BARS volunteer combat reserve, running since before 2022",
+   "source": "corpus",
+   "added": "2026-11-11",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -2167,6 +2239,206 @@
    "url": "https://www.wlrn.org/national-politics/2026-11-09/france-accuses-iran-of-cyber-sabotage-in-fridge-attacks",
    "source": "corpus",
    "independent": 10
+  },
+  {
+   "id": "e-2026-11-11-1",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "Impeachment bid against US Defense Secretary Hegseth fails in parliament",
+   "countries": [
+    "AE",
+    "AR",
+    "AT",
+    "AU",
+    "CN",
+    "CU",
+    "CY",
+    "DE"
+   ],
+   "hotspot": "us-boat-strikes-caribbean-pacific",
+   "url": "https://www.bbc.com/nepali/articles/cmn0dlw57j5do?at_medium=RSS&at_campaign=rss",
+   "source": "corpus",
+   "independent": 50
+  },
+  {
+   "id": "e-2026-11-11-2",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "Talks in Abu Dhabi on second day lasted about two hours",
+   "countries": [
+    "AE",
+    "AR",
+    "CA",
+    "CG",
+    "DE",
+    "ES",
+    "FR",
+    "IT"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.rbc.ru/rbcfreenews/6af441ee37bab74ce50eab4d",
+   "source": "corpus",
+   "independent": 35
+  },
+  {
+   "id": "e-2026-11-11-3",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "Concern over an Iranian attack in Washington: US Treasury Secretary Bessent's new residence is a military base",
+   "countries": [
+    "AE",
+    "AT",
+    "CA",
+    "DE",
+    "GB",
+    "GR",
+    "HK",
+    "IL"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.dw.com/tr/washington-da-i̇ran-saldırısı-endişesi-abd-hazine-bakanı-bessent-in-yeni-ikamet-adresi-askeri-bir-üs/a-79916037?maca=tur-rss-tur-all-1495-rdf",
+   "source": "corpus",
+   "independent": 24
+  },
+  {
+   "id": "e-2026-11-11-4",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "Three-way talks on a Ukrainian settlement wrapped up in Abu Dhabi",
+   "countries": [
+    "AE",
+    "AR",
+    "CN",
+    "CO",
+    "DE",
+    "EG",
+    "FR",
+    "GB"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.interfax.ru/world/1128275",
+   "source": "corpus",
+   "independent": 22
+  },
+  {
+   "id": "e-2026-11-11-5",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "Iran reports explosion on oil tanker in Strait of Hormuz",
+   "countries": [
+    "AR",
+    "AT",
+    "GB",
+    "ID",
+    "IL",
+    "IN",
+    "IR",
+    "LB"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.derstandard.at/story/3000000348697/iran-meldet-explosion-an-214ltanker-in-hormuz-stra223e?ref=rss",
+   "source": "corpus",
+   "independent": 20
+  },
+  {
+   "id": "e-2026-11-11-6",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "Zelensky: Pleased with the direction of the Abu Dhabi talks",
+   "countries": [
+    "AE",
+    "DE",
+    "IR",
+    "LB",
+    "RU",
+    "UA",
+    "US",
+    "VN"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.dw.com/sw/zelensky-afurahishwa-na-mwelekeo-wa-mazungumzo-ya-abu-dhabi/a-79916705?maca=kis-rss-kis-all-1488-rdf",
+   "source": "corpus",
+   "independent": 20
+  },
+  {
+   "id": "e-2026-11-11-7",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "Iran Designates Argentina's Navy and Air Force as 'Terrorist Organizations'",
+   "countries": [
+    "AR",
+    "AZ",
+    "BR",
+    "CN",
+    "GB",
+    "IL",
+    "IN",
+    "IR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPOWxvR2xPaE11c3ZCTnpOVVp4V2lPQU1nejJtMzM1TXFpU0p2bl9EbVZnSG9Qb0QtS19GU1p6c1FQR3JxTVdfbzNSOTZ3LVR6WEZfWFpJUnlUa096SC03X2w1TVd3ZTU3LVFBNHoya1BnX3c4U0hSazhVUXdrOVZqc2pJaW1iLV9GZjJVSUliWENmaEFSaWhTSm9Ua2xQNmZMUVYtYVZnQk9JdDNYQ2I2d0JkS3g2MnB1M3lrTXFIelJxRmtyeDMwYmc3MktpdDBZNG5JcnlnZHBlSE9fTXRkcDJ3Y0ZpUlB6ZGpURmdUNktfX0FyT3J1Tlpn?oc=5",
+   "source": "corpus",
+   "independent": 10
+  },
+  {
+   "id": "e-2026-11-11-8",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "Reuters poll: 71% of Americans want the war with Iran brought to an end",
+   "countries": [
+    "AE",
+    "AT",
+    "BR",
+    "GB",
+    "IN",
+    "IR",
+    "RU",
+    "SA"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.trthaber.com/haber/dunya/reuters-anketi-amerikalilarin-yuzde-71i-iran-ile-savasa-son-verilmesini-istiyor-962879.html",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-11-9",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "Negotiations between Ukraine and Russia, mediated by the US, continue in Abu Dhabi to reach a deal ending the war",
+   "countries": [
+    "AR",
+    "CA",
+    "DE",
+    "FR",
+    "IN",
+    "NL",
+    "PL",
+    "RU"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.infobae.com/america/mundo/2026/11/11/continuan-en-abu-dhabi-las-negociaciones-entre-ucrania-y-rusia-mediadas-por-eeuu-para-alcanzar-un-acuerdo-que-ponga-fin-a-la-guerra/",
+   "source": "corpus",
+   "independent": 17
+  },
+  {
+   "id": "e-2026-11-11-10",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "First day of dialogue between Ukraine and Russia was \"constructive,\" Zelensky says",
+   "countries": [
+    "DE",
+    "FR",
+    "GB",
+    "HK",
+    "IN",
+    "KR",
+    "PT",
+    "RU"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.rfi.fr/es/europa/20261111-primera-jornada-de-di%C3%A1logos-entre-ucrania-y-rusia-fue-constructiva-dice-zelenski",
+   "source": "corpus",
+   "independent": 16
   }
  ]
 }
