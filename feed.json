@@ -1697,9 +1697,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Two tankers hit in Hormuz; Iran threatens US bases in Europe; nuclear material stays put",
+   "status": "Trump says war is ending soon as Iran threatens US Europe bases; Hormuz shipping still hit",
    "summary": "The US and Israel have been at war with Iran, and a June ceasefire collapsed within weeks; the US now runs a naval blockade around the Strait of Hormuz. On Nov 10 Iran's Revolutionary Guards said tankers had burned or hit a mine in the strait, while ADNOC reported a ship damaged in UAE waters and the UK maritime agency a tanker hit off Oman; how these link is unclear. Rubio said the blockade and sanctions mean major combat is not needed, but he called Iran's terms unacceptable. The US Justice Department charged three men it says acted for the IRGC and Kataib Hezbollah, and Britain says Iran was behind a September incident at RAF Fairford. US aircraft have now moved out of a second British base after a reported Iranian threat.",
    "latest": [
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T18:36:57Z",
+     "text": "Reuters, citing sources, reports Iran attacked shipping navigation systems near Oman's Didamar island. Only one independent source reports this so far.",
+     "outlet": "Reuters",
+     "country": "United Kingdom",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMFB3XzM5cVFXcFdvTWhfdVJSY21DLVNHRE81YXh1Ykt3MlY0M29GY05FbFEwd2hMT3lTR1duaVV6UGdac003SWM2cTJpb1FqX2UzdnZqNW5YSEpEOGd2dmZ2VW5XOTZzcGlSNGl5dENGNFQ4c2JGYU9yaXV2RU84QXVRQVVtR3EtYmpaNXRKM3d2ZHJVdzlzOWxrMktEVVZYZzJVeVVzcmtMM0JLYmxsZVQ5YlRWN2tRd0UyM2dUXy04eW5PWlE?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T18:36:57Z",
+     "text": "Iran's IRGC Navy says mines struck two tankers in the Strait of Hormuz, a claim carried by Iranian media. TASS reports Iran and Oman have reached a mutual understanding on routes through the strait.",
+     "outlet": "Tehran Times",
+     "country": "Iran",
+     "url": "https://www.tehrantimes.com/news/532069/Mines-strike-two-tankers-in-Strait-of-Hormuz-IRGC-Navy",
+     "region": "iran",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T18:36:57Z",
+     "text": "Trump says the war with Iran is ending soon and that the US wants a 'complete victory'. TASS quotes him saying he hopes the US will not have to strike Iran again.",
+     "outlet": "Yonhap Korean",
+     "country": "South Korea",
+     "url": "https://www.yna.co.kr/view/AKR20261112004200071",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-11",
      "at": "2026-11-11T15:20:54Z",
@@ -1753,37 +1786,6 @@
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUEJXTENGaVpqcnFwWUtSZndzTjJFYThLRml3S2RYaFJYQlB0M2V5ZllpZ2lTTEFLZHEwN0xsaGNWSExFMlNWNm81NzdvcjRkY3dqbDZzM0E5Wmkxa2d1d05qSkFlVnZLNDUwQl9IVWc3cHhsdy1tdW4wVFRtMzZaUUlXbk1SSDZaQmNrQlBuemUxSmdCX3laSU1rcWFQeTBEZFJoNE1iQzRNdw?oc=5",
      "region": "middle-east",
      "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-11",
-     "at": "2026-11-11T12:35:06Z",
-     "text": "Reports from six independent outlets say US Treasury Secretary Scott Bessent has moved to live at a military base after what Iran has called threats.",
-     "outlet": "Asharq Al-Awsat",
-     "country": "Saudi Arabia",
-     "url": "https://news.google.com/rss/articles/CBMitAVBVV95cUxOQ3Z5N1FGVjVQcFJFVUNpX0VBdS1pa0ltaEpENmNXb2g0dVdWTU9ZTTZiS3dmT2R5VmZFZjZEOVVERzVuVkhWc25GX1QtajdGTWZGb1JlLVA5bEdRRGFxYkpSNktfSUJYdDRtMlVPX1ZVNHROeFZjaXprUEIwZVI5eVZxUUlrNUZBaGl5WEpmcGhqc281Y2FiYkY5QVpLVDIyc2d0Y3VTbVdCRjFRLUx0SUl1dXNTaG5wbWNEQ0FxQkNUMXhETUdkTUhHeTRiWTh3aDlFUGVUbjVuenBQVVV3akdyZ3hMaUs2VF9iRkwzQjJXVlFQUFF0Q3RmQUtlanRsd09HQ1h1Wm1VTGZoNG5HajNTVjc4NDRqWE9QVFlIVWh3Wk1OcW5ZdTBaMndBOG91Nk5ya2NKYkl1Skg2M19WbWYtRlloQ1c1V1BIdzQ3VnlJdEdRZVJnNW5DSWsxRWNXSFdsOVdqT3dOX1lrS1dTVnlTdXNFREdFMjVlbUt3eVM1NU9tSGRnNHVfLVlwbWl2ZTJYS01xaVBiV3U4ZjBMVkV",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-11",
-     "text": "Headline (translated from ko): US military aircraft, about 10, relocated from UK base amid Iran threats [story carried by 26 independent sources in 23 countries (AU, BE, BR, CA, EC, ES)]",
-     "outlet": "Yonhap",
-     "country": "South Korea",
-     "url": "https://www.yna.co.kr/view/AKR20261111048500009",
-     "region": "east-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-11",
-     "text": "Headline: US evacuates 13 military aircraft from second UK base as new Iran threat raises alarm [story carried by 26 independent sources in 23 countries (AU, BE, BR, CA, EC, ES)]",
-     "outlet": "Fox News",
-     "country": "United States",
-     "url": "https://www.foxnews.com/world/us-evacuates-13-military-aircraft-second-uk-base-new-iran-threat-raises-alarm",
-     "region": "north-america",
-     "tag": "party-press",
      "state_media": false
     }
    ],
@@ -12002,11 +12004,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-08T14:13:47Z",
-     "headline": "Tanker fires reported in Hormuz as Israel says Iran mission 'not complete'",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-08T17:30:46Z",
      "headline": "Hormuz tanker fires disputed; Iran denies US strikes, Israel says Iran mission not over",
      "direction": "steady"
@@ -12120,129 +12117,150 @@
      "at": "2026-11-11T15:20:54Z",
      "headline": "Two tankers hit in Hormuz; Iran threatens US bases in Europe; nuclear material stays put",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-11T18:36:57Z",
+     "headline": "Trump says war is ending soon as Iran threatens US Europe bases; Hormuz shipping still hit",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-11T15:20:54Z",
-   "next_at": "2026-11-11T18:20:54Z",
-   "headline": "Two tankers hit in Hormuz; Iran threatens US bases in Europe; nuclear material stays put",
-   "direction": "escalating",
+   "updated_at": "2026-11-11T18:36:57Z",
+   "next_at": "2026-11-11T21:36:57Z",
+   "headline": "Trump says war is ending soon as Iran threatens US Europe bases; Hormuz shipping still hit",
+   "direction": "steady",
    "points": [
     {
-     "text": "Reports from Russian and Iranian outlets say two tankers were hit in the Strait of Hormuz; Iran's Revolutionary Guard says they exploded, while Interfax says they hit mines. Israeli-side media say two oil tankers caught fire and quote Iran as saying 'This is only the beginning'.",
+     "text": "Reuters, citing sources, reports Iran attacked shipping navigation systems near Oman's Didamar island. Only one independent source reports this so far.",
      "stories": [
-      "s1",
-      "s27"
+      "s7"
      ],
      "sources": [
       {
-       "t": "IRGC Says Two More Tankers Exploded in the Strait of Hormuz",
-       "u": "https://iranwire.com/en/news/160108-irgc-says-two-more-tankers-exploded-in-the-strait-of-hormuz/",
-       "s": "IranWire",
-       "c": "IR",
+       "t": "Iran attacks shipping navigation systems on Oman's Didamar island, sources say",
+       "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMFB3XzM5cVFXcFdvTWhfdVJSY21DLVNHRE81YXh1Ykt3MlY0M29GY05FbFEwd2hMT3lTR1duaVV6UGdac003SWM2cTJpb1FqX2UzdnZqNW5YSEpEOGd2dmZ2VW5XOTZzcGlSNGl5dENGNFQ4c2JGYU9yaXV2RU84QXVRQVVtR3EtYmpaNXRKM3d2ZHJVdzlzOWxrMktEVVZYZzJVeVVzcmtMM0JLYmxsZVQ5YlRWN2tRd0UyM2dUXy04eW5PWlE?oc=5",
+       "s": "Reuters",
+       "c": "GB",
        "l": "en",
-       "p": 1794407159,
+       "p": 1794419942,
        "r": "known"
       },
       {
-       "t": "Two tankers hit mines in the Strait of Hormuz",
-       "o": "Два танкера подорвались на минах в Ормузском проливе",
-       "u": "https://www.interfax.ru/world/1128333",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794400500,
+       "t": "Iran attacks shipping navigation systems on Oman's Didamar island, sources say",
+       "u": "https://www.straitstimes.com/world/middle-east/iran-attacks-shipping-navigation-systems-on-omans-didamar-island-sources-say",
+       "s": "The Straits Times",
+       "c": "SG",
+       "l": "en",
+       "p": 1794419623,
        "r": "known"
-      },
-      {
-       "t": "Two oil tankers catch fire; Iran threatens: \"This is only the beginning",
-       "o": "שתי מכליות נפט עלו באש; איראן מאיימת: \"זה רק ההתחלה\"",
-       "u": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5HT3lSUU0xeDFyZlZjNFUwZ0hHQVJYZ0tEVEpBRmdTeGM5VV84ZWJ2SEctWk5vc2JsRV93WlhOb0JmSEk?oc=5",
-       "s": "המחדש",
-       "c": "IL",
-       "l": "he",
-       "p": 1794406827,
-       "r": "unrated"
       }
      ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 4,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 1,
      "countries": [
-      "IL",
+      "GB",
+      "SG"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran's IRGC Navy says mines struck two tankers in the Strait of Hormuz, a claim carried by Iranian media. TASS reports Iran and Oman have reached a mutual understanding on routes through the strait.",
+     "stories": [
+      "s32",
+      "s21"
+     ],
+     "sources": [
+      {
+       "t": "Mines strike two tankers in Strait of Hormuz: IRGC Navy",
+       "u": "https://www.tehrantimes.com/news/532069/Mines-strike-two-tankers-in-Strait-of-Hormuz-IRGC-Navy",
+       "s": "Tehran Times",
+       "c": "IR",
+       "l": "en",
+       "p": 1794419476,
+       "r": "known"
+      },
+      {
+       "t": "Iran and Oman reach mutual understanding on routes through the Strait of Hormuz",
+       "o": "Иран и Оман достигли взаимопонимания по маршрутам в Ормузском проливе",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28308509",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794415843,
+       "r": "state"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
       "IR",
       "RU"
      ],
-     "regions": 3,
+     "regions": 2,
      "party_only": false,
-     "state": 2
+     "state": 1
     },
     {
-     "text": "Iran's security chief is quoted as saying Iran could strike US military bases in European countries if the US attacks again. Turkish, Korean and Iranian outlets carry the same warning; Iran's own media frame it as a possible target list, not a strike.",
+     "text": "Trump says the war with Iran is ending soon and that the US wants a 'complete victory'. TASS quotes him saying he hopes the US will not have to strike Iran again.",
      "stories": [
-      "s2",
-      "s3",
-      "s4"
+      "s4",
+      "s8"
      ],
      "sources": [
       {
-       "t": "Threat from Iran raising tensions: \"We will target US bases in Europe",
-       "o": "İran'dan tansiyonu yükselten tehdit: Avrupa'daki ABD üslerini hedef alırız",
-       "u": "https://www.hurriyet.com.tr/dunya/irandan-tansiyonu-yukselten-tehdit-avrupadaki-abd-uslerini-hedef-aliriz-43374693",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794408587,
-       "r": "known"
-      },
-      {
-       "t": "Iran may target certain US bases in Europe if attacked again",
-       "u": "https://en.mehrnews.com/news/249344/Iran-may-target-certain-US-bases-in-Europe-if-attacked-again",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794408653,
-       "r": "state"
-      },
-      {
-       "t": "Iran security chief: \"If the US attacks, we will strike US military bases in Europe too",
-       "o": "이란 안보수장 \"미국이 공격하면 유럽 미군 기지까지 타격\"",
-       "u": "https://www.yna.co.kr/view/AKR20261111183100079",
+       "t": "Trump: \"Iran war will end soon… we want a complete victory, not 93%",
+       "o": "트럼프 \"이란戰 곧 끝날 것…93% 아닌 완전한 승리 원한다\"",
+       "u": "https://www.yna.co.kr/view/AKR20261112004200071",
        "s": "Yonhap Korean",
        "c": "KR",
        "l": "ko",
-       "p": 1794408558,
+       "p": 1794420076,
        "r": "known"
       },
       {
-       "t": "Iran’s security chief threatens US bases in Europe if attacks resume",
-       "u": "https://www.iranintl.com/en/202611114265",
-       "s": "Iran International",
-       "c": "IR",
-       "l": "en",
-       "p": 1794407432,
-       "r": "known"
-      },
-      {
-       "t": "Iran: We could target some US military bases in European countries",
-       "o": "İran: ABD'nin Avrupa ülkelerindeki bazı askeri üslerini hedef alabiliriz",
-       "u": "https://www.trthaber.com/haber/dunya/iran-abdnin-avrupa-ulkelerindeki-bazi-askeri-uslerini-hedef-alabiliriz-962958.html",
-       "s": "TRT Haber Dunya",
+       "t": "Trump says the war with Iran will end soon and that they aim to win a \"complete victory",
+       "o": "Trump, İran ile savaşın yakında sona ereceğini ve \"tam bir zafer\" kazanmayı hedeflediklerini söyledi",
+       "u": "https://www.aa.com.tr/tr/dunya/trump-iran-ile-savasin-yakinda-sona-erecegini-ve-tam-bir-zafer-kazanmayi-hedeflediklerini-soyledi/4121318",
+       "s": "Anadolu Turkish",
        "c": "TR",
        "l": "tr",
-       "p": 1794407220,
+       "p": 1794420033,
+       "r": "state"
+      },
+      {
+       "t": "Trump vows 'total victory' over Iran, claims Tehran will need 25 years to recover from US strikes",
+       "u": "https://www.jpost.com/american-politics/article-914616",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794420696,
        "r": "known"
+      },
+      {
+       "t": "Trump hopes the US will not have to strike Iran again",
+       "o": "Трамп надеется, что США больше не придется бить по Ирану",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28308583",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794418038,
+       "r": "state"
       }
      ],
-     "headlines": 6,
-     "outlets": 6,
-     "independent": 6,
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
      "countries": [
-      "IR",
+      "IL",
       "KR",
+      "RU",
       "TR"
      ],
      "regions": 3,
@@ -12250,135 +12268,125 @@
      "state": 2
     },
     {
-     "text": "Iran says it will keep all enriched nuclear material in the country, and a senior official rejects moving it out. Iran also condemned a $20 million US reward for nuclear information as 'repugnant'.",
+     "text": "Iran says Washington asked Moscow to arrange talks with Tehran, according to TASS. Iran's top negotiator says Tehran has no desire for the war to continue.",
      "stories": [
-      "s5",
-      "s19",
+      "s16",
       "s17"
      ],
      "sources": [
       {
-       "t": "Iran War Updates: Iran vows not to part with \"single particle of enriched nuclear material\" as standoff continues",
-       "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JdnI2N05uOHdtZFhtb0U3MGN6bEhNN05QbE85RV81UGRMenBqY04tWXhLU1MxRzR6NWxZOUx5cnNzYmRwRFEwRWJnbi1Cc0JpMUt2aW53VEpWOFA0cEptN2xLLVB6S1RxNDlydWs5MGsySnprakktTlkwUmxqODQ?oc=5",
-       "s": "CBS News",
-       "c": "US",
+       "t": "Iran says Washington asked Moscow to arrange talks with Tehran",
+       "o": "В Иране сообщили о просьбе Вашингтона к Москве о переговорах с Тегераном",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28308559",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794417458,
+       "r": "state"
+      },
+      {
+       "t": "Iran's top negotiator says Tehran has no desire for war to continue",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-top-negotiator-says-iran-has-no-desire-war-continue",
+       "s": "Middle East Eye",
+       "c": "GB",
        "l": "en",
-       "p": 1794405960,
-       "r": "known"
-      },
-      {
-       "t": "Iran's nuclear ultimatum to the US: We will not give up even a single particle",
-       "o": "İran'dan ABD'ye nükleer rest: Tek bir parçacık bile vermeyeceğiz",
-       "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcFc1eHJzYi1oX1pNU2ducUFiTVZGWHUxdHZrMVpZMHRvd1R6VUZBcG9BN1FSdXlob3MzdnRaN2loelhxNG9fS2tNREM2ZTE0amZhOC0ycWZoV3JiUE5EeHlYQ3RlWGVxWnVadjZqT1JQNThwOEhINGFRQzhwb2duRW1qWHk0dDRpT0oyR2F4bmQ4Y3hsOXdoT3l2Ynh4dXBpT1hwWDVHOEdrdEk?oc=5",
-       "s": "Cumhuriyet",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794403620,
-       "r": "unrated"
-      },
-      {
-       "t": "Senior Iranian official refuses to move nuclear materials out of the country",
-       "o": "مسؤول إيراني رفيع يرفض نقل المواد النووية خارج البلاد",
-       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBQmN3WEVtVTFGcThWN0ZNYy1tbEJFdTF0NFNHYUdMQ0xlZUZNM0E0WUtITF9qcHJLRDd5TTZVeWZOeHFaMVg0enJEbExYR0p5bjdQWXk4bzBYek1hVlpZSlRBMXZCOERsWXc?oc=5",
-       "s": "Investing.com",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794401580,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran slams 'repugnant' $20m US reward for nuclear information",
-       "u": "https://www.dawn.com/news/2043807/iran-slams-repugnant-20m-us-reward-for-nuclear-information",
-       "s": "Dawn",
-       "c": "PK",
-       "l": "en",
-       "p": 1794403255,
+       "p": 1794417118,
        "r": "known"
       }
      ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "LB",
-      "PK",
-      "TR",
-      "US"
+      "GB",
+      "RU"
      ],
-     "regions": 3,
+     "regions": 2,
      "party_only": false,
-     "state": 0
+     "state": 1
     },
     {
-     "text": "The G7 has demanded Iran stop attacks in Hormuz. Trump says there is positive momentum toward ending the war and that new strikes look unlikely, and oil futures fell on that news. Reporting also describes a split in the US team, with Rubio backing the blockade and Vance pushing for a deal.",
+     "text": "Iran's security chief repeats that it could strike US bases in Europe if they are used for attacks. Reports say US Treasury Secretary Bessent moved to a base after alleged Iranian threats; these come from Iranian and US-linked reporting, not confirmed by Iran.",
      "stories": [
-      "s6",
-      "s35",
-      "s11",
-      "s13"
+      "s1",
+      "s12",
+      "s2",
+      "s23"
      ],
      "sources": [
       {
-       "t": "G7 demands Iran stop attacks in Hormuz",
-       "o": "«مجموعة السبع» تطالب إيران بوقف الهجمات في «هرمز»",
-       "u": "https://aawsat.com/node/5340133",
-       "s": "Asharq Al-Awsat",
+       "t": "Iran refuses to surrender enriched uranium, threatens to strike US bases in Europe if attacked",
+       "u": "https://www.middleeasteye.net/news/iran-wants-enriched-material-build-nuclear-powered-submarines-threaten-attack-us-bases-europe",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794419873,
+       "r": "known"
+      },
+      {
+       "t": "Iran threatens strikes on US bases in Europe if used for attacks",
+       "u": "https://www.dailysabah.com/world/mid-east/iran-threatens-strikes-on-us-bases-in-europe-if-used-for-attacks",
+       "s": "Daily Sabah",
+       "c": "TR",
+       "l": "en",
+       "p": 1794416760,
+       "r": "known"
+      },
+      {
+       "t": "Iran security chief threatens to strike US bases in Europe if used for attacks",
+       "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVFE3Z1lpanJwNk1ISkpBaTRBZ0xkSFEtQkJvaGRmTE9HY0FYY1FUS0trZ3J4bTMzYlF1Y2lPWi1iQTVZcVhIVW10Tmk3VFNaeWRkWWVGQU5Dc0UwcUszaEhaTWRWa25kRERxNFBpWFFCQS1WWjZ5SlU5RU9ZbjB0cmd4eHpYcXo3N2N0cEJORlZ1U0tIcXVjYkt3MnpLTGlodEpvbWFPeUppYW53TUUzYkZlQkZzV3Q3VFFQaWNYQlRqYzktOUFVZ08yWlV6RkJDNXfSAdcBQVVfeXFMT1I4YUlTbVRYZ2RGUDBSMUxCSml4dVZuUl9TTXJURmRlQ0EwaWxLbDZ0ZU8tWWgzeDUzSi03SUlJOTV5bk9MQy1RTGs2d3drTThIQWVxNGZLTjVJb05JWGotZVFabjgzMC0zTEtKM3lKX29odlk2UGFlb3dtZ1ZPWmFlajlKX29fMzlXOXZVRllRMGZnOHZTSElDVEtRc3AtVDVDSkNjR2RVWGlWNmlKZjIyaWZucnVCUzJVa3lyYV9DN3VVdngxRE5PQXE",
+       "s": "Al Arabiya English",
        "c": "SA",
-       "l": "ar",
-       "p": 1794403067,
-       "r": "known"
-      },
-      {
-       "t": "Oil Futures Slide as Trump Says New Strikes on Iran Unlikely",
-       "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFNfSjlGZWFOd01laGhIaG9idVhwaUxEOXctN1hkb1E2Qkd6YXEyaE5DUHFzMEdoT3dqWXNQbkxScXRFb3o2aGU4SEpWdnU5SGdKQUJXTUFMdS1kcHJKVnJPVnBUZk1XUjd6NXRLcnJwSGhXMFZVa2hqQ1VvVWkzM2FxT2tCNlhGN1VYYjgwRTdiY2Z6SElpNmtfMXRmTjF0RW5fX0JVVWhuZVlsX1lWdDBMU1g1ZzBFeXlGT2tZbUNyQjlLUFE?oc=5",
-       "s": "Wall Street Journal",
-       "c": "US",
        "l": "en",
-       "p": 1794400336,
+       "p": 1794416280,
        "r": "known"
       },
       {
-       "t": "Lower chance of another strike on Iran after US election? Trump: positive momentum toward ending the war",
-       "o": "美選後再打伊朗機率減？川普：有正面動能邁向終戰",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5637635",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794406917,
-       "r": "known"
-      },
-      {
-       "t": "Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?",
-       "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCYVRxVHdXS2I0WWlWam93NzhydHhvZnRPWUN6ZEZySlF1WGp6a1JDWVNPal9hVmFYbEdNWlVyclgwN0lOZC1hZVR6Z2R1M3pUQW5LRjRZSlVYZndYaDNzbDVtNEF5UmZwbFNoNzB4NnNzSnJQdkpDM9IBfkFVX3lxTE52RGRYcHhoaW9LZFhuZHc4N2ZocFVUcGZlYXZSM21ZYmR2a25odXBneUo5ZW5tNnZ1SEFOdzZNLS1pYXhtai1kd2cxTUI4SjIyd2trTF9BWk9nVVEzak9UYmRMWHZPMmpOZWhOUnplei1yUlNEbDVrUlhTd25tZw?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
+       "t": "Tehran will strike US bases in Europe if used to attack Iran, security chief says",
+       "u": "https://www.france24.com/en/france/20261111-tehran-will-strike-us-bases-in-europe-if-used-to-attack-iran-security-chief-says",
+       "s": "France 24",
+       "c": "FR",
        "l": "en",
-       "p": 1794406495,
+       "p": 1794415546,
        "r": "known"
+      },
+      {
+       "t": "Iran to hit US bases in Europe if attacks come from there — Security Council secretary",
+       "u": "https://tass.com/world/2216573",
+       "s": "TASS English",
+       "c": "RU",
+       "l": "en",
+       "p": 1794419204,
+       "r": "state"
       }
      ],
-     "headlines": 6,
-     "outlets": 5,
-     "independent": 5,
+     "headlines": 16,
+     "outlets": 13,
+     "independent": 8,
      "countries": [
-      "QA",
+      "FR",
+      "GB",
+      "JP",
+      "KR",
+      "LB",
+      "RU",
       "SA",
-      "TW",
-      "US"
+      "SG",
+      "TR"
      ],
-     "regions": 3,
+     "regions": 6,
      "party_only": false,
-     "state": 0
+     "state": 2
     }
    ],
    "watch": [
-    "Whether the tanker explosions get independent confirmation beyond Iranian and Israeli-side accounts",
-    "Any US response to the Hormuz tanker incidents, or a change in Trump's stance on strikes",
-    "Whether Iran's threat against US bases in Europe is repeated by officials beyond its security chief"
+    "Whether the reported Iran–Oman understanding on Hormuz routes holds and tanker incidents stop",
+    "Any Russian-arranged talks between Washington and Tehran",
+    "Whether Iran acts on its threat against US bases in Europe"
    ],
    "window_hours": 3,
-   "headlines_read": 47,
-   "outlets_read": 34,
+   "headlines_read": 69,
+   "outlets_read": 42,
    "countries_read": 19,
    "languages_read": 12,
    "model": "Claude Haiku 5.5",
