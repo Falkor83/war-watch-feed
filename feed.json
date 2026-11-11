@@ -1794,9 +1794,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "US reportedly delays strikes for talks; Iran denies talks; tanker blast reported in Hormuz",
+   "status": "Steady: Bessent moved amid Iran threats; two tankers reportedly hit mines in Hormuz",
    "summary": "The US and Israel have been at war with Iran, and the Strait of Hormuz has been largely shut to normal traffic. On Nov 9, Trump said Iran is militarily 'effectively over' and that renewed strikes are unlikely if Tehran signs a strong deal, while keeping the US naval blockade in place. Iran's security council secretary called the talk of negotiations invented and set seven conditions, including lifting the blockade and sanctions. The UK maritime agency UKMTO counted at least 11 ships attacked and three sunk in the week to Nov 6, with Hormuz transits about 65% below pre-conflict levels. US tankers and Ospreys left RAF Mildenhall after what US officials call a possible Iranian threat, and a US official says two UK bases moved to the second-highest protection level.",
    "latest": [
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T01:48:35Z",
+     "text": "Reports say US Treasury Secretary Bessent moved from his home to a military base after Iranian threats. The reports come from several outlets in different regions, but no official confirmation is cited.",
+     "outlet": "Asharq Al-Awsat",
+     "country": "Saudi Arabia",
+     "url": "https://aawsat.com/node/5339941",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T01:48:35Z",
+     "text": "A Taiwanese outlet reports that two oil tankers hit mines and caught fire in the Strait of Hormuz, and that 37 ships were attacked last month, a record. This is a single-source report and is not independently confirmed.",
+     "outlet": "Liberty Times",
+     "country": "Taiwan",
+     "url": "https://news.ltn.com.tw/news/world/breakingnews/5636426",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T01:48:35Z",
+     "text": "US Fox News reports that the US moved 13 military aircraft from a second UK base after a new Iran threat. Yonhap puts the number at about 10.",
+     "outlet": "Fox News World",
+     "country": "United States",
+     "url": "https://www.foxnews.com/world/us-evacuates-13-military-aircraft-second-uk-base-new-iran-threat-raises-alarm",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-10",
      "at": "2026-11-10T22:53:03Z",
@@ -1851,39 +1884,6 @@
      "region": "iran",
      "tag": "non-party",
      "state_media": true
-    },
-    {
-     "date": "2026-11-10",
-     "at": "2026-11-10T20:06:22Z",
-     "text": "Iran's Supreme National Security Council says Tehran is not in talks with Washington, and Iranian official Rezaei calls the US claim of talks lies. Iran also says the Strait of Hormuz will stay closed until seven conditions are met, and calls the US response to those conditions deceptive.",
-     "outlet": "Al-Monitor",
-     "country": "United States",
-     "url": "https://www.al-monitor.com/originals/2026/11/irans-top-security-official-says-no-talks-underway-us",
-     "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-10",
-     "at": "2026-11-10T16:46:46Z",
-     "text": "The US moved military aircraft from a British air base after an Iranian threat, the Wall Street Journal reports, and a second UK base was also cleared, per another report.",
-     "outlet": "Hindustan Times World",
-     "country": "India",
-     "url": "https://www.hindustantimes.com/world-news/us-news/us-relocates-military-aircraft-from-british-base-amid-iran-threats-101794324495306.html",
-     "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-10",
-     "at": "2026-11-10T16:46:46Z",
-     "text": "Rubio says US sanctions and the blockade are working and no large-scale military operation is needed now. Trump has also said strikes are unlikely. Rubio called Iran's conditions for talks absurd, according to TASS.",
-     "outlet": "Hurriyet Dunya",
-     "country": "Turkey",
-     "url": "https://www.hurriyet.com.tr/dunya/abd-disisleri-bakani-rubiodan-iran-aciklamasi-yaptirimlar-buyuk-capli-askeri-harekata-gerek-birakmiyor-43373384",
-     "region": "middle-east",
-     "tag": "non-party",
-     "state_media": false
     }
    ],
    "us_impact": {
@@ -11881,11 +11881,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-08T00:00:30Z",
-     "headline": "Ships hit near Hormuz and Gulf of Oman; US strikes Iranian air defenses, talks continue",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-08T02:56:06Z",
      "headline": "Tankers hit near Hormuz, blockade widened, Iran lifts missile limit; talks still open",
      "direction": "escalating"
@@ -11999,276 +11994,297 @@
      "at": "2026-11-10T22:53:03Z",
      "headline": "US reportedly delays strikes for talks; Iran denies talks; tanker blast reported in Hormuz",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-11T01:48:35Z",
+     "headline": "Steady: Bessent moved amid Iran threats; two tankers reportedly hit mines in Hormuz",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-10T22:53:03Z",
-   "next_at": "2026-11-11T01:53:03Z",
-   "headline": "US reportedly delays strikes for talks; Iran denies talks; tanker blast reported in Hormuz",
+   "updated_at": "2026-11-11T01:48:35Z",
+   "next_at": "2026-11-11T04:48:35Z",
+   "headline": "Steady: Bessent moved amid Iran threats; two tankers reportedly hit mines in Hormuz",
    "direction": "steady",
    "points": [
     {
-     "text": "Russian agency TASS, citing the I24 outlet, and Turkish state broadcaster TRT say the US postponed a possible attack on Iran by two weeks for indirect talks through intermediaries. US Secretary of State Rubio says no new large attacks are needed, but calls Iran's peace terms 'absurd'.",
+     "text": "Reports say US Treasury Secretary Bessent moved from his home to a military base after Iranian threats. The reports come from several outlets in different regions, but no official confirmation is cited.",
      "stories": [
-      "s7",
-      "s17",
-      "s14",
       "s1",
-      "s19",
-      "s32",
-      "s33"
+      "s8"
      ],
      "sources": [
       {
-       "t": "I24: Qatar managed to delay US strikes on Iran by at least two weeks",
-       "o": "I24: Катару удалось минимум на две недели отсрочить удары США по Ирану",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28304485",
-       "s": "TASS",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794347483,
-       "r": "state"
-      },
-      {
-       "t": "US reportedly postponed a possible attack on Iran by two weeks for indirect talks mediated by intermediaries",
-       "o": "ABDnin İran'a yönelik olası saldırısını arabulucuların yürüttüğü dolaylı görüşme için 2 hafta ertelediği iddia edildi",
-       "u": "https://www.trthaber.com/haber/dunya/abdnin-irana-yonelik-olasi-saldirisini-arabulucularin-yuruttugu-dolayli-gorusme-icin-2-hafta-erteledigi-iddia-edildi-962861.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794343980,
+       "t": "Sahifa\": US Treasury Secretary moved to a military base following Iranian threats",
+       "o": "«صحيفة»: انتقال وزير الخزانة الأمريكي لقاعدة عسكرية عقب تهديدات إيرانية",
+       "u": "https://aawsat.com/node/5339941",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794359964,
        "r": "known"
       },
       {
-       "t": "US says no need for new attacks but calls Iran's peace terms 'absurd'",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-no-need-new-attacks-calls-irans-peace-terms-absurd",
-       "s": "Middle East Eye",
+       "t": "U.S. Treasury chief Bessent moved to military base after Iranian threats, reports say",
+       "u": "https://www.thehindu.com/news/international/us-treasury-chief-bessent-moved-to-military-base-after-iranian-threats-reports-say/article71688103.ece",
+       "s": "The Hindu",
+       "c": "IN",
+       "l": "en",
+       "p": 1794359883,
+       "r": "known"
+      },
+      {
+       "t": "US Treasury chief Bessent moved to military base after Iranian threats, NYT reports",
+       "u": "https://www.straitstimes.com/world/middle-east/us-treasury-chief-bessent-moved-to-military-base-after-iranian-threats-nyt-reports",
+       "s": "The Straits Times",
+       "c": "SG",
+       "l": "en",
+       "p": 1794359031,
+       "r": "known"
+      },
+      {
+       "t": "US Treasury chief Bessent moved to military base after Iranian threats, NYT reports",
+       "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT3lYOEw5X1FaSkpweDhiUmp3d0QybFR3ZU4xRl8wYXRRMS1CbzFFWENqLXNBVDZhOHBvSHdXSFh3NW5oNXEyUjRfWmFMT0g1bkV2NXRWWDc5UUpsaXVWLWxwQ0RLSkRkTW5jSWlkQ1p1dzFRa2pySzFVTklVb0k3TFo1bmZPb0lZTXVId1oyN2hCZGxkRmZua2R1ay1LN3VkNE1zb1FFNHUwNGNwSlBVdE5aMzFocFlGWTNINElWV3BvY21lOWRNTmxaNHB2dw?oc=5",
+       "s": "Reuters",
        "c": "GB",
        "l": "en",
-       "p": 1794344349,
+       "p": 1794358800,
        "r": "known"
       },
       {
-       "t": "Respond without being dragged into Trump's war\": what the sanctions demanded against Iran say about France's position",
-       "o": "«Répondre sans être embarqué dans la guerre de Trump» : ce que les sanctions réclamées à l’égard de l’Iran disent de la position française",
-       "u": "https://www.lefigaro.fr/international/repondre-sans-etre-embarque-dans-la-guerre-de-trump-ce-que-les-sanctions-reclamees-a-l-egard-de-l-iran-disent-de-la-position-francaise-20261110",
-       "s": "Le Figaro International",
-       "c": "FR",
-       "l": "fr",
-       "p": 1794348979,
-       "r": "known"
-      },
-      {
-       "t": "Trump declares the Iran war effectively over",
-       "o": "川普宣告 伊戰已實質結束",
-       "u": "https://news.ltn.com.tw/news/world/paper/1778011",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794346200,
+       "t": "Report: Bessent moves from his home to a military base after Iranian threats",
+       "o": "تقرير: بيسنت ينتقل من بيته لقاعدة عسكرية بعد تهديدات إيرانية",
+       "u": "https://www.skynewsarabia.com/world/1903959-%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%A8%D9%8A%D8%B3%D9%86%D8%AA-%D9%8A%D9%86%D8%AA%D9%82%D9%84-%D8%A8%D9%8A%D8%AA%D9%87-%D9%84%D9%82%D8%A7%D8%B9%D8%AF%D8%A9-%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9-%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1794359885,
        "r": "known"
       }
      ],
-     "headlines": 11,
-     "outlets": 9,
-     "independent": 9,
+     "headlines": 6,
+     "outlets": 6,
+     "independent": 4,
      "countries": [
-      "FR",
+      "AE",
       "GB",
-      "IL",
-      "IR",
+      "IN",
       "RU",
       "SA",
-      "TR",
-      "TW"
+      "SG"
      ],
-     "regions": 6,
-     "party_only": false,
-     "state": 3
-    },
-    {
-     "text": "The IRGC Navy reports a blast in a third tanker in the Strait of Hormuz. This is an Iranian account and the cause has not been independently confirmed. An Arab outlet reports renewed escalation in the strait, and Brent fell 1.2% to $91.49 a barrel on hopes the war may end.",
-     "stories": [
-      "s35",
-      "s18",
-      "s22"
-     ],
-     "sources": [
-      {
-       "t": "IRGC Navy reports blast in third tanker in Hormuz Strait",
-       "u": "https://en.irna.ir/news/86318445/IRGC-Navy-reports-blast-in-third-tanker-in-Hormuz-Strait",
-       "s": "IRNA English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794340478,
-       "r": "state"
-      },
-      {
-       "t": "US-Iran escalation in the Strait of Hormuz… growing disputes complicate negotiations",
-       "o": "تصعيد أميركي إيراني في مضيق هرمز.. وخلافات متزايدة تعقد المفاوضات",
-       "u": "https://news.google.com/rss/articles/CBMizwNBVV95cUxQRXRUM3ZFbkFTYTBVeTRwR0dGZDkxb0g1T3AtdUNScEstRkc5ZEJONFVWRjJHdFVCbmVEUzYwRW02dU1PV0dxYWh4OFBnLVVGZC16dlE4aWw2SnpYVmY3ZEFyWGxjQ0MxeUpVNUxYT1NtYm42Zmo2cjdrWmdueGNsaE5GYS1ua1VpNUdoaEdmYTlrc1gxT1NnOGZxUnZySk4zdFY1WVljeFdtS1o2aVBpVXdEaXRXZXBMcy13MTFJa3l4a0F1N1l1eFFGZGM2NXpDc3FIQlQteGZ5NmVzS2Fxdmh0dU5TRVVpSWpCa0FKUnIwTFZzZDdJNkp3T0VQNUx4c2JOUkRhX3g3eVVNZ21sQk5kVVdtU2hKOGlQbV9vWk80eXE3dWI0cXRCcmJwNm12YW5CakJhYVpfSHVqdnRKVVNGbXdGVkQ2OHg1cG0wRWw2MFR2eFdaMWxPMWZ3cllnNzRCQmJuWnBLbVB6REVJbXlrbHdmM2ZQbWR0NnNLY0JTLU5raThlRWFsQzFkZXltR3dpc0JTRXUtYm1paGRhX0x",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794343780,
-       "r": "unrated"
-      },
-      {
-       "t": "Brent falls 1.2% to $91.49 a barrel on the possibility that the war with Iran may end",
-       "o": "El brent baja 1,2 % a 91,49 dólares, ante la posibilidad de que acabe la guerra con Irán",
-       "u": "https://www.infobae.com/america/agencias/2026/11/10/el-brent-baja-12-a-9149-dolares-ante-la-posibilidad-de-que-acabe-la-guerra-con-iran/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1794342680,
-       "r": "known"
-      }
-     ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "AR",
-      "IR",
-      "LB"
-     ],
-     "regions": 3,
+     "regions": 5,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Western intelligence, as reported by Al Arabiya, says Iran is producing 50 missiles per month despite a crippled industry. Iran has unveiled an underground 'missile city', according to Israeli and US outlets, with experts noting radar-evasion efforts.",
+     "text": "A Taiwanese outlet reports that two oil tankers hit mines and caught fire in the Strait of Hormuz, and that 37 ships were attacked last month, a record. This is a single-source report and is not independently confirmed.",
      "stories": [
-      "s8",
-      "s25"
+      "s16"
      ],
      "sources": [
       {
-       "t": "Iran producing 50 missiles per month despite crippled industry: Western intelligence",
-       "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZHZEbUNrTWFfQ0l5ckJlV0NEX042TUNHNU5lajA2QmFFbEF3aEFrZWhZQmlLYkhndkFKbVRaUlJtOHJKaV9HQVBITVZLNDZHX08xbzBxbVpTWG52U0liSkphSHJCTVZ1Q2ZFS2NmZjAzdDNoZnhVTmx6M3hmRkoxaTdnWlphWFVVRWxPcmtJSV9nVmlITlVHQmJLdUNHZzFxaXJ6czFWY3JnMUxMSTByckYyb3N6T2EzMkVybVRkQXdnZ1ZpLW5qX002OXFKdTlBWG9QU0VQTjLSAd4BQVVfeXFMTlA1WDM3NTdRaFdrSEJXd25xdnNUOHJmcHlUX1ctblN2SHJUSUFkZWNfT0VGdWszZG5uSUtsU05sb1M3S09OVEw2TGxqRlRZY21uT2dxbkpBQlpsbFl5dkQyM0lyVDhxZTdMMEpWYjVuQXNYeXdjLW5tRmxsWU5vR2NoTmlmM0I1bnBUUjBnNjZzMFdLREd6MExiUmtHZVA3aWxnWVJCWGZaYnlIVDNReTVkaVdWTjN4MjF5bFRuUFhMRFFQbFB",
-       "s": "Al Arabiya English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794347280,
+       "t": "Iran war continues unabated! Two oil tankers hit mines and catch fire in Strait of Hormuz; 37 attacked last month, a record high",
+       "o": "伊朗戰火未歇！荷姆茲海峽2油輪觸雷起火 上月37艘遇襲創新高",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5636426",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794353267,
        "r": "known"
-      },
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "TW"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "US Fox News reports that the US moved 13 military aircraft from a second UK base after a new Iran threat. Yonhap puts the number at about 10.",
+     "stories": [
+      "s4"
+     ],
+     "sources": [
       {
-       "t": "Iran Unveils Underground 'Missile City' as Expert Notes Radar-Evasion Efforts",
-       "u": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTXU2Y0FaeURWSERaTTU3dlg2Z3YwUl9UM3RMajc3bk1YQ2hqeEJETk0wTWNUTkdDNGZINF9HSndENW13YmdzQXJKeFhvZWJnWUw2NThxaHJsYmNCSmJ0N2E5NjFjMFAycVlyNGpkdklfR2o3Q0F2R0NKUk8xQVJGTEktREtRMGtkNlpEZDZuUU1IeTFiN2xURk1zSjZKWlVrWDd2cEZJSXd4d1A5MGZBQkQ1V1c4dkQ0S1VxX05OY0ptZnFiY0g1dEdua1ZTd3VVTFBOUDU2bjB5ZWpZXy1qNWxkeWs2ZExzbVdSbXVEY0JJbGFXN2Q3SGhSUFo2eFpfY3JTajdVeG1ZdFFJ?oc=5",
-       "s": "Haaretz",
-       "c": "IL",
-       "l": "en",
-       "p": 1794342900,
-       "r": "known"
-      },
-      {
-       "t": "Iran unveils new underground 'missile city': What to know",
-       "u": "https://www.al-monitor.com/originals/2026/11/iran-unveils-new-underground-missile-city-what-know",
-       "s": "Al-Monitor",
+       "t": "US evacuates 13 military aircraft from second UK base as new Iran threat raises alarm",
+       "u": "https://www.foxnews.com/world/us-evacuates-13-military-aircraft-second-uk-base-new-iran-threat-raises-alarm",
+       "s": "Fox News World",
        "c": "US",
        "l": "en",
-       "p": 1794341425,
+       "p": 1794358411,
+       "r": "known"
+      },
+      {
+       "t": "US military aircraft, about 10, relocated from UK base amid Iran threats",
+       "o": "美 군용기 10여대, 이란 위협 속 영국 기지서 재배치",
+       "u": "https://www.yna.co.kr/view/AKR20261111048500009",
+       "s": "Yonhap Korean",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794357969,
        "r": "known"
       }
      ],
      "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "IL",
-      "SA",
+      "KR",
       "US"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "US prosecutors charged three Iran-linked men over a failed attack on the RAF Fairford base in the UK and related plots, according to BBC, Spiegel and Sydney Morning Herald reports. One outlet says the men are from Iran and Iraq and are tied to nearly 20 attacks or attempted attacks.",
+     "stories": [
+      "s9",
+      "s13",
+      "s17",
+      "s20"
+     ],
+     "sources": [
+      {
+       "t": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+       "u": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+       "s": "BBC News",
+       "c": "GB",
+       "l": "en",
+       "p": 1794358880,
+       "r": "known"
+      },
+      {
+       "t": "RAF Fairford: US charges alleged Iranian helpers after attempted attack",
+       "o": "RAF Fairford: USA klagen mutmaßliche Iranhelfer nach versuchtem Angriff an",
+       "u": "https://www.spiegel.de/ausland/raf-fairford-usa-klagen-mutmassliche-iranhelfer-nach-versuchtem-angriff-an-a-2a93f0bf-c2b0-45c9-913d-868396760e29#ref=rss",
+       "s": "Spiegel Ausland",
+       "c": "DE",
+       "l": "de",
+       "p": 1794355080,
+       "r": "known"
+      },
+      {
+       "t": "Three charged with plotting attacks on RAF base, Jewish communities for Iran",
+       "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaTZYX01qVkNmMl9xbnZLQXhLVGdCSm1TeTQ4Sl82M2xCZnZVQTljWDlZbUZYU1E2V05XT3hZTVc2TWEteW5sX08wb04wRzJObkRqeGV2cjV4R1hfdnRkNXpTb2pGMFFoYmZCeC1kMkVCNEZkTXZBd2pOM0U4MjdfanRCZWlaaWZVbS1hRm5QR1RPQVJObUtVUVB3RzF0UGxOZ0YwMHh5dXMzbWE0SHdnLU9QNnNZMXpZV3dtODZuUXIxczNVMWx4cnkwemRTb3V2QURN?oc=5",
+       "s": "Sydney Morning Herald",
+       "c": "AU",
+       "l": "en",
+       "p": 1794352221,
+       "r": "known"
+      },
+      {
+       "t": "US charges three men from Iran and Iraq over nearly 20 attacks and attempted terrorist attacks",
+       "o": "EEUU imputa a tres hombres de Irán e Irak por cerca de 20 atentados y tentativas de ataques terroristas",
+       "u": "https://www.infobae.com/america/agencias/2026/11/10/eeuu-imputa-a-tres-hombres-de-iran-e-irak-por-cerca-de-20-atentados-y-tentativas-de-ataques-terroristas/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794351652,
+       "r": "known"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 4,
+     "countries": [
+      "AR",
+      "AU",
+      "DE",
+      "GB"
      ],
      "regions": 3,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "US prosecutors charge three Iranian agents over a failed attack on the RAF Fairford base in the UK, with a US Justice Department statement saying an Iran-backed militant helped plan it from prison. Reports also describe a foiled Iranian plot that included attacks on Jews in Europe.",
+     "text": "US Secretary of State Rubio says there is 'no need' for new large-scale attacks on Iran, while Iran denies US talks and calls on Washington to meet its demands to end the war. Oil fell to its lowest since August, according to Gulf News.",
      "stories": [
-      "s12",
-      "s16",
       "s2",
-      "s6"
+      "s12",
+      "s21",
+      "s19"
      ],
      "sources": [
       {
-       "t": "US charges three Iranian agents over the failed attack on RAF base",
-       "o": "Usa incriminano tre agenti iraniani per l'attacco fallito a base aerea Gb",
-       "u": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/10/usa-incriminano-tre-agenti-iraniani-per-lattacco-fallito-a-base-aerea_e3e39d28-84b4-4648-a204-d364b43f9734.html",
-       "s": "ANSA Mondo",
-       "c": "IT",
-       "l": "it",
-       "p": 1794344868,
+       "t": "Rubio sees 'no need' to attack Iran as talks rumble on",
+       "u": "https://news.rthk.hk/rthk/en/component/k2/1877312-20261111.htm",
+       "s": "RTHK International",
+       "c": "HK",
+       "l": "en",
+       "p": 1794354661,
        "r": "known"
       },
       {
-       "t": "U.S. charges three with planning Iran-backed terror attacks, including on U.K. airbase",
-       "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQanVFRHBrazVWY0hXaFl6YzB4YzkxSFlpMkRTRW0xQzYxTnJzSXJOaERlSTdMTEZqcGVuVHpXbm1Eb0NtNDM5MUtteDRlYUZPVExYeXRrei0xdmpPdTc5M0NfNzVhaEJYaDI5M0t6bXBneUQweWtueDNUbzZTQUwzVDBoUzlMeFAzYUU4?oc=5",
-       "s": "Globe and Mail",
-       "c": "CA",
+       "t": "Rubio says ‘no need’ to attack Iran as diplomacy gathers pace",
+       "u": "https://www.straitstimes.com/world/united-states/rubio-says-no-need-to-attack-iran-as-diplomacy-gathers-pace",
+       "s": "The Straits Times",
+       "c": "SG",
        "l": "en",
-       "p": 1794344197,
+       "p": 1794351600,
        "r": "known"
       },
       {
-       "t": "US Justice Department: Iran-backed group member helped plan attack on UK air base while in prison",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914520",
-       "s": "Jerusalem Post",
-       "c": "IL",
+       "t": "Iran war live: Hegseth survives impeachment bid; Iran denies US talks",
+       "u": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
        "l": "en",
-       "p": 1794350008,
+       "p": 1794355286,
        "r": "known"
       },
       {
-       "t": "Iran-backed militant helped plot attack on UK's Fairford base from US jail, Justice Department says",
-       "u": "https://www.al-monitor.com/originals/2026/11/iran-backed-militant-helped-plot-attack-uks-fairford-base-us-jail-justice",
-       "s": "Al-Monitor",
-       "c": "US",
+       "t": "\"Engage In Diplomacy\": Iran Calls On US To Meet Its Demands To End War",
+       "u": "https://www.ndtv.com/world-news/iran-calls-on-us-to-meet-its-demands-to-end-war-12310307#publisher=newsstand",
+       "s": "NDTV World",
+       "c": "IN",
        "l": "en",
-       "p": 1794347191,
+       "p": 1794351097,
        "r": "known"
       },
       {
-       "t": "Iran-backed militant helped plot attack on UK’s Fairford base from US jail, Justice Department says",
-       "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTmE5WkMtcGVyOE90ajhmbGFHWW5FOFZjTjVOSjF5Rl9XbURuRlBEcnNmbEFHd1lrRzB0NEUyMk5rNjEzdDJXb3Bxb2tPejVfdWY3UU9ZdWtUSHJFMzZhTEg3T2h5eDhiamo3ZV9KZkw5dUFPcXVleTRUWnlNdG11d3NWaFlwV2ozeUZCYVp0T1NaaFZ1Y04weGZXcks3dXQ1VjFWLTI0UTQ0Zk44R1dFaWpCWGN5eUxzeFl2TUNZNXNJQ1FvWEdqWm9oaUFOY0tySGc?oc=5",
-       "s": "Arab News",
-       "c": "SA",
+       "t": "Oil hits lowest since August as Trump holds off on Iran strikes",
+       "u": "https://gulfnews.com/business/energy/oil-hits-lowest-since-august-as-trump-holds-off-on-iran-strikes-1.500743137",
+       "s": "Gulf News",
+       "c": "AE",
        "l": "en",
-       "p": 1794344530,
+       "p": 1794351825,
        "r": "known"
       }
      ],
-     "headlines": 7,
-     "outlets": 7,
+     "headlines": 6,
+     "outlets": 5,
      "independent": 5,
      "countries": [
-      "AR",
-      "CA",
-      "GB",
-      "IL",
-      "IT",
-      "SA",
-      "US"
+      "AE",
+      "HK",
+      "IN",
+      "QA",
+      "SG"
      ],
-     "regions": 5,
+     "regions": 4,
      "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Whether the reported two-week pause holds and whether talks are confirmed by Washington or Tehran",
-    "Independent confirmation of the cause of the third tanker blast and any new shipping attacks in Hormuz",
-    "Whether smoke reported from an island in the strait is confirmed, and what it indicates"
+    "Whether the indirect talks through intermediaries move forward, and whether Iran confirms them",
+    "Independent confirmation of the reported mine strikes on tankers in Hormuz",
+    "Further US military aircraft movements from UK bases"
    ],
    "window_hours": 3,
-   "headlines_read": 49,
-   "outlets_read": 32,
-   "countries_read": 19,
-   "languages_read": 13,
+   "headlines_read": 36,
+   "outlets_read": 23,
+   "countries_read": 18,
+   "languages_read": 9,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
