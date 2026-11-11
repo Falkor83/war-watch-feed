@@ -1697,9 +1697,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Iran's Guards say tankers burned in Hormuz; US moves aircraft from a second UK base",
+   "status": "Steady: Iran says enriched uranium stays home; Hormuz tanker blast reported only by Iran",
    "summary": "The US and Israel have been at war with Iran, and a June ceasefire collapsed within weeks; the US now runs a naval blockade around the Strait of Hormuz. On Nov 10 Iran's Revolutionary Guards said tankers had burned or hit a mine in the strait, while ADNOC reported a ship damaged in UAE waters and the UK maritime agency a tanker hit off Oman; how these link is unclear. Rubio said the blockade and sanctions mean major combat is not needed, but he called Iran's terms unacceptable. The US Justice Department charged three men it says acted for the IRGC and Kataib Hezbollah, and Britain says Iran was behind a September incident at RAF Fairford. US aircraft have now moved out of a second British base after a reported Iranian threat.",
    "latest": [
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T12:35:06Z",
+     "text": "Iran's security chief says enriched nuclear material will not be allowed to leave the country. Reports carried by outlets in several regions say the same, and Iran told Russia it is keeping all nuclear material in the country.",
+     "outlet": "Reuters",
+     "country": "United Kingdom",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSmRMSFZZUld1UEFab291N25WYXZVNENjbmtrWVU0OEEwZm84Z2RONXZHM0JnY2FId2ROLTRvek9lWmZiSFNQNlMwVVpVQ0Q1V3NsSDk1alc5Z0JoMExVY3NpYjVSVDhXd3RtYmo2M2lsdHoydlUteHlDMkp5QlZsWGQxam1JUXFuRkV0UHhOTVB0ZWtxeUhCTkNHNkRMMG5TaUdQaHBUYTlmMkhBRjBWUkZUTlNMVU1ISzFfVlduXzBJd3p0U0psdDNTa1F4Zw?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T12:35:06Z",
+     "text": "Iran condemned at the UN a $20 million US reward for information on its nuclear programme, which Tehran called 'repugnant'.",
+     "outlet": "L'Orient-Le Jour",
+     "country": "Lebanon",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUEJXTENGaVpqcnFwWUtSZndzTjJFYThLRml3S2RYaFJYQlB0M2V5ZllpZ2lTTEFLZHEwN0xsaGNWSExFMlNWNm81NzdvcjRkY3dqbDZzM0E5Wmkxa2d1d05qSkFlVnZLNDUwQl9IVWc3cHhsdy1tdW4wVFRtMzZaUUlXbk1SSDZaQmNrQlBuemUxSmdCX3laSU1rcWFQeTBEZFJoNE1iQzRNdw?oc=5",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T12:35:06Z",
+     "text": "Reports from six independent outlets say US Treasury Secretary Scott Bessent has moved to live at a military base after what Iran has called threats.",
+     "outlet": "Asharq Al-Awsat",
+     "country": "Saudi Arabia",
+     "url": "https://news.google.com/rss/articles/CBMitAVBVV95cUxOQ3Z5N1FGVjVQcFJFVUNpX0VBdS1pa0ltaEpENmNXb2g0dVdWTU9ZTTZiS3dmT2R5VmZFZjZEOVVERzVuVkhWc25GX1QtajdGTWZGb1JlLVA5bEdRRGFxYkpSNktfSUJYdDRtMlVPX1ZVNHROeFZjaXprUEIwZVI5eVZxUUlrNUZBaGl5WEpmcGhqc281Y2FiYkY5QVpLVDIyc2d0Y3VTbVdCRjFRLUx0SUl1dXNTaG5wbWNEQ0FxQkNUMXhETUdkTUhHeTRiWTh3aDlFUGVUbjVuenBQVVV3akdyZ3hMaUs2VF9iRkwzQjJXVlFQUFF0Q3RmQUtlanRsd09HQ1h1Wm1VTGZoNG5HajNTVjc4NDRqWE9QVFlIVWh3Wk1OcW5ZdTBaMndBOG91Nk5ya2NKYkl1Skg2M19WbWYtRlloQ1c1V1BIdzQ3VnlJdEdRZVJnNW5DSWsxRWNXSFdsOVdqT3dOX1lrS1dTVnlTdXNFREdFMjVlbUt3eVM1NU9tSGRnNHVfLVlwbWl2ZTJYS01xaVBiV3U4ZjBMVkV",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-11",
      "text": "Headline (translated from ko): US military aircraft, about 10, relocated from UK base amid Iran threats [story carried by 26 independent sources in 23 countries (AU, BE, BR, CA, EC, ES)]",
@@ -1747,36 +1780,6 @@
      "country": "Saudi Arabia",
      "url": "https://english.aawsat.com/node/5339976",
      "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-11",
-     "text": "Iran's top security official denies that any talks with the US are under way and says Hormuz will stay shut until its demands are met; this comes from one Qatari outlet. US Secretary of State Marco Rubio says there is 'no need' to attack Iran as diplomacy gathers pace, and says economic pressure is working.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbjE0dVFENk1CX2NnRnVSUEtzYzVDWlpBVlFvMnlNMnV5SjBncHJNcFI4WmRjNmdJWGtwXzJ6aUtYOUs4Ynl1bVUzVm5TWXFxNGxfSzRtaEY0czhyRTFSVU1mN3NqNW1BWm1WT1dCS2dZbEVTQ0hBcGRsM05RUWVQRGNUVHF1ZGhHOUZNVGVqR19keHFTUzJ3V0JwMnpFWF9uWDBYV2l3M01SN01ROFc2bzJHZUt1Tjg?oc=5",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-11",
-     "text": "US Secretary of State Marco Rubio says economic pressure is working and large-scale military action against Iran is not needed. Reports say Trump told the Qatar PM he believes the war is effectively over.",
-     "outlet": "The Hindu",
-     "country": "India",
-     "url": "https://www.thehindu.com/news/international/rubio-says-no-need-to-attack-iran-as-diplomacy-gathers-pace/article71688168.ece",
-     "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-11",
-     "text": "Iran's top security official says no talks are underway with the US. A French outlet describes a clash of versions over whether negotiations are taking place.",
-     "outlet": "The Hindu",
-     "country": "India",
-     "url": "https://www.thehindu.com/news/international/no-talks-underway-with-us-says-iran-top-security-official/article71688184.ece",
-     "region": "south-asia",
      "tag": "non-party",
      "state_media": false
     }
@@ -11996,11 +11999,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-08T08:43:24Z",
-     "headline": "Tankers hit mines and caught fire in Hormuz; ship strikes by both sides reported",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-08T11:26:58Z",
      "headline": "Iran lifts 2,000 km missile limit as tanker fires and Gulf blasts are reported",
      "direction": "escalating"
@@ -12114,70 +12112,147 @@
      "at": "2026-11-11T09:07:54Z",
      "headline": "Steady: Iran says tanker hit mine in Hormuz; Tehran denies talks, Rubio backs pressure",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-11T12:35:06Z",
+     "headline": "Steady: Iran says enriched uranium stays home; Hormuz tanker blast reported only by Iran",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-11T09:07:54Z",
-   "next_at": "2026-11-11T12:07:54Z",
-   "headline": "Steady: Iran says tanker hit mine in Hormuz; Tehran denies talks, Rubio backs pressure",
+   "updated_at": "2026-11-11T12:35:06Z",
+   "next_at": "2026-11-11T15:35:06Z",
+   "headline": "Steady: Iran says enriched uranium stays home; Hormuz tanker blast reported only by Iran",
    "direction": "steady",
    "points": [
     {
-     "text": "Iran's army says an oil tanker caught fire east of the Strait of Hormuz after hitting a mine. The report comes from Iranian state media and is carried by outlets in Britain, Russia, Saudi Arabia and Turkey. A separate British military report describes an incident involving a tanker in the strait.",
+     "text": "Iran's security chief says enriched nuclear material will not be allowed to leave the country. Reports carried by outlets in several regions say the same, and Iran told Russia it is keeping all nuclear material in the country.",
      "stories": [
-      "s4",
-      "s17",
-      "s31"
+      "s1",
+      "s24",
+      "s13",
+      "s28"
      ],
      "sources": [
       {
-       "t": "Iranian army says oil tanker ablaze in Hormuz Strait after hitting mine",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-army-says-oil-tanker-ablaze-hormuz-strait-after-hitting-mine",
-       "s": "Middle East Eye",
+       "t": "Iran will not allow enriched nuclear material to leave the country, security chief says",
+       "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSmRMSFZZUld1UEFab291N25WYXZVNENjbmtrWVU0OEEwZm84Z2RONXZHM0JnY2FId2ROLTRvek9lWmZiSFNQNlMwVVpVQ0Q1V3NsSDk1alc5Z0JoMExVY3NpYjVSVDhXd3RtYmo2M2lsdHoydlUteHlDMkp5QlZsWGQxam1JUXFuRkV0UHhOTVB0ZWtxeUhCTkNHNkRMMG5TaUdQaHBUYTlmMkhBRjBWUkZUTlNMVU1ISzFfVlduXzBJd3p0U0psdDNTa1F4Zw?oc=5",
+       "s": "Reuters",
        "c": "GB",
        "l": "en",
-       "p": 1794381552,
+       "p": 1794398668,
        "r": "known"
       },
       {
-       "t": "Oil tanker on fire in Strait of Hormuz after hitting mine, Iran’s Army says",
-       "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcVltMGdIaUU2U0QxZUdySk5INGgxTlVsaGYxbDRjYUdRbUg4LUx3MmtfaDZHTDlsaDVJRzlyV3dlQTMyMlR5STBGRDYySTd0NzBzRlEydmJwSW1wUllHbGZUcHVoZFBobkcxbmozM2daOUNueUxuZjkwM05XalcyZ09uVkpYdW56RWdYUUFpdXdhcDJfdEQwNmMyV3dyblBQdVVvSGxOVWJRMmtBOXMzczhNaFI0SUZLWTZHVFBYS2lPQ2fSAcgBQVVfeXFMTnQxNmxuZFY1R3NMYV9ld3ZJbkt5QmN0bGhUcU14LWEyLWI2eEVBa1F6OXltVmVaeDVyempkaEdmUWVsaGdKdHpyMHJuMERENjZRdUpyZVhRRm94LUJzcmQtM00wbHkzNkVFazFUdGcyQndBbjR5ME00bE1lRGx3d21adUtCMllMNnNOVXliZkhBa0ZQaHJTNEJVUVlDWmpQNVo1RmxyRE5Fa1FKNkk1aTJ3dElpTWVBQWpiME5EVWM3Mm9BYk1YQjQ?oc=5",
-       "s": "Al Arabiya English",
+       "t": "Rezaei: Iran will not allow enriched nuclear materials to leave the country",
+       "o": "رضائي: إيران لن تسمح بخروج المواد النووية المخصبة",
+       "u": "https://aawsat.com/node/5340103",
+       "s": "Asharq Al-Awsat",
        "c": "SA",
-       "l": "en",
-       "p": 1794380400,
+       "l": "ar",
+       "p": 1794398202,
        "r": "known"
       },
       {
-       "t": "Violating oil tanker catches fire east of Strait of Hormuz: Iran Army",
-       "u": "https://en.irna.ir/news/86318775/Violating-oil-tanker-catches-fire-east-of-Strait-of-Hormuz-Iran",
-       "s": "IRNA English",
-       "c": "IR",
+       "t": "Iran says will not allow enriched nuclear material to leave country",
+       "u": "https://timesofindia.indiatimes.com/world/middle-east/any-new-attack-will-be-met-with-strikes-on-bases-iran-warns-us-rules-out-nuclear-material-transfer/articleshow/135735218.cms",
+       "s": "Times of India",
+       "c": "IN",
        "l": "en",
-       "p": 1794383616,
-       "r": "state"
+       "p": 1794397627,
+       "r": "known"
       },
       {
-       "t": "Iran says a tanker struck a mine in the Strait of Hormuz",
-       "o": "В Иране заявили о подрыве танкера на мине в Ормузском проливе",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28305469",
-       "s": "TASS",
+       "t": "Iran will not allow enriched nuclear material to leave the country, security chief says",
+       "u": "https://www.al-monitor.com/originals/2026/11/iran-will-not-allow-enriched-nuclear-material-leave-country-security-chief-says",
+       "s": "Al-Monitor",
+       "c": "US",
+       "l": "en",
+       "p": 1794394048,
+       "r": "known"
+      },
+      {
+       "t": "Iran notified Russia of its decision to keep all nuclear materials in the country",
+       "o": "Иран уведомил Россию о решении оставить все ядерные материалы в стране",
+       "u": "https://ria.ru/20261111/rossiya-2130844371.html",
+       "s": "RIA Novosti",
        "c": "RU",
        "l": "ru",
-       "p": 1794380655,
+       "p": 1794390389,
        "r": "state"
+      }
+     ],
+     "headlines": 15,
+     "outlets": 14,
+     "independent": 10,
+     "countries": [
+      "CA",
+      "GB",
+      "IL",
+      "IN",
+      "KR",
+      "RU",
+      "SA",
+      "SG",
+      "US"
+     ],
+     "regions": 8,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "Iran condemned at the UN a $20 million US reward for information on its nuclear programme, which Tehran called 'repugnant'.",
+     "stories": [
+      "s4",
+      "s5"
+     ],
+     "sources": [
+      {
+       "t": "Iran slams US's 'repugnant' $20mn reward for nuclear info",
+       "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUEJXTENGaVpqcnFwWUtSZndzTjJFYThLRml3S2RYaFJYQlB0M2V5ZllpZ2lTTEFLZHEwN0xsaGNWSExFMlNWNm81NzdvcjRkY3dqbDZzM0E5Wmkxa2d1d05qSkFlVnZLNDUwQl9IVWc3cHhsdy1tdW4wVFRtMzZaUUlXbk1SSDZaQmNrQlBuemUxSmdCX3laSU1rcWFQeTBEZFJoNE1iQzRNdw?oc=5",
+       "s": "L'Orient-Le Jour",
+       "c": "LB",
+       "l": "en",
+       "p": 1794397163,
+       "r": "known"
       },
       {
-       "t": "Iran: A tanker caught fire after hitting a sea mine in the Strait of Hormuz",
-       "o": "İran: Hürmüz Boğazı'nda bir tanker deniz mayınına çarparak alev aldı",
-       "u": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-bir-tanker-deniz-mayinina-carparak-alev-aldi-962900.html",
-       "s": "TRT Haber Dunya",
+       "t": "Iran Slams US’s ‘Repugnant’ $20Mn Reward for Nuclear Info",
+       "u": "https://english.aawsat.com/node/5340076",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794395607,
+       "r": "known"
+      },
+      {
+       "t": "Iran slams US’ ‘repugnant’ US$20 million reward for nuclear info",
+       "u": "https://www.straitstimes.com/world/middle-east/iran-slams-us-repugnant-25-million-reward-for-nuclear-info",
+       "s": "The Straits Times",
+       "c": "SG",
+       "l": "en",
+       "p": 1794391980,
+       "r": "known"
+      },
+      {
+       "t": "Iran slams US $20m nuclear intelligence reward",
+       "u": "https://punchng.com/iran-slams-us-20m-nuclear-intelligence-reward/?utm_source=rss.punchng.com&utm_medium=web",
+       "s": "Punch",
+       "c": "NG",
+       "l": "en",
+       "p": 1794389828,
+       "r": "known"
+      },
+      {
+       "t": "Iran rules out uranium transfer, condemns US $20M nuclear reward",
+       "u": "https://www.dailysabah.com/world/mid-east/iran-rules-out-uranium-transfer-condemns-us-20m-nuclear-reward",
+       "s": "Daily Sabah",
        "c": "TR",
-       "l": "tr",
-       "p": 1794381600,
+       "l": "en",
+       "p": 1794397020,
        "r": "known"
       }
      ],
@@ -12185,268 +12260,175 @@
      "outlets": 7,
      "independent": 5,
      "countries": [
-      "GB",
-      "IR",
+      "AR",
+      "LB",
+      "NG",
       "RU",
       "SA",
+      "SG",
       "TR"
      ],
-     "regions": 5,
-     "party_only": false,
-     "state": 3
-    },
-    {
-     "text": "Oil prices moved in both directions. Reports say oil rebounded as attacks on Hormuz shipping weakened hopes for a truce, while one Nigerian outlet reports oil fell below $90 for the first time in 4 months as Trump signalled de-escalation.",
-     "stories": [
-      "s20",
-      "s33",
-      "s28",
-      "s38"
-     ],
-     "sources": [
-      {
-       "t": "Oil Rebounds as Hormuz Shipping Attacks Blunt Hopes for Iran Truce",
-       "u": "https://english.aawsat.com/node/5339976",
-       "s": "Asharq Al-Awsat English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794380966,
-       "r": "known"
-      },
-      {
-       "t": "Oil rebounds as navigation fears in Hormuz return and hopes for de-escalation with Iran stall",
-       "o": "النفط يرتد صعوداً مع تجدد مخاوف الملاحة في هرمز وتعثر آمال التهدئة مع إيران",
-       "u": "https://aawsat.com/node/5339952",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1794375642,
-       "r": "known"
-      },
-      {
-       "t": "Oil prices rise amid attacks on ships in the Strait of Hormuz",
-       "o": "Нафта дорожчає на тлі атак по суднах в Ормузькій протоці",
-       "u": "https://www.ukrinform.ua/rubric-economy/4183606-nafta-dorozcae-na-tli-atak-po-sudnah-v-ormuzkij-protoci.html",
-       "s": "Ukrinform Ukrainian",
-       "c": "UA",
-       "l": "uk",
-       "p": 1794377992,
-       "r": "state"
-      },
-      {
-       "t": "Oil Price Falls Below $90 First Time in 4 Months as Trump Signals Iran De - escalation – THISDAYLIVE",
-       "u": "https://www.thisdaylive.com/2026/11/11/oil-price-falls-below-90-first-time-in-4-months-as-trump-signals-iran-de-escalation/",
-       "s": "thisdaylive.com",
-       "c": "NG",
-       "l": "en",
-       "p": 1794375000,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "NG",
-      "SA",
-      "UA"
-     ],
-     "regions": 3,
+     "regions": 6,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Iran's top security official denies that any talks with the US are under way and says Hormuz will stay shut until its demands are met; this comes from one Qatari outlet. US Secretary of State Marco Rubio says there is 'no need' to attack Iran as diplomacy gathers pace, and says economic pressure is working.",
+     "text": "Reports from six independent outlets say US Treasury Secretary Scott Bessent has moved to live at a military base after what Iran has called threats.",
      "stories": [
-      "s10",
-      "s22",
-      "s27"
+      "s3"
      ],
      "sources": [
       {
-       "t": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
-       "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbjE0dVFENk1CX2NnRnVSUEtzYzVDWlpBVlFvMnlNMnV5SjBncHJNcFI4WmRjNmdJWGtwXzJ6aUtYOUs4Ynl1bVUzVm5TWXFxNGxfSzRtaEY0czhyRTFSVU1mN3NqNW1BWm1WT1dCS2dZbEVTQ0hBcGRsM05RUWVQRGNUVHF1ZGhHOUZNVGVqR19keHFTUzJ3V0JwMnpFWF9uWDBYV2l3M01SN01ROFc2bzJHZUt1Tjg?oc=5",
+       "t": "US Treasury Secretary moves to live at a military base after Iranian threats",
+       "o": "وزير الخزانة الأميركي ينتقل للإقامة في قاعدة عسكرية بعد تهديدات إيرانية",
+       "u": "https://news.google.com/rss/articles/CBMitAVBVV95cUxOQ3Z5N1FGVjVQcFJFVUNpX0VBdS1pa0ltaEpENmNXb2g0dVdWTU9ZTTZiS3dmT2R5VmZFZjZEOVVERzVuVkhWc25GX1QtajdGTWZGb1JlLVA5bEdRRGFxYkpSNktfSUJYdDRtMlVPX1ZVNHROeFZjaXprUEIwZVI5eVZxUUlrNUZBaGl5WEpmcGhqc281Y2FiYkY5QVpLVDIyc2d0Y3VTbVdCRjFRLUx0SUl1dXNTaG5wbWNEQ0FxQkNUMXhETUdkTUhHeTRiWTh3aDlFUGVUbjVuenBQVVV3akdyZ3hMaUs2VF9iRkwzQjJXVlFQUFF0Q3RmQUtlanRsd09HQ1h1Wm1VTGZoNG5HajNTVjc4NDRqWE9QVFlIVWh3Wk1OcW5ZdTBaMndBOG91Nk5ya2NKYkl1Skg2M19WbWYtRlloQ1c1V1BIdzQ3VnlJdEdRZVJnNW5DSWsxRWNXSFdsOVdqT3dOX1lrS1dTVnlTdXNFREdFMjVlbUt3eVM1NU9tSGRnNHVfLVlwbWl2ZTJYS01xaVBiV3U4ZjBMVkV",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794397070,
+       "r": "known"
+      },
+      {
+       "t": "Over an \"advanced\" Iranian threat, the US government moved Scott Bessent to a military base",
+       "o": "Por una amenaza \"avanzada\" de Irán, el gobierno de Estados Unidos trasladó a Scott Bessent a una base militar",
+       "u": "https://www.clarin.com/mundo/amenaza-avanzada-iran-gobierno-estados-unidos-traslado-scott-bessent-base-militar_0_rlC0iLaWRx.html",
+       "s": "Clarin Mundo",
+       "c": "AR",
+       "l": "es",
+       "p": 1794395554,
+       "r": "known"
+      },
+      {
+       "t": "US Treasury chief Bessent moved to military base after ‘Iranian threats’",
+       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZ0ZLdTFrSVdfYnpLdjdqM2tqR0VwNUlWV1BMOXplblVvWWNUc2duc1AwVWFTdU8tMUdCekl4eVpRc2pFaUZkaGhvRjRRUlVvalBVN2NtWU5BQU5FQnY4cnVjUjlpdmdwZWlrcU42OGhfWWIxVlAyODF4enlPRGdIVTZ4TU9lM0N3bEtlb1JMdU5aVVNDZE1wV2E2S1p3cGdPMXdyNndtcmR3cC1UM3Z5Q2h30gG3AUFVX3lxTE50a0g5WnJOYmp6Zzc1aVJxSHlWcVg5U3NKVFF6TzlGQzFkWHNRak9DR0hPVGJnNmVSUHRIdDJFcXBOUUFoT29jQ1dqWnlydFdiemVrOVg3Qk4tRTRtWXJ3LVZhSHZiOHA0UlJmaEdZQ1VXWDl2Qll4VVA5VVRhLTk4NnhxNHdqal94X0tmSjJyMktsekdrbVdjMUR5SWVZcDNuMXlDeXNnRTBBZFF1T21YX0F5dkcxWQ?oc=5",
        "s": "Al Jazeera",
        "c": "QA",
        "l": "en",
-       "p": 1794385824,
+       "p": 1794392534,
        "r": "known"
       },
       {
-       "t": "Rubio says ‘no need’ to attack Iran as diplomacy gathers pace",
-       "u": "https://globalnation.inquirer.net/346911/rubio-says-no-need-to-attack-iran-as-diplomacy-gathers-pace",
-       "s": "Inquirer Global Nation",
-       "c": "PH",
+       "t": "US's Bessent moved to military base in wake of Iran’s threat",
+       "u": "https://en.mehrnews.com/news/249334/US-Treasury-Chief-Bessent-relocates-to-base-after-Iran-threat",
+       "s": "Mehr English",
+       "c": "IR",
        "l": "en",
-       "p": 1794379603,
-       "r": "known"
-      },
-      {
-       "t": "No strikes, no peace deal: How Trump plans to keep Iran under pressure",
-       "u": "https://timesofindia.indiatimes.com/world/us/no-strikes-no-peace-deal-how-trump-plans-to-keep-iran-under-pressure/articleshow/135727902.cms",
-       "s": "Times of India",
-       "c": "IN",
-       "l": "en",
-       "p": 1794378260,
-       "r": "known"
+       "p": 1794395653,
+       "r": "state"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 8,
+     "outlets": 6,
+     "independent": 6,
      "countries": [
-      "IN",
-      "PH",
-      "QA"
+      "AR",
+      "IR",
+      "QA",
+      "SA",
+      "TH",
+      "UA"
      ],
-     "regions": 3,
+     "regions": 5,
      "party_only": false,
-     "state": 0
+     "state": 1
     },
     {
-     "text": "Israeli Prime Minister Netanyahu is reported to be calling Trump daily to push for restarting military action. One Taiwanese outlet reports the two argued on the phone; that report rests on a single source. A Turkish outlet says a joint Israeli-US attack option is on the table.",
+     "text": "Iran's army and state media say an oil tanker exploded east of the Strait of Hormuz. Only Iranian-side reporting and one other outlet describe it, so this is Iran's account. Gulf News asks why Iran is stepping up tanker attacks during peace talks.",
      "stories": [
-      "s25",
-      "s37",
-      "s14"
+      "s16",
+      "s18"
      ],
      "sources": [
       {
-       "t": "Israeli PM Netanyahu calls Trump daily, pushing to restart military action against Iran | International",
-       "o": "傳尼坦雅胡天天致電川普 力促重啟對伊朗戰事 | 國際",
-       "u": "https://www.cna.com.tw/news/aopl/202611110113.aspx",
-       "s": "cna.com.tw",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794378600,
-       "r": "unrated"
+       "t": "Iran reports explosion on oil tanker in Strait of Hormuz",
+       "o": "Iran meldet Explosion an Öltankern in Hormus-Straße",
+       "u": "https://www.derstandard.at/story/3000000348697/iran-meldet-explosion-an-214ltanker-in-hormuz-stra223e?ref=rss",
+       "s": "Der Standard International",
+       "c": "AT",
+       "l": "de",
+       "p": 1794391630,
+       "r": "known"
       },
       {
-       "t": "Netanyahu's \"deadly back-to-back call\": Trump asked to attack Iran; reports the two shouted at each other on the phone",
-       "o": "納坦雅胡 「 奪命連環call 」 要川普攻打伊朗 ！ 傳兩人在電話裡大吵",
-       "u": "https://www.ettoday.net/news/20261111/3270220.htm",
-       "s": "ettoday.net",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794375000,
-       "r": "unrated"
-      },
-      {
-       "t": "Israel pushes the button: \"All calculations have changed!\" Joint attack option on Iran on the table",
-       "o": "İsrail düğmeye bastı: 'Bütün hesaplar değişti!' İran'a ortak saldırı seçeneği masada",
-       "u": "https://www.hurriyet.com.tr/dunya/israil-dugmeye-basti-butun-hesaplar-degisti-irana-ortak-saldiri-secenegi-masada-43373771",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794382388,
+       "t": "Why is Iran stepping up tanker attacks amid peace talks? The high-risk strategy behind the Hormuz escalation",
+       "u": "https://gulfnews.com/world/mena/why-is-iran-attacking-tankers-during-peace-talks-the-high-risk-strategy-behind-the-hormuz-escalation-1.500743616",
+       "s": "Gulf News",
+       "c": "AE",
+       "l": "en",
+       "p": 1794391250,
        "r": "known"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "TR",
-      "TW"
+      "AE",
+      "AT"
      ],
      "regions": 2,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran's Revolutionary Guards unveiled an underground 'missile city'. Bloomberg, cited by Ukrainian media, says Iran may produce 50 ballistic missiles a month, and a Chinese outlet reports Iran has recovered half its pre-war production capacity.",
+     "text": "US charges against three suspects accused of preparing attacks, including on the RAF Fairford base in Britain, are reported as linked to Iran. The story comes from US-side outlets and one BBC Russian report, and the UK is probing the alleged plot.",
      "stories": [
-      "s11",
-      "s3",
-      "s36",
-      "s1"
+      "s15",
+      "s35",
+      "s36"
      ],
      "sources": [
       {
-       "t": "Iran’s Revolutionary Guards Unveil Underground ‘Missile City’",
-       "u": "https://english.aawsat.com/node/5339992",
-       "s": "Asharq Al-Awsat English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794383940,
-       "r": "known"
-      },
-      {
-       "t": "Iran producing 50 missiles per month despite crippled industry",
-       "u": "https://www.japantimes.co.jp/news/2026/11/11/world/iran-50-missiles-month-industry/",
-       "s": "The Japan Times",
-       "c": "JP",
-       "l": "en",
-       "p": 1794383820,
-       "r": "known"
-      },
-      {
-       "t": "Iran may produce 50 ballistic missiles a month - Bloomberg",
-       "o": "Іран може виробляти пів сотні балістичних ракет на місяць - Bloomberg",
-       "u": "https://www.ukrinform.ua/rubric-world/4183615-iran-moze-viroblati-piv-sotni-balisticnih-raket-na-misac-bloomberg.html",
-       "s": "Ukrinform Ukrainian",
-       "c": "UA",
-       "l": "uk",
-       "p": 1794379518,
-       "r": "state"
-      },
-      {
-       "t": "How many ballistic missiles does Iran produce per month: intelligence data",
-       "o": "Сколько баллистических ракет производит Иран в месяц : данные разведки",
-       "u": "https://iz.ru/2199679/2026-11-11/bloomberg-zaiavilo-o-sposobnosti-irana-proizvodit-50-ballisticheskikh-raket-v-mesiatc",
-       "s": "iz.ru",
-       "c": "RU",
+       "t": "US charges three suspects with preparing attacks, including on the RAF Fairford British air base, reportedly linked to Iran",
+       "o": "США предъявили обвинения трем подозреваемым в подготовке нападений, в том числе на британскую базу ВВС Фэрфорд. Предположительно они связаны с Ираном",
+       "u": "https://www.bbc.com/russian/articles/cqvg239vg1gno?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Russian",
+       "c": "GB",
        "l": "ru",
-       "p": 1794378600,
-       "r": "unrated"
+       "p": 1794391827,
+       "r": "known"
       },
       {
-       "t": "Recovers half of pre-war production capacity, Iran still able to fight | Missiles",
-       "o": "恢复战前一半生产能力 ， 伊朗 仍能战斗 |导弹",
-       "u": "https://www.163.com/news/article/LBF2DAPF0001899O.html",
-       "s": "163.com",
-       "c": "CN",
-       "l": "zh",
-       "p": 1794375000,
-       "r": "unrated"
+       "t": "UK probes alleged Iran-backed plot against base hosting US forces",
+       "u": "https://www.npr.org/2026/11/11/nx-s1-6036786/uk-probes-alleged-iran-backed-plot-against-base-hosting-us-forces",
+       "s": "NPR",
+       "c": "US",
+       "l": "en",
+       "p": 1794391374,
+       "r": "known"
+      },
+      {
+       "t": "Iran-backed trio accused of plotting attacks on U.K. base hosting U.S. jets",
+       "u": "https://www.npr.org/2026/11/10/nx-s1-6036786/uk-iran-airbase-russia-spy",
+       "s": "NPR",
+       "c": "US",
+       "l": "en",
+       "p": 1794391374,
+       "r": "known"
       }
      ],
-     "headlines": 25,
-     "outlets": 23,
-     "independent": 20,
+     "headlines": 4,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "AT",
-      "AU",
-      "CN",
-      "DE",
       "GB",
-      "GR",
-      "HK",
-      "IT",
-      "JP",
-      "KR",
-      "LB",
-      "RU",
-      "SA",
-      "SG",
-      "TR",
-      "UA"
+      "US"
      ],
-     "regions": 8,
+     "regions": 2,
      "party_only": false,
-     "state": 2
+     "state": 0
     }
    ],
    "watch": [
-    "Whether Iran's Hormuz closure and the mine report lead to further tanker incidents or shipping halts",
-    "Whether Trump follows Netanyahu's push for renewed strikes or keeps the pressure-and-diplomacy line",
-    "Any confirmation of talks, since Iran denies them and the US line is that diplomacy is picking up"
+    "Whether independent outlets confirm the tanker explosion in Hormuz or only Iranian reports stand",
+    "Follow-up on the UK probe and the US charges over the alleged RAF Fairford plot",
+    "Reports of Trump–Netanyahu disagreement over restarting military action, which rest on single sources so far"
    ],
-   "window_hours": 4,
-   "headlines_read": 98,
-   "outlets_read": 64,
-   "countries_read": 31,
-   "languages_read": 17,
+   "window_hours": 3,
+   "headlines_read": 69,
+   "outlets_read": 50,
+   "countries_read": 24,
+   "languages_read": 13,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
