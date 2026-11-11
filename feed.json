@@ -1794,9 +1794,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Steady: Rubio backs pressure over strikes; Iran denies talks; Hormuz tanker incident",
+   "status": "Steady: Iran says tanker hit mine in Hormuz; Tehran denies talks, Rubio backs pressure",
    "summary": "The US and Israel have been at war with Iran, and the Strait of Hormuz has been largely shut to normal traffic. On Nov 9, Trump said Iran is militarily 'effectively over' and that renewed strikes are unlikely if Tehran signs a strong deal, while keeping the US naval blockade in place. Iran's security council secretary called the talk of negotiations invented and set seven conditions, including lifting the blockade and sanctions. The UK maritime agency UKMTO counted at least 11 ships attacked and three sunk in the week to Nov 6, with Hormuz transits about 65% below pre-conflict levels. US tankers and Ospreys left RAF Mildenhall after what US officials call a possible Iranian threat, and a US official says two UK bases moved to the second-highest protection level.",
    "latest": [
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T09:07:54Z",
+     "text": "Iran's army says an oil tanker caught fire east of the Strait of Hormuz after hitting a mine. The report comes from Iranian state media and is carried by outlets in Britain, Russia, Saudi Arabia and Turkey. A separate British military report describes an incident involving a tanker in the strait.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-army-says-oil-tanker-ablaze-hormuz-strait-after-hitting-mine",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T09:07:54Z",
+     "text": "Oil prices moved in both directions. Reports say oil rebounded as attacks on Hormuz shipping weakened hopes for a truce, while one Nigerian outlet reports oil fell below $90 for the first time in 4 months as Trump signalled de-escalation.",
+     "outlet": "Asharq Al-Awsat English",
+     "country": "Saudi Arabia",
+     "url": "https://english.aawsat.com/node/5339976",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-11",
+     "at": "2026-11-11T09:07:54Z",
+     "text": "Iran's top security official denies that any talks with the US are under way and says Hormuz will stay shut until its demands are met; this comes from one Qatari outlet. US Secretary of State Marco Rubio says there is 'no need' to attack Iran as diplomacy gathers pace, and says economic pressure is working.",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbjE0dVFENk1CX2NnRnVSUEtzYzVDWlpBVlFvMnlNMnV5SjBncHJNcFI4WmRjNmdJWGtwXzJ6aUtYOUs4Ynl1bVUzVm5TWXFxNGxfSzRtaEY0czhyRTFSVU1mN3NqNW1BWm1WT1dCS2dZbEVTQ0hBcGRsM05RUWVQRGNUVHF1ZGhHOUZNVGVqR19keHFTUzJ3V0JwMnpFWF9uWDBYV2l3M01SN01ROFc2bzJHZUt1Tjg?oc=5",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-11",
      "at": "2026-11-11T05:22:12Z",
@@ -1851,39 +1884,6 @@
      "region": "east-asia",
      "tag": "non-party",
      "state_media": false
-    },
-    {
-     "date": "2026-11-11",
-     "at": "2026-11-11T01:48:35Z",
-     "text": "US Fox News reports that the US moved 13 military aircraft from a second UK base after a new Iran threat. Yonhap puts the number at about 10.",
-     "outlet": "Fox News World",
-     "country": "United States",
-     "url": "https://www.foxnews.com/world/us-evacuates-13-military-aircraft-second-uk-base-new-iran-threat-raises-alarm",
-     "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-10",
-     "at": "2026-11-10T22:53:03Z",
-     "text": "Russian agency TASS, citing the I24 outlet, and Turkish state broadcaster TRT say the US postponed a possible attack on Iran by two weeks for indirect talks through intermediaries. US Secretary of State Rubio says no new large attacks are needed, but calls Iran's peace terms 'absurd'.",
-     "outlet": "TASS",
-     "country": "Russia",
-     "url": "https://tass.ru/mezhdunarodnaya-panorama/28304485",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": true
-    },
-    {
-     "date": "2026-11-10",
-     "at": "2026-11-10T22:53:03Z",
-     "text": "The IRGC Navy reports a blast in a third tanker in the Strait of Hormuz. This is an Iranian account and the cause has not been independently confirmed. An Arab outlet reports renewed escalation in the strait, and Brent fell 1.2% to $91.49 a barrel on hopes the war may end.",
-     "outlet": "IRNA English",
-     "country": "Iran",
-     "url": "https://en.irna.ir/news/86318445/IRGC-Navy-reports-blast-in-third-tanker-in-Hormuz-Strait",
-     "region": "iran",
-     "tag": "non-party",
-     "state_media": true
     }
    ],
    "us_impact": {
@@ -11881,11 +11881,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-08T05:53:05Z",
-     "headline": "Ship attacks spread to UAE coast as Iran sends nuclear proposal; talks still open",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-08T08:43:24Z",
      "headline": "Tankers hit mines and caught fire in Hormuz; ship strikes by both sides reported",
      "direction": "escalating"
@@ -11999,265 +11994,344 @@
      "at": "2026-11-11T05:22:12Z",
      "headline": "Steady: Rubio backs pressure over strikes; Iran denies talks; Hormuz tanker incident",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-11T09:07:54Z",
+     "headline": "Steady: Iran says tanker hit mine in Hormuz; Tehran denies talks, Rubio backs pressure",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-11T05:22:12Z",
-   "next_at": "2026-11-11T08:22:12Z",
-   "headline": "Steady: Rubio backs pressure over strikes; Iran denies talks; Hormuz tanker incident",
+   "updated_at": "2026-11-11T09:07:54Z",
+   "next_at": "2026-11-11T12:07:54Z",
+   "headline": "Steady: Iran says tanker hit mine in Hormuz; Tehran denies talks, Rubio backs pressure",
    "direction": "steady",
    "points": [
     {
-     "text": "US Secretary of State Marco Rubio says economic pressure is working and large-scale military action against Iran is not needed. Reports say Trump told the Qatar PM he believes the war is effectively over.",
+     "text": "Iran's army says an oil tanker caught fire east of the Strait of Hormuz after hitting a mine. The report comes from Iranian state media and is carried by outlets in Britain, Russia, Saudi Arabia and Turkey. A separate British military report describes an incident involving a tanker in the strait.",
      "stories": [
-      "s26",
-      "s28",
-      "s35",
-      "s36",
-      "s30"
-     ],
-     "sources": [
-      {
-       "t": "Rubio says no need to attack Iran as diplomacy gathers pace",
-       "u": "https://www.thehindu.com/news/international/rubio-says-no-need-to-attack-iran-as-diplomacy-gathers-pace/article71688168.ece",
-       "s": "The Hindu",
-       "c": "IN",
-       "l": "en",
-       "p": 1794364589,
-       "r": "known"
-      },
-      {
-       "t": "US Secretary of State: economic pressure is effective, no need for large-scale military operations against Iran",
-       "o": "美国务卿 ： 经济施压效果显著 没必要对伊朗开展大规模军事行动 _ 国际财经 _ 财经 _ 中金在线",
-       "u": "http://news.cnfol.com/guojicaijing/20261111/32420552.shtml",
-       "s": "news.cnfol.com",
-       "c": "CN",
-       "l": "zh",
-       "p": 1794364200,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran economic pain will intensify , says US Secretary of State Marco Rubio",
-       "u": "https://www.thehindubusinessline.com/news/world/irans-economic-pain-to-intensify-in-coming-months-says-marco-rubio/article71687530.ece",
-       "s": "thehindubusinessline.com",
-       "c": "IN",
-       "l": "en",
-       "p": 1794362400,
-       "r": "unrated"
-      },
-      {
-       "t": "Rubio Says US Economic Pressure Makes Iran Strikes Unnecessary",
-       "u": "https://www.deccanchronicle.com/west-asia/rubio-says-us-economic-pressure-makes-iran-strikes-unnecessary-2003379",
-       "s": "deccanchronicle.com",
-       "c": "IN",
-       "l": "en",
-       "p": 1794362400,
-       "r": "unrated"
-      },
-      {
-       "t": "Trump meets Qatar PM , believes Iran - US war is effectively over",
-       "u": "https://theshillongtimes.com/2026/11/11/trump-meets-qatar-pm-believes-iran-us-war-is-effectively-over/",
-       "s": "theshillongtimes.com",
-       "c": "IN",
-       "l": "en",
-       "p": 1794364200,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 5,
-     "countries": [
-      "CN",
-      "IN"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran's top security official says no talks are underway with the US. A French outlet describes a clash of versions over whether negotiations are taking place.",
-     "stories": [
-      "s22",
+      "s4",
       "s17",
-      "s23"
+      "s31"
      ],
      "sources": [
       {
-       "t": "No talks underway with U.S., says Iran top security official",
-       "u": "https://www.thehindu.com/news/international/no-talks-underway-with-us-says-iran-top-security-official/article71688184.ece",
-       "s": "The Hindu",
-       "c": "IN",
-       "l": "en",
-       "p": 1794365651,
-       "r": "known"
-      },
-      {
-       "t": "No negotiations are taking place with the United States: Iran - World",
-       "o": "امریکا کے ساتھ کوئی مذاکرات نہیں ہو رہے : ایران - World",
-       "u": "https://www.aaj.tv/news/30525002/irans-top-security-official-mohsen-rezaei-says-no-talks-underway-with-us",
-       "s": "aaj.tv",
-       "c": "PK",
-       "l": "ur",
-       "p": 1794369600,
-       "r": "unrated"
-      },
-      {
-       "t": "Clash of versions over US-Iran negotiations",
-       "o": "Choque de versiones sobre las negociaciones entre Estados Unidos e Irán",
-       "u": "https://www.france24.com/es/video/20261111-choque-de-versiones-sobre-las-negociaciones-entre-estados-unidos-e-ir%C3%A1n",
-       "s": "France 24 Spanish",
-       "c": "FR",
-       "l": "es",
-       "p": 1794365269,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "FR",
-      "IN",
-      "PK"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "UKMTO reports an incident involving a tanker in the Strait of Hormuz, covered by five independent outlets in five countries. Reuters reports oil rose from a two-month low as Hormuz shipping attacks offset truce hopes, while Indian reports put oil near $90 a barrel.",
-     "stories": [
-      "s2",
-      "s33",
-      "s21"
-     ],
-     "sources": [
-      {
-       "t": "UKMTO reports tanker incident in Hormuz Strait",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-reports-tanker-incident-hormuz-strait",
+       "t": "Iranian army says oil tanker ablaze in Hormuz Strait after hitting mine",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-army-says-oil-tanker-ablaze-hormuz-strait-after-hitting-mine",
        "s": "Middle East Eye",
        "c": "GB",
        "l": "en",
-       "p": 1794369321,
+       "p": 1794381552,
        "r": "known"
       },
       {
-       "t": "Report of an incident involving a vessel in the Strait of Hormuz",
-       "o": "بلاغ عن واقعة تتعلق بناقلة في مضيق هرمز",
-       "u": "https://www.skynewsarabia.com/middle-east/1903973-%D8%A8%D9%84%D8%A7%D8%BA-%D9%88%D8%A7%D9%82%D8%B9%D8%A9-%D8%AA%D8%AA%D8%B9%D9%84%D9%82-%D8%A8%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1794368484,
+       "t": "Oil tanker on fire in Strait of Hormuz after hitting mine, Iran’s Army says",
+       "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcVltMGdIaUU2U0QxZUdySk5INGgxTlVsaGYxbDRjYUdRbUg4LUx3MmtfaDZHTDlsaDVJRzlyV3dlQTMyMlR5STBGRDYySTd0NzBzRlEydmJwSW1wUllHbGZUcHVoZFBobkcxbmozM2daOUNueUxuZjkwM05XalcyZ09uVkpYdW56RWdYUUFpdXdhcDJfdEQwNmMyV3dyblBQdVVvSGxOVWJRMmtBOXMzczhNaFI0SUZLWTZHVFBYS2lPQ2fSAcgBQVVfeXFMTnQxNmxuZFY1R3NMYV9ld3ZJbkt5QmN0bGhUcU14LWEyLWI2eEVBa1F6OXltVmVaeDVyempkaEdmUWVsaGdKdHpyMHJuMERENjZRdUpyZVhRRm94LUJzcmQtM00wbHkzNkVFazFUdGcyQndBbjR5ME00bE1lRGx3d21adUtCMllMNnNOVXliZkhBa0ZQaHJTNEJVUVlDWmpQNVo1RmxyRE5Fa1FKNkk1aTJ3dElpTWVBQWpiME5EVWM3Mm9BYk1YQjQ?oc=5",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794380400,
        "r": "known"
       },
       {
-       "t": "UKMTO reports incident involving tanker in Strait of Hormuz",
-       "o": "UKMTO сообщил об инциденте с танкером в Ормузском проливе",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28305073",
+       "t": "Violating oil tanker catches fire east of Strait of Hormuz: Iran Army",
+       "u": "https://en.irna.ir/news/86318775/Violating-oil-tanker-catches-fire-east-of-Strait-of-Hormuz-Iran",
+       "s": "IRNA English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794383616,
+       "r": "state"
+      },
+      {
+       "t": "Iran says a tanker struck a mine in the Strait of Hormuz",
+       "o": "В Иране заявили о подрыве танкера на мине в Ормузском проливе",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28305469",
        "s": "TASS",
        "c": "RU",
        "l": "ru",
-       "p": 1794373097,
+       "p": 1794380655,
        "r": "state"
       },
       {
-       "t": "UKMTO reports suspicious activity involving tanker in Hormuz",
-       "u": "https://en.mehrnews.com/news/249319/UKMTO-reports-suspicious-activity-involving-tanker-in-Hormuz",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794370997,
-       "r": "state"
-      },
-      {
-       "t": "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes",
-       "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
-       "s": "Reuters",
-       "c": "GB",
-       "l": "en",
-       "p": 1794363000,
+       "t": "Iran: A tanker caught fire after hitting a sea mine in the Strait of Hormuz",
+       "o": "İran: Hürmüz Boğazı'nda bir tanker deniz mayınına çarparak alev aldı",
+       "u": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-bir-tanker-deniz-mayinina-carparak-alev-aldi-962900.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794381600,
        "r": "known"
       }
      ],
-     "headlines": 8,
-     "outlets": 8,
-     "independent": 7,
+     "headlines": 7,
+     "outlets": 7,
+     "independent": 5,
      "countries": [
-      "AE",
       "GB",
-      "IN",
       "IR",
       "RU",
+      "SA",
       "TR"
      ],
-     "regions": 6,
+     "regions": 5,
      "party_only": false,
-     "state": 4
+     "state": 3
     },
     {
-     "text": "The IRGC has displayed a new underground missile city. A Thai outlet reports Iran threatens to widen retaliation beyond the Middle East if attacked again; this is a single-source report.",
+     "text": "Oil prices moved in both directions. Reports say oil rebounded as attacks on Hormuz shipping weakened hopes for a truce, while one Nigerian outlet reports oil fell below $90 for the first time in 4 months as Trump signalled de-escalation.",
      "stories": [
-      "s4",
+      "s20",
+      "s33",
+      "s28",
       "s38"
      ],
      "sources": [
       {
-       "t": "Iran's IRGC unveils 'new' underground ‘missile city’ amid war tensions",
-       "u": "https://gulfnews.com/world/mena/irans-irgc-unveils-new-underground-missile-city-amid-war-tensions-1.500743202",
-       "s": "Gulf News",
-       "c": "AE",
+       "t": "Oil Rebounds as Hormuz Shipping Attacks Blunt Hopes for Iran Truce",
+       "u": "https://english.aawsat.com/node/5339976",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
        "l": "en",
-       "p": 1794362682,
+       "p": 1794380966,
        "r": "known"
       },
       {
-       "t": "US-Iran war LIVE: IRGC displays underground missile city; Rubio calls Tehran's demands ‘absurd’",
-       "u": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-irgc-donald-trump-marco-rubio-strait-of-hormuz-abbas-araghchi-qatar-mediation-peace-deal-saudi-101794360240894.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794361182,
+       "t": "Oil rebounds as navigation fears in Hormuz return and hopes for de-escalation with Iran stall",
+       "o": "النفط يرتد صعوداً مع تجدد مخاوف الملاحة في هرمز وتعثر آمال التهدئة مع إيران",
+       "u": "https://aawsat.com/node/5339952",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794375642,
        "r": "known"
       },
       {
-       "t": "Iran unveils new underground missile base, threatens to expand retaliation beyond the Middle East if attacked again",
-       "o": "อิหร่านเปิดตัวฐานขีปนาวุธใต้ดินแห่งใหม่ ขู่ตอบโต้ขยายวงเกินตะวันออกกลาง หากถูกโจมตีอีก",
-       "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11VmJ0UDMwRFIwZE9xMWVvcXRGNTI3M1QwZW9CZHNwSzN3dzA1cUE3ZURGTmdMR1Q4Wkhxa3JERUJOWl9iRlVrTVpscnRqOW5WdGxnRmpfekttV1U?oc=5",
-       "s": "www.thairath.co.th",
-       "c": "TH",
-       "l": "th",
-       "p": 1794361298,
+       "t": "Oil prices rise amid attacks on ships in the Strait of Hormuz",
+       "o": "Нафта дорожчає на тлі атак по суднах в Ормузькій протоці",
+       "u": "https://www.ukrinform.ua/rubric-economy/4183606-nafta-dorozcae-na-tli-atak-po-sudnah-v-ormuzkij-protoci.html",
+       "s": "Ukrinform Ukrainian",
+       "c": "UA",
+       "l": "uk",
+       "p": 1794377992,
+       "r": "state"
+      },
+      {
+       "t": "Oil Price Falls Below $90 First Time in 4 Months as Trump Signals Iran De - escalation – THISDAYLIVE",
+       "u": "https://www.thisdaylive.com/2026/11/11/oil-price-falls-below-90-first-time-in-4-months-as-trump-signals-iran-de-escalation/",
+       "s": "thisdaylive.com",
+       "c": "NG",
+       "l": "en",
+       "p": 1794375000,
        "r": "unrated"
       }
      ],
      "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
+     "countries": [
+      "NG",
+      "SA",
+      "UA"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Iran's top security official denies that any talks with the US are under way and says Hormuz will stay shut until its demands are met; this comes from one Qatari outlet. US Secretary of State Marco Rubio says there is 'no need' to attack Iran as diplomacy gathers pace, and says economic pressure is working.",
+     "stories": [
+      "s10",
+      "s22",
+      "s27"
+     ],
+     "sources": [
+      {
+       "t": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
+       "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbjE0dVFENk1CX2NnRnVSUEtzYzVDWlpBVlFvMnlNMnV5SjBncHJNcFI4WmRjNmdJWGtwXzJ6aUtYOUs4Ynl1bVUzVm5TWXFxNGxfSzRtaEY0czhyRTFSVU1mN3NqNW1BWm1WT1dCS2dZbEVTQ0hBcGRsM05RUWVQRGNUVHF1ZGhHOUZNVGVqR19keHFTUzJ3V0JwMnpFWF9uWDBYV2l3M01SN01ROFc2bzJHZUt1Tjg?oc=5",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1794385824,
+       "r": "known"
+      },
+      {
+       "t": "Rubio says ‘no need’ to attack Iran as diplomacy gathers pace",
+       "u": "https://globalnation.inquirer.net/346911/rubio-says-no-need-to-attack-iran-as-diplomacy-gathers-pace",
+       "s": "Inquirer Global Nation",
+       "c": "PH",
+       "l": "en",
+       "p": 1794379603,
+       "r": "known"
+      },
+      {
+       "t": "No strikes, no peace deal: How Trump plans to keep Iran under pressure",
+       "u": "https://timesofindia.indiatimes.com/world/us/no-strikes-no-peace-deal-how-trump-plans-to-keep-iran-under-pressure/articleshow/135727902.cms",
+       "s": "Times of India",
+       "c": "IN",
+       "l": "en",
+       "p": 1794378260,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
      "outlets": 3,
      "independent": 3,
      "countries": [
-      "AE",
       "IN",
-      "TH"
+      "PH",
+      "QA"
      ],
      "regions": 3,
      "party_only": false,
      "state": 0
+    },
+    {
+     "text": "Israeli Prime Minister Netanyahu is reported to be calling Trump daily to push for restarting military action. One Taiwanese outlet reports the two argued on the phone; that report rests on a single source. A Turkish outlet says a joint Israeli-US attack option is on the table.",
+     "stories": [
+      "s25",
+      "s37",
+      "s14"
+     ],
+     "sources": [
+      {
+       "t": "Israeli PM Netanyahu calls Trump daily, pushing to restart military action against Iran | International",
+       "o": "傳尼坦雅胡天天致電川普 力促重啟對伊朗戰事 | 國際",
+       "u": "https://www.cna.com.tw/news/aopl/202611110113.aspx",
+       "s": "cna.com.tw",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794378600,
+       "r": "unrated"
+      },
+      {
+       "t": "Netanyahu's \"deadly back-to-back call\": Trump asked to attack Iran; reports the two shouted at each other on the phone",
+       "o": "納坦雅胡 「 奪命連環call 」 要川普攻打伊朗 ！ 傳兩人在電話裡大吵",
+       "u": "https://www.ettoday.net/news/20261111/3270220.htm",
+       "s": "ettoday.net",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794375000,
+       "r": "unrated"
+      },
+      {
+       "t": "Israel pushes the button: \"All calculations have changed!\" Joint attack option on Iran on the table",
+       "o": "İsrail düğmeye bastı: 'Bütün hesaplar değişti!' İran'a ortak saldırı seçeneği masada",
+       "u": "https://www.hurriyet.com.tr/dunya/israil-dugmeye-basti-butun-hesaplar-degisti-irana-ortak-saldiri-secenegi-masada-43373771",
+       "s": "Hurriyet Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794382388,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "TR",
+      "TW"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran's Revolutionary Guards unveiled an underground 'missile city'. Bloomberg, cited by Ukrainian media, says Iran may produce 50 ballistic missiles a month, and a Chinese outlet reports Iran has recovered half its pre-war production capacity.",
+     "stories": [
+      "s11",
+      "s3",
+      "s36",
+      "s1"
+     ],
+     "sources": [
+      {
+       "t": "Iran’s Revolutionary Guards Unveil Underground ‘Missile City’",
+       "u": "https://english.aawsat.com/node/5339992",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794383940,
+       "r": "known"
+      },
+      {
+       "t": "Iran producing 50 missiles per month despite crippled industry",
+       "u": "https://www.japantimes.co.jp/news/2026/11/11/world/iran-50-missiles-month-industry/",
+       "s": "The Japan Times",
+       "c": "JP",
+       "l": "en",
+       "p": 1794383820,
+       "r": "known"
+      },
+      {
+       "t": "Iran may produce 50 ballistic missiles a month - Bloomberg",
+       "o": "Іран може виробляти пів сотні балістичних ракет на місяць - Bloomberg",
+       "u": "https://www.ukrinform.ua/rubric-world/4183615-iran-moze-viroblati-piv-sotni-balisticnih-raket-na-misac-bloomberg.html",
+       "s": "Ukrinform Ukrainian",
+       "c": "UA",
+       "l": "uk",
+       "p": 1794379518,
+       "r": "state"
+      },
+      {
+       "t": "How many ballistic missiles does Iran produce per month: intelligence data",
+       "o": "Сколько баллистических ракет производит Иран в месяц : данные разведки",
+       "u": "https://iz.ru/2199679/2026-11-11/bloomberg-zaiavilo-o-sposobnosti-irana-proizvodit-50-ballisticheskikh-raket-v-mesiatc",
+       "s": "iz.ru",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794378600,
+       "r": "unrated"
+      },
+      {
+       "t": "Recovers half of pre-war production capacity, Iran still able to fight | Missiles",
+       "o": "恢复战前一半生产能力 ， 伊朗 仍能战斗 |导弹",
+       "u": "https://www.163.com/news/article/LBF2DAPF0001899O.html",
+       "s": "163.com",
+       "c": "CN",
+       "l": "zh",
+       "p": 1794375000,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 25,
+     "outlets": 23,
+     "independent": 20,
+     "countries": [
+      "AT",
+      "AU",
+      "CN",
+      "DE",
+      "GB",
+      "GR",
+      "HK",
+      "IT",
+      "JP",
+      "KR",
+      "LB",
+      "RU",
+      "SA",
+      "SG",
+      "TR",
+      "UA"
+     ],
+     "regions": 8,
+     "party_only": false,
+     "state": 2
     }
    ],
    "watch": [
-    "Whether UKMTO or shipping firms confirm details of the Hormuz tanker incident",
-    "Whether Iran or the US confirms or denies any talks",
-    "Oil price moves after the Hormuz reports"
+    "Whether Iran's Hormuz closure and the mine report lead to further tanker incidents or shipping halts",
+    "Whether Trump follows Netanyahu's push for renewed strikes or keeps the pressure-and-diplomacy line",
+    "Any confirmation of talks, since Iran denies them and the US line is that diplomacy is picking up"
    ],
    "window_hours": 4,
-   "headlines_read": 89,
-   "outlets_read": 62,
-   "countries_read": 28,
-   "languages_read": 21,
+   "headlines_read": 98,
+   "outlets_read": 64,
+   "countries_read": 31,
+   "languages_read": 17,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
