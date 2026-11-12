@@ -877,6 +877,40 @@
    "added": "2026-11-11",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-12-ua-1",
+   "date": "2026-11-12",
+   "country": "UA",
+   "kind": "civil-preparedness",
+   "what": "Ukraine's parliament urges partner countries to join a coalition funding civil-defence shelters in Ukraine (single outlet)",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYVFncXpocFNOS3N1THNZdG95cFJxMTBRU0IxQm9fRnhtMkJhQzRmMnRiOEE4Vmc4OGxXcm1PRzd5WG1oQ3l3TWF4ZDdCVDA2Rk5wZTEwOEEzZkZTNndpOEZEQU9ETGl6TnQzQklyVVVEODdpNW9xMndDdDVpYlN0emJoU2lKTU5tblNiQWFSVHl5TnBmc2JzN3d3?oc=5",
+   "outlet": "Mezha.net",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-12",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-12-de-1",
+   "date": "2026-11-12",
+   "country": "DE",
+   "kind": "supply-reserves",
+   "what": "German cabinet approves a draft law to set up a gas reserve (S&P Global)",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUU9qelJFYUJneVliczQ4THBUSnV0VnJmMkJXRHNTMlRrNGFtYXVGc0FTWEVBLTVaY1htRWRFQ21DT2U0cU1Tc0pndS1GS1ZrTU9vODZrLXhDazM3QUctNFEyUTdHOVE1QlJ1eUd2OEVkdFF6ZGVaR1Z4V3c4ZVpKVm5teC1IMkRVTGc4VlU4Z2V5Y1NxczhibVZkNEJZUDU4LTV2NWRiUmhFU01XclVLdG1jZnAwajlh?oc=5",
+   "outlet": "S&P Global",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-12",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -2439,6 +2473,205 @@
    "url": "https://www.rfi.fr/es/europa/20261111-primera-jornada-de-di%C3%A1logos-entre-ucrania-y-rusia-fue-constructiva-dice-zelenski",
    "source": "corpus",
    "independent": 16
+  },
+  {
+   "id": "e-2026-11-12-7",
+   "date": "2026-11-11",
+   "kind": "news",
+   "what": "Escalating attacks between Riyadh and Ansar Allah: two ballistic missiles and two drones intercepted and destroyed in Saudi Arabia, explosions in Aden",
+   "countries": [
+    "AE",
+    "GB",
+    "IN",
+    "QA",
+    "SA",
+    "TR",
+    "US"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZQjIyMkdoNndkdmlzYkE5ME5oYmhySmNTdzduMnhfQ2JiZ0d2NjlxYzFxb2dMQWNqeGpkaWFPSk0zaWwxYmxmVGJGN3JSSGstR1lEWGRxMXlwVGlseUHSAWNBVV95cUxNN0NQQ0ZMWkV1djdjQWV3alJtNzZTaU56WWt6SXZaZ0NrNW9wOWl3TzVnWUoyN0ZOTWZzazRTMTZTR1Z0TXExdWctSVVic3N2QUU0TzJjTWNORWdOal9pdzhZZWc?oc=5",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-12-1",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "Abu Dhabi talks end... A prisoner exchange emerges from the table",
+   "countries": [
+    "AE",
+    "AR",
+    "AU",
+    "BG",
+    "CA",
+    "CU",
+    "DE",
+    "EG"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.hurriyet.com.tr/dunya/abu-dabi-muzakereleri-bitti-masadan-esir-takasi-cikti-43374997",
+   "source": "corpus",
+   "independent": 32
+  },
+  {
+   "id": "e-2026-11-12-2",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+   "countries": [
+    "AE",
+    "AU",
+    "BR",
+    "DE",
+    "ES",
+    "GB",
+    "IL",
+    "IN"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
+   "source": "corpus",
+   "independent": 20
+  },
+  {
+   "id": "e-2026-11-12-3",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "US envoys arrive in Moscow for latest round of Ukrainian peace talks with Putin",
+   "countries": [
+    "AE",
+    "AR",
+    "DE",
+    "GB",
+    "IL",
+    "IN",
+    "IT",
+    "LB"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.dailymaverick.co.za/article/2026-11-12-us-envoys-arrive-in-moscow-for-latest-round-of-ukrainian-peace-talks-with-putin/",
+   "source": "corpus",
+   "independent": 13
+  },
+  {
+   "id": "e-2026-11-12-4",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "Iran threatens attacks on US bases, including in Europe",
+   "countries": [
+    "AR",
+    "AT",
+    "BR",
+    "DE",
+    "ES",
+    "FR",
+    "GB",
+    "IL"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.spiegel.de/ausland/iran-droht-mit-angriffen-auf-us-stuetzpunkte-auch-in-europa-a-c1f311da-3602-4581-97af-29e89c00c491#ref=rss",
+   "source": "corpus",
+   "independent": 17
+  },
+  {
+   "id": "e-2026-11-12-5",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "Treasury Secretary Scott Bessent moves into military housing due to Iranian threats",
+   "countries": [
+    "AR",
+    "BR",
+    "CA",
+    "CO",
+    "ES",
+    "GB",
+    "HK",
+    "IR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.cbsnews.com/video/treasury-secretary-scott-bessent-moves-military-housing-iranian-threats/",
+   "source": "corpus",
+   "independent": 16
+  },
+  {
+   "id": "e-2026-11-12-6",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "Israeli military attacks Nasser Hospital in southern Gaza, at least 5 killed, civil defense says",
+   "countries": [
+    "AE",
+    "CA",
+    "EG",
+    "FR",
+    "GB",
+    "IN",
+    "LB",
+    "PK"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://www.bbc.com/japanese/articles/cmr4g09x7z9zo?at_medium=RSS&at_campaign=rss",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-12-7",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "Russian attacks kill 10, injure 40 across Ukraine over past day, as peace talks end",
+   "countries": [
+    "AR",
+    "BR",
+    "CG",
+    "GB",
+    "PL",
+    "RU",
+    "SG",
+    "TH"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://kyivindependent.com/russian-attacks-kill-10-injure-40-across-ukraine-over-past-day-as-peace-talks-end/",
+   "source": "corpus",
+   "independent": 12
+  },
+  {
+   "id": "e-2026-11-12-8",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "White House warns investigation may involve crimes; Democratic lawmaker fires back: Trump is also hiding something",
+   "countries": [
+    "BR",
+    "DE",
+    "ES",
+    "GB",
+    "IN",
+    "KR",
+    "TW",
+    "US"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.ltn.com.tw/news/world/breakingnews/5638394",
+   "source": "corpus",
+   "independent": 12
+  },
+  {
+   "id": "e-2026-11-12-9",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "Trump says \"we won\" the Iran war at Veterans Day ceremony",
+   "countries": [
+    "GB",
+    "HK",
+    "IN",
+    "JP",
+    "LB",
+    "PH",
+    "SA",
+    "SG"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.bbc.com/japanese/watch/cqy7r6415yn1o?at_medium=RSS&at_campaign=rss",
+   "source": "corpus",
+   "independent": 5
   }
  ]
 }

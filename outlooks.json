@@ -10,6 +10,13 @@
 "https://www.rferl.org/a/us-russia-ukraine-peace-talks-abu-dhabi-ceasefire/33889451.html",
 "https://www.latintimes.com/us-mediate-russia-ukraine-talks-abu-dhabi-600870",
 "https://english.cw.com.tw/article/article.action?id=5107"
+],
+"result": "happened",
+"checked": "2026-11-12",
+"why": "Euronews reports the two days of US-mediated talks in Abu Dhabi ended with no breakthrough on a ceasefire or on territory. The only agreement was in principle, on a prisoner exchange. AP, carried by PBS, also reports no major breakthrough.",
+"evidence": [
+"https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+"https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough"
 ]
 },
 {
@@ -58,6 +65,13 @@
 "https://en.apa.az/cis-countries/kremlin-confirms-russia-us-ukraine-talks-in-abu-dhabi-on-november-10-11-533734",
 "https://meduza.io/en/news/2026/11/03/trilateral-talks-between-russia-ukraine-and-us-set-for-november-10-11-in-abu-dhabi",
 "https://www.kyivpost.com/post/88971"
+],
+"result": "happened",
+"checked": "2026-11-12",
+"why": "Euronews and AP (via PBS) report that the Abu Dhabi talks took place over two days and ended with a prisoner-exchange agreement but no comprehensive deal.",
+"evidence": [
+"https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+"https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough"
 ]
 },
 {
@@ -92,6 +106,13 @@
 "https://www.rte.ie/news/2026/1103/1597730-ukraine/",
 "https://thehill.com/policy/international/6200015-zelensky-witkoff-kushner-talks",
 "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa2M5NWVGa1FtV1RCalZ6UHFNSFVLSHJHVjhNUUNfbVRDRFJyaDYzZE5jRXBkSzY5Tm4yenZkRm9TYU5vckoyVEJ1dk1YbFE1TG5WYmFmRWdlN1RKUTFhRE1zYW9zaTNxNWRxMjRIX1NrOTNJVTdvRmppNjZ2ZEVaZkp0N1NKNmQwNTNVMlpLOUMwMEZVWEZ4aXJ3YlFtYlk?oc=5"
+],
+"result": "happened",
+"checked": "2026-11-12",
+"why": "Euronews reports that Russia and Ukraine held two days of talks in Abu Dhabi with US mediators. AP, via PBS, describes it as the first meeting in nine months.",
+"evidence": [
+"https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+"https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough"
 ]
 },
 {
@@ -188,6 +209,12 @@
 "https://ua.news/en/war-vs-rf/kreml-pidtverdiv-uchast-rosiyi-v-peregovorakh-shchodo-ukrayini-v-abu-dabi-10-11-listopada",
 "https://www.jpost.com/international/article-914121",
 "https://www.kyivpost.com/post/88971"
+],
+"result": "happened",
+"checked": "2026-11-12",
+"why": "The round went ahead, and Euronews reports it produced an agreement in principle on a prisoner exchange but no ceasefire or territorial deal. That matches the call as written.",
+"evidence": [
+"https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
 ]
 },
 {
@@ -225,6 +252,13 @@
 "https://tass.com/politics/2214649",
 "https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace/",
 "https://www.arabnews.com/world/kremlin-says-abu-dhabi-ukraine-talks-still-trilateral-3010692"
+],
+"result": "happened",
+"checked": "2026-11-12",
+"why": "The round took place and, per AP (via PBS), ended with a large prisoner exchange confirmed by both sides but no major breakthrough. The Moscow Times says neither side has shown major compromise.",
+"evidence": [
+"https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough",
+"https://www.themoscowtimes.com/2026/11/12/us-envoys-arrive-in-moscow-for-latest-round-of-talks-with-putin-a94236"
 ]
 },
 {
@@ -340,6 +374,43 @@
 "basis": [
 "https://news.google.com/rss/articles/CBMiywVBVV95cUxQTTAzXzFWQXk5VUFrSDlWYlJ0U3RZcFBhTl90R0tkY2hlZGtCYmFESE10TXd0X09rbE44RWpIZWk2ZGJoZWMwMmtIN293ckV3QzY1VW5WUnhuSFVRbmc5ZXFtVTNiQTJ3b3VCR24zRGlSU3IyVm1uajVOSWZrbnR2dkxYdm44THFaYktUdlZaZ2NwRG5wMUptYlcwZkZvdzU4bkNmUWFaUGpLdjN6cmwwQzVhNHZScFQtUnM2Z1VlWlFyRFVyd1B1TEpHWEIyaC1jbmJZQzZyejdEQ3NlT2k1QXNkMWdSN0ZnY0NLRGV4dTkwTDA5Wm5WZnJ1S1ZFdk9tdG84ZGdVbkNRQjZEU0xJcUxQVGgtSmd5LV8yNVF3Zm5ZODNxYVZwWEZCTUFIczY5MnJUNGVvZ3RjZU9zajlzZkFDQU9KVzktS0hkMlhaWjRkb1ZNLVJ",
 "https://news.google.com/rss/articles/CBMiUkFVX3lxTE55X1lxUUZLM0QxdnNSbHVpUG12MG1MX1lMRjdVM2NKLUZFT08xdmFzQkZETTNHNlV4dWRpS3ZIbEpoNzBkV2lwdXdwSEdTUWRrenc?oc=5"
+]
+},
+{
+"made": "2026-11-12",
+"hotspot": "russia-ukraine-war",
+"text": "A large prisoner exchange takes place in the coming weeks; Russian state media put it at two to three weeks.",
+"likelihood": "likely",
+"check_by": "2026-12-03",
+"basis": [
+"https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+"https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough",
+"https://rt-english.com/russia/648714-russia-ukraine-us-talks-recap/"
+]
+},
+{
+"made": "2026-11-12",
+"hotspot": "us-israel-iran-war",
+"text": "The US and Iran agree terms to reopen Hormuz within four weeks, given Iran's denial of talks and its list of conditions.",
+"likelihood": "unlikely",
+"check_by": "2026-12-10",
+"basis": [
+"https://www.arabnews.com/middle-east/iran-security-chief-threatens-to-strike-us-bases-in-europe-if-used-for-attacks-3011215",
+"https://newscord.org/article/iran-security-chief-mohsen-rezaei-warns-tehran-will-strike-us-bases-in-europe--Story_20261111_IranSaysItWillTarget4a5ffb75",
+"https://news.ltn.com.tw/news/world/breakingnews/5636409"
+]
+},
+{
+"made": "2026-11-12",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Houthi missile and drone launches toward Saudi Arabia continue over the next two weeks, as they have for several days running.",
+"likelihood": "likely",
+"check_by": "2026-11-26",
+"basis": [
+"https://english.news.cn/20261112/437f12a56b8e40b58459a23a66e872c4/c.html",
+"https://www.dawn.com/news/2043889/yemenis-mourn-dozens-killed-in-alleged-saudi-strikes",
+"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZQjIyMkdoNndkdmlzYkE5ME5oYmhySmNTdzduMnhfQ2JiZ0d2NjlxYzFxb2dMQWNqeGpkaWFPSk0zaWwxYmxmVGJGN3JSSGstR1lEWGRxMXlwVGlseUHSAWNBVV95cUxNN0NQQ0ZMWkV1djdjQWV3alJtNzZTaU56WWt6SXZaZ0NrNW9wOWl3TzVnWUoyN0ZOTWZzazRTMTZTR1Z0TXExdWctSVVic3N2QUU0TzJjTWNORWdOal9pdzhZZWc?oc=5",
+"https://news.google.com/rss/articles/CBMirAFBVV95cUxPcTJjYmlDdUZBZnpxSlQtSlp2M0NZREthTmNYWnUwNUgwa1NEZzFjMDhSUlRqcV9HSWc0Mm1ZejZWVnFOQ2lRMklqd2gyMEhuUXU0QnZGVmdqZkp4RFZLQTVJNUM1UGNEeGhITVlSY09waEpTYmxodDg0aVM0ZGdQLVoxOHBxYXAxaUwxVlUxWUd3cndzazhhVnlKalF3N3RwZUVMaUtlYzRTcmZS?oc=5"
 ]
 }
 ]
