@@ -1576,9 +1576,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Trump says no need for Iran deal; IRGC claims two tankers hit in Hormuz, unconfirmed",
+   "status": "Iran army says two tankers hit mines in Hormuz; Trump says no Iran deal needed",
    "summary": "The US and Israel have been at war with Iran, and Iran's pressure on shipping in the Strait of Hormuz is central to the conflict. Iran's Revolutionary Guards say explosions disabled two supertankers on the night of Nov 11 after they used an unauthorised route. AFP and Reuters reporting carried in Kenya says the claim is unconfirmed: UKMTO's latest entries match neither ship, and the US military recently said all mines were cleared. US Treasury Secretary Bessent moved into military housing after threats attributed to Iran. Iran's security chief Rezaei said Iran would strike US bases, including in Europe, if aircraft based there bomb Iran, and he denied any talks; Secretary of State Rubio says there is no need to restart combat operations.",
    "latest": [
+    {
+     "date": "2026-11-12",
+     "at": "2026-11-12T16:56:56Z",
+     "text": "Iran's army says two oil tankers caught fire after hitting sea mines in the Strait of Hormuz. Only Iranian state media and Turkish and Cuban outlets carry the claim, and no independent confirmation has been reported.",
+     "outlet": "TRT Haber Dunya",
+     "country": "Turkey",
+     "url": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-2-petrol-tankeri-deniz-mayinina-carparak-alev-aldi-963094.html",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-12",
+     "at": "2026-11-12T16:56:56Z",
+     "text": "Iran's military spokesperson says its response would be ten times harsher if needed. Iranian outlets also report that the Assembly of Experts and a top clerical body have called for a review of nuclear policy, including withdrawal from the Non-Proliferation Treaty. These are Iranian statements only.",
+     "outlet": "IRNA English",
+     "country": "Iran",
+     "url": "https://en.irna.ir/news/86320053/Severity-of-Iran-Armed-Forces-actions-will-increase-tenfold",
+     "region": "iran",
+     "tag": "non-party",
+     "state_media": true
+    },
+    {
+     "date": "2026-11-12",
+     "at": "2026-11-12T16:56:56Z",
+     "text": "In Israel, Eisenkot has urged Netanyahu to show restraint, and Bloomberg reports a clash between the two over whether Israel should strike Iran again. Trump has said the US no longer needs a deal with Iran, and has told Vance to focus on US cities instead.",
+     "outlet": "Tagesschau Ausland",
+     "country": "Germany",
+     "url": "https://www.tagesschau.de/ausland/asien/eisenkot-netanjahu-100.html",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-12",
      "at": "2026-11-12T14:10:39Z",
@@ -1631,36 +1664,6 @@
      "region": "china",
      "tag": "party-gov",
      "state_media": true
-    },
-    {
-     "date": "2026-11-12",
-     "text": "Kenyan outlet Streamline, citing AFP and Reuters, says the claim is unconfirmed: UKMTO's latest entries (Nov 10) match neither ship, and the US military recently said all mines were cleared.",
-     "outlet": "Streamline Feed",
-     "country": "Kenya",
-     "url": "https://streamlinefeed.co.ke/news/iran-says-two-supertankers-ablaze-in-strait-of-hormuz",
-     "region": "africa",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-12",
-     "text": "Headline (translated from es): Iran declares Argentina's armed forces terrorist organizations [story carried by 22 independent sources in 21 countries (AR, AZ, BR, CN, CO, DE)]",
-     "outlet": "El Pais",
-     "country": "Spain",
-     "url": "https://elpais.com/argentina/2026-11-11/iran-declara-organizaciones-terroristas-a-las-fuerzas-armadas-de-argentina.html",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-12",
-     "text": "The Revolutionary Guards say two oil tankers were 'disabled' by explosions in the Strait of Hormuz. Many outlets repeat the IRGC account, but independent shipping sources have not confirmed it. A separate Turkish report says attacks on ships are escalating in the strait.",
-     "outlet": "NOS Buitenland",
-     "country": "Netherlands",
-     "url": "https://nos.nl/l/2639133",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
     }
    ],
    "us_impact": {
@@ -11923,11 +11926,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-09T11:59:29Z",
-     "headline": "Trump rules out new strikes for now as US-Iran talks stall; Qatar mediating",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-09T15:39:50Z",
      "headline": "Trump to meet Qatar mediator as Iran halts tankers; Qeshm strike reports unconfirmed",
      "direction": "escalating"
@@ -12041,353 +12039,238 @@
      "at": "2026-11-12T14:10:39Z",
      "headline": "Trump says no need for Iran deal; IRGC claims two tankers hit in Hormuz, unconfirmed",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-12T16:56:56Z",
+     "headline": "Iran army says two tankers hit mines in Hormuz; Trump says no Iran deal needed",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-12T14:10:39Z",
-   "next_at": "2026-11-12T17:10:39Z",
-   "headline": "Trump says no need for Iran deal; IRGC claims two tankers hit in Hormuz, unconfirmed",
-   "direction": "escalating",
+   "updated_at": "2026-11-12T16:56:56Z",
+   "next_at": "2026-11-12T19:56:56Z",
+   "headline": "Iran army says two tankers hit mines in Hormuz; Trump says no Iran deal needed",
+   "direction": "steady",
    "points": [
     {
-     "text": "Trump said the US no longer needs a deal with Iran, according to several outlets from three countries. Iran's Khamenei adviser said no negotiations will be held unless the US accepts Tehran's conditions.",
+     "text": "Iran's army says two oil tankers caught fire after hitting sea mines in the Strait of Hormuz. Only Iranian state media and Turkish and Cuban outlets carry the claim, and no independent confirmation has been reported.",
      "stories": [
-      "s1",
-      "s26",
-      "s16"
+      "s4",
+      "s19"
      ],
      "sources": [
       {
-       "t": "Trump Says No Need for Iran Deal, Vance Should Focus on US",
-       "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU1lHUnN1dnl2QXc1YjB5aFhzbmxzU21iaEpsRDZkMkN0Y1lJMWJfYzc3S2tyYXgwMlBwYktkREFnbjJXT0R0MUZTUUJhRHB4Ml80cXlEcFlndHZVQW1iVkREN0pjZHQydmV1YzI4X1J6b3ZBQXRGa24xSUVJMGtGcFBXVG1RS1FxMnlpalQwU21wbmlvQ3lGYzFERHlZME1SVk9TWG9CRFVOaEdlTnhMTVRMeFRFb280NFZ4NXljcXRDbnpaMGlGM0VDTQ?oc=5",
-       "s": "Bloomberg",
-       "c": "US",
+       "t": "Iranian Army: 2 oil tankers caught fire after hitting sea mines in the Strait of Hormuz",
+       "o": "İran Ordusu: Hürmüz Boğazı'nda 2 petrol tankeri deniz mayınına çarparak alev aldı",
+       "u": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-2-petrol-tankeri-deniz-mayinina-carparak-alev-aldi-963094.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794495660,
+       "r": "known"
+      },
+      {
+       "t": "Two more offending oil tankers catch fire east of Strait of Hormuz: Iran Army",
+       "u": "https://en.irna.ir/news/86320137/Two-more-offending-oil-tankers-catch-fire-east-of-Strait-of-Hormuz",
+       "s": "IRNA English",
+       "c": "IR",
        "l": "en",
-       "p": 1794491261,
-       "r": "known"
-      },
-      {
-       "t": "US President Trump's statement raising tensions: We don't need a deal with Iran",
-       "o": "ABD Başkanı Trump'tan tansiyonu yükselten açıklama: İran ile anlaşmaya gerek yok",
-       "u": "https://www.hurriyet.com.tr/dunya/abd-baskani-trumptan-tansiyonu-yukselten-aciklama-iran-ile-anlasmaya-gerek-yok-43375970",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794490080,
-       "r": "known"
-      },
-      {
-       "t": "Trump announced that the US no longer needs a deal with Iran",
-       "o": "Трамп объявил, что США больше не нужна сделка с Ираном",
-       "u": "https://www.interfax.ru/world/1128626",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794489960,
-       "r": "known"
-      },
-      {
-       "t": "Khamenei's adviser: If (the US) does not accept our conditions, no negotiations will be held",
-       "o": "Hamaney'in danışmanı: (ABD) Şartlarımızı kabul etmezlerse hiçbir müzakere yapılmayacak",
-       "u": "https://www.aa.com.tr/tr/dunya/hamaneyin-danismani-abd-sartlarimizi-kabul-etmezlerse-hicbir-muzakere-yapilmayacak/4122363",
-       "s": "Anadolu Turkish",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794482686,
+       "p": 1794501059,
        "r": "state"
       },
       {
-       "t": "Vance considers direct talks with top Iranian security official to end war: WSJ - Region - World",
-       "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQWE5RkYtenpTa0lfVjlIanVURENrNHVROWx2eE5LWFlzVEVqX1lnX0tJZGYxRWxmUHc2LVNhdnA4dDNlcVF6WFR4T0s5U29aSENJRkd6VkJVNlpBeFVDZEhlcWFMSEZhd2tWNHQ0SGVxUGY5T2dmaG15NzZQbUEtZ3V1VEtYdEpMdlJjMmd6Zkh3b3Vydkk1NmpPbFV5YW8yYlJXVVh3ZUNlMWlxZ0ZLOEJWYlFxOUhTMjdKSA?oc=5",
-       "s": "Ahram Online",
-       "c": "EG",
-       "l": "en",
-       "p": 1794486751,
-       "r": "state"
+       "t": "Two supertankers suffer explosions in the Strait of Hormuz after transiting an unauthorized route",
+       "o": "Dos superpetroleros sufren explosiones en el estrecho de Ormuz tras transitar por ruta no autorizada",
+       "u": "http://www.cubadebate.cu/noticias/2026/11/12/dos-superpetroleros-sufren-explosiones-en-el-estrecho-de-ormuz-tras-transitar-por-ruta-no-autorizada/",
+       "s": "Cubadebate",
+       "c": "CU",
+       "l": "es",
+       "p": 1794493009,
+       "r": "known"
       }
      ],
-     "headlines": 9,
-     "outlets": 7,
-     "independent": 7,
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 3,
      "countries": [
-      "EG",
-      "RU",
-      "TR",
-      "US"
+      "CU",
+      "IR",
+      "TR"
      ],
      "regions": 3,
      "party_only": false,
-     "state": 6
+     "state": 2
     },
     {
-     "text": "The Revolutionary Guards say two supertankers exploded in the Strait of Hormuz. That claim comes only from Iranian-side and state outlets. Anadolu, citing the UKMTO maritime body, reports a tanker hit by munitions off Basra with many injured, but that account is from a single source.",
+     "text": "Iran's military spokesperson says its response would be ten times harsher if needed. Iranian outlets also report that the Assembly of Experts and a top clerical body have called for a review of nuclear policy, including withdrawal from the Non-Proliferation Treaty. These are Iranian statements only.",
      "stories": [
-      "s18",
-      "s32",
-      "s34",
-      "s12"
+      "s26",
+      "s9",
+      "s25",
+      "s20"
      ],
      "sources": [
       {
-       "t": "The Revolutionary Guard announces the explosion of two giant tankers in Hormuz",
-       "o": "«الحرس الثوري» يعلن انفجار ناقلتين عملاقتين في «هرمز»",
-       "u": "https://aawsat.com/node/5340464",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1794486287,
-       "r": "known"
-      },
-      {
-       "t": "Two supertankers with oil exploded in Hormuz — IRGC Navy",
-       "u": "https://tass.com/world/2216937",
-       "s": "TASS English",
-       "c": "RU",
+       "t": "Severity of Iran Armed Forces’ actions will increase tenfold, if needed: Military spokesperson",
+       "u": "https://en.irna.ir/news/86320053/Severity-of-Iran-Armed-Forces-actions-will-increase-tenfold",
+       "s": "IRNA English",
+       "c": "IR",
        "l": "en",
-       "p": 1794479703,
+       "p": 1794494497,
        "r": "state"
       },
       {
-       "t": "Two oil tankers burn in Hormuz: Iranian officials threaten Washington and Tel Aviv with a devastating response if confrontation resumes",
-       "o": "احتراق ناقلتي نفط في هرمز.. مسؤولون إيرانيون يتوعدون واشنطن وتل أبيب برد مدمر في حال تجدد المواجهة",
-       "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONms0SFFJcWtFSnQ1dU9zYzFZRFJtZlZ2SDhidXhMY09FMXlfcmZwdDNkc1pQRk1IWmJOYzNaekFPZXlGcVZ6T1hWemlJb2VRWXFtX0dHNVhxRWYzRXFKZHpKeG05Yk15SEFNM2JmazlRRUJBNnlnVldlcm51Uy0teUUta3IzOXZIVjY0cnJPeXhXSlg1VUMxUEJqaWM?oc=5",
-       "s": "Euronews",
-       "c": "FR",
-       "l": "ar",
-       "p": 1794479427,
+       "t": "Iran threatens \"ten times\" harsher response if United States resumes war",
+       "o": "Irán amenaza con una respuesta \"diez veces más\" dura si Estados Unidos reanuda la guerra",
+       "u": "https://www.elmundo.es/internacional/2026/11/12/6af5dfe9e9cf4a4b658b459b.html",
+       "s": "El Mundo Internacional",
+       "c": "ES",
+       "l": "es",
+       "p": 1794499230,
        "r": "known"
       },
       {
-       "t": "UKMTO: A tanker was hit by munitions in the Persian Gulf off Basra, with many injured",
-       "o": "UKMTO: Basra Körfezi'nde bir tankere mühimmat isabet etti, çok sayıda yaralı var",
-       "u": "https://www.aa.com.tr/tr/dunya/ukmto-basra-korfezinde-bir-tankere-muhimmat-isabet-etti-cok-sayida-yarali-var/4122581",
-       "s": "Anadolu Turkish",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794488264,
-       "r": "state"
+       "t": "Iran’s Assembly of Experts Calls for Review of Withdrawal From Nuclear Non-Proliferation Treaty",
+       "u": "https://iranwire.com/en/news/160151-irans-assembly-of-experts-calls-for-review-of-withdrawal-from-nuclear-non-proliferation-treaty/",
+       "s": "IranWire",
+       "c": "IR",
+       "l": "en",
+       "p": 1794494885,
+       "r": "known"
+      },
+      {
+       "t": "Iran's top clerical governing body calls for nuclear doctrine review",
+       "u": "https://www.iranintl.com/en/202611121701",
+       "s": "Iran International",
+       "c": "IR",
+       "l": "en",
+       "p": 1794500577,
+       "r": "known"
       }
      ],
      "headlines": 4,
      "outlets": 4,
      "independent": 4,
      "countries": [
-      "FR",
-      "RU",
-      "SA",
-      "TR"
+      "ES",
+      "IR"
      ],
-     "regions": 4,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "Iran has again threatened US bases, including in Europe, with a response it says would be far harsher. An Iranian army chief warned of a more severe response to any aggression. These are Iranian statements, not independent confirmations.",
-     "stories": [
-      "s4",
-      "s24",
-      "s7",
-      "s35"
-     ],
-     "sources": [
-      {
-       "t": "Iran threatened strikes on US bases in Europe",
-       "o": "Иран пригрозил ударами по базам США в Европе",
-       "u": "https://www.kommersant.ru/doc/9095633",
-       "s": "Kommersant",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794488140,
-       "r": "known"
-      },
-      {
-       "t": "Iran threatens: response to American strike will be \"10 times more severe\" — by Investing.com",
-       "o": "איראן מאיימת: תגובה לתקיפה אמריקאית תהיה \"חמורה פי 10\" מאת Investing.com",
-       "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKemVxUmxEektFNmFQVmxOd2dzZjY1dVo0Z2J1YV83ZF9SWjRhdC1rblJnYk0yTDMzcGE3X1loWERzNDNDdXhIZDBaRUlKNExadFptTnY3WDAxN3ZjWDJzTmFVVnpfaFIteGc?oc=5",
-       "s": "Investing.com",
-       "c": "IL",
-       "l": "he",
-       "p": 1794490410,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran threatens US bases in Europe and a new targeting of oil tankers in the Strait of Hormuz",
-       "o": "إيران تهدد القواعد الأمريكية في أوروبا واستهداف جديد لناقلات النفط بمضيق هرمز",
-       "u": "https://news.google.com/rss/articles/CBMixwVBVV95cUxPanJfdzBYc2FJZjZSMW5LNFd4SzhBX2pKb3p6RTJpWlhfd1JqQXN2enRaVDZVT3YtLVpGVWwybjdITlU4QWxOeHBoZXFuRzZJMmhjOTNleUU4VlpsSFdWWU9NZGlYYXExdFl4Yk80a01mZFZUeTNiSnRvckVqVkR3am45eFNZRVhEUlA4dzA0Q01rbWR1Z1BlQVY0VHRLMWtEd3NSaHNsVkF2Z1hSUm9MQldYYWhnUHZtbkpwS1NsUG9oM3V1dzh1VzBOWnlUY2ZseFM2blJEdXdWWDctMHlfbmFjVXhaZmVkY0N4T1pMR24xX3I5N0xGZk9QMFZTVHo5Z04tdjc4VzBEOU1mdEk4RXNib29ic0NBZXF6MHFKS2hPd0I5YU1yM0xxYk01SnJXU3ZkUzF4MXFZQlRCNDB6dTFOTlRuNjJLSV9CZVJCSWt1MnZRX0NsVFNiZjlkRGlZZzI1eV9pYThoaXhkYXB6RDVMa2c4MWdaT1dJaDZrNG55VHhrQmxWSW9KejFlREUxZGdrZ09Udmk5OWp4MFdaUGR",
-       "s": "مونت كارلو الدولية",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794483374,
-       "r": "unrated"
-      },
-      {
-       "t": "Iranian military intends to respond to any US attack far more harshly",
-       "o": "Иранские военные намерены ответить на любую атаку США намного жестче",
-       "u": "https://www.interfax.ru/world/1128627",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794490500,
-       "r": "known"
-      },
-      {
-       "t": "Iran’s Army chief warns of more severe, decisive response to enemy’s act of aggression",
-       "u": "https://en.irna.ir/news/86320031/Iran-s-Army-chief-warns-of-more-severe-decisive-response-to",
-       "s": "IRNA English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794489473,
-       "r": "state"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 5,
-     "countries": [
-      "IL",
-      "IR",
-      "LB",
-      "RU"
-     ],
-     "regions": 3,
+     "regions": 2,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Israeli press reports describe a sharp Trump–Netanyahu phone clash over resuming the war. Israel's military is reportedly preparing for a possible attack on Iran, and an Israeli opposition leader warned against military decisions that endanger the country.",
+     "text": "In Israel, Eisenkot has urged Netanyahu to show restraint, and Bloomberg reports a clash between the two over whether Israel should strike Iran again. Trump has said the US no longer needs a deal with Iran, and has told Vance to focus on US cities instead.",
      "stories": [
-      "s17",
-      "s23",
-      "s19",
-      "s25",
-      "s30",
-      "s27"
+      "s15",
+      "s28",
+      "s1",
+      "s14"
      ],
      "sources": [
       {
-       "t": "Striking claim from the Israeli press! Crisis on the Washington-Tel Aviv line: Trump and Netanyahu clash",
-       "o": "İsrail basınından çarpıcı iddia! Washington-Tel Aviv hattında kriz: Trump ve Netanyahu birbirine girdi",
-       "u": "https://www.hurriyet.com.tr/dunya/israil-basinindan-carpici-iddia-washington-tel-aviv-hattinda-kriz-trump-ve-netanyahu-birbirine-girdi-43375839",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794486420,
+       "t": "Iran war: Eisenkot calls on Netanyahu to show restraint",
+       "o": "Iran-Krieg: Eisenkot ruft Netanjahu zu Zurückhaltung auf",
+       "u": "https://www.tagesschau.de/ausland/asien/eisenkot-netanjahu-100.html",
+       "s": "Tagesschau Ausland",
+       "c": "DE",
+       "l": "de",
+       "p": 1794493694,
        "r": "known"
       },
       {
-       "t": "Trump And Netanyahu Get Into \"Shouting Match From Hell\" Over Iran War: Report",
-       "u": "https://www.ndtv.com/world-news/donald-trump-and-benjamin-netanyahu-get-into-shouting-match-from-hell-over-iran-war-report-12317412#publisher=newsstand",
-       "s": "NDTV World",
-       "c": "IN",
+       "t": "Netanyahu and Eisenkot Clash Over Whether Israel Should Strike Iran Again",
+       "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLXJ1dVZKR0xXQkJ5YVFoN1dkcVdyZDNmb0t3M2t4Tm9yMjVBQ29WUU85VktCdHVDT2p2MlhSMmp2MG1Lc1o5TzJhaTlzX2RrYW9GX0d5eUxSRTRvYmd6VFhZSWhCeER2dG10WkVwSlFpZjQ2UElxSnpuYmYxcDNHRnBQcU5BZUdGM2NTS2ZSd3kxdWJkUkZlcExFUkIxZG1MdVd3dFhTWF83bG1XdDdBRmxzdzNhNWdfYWJlMVhjRGVXQQ?oc=5",
+       "s": "Bloomberg",
+       "c": "US",
        "l": "en",
-       "p": 1794483547,
+       "p": 1794493369,
        "r": "known"
       },
       {
-       "t": "Israeli press: Trump and Netanyahu shouted at each other over the phone about Iran",
-       "o": "İsrail basını: Trump ve Netanyahu İran konusunda telefonda birbirlerine bağırdı",
-       "u": "https://www.aa.com.tr/tr/dunya/israil-basini-trump-ve-netanyahu-iran-konusunda-telefonda-birbirlerine-bagirdi/4122463",
-       "s": "Anadolu Turkish",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794485440,
-       "r": "state"
+       "t": "Trump says US doesn't need Iran deal, charges Vance with investigating Democrat city corruption",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914741",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794498129,
+       "r": "known"
       },
       {
-       "t": "Israeli military receives orders to prepare for a possible attack on Iran",
-       "o": "Quân đội Israel nhận lệnh chuẩn bị cho khả năng tấn công Iran",
-       "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMUFXWDN1Wi1NWmhrNGRxRXJIam52ck4wSHQ4aTF6Z09GTGViTzNVSUtheC04Zi1FOS04azlReHFXR1RvSDlXaDZXZHBsMjYybjdXa0NJRk9mR09oM1RtaHB1T2pucGRPLW1xX0NGblYzVVNIQWEwNm1hOXpCa1hLRHhyY3J6ZjhWbVhKNFN1WFRWV0N0ZEVEb20wOGZDUDlCMFZfT21B?oc=5",
-       "s": "Báo Tuổi Trẻ",
-       "c": "VN",
-       "l": "vi",
-       "p": 1794483360,
-       "r": "unrated"
+       "t": "Trump says the US no longer needs a deal with Iran: Vance now has a new task",
+       "o": "Трамп заявив, що США більше не потрібна угода з Іраном: у Венса тепер нове завдання",
+       "u": "https://www.pravda.com.ua/news/2026/11/12/8062562/",
+       "s": "Ukrainska Pravda UA",
+       "c": "UA",
+       "l": "uk",
+       "p": 1794496740,
+       "r": "known"
       },
       {
-       "t": "Israel's military readiness against Iran increases; disagreement in Tel Aviv and Washington over renewed attack",
-       "o": "افزایش آمادگی نظامی اسرائیل در برابر ایران؛ اختلاف در تل‌آویو و واشنگتن بر سر حمله مجدد",
-       "u": "https://www.rfi.fr/fa/%D8%AC%D9%87%D8%A7%D9%86/20261112-%D8%A7%D9%81%D8%B2%D8%A7%DB%8C%D8%B4-%D8%A2%D9%85%D8%A7%D8%AF%DA%AF%DB%8C-%D9%86%D8%B8%D8%A7%D9%85%DB%8C-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%DB%8C%D9%84-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%9B-%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%81-%D8%AF%D8%B1-%D8%AA%D9%84-%D8%A2%D9%88%DB%8C%D9%88-%D9%88-%D9%88%D8%A7%D8%B4%D9%86%DA%AF%D8%AA%D9%86-%D8%A8%D8%B1-%D8%B3%D8%B1-%D8%AD%D9%85%D9%84%D9%87-%D9%85%D8%AC%D8%AF%D8%AF",
-       "s": "RFI Persian",
-       "c": "FR",
-       "l": "fa",
-       "p": 1794480202,
+       "t": "Trump sees no need for a US deal with Iran and asks Vance to focus on corruption",
+       "o": "Trump ve innecesario un pacto de EEUU con Irán y pide a Vance enfocarse en la corrupción",
+       "u": "https://www.infobae.com/america/agencias/2026/11/12/trump-ve-innecesario-un-pacto-de-eeuu-con-iran-y-pide-a-vance-enfocarse-en-la-corrupcion/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794496553,
        "r": "known"
       }
      ],
-     "headlines": 7,
-     "outlets": 5,
-     "independent": 5,
+     "headlines": 10,
+     "outlets": 10,
+     "independent": 9,
      "countries": [
-      "FR",
-      "IN",
-      "TR",
-      "VN"
+      "AE",
+      "AR",
+      "AT",
+      "DE",
+      "IL",
+      "RU",
+      "TW",
+      "UA",
+      "US"
      ],
-     "regions": 4,
+     "regions": 7,
      "party_only": false,
      "state": 2
     },
     {
-     "text": "Belgium has also blamed Iranian actors for attacks on supermarket cooling systems, following France. Brazil's Lula, meeting Iran's president, backed a diplomatic exit and free passage through Hormuz.",
+     "text": "US sanctions have kept an Iranian delegation's plane from landing in Basra, so the team is travelling by land. One Indian outlet reports that Treasury Secretary Bessent has moved to a military base amid Iranian threats; this is a single-source report.",
      "stories": [
-      "s14",
-      "s21",
-      "s13",
-      "s9"
+      "s17",
+      "s18"
      ],
      "sources": [
       {
-       "t": "Belgium also points to Iran over attacks on supermarket refrigerators: \"Security services have detected links with Iranian actors",
-       "o": "Bélgica también apunta a Irán por los ataques a los frigoríficos de los supermercados: \"Los servicios de seguridad han detectado vínculos con actores iraníes\"",
-       "u": "https://www.elmundo.es/internacional/2026/11/12/6af5ab74fdddff03488b45a5.html",
-       "s": "El Mundo Internacional",
-       "c": "ES",
-       "l": "es",
-       "p": 1794487804,
+       "t": "US sanctions prevent Iran team's plane from landing in Basra... and the delegation arrives by land via Shalamcheh",
+       "o": "العقوبات الأميركية تمنع طائرة منتخب إيران من الهبوط في البصرة... والبعثة تصل براً عبر الشلامجة",
+       "u": "https://aawsat.com/node/5340500",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794493187,
        "r": "known"
       },
       {
-       "t": "Cooling system attacks: After France, Belgium also holds Iran responsible",
-       "o": "Kühlanlagen-Angriffe: Nach Frankreich macht auch Belgien den Iran verantwortlich",
-       "u": "https://www.derstandard.at/story/3000000348950/k252hlanlagen-angriffe-auch-belgien-sieht-spuren-in-den-iran?ref=rss",
-       "s": "Der Standard International",
-       "c": "AT",
-       "l": "de",
-       "p": 1794484480,
-       "r": "known"
-      },
-      {
-       "t": "Lula meets Iran's president and advocates a diplomatic exit from the war",
-       "o": "Lula se reúne com presidente do Irã e defende saída diplomática para guerra",
-       "u": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/lula-se-reune-com-presidente-do-ira-e-defende-saida-diplomatica-para-guerra.shtml",
-       "s": "Folha Mundo",
-       "c": "BR",
-       "l": "pt",
-       "p": 1794488100,
-       "r": "known"
-      },
-      {
-       "t": "Lula defends free passage through the Strait of Hormuz in meeting with the Iranian president",
-       "o": "Lula defiende la libre circulación del estrecho de Ormuz en reunión con presidente iraní",
-       "u": "https://www.infobae.com/america/agencias/2026/11/12/lula-defiende-la-libre-circulacion-del-estrecho-de-ormuz-en-reunion-con-presidente-irani/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1794490344,
+       "t": "Scott Bessent relocates to military base amid Iranian threats, becomes third cabinet member to do so after Marco Rubio, Pete Hegseth",
+       "u": "https://timesofindia.indiatimes.com/world/us/scott-bessent-relocates-to-military-base-amid-iranian-threats-becomes-third-cabinet-member-to-do-so-after-marco-rubio-pete-hegseth/articleshow/135773008.cms",
+       "s": "Times of India",
+       "c": "IN",
+       "l": "en",
+       "p": 1794493132,
        "r": "known"
       }
      ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "AR",
-      "AT",
-      "BR",
-      "ES"
+      "IN",
+      "SA"
      ],
      "regions": 2,
      "party_only": false,
@@ -12395,15 +12278,15 @@
     }
    ],
    "watch": [
-    "Independent confirmation of the Hormuz tanker explosions from shipping or maritime monitors",
-    "Whether the reported Vance–Iranian security official contact is confirmed by either government",
-    "Israeli cabinet decisions and any move to resume strikes on Iran"
+    "Whether UKMTO or an independent maritime body confirms the tanker explosions and mine claims in Hormuz",
+    "Any Israeli cabinet decision on a new strike on Iran",
+    "Whether Iran moves formally on the Non-Proliferation Treaty review"
    ],
-   "window_hours": 4,
-   "headlines_read": 55,
-   "outlets_read": 42,
-   "countries_read": 21,
-   "languages_read": 12,
+   "window_hours": 3,
+   "headlines_read": 44,
+   "outlets_read": 37,
+   "countries_read": 22,
+   "languages_read": 9,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
