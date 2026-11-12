@@ -1697,9 +1697,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Talks idea still unconfirmed as US Treasury chief moves to a base over Iran threats",
+   "status": "Iran threatens US bases and leaders as Israel reportedly readies attack; talks unconfirmed",
    "summary": "The US and Israel have been at war with Iran, and a June ceasefire collapsed within weeks; the US now runs a naval blockade around the Strait of Hormuz. On Nov 10 Iran's Revolutionary Guards said tankers had burned or hit a mine in the strait, while ADNOC reported a ship damaged in UAE waters and the UK maritime agency a tanker hit off Oman; how these link is unclear. Rubio said the blockade and sanctions mean major combat is not needed, but he called Iran's terms unacceptable. The US Justice Department charged three men it says acted for the IRGC and Kataib Hezbollah, and Britain says Iran was behind a September incident at RAF Fairford. US aircraft have now moved out of a second British base after a reported Iranian threat.",
    "latest": [
+    {
+     "date": "2026-11-12",
+     "at": "2026-11-12T05:08:19Z",
+     "text": "Iran's threats widened: outlets in several countries report that Tehran threatens US bases from the Middle East to Europe, and an Iranian official reportedly threatened Trump and Netanyahu. A senior official says these bases would be targeted if the US renews attacks.",
+     "outlet": "Gulf News",
+     "country": "United Arab Emirates",
+     "url": "https://gulfnews.com/world/mena/us-israel-iran-war-tehran-threatens-american-bases-from-middle-east-to-europe-houthi-missile-debris-lands-in-makkah-eisenkot-cautions-netanyahu-1.500744472",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-12",
+     "at": "2026-11-12T05:08:19Z",
+     "text": "Israeli press reports that the Security Cabinet ordered the army to step up preparations for a possible attack on Iran. Al Jazeera reports Israel reportedly readies an attack, and Iran warns of expanded retaliation. Both are single-source reports.",
+     "outlet": "TRT Haber Dunya",
+     "country": "Turkey",
+     "url": "https://www.trthaber.com/haber/dunya/israil-basini-guvenlik-kabinesi-orduya-irana-olasi-bir-saldiri-icin-hazirliklari-artirma-talimati-verdi-962984.html",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-12",
+     "at": "2026-11-12T05:08:19Z",
+     "text": "Liberty Times reports a US-Iran clash that killed 23 US troops, while Trump says the conflict will end soon. Yonhap reports Iran struck navigation support facilities in Oman, targeting merchant ships it says transit with US backing. Neither report has been confirmed by other outlets.",
+     "outlet": "Liberty Times",
+     "country": "Taiwan",
+     "url": "https://news.ltn.com.tw/news/world/breakingnews/5637823",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-12",
      "at": "2026-11-12T01:53:19Z",
@@ -1752,39 +1785,6 @@
      "country": "Philippines",
      "url": "https://globalnation.inquirer.net/346972/iran-threatens-to-strike-us-bases-in-europe-if-used-for-attacks",
      "region": "southeast-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-11",
-     "at": "2026-11-11T23:07:31Z",
-     "text": "Iran has set seven conditions for reopening the Strait of Hormuz and resuming talks with the US, according to Indian media. Iran's parliament speaker Ghalibaf says the strait is never going back to its pre-war status.",
-     "outlet": "Hindustan Times World",
-     "country": "India",
-     "url": "https://www.hindustantimes.com/world-news/us-news/iran-sets-7-conditions-for-reopening-strait-of-hormuz-resuming-talks-with-us-101794424536128.html",
-     "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-11",
-     "at": "2026-11-11T18:36:57Z",
-     "text": "Reuters, citing sources, reports Iran attacked shipping navigation systems near Oman's Didamar island. Only one independent source reports this so far.",
-     "outlet": "Reuters",
-     "country": "United Kingdom",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMFB3XzM5cVFXcFdvTWhfdVJSY21DLVNHRE81YXh1Ykt3MlY0M29GY05FbFEwd2hMT3lTR1duaVV6UGdac003SWM2cTJpb1FqX2UzdnZqNW5YSEpEOGd2dmZ2VW5XOTZzcGlSNGl5dENGNFQ4c2JGYU9yaXV2RU84QXVRQVVtR3EtYmpaNXRKM3d2ZHJVdzlzOWxrMktEVVZYZzJVeVVzcmtMM0JLYmxsZVQ5YlRWN2tRd0UyM2dUXy04eW5PWlE?oc=5",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-11",
-     "at": "2026-11-11T18:36:57Z",
-     "text": "Iran's IRGC Navy says mines struck two tankers in the Strait of Hormuz, a claim carried by Iranian media. TASS reports Iran and Oman have reached a mutual understanding on routes through the strait.",
-     "outlet": "Tehran Times",
-     "country": "Iran",
-     "url": "https://www.tehrantimes.com/news/532069/Mines-strike-two-tankers-in-Strait-of-Hormuz-IRGC-Navy",
-     "region": "iran",
      "tag": "non-party",
      "state_media": false
     }
@@ -12004,11 +12004,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-08T23:06:57Z",
-     "headline": "Trump says new Iran strikes 'highly unlikely' if talks progress; Qeshm blasts reported",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-09T01:57:08Z",
      "headline": "Talks stalled as Rubio calls Iran's demands 'outrageous'; Trump says new strikes unlikely",
      "direction": "steady"
@@ -12122,237 +12117,154 @@
      "at": "2026-11-12T01:53:19Z",
      "headline": "Talks idea still unconfirmed as US Treasury chief moves to a base over Iran threats",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-12T05:08:19Z",
+     "headline": "Iran threatens US bases and leaders as Israel reportedly readies attack; talks unconfirmed",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-12T01:53:19Z",
-   "next_at": "2026-11-12T04:53:19Z",
-   "headline": "Talks idea still unconfirmed as US Treasury chief moves to a base over Iran threats",
-   "direction": "steady",
+   "updated_at": "2026-11-12T05:08:19Z",
+   "next_at": "2026-11-12T08:08:19Z",
+   "headline": "Iran threatens US bases and leaders as Israel reportedly readies attack; talks unconfirmed",
+   "direction": "escalating",
    "points": [
     {
-     "text": "CBS News, BBC Persian and RTHK report that US Treasury Secretary Scott Bessent has moved into military housing because of threats attributed to Iran. A Japanese outlet also reports an assassination threat against him, which it links to Iran.",
+     "text": "Iran's threats widened: outlets in several countries report that Tehran threatens US bases from the Middle East to Europe, and an Iranian official reportedly threatened Trump and Netanyahu. A senior official says these bases would be targeted if the US renews attacks.",
      "stories": [
-      "s2",
-      "s16"
-     ],
-     "sources": [
-      {
-       "t": "Treasury Secretary Scott Bessent moves into military housing due to Iranian threats",
-       "u": "https://www.cbsnews.com/video/treasury-secretary-scott-bessent-moves-military-housing-iranian-threats/",
-       "s": "CBS News World",
-       "c": "US",
-       "l": "en",
-       "p": 1794445524,
-       "r": "known"
-      },
-      {
-       "t": "US Treasury secretary transferred to a military base after threats attributed to Iran",
-       "o": "وزیر دارایی آمریکا پس از تهدیدهای منتسب به ایران به یک پایگاه نظامی منتقل شد",
-       "u": "https://www.bbc.com/persian/articles/cw074ej7r3y4o?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Persian",
-       "c": "GB",
-       "l": "fa",
-       "p": 1794441304,
-       "r": "known"
-      },
-      {
-       "t": "US Treasury chief relocates to base after Iran threat",
-       "u": "https://news.rthk.hk/rthk/en/component/k2/1877457-20261112.htm",
-       "s": "RTHK International",
-       "c": "HK",
-       "l": "en",
-       "p": 1794439042,
-       "r": "known"
-      },
-      {
-       "t": "Threat of assassination against US Treasury Secretary Bessent; Iran targeted, he leaves his home",
-       "o": "ベッセント米財務長官、イランによる暗殺の脅威 自宅離れ軍基地に",
-       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VR3A2dVg5N0ZOTXBrcm1HaDNsLV9MOUtzbTRZQ0V0ZF9iV3F4WEVIenB2ZzBQM0puVm9yQVRlYmxiN1ZWcmo4QWV3bnhzbk1lZnByX1ltdlBQejkxUUFKSmdkZ18xZHNqY1Exeg?oc=5",
-       "s": "日本経済新聞",
-       "c": "JP",
-       "l": "ja",
-       "p": 1794439286,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "GB",
-      "HK",
-      "JP",
-      "US"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "US media report that Vice President Vance is weighing face-to-face talks with Iranian hardliners, and Chinese outlets say Trump has authorised restarting negotiations. Tehran has not confirmed this, and Bloomberg reports that the talks are making little progress.",
-     "stories": [
-      "s5",
-      "s8",
+      "s1",
       "s22"
      ],
      "sources": [
       {
-       "t": "Vance considers personal talks with a representative of Iranian intelligence services",
-       "o": "Вэнс рассматривает возможность личных переговоров с представителем иранских спецслужб",
-       "u": "https://www.interfax.ru/world/1128448",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794438420,
+       "t": "US-Israel-Iran war: Tehran threatens American bases from Middle East to Europe; Houthi missile debris lands in Mecca, Eisenkot cautions Netanyahu",
+       "u": "https://gulfnews.com/world/mena/us-israel-iran-war-tehran-threatens-american-bases-from-middle-east-to-europe-houthi-missile-debris-lands-in-makkah-eisenkot-cautions-netanyahu-1.500744472",
+       "s": "Gulf News",
+       "c": "AE",
+       "l": "en",
+       "p": 1794455913,
        "r": "known"
       },
       {
-       "t": "Vance considers personally holding talks with Iran's hardliners! Trump authorises restarting negotiations, opening a diplomatic window to end the war",
-       "o": "万斯考虑亲自与伊朗强硬派会谈 ！ 特朗普授权重启谈判 ， 结束战争再现外交窗口",
-       "u": "https://finance.sina.com.cn/stock/bxjj/2026-11-12/doc-iniymmzq8693072.shtml",
-       "s": "finance.sina.com.cn",
-       "c": "CN",
-       "l": "zh",
-       "p": 1794443400,
+       "t": "Iran threatens to target US bases in Europe",
+       "o": "İran'dan Avrupa'daki ABD üslerini hedef alma tehdidi",
+       "u": "https://www.trthaber.com/haber/dunya/irandan-avrupadaki-abd-uslerini-hedef-alma-tehdidi-962993.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794455460,
+       "r": "known"
+      },
+      {
+       "t": "Iran threatens to kill Trump and Netanyahu",
+       "o": "Iran yatishia kumuua Trump na Netanyahu",
+       "u": "https://www.bbc.co.uk/swahili/live/cqx2en4vz8m8t?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Swahili",
+       "c": "GB",
+       "l": "sw",
+       "p": 1794453907,
+       "r": "known"
+      },
+      {
+       "t": "Iran: \"Reach Europe\" – missiles threaten Germany",
+       "o": "Iran: „Europa erreichen“ – Raketen bedrohen Deutschland",
+       "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSXZCVjlhWXhKNFBxOEZxYkY2Z1BQNkFnQXlPNXFwVFY3M1RueEYzMjJDTm1ZS3RqWENEMWhNVktuN25zWHRWMklrWVRnUU5McG5QdTUzR2FPYzVxbmJTOUV4UU9KS1I5dXMzX1lrTzBlOW9sZ1RCclB4RzRqU0pZS0t5aHA4NnE4T01UMzYxTXVteGJDajFDbWh0V0FvWnJsR1JtMDIwNS1Gd1c2ZmV1QkxES0c2TzN5NTFZdWVoS3MxX1luOXNocTBjaw?oc=5",
+       "s": "BILD",
+       "c": "DE",
+       "l": "de",
+       "p": 1794455658,
        "r": "unrated"
       },
       {
-       "t": "US Vice President Vance considering face-to-face negotiations with Iranian military hardliners",
-       "u": "https://www.hani.co.kr/arti/international/international_general/1286928.html",
-       "s": "Hankyoreh English",
-       "c": "KR",
+       "t": "Top Iranian official warns military bases from 'West Asia to Europe' would be targeted if US renews attacks",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/top-iranian-official-warns-military-bases-west-asia-europe-would-be",
+       "s": "Middle East Eye",
+       "c": "GB",
        "l": "en",
-       "p": 1794443996,
-       "r": "known"
-      },
-      {
-       "t": "Oil Steadies After Slump as Iran War Talks Make Little Progress",
-       "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWElpeDdPeHVLZml3Zmdzd2RzeDBEXzFCLWpwUFpNbUVXWFNiWWtIdzhua1dfbk9yZTNSQmJucHd0Q1c3WU5qb3lRS1hZV0w0b3dCcmpLbkhqdzEwbWNmS1ZiWjFFUmpudlZ1cHluR3JkOWtZUXM2eGE0a2l5QXV5TE5kdktGald4cHM4bUJJRDItZjk1Zm9xSUhCeldPQQ?oc=5",
-       "s": "Bloomberg",
-       "c": "US",
-       "l": "en",
-       "p": 1794438246,
+       "p": 1794452214,
        "r": "known"
       }
      ],
      "headlines": 5,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "CN",
-      "KR",
-      "RU",
-      "US"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran rules out handing over its enriched uranium, saying 'not even one particle', according to Liberty Times. Sky News Arabia reports Iran hinting at reopening the Strait of Hormuz while keeping its deterrence options. Iranian media, which is the side's own account, quote Trump vowing 'total victory'.",
-     "stories": [
-      "s17",
-      "s14",
-      "s19"
-     ],
-     "sources": [
-      {
-       "t": "Iran firmly refuses to hand over enriched uranium: \"Not even one particle\"; threatens U.S. bases could become targets",
-       "o": "伊朗強硬拒交濃縮鈾！嗆「1個微粒都不行」 放話美軍基地恐成目標",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5637736",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794438394,
-       "r": "known"
-      },
-      {
-       "t": "Iran hints at opening the Strait of Hormuz while holding onto its deterrence cards",
-       "o": "إيران تلوح بفتح مضيق هرمز وتتمسك بأوراق الردع",
-       "u": "https://www.skynewsarabia.com/middle-east/1904004-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%84%D9%88%D8%AD-%D8%A8%D9%81%D8%AA%D8%AD-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D9%88%D8%AA%D8%AA%D9%85%D8%B3%D9%83-%D8%A8%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%A7%D9%84%D8%B1%D8%AF%D8%B9",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1794440521,
-       "r": "known"
-      },
-      {
-       "t": "Trump vows ‘total victory’ as Iran rejects concessions and threatens wider war",
-       "u": "https://www.iranintl.com/en/202611122691",
-       "s": "Iran International",
-       "c": "IR",
-       "l": "en",
-       "p": 1794444094,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
+     "outlets": 5,
+     "independent": 5,
      "countries": [
       "AE",
-      "IR",
-      "TW"
+      "DE",
+      "GB",
+      "TR"
      ],
      "regions": 3,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Gulf News reports that the US is targeting IRGC weapons routes through the Caspian Sea. This is a single-source report and no other outlet has confirmed it.",
+     "text": "Israeli press reports that the Security Cabinet ordered the army to step up preparations for a possible attack on Iran. Al Jazeera reports Israel reportedly readies an attack, and Iran warns of expanded retaliation. Both are single-source reports.",
      "stories": [
-      "s18"
+      "s16",
+      "s9"
      ],
      "sources": [
       {
-       "t": "US targets IRGC weapons routes through Caspian Sea: The story so far",
-       "u": "https://gulfnews.com/world/mena/us-targets-irgc-weapons-routes-through-caspian-sea-1.500744356",
-       "s": "Gulf News",
-       "c": "AE",
+       "t": "Israeli press: Security Cabinet orders army to step up preparations for a possible attack on Iran",
+       "o": "İsrail basını: Güvenlik Kabinesi, orduya İran'a olası bir saldırı için hazırlıkları artırma talimatı verdi",
+       "u": "https://www.trthaber.com/haber/dunya/israil-basini-guvenlik-kabinesi-orduya-irana-olasi-bir-saldiri-icin-hazirliklari-artirma-talimati-verdi-962984.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794452940,
+       "r": "known"
+      },
+      {
+       "t": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
+       "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?oc=5",
+       "s": "Al Jazeera",
+       "c": "QA",
        "l": "en",
-       "p": 1794438279,
+       "p": 1794456313,
        "r": "known"
       }
      ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
+     "headlines": 3,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "AE"
+      "QA",
+      "TR"
      ],
-     "regions": 1,
+     "regions": 2,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Israeli opposition leader Gadi Eisenkot warns Netanyahu against acting alone on Iran, according to Spiegel and Repubblica, and Repubblica reports the IDF has been put on alert.",
+     "text": "Liberty Times reports a US-Iran clash that killed 23 US troops, while Trump says the conflict will end soon. Yonhap reports Iran struck navigation support facilities in Oman, targeting merchant ships it says transit with US backing. Neither report has been confirmed by other outlets.",
      "stories": [
-      "s7",
-      "s13"
+      "s25",
+      "s24"
      ],
      "sources": [
       {
-       "t": "Israel: Gadi Eisenkot warns Benjamin Netanyahu against going it alone against Iran",
-       "o": "Israel: Gadi Eisenkot warnt Benjamin Netanyahu vor Alleingängen gegen Iran",
-       "u": "https://www.spiegel.de/ausland/israel-gadi-eisenkot-warnt-benjamin-netanyahu-vor-alleingaengen-gegen-iran-a-e6f48d28-6f33-4543-a133-a7f6874ccff5#ref=rss",
-       "s": "Spiegel Ausland",
-       "c": "DE",
-       "l": "de",
-       "p": 1794444000,
+       "t": "US-Iran clash kills 23 US troops; Trump says the conflict will end soon — International",
+       "o": "美伊衝突致23名美軍喪生 川普稱衝突很快就會落幕",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5637823",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794450641,
        "r": "known"
       },
       {
-       "t": "Eisenkot holds Bibi back on Iran strikes; IDF put on alert",
-       "o": "Eisenkot frena Bibi sui raid contro l’Iran. L’Idf messa in allerta",
-       "u": "https://www.repubblica.it/esteri/2026/11/12/news/trump_netanyahu_lite_lite_telefono_guerra_iran-425716463/?rss",
-       "s": "Repubblica Esteri",
-       "c": "IT",
-       "l": "it",
-       "p": 1794441600,
+       "t": "Iran strikes navigation support facilities in Oman — targeting merchant ships transiting with US backing",
+       "o": "이란, 오만 내 항행지원 시설 타격…美 지원받는 상선 통항 겨냥",
+       "u": "https://www.yna.co.kr/view/AKR20261112081800009",
+       "s": "Yonhap Korean",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794451072,
        "r": "known"
       }
      ],
@@ -12360,24 +12272,87 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "DE",
-      "IT"
+      "KR",
+      "TW"
      ],
      "regions": 1,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Diplomacy has not moved. Iran says its enriched uranium will not leave the country and that its nuclear programme will not be removed. Iran also threatens to widen the war over what it calls plans to strangle it. The talks idea is still unconfirmed, and the pressure for talks now sits with the US.",
+     "stories": [
+      "s20",
+      "s15",
+      "s26",
+      "s19"
+     ],
+     "sources": [
+      {
+       "t": "November 12 financial morning briefing: strong US dollar pressures gold price; Iran says enriched nuclear material will not be allowed out; oil prices supported by supply risks | FX Watch | Foreign Exchange | CICC",
+       "o": "11月12日财经早餐 ： 美元高位压制金价 ， 伊朗称不允许浓缩核材料运出 ， 油价获供应风险支撑 _ 汇市观察 _ 外汇 _ 中金在线",
+       "u": "http://forex.cnfol.com/jingjiyaowen/20261112/32421517.shtml",
+       "s": "forex.cnfol.com",
+       "c": "CN",
+       "l": "zh",
+       "p": 1794452400,
+       "r": "unrated"
+      },
+      {
+       "t": "Iran will not allow the nuclear program to be removed from the country\" Official from Iran's leadership",
+       "o": "\"Iiraan ma ogolaan doonto in Nukliyeerka la bacrimiyey dalka laga saaro\" Sarkaal ka tirsan madaxda Iiraan",
+       "u": "https://www.bbc.com/somali/articles/cmvg2r1k43l9o?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Somali",
+       "c": "GB",
+       "l": "so",
+       "p": 1794453823,
+       "r": "known"
+      },
+      {
+       "t": "Iran threatens to widen the war in response to \"plans to strangle it.",
+       "o": "إيران تهدّد بتوسيع الحرب رداً على «خطط خنقها»",
+       "u": "https://aawsat.com/node/5340311",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794450468,
+       "r": "known"
+      },
+      {
+       "t": "US midterm elections watched by Iran; pressure for end-of-war talks now passes the ball to the US",
+       "o": "美 중간선거 지켜본 이란 , 종전 협상 압박 공은 美에 넘어갔다",
+       "u": "https://www.fnnews.com/news/202611120956019136",
+       "s": "fnnews.com",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794452400,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
+     "countries": [
+      "CN",
+      "GB",
+      "KR",
+      "SA"
+     ],
+     "regions": 4,
      "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Whether Tehran confirms or denies any face-to-face talks with US officials",
-    "Whether Israel moves from alert to action on Iran, despite Eisenkot's public warning",
-    "Whether Iran's reported 'two-day plan' and its Hormuz conditions turn into concrete steps"
+    "Whether the Israeli army's preparations lead to any strike on Iran",
+    "Independent confirmation of the reported US troop deaths and the Oman facility strike",
+    "Whether any face-to-face US-Iran talks are confirmed by Tehran"
    ],
    "window_hours": 3,
-   "headlines_read": 33,
+   "headlines_read": 36,
    "outlets_read": 27,
    "countries_read": 20,
-   "languages_read": 10,
+   "languages_read": 15,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
