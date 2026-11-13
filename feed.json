@@ -1576,9 +1576,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Trump threatens renewed strikes on Iran; Israel reportedly told to prepare, talks sidelined",
+   "status": "Trump threatens renewed Iran strikes, pulls Vance from talks; no new strike confirmed",
    "summary": "The US and Israel have been at war with Iran, and Iran's pressure on shipping in the Strait of Hormuz is central to the conflict. Iran's Revolutionary Guards say explosions disabled two supertankers on the night of Nov 11 after they used an unauthorised route. AFP and Reuters reporting carried in Kenya says the claim is unconfirmed: UKMTO's latest entries match neither ship, and the US military recently said all mines were cleared. US Treasury Secretary Bessent moved into military housing after threats attributed to Iran. Iran's security chief Rezaei said Iran would strike US bases, including in Europe, if aircraft based there bomb Iran, and he denied any talks; Secretary of State Rubio says there is no need to restart combat operations.",
    "latest": [
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T01:49:50Z",
+     "text": "Trump says the US does not need a deal with Iran, and Bloomberg and VnExpress both carry the remark. Trump also says Gulf allies urged a pause in strikes, a point Al Jazeera and the Jerusalem Post both report.",
+     "outlet": "Bloomberg",
+     "country": "United States",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWUZPalZVeXJPblBWRk9oeUJmUlpLanVvemFJWlJaWm16RGxYSWE3UE44czR3N09QaXVLTFFkOTdQMjJrd2NDVTYxZld3Y2MwLW14d2ZmTFhHNHZTVDhCMU9GMlN1aXZITEllYkplLUFTZDJWbGNBSk9IY1kwSFN6cUY4aEVab2lNYUEtOEZpWXlkaHR4V2Q0OE9UbmEwUQ?oc=5",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T01:49:50Z",
+     "text": "Trump says he would strike Iran again without hesitation if necessary, per BBC Persian and Interfax. TASS, citing Trump, says the US will refrain from tougher measures. These accounts differ. Infobae reports Trump saying Iran is collapsing and denying US casualties over the last five months, a single-source report.",
+     "outlet": "BBC Persian",
+     "country": "United Kingdom",
+     "url": "https://www.bbc.co.uk/persian/live/c6p9d5yv112lt?at_medium=RSS&at_campaign=rss",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T01:49:50Z",
+     "text": "Israel's Kan reports that the US told Israeli forces to prepare to resume the war against Iran; TASS relays this from Russian state media. Israeli politics is also divided: Netanyahu and Eisenkot clash over whether Israel should strike Iran again, per the Japan Times, a single source.",
+     "outlet": "TASS English",
+     "country": "Russia",
+     "url": "https://tass.com/world/2217507",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": true
+    },
     {
      "date": "2026-11-12",
      "at": "2026-11-12T23:02:43Z",
@@ -1633,39 +1666,6 @@
      "region": "middle-east",
      "tag": "non-party",
      "state_media": false
-    },
-    {
-     "date": "2026-11-12",
-     "at": "2026-11-12T19:40:32Z",
-     "text": "Iranian media, citing IRNA, report that Sirik in Hormozgan was hit by an enemy attack. Only Iranian state media carry this, so it is Iran's claim.",
-     "outlet": "Yonhap Korean",
-     "country": "South Korea",
-     "url": "https://www.yna.co.kr/view/AKR20261113007800079",
-     "region": "east-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-12",
-     "at": "2026-11-12T16:56:56Z",
-     "text": "Iran's army says two oil tankers caught fire after hitting sea mines in the Strait of Hormuz. Only Iranian state media and Turkish and Cuban outlets carry the claim, and no independent confirmation has been reported.",
-     "outlet": "TRT Haber Dunya",
-     "country": "Turkey",
-     "url": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-2-petrol-tankeri-deniz-mayinina-carparak-alev-aldi-963094.html",
-     "region": "middle-east",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-12",
-     "at": "2026-11-12T16:56:56Z",
-     "text": "Iran's military spokesperson says its response would be ten times harsher if needed. Iranian outlets also report that the Assembly of Experts and a top clerical body have called for a review of nuclear policy, including withdrawal from the Non-Proliferation Treaty. These are Iranian statements only.",
-     "outlet": "IRNA English",
-     "country": "Iran",
-     "url": "https://en.irna.ir/news/86320053/Severity-of-Iran-Armed-Forces-actions-will-increase-tenfold",
-     "region": "iran",
-     "tag": "non-party",
-     "state_media": true
     }
    ],
    "us_impact": {
@@ -11928,11 +11928,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-09T22:45:51Z",
-     "headline": "Trump says new Iran strikes not necessary now; Qatar talks show 'positive momentum'",
-     "direction": "easing"
-    },
-    {
      "at": "2026-11-10T02:10:28Z",
      "headline": "Trump: Iran war 'militarily over', no new strikes for now; Hormuz incidents unverified",
      "direction": "steady"
@@ -12046,212 +12041,205 @@
      "at": "2026-11-12T23:02:43Z",
      "headline": "Trump threatens renewed strikes on Iran; Israel reportedly told to prepare, talks sidelined",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-13T01:49:50Z",
+     "headline": "Trump threatens renewed Iran strikes, pulls Vance from talks; no new strike confirmed",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-12T23:02:43Z",
-   "next_at": "2026-11-13T02:02:43Z",
-   "headline": "Trump threatens renewed strikes on Iran; Israel reportedly told to prepare, talks sidelined",
-   "direction": "escalating",
+   "updated_at": "2026-11-13T01:49:50Z",
+   "next_at": "2026-11-13T04:49:50Z",
+   "headline": "Trump threatens renewed Iran strikes, pulls Vance from talks; no new strike confirmed",
+   "direction": "steady",
    "points": [
     {
-     "text": "Trump says he will use military force against Iran 'without hesitation', according to three independent outlets in three countries. No new strike is confirmed.",
-     "stories": [
-      "s2"
-     ],
-     "sources": [
-      {
-       "t": "Trump threatens to renew military strikes against Iran 'without hesitation'",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914780",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794520305,
-       "r": "known"
-      },
-      {
-       "t": "Trump said he would use military force against Iran without hesitation",
-       "o": "Трамп заявил, что без колебаний применит военную силу против Ирана",
-       "u": "https://ria.ru/20261113/tramp-2131241660.html",
-       "s": "RIA Novosti",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794518816,
-       "r": "state"
-      },
-      {
-       "t": "Trump: I will not hesitate to use military force against Iran",
-       "o": "ترامب: لن أتردد في استخدام القوة العسكرية ضد إيران",
-       "u": "https://news.google.com/rss/articles/CBMikwRBVV95cUxOV01jRU8zTjZYY2Voa0p0ODRlS0lidlFvVUtJRTROVnktNjMtam5BeS0wMkQ2YlhidzRLcHdOSVpkc2diQjZubEpfN0d2THZGUHdKZ0s1ajNMaVhOWXR1c2paMmhGcVNDUVFkaWhUN2RucW9lM0tmMlQyS19MVklvdkRTZkxfcXkxYlhLYy1kTlN4OWhYX0JLOVo1Wi1VNDUxZ05KTHZKRlR6MFItZ1dNZmZTcmhTbG1BSFVpcnJQeXVaREtUYTlDakpiaHcwdFhScHRIT1l1dE1mRnZmUnZuOGtFdDhqQ0pzZnYwZVdWLUE4d0d4TXhsQmxncFBrMTFhaDdFenpjTmh6RFp2YzdoNXBQUXluMVlScTdobVpkTEV2UWU5SmlrTDFOQVhSWjZyRk5EaGpwMTlFcW0yWEhab3FycEotYTRaT1VKcG9EeHM3Nl83VlhKTlhWRnd1TFp5N3hUaUlIdjB0Q3h6bTRUczRvN2FVZHBVSGVlc0JFNzYxajE0MmdDcXhRamVTWmFjdFVRb1hYN3B4YUI5S3Z4UWh",
-       "s": "صحيفة الخليج",
-       "c": "AE",
-       "l": "ar",
-       "p": 1794518795,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 2,
-     "countries": [
-      "AE",
-      "IL",
-      "RU"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "Israeli press reports that the US urged Israel to prepare for a resumption of the war with Iran, a claim relayed by Russian media. Separately, Israeli-only reporting says senior Trump administration officials have moved to military bases after Iranian threats.",
+     "text": "Trump says the US does not need a deal with Iran, and Bloomberg and VnExpress both carry the remark. Trump also says Gulf allies urged a pause in strikes, a point Al Jazeera and the Jerusalem Post both report.",
      "stories": [
       "s3",
+      "s2",
+      "s5",
       "s14"
      ],
      "sources": [
       {
-       "t": "Kan: US urged Israel to prepare for resumption of war with Iran",
-       "o": "Kan: США призвали Израиль подготовиться к возобновлению войны с Ираном",
-       "u": "https://www.kommersant.ru/doc/9095982",
-       "s": "Kommersant",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794521107,
+       "t": "Oil Holds Gain as Trump Says US Doesn’t Need a Deal With Iran",
+       "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWUZPalZVeXJPblBWRk9oeUJmUlpLanVvemFJWlJaWm16RGxYSWE3UE44czR3N09QaXVLTFFkOTdQMjJrd2NDVTYxZld3Y2MwLW14d2ZmTFhHNHZTVDhCMU9GMlN1aXZITEllYkplLUFTZDJWbGNBSk9IY1kwSFN6cUY4aEVab2lNYUEtOEZpWXlkaHR4V2Q0OE9UbmEwUQ?oc=5",
+       "s": "Bloomberg",
+       "c": "US",
+       "l": "en",
+       "p": 1794524529,
        "r": "known"
       },
       {
-       "t": "Following Iranian threats: senior Trump administration officials moved to military bases",
-       "o": "בעקבות איומים מאיראן: בכירים בממשל טראמפ הועברו לבסיסים צבאיים",
-       "u": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9DaUNjT2xFWnlXR080M0dnYzl3cHZhalRtRVlyd1ZxWjBfaWIycG9VclZJaExNa0VZTjBmdW9ZbjdBWVk?oc=5",
-       "s": "המחדש",
-       "c": "IL",
-       "l": "he",
-       "p": 1794514210,
+       "t": "Trump: US does not need an agreement with Iran",
+       "o": "Ông Trump: Mỹ không cần thỏa thuận với Iran",
+       "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdEdGUEZpNVQ5bkk5dkRMOGVOaHdWdG1qaXBJSDZXRHF0MVRXWUg1QWFqV3BaaXoyVFczZW5YRFdHV1VWSEc4TjIwSkR0YlN2NjlaQzhqeklMMzQycHZaRlYtSEVfanFjX2czM2R5QTc3aS1fN015ZWRibG9JdWVLd0lwTQ?oc=5",
+       "s": "VnExpress",
+       "c": "VN",
+       "l": "vi",
+       "p": 1794523884,
        "r": "unrated"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "IL",
-      "RU"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "Trump has pulled JD Vance from the Iran talks, saying no deal is needed. A Gulf News report says Vance is considering face-to-face talks with Iran's Rezaei to end the war; this rests on a single source.",
-     "stories": [
-      "s1",
-      "s4"
-     ],
-     "sources": [
+      },
       {
-       "t": "‘We don’t need a deal’: Trump yanks JD Vance off Iran war talks",
-       "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYkppX1R4bEpaMG83dTFTUFZ5WGRiMWhmU1I2T0IwRnZ0dGlYVzhHYTdUX004eXl3a3Y3eWtGZFRNdnZqQXhKbWNHYTdRaXdDQjJKSWJHcXBkQm12RlJlS0dOLXJpSU1Ub243YjREWjExZkRzcVM5SEh4MUtkUmFYdWFocDljYUhyS3g0Q0h4X2hTRXNRZXpsZnZteXZnNGNiTl8xR19GMEhacGRCMTJUZ29CTVVVLTg2TktUV3pOMEVZZw?oc=5",
-       "s": "Sydney Morning Herald",
-       "c": "AU",
+       "t": "Trump says Gulf allies urged restraint on Iran, admits war hurt Republicans in midterms",
+       "u": "https://www.jpost.com/international/article-914787",
+       "s": "Jerusalem Post",
+       "c": "IL",
        "l": "en",
-       "p": 1794523337,
+       "p": 1794533512,
        "r": "known"
       },
       {
-       "t": "Trump sidelines Vance from Iran talks, says no need to negotiate",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-sidelines-vance-iran-talks-says-no-need-negotiate",
-       "s": "Middle East Eye",
-       "c": "GB",
+       "t": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
+       "u": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
        "l": "en",
-       "p": 1794517971,
+       "p": 1794528026,
        "r": "known"
       },
       {
-       "t": "Trump shifts Vance away from Iran talks, says deal unnecessary",
-       "u": "https://www.iranintl.com/en/202611129077",
-       "s": "Iran International",
-       "c": "IR",
+       "t": "Trump pulls Vance from Iran talks in bet on shaky status quo",
+       "u": "https://www.japantimes.co.jp/news/2026/11/13/world/politics/trump-vance-iran-talks/",
+       "s": "The Japan Times",
+       "c": "JP",
        "l": "en",
-       "p": 1794517680,
-       "r": "known"
-      },
-      {
-       "t": "Vance considers face-to-face talks with Iran's Rezaei to end war: report",
-       "u": "https://gulfnews.com/world/mena/vance-considers-face-to-face-talks-with-irans-rezaei-to-end-war-report-1.500744490",
-       "s": "Gulf News",
-       "c": "AE",
-       "l": "en",
-       "p": 1794521760,
+       "p": 1794531420,
        "r": "known"
       }
      ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
+     "headlines": 6,
+     "outlets": 6,
+     "independent": 6,
      "countries": [
-      "AE",
       "AU",
-      "GB",
-      "IR"
+      "IL",
+      "JP",
+      "QA",
+      "US",
+      "VN"
      ],
-     "regions": 4,
+     "regions": 6,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran says the southern province of Hormozgan was hit by an 'enemy' military strike. Only Iranian and Israeli-based outlets carry this, so it is Iran's claim. President Pezeshkian says Iran is not responsible for the regional situation and that Israel pushed Trump into the war, which is Iran's position.",
+     "text": "Trump says he would strike Iran again without hesitation if necessary, per BBC Persian and Interfax. TASS, citing Trump, says the US will refrain from tougher measures. These accounts differ. Infobae reports Trump saying Iran is collapsing and denying US casualties over the last five months, a single-source report.",
      "stories": [
-      "s13",
-      "s12"
+      "s1",
+      "s10",
+      "s9"
      ],
      "sources": [
       {
-       "t": "Southern Iranian province Hormozgan hit by 'enemy' military strike, Iran claims",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914775",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794514639,
+       "t": "Trump: If necessary, I will not hesitate to attack Iran again",
+       "o": "ترامپ: اگر لازم شود، در حمله مجدد به ایران تردید نخواهم کرد",
+       "u": "https://www.bbc.co.uk/persian/live/c6p9d5yv112lt?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Persian",
+       "c": "GB",
+       "l": "fa",
+       "p": 1794530209,
        "r": "known"
       },
       {
-       "t": "President Pezeshkian: Iran not responsible for regional situation; Israel pushed Trump into war",
-       "u": "https://en.irna.ir/news/86320258/President-Pezeshkian-Iran-not-responsible-for-regional-situation",
-       "s": "IRNA English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794515935,
+       "t": "Trump said he would strike Iran without hesitation if necessary",
+       "o": "Трамп заявил, что без колебаний нанесет удар по Ирану в случае необходимости",
+       "u": "https://www.interfax.ru/world/1128746",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794527040,
+       "r": "known"
+      },
+      {
+       "t": "Trump said the US will refrain from tougher measures against Iran",
+       "o": "Трамп заявил о воздержании США от более жестких мер против Ирана",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28313731",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794527516,
        "r": "state"
+      },
+      {
+       "t": "Trump says Iran is collapsing and denies US casualties in the last five months",
+       "o": "Trump asegura que Irán se está derrumbando y niega bajas estadounidenses en los últimos cinco meses",
+       "u": "https://www.infobae.com/america/agencias/2026/11/13/trump-asegura-que-iran-se-esta-derrumbando-y-niega-bajas-estadounidenses-en-los-ultimos-cinco-meses/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794529820,
+       "r": "known"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
+     "countries": [
+      "AR",
+      "GB",
+      "RU"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Israel's Kan reports that the US told Israeli forces to prepare to resume the war against Iran; TASS relays this from Russian state media. Israeli politics is also divided: Netanyahu and Eisenkot clash over whether Israel should strike Iran again, per the Japan Times, a single source.",
+     "stories": [
+      "s15",
+      "s4"
+     ],
+     "sources": [
+      {
+       "t": "US told Israeli forces to prepare for resuming war against Iran — Kan",
+       "u": "https://tass.com/world/2217507",
+       "s": "TASS English",
+       "c": "RU",
+       "l": "en",
+       "p": 1794524700,
+       "r": "state"
+      },
+      {
+       "t": "Netanyahu and Eisenkot clash over whether Israel should strike Iran again",
+       "u": "https://www.japantimes.co.jp/news/2026/11/13/world/politics/netanyahu-eisenkot-iran-strike/",
+       "s": "The Japan Times",
+       "c": "JP",
+       "l": "en",
+       "p": 1794532680,
+       "r": "known"
       }
      ],
      "headlines": 2,
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "IL",
-      "IR"
+      "JP",
+      "RU"
      ],
      "regions": 2,
-     "party_only": true,
+     "party_only": false,
      "state": 1
     },
     {
-     "text": "Brent crude rose 3.3% to $95.82 a barrel after Trump said the US does not need a deal with Iran, per one outlet.",
+     "text": "Four oil tankers exploded in succession in the Strait of Hormuz, according to one Taiwanese outlet. Iran says they hit mines and caught fire; the same report says the UK says they were hit by an unidentified flying object. The cause is disputed and no other source confirms the incident yet.",
      "stories": [
-      "s7"
+      "s13"
      ],
      "sources": [
       {
-       "t": "Brent rises 3.3% to $95.82 a barrel after Trump said the US does not need a deal with Iran",
-       "o": "El brent sube 3,3 % a 95,82 dólares, tras decir Trump que EEUU no necesita pacto con Irán",
-       "u": "https://www.infobae.com/america/agencias/2026/11/12/el-brent-sube-33-a-9582-dolares-tras-decir-trump-que-eeuu-no-necesita-pacto-con-iran/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1794515548,
+       "t": "Four oil tankers in the Strait of Hormuz explode in succession! Iran says they hit mines and caught fire; UK reveals they were hit by an unidentified flying object",
+       "o": "荷姆茲4油輪接連爆炸！伊朗稱觸雷起火 英國曝：遭不明飛行物擊中",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5639105",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794525501,
        "r": "known"
       }
      ],
@@ -12259,7 +12247,34 @@
      "outlets": 1,
      "independent": 1,
      "countries": [
-      "AR"
+      "TW"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran says a southern province was hit by a 'hostile' raid, a claim carried only by Saudi-based and Iranian-linked outlets. Iran says it is not responsible for the regional situation and that Israel pushed Trump into the war.",
+     "stories": [
+      "s12"
+     ],
+     "sources": [
+      {
+       "t": "Tehran says a southern city was hit by a \"hostile\" raid... and Trump removes Vance from the Iran file (live coverage)",
+       "o": "طهران تعلن تعرض مدينة في الجنوب لغارة «معادية»... وترمب يُبعد فانس عن الملف الإيراني (تغطية حية)",
+       "u": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxNWDdULVBfNFlNV0g1MkNsaFRIQS04MlUyaEtmRWZpUG9peGRBaGV6WDlIM3FzWkxQNm1UTUhqbGo5MDdGY004QS1ta3dmdi1XN1NjV0hXOUlFUnNlcVpUOHZHMWFNZnNuNmpZNkI2Y0JnbXp3bDd3dkJJd0RvZFJfd0t6eWNqWHFMb0NWVHZYU29ubVRsSTdPaTZ1MHE5WldPX2xKdktXbklWM20tRHpoR3JtZEp0UWdqVzRyTlFEbTg4Q21ZWFgwQ1hlNkN5ampyQ1QxZEVMU045MVg0a1AtWHpiSzFPVU9ndTg2UDdtSFlpZFhtQzZHX3VvWkJJdGk2Vm15XzZSeXdNaFdsZFBISFJ0QUtoU3hNRHZ1aDZnZGRQeUQyVU9JMHJxMHA1T2NHSGNaZnh6MTYwWTlEd0VSUmlmYXNuSnhlUjVZbmZTc01PaDBkTUphSXFkeGRnTlRHNFFSLV9JV2xOMTZJUlhCYWdpQVUzLXZqUENaWWlGb05mS055QVBTaFZjZ2ZYOWgzWnhYT21NVzl3Mzh4WHRmdW4",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794526369,
+       "r": "known"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "SA"
      ],
      "regions": 1,
      "party_only": false,
@@ -12267,15 +12282,15 @@
     }
    ],
    "watch": [
-    "Whether Trump's strike threats lead to concrete action or a formal decision",
-    "Whether Vance and Rezaei move toward face-to-face talks",
-    "Independent confirmation of Iran's claimed strike in Hormozgan"
+    "Whether Trump's threat of renewed strikes is followed by any confirmed attack",
+    "The cause of the Hormuz tanker explosions: mines, as Iran says, or an aerial object, as the UK is reported to say",
+    "Whether the Vance-led talks resume or face-to-face contact with Iran's Rezaei is confirmed"
    ],
    "window_hours": 3,
-   "headlines_read": 21,
-   "outlets_read": 15,
-   "countries_read": 9,
-   "languages_read": 6,
+   "headlines_read": 20,
+   "outlets_read": 18,
+   "countries_read": 12,
+   "languages_read": 7,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-08T14:13:47Z",
    "ladder_note": "Re-checked after: Tanker attacks in the Strait of Hormuz are reported by UKMTO and by Britain, which is an independent confirmation, though the total number of ships hit is disputed."
