@@ -1576,9 +1576,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Iran claims attack on US radar in Bahrain; Trump hints at renewed strikes, no deal sought",
+   "status": "Iran claims Bahrain radar attack and tanker mine hit; Trump threatens, sees no deal need",
    "summary": "The US and Israel have been at war with Iran, and Iran's pressure on shipping in the Strait of Hormuz is central to the conflict. Iran's Revolutionary Guards say explosions disabled two supertankers on the night of Nov 11 after they used an unauthorised route. AFP and Reuters reporting carried in Kenya says the claim is unconfirmed: UKMTO's latest entries match neither ship, and the US military recently said all mines were cleared. US Treasury Secretary Bessent moved into military housing after threats attributed to Iran. Iran's security chief Rezaei said Iran would strike US bases, including in Europe, if aircraft based there bomb Iran, and he denied any talks; Secretary of State Rubio says there is no need to restart combat operations.",
    "latest": [
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T07:46:04Z",
+     "text": "Iran's Revolutionary Guards Navy says a tanker exploded after hitting a sea mine in the Strait of Hormuz. Russian outlet Interfax describes it as a gas tanker. These reports rely on the IRGC's account, and no independent source in this set confirms the cause.",
+     "outlet": "Interfax",
+     "country": "Russia",
+     "url": "https://www.interfax.ru/world/1128791",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T07:46:04Z",
+     "text": "A Vietnamese outlet reports that Iran announced it has resumed attacks on US military facilities in the Gulf after more than two months. Only one source carries this, so it is Iran's claim for now.",
+     "outlet": "Tuổi Trẻ",
+     "country": "Vietnam",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTUE3V1VwMTJ0UjNIV2FxcDdJdkZMZzFYNXNSRkJ0bkd4RU9GMVhVVGlPMDRSTHFrUjU1WjNJSm5yU2xiWnhNZVBvZDIwcm83bGpHaGwwZFBtTVZrTndNMExfZG9qbUQ5djRCbHVOeUw3NU5hUEdPaXVTX3ZDd01vSFVkaVY2dXFReXJJOVJwZVdFRDVzQzcxS3lJZm9wLWhHbUNKRkwxTVZkeUhCNHhjdi1UUlhGZzRC?oc=5",
+     "region": "southeast-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T07:46:04Z",
+     "text": "Trump says Iran's regime 'is collapsing' and warns it could resume attacks if the situation worsens. He says Iran would be hit 'with no hesitation' if it threatens allies or US ships. He also says the US does not need a deal with Iran, and his vice president has been sidelined in the talks.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/mundo/2026/11/13/trump-aseguro-que-el-regimen-de-iran-se-esta-desmoronando-y-advirtio-que-podria-reanudar-los-ataques-si-la-situacion-empeora/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-13",
      "at": "2026-11-13T05:00:32Z",
@@ -1631,39 +1664,6 @@
      "country": "United Kingdom",
      "url": "https://www.bbc.co.uk/persian/live/c6p9d5yv112lt?at_medium=RSS&at_campaign=rss",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "at": "2026-11-13T01:49:50Z",
-     "text": "Israel's Kan reports that the US told Israeli forces to prepare to resume the war against Iran; TASS relays this from Russian state media. Israeli politics is also divided: Netanyahu and Eisenkot clash over whether Israel should strike Iran again, per the Japan Times, a single source.",
-     "outlet": "TASS English",
-     "country": "Russia",
-     "url": "https://tass.com/world/2217507",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": true
-    },
-    {
-     "date": "2026-11-12",
-     "at": "2026-11-12T23:02:43Z",
-     "text": "Trump says he will use military force against Iran 'without hesitation', according to three independent outlets in three countries. No new strike is confirmed.",
-     "outlet": "Jerusalem Post",
-     "country": "Israel",
-     "url": "https://www.jpost.com/middle-east/iran-news/article-914780",
-     "region": "middle-east",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-12",
-     "at": "2026-11-12T23:02:43Z",
-     "text": "Israeli press reports that the US urged Israel to prepare for a resumption of the war with Iran, a claim relayed by Russian media. Separately, Israeli-only reporting says senior Trump administration officials have moved to military bases after Iranian threats.",
-     "outlet": "Kommersant",
-     "country": "Russia",
-     "url": "https://www.kommersant.ru/doc/9095982",
-     "region": "russia",
      "tag": "non-party",
      "state_media": false
     }
@@ -11926,11 +11926,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-10T05:39:09Z",
-     "headline": "Trump says Iran war militarily over, no new strikes for now; sea blockade stays",
-     "direction": "easing"
-    },
-    {
      "at": "2026-11-10T08:21:56Z",
      "headline": "Trump: Iran war 'effectively over'; US pulls aircraft from UK base; no talks confirmed",
      "direction": "steady"
@@ -12044,235 +12039,195 @@
      "at": "2026-11-13T05:00:32Z",
      "headline": "Iran claims attack on US radar in Bahrain; Trump hints at renewed strikes, no deal sought",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-13T07:46:04Z",
+     "headline": "Iran claims Bahrain radar attack and tanker mine hit; Trump threatens, sees no deal need",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-13T05:00:32Z",
-   "next_at": "2026-11-13T08:00:32Z",
-   "headline": "Iran claims attack on US radar in Bahrain; Trump hints at renewed strikes, no deal sought",
-   "direction": "escalating",
+   "updated_at": "2026-11-13T07:46:04Z",
+   "next_at": "2026-11-13T10:46:04Z",
+   "headline": "Iran claims Bahrain radar attack and tanker mine hit; Trump threatens, sees no deal need",
+   "direction": "steady",
    "points": [
     {
-     "text": "The Islamic Revolutionary Guard says it attacked a US early-warning radar in Bahrain, which it describes as retaliation for airstrikes on communication towers. Reports from several countries repeat the IRGC claim; none of the reports in this set independently confirms the damage.",
+     "text": "Iran's Revolutionary Guards Navy says a tanker exploded after hitting a sea mine in the Strait of Hormuz. Russian outlet Interfax describes it as a gas tanker. These reports rely on the IRGC's account, and no independent source in this set confirms the cause.",
      "stories": [
-      "s1",
-      "s2",
-      "s8",
-      "s11",
+      "s3",
       "s16"
      ],
      "sources": [
       {
-       "t": "The Islamic Revolutionary Guard said it attacked a U.S. Army early-warning radar in Bahrain",
-       "o": "La Guardia Revolucionaria de Irán dijo que atacó un radar de alerta temprana del Ejército de Estados Unidos en Bahréin",
-       "u": "https://www.infobae.com/america/mundo/2026/11/13/la-guardia-revolucionaria-de-iran-dijo-que-ataco-un-radar-de-alerta-temprana-del-ejercito-de-estados-unidos-en-bahrein/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1794544306,
-       "r": "known"
-      },
-      {
-       "t": "Iran's Revolutionary Guards: US early-warning radar in Bahrain targeted and destroyed",
-       "o": "İran Devrim Muhafızları: ABD'nin Bahreyn'deki erken uyarı radarı hedef alınarak imha edildi",
-       "u": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-abdnin-bahreyndeki-erken-uyari-radari-hedef-alinarak-imha-edildi-963133.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794542940,
-       "r": "known"
-      },
-      {
-       "t": "Iran says they targeted a US early-warning radar in Bahrain",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914794",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794541640,
-       "r": "known"
-      },
-      {
-       "t": "Iranian Revolutionary Guard: targeting a US early warning radar",
-       "o": "الحرس الثوري الإيراني: استهداف رادار أميركي للإنذار المبكر",
-       "u": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxQMEo5VHgyOHFnQWlXMWFYUXBRRllidVZtTmNBY3V4VElDeWZXeVV2NVJiUHdFaFU0MXdYcjhxMVpWV2tIaENYN3owZW5Rbk9qN0cwdVhRWEVrZE1CaXlJeFR0WDFXNk90U093MGJlNEdWN25MTzR4bGtOLV9GemFEWEhrTXFRTDlOTWkwOWJfYlRIUU40RlVnank0SUUtOXFYYmhOVlZkby1fSDYtalJfZ1NKZk54SlMyaE5TdzlFRENDVFV3dmVWcnZKZUJDWjJGemY1TzdZUDdxa2RJSW16RlI4dDBnQjV0OEhnUXR3Y2M5QjRpUkNSOHd4ZG9KTnNubmJOcDZrc2dQT3BCTkFWNGlkV1ViQUZRbE12SnhuSV9SdWU3Mks3VUhQVk01dXpQM1R0OU9paDZtR1p0QVRnb0h1NHhQMm9sbkJYM01JNjkybTZkcHZNN2d3QzdkZWhqUVF1S3FEa2ExbkYyUktid0x3Y0dPSGdfS29qQldHQmpJcUhNem1iemZOS3JqSG5TdGduS0ZJTXhNd0pwVERfQU0",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794538856,
-       "r": "unrated"
-      },
-      {
-       "t": "IRGC claims destruction of American radar in Bahrain",
-       "o": "КСИР заявил об уничтожении американского радара в Бахрейне",
-       "u": "https://www.rbc.ru/rbcfreenews/6af68f8fefa060b593895fb0",
-       "s": "RBC",
+       "t": "The IRGC reported the explosion of a gas tanker in the Strait of Hormuz",
+       "o": "В КСИР сообщили о подрыве газовоза в Ормузском проливе",
+       "u": "https://www.interfax.ru/world/1128791",
+       "s": "Interfax",
        "c": "RU",
        "l": "ru",
-       "p": 1794544886,
+       "p": 1794554460,
        "r": "known"
+      },
+      {
+       "t": "IRGC Navy says tanker explodes after hitting a sea mine in Hormuz Strait",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-navy-says-tanker-explodes-after-hitting-sea-mine-hormuz-strait",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794554253,
+       "r": "known"
+      },
+      {
+       "t": "Revolutionary Guards claim an oil tanker that passed through the Strait of Hormuz hit a naval mine",
+       "o": "משמרות המהפכה טוענים: מכלית נפט שעברה במצר הורמוז פגעה במוקש ימי",
+       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50bGRFdVRnTUJVcVBYdENRWVZPOTYzb2hSd0FEOFctczBLNXBKOUNwRkhudHJNZUJCTnRtdmstdHBUN1NnVlBfT1c2c1o1d0JWTGFQM19KdHhjUQ?oc=5",
+       "s": "YNET",
+       "c": "IL",
+       "l": "he",
+       "p": 1794553569,
+       "r": "unrated"
       }
      ],
-     "headlines": 19,
-     "outlets": 16,
-     "independent": 16,
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 4,
      "countries": [
-      "AR",
       "GB",
       "IL",
-      "IN",
-      "IR",
-      "JP",
-      "LB",
-      "RU",
-      "TR",
-      "TW"
-     ],
-     "regions": 7,
-     "party_only": false,
-     "state": 3
-    },
-    {
-     "text": "Trump says the US does not need a deal with Iran and again hints at using military force if necessary. Turkish and German outlets carry the same remarks.",
-     "stories": [
-      "s7",
-      "s12",
-      "s18"
-     ],
-     "sources": [
-      {
-       "t": "Trump again hints at using military force in Iran if necessary",
-       "o": "ترامب يلوح مجدداً باستخدام القوة العسكرية في إيران إذا لزم الأمر",
-       "u": "https://news.google.com/rss/articles/CBMihgRBVV95cUxPWm5iZ1RDeXpoVG16TlEtOTlCQ0RjN01lamNZb1RtdmZvNzlsZ2VsMjJ2TUZUUVExNDZFcjRuZmpqMWdGeTBYMDdpN0ptN2UwRlVhRHlkTWNCVzNZRUtrRkRmbnVSTHExRWhVaFZXZmhHdFVTSkYwdEthOVpSeE95LTNoeUNocndtbGYxeHlMY0RpV0hWY3NQV002WHFLeHF4YWsyTkpOMERaczcza01JWnd6WWEzZHFjQTZaNmVERWx0cGVYdmRRN29MNnM0ZEJ6aUZ0WklKMUFCS1VZUEQyZGd5X21YTGJaMkVUOXRqbS1LdEszVFBXeWNua0tVbFBaMEF5NDI0Y29aa1Npd3JCRDMxMk1BWTdDNVJ6TzlBWHhOMmxORWtIODJrRWplOWFMUUtUX0dYY2N3UktCbTkzZ0FGdm9hTUo3a255N3NGU0kyZWI0QUpJOS1uREo2WmtOb0EyMVFlMzl1QnBEbWUtNFJ3aWdYZFVGRThRQmV3ODdDUDdoREJZTXRodVNhVWRDcGN4WmUxLVhrMHJHdzVvaXh",
-       "s": "Al Arabiya",
-       "c": "SA",
-       "l": "ar",
-       "p": 1794543721,
-       "r": "known"
-      },
-      {
-       "t": "Trump says no deal is needed for the Iran war and instructs Vance to focus on domestic issues",
-       "o": "Trump, İran savaşı için anlaşmaya gerek olmadığını söyledi ve Vance'e iç meselelere odaklanma talimatı verdi",
-       "u": "https://www.trthaber.com/haber/dunya/trump-iran-savasi-icin-anlasmaya-gerek-olmadigini-soyledi-ve-vancee-ic-meselelere-odaklanma-talimati-verdi-963128.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794541620,
-       "r": "known"
-      },
-      {
-       "t": "Donald Trump sees a US pact with Iran as unnecessary",
-       "o": "Donald Trump ve innecesario un pacto de Estados Unidos con Irán",
-       "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONnA4MUItQjlxb3V6UUJTeUZMQ25JLUk5V250UFAydHRaTlkwOTFTSDU4ZTBqTjVKSFpGMzh2bGdmQnBUVGdoY0R5WWtJNDZoWjMwQm1xSjI3dV8wLWJTMmZ6dWhaMzduYk9rTVZ4TlBEeVdVVXZ1bEV1blE5d01BRzFvV1hqcWQ0TDdSQ0FtUDRfZUxxZTJGYjhrdzNMckZxNjNn0gGjAUFVX3lxTE10UUZGS1M1VEZmV0UxTXhhalJzVE92S3hjN2s4QzRqa0dTTVRIQWxWd1lqeHgxRDNmRkVFcFFTQ3BBVld5V3ZQaFBWLXdDbjJjNHItV1NLMks5SnlBLXdnN3I1TGMyeWZGMmdCN1ZqcE5ydWc5RWs5OUZTY1VadmhkTVJaekxnV0g0U0Noa2RMZTJ1Y1otUmNQV1BnVDRDWGhrT1U?oc=5",
-       "s": "Deutsche Welle",
-       "c": "DE",
-       "l": "es",
-       "p": 1794536889,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "DE",
-      "SA",
-      "TR"
+      "RU"
      ],
      "regions": 3,
      "party_only": false,
-     "state": 0
+     "state": 2
     },
     {
-     "text": "Russian state media TASS quotes Trump saying the US will refrain from tougher measures at the request of regional countries. This conflicts with his statements about possible force, and it comes from a single state outlet.",
+     "text": "A Vietnamese outlet reports that Iran announced it has resumed attacks on US military facilities in the Gulf after more than two months. Only one source carries this, so it is Iran's claim for now.",
      "stories": [
-      "s19"
+      "s11"
      ],
      "sources": [
       {
-       "t": "US refrains from tougher measures against Iran on request from regional countries — Trump",
-       "u": "https://tass.com/world/2217537",
-       "s": "TASS English",
-       "c": "RU",
-       "l": "en",
-       "p": 1794536438,
-       "r": "state"
+       "t": "Iran announces it has resumed attacks on US military facilities in the Gulf after more than 2 months",
+       "o": "Iran tuyên bố nối lại tấn công cơ sở quân sự Mỹ ở vùng Vịnh sau hơn 2 tháng",
+       "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTUE3V1VwMTJ0UjNIV2FxcDdJdkZMZzFYNXNSRkJ0bkd4RU9GMVhVVGlPMDRSTHFrUjU1WjNJSm5yU2xiWnhNZVBvZDIwcm83bGpHaGwwZFBtTVZrTndNMExfZG9qbUQ5djRCbHVOeUw3NU5hUEdPaXVTX3ZDd01vSFVkaVY2dXFReXJJOVJwZVdFRDVzQzcxS3lJZm9wLWhHbUNKRkwxTVZkeUhCNHhjdi1UUlhGZzRC?oc=5",
+       "s": "Tuổi Trẻ",
+       "c": "VN",
+       "l": "vi",
+       "p": 1794547800,
+       "r": "unrated"
       }
      ],
      "headlines": 1,
      "outlets": 1,
      "independent": 1,
      "countries": [
-      "RU"
+      "VN"
      ],
      "regions": 1,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "Iran says four oil tankers were struck by explosions in the Strait of Hormuz. The cause is not settled, and this report comes from one Indian outlet. Separately, a robotic vessel has been sent to clear sea mines in the strait.",
-     "stories": [
-      "s20",
-      "s15"
-     ],
-     "sources": [
-      {
-       "t": "4 Oil Tankers Struck By Explosions In Strait Of Hormuz: Iran",
-       "u": "https://www.ndtv.com/world-news/four-tankers-struck-by-explosions-in-strait-of-hormuz-iran-says-12319148#publisher=newsstand",
-       "s": "NDTV World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794536386,
-       "r": "known"
-      },
-      {
-       "t": "Robotic vessel \"dispatched\" to clear sea mines in the Strait of Hormuz",
-       "o": "Tàu robot được 'cử' đi rà phá thủy lôi ở Eo biển Hormuz",
-       "u": "https://www.bbc.com/vietnamese/articles/cr0qjekvnpd4o?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Vietnamese",
-       "c": "GB",
-       "l": "vi",
-       "p": 1794539052,
-       "r": "known"
-      }
-     ],
-     "headlines": 3,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "GB",
-      "IN"
-     ],
-     "regions": 2,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran's parliament speaker Ghalibaf says the ball is in America's court for peace talks. The IRGC says Iran may extend the range of its missiles, a claim from Russian state media.",
+     "text": "Trump says Iran's regime 'is collapsing' and warns it could resume attacks if the situation worsens. He says Iran would be hit 'with no hesitation' if it threatens allies or US ships. He also says the US does not need a deal with Iran, and his vice president has been sidelined in the talks.",
      "stories": [
-      "s14",
-      "s4"
+      "s12",
+      "s13",
+      "s4",
+      "s14"
      ],
      "sources": [
       {
-       "t": "Ghalibaf says 'ball is in America's court' for US-Iran peace talks",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/ghalibaf-says-ball-americas-court-us-iran-peace-talks",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794540326,
+       "t": "Trump says Iran's regime \"is collapsing\" and warns it could resume attacks if the situation worsens",
+       "o": "Trump aseguró que el régimen de Irán “se está desmoronando” y advirtió que podría reanudar los ataques si la situación empeora",
+       "u": "https://www.infobae.com/america/mundo/2026/11/13/trump-aseguro-que-el-regimen-de-iran-se-esta-desmoronando-y-advirtio-que-podria-reanudar-los-ataques-si-la-situacion-empeora/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794547701,
        "r": "known"
       },
       {
-       "t": "Iran may increase range of its missiles, IRGC says",
-       "o": "Иран может увеличить дальность своих ракет, сообщили в КСИР",
-       "u": "https://ria.ru/20261113/iran-2131258329.html",
-       "s": "RIA Novosti",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794544506,
+       "t": "Trump says Iran would be hit with 'no hesitation' if it threatens allies, US ships",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-would-be-hit-no-hesitation-if-it-threatens-allies-us",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794547094,
+       "r": "known"
+      },
+      {
+       "t": "Trump sidelines his vice president in Iran negotiations and says US does not need a deal",
+       "o": "Trump tira seu vice de negociação com Irã e diz que EUA não precisam de acordo",
+       "u": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/trump-tira-seu-vice-de-negociacao-com-ira-e-diz-que-eua-nao-precisam-de-acordo.shtml",
+       "s": "Folha Mundo",
+       "c": "BR",
+       "l": "pt",
+       "p": 1794553200,
+       "r": "known"
+      },
+      {
+       "t": "Trump says US does not need a deal with Iran",
+       "o": "Trump Bilang AS Tak Butuh Kesepakatan dengan Iran",
+       "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZVpyRE5pSFctRFZwT2d6clJSa1Y5bmZlVDJpZmZHZ0VEM21SN0xUZ09UVDl5c21TaHFGVDNCWVgzWW9fTG9EWm9wejQxaVlOcFlvdXZYUC1ReEZtMEs3N1ZsMmF3S2NFWkVNNG45WWdHaEozaWJXTC12X0FRSHdWQXZ5cGhHcTctV2JHTGRhQUJiTTJWTjdUV0NmamLSAaIBQVVfeXFMTW9XYXdwRU51aDdEbENPeHduNkhZaDg4M3JXVFhyaHYtSllhVDNzV2VRQkZ0NWlBZTh3R0g3YWFtSTB3U2d0V0NIY3h3UmNKcVhqcnN2QmNnSE0xZ29CZFhlVnNkMzVHRFF3b3NKaHMyZjNkSFBqTXZpbERRQlRnRTcwZzdyQ3IzdkZoMmhhRTJBbWdiQ3pxLU1nX0tJczdaY09R?oc=5",
+       "s": "detikNews",
+       "c": "ID",
+       "l": "id",
+       "p": 1794545471,
+       "r": "unrated"
+      },
+      {
+       "t": "Middle East war: Iranian attacks, \"no need for an agreement\" according to Donald Trump… The latest news",
+       "o": "Guerre au Moyen-Orient : attaques iraniennes, « pas besoin d’un accord » selon Donald Trump… Les dernières infos",
+       "u": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQRUpFWHJGdjFJNzJmamhoenlHeWU2LUZJeHpjVnYwRndWcFQwT0FGUlE3dWRUWGhMdmdtcFNGU01pa3RlM0lkWDRSODIteWh0QmlHUXE1b3RhWHM4Q19xbDQtMV9qV1ZkV0U0TWVybllJbmNpa0JPTEEyY1doZmJVd0dJdGZwNUtDQkJvT1Y3ZFdEcTZNWUxNSE4ycnZQNWZReGFHTzU4SUR0UWlMamppeVk2T2pqRHFTcFVsd2IxQk15SlVQaEdUXzBVMjZDbk9vbWRxLUc5Nll0NGJCYkFCemx0NnRxRDVTczhoai03SGZXQ3hJT3l0bk16MV9BeVlsVmQ1LVd0azVfQTA?oc=5",
+       "s": "Ouest-France",
+       "c": "FR",
+       "l": "fr",
+       "p": 1794546209,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 5,
+     "countries": [
+      "AR",
+      "BR",
+      "FR",
+      "GB",
+      "ID"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Oil is on track for a second weekly decline as Trump eases fears of renewed war with Iran. A Ukrainian outlet links falling gasoline prices to a US blockade of Iran.",
+     "stories": [
+      "s6",
+      "s8"
+     ],
+     "sources": [
+      {
+       "t": "Oil on track to post second weekly decline as Trump eases fears of renewed war with Iran",
+       "u": "https://www.thenationalnews.com/business/energy/2026/11/13/oil-on-track-to-post-second-weekly-decline-as-trump-eases-fears-of-renewed-war-with-iran/",
+       "s": "The National",
+       "c": "AE",
+       "l": "en",
+       "p": 1794552840,
+       "r": "known"
+      },
+      {
+       "t": "Gasoline Gets Cheaper for Second Week in a Row Due to US Blockade of Iran",
+       "o": "Нафта дешевшає другий тиждень поспіль через блокаду США Ірану",
+       "u": "https://www.ukrinform.ua/rubric-economy/4184170-nafta-desevsae-drugij-tizden-pospil-cerez-blokadu-ssa-iranu.html",
+       "s": "Ukrinform Ukrainian",
+       "c": "UA",
+       "l": "uk",
+       "p": 1794551202,
        "r": "state"
       }
      ],
@@ -12280,23 +12235,50 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "GB",
-      "RU"
+      "AE",
+      "UA"
      ],
      "regions": 2,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "CENTCOM calls Israeli press claims that US strikes on Iran will continue 'pure speculation'. The statement is carried by a single Turkish state outlet.",
+     "stories": [
+      "s5"
+     ],
+     "sources": [
+      {
+       "t": "CENTCOM: Claims in Israeli press that US strikes on Iran will continue are pure speculation",
+       "o": "CENTCOM: İsrail basınının ABD'nin İran'a saldırılarının süreceği iddiaları tamamen spekülasyon",
+       "u": "https://www.trthaber.com/haber/dunya/centcom-israil-basininin-abdnin-irana-saldirilarinin-surecegi-iddialari-tamamen-spekulasyon-963153.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794552240,
+       "r": "known"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 1,
+     "countries": [
+      "TR"
+     ],
+     "regions": 1,
      "party_only": false,
      "state": 1
     }
    ],
    "watch": [
-    "Whether the US or Bahrain confirms or denies the radar attack",
-    "Whether Trump follows his strike threats with action or the TASS-reported pause holds",
-    "Any independent confirmation of the cause of the tanker explosions in Hormuz"
+    "Whether the Bahrain radar attack or the Hormuz tanker explosion is confirmed by any independent source",
+    "Whether Trump's threats of renewed strikes are followed by action",
+    "Further reports of mines or attacks in the Strait of Hormuz, and progress of the mine-clearing robot"
    ],
    "window_hours": 3,
-   "headlines_read": 38,
-   "outlets_read": 27,
-   "countries_read": 15,
+   "headlines_read": 36,
+   "outlets_read": 33,
+   "countries_read": 20,
    "languages_read": 14,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-13T05:00:32Z",
