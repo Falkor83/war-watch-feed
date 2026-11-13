@@ -1675,9 +1675,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Mossad chief lobbies in Washington to resume Iran war; Bahrain drone dispute continues",
+   "status": "Tankers reportedly hit mines in Hormuz; Brent flat at $95.84 amid calm",
    "summary": "The US and Israel have fought Iran this year, and shipping through the Strait of Hormuz remains disrupted. On Nov 13, Iran's Revolutionary Guards said they destroyed a US early-warning radar in Bahrain in reply to a strike near Sirik. AP and SBS say neither Bahrain nor the US has confirmed this. The Guards also say an LNG tanker hit a mine in Hormuz, and UKMTO reported a tanker hit by an unknown projectile with crew injured. Trump removed Vance from the Iran talks and said a deal is not needed, while Iran ties reopening Hormuz to the US lifting its blockade and sanctions.",
    "latest": [
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T22:46:54Z",
+     "text": "Two tankers reportedly hit sea mines in the Strait of Hormuz, according to the Revolutionary Guard, as reported by Middle East Eye and RIA Novosti. Separately, a Saudi outlet reports an explosion and fire on two tankers south of the strait, also citing the Guards.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-tankers-hit-sea-mines-hormuz-irgc",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T22:46:54Z",
+     "text": "Iraq has resumed oil exports through the Strait of Hormuz under US protection, Russia's TASS reports, citing a top Iraqi diplomat. Separately, Trump extended a shipping law waiver for 90 days as fuel prices rose during the war.",
+     "outlet": "TASS English",
+     "country": "Russia",
+     "url": "https://tass.com/world/2218043",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": true
+    },
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T22:46:54Z",
+     "text": "Brent closed unchanged at $95.84 a barrel, with Infobae describing calm in the Iran war.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/agencias/2026/11/13/el-brent-cierra-hoy-sin-variaciones-en-9584-el-barril-ante-calma-en-la-guerra-de-iran/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-13",
      "at": "2026-11-13T20:02:08Z",
@@ -1730,39 +1763,6 @@
      "country": "France",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZldWaXBIZ1NHa01mVnl6a1ZmMThKcm5ma3hnUUVESjdFYzBmUUw2bHE1X0RzTVl5SnFHdm9JNXIxd1pFZmc1MV8zVW1lRVAxdl94cUxvZmt2a0lnSXRkOFY4T3NSa1EyeG1kQUZSMVRyV21LVV9FZV9tdkhtYzlrMjBuc1FWUUtSR2xyMHJka3FwcTItYlJnYlgzeVVGbkU?oc=5",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "at": "2026-11-13T16:27:55Z",
-     "text": "Iran says its forces shot down another US MQ-1 drone in the south, and the Iranian army claims it destroyed one off Sirik. Only Iranian and Russian outlets carry these claims; no independent source confirms them.",
-     "outlet": "TASS English",
-     "country": "Russia",
-     "url": "https://tass.com/world/2217925",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": true
-    },
-    {
-     "date": "2026-11-13",
-     "at": "2026-11-13T13:42:59Z",
-     "text": "Iran's Revolutionary Guards say they destroyed a US military radar in Bahrain in retaliation for an attack on its coast. Several independent outlets carry this account, but none reports US confirmation. CENTCOM, as reported by TASS, says it repelled an Iranian attack on Bahrain.",
-     "outlet": "The Guardian",
-     "country": "United Kingdom",
-     "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "at": "2026-11-13T13:42:59Z",
-     "text": "The IRGC says a liquefied gas carrier hit a naval mine in the Strait of Hormuz. This claim appears only in Iranian media. A separate report describes explosions at oil tankers in the strait, but no independent source confirms the cause.",
-     "outlet": "IranWire",
-     "country": "Iran",
-     "url": "https://iranwire.com/en/news/160192-irgc-claims-liquefied-gas-carrier-hit-naval-mine-and-exploded-in-strait-of-hormuz/",
-     "region": "iran",
      "tag": "non-party",
      "state_media": false
     }
@@ -12348,11 +12348,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-10T20:06:22Z",
-     "headline": "Rubio says no large strike needed now; Iran denies talks; third tanker hit in Hormuz",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-10T22:53:03Z",
      "headline": "US reportedly delays strikes for talks; Iran denies talks; tanker blast reported in Hormuz",
      "direction": "steady"
@@ -12466,193 +12461,122 @@
      "at": "2026-11-13T20:02:08Z",
      "headline": "Mossad chief lobbies in Washington to resume Iran war; Bahrain drone dispute continues",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-13T22:46:54Z",
+     "headline": "Tankers reportedly hit mines in Hormuz; Brent flat at $95.84 amid calm",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-13T20:02:08Z",
-   "next_at": "2026-11-13T23:02:08Z",
-   "headline": "Mossad chief lobbies in Washington to resume Iran war; Bahrain drone dispute continues",
+   "updated_at": "2026-11-13T22:46:54Z",
+   "next_at": "2026-11-14T01:46:54Z",
+   "headline": "Tankers reportedly hit mines in Hormuz; Brent flat at $95.84 amid calm",
    "direction": "steady",
    "points": [
     {
-     "text": "Mossad chief is reported to be in Washington pressing to resume the war with Iran, according to Axios as relayed by several outlets. These are reports about private talks, not official statements.",
+     "text": "Two tankers reportedly hit sea mines in the Strait of Hormuz, according to the Revolutionary Guard, as reported by Middle East Eye and RIA Novosti. Separately, a Saudi outlet reports an explosion and fire on two tankers south of the strait, also citing the Guards.",
      "stories": [
-      "s1"
+      "s1",
+      "s7"
      ],
      "sources": [
       {
-       "t": "Mossad chief visits Washington amid pressure over war with Iran, according to Axios",
-       "o": "Jefe de la Mosad visita Washington, en medio de presiones por guerra con Irán, según Axios",
-       "u": "https://www.infobae.com/america/agencias/2026/11/13/jefe-de-la-mosad-visita-washington-en-medio-de-presiones-por-guerra-con-iran-segun-axios/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1794592093,
+       "t": "Two tankers hit sea mines in Hormuz: IRGC",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/two-tankers-hit-sea-mines-hormuz-irgc",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794603779,
        "r": "known"
       },
       {
-       "t": "Mossad chief holds talks in Washington on the war against Iran",
-       "o": "رئيس الموساد يجري محادثات في واشنطن بشأن الحرب على إيران",
-       "u": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPdUptaWtjWG5TV05lR0Y4YUlhaVhtWG5xUFUzNkFlNllyQXAzT3FPcV9GbHdLeGpGbXBXYWVibDBYZ09scEI0SWdpdGZzd29sUUVDV0VPQzU2ODRBWlQ2eE1VTUlfMy0zQ0dyS05jT1RYU3hJM3prN2x6OU9saTg2d3kzQlpRVEV6WWVXekp5bGh3LTRhZERlV2M1b0pTSGZCOU9YY2FZWXJzR3JfcnhlSks3WnR6bGxlVUZ6U1d0dDdTTll2QWU5YXBjODVZREhBMkk2THBGNzltOGVISXl3eUZhSl9CcGF2TS1SWWVLdTlya0dlTUwwcmRNVldmeHdCNi1uN0xPOFI0a0xiQ0ZpeGE2WHlBT2phNmY0amhWWmNxamNGZDVmbnRpMjVXVlQxYkR3QkxLUFo3VS1sVjk1c2VYWXF2eWc?oc=5",
-       "s": "القدس العربي",
-       "c": "GB",
-       "l": "ar",
-       "p": 1794587427,
-       "r": "unrated"
+       "t": "Two tankers hit mines in Strait of Hormuz",
+       "o": "В Ормузском проливе два танкера подорвались на минах",
+       "u": "https://ria.ru/20261113/ormuz-2131473916.html",
+       "s": "RIA Novosti",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794603198,
+       "r": "state"
       },
       {
-       "t": "Mossad seeks resumption of war with Iran. Special visit",
-       "o": "Mosad zabiega o wznowienie wojny z Iranem. Specjalna wizyta",
-       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNU19JZmt2MC1VSzJEY1pkTmVxb0lnS3FhV2NVSXdxdEs2VzByYmpsQkJ6X0h6SFFwUU1Dd1lIT3ZhaF9YTmNLY05NRE5ZbHFxZHdLODFlYW5CeGR3azJKdDBoUU84TWYtRjE3WUk4RTNyemEyc3J0ZnRlT1Z1SGpuM3h5TmRJZEd1Mll5ZnFBOTBMRjlwVmJ4dkx2RjBSTzlqa1Vwd1pzMEphSFZMd0llNUpn?oc=5",
-       "s": "Wiadomości Onet",
-       "c": "PL",
-       "l": "pl",
-       "p": 1794586896,
-       "r": "unrated"
+       "t": "Revolutionary Guard: explosion and fire on two oil tankers south of the Strait of Hormuz",
+       "o": "الحرس الثوري: انفجار واشتعال النيران في ناقلتي نفط في جنوب مضيق هرمز",
+       "u": "https://news.google.com/rss/articles/CBMiowRBVV95cUxPRjMxeFBDUTVwR0V2aVJPYi1jTkR1YU9kRVg1dE1WQzVHbHVtYjk5a2lWa3BPV1JWNG9GSmpnZ3E2am5ESFNfODAyMXVNc3JQS0J5ai1yVUpEQ2kxQnU5N2EwVW5vRlY3RTJXZDF6bnd5bEJoZG1FeVhoTEdJeHBPcEdLYWQzNmJTUzN5aDNodGlhYzVJcEY2VV9DcTZEbVpEQTZqdGU5YUkwMWxHU05qRjlvYTZMelJOUDcwckJ0UjdRZGVVOHkyUWg5X0N3Yzd3bFk1eDd5YXROUjZqTkhHQncyM0h1WnhTNEI4aXBVN09yRUFuNzV5bGtfUnVRNkJmMEZOVFlzWjlXYk9oUkFHejc2c1JCRG9UeGxEWWNDSU1ZeHBXdjJfaFBCVFVDMG51RGJ4VEJqYUNsQ1A3T2xMVi05WklBSWRLT2FfMnlXMUJpNzRIRlBpWkswQUFOMmt6VGw1b2dpNE8tSnVfZFVfN3VjUzE2UGJjODAwS3BXeVpDc2pYckpac054WFpTRFlvRFBRczB3TDN6Z3hOWUVPbzM",
+       "s": "Al Arabiya",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794603660,
+       "r": "known"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "GB",
+      "RU",
+      "SA"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Iraq has resumed oil exports through the Strait of Hormuz under US protection, Russia's TASS reports, citing a top Iraqi diplomat. Separately, Trump extended a shipping law waiver for 90 days as fuel prices rose during the war.",
+     "stories": [
+      "s2",
+      "s3"
+     ],
+     "sources": [
+      {
+       "t": "Iraq resumes oil exports through Strait of Hormuz under US’ protection — top diplomat",
+       "u": "https://tass.com/world/2218043",
+       "s": "TASS English",
+       "c": "RU",
+       "l": "en",
+       "p": 1794602366,
+       "r": "state"
+      },
+      {
+       "t": "Trump extends shipping law waiver for 90 days amid Iran war fuel price rise",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-extends-shipping-law-waiver-90-days-amid-iran-war-fuel-price-rise",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794608676,
+       "r": "known"
       }
      ],
      "headlines": 3,
      "outlets": 3,
      "independent": 3,
      "countries": [
-      "AR",
       "GB",
-      "PL"
+      "RU"
      ],
      "regions": 2,
      "party_only": false,
-     "state": 0
+     "state": 2
     },
     {
-     "text": "Trump said on social media that he is removing J.D. Vance from the Iran negotiating team and that the US does not need an agreement. Only one Thai outlet carries this so far.",
+     "text": "Brent closed unchanged at $95.84 a barrel, with Infobae describing calm in the Iran war.",
      "stories": [
-      "s5",
-      "s12"
+      "s9"
      ],
      "sources": [
       {
-       "t": "Trump announces on social media removing J.D. Vance from the Iran negotiating team, saying the US does not need an agreement",
-       "o": "'ทรัมป์' ประกาศผ่านโซเชียล ถอด 'เจ.ดี แวนซ์' ออกจากคณะเจรจากับอิหร่าน ลั่นสหรัฐไม่จำเป็นต้องมีข้อตกลง",
-       "u": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5RaFpsaXBFNVo4VTB4cm1VdHlacXBSMHA2VkdkWmJzbGVhQWxSNnJLcFdSUGNtalNrQ3BpZzR3ekd0aDFFN3pPeE5fM1ZFNmV2aWlzY1Z6bw?oc=5",
-       "s": "แนวหน้า",
-       "c": "TH",
-       "l": "th",
-       "p": 1794596298,
-       "r": "unrated"
-      },
-      {
-       "t": "Trump revives the war option... and Iran expands its threats",
-       "o": "ترمب يعيد خيار الحرب... وإيران توسّع تهديداتها",
-       "u": "https://aawsat.com/node/5340900",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1794590423,
-       "r": "known"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "SA",
-      "TH"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Two independent outlets report that the US shot down two Iranian drones heading toward Bahrain. Iran claims it destroyed a US radar there, and a Cuban outlet repeats that claim. Only Iranian and US outlets carry the radar claims, and Iran's state media also says it downed an MQ-1 drone off its southern coast.",
-     "stories": [
-      "s2",
-      "s13",
-      "s6",
-      "s17",
-      "s18"
-     ],
-     "sources": [
-      {
-       "t": "United States destroyed two Iranian attack drones threatening military facilities in Bahrain",
-       "o": "Estados Unidos destruyó dos drones de ataque iraníes que amenazaban instalaciones militares en Baréin",
-       "u": "https://www.infobae.com/america/mundo/2026/11/13/estados-unidos-destruyo-dos-drones-de-ataque-iranies-que-amenazaban-instalaciones-militares-en-barein/",
+       "t": "Brent closes today unchanged at $95.84 a barrel amid calm in the Iran war",
+       "o": "El brent cierra hoy sin variaciones, en 95,84 % el barril, ante calma en la guerra de Irán",
+       "u": "https://www.infobae.com/america/agencias/2026/11/13/el-brent-cierra-hoy-sin-variaciones-en-9584-el-barril-ante-calma-en-la-guerra-de-iran/",
        "s": "Infobae",
        "c": "AR",
        "l": "es",
-       "p": 1794598326,
-       "r": "known"
-      },
-      {
-       "t": "US says it shot down two radar-targeting drones over Bahrain, which Tehran claims to have destroyed",
-       "o": "EUA diz que abateu dois drones dirigidos a radar no Bahrein , cuja destruio Teerão reivindica",
-       "u": "https://www.dnoticias.pt/2026/11/13/512833-eua-diz-que-abateu-dois-drones-dirigidos-a-radar-no-bahrein-cuja-destruicao-teerao-reivindica/",
-       "s": "dnoticias.pt",
-       "c": "PT",
-       "l": "pt",
-       "p": 1794592800,
-       "r": "unrated"
-      },
-      {
-       "t": "Middle East latest: US says it shot down Iranian drones launched toward Bahrain",
-       "u": "https://www.thenationalnews.com/news/mena/2026/11/13/iran-war-live-us-bahrain-trump-centcom/",
-       "s": "The National",
-       "c": "AE",
-       "l": "en",
-       "p": 1794589999,
-       "r": "known"
-      },
-      {
-       "t": "US radar in Bahrain reduced to ashes after Iranian attack",
-       "o": "Reducido a cenizas el radar de Estados Unidos en Baréin tras el ataque iraní",
-       "u": "http://www.cubadebate.cu/noticias/2026/11/13/reducido-a-cenizas-el-radar-de-estados-unidos-en-barein-tras-el-ataque-irani/",
-       "s": "Cubadebate",
-       "c": "CU",
-       "l": "es",
-       "p": 1794593960,
-       "r": "known"
-      },
-      {
-       "t": "Breaking: Washington denies targeting a US radar in Bahrain and announces downing of two Iranian drones",
-       "o": "عاجل . - واشنطن تنفي استهداف رادار أميركي في البحرين وتعلن إسقاط مسيّرتين إيرانيتين",
-       "u": "https://arabic.euronews.com/2026/11/13/radar-bahrain-revolutionary-guard-drones-strait-of-hormuz-central-command-negotiatio",
-       "s": "Euronews",
-       "c": "US",
-       "l": "ar",
-       "p": 1794592800,
-       "r": "known"
-      }
-     ],
-     "headlines": 7,
-     "outlets": 7,
-     "independent": 7,
-     "countries": [
-      "AE",
-      "AR",
-      "CU",
-      "IR",
-      "PT",
-      "US"
-     ],
-     "regions": 5,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "Iranian MPs are debating a possible change to the country's nuclear doctrine and an exit from the NPT, according to Euronews. This is a parliamentary debate, not a government decision.",
-     "stories": [
-      "s10"
-     ],
-     "sources": [
-      {
-       "t": "Iran MPs debate possible shift in nuclear doctrine and exit from NPT",
-       "u": "https://www.euronews.com/2026/11/13/iran-mps-debate-possible-shift-in-nuclear-doctrine-and-exit-from-npt",
-       "s": "Euronews",
-       "c": "FR",
-       "l": "en",
-       "p": 1794590481,
+       "p": 1794601034,
        "r": "known"
       }
      ],
@@ -12660,23 +12584,96 @@
      "outlets": 1,
      "independent": 1,
      "countries": [
-      "FR"
+      "AR"
      ],
      "regions": 1,
      "party_only": false,
      "state": 0
+    },
+    {
+     "text": "The Gulf Cooperation Council demands that Iran pay full compensation for attacks on Gulf states. Iran's foreign minister Abbas Araghchi accuses the US and Israel of violating international law in their attacks, according to Hindustan Times.",
+     "stories": [
+      "s4",
+      "s11"
+     ],
+     "sources": [
+      {
+       "t": "GCC demands Iran pay full compensation for attacks on Gulf states",
+       "u": "https://www.thenationalnews.com/news/us/2026/11/13/gcc-iran-compensation-attacks/",
+       "s": "The National",
+       "c": "AE",
+       "l": "en",
+       "p": 1794608115,
+       "r": "known"
+      },
+      {
+       "t": "Iran's foreign minister Abbas Araghchi accuses US and Israel of violating international law in attacks",
+       "u": "https://www.hindustantimes.com/world-news/irans-foreign-minister-abbas-araghchi-accuses-us-and-israel-of-violating-international-law-in-attacks-101794597149372.html",
+       "s": "Hindustan Times World",
+       "c": "IN",
+       "l": "en",
+       "p": 1794599716,
+       "r": "known"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "AE",
+      "IN"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Haaretz reports growing concern from the nuclear watchdog about an Iranian enrichment plant, and Al-Monitor lays out three ways Democrats could cut off funding for Trump's Iran war. The funding item is an analysis of options, not a vote.",
+     "stories": [
+      "s12",
+      "s13"
+     ],
+     "sources": [
+      {
+       "t": "Nuclear Watchdog Increasingly Concerned About Iranian Enrichment Plant",
+       "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUjc3VjdYMFZoRlVzZUNjS0drUkJiajl4OHJTRkl1a3hfWHJReHhrbE1fcC13UmYyZ3NubEtSMWdieXZ1OG5XQk4yOTNGb1A3S01CVTVlXzlzc0ptc3ZwN2tBZUpfNGRaQ3BDM28zX19GVlRBZHlBOG1KWV9rSC02Q1NxTWdQUzhwZjRiZjRGczduVFM3cTB3ZEx0ZGhPWlZXWDNpMDBEWDlhZHJpa0VycWxvZEc5ZzhRM3JIZWFMNXRjdkdBS1N5R1dkaWplb2tkcHhkQ1NoSExnX1ZDQWlBbjh6ejcyM0NSSkpaOGlxTmF2STk4d2kzQ2FwXzZ0djRSLV8tZ0JB?oc=5",
+       "s": "Haaretz",
+       "c": "IL",
+       "l": "en",
+       "p": 1794607920,
+       "r": "known"
+      },
+      {
+       "t": "Three ways Democrats could cut off Trump’s Iran war funding",
+       "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeUtOUnVHdzBkVF8zWVVPR19xTzFUOC0tbm5OdHVfY19DeS1iLWsxTVhIaE5TanRWaWl0Y0kxNHJpMEtKYmF0WWlvcHUyMUNEV19mYnZUNDljWEE5anJPY1ltbDBHeEdUTG11Z1oyYWtzTEN4R2FvelZuYWpmVGdrdS1pSGZRNlRCT3l0QXBUUVZ3TmJoUEd4R2FVWnJ1d3Nl?oc=5",
+       "s": "Al-Monitor",
+       "c": "IL",
+       "l": "en",
+       "p": 1794607602,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "IL"
+     ],
+     "regions": 1,
+     "party_only": true,
+     "state": 0
     }
    ],
    "watch": [
-    "Whether the Mossad chief's Washington visit is followed by any official US statement on resuming the war",
-    "Any independent confirmation of Iran's radar and MQ-1 drone claims, or further drone activity near Bahrain",
-    "Whether Iran's parliament moves from debate to a vote on NPT exit"
+    "Independent confirmation of the two tanker incidents near Hormuz",
+    "Whether Iraqi oil exports under US protection continue through the strait",
+    "Any US congressional move on Iran war funding"
    ],
-   "window_hours": 4,
-   "headlines_read": 33,
-   "outlets_read": 24,
-   "countries_read": 18,
-   "languages_read": 7,
+   "window_hours": 3,
+   "headlines_read": 20,
+   "outlets_read": 15,
+   "countries_read": 10,
+   "languages_read": 4,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-13T05:00:32Z",
    "ladder_note": "Re-checked after: The IRGC claims it attacked a US early-warning radar in Bahrain, a concrete attack reported by many outlets but not independently confirmed."
