@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "usd": 13.5903,
+ "usd": 14.2828,
  "runs": [
   {
    "at": "2026-11-04T04:16:08Z",
@@ -677,10 +677,30 @@
    "searches": 0,
    "batch": true,
    "usd": 0.0207
+  },
+  {
+   "at": "2026-11-13T10:23:00Z",
+   "what": "daily search notes",
+   "model": "claude-sonnet-5-5",
+   "in": 177764,
+   "out": 24170,
+   "searches": 10,
+   "batch": true,
+   "usd": 0.3986
+  },
+  {
+   "at": "2026-11-13T10:26:55Z",
+   "what": "daily analysis",
+   "model": "claude-opus-5-5",
+   "in": 46963,
+   "out": 20000,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.2939
   }
  ],
  "cap": 45.0,
- "headlines_usd": 1.1406,
- "total_usd": 14.9943,
- "focus_usd": 0.2634
+ "headlines_usd": 1.2671,
+ "total_usd": 15.8993,
+ "focus_usd": 0.3494
 }
