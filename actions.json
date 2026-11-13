@@ -911,6 +911,96 @@
    "added": "2026-11-12",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-12-ua-2",
+   "date": "2026-11-12",
+   "country": "UA",
+   "kind": "military-readiness",
+   "what": "Ukraine's Cabinet updates the rules on which critical-enterprise workers are reserved (exempt) from mobilisation",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOTdhRzlVQkdicjNzdGJNb1F6d2ZJNEdqUks3b2tESlIxUWZkRUMxQVZnaDhuaWgwVE8xdkdKOHIwNnFuM3YzSU9tRUItdWF6SEJSRE9EZXVBMkxDWFNVVkp3VmwtUzlvbnhKc3JsMFMtak51WHZFWkt2TzdyOFBhLWo3VDEtMm40TC1STVktVWt0RGxpZkdDalRMeE5sbTlWWlBJaXdMdTh6RWtEYXNSU24xeTR0SGgzNWpLNm9Ob29zMWE1eW83MnctMXlralJ0NW5iN05SUWc?oc=5",
+   "outlet": "ТСН",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-13",
+   "independent": 4,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-12-in-1",
+   "date": "2026-11-12",
+   "country": "IN",
+   "kind": "supply-reserves",
+   "what": "India seeks private investors to build its largest strategic petroleum reserve, in Odisha (about ₹8,571 crore)",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNN215T21DbjBETU1lNkFJRENuYjg2dUJnWVh0TkxnSC1Qb3hib21ZMGgtTDJFN0NDb0FlNkp3U2VNNU1QeDNneDRKaF9vQUkyM0xjNTJueFd0ZjRuTzBXYXByWmZlNk5malRqQ0RMaVhwdTNpRWpiMDd1ZTZJb1VNMWhubUF3ZzlVR0xKREQ1YlBsdVNHd1RaQWh1NF96c3JkQmJmc0FyN3lkSFVIV2EtTi15WGpSVlBhX2V2d3BQOU1SLS1wRkNVek1rMFlGak50YzNlQ3F1bHhsMmJEVnpvTS1CWm42X1JjblZMcFRYV3F1NzlrWTdiejB6d2dNMGdJWnliNjFyVUpLa1hCaWZxMnI5Z9IBmAJBVV95cUxQWGpwaWtIVm5LLU5fWmhoVGRvNlZJM2RsNHZSaHNBMXpxenQ1YnEzMW1EU2JFdUpaYVBOandxSnkxa0NNLW5sQVJpNDJCT2pSWFB6dlpoWHoxLUNWdk5mS0x3cUNuX3NSNmJVN25SblV0TE9nUzNqSlVpM0RwRk42Y0tWQ0YyOWlvSmt",
+   "outlet": "The Economic Times",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": true,
+   "program": "India's long-planned phase II expansion of strategic petroleum reserves",
+   "source": "corpus",
+   "added": "2026-11-13",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-13-gb-1",
+   "date": "2026-11-13",
+   "country": "GB",
+   "kind": "infrastructure-protection",
+   "what": "UK reportedly seeks prison terms for undersea cable sabotage (explainer in one US outlet; details of the measure unclear)",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xcDl3eWhSbkg4dEEyUXNHekZabVVfc3c1T1dkZ1FSbmNqSTlJMDQ3eFJLNzMxWmdsbzZ4XzY4N1RqNTRuaDcwblZ2SDRxSXdsX1pWemM2MWRrM0JLY29UaHNIUU9Jc2lWUkpZNG9Lbm1WZ1EyaEE?oc=5",
+   "outlet": "Yahoo News",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-13",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-13-kr-1",
+   "date": "2026-11-13",
+   "country": "KR",
+   "kind": "civil-preparedness",
+   "what": "Suwon's Paldal-gu Women's Civil Defense Corps holds a joint inspection of civil-defence shelters (local, routine-looking)",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHMVg3eTRPRFNQcy00SFdNWUF3TXNyN085bmR0NE5GRWNNdTZaSGpVLU00OHA0ZEFmcllOcmI4MzNsQ1RQbDBMcjk1ZllGTVFfaWl2aE91NE15Z05UTkdDR0pkNDZsS2FQWkE?oc=5",
+   "outlet": "한국시사경제",
+   "hotspots": [
+    "korean-peninsula"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-13",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-13-ua-1",
+   "date": "2026-11-13",
+   "country": "UA",
+   "kind": "military-readiness",
+   "what": "Hungarian outlet says Zelensky plans to urge conscription-age men abroad to return; single source, not confirmed elsewhere",
+   "url": "https://magyarhirlap.hu/oroszorszag-ukrajna/20261112-hazateresre-szolitana-fel-a-kulfoldon-elo-hadkoteles-ferfiakat-zelenszkij",
+   "outlet": "magyarhirlap.hu",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-13",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -2672,6 +2762,206 @@
    "url": "https://www.bbc.com/japanese/watch/cqy7r6415yn1o?at_medium=RSS&at_campaign=rss",
    "source": "corpus",
    "independent": 5
+  },
+  {
+   "id": "e-2026-11-13-5",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "‘We don’t need a deal’: Trump yanks JD Vance off Iran war talks",
+   "countries": [
+    "AE",
+    "AU",
+    "CA",
+    "DE",
+    "EG",
+    "GB",
+    "IL",
+    "IN"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYkppX1R4bEpaMG83dTFTUFZ5WGRiMWhmU1I2T0IwRnZ0dGlYVzhHYTdUX004eXl3a3Y3eWtGZFRNdnZqQXhKbWNHYTdRaXdDQjJKSWJHcXBkQm12RlJlS0dOLXJpSU1Ub243YjREWjExZkRzcVM5SEh4MUtkUmFYdWFocDljYUhyS3g0Q0h4X2hTRXNRZXpsZnZteXZnNGNiTl8xR19GMEhacGRCMTJUZ29CTVVVLTg2TktUV3pOMEVZZw?oc=5",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-13-5",
+   "date": "2026-11-12",
+   "kind": "news",
+   "what": "Israeli strike on Gaza hospital deadliest since poll",
+   "countries": [
+    "AR",
+    "CG",
+    "EG",
+    "FR",
+    "HK",
+    "LB",
+    "PK",
+    "QA"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877600-20261113.htm",
+   "source": "corpus",
+   "independent": 9
+  },
+  {
+   "id": "e-2026-11-13-1",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "Zelensky meets EU sherpas of the E4 in Dublin - News",
+   "countries": [
+    "AE",
+    "AU",
+    "CA",
+    "CH",
+    "DE",
+    "ES",
+    "GB",
+    "IL"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/12/a-dublino-incontro-tra-zelensky-e-gli-sherpa-dellue-degli-e4_a18799c6-3338-45fe-8fbb-dc9b13beb099.html",
+   "source": "corpus",
+   "independent": 23
+  },
+  {
+   "id": "e-2026-11-13-2",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "Trump threatened Mexico with tariffs if it does not stop migrant caravans",
+   "countries": [
+    "AE",
+    "AR",
+    "BR",
+    "CA",
+    "DE",
+    "FR",
+    "GB",
+    "HK"
+   ],
+   "hotspot": "mexico-cartel-war",
+   "url": "https://www.france24.com/es/video/20261113-trump-amenaz%C3%B3-a-m%C3%A9xico-con-aranceles-si-no-detiene-caravanas-migrantes",
+   "source": "corpus",
+   "independent": 13
+  },
+  {
+   "id": "e-2026-11-13-3",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "Houthis claim they targeted Aramco and a Saudi oil pipeline; Security Council announces one-year extension of sanctions on Yemen",
+   "countries": [
+    "AR",
+    "DE",
+    "GB",
+    "IN",
+    "KR",
+    "MA",
+    "PL",
+    "QA"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.bbc.co.uk/urdu/live/cwlyml8md7ept?at_medium=RSS&at_campaign=rss",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-13-4",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "IRGC says it destroyed US radar in Bahrain after attack on southern Iran",
+   "countries": [
+    "BR",
+    "DE",
+    "FR",
+    "GB",
+    "ID",
+    "IL",
+    "IN",
+    "IR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-13-5",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "Iran’s Revolutionary Guards say they hit US early-warning radar in Bahrain",
+   "countries": [
+    "AR",
+    "CH",
+    "GB",
+    "IL",
+    "IR",
+    "IT",
+    "KR",
+    "LB"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.iranintl.com/en/202611137770",
+   "source": "corpus",
+   "independent": 13
+  },
+  {
+   "id": "e-2026-11-13-6",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "Trump sidelines his vice president in Iran negotiations and says US does not need a deal",
+   "countries": [
+    "AU",
+    "BR",
+    "GB",
+    "ID",
+    "IN",
+    "LB",
+    "NG",
+    "RU"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/trump-tira-seu-vice-de-negociacao-com-ira-e-diz-que-eua-nao-precisam-de-acordo.shtml",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
+   "id": "e-2026-11-13-7",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "Putin proposes opening a humanitarian corridor in Kostiantynivka, a disputed Ukrainian city, while threatening to resume the war if Europe deploys peacekeeping troops on Ukrainian territory",
+   "countries": [
+    "AE",
+    "AR",
+    "DE",
+    "ES",
+    "HU",
+    "IT",
+    "MX",
+    "RU"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.elimparcial.com/mundo/2026/11/12/putin-propone-abrir-un-corredor-humanitario-en-kostiantinivka-ciudad-disputada-de-ucrania-mientras-amenaza-con-reanudar-la-guerra-si-europa-despliega-tropas-de-paz-en-territorio-ucraniano/",
+   "source": "corpus",
+   "independent": 16
+  },
+  {
+   "id": "e-2026-11-13-8",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "European Union to take part in talks between Kyiv and Moscow",
+   "countries": [
+    "DE",
+    "ES",
+    "FR",
+    "HK",
+    "LB",
+    "MX",
+    "NL",
+    "US"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.dw.com/sw/umoja-wa-ulaya-kushiriki-katika-mazungumzo-kati-ya-kyiv-na-moscow/a-79938002?maca=kis-rss-kis-all-1488-rdf",
+   "source": "corpus",
+   "independent": 11
   }
  ]
 }
