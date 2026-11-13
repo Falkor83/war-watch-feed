@@ -1675,9 +1675,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "US says it downed two Iranian drones over Bahrain, denying Iran's radar-strike claim",
+   "status": "Mossad chief lobbies in Washington to resume Iran war; Bahrain drone dispute continues",
    "summary": "The US and Israel have fought Iran this year, and shipping through the Strait of Hormuz remains disrupted. On Nov 13, Iran's Revolutionary Guards said they destroyed a US early-warning radar in Bahrain in reply to a strike near Sirik. AP and SBS say neither Bahrain nor the US has confirmed this. The Guards also say an LNG tanker hit a mine in Hormuz, and UKMTO reported a tanker hit by an unknown projectile with crew injured. Trump removed Vance from the Iran talks and said a deal is not needed, while Iran ties reopening Hormuz to the US lifting its blockade and sanctions.",
    "latest": [
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T20:02:08Z",
+     "text": "Mossad chief is reported to be in Washington pressing to resume the war with Iran, according to Axios as relayed by several outlets. These are reports about private talks, not official statements.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/agencias/2026/11/13/jefe-de-la-mosad-visita-washington-en-medio-de-presiones-por-guerra-con-iran-segun-axios/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T20:02:08Z",
+     "text": "Trump said on social media that he is removing J.D. Vance from the Iran negotiating team and that the US does not need an agreement. Only one Thai outlet carries this so far.",
+     "outlet": "แนวหน้า",
+     "country": "Thailand",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5RaFpsaXBFNVo4VTB4cm1VdHlacXBSMHA2VkdkWmJzbGVhQWxSNnJLcFdSUGNtalNrQ3BpZzR3ekd0aDFFN3pPeE5fM1ZFNmV2aWlzY1Z6bw?oc=5",
+     "region": "southeast-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T20:02:08Z",
+     "text": "Two independent outlets report that the US shot down two Iranian drones heading toward Bahrain. Iran claims it destroyed a US radar there, and a Cuban outlet repeats that claim. Only Iranian and US outlets carry the radar claims, and Iran's state media also says it downed an MQ-1 drone off its southern coast.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/mundo/2026/11/13/estados-unidos-destruyo-dos-drones-de-ataque-iranies-que-amenazaban-instalaciones-militares-en-barein/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-13",
      "at": "2026-11-13T16:27:55Z",
@@ -1731,37 +1764,6 @@
      "url": "https://iranwire.com/en/news/160192-irgc-claims-liquefied-gas-carrier-hit-naval-mine-and-exploded-in-strait-of-hormuz/",
      "region": "iran",
      "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "at": "2026-11-13T13:42:59Z",
-     "text": "The UN nuclear watchdog again asks for access to Iranian nuclear sites. Iran says monitoring cannot proceed while threats continue, and that talks with the agency cannot go ahead while US threats last. Iran's parliament is reported to be considering withdrawal from the nuclear Non-Proliferation Treaty.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "text": "AP says the IRGC claim, the first on a Bahrain target since September, could not be independently verified; the Guards also claim a tanker hit a mine in Hormuz.",
-     "outlet": "ABC News",
-     "country": "United States",
-     "url": "https://abcnews.com/International/wireStory/irans-revolutionary-guard-destroyed-us-radar-bahrain-mideast-138102943",
-     "region": "north-america",
-     "tag": "party-gov",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "text": "South Korea's SBS, citing Reuters and AFP, says neither Bahrain nor the US had confirmed the radar claim; Iran's IRNA reported an enemy attack on Sirik the night before.",
-     "outlet": "SBS News",
-     "country": "South Korea",
-     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008845285",
-     "region": "east-asia",
-     "tag": "party-gov",
      "state_media": false
     }
    ],
@@ -12346,11 +12348,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-10T16:46:46Z",
-     "headline": "US says no large strike needed for now; aircraft moved from UK base; tanker hit off Oman",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-10T20:06:22Z",
      "headline": "Rubio says no large strike needed now; Iran denies talks; third tanker hit in Hormuz",
      "direction": "steady"
@@ -12464,191 +12461,96 @@
      "at": "2026-11-13T16:27:55Z",
      "headline": "US says it downed two Iranian drones over Bahrain, denying Iran's radar-strike claim",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-13T20:02:08Z",
+     "headline": "Mossad chief lobbies in Washington to resume Iran war; Bahrain drone dispute continues",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-13T16:27:55Z",
-   "next_at": "2026-11-13T19:27:55Z",
-   "headline": "US says it downed two Iranian drones over Bahrain, denying Iran's radar-strike claim",
+   "updated_at": "2026-11-13T20:02:08Z",
+   "next_at": "2026-11-13T23:02:08Z",
+   "headline": "Mossad chief lobbies in Washington to resume Iran war; Bahrain drone dispute continues",
    "direction": "steady",
    "points": [
     {
-     "text": "The US says it shot down two Iranian drones heading toward Bahrain and denies Iran's claim that it destroyed a US radar there. Nine independent sources in eight countries carry the dispute, and only the Iranian side makes the radar claim.",
+     "text": "Mossad chief is reported to be in Washington pressing to resume the war with Iran, according to Axios as relayed by several outlets. These are reports about private talks, not official statements.",
      "stories": [
-      "s1",
-      "s2"
+      "s1"
      ],
      "sources": [
       {
-       "t": "Iran says it destroyed US radar system in Bahrain; US denies: 2 drones intercepted",
-       "o": "伊朗稱打掉巴林美軍雷達系統 美方否認：已攔截2架無人機",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5640186",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794583325,
-       "r": "known"
-      },
-      {
-       "t": "US denies: Iran reports attack on radar in Bahrain",
-       "o": "USA dementieren: Iran meldet Angriff auf Radar in Bahrain",
-       "u": "https://www.derstandard.at/story/3000000349188/iran-meldet-angriff-auf-us-radar-in-bahrain?ref=rss",
-       "s": "Der Standard International",
-       "c": "AT",
-       "l": "de",
-       "p": 1794583178,
-       "r": "known"
-      },
-      {
-       "t": "US Denies Iran Targeted Bahrain's Radar System, Says Shot Down Their Drones",
-       "u": "https://www.ndtv.com/world-news/us-denies-iran-targeted-bahrains-radar-system-says-shot-down-their-drones-12323399#publisher=newsstand",
-       "s": "NDTV World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794581900,
-       "r": "known"
-      },
-      {
-       "t": "US denies Iran's Revolutionary Guard destroyed a radar in Bahrain",
-       "o": "EEUU niega la destrucción de un radar en Bahréin por parte de la Guardia Revolucionaria de Irán",
-       "u": "https://www.infobae.com/america/agencias/2026/11/13/eeuu-niega-la-destruccion-de-un-radar-en-bahrein-por-parte-de-la-guardia-revolucionaria-de-iran/",
+       "t": "Mossad chief visits Washington amid pressure over war with Iran, according to Axios",
+       "o": "Jefe de la Mosad visita Washington, en medio de presiones por guerra con Irán, según Axios",
+       "u": "https://www.infobae.com/america/agencias/2026/11/13/jefe-de-la-mosad-visita-washington-en-medio-de-presiones-por-guerra-con-iran-segun-axios/",
        "s": "Infobae",
        "c": "AR",
        "l": "es",
-       "p": 1794581189,
+       "p": 1794592093,
        "r": "known"
       },
       {
-       "t": "CENTCOM forces shot down two Iranian drones launched toward Bahrain",
-       "o": "Силы CENTCOM сбили два иранских беспилотника, запущенных в направлении Бахрейна",
-       "u": "https://www.interfax.ru/world/1128887",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794581700,
-       "r": "known"
-      }
-     ],
-     "headlines": 15,
-     "outlets": 13,
-     "independent": 13,
-     "countries": [
-      "AE",
-      "AR",
-      "AT",
-      "GB",
-      "IN",
-      "KR",
-      "LB",
-      "RU",
-      "SA",
-      "TW",
-      "US"
-     ],
-     "regions": 8,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "Israeli outlets report that Mossad chief Gofman is in Washington pressing to resume the war on Iran, and Netanyahu is reported to be pushing the same way. Several outlets, including Euronews and ANSA, report that Trump is resisting. These are reports about private talks, not official statements.",
-     "stories": [
-      "s3",
-      "s5",
-      "s7"
-     ],
-     "sources": [
-      {
-       "t": "Breaking. Mossad chief in Washington on a sensitive mission… can he convince Netanyahu to persuade Trump to resume the war against Iran?",
-       "o": "عاجل. - رئيس الموساد في واشنطن بمهمة حساسة.. هل يقنع نتنياهو ترامب باستئناف الحرب ضد إيران؟",
-       "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZldWaXBIZ1NHa01mVnl6a1ZmMThKcm5ma3hnUUVESjdFYzBmUUw2bHE1X0RzTVl5SnFHdm9JNXIxd1pFZmc1MV8zVW1lRVAxdl94cUxvZmt2a0lnSXRkOFY4T3NSa1EyeG1kQUZSMVRyV21LVV9FZV9tdkhtYzlrMjBuc1FWUUtSR2xyMHJka3FwcTItYlJnYlgzeVVGbkU?oc=5",
-       "s": "Euronews",
-       "c": "FR",
+       "t": "Mossad chief holds talks in Washington on the war against Iran",
+       "o": "رئيس الموساد يجري محادثات في واشنطن بشأن الحرب على إيران",
+       "u": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPdUptaWtjWG5TV05lR0Y4YUlhaVhtWG5xUFUzNkFlNllyQXAzT3FPcV9GbHdLeGpGbXBXYWVibDBYZ09scEI0SWdpdGZzd29sUUVDV0VPQzU2ODRBWlQ2eE1VTUlfMy0zQ0dyS05jT1RYU3hJM3prN2x6OU9saTg2d3kzQlpRVEV6WWVXekp5bGh3LTRhZERlV2M1b0pTSGZCOU9YY2FZWXJzR3JfcnhlSks3WnR6bGxlVUZ6U1d0dDdTTll2QWU5YXBjODVZREhBMkk2THBGNzltOGVISXl3eUZhSl9CcGF2TS1SWWVLdTlya0dlTUwwcmRNVldmeHdCNi1uN0xPOFI0a0xiQ0ZpeGE2WHlBT2phNmY0amhWWmNxamNGZDVmbnRpMjVXVlQxYkR3QkxLUFo3VS1sVjk1c2VYWXF2eWc?oc=5",
+       "s": "القدس العربي",
+       "c": "GB",
        "l": "ar",
-       "p": 1794581848,
-       "r": "known"
+       "p": 1794587427,
+       "r": "unrated"
       },
       {
-       "t": "'Mossad chief in Washington as Netanyahu presses to resume war with Iran'",
-       "o": "'Capo Mossad a Washington mentre Netanyahu preme per riprendere guerra Iran'",
-       "u": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/11/13/capo-mossad-a-washington-mentre-netanyahu-preme-per-riprendere-guerra-iran_fd0c71d7-c824-4c19-9790-2826173612ec.html",
-       "s": "ANSA Mondo",
-       "c": "IT",
-       "l": "it",
-       "p": 1794581268,
-       "r": "known"
-      },
-      {
-       "t": "Report: Mossad chief met senior Trump administration officials – and is pressing to resume the war in Iran",
-       "o": "דיווח: ראש המוסד נפגש עם בכירים בממשל טראמפ - ולוחץ לחדש את המלחמה באיראן",
-       "u": "https://www.ynet.co.il/news/article/rjmwtqeagx",
-       "s": "Ynet Hebrew",
-       "c": "IL",
-       "l": "he",
-       "p": 1794579084,
-       "r": "known"
-      },
-      {
-       "t": "Israeli spy chief visits US as Netanyahu seeks to build pressure on Trump to resume Iran war",
-       "u": "https://www.hindustantimes.com/world-news/israeli-spy-chief-visits-washington-as-netanyahu-pushes-trump-to-resume-war-says-report-101794578591523.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794578674,
-       "r": "known"
-      },
-      {
-       "t": "Mossad chief holds Iran war talks in Washington as Trump resists Netanyahu - Report",
-       "u": "https://timesofindia.indiatimes.com/world/middle-east/mossad-chief-holds-iran-war-talks-in-washington-as-trump-resists-netanyahu-report/articleshow/135808700.cms",
-       "s": "Times of India",
-       "c": "IN",
-       "l": "en",
-       "p": 1794584360,
-       "r": "known"
+       "t": "Mossad seeks resumption of war with Iran. Special visit",
+       "o": "Mosad zabiega o wznowienie wojny z Iranem. Specjalna wizyta",
+       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNU19JZmt2MC1VSzJEY1pkTmVxb0lnS3FhV2NVSXdxdEs2VzByYmpsQkJ6X0h6SFFwUU1Dd1lIT3ZhaF9YTmNLY05NRE5ZbHFxZHdLODFlYW5CeGR3azJKdDBoUU84TWYtRjE3WUk4RTNyemEyc3J0ZnRlT1Z1SGpuM3h5TmRJZEd1Mll5ZnFBOTBMRjlwVmJ4dkx2RjBSTzlqa1Vwd1pzMEphSFZMd0llNUpn?oc=5",
+       "s": "Wiadomości Onet",
+       "c": "PL",
+       "l": "pl",
+       "p": 1794586896,
+       "r": "unrated"
       }
      ],
-     "headlines": 11,
-     "outlets": 10,
-     "independent": 10,
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
      "countries": [
-      "FR",
-      "IL",
-      "IN",
-      "IT",
-      "KR",
-      "SA",
-      "TR",
-      "US"
+      "AR",
+      "GB",
+      "PL"
      ],
-     "regions": 6,
+     "regions": 2,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran says its forces shot down another US MQ-1 drone in the south, and the Iranian army claims it destroyed one off Sirik. Only Iranian and Russian outlets carry these claims; no independent source confirms them.",
+     "text": "Trump said on social media that he is removing J.D. Vance from the Iran negotiating team and that the US does not need an agreement. Only one Thai outlet carries this so far.",
      "stories": [
-      "s14",
-      "s34"
+      "s5",
+      "s12"
      ],
      "sources": [
       {
-       "t": "Iran shoots down another US MQ-1 drone in country's south",
-       "u": "https://tass.com/world/2217925",
-       "s": "TASS English",
-       "c": "RU",
-       "l": "en",
-       "p": 1794581377,
-       "r": "state"
+       "t": "Trump announces on social media removing J.D. Vance from the Iran negotiating team, saying the US does not need an agreement",
+       "o": "'ทรัมป์' ประกาศผ่านโซเชียล ถอด 'เจ.ดี แวนซ์' ออกจากคณะเจรจากับอิหร่าน ลั่นสหรัฐไม่จำเป็นต้องมีข้อตกลง",
+       "u": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5RaFpsaXBFNVo4VTB4cm1VdHlacXBSMHA2VkdkWmJzbGVhQWxSNnJLcFdSUGNtalNrQ3BpZzR3ekd0aDFFN3pPeE5fM1ZFNmV2aWlzY1Z6bw?oc=5",
+       "s": "แนวหน้า",
+       "c": "TH",
+       "l": "th",
+       "p": 1794596298,
+       "r": "unrated"
       },
       {
-       "t": "Iranian Army Claims Destruction of U.S. MQ-1 Drone Off the Coast of Sirik",
-       "u": "https://iranwire.com/en/news/160205-iranian-army-claims-destruction-of-us-mq-1-drone-off-the-coast-of-sirik/",
-       "s": "IranWire",
-       "c": "IR",
-       "l": "en",
-       "p": 1794577184,
+       "t": "Trump revives the war option... and Iran expands its threats",
+       "o": "ترمب يعيد خيار الحرب... وإيران توسّع تهديداتها",
+       "u": "https://aawsat.com/node/5340900",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794590423,
        "r": "known"
       }
      ],
@@ -12656,96 +12558,101 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "IR",
-      "RU"
+      "SA",
+      "TH"
      ],
      "regions": 2,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "US Treasury Secretary Bessent says he is not afraid of Iranian death threats and confirms he moved from his Washington home to a military base. Indian and Russian outlets carry this.",
-     "stories": [
-      "s4",
-      "s6"
-     ],
-     "sources": [
-      {
-       "t": "US Treasury’s Bessent ‘not afraid’ of Iranian death threats",
-       "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNlBkM0hpSkJTS3Vrd3F4RE53UVM5dEhaYy1ScnlFcnZJRjV1SEVRS3A2NTcxUDF0d25CYi1TYXhodU5mb1NzbWV5VDQxNzlOTmV3MHpLM2huQmlzWmVwcnhLcHV0RlJLZHpzdWQ4YkRkRlgxOEp1ek5Sc1RkZE4yLXhnellRVkpYU2Q2MHhzUmZOci1OOTk1WGZWNTFMVWhfZkQw?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1794583663,
-       "r": "known"
-      },
-      {
-       "t": "US Treasury Secretary says he is not afraid of threats from Iran",
-       "o": "Міністр фінансів США заявив, що не боїться погроз від Ірану",
-       "u": "https://www.pravda.com.ua/news/2026/11/13/8062766/",
-       "s": "Ukrainska Pravda UA",
-       "c": "UA",
-       "l": "uk",
-       "p": 1794583140,
-       "r": "known"
-      },
-      {
-       "t": "US Treasury Secretary: Iran's threats to kill me will not frighten me",
-       "o": "وزير الخزانة الأميركي: تهديدات إيران بقتلي لن تخيفني",
-       "u": "https://www.skynewsarabia.com/world/1904660-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%B2%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A8%D9%82%D8%AA%D9%84%D9%8A-%D8%AA%D8%AE%D9%8A%D9%81%D9%86%D9%8A",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1794582729,
-       "r": "known"
-      },
-      {
-       "t": "Scott Bessent confirms relocating from Washington home to military base amid Iranian threats",
-       "u": "https://www.hindustantimes.com/world-news/scott-bessent-confirms-relocating-from-washington-home-to-military-base-amid-iranian-threats-101794581505450.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794583991,
-       "r": "known"
-      },
-      {
-       "t": "Bessent confirmed he moved to a military base after Iranian threats",
-       "o": "Бессент подтвердил, после иранских угроз переехал на военную базу",
-       "u": "https://www.interfax.ru/world/1128880",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794579660,
-       "r": "known"
-      }
-     ],
-     "headlines": 6,
-     "outlets": 6,
-     "independent": 6,
-     "countries": [
-      "AE",
-      "IN",
-      "RU",
-      "SA",
-      "UA"
-     ],
-     "regions": 4,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "CNN reports that Iran targeted a US military site in the Gulf for the first time in two months, as hopes for a deal fade. Only US media carry this, so it is unconfirmed by independent sources.",
+     "text": "Two independent outlets report that the US shot down two Iranian drones heading toward Bahrain. Iran claims it destroyed a US radar there, and a Cuban outlet repeats that claim. Only Iranian and US outlets carry the radar claims, and Iran's state media also says it downed an MQ-1 drone off its southern coast.",
      "stories": [
-      "s28"
+      "s2",
+      "s13",
+      "s6",
+      "s17",
+      "s18"
      ],
      "sources": [
       {
-       "t": "Iran targets US military site in Gulf for first time in two months as hopes for a deal fade",
-       "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeXlnWjM3TVE3Y18wd21Wb1ZMakZfeVA2RWtjQmpEd2Z6N1lhd3dXMWw1SXhURS1rLVZzX3BSd1JQXzJQeXd2Qk80QndnbkxoWlNwemJmQlFpWTJZbkoxM0k0a0hsdWNGbExMTTFKZjQweU1aUEtpT094SnJJXzVhdTN6RUVUZmdMOHhHM3UtTWtZeFpRR3FEaEJWVk9pOXVTVFlhaVFIMW1XbTNBclE?oc=5",
-       "s": "CNN",
-       "c": "US",
+       "t": "United States destroyed two Iranian attack drones threatening military facilities in Bahrain",
+       "o": "Estados Unidos destruyó dos drones de ataque iraníes que amenazaban instalaciones militares en Baréin",
+       "u": "https://www.infobae.com/america/mundo/2026/11/13/estados-unidos-destruyo-dos-drones-de-ataque-iranies-que-amenazaban-instalaciones-militares-en-barein/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794598326,
+       "r": "known"
+      },
+      {
+       "t": "US says it shot down two radar-targeting drones over Bahrain, which Tehran claims to have destroyed",
+       "o": "EUA diz que abateu dois drones dirigidos a radar no Bahrein , cuja destruio Teerão reivindica",
+       "u": "https://www.dnoticias.pt/2026/11/13/512833-eua-diz-que-abateu-dois-drones-dirigidos-a-radar-no-bahrein-cuja-destruicao-teerao-reivindica/",
+       "s": "dnoticias.pt",
+       "c": "PT",
+       "l": "pt",
+       "p": 1794592800,
+       "r": "unrated"
+      },
+      {
+       "t": "Middle East latest: US says it shot down Iranian drones launched toward Bahrain",
+       "u": "https://www.thenationalnews.com/news/mena/2026/11/13/iran-war-live-us-bahrain-trump-centcom/",
+       "s": "The National",
+       "c": "AE",
        "l": "en",
-       "p": 1794581494,
+       "p": 1794589999,
+       "r": "known"
+      },
+      {
+       "t": "US radar in Bahrain reduced to ashes after Iranian attack",
+       "o": "Reducido a cenizas el radar de Estados Unidos en Baréin tras el ataque iraní",
+       "u": "http://www.cubadebate.cu/noticias/2026/11/13/reducido-a-cenizas-el-radar-de-estados-unidos-en-barein-tras-el-ataque-irani/",
+       "s": "Cubadebate",
+       "c": "CU",
+       "l": "es",
+       "p": 1794593960,
+       "r": "known"
+      },
+      {
+       "t": "Breaking: Washington denies targeting a US radar in Bahrain and announces downing of two Iranian drones",
+       "o": "عاجل . - واشنطن تنفي استهداف رادار أميركي في البحرين وتعلن إسقاط مسيّرتين إيرانيتين",
+       "u": "https://arabic.euronews.com/2026/11/13/radar-bahrain-revolutionary-guard-drones-strait-of-hormuz-central-command-negotiatio",
+       "s": "Euronews",
+       "c": "US",
+       "l": "ar",
+       "p": 1794592800,
+       "r": "known"
+      }
+     ],
+     "headlines": 7,
+     "outlets": 7,
+     "independent": 7,
+     "countries": [
+      "AE",
+      "AR",
+      "CU",
+      "IR",
+      "PT",
+      "US"
+     ],
+     "regions": 5,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Iranian MPs are debating a possible change to the country's nuclear doctrine and an exit from the NPT, according to Euronews. This is a parliamentary debate, not a government decision.",
+     "stories": [
+      "s10"
+     ],
+     "sources": [
+      {
+       "t": "Iran MPs debate possible shift in nuclear doctrine and exit from NPT",
+       "u": "https://www.euronews.com/2026/11/13/iran-mps-debate-possible-shift-in-nuclear-doctrine-and-exit-from-npt",
+       "s": "Euronews",
+       "c": "FR",
+       "l": "en",
+       "p": 1794590481,
        "r": "known"
       }
      ],
@@ -12753,23 +12660,23 @@
      "outlets": 1,
      "independent": 1,
      "countries": [
-      "US"
+      "FR"
      ],
      "regions": 1,
-     "party_only": true,
+     "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Whether the US or Iran publishes evidence on the Bahrain radar and drone claims",
-    "Any sign of a US decision on resuming strikes, following the Mossad chief's Washington talks",
-    "Whether the IAEA gets access to Iranian nuclear sites, which the agency has again requested"
+    "Whether the Mossad chief's Washington visit is followed by any official US statement on resuming the war",
+    "Any independent confirmation of Iran's radar and MQ-1 drone claims, or further drone activity near Bahrain",
+    "Whether Iran's parliament moves from debate to a vote on NPT exit"
    ],
-   "window_hours": 3,
-   "headlines_read": 61,
-   "outlets_read": 40,
+   "window_hours": 4,
+   "headlines_read": 33,
+   "outlets_read": 24,
    "countries_read": 18,
-   "languages_read": 12,
+   "languages_read": 7,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-13T05:00:32Z",
    "ladder_note": "Re-checked after: The IRGC claims it attacked a US early-warning radar in Bahrain, a concrete attack reported by many outlets but not independently confirmed."
