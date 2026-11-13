@@ -1675,9 +1675,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "IRGC claims Bahrain radar strike, unverified; Trump pulls Vance from Iran talks",
+   "status": "Iran claims a US radar hit in Bahrain and a Hormuz mine blast; IAEA access still blocked",
    "summary": "The US and Israel have fought Iran this year, and shipping through the Strait of Hormuz remains disrupted. On Nov 13, Iran's Revolutionary Guards said they destroyed a US early-warning radar in Bahrain in reply to a strike near Sirik. AP and SBS say neither Bahrain nor the US has confirmed this. The Guards also say an LNG tanker hit a mine in Hormuz, and UKMTO reported a tanker hit by an unknown projectile with crew injured. Trump removed Vance from the Iran talks and said a deal is not needed, while Iran ties reopening Hormuz to the US lifting its blockade and sanctions.",
    "latest": [
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T13:42:59Z",
+     "text": "Iran's Revolutionary Guards say they destroyed a US military radar in Bahrain in retaliation for an attack on its coast. Several independent outlets carry this account, but none reports US confirmation. CENTCOM, as reported by TASS, says it repelled an Iranian attack on Bahrain.",
+     "outlet": "The Guardian",
+     "country": "United Kingdom",
+     "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T13:42:59Z",
+     "text": "The IRGC says a liquefied gas carrier hit a naval mine in the Strait of Hormuz. This claim appears only in Iranian media. A separate report describes explosions at oil tankers in the strait, but no independent source confirms the cause.",
+     "outlet": "IranWire",
+     "country": "Iran",
+     "url": "https://iranwire.com/en/news/160192-irgc-claims-liquefied-gas-carrier-hit-naval-mine-and-exploded-in-strait-of-hormuz/",
+     "region": "iran",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-13",
+     "at": "2026-11-13T13:42:59Z",
+     "text": "The UN nuclear watchdog again asks for access to Iranian nuclear sites. Iran says monitoring cannot proceed while threats continue, and that talks with the agency cannot go ahead while US threats last. Iran's parliament is reported to be considering withdrawal from the nuclear Non-Proliferation Treaty.",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-13",
      "text": "AP says the IRGC claim, the first on a Bahrain target since September, could not be independently verified; the Guards also claim a tanker hit a mine in Hormuz.",
@@ -1726,36 +1759,6 @@
      "url": "https://www.jpost.com/middle-east/iran-news/article-914804",
      "region": "middle-east",
      "tag": "party-press",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "text": "The Wall Street Journal, relayed by Gulf News, reports Vance is weighing face-to-face talks with Iran's Mohsen Rezaei; no date is set after an October letter.",
-     "outlet": "Gulf News",
-     "country": "United Arab Emirates",
-     "url": "https://gulfnews.com/world/mena/us-israel-iran-war-enemy-strike-hits-irans-sirik-as-trump-warns-tehran-over-threats-to-us-officials-houthis-claim-attack-on-saudi-pipeline-1.500745854",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "text": "Iran demands that the US lift its port blockade and crude sanctions before it reopens Hormuz, per SBS; India's Chennai Online says Rubio called the terms unrealistic.",
-     "outlet": "Chennai Online",
-     "country": "India",
-     "url": "https://www.chennaionline.com/news/iran-targets-us-radar-in-bahrain/",
-     "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "text": "Iran's Revolutionary Guards say they hit a US early-warning radar in Bahrain. Euronews, NOS, Nikkei, AP and Sky TG24 carry the IRGC's account, and none of these stories includes US confirmation.",
-     "outlet": "Euronews",
-     "country": "France",
-     "url": "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
-     "region": "europe",
-     "tag": "non-party",
      "state_media": false
     }
    ],
@@ -12340,11 +12343,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-10T11:16:43Z",
-     "headline": "Trump: war 'effectively over'; Iran calls talks illusory; US moves jets from 2nd UK base",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-10T14:00:52Z",
      "headline": "IRGC reports fires on two Hormuz tankers as Trump says the war is 'militarily over'",
      "direction": "steady"
@@ -12458,304 +12456,278 @@
      "at": "2026-11-13T10:56:12Z",
      "headline": "Iran claims Bahrain radar strike and tanker mine blast; Trump threatens, Vance sidelined",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-13T13:42:59Z",
+     "headline": "Iran claims a US radar hit in Bahrain and a Hormuz mine blast; IAEA access still blocked",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-13T10:56:12Z",
-   "next_at": "2026-11-13T13:56:12Z",
-   "headline": "Iran claims Bahrain radar strike and tanker mine blast; Trump threatens, Vance sidelined",
+   "updated_at": "2026-11-13T13:42:59Z",
+   "next_at": "2026-11-13T16:42:59Z",
+   "headline": "Iran claims a US radar hit in Bahrain and a Hormuz mine blast; IAEA access still blocked",
    "direction": "steady",
    "points": [
     {
-     "text": "Iran's Revolutionary Guards say they hit a US early-warning radar in Bahrain. Euronews, NOS, Nikkei, AP and Sky TG24 carry the IRGC's account, and none of these stories includes US confirmation.",
+     "text": "Iran's Revolutionary Guards say they destroyed a US military radar in Bahrain in retaliation for an attack on its coast. Several independent outlets carry this account, but none reports US confirmation. CENTCOM, as reported by TASS, says it repelled an Iranian attack on Bahrain.",
      "stories": [
-      "s1",
-      "s4"
+      "s2",
+      "s5",
+      "s7",
+      "s20"
      ],
      "sources": [
       {
-       "t": "IRGC says it destroyed US radar in Bahrain after attack on southern Iran",
-       "u": "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
-       "s": "Euronews",
-       "c": "FR",
+       "t": "Iran says it destroyed US military radar in Bahrain in retaliatory strike",
+       "u": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+       "s": "The Guardian",
+       "c": "GB",
        "l": "en",
-       "p": 1794562756,
+       "p": 1794571633,
        "r": "known"
       },
       {
-       "t": "Iran reports attack on US radar in Bahrain, first since September",
-       "o": "Iran meldt aanval op Amerikaanse radar in Bahrein, eerste sinds september",
-       "u": "https://nos.nl/l/2639264",
-       "s": "NOS Buitenland",
-       "c": "NL",
-       "l": "nl",
-       "p": 1794558773,
-       "r": "known"
-      },
-      {
-       "t": "Iran says it attacked US military radar in Bahrain",
-       "o": "イラン、バーレーンの米軍レーダーを攻撃と発表",
-       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RZ3F6OGw3Vm5yVkdabmVCN2VaZXNrV3dwUTkwMUdVRnh5aTVZSHZ5ODhodld0R29qSkgyd19DY2ZyY3NIc2E4dlBFcE8yTk1NYVoxS3ZhOUxscTRMeXUxVjBua1FtOUM1TndUNQ?oc=5",
-       "s": "日本経済新聞",
-       "c": "JP",
-       "l": "ja",
-       "p": 1794558177,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran’s Revolutionary Guards say they hit US early-warning radar in Bahrain",
-       "u": "https://www.iranintl.com/en/202611137770",
-       "s": "Iran International",
-       "c": "IR",
-       "l": "en",
-       "p": 1794558369,
-       "r": "known"
-      },
-      {
-       "t": "Iran’s Revolutionary Guard says it destroyed a US radar in Bahrain, and other Mideast news",
-       "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMXJTcEdfVGdOV1VrbGpYTy1hMlkybS1IbjZGS0piS01yNWY5RnVsMi16ZHBMTFVIajNzcFoydFZXWmhEQXJuVXBHNFBic2JSRlJLZ05TNGlmclRmMlppOExmc2ttem1zVnhQV0ppcnVaUkd2Q29fVVNXUzJpUFEwUE1WSHVkc0tZQXpmaHBSZ0YxVWpoOGNkMmZnbw?oc=5",
-       "s": "AP",
+       "t": "Iran Claims Strike On US Radar In Bahrain After Attack On Hormuz Port Town",
+       "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTHN2SjZCd0ctVnlmMTZWbXp4U0F1VWJxazlaV0JoWlQ1M1NjZkNraFZCS1BFUlRCV25NR1VidU5fLWpYSjRvRTBBaDdBazF0SjJGZVREVURvTzk3VWJuSkZWQnRGejg4Yy1qNWJCbGlLdnFUM3dla21OVWRtdVE4T0FBb9IBhgFBVV95cUxPeE9jTEI2MWwzeHBONVhsWlFSNXlLam10OUZ0Y3drUG5fR3Bmd01NQmJ2UC04TlEzYU9JME54b2pVTGJOR0JnN2dKUG1CanBLa0JZNkZVRXYwN09sVVRHNDhTUWlRTkV1VDJ2U3dHaXJGbFl2WkZQSUxMSDZZaW43aXlPbE9MUQ?oc=5",
+       "s": "RFE/RL",
        "c": "US",
        "l": "en",
-       "p": 1794557340,
+       "p": 1794570427,
+       "r": "known"
+      },
+      {
+       "t": "Iran says it destroyed a US radar in Bahrain in retaliation for an attack on its coast",
+       "o": "Irán dice haber destruido un radar estadounidense en Baréin en represalia por un ataque en su costa",
+       "u": "https://www.elmundo.es/internacional/2026/11/13/6af6e86ee4d4d8ce338b458b.html",
+       "s": "El Mundo Internacional",
+       "c": "ES",
+       "l": "es",
+       "p": 1794566818,
+       "r": "known"
+      },
+      {
+       "t": "CENTCOM announced successful repelling of an Iranian attack on Bahrain",
+       "o": "CENTCOM заявило об успешном отражении атаки Ирана на Бахрейн",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28316041",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794575638,
+       "r": "state"
+      },
+      {
+       "t": "Escalating tension in the Middle East; IRGC says it struck a US radar in Bahrain",
+       "o": "منځني ختیځ کې ډېرېدونکی کړکېچ؛ سپاه‌ پاسداران وايي بحرین کې یې د امریکا پر یوه رادار برید کړی",
+       "u": "https://www.bbc.com/pashto/articles/c862pgr32k34o?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Pashto",
+       "c": "GB",
+       "l": "ps",
+       "p": 1794575253,
        "r": "known"
       }
      ],
-     "headlines": 6,
+     "headlines": 7,
      "outlets": 6,
      "independent": 6,
      "countries": [
-      "FR",
-      "IR",
-      "IT",
-      "JP",
-      "NL",
+      "CG",
+      "ES",
+      "GB",
+      "RU",
       "US"
      ],
      "regions": 4,
      "party_only": false,
-     "state": 0
+     "state": 1
     },
     {
-     "text": "The IRGC Navy says a gas or LNG carrier hit a sea mine in the Strait of Hormuz on an 'unauthorized' route. Yonhap, Kommersant and Russian and Israeli outlets repeat the account, and no independent source confirms the cause. Interfax calls the ship a gas tanker and TASS calls it an LNG carrier.",
+     "text": "The IRGC says a liquefied gas carrier hit a naval mine in the Strait of Hormuz. This claim appears only in Iranian media. A separate report describes explosions at oil tankers in the strait, but no independent source confirms the cause.",
      "stories": [
-      "s5",
-      "s6",
-      "s7"
+      "s31",
+      "s6"
      ],
      "sources": [
       {
-       "t": "Iranian Revolutionary Guard: \"Severe explosion\" on gas tanker east of Strait of Hormuz | CNN Arabic | CNN",
-       "o": "الحرس الثوري الإيراني: \"انفجار شديد\" بناقلة غاز شرق مضيق هرمز | CNN Arabic | CNN",
-       "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOFhFVGZHNU96YkRpcE96aVkxbkQyQjRzMTZhSGhWcjh4WEhzbm84ay1RMkJJbDI0UmxHek1SdUF3RGU1Rk9vcGh4NmlkQWhqYUw1ajY5TTgtRkR2SUg1dGNEQ0hpaHRRRnI3bnBRWV9PUFFyWE0wamx6ZkQ2d0xhN0ZVcm9oeUtCM2V3N29SSndWekx6UmR1Y3hlVWxKZWI4QjVaSzdnalk?oc=5",
-       "s": "CNN",
-       "c": "US",
-       "l": "ar",
-       "p": 1794560209,
-       "r": "known"
-      },
-      {
-       "t": "Iran's Revolutionary Guard says gas carrier hit a mine in Hormuz, large explosion",
-       "o": "이란 혁명수비대 \"호르무즈서 가스운반선 기뢰 충돌…대형 폭발\"",
-       "u": "https://www.yna.co.kr/view/AKR20261113134000079",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794558254,
-       "r": "known"
-      },
-      {
-       "t": "Revolutionary Guards: gas tanker hit by naval mine in Strait of Hormuz",
-       "o": "משמרות המהפכה: מכלית גז נפגעה ממוקש ימי במצר הורמוז",
-       "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE16MGVPcGt4T1VSUU9HNS12RHFoWlEtSElDS2JJZW91LS1TaVpTX0R4WmZoaUcxLUJucXNueVdpSHROdkFmYkdhUGp3NA?oc=5",
-       "s": "JDN",
-       "c": "IL",
-       "l": "he",
-       "p": 1794556762,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran's IRGC says liquified gas tanker struck mine along 'unauthorized' route in Strait of Hormuz",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914804",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794563050,
-       "r": "known"
-      },
-      {
-       "t": "LNG tanker hits Iranian mine in Strait of Hormuz",
-       "o": "Танкер с СПГ подорвался на иранской мине в Ормузском проливе",
-       "u": "https://www.kommersant.ru/doc/9096210",
-       "s": "Kommersant",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794558357,
-       "r": "known"
-      }
-     ],
-     "headlines": 8,
-     "outlets": 8,
-     "independent": 7,
-     "countries": [
-      "IL",
-      "IR",
-      "KR",
-      "RU",
-      "US"
-     ],
-     "regions": 5,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "IranWire, an Iranian outlet, reports that Trump threatened to destroy Iran's energy infrastructure and factories within three days. Separately, reports from Germany, Mexico and Korea say Trump rebuked Vance and removed him from the Iran talks.",
-     "stories": [
-      "s25",
-      "s15",
-      "s16",
-      "s17"
-     ],
-     "sources": [
-      {
-       "t": "Trump Threatens to Destroy Iran’s Energy Infrastructure and Factories Within Three Days",
-       "u": "https://iranwire.com/en/news/160183-trump-threatens-to-destroy-irans-energy-infrastructure-and-factories-within-three-days/",
+       "t": "IRGC Claims Liquefied Gas Carrier Hit Naval Mine and Exploded in Strait of Hormuz",
+       "u": "https://iranwire.com/en/news/160192-irgc-claims-liquefied-gas-carrier-hit-naval-mine-and-exploded-in-strait-of-hormuz/",
        "s": "IranWire",
        "c": "IR",
        "l": "en",
-       "p": 1794564527,
+       "p": 1794568519,
        "r": "known"
       },
       {
-       "t": "Iran war: Trump rebukes Vance and pulls him from Iran talks",
-       "o": "Iran-Krieg: Trump weist Vance zurecht und zieht ihn von Iran-Gesprächen ab",
-       "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNX3BJLVJYYmVZS2o2aFVJVTZjelFTelFzajdnQXdka2RvcXdrUW5hTy1lNnktbjdWNTRmeGxheHVhcUhLX0hXSENMdkx1UzMyWVRFU2VaUHpzbndNbXBqYWNIa2ZsR0pOZ0F6dFhmVVBtTVQ0TEZPZzJkcWV5Z2g3UGRRaFJuUk55Z05PNkVlNFFyeWN3Y1dpYzR3WFRpTDRQNUpGQm9rSDd6bjFaa2xXdmhSQmlrR1RVUHJXMTNndXJ4VVRXOXhFOXpsODBMcHg3bUczdE82OXpSQ3dvNl94dQ?oc=5",
-       "s": "WELT",
+       "t": "LIVE TICKER - Iran war: US apparently shoots down two Iranian drones on their way to Bahrain +++ Explosions at oil tankers in the Strait of Hormuz",
+       "o": "LIVE-TICKER - Iran-Krieg: Die USA schiessen offenbar zwei iranische Drohnen auf dem Weg nach Bahrain ab +++ Explosionen an Öltankern in der Strasse von Hormuz",
+       "u": "https://www.nzz.ch/international/iran-krieg-jd-vance-soll-mit-iran-chance-auf-verhandlungen-ausloten-kaempfe-in-jemen-vertreiben-immer-mehr-menschen-ld.10021246",
+       "s": "NZZ International",
+       "c": "CH",
+       "l": "de",
+       "p": 1794575370,
+       "r": "known"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "CH",
+      "IR"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "The UN nuclear watchdog again asks for access to Iranian nuclear sites. Iran says monitoring cannot proceed while threats continue, and that talks with the agency cannot go ahead while US threats last. Iran's parliament is reported to be considering withdrawal from the nuclear Non-Proliferation Treaty.",
+     "stories": [
+      "s1",
+      "s3",
+      "s4",
+      "s14",
+      "s19"
+     ],
+     "sources": [
+      {
+       "t": "UN watchdog calls on Iran to reopen nuclear facilities to inspection",
+       "u": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "en",
+       "p": 1794570717,
+       "r": "known"
+      },
+      {
+       "t": "Iran blocks inspection of nuclear facilities - IAEA concerned",
+       "o": "Iran blockiert Inspektion von Atomanlagen - IAEA besorgt",
+       "u": "https://www.dw.com/de/iran-blockiert-inspektion-von-atomanlagen-iaea-besorgt/a-79938196?maca=de-rss-de-all-1119-rdf",
+       "s": "DW German",
        "c": "DE",
        "l": "de",
-       "p": 1794560582,
-       "r": "unrated"
-      },
-      {
-       "t": "Tehran accuses enemy military operation in the south; Trump instructs Vance to handle the US, not Iran",
-       "o": "Acusa Teherán operación militar enemiga en el sur; instruye Trump a Vance atender EU, no a Irán",
-       "u": "https://www.jornada.com.mx/2026/11/13/mundo/028n2mun?partner=rss",
-       "s": "La Jornada Mundo",
-       "c": "MX",
-       "l": "es",
-       "p": 1794558903,
+       "p": 1794568680,
        "r": "known"
       },
       {
-       "t": "US–Iran end-of-war deadlock… Vance to step back from negotiations",
-       "o": "美·이란 종전 교착…밴스, 협상 손 뗀다",
-       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMUUk5czBDbGhfc3Z2RXUyejFHU0ptbDZsLXlqVV9ta0x1dUJuejlTM3JCYzc1Z2dpOEJtNXEtd0FoUlNRb2NTZUdfeUhlU1l3bVN5UUYtQ281Zw?oc=5",
-       "s": "한국경제",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794558566,
+       "t": "IAEA concerned that Iran is not allowing inspections of nuclear plants it reported in 2025",
+       "o": "ไอเออีเอกังวล “อิหร่าน” ไม่ให้เข้าตรวจสอบโรงงานนิวเคลียร์ที่เคยรายงานเมื่อปี 68",
+       "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1S1d0Z3NZdkVoSXF4M0JJS1ZuSVpYbEJtcktGUzM0Y294Uk14amV3VjhIWlZWLVJwMndSNDdnWTBvUjgyd3NvLXBjc2U4NHFjbTJN?oc=5",
+       "s": "เดลินิวส์",
+       "c": "TH",
+       "l": "th",
+       "p": 1794568140,
        "r": "unrated"
+      },
+      {
+       "t": "U.N. watchdog agency pushes for access to key Iran nuclear site",
+       "u": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
+       "s": "CBS News World",
+       "c": "US",
+       "l": "en",
+       "p": 1794575653,
+       "r": "known"
+      },
+      {
+       "t": "UN watchdog 'increasingly concerned' over Iran nuclear site",
+       "u": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+       "s": "BBC News",
+       "c": "GB",
+       "l": "en",
+       "p": 1794572908,
+       "r": "known"
+      }
+     ],
+     "headlines": 11,
+     "outlets": 10,
+     "independent": 9,
+     "countries": [
+      "DE",
+      "FR",
+      "GB",
+      "IN",
+      "QA",
+      "TH",
+      "TR",
+      "US"
+     ],
+     "regions": 6,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Iran says it shot down US drones near its southern coast. Only Iranian and Russian outlets carry these claims. A US outlet reports that Trump says new strikes on Iran are unlikely, and oil futures slid on that report.",
+     "stories": [
+      "s21",
+      "s29",
+      "s24",
+      "s27"
+     ],
+     "sources": [
+      {
+       "t": "Iran reports shooting down US Predator drone off its southern coast",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-reports-shooting-down-us-predator-drone-its-southern-coast",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794567722,
+       "r": "known"
+      },
+      {
+       "t": "Iran Army Navy shoots down US-made MQ-1drone off Sirik coast",
+       "u": "https://en.mehrnews.com/news/249373/Iran-s-Army-shoots-down-US-MQ-1drone-off-Sirik-coast",
+       "s": "Mehr English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794570666,
+       "r": "state"
+      },
+      {
+       "t": "Iranian military shot down an American drone in the south of the country",
+       "o": "Иранские военные сбили американский беспилотник на юге страны",
+       "u": "https://ria.ru/20261113/voennye-2131340150.html",
+       "s": "RIA Novosti",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794567184,
+       "r": "state"
+      },
+      {
+       "t": "Oil Futures Slide as Trump Says New Strikes on Iran Unlikely",
+       "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFNfSjlGZWFOd01laGhIaG9idVhwaUxEOXctN1hkb1E2Qkd6YXEyaE5DUHFzMEdoT3dqWXNQbkxScXRFb3o2aGU4SEpWdnU5SGdKQUJXTUFMdS1kcHJKVnJPVnBUZk1XUjd6NXRLcnJwSGhXMFZVa2hqQ1VvVWkzM2FxT2tCNlhGN1VYYjgwRTdiY2Z6SElpNmtfMXRmTjF0RW5fX0JVVWhuZVlsX1lWdDBMU1g1ZzBFeXlGT2tZbUNyQjlLUFE?oc=5",
+       "s": "Wall Street Journal",
+       "c": "US",
+       "l": "en",
+       "p": 1794571901,
+       "r": "known"
       }
      ],
      "headlines": 4,
      "outlets": 4,
      "independent": 4,
      "countries": [
-      "DE",
+      "GB",
       "IR",
-      "KR",
-      "MX"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "The UN nuclear agency again urges Iran to allow inspectors back. Iran tells the agency monitoring cannot proceed while it is under threat, and reportedly holds no talks on inspections for now.",
-     "stories": [
-      "s2",
-      "s3",
-      "s23",
-      "s12"
-     ],
-     "sources": [
-      {
-       "t": "UN Nuclear Watchdog Urges Iran to Take ‘Steps’ Towards Inspections",
-       "u": "https://english.aawsat.com/node/5340734",
-       "s": "Asharq Al-Awsat English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794560608,
-       "r": "known"
-      },
-      {
-       "t": "UN nuclear watchdog urges Iran to take 'steps' towards inspections",
-       "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbVlBZkpCWjFPNEpPTEVDNzZla0hNdk5SbU5oNVh6Ri1RcW5SemNhWm9NOFVSVFFIWG1oZ3dzNUU1T3Z1ZkotYXQtaC13X0p2S3BxQnhlZHYzLVBTSmNrblZYUWhVeHJTNVpiUmJQZW1DS1R2REFrWXQxUlhiTVg5TlAzNWpfajlVQmVjaWJGcFpod2RaZWNJdGxkcTZKcENTUlJUX1h4c0ZMUmhXTzBRNm5uNTU5ZE90?oc=5",
-       "s": "L'Orient-Le Jour",
-       "c": "LB",
-       "l": "en",
-       "p": 1794560033,
-       "r": "known"
-      },
-      {
-       "t": "International Atomic Energy Agency calls on Iran to cooperate regarding its nuclear stockpile",
-       "o": "وكالة الطاقة الذرية تدعو إيران للتعاون حول مخزونها النووي",
-       "u": "https://www.skynewsarabia.com/world/1904547-%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B0%D8%B1%D9%8A%D8%A9-%D8%AA%D8%AF%D8%B9%D9%88-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%84%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%AE%D8%B2%D9%88%D9%86%D9%87%D8%A7-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1794560296,
-       "r": "known"
-      },
-      {
-       "t": "International Atomic Energy Agency calls for renewed access for inspectors to Iran's nuclear facilities",
-       "o": "آژانس بین‌المللی انرژی اتمی خواستار دسترسی دوبارۀ بازرسان به تأسیسات هسته‌ای ایران شد",
-       "u": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261113-%D8%A2%DA%98%D8%A7%D9%86%D8%B3-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%A7%D9%86%D8%B1%DA%98%DB%8C-%D8%A7%D8%AA%D9%85%DB%8C-%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%AF%D9%88%D8%A8%D8%A7%D8%B1%DB%80-%D8%A8%D8%A7%D8%B2%D8%B1%D8%B3%D8%A7%D9%86-%D8%A8%D9%87-%D8%AA%D8%A3%D8%B3%DB%8C%D8%B3%D8%A7%D8%AA-%D9%87%D8%B3%D8%AA%D9%87-%D8%A7%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%B4%D8%AF",
-       "s": "RFI Persian",
-       "c": "FR",
-       "l": "fa",
-       "p": 1794560250,
-       "r": "known"
-      },
-      {
-       "t": "Iran tells UN nuclear agency that monitoring cannot proceed while it is under threat",
-       "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSUhIeGdPMTNhOEtBdjc2VlJIaHpPZDh2NTdEb283VFY0Uzg0TVEyYzk4OW8zWXRJY2taTWFmVGJaY1YwYnMzTHBLVENmX2JUX1BxN0Vxa2hScmFMR3BLSjBuSUZIZEN2V0NBYmc2TVItTnYzSzRXWFBnUmxfUnhUVDJxQk5Ra0FhTUs4dXZpaER5ZDlpZTlRb045bkZXblJobGxJbWVKZHI4ZGVuQnlubXBjSzNwQQ?oc=5",
-       "s": "AP",
-       "c": "US",
-       "l": "en",
-       "p": 1794564720,
-       "r": "known"
-      }
-     ],
-     "headlines": 8,
-     "outlets": 7,
-     "independent": 6,
-     "countries": [
-      "AE",
-      "DE",
-      "FR",
-      "LB",
-      "SA",
+      "RU",
       "US"
      ],
      "regions": 4,
      "party_only": false,
-     "state": 0
+     "state": 2
     }
    ],
    "watch": [
-    "Whether the US confirms or denies the Bahrain radar strike and the Hormuz mine blast",
-    "Whether Trump's three-day deadline on Iranian energy sites is repeated or dropped",
-    "Whether the IAEA gains any access to Iranian nuclear sites"
+    "Whether US officials confirm or deny the Bahrain radar strike and the Hormuz mine blast",
+    "Whether Iran's parliament moves on NPT withdrawal, and whether IAEA inspectors get any access",
+    "Whether Trump's stance on new strikes holds, given reports of a rift with Vance"
    ],
    "window_hours": 3,
-   "headlines_read": 52,
-   "outlets_read": 40,
-   "countries_read": 20,
-   "languages_read": 14,
+   "headlines_read": 42,
+   "outlets_read": 34,
+   "countries_read": 19,
+   "languages_read": 12,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-13T05:00:32Z",
    "ladder_note": "Re-checked after: The IRGC claims it attacked a US early-warning radar in Bahrain, a concrete attack reported by many outlets but not independently confirmed."
