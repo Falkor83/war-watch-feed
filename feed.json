@@ -1675,9 +1675,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "US signals restraint as Iran warns of retaliation; Iran claims downing US drone",
+   "status": "Iran reports tankers hit by mines in Hormuz; US says further military action not needed",
    "summary": "The US and Israel have fought Iran this year, and shipping through the Strait of Hormuz remains disrupted. On Nov 13, Iran's Revolutionary Guards said they destroyed a US early-warning radar in Bahrain in reply to a strike near Sirik. AP and SBS say neither Bahrain nor the US has confirmed this. The Guards also say an LNG tanker hit a mine in Hormuz, and UKMTO reported a tanker hit by an unknown projectile with crew injured. Trump removed Vance from the Iran talks and said a deal is not needed, while Iran ties reopening Hormuz to the US lifting its blockade and sanctions.",
    "latest": [
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T07:56:54Z",
+     "text": "Iran says a mine hit two oil tankers east of the Strait of Hormuz and set them on fire. Iranian forces later reported three more tankers on fire from mines. These are Iran's reports, and the first was carried by several outlets in different countries.",
+     "outlet": "Interfax",
+     "country": "Russia",
+     "url": "https://www.interfax.ru/world/1128982",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T07:56:54Z",
+     "text": "Iran's IRGC says an LNG carrier exploded after hitting a mine in Hormuz. This is the IRGC's account, reported by one outlet.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lng-carrier-explodes-after-hitting-mine-hormuz-irgc-says",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T07:56:54Z",
+     "text": "The UK Maritime Trade Operations (UKMTO) says seven tanker attacks in Hormuz were recorded in one week. This is one outlet's report of UKMTO's figure.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-seven-hormuz-tanker-attacks-recorded-week",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-14",
      "at": "2026-11-14T04:36:16Z",
@@ -1732,39 +1765,6 @@
      "region": "europe",
      "tag": "non-party",
      "state_media": false
-    },
-    {
-     "date": "2026-11-14",
-     "at": "2026-11-14T01:49:54Z",
-     "text": "Russia's Interfax reports shipping traffic in the Strait of Hormuz remains 65% below pre-war levels. Lebanese outlet Al-Sharq reports Iraq is reviving a land route for oil exports via Syria because of the disruption.",
-     "outlet": "Interfax",
-     "country": "Russia",
-     "url": "https://www.interfax.ru/world/1128961",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "at": "2026-11-13T22:46:54Z",
-     "text": "Two tankers reportedly hit sea mines in the Strait of Hormuz, according to the Revolutionary Guard, as reported by Middle East Eye and RIA Novosti. Separately, a Saudi outlet reports an explosion and fire on two tankers south of the strait, also citing the Guards.",
-     "outlet": "Middle East Eye",
-     "country": "United Kingdom",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-tankers-hit-sea-mines-hormuz-irgc",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "at": "2026-11-13T22:46:54Z",
-     "text": "Iraq has resumed oil exports through the Strait of Hormuz under US protection, Russia's TASS reports, citing a top Iraqi diplomat. Separately, Trump extended a shipping law waiver for 90 days as fuel prices rose during the war.",
-     "outlet": "TASS English",
-     "country": "Russia",
-     "url": "https://tass.com/world/2218043",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": true
     }
    ],
    "us_impact": {
@@ -12348,11 +12348,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-11T05:22:12Z",
-     "headline": "Steady: Rubio backs pressure over strikes; Iran denies talks; Hormuz tanker incident",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-11T09:07:54Z",
      "headline": "Steady: Iran says tanker hit mine in Hormuz; Tehran denies talks, Rubio backs pressure",
      "direction": "steady"
@@ -12466,207 +12461,242 @@
      "at": "2026-11-14T04:36:16Z",
      "headline": "US signals restraint as Iran warns of retaliation; Iran claims downing US drone",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-14T07:56:54Z",
+     "headline": "Iran reports tankers hit by mines in Hormuz; US says further military action not needed",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-14T04:36:16Z",
-   "next_at": "2026-11-14T07:36:16Z",
-   "headline": "US signals restraint as Iran warns of retaliation; Iran claims downing US drone",
-   "direction": "steady",
+   "updated_at": "2026-11-14T07:56:54Z",
+   "next_at": "2026-11-14T10:56:54Z",
+   "headline": "Iran reports tankers hit by mines in Hormuz; US says further military action not needed",
+   "direction": "escalating",
    "points": [
     {
-     "text": "Gulf News reports the US is signalling restraint while Iran warns of retaliation. Rubio says the economic pain inflicted on Iran makes further military action unnecessary.",
+     "text": "Iran says a mine hit two oil tankers east of the Strait of Hormuz and set them on fire. Iranian forces later reported three more tankers on fire from mines. These are Iran's reports, and the first was carried by several outlets in different countries.",
      "stories": [
-      "s7",
-      "s8"
+      "s1",
+      "s2"
      ],
      "sources": [
       {
-       "t": "Middle East War: US signals restraint as Iran warns of retaliation",
-       "u": "https://gulfnews.com/world/mena/middle-east-war-us-signals-restraint-as-iran-warns-of-retaliation-1.500746947",
-       "s": "Gulf News",
-       "c": "AE",
-       "l": "en",
-       "p": 1794625638,
+       "t": "Tanker caught fire east of the Strait of Hormuz after hitting a mine",
+       "o": "Танкер загорелся к востоку от Ормузского пролива после подрыва на мине",
+       "u": "https://www.interfax.ru/world/1128982",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794639060,
        "r": "known"
       },
       {
-       "t": "Rubio says economic pain inflicted on Iran makes military action unnecessary",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-says-economic-pain-inflicted-iran-makes-military-action",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794621906,
+       "t": "Iran reports fire on a tanker after it struck a naval mine east of the Strait of Hormuz",
+       "o": "Irán informa del incendio de un petrolero tras chocar con una mina naval al este del estrecho de Ormuz",
+       "u": "https://www.infobae.com/america/agencias/2026/11/14/iran-informa-del-incendio-de-un-petrolero-tras-chocar-con-una-mina-naval-al-este-del-estrecho-de-ormuz/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794635143,
+       "r": "known"
+      },
+      {
+       "t": "Live blog Middle East: Iran: two oil tankers burning in Strait of Hormuz after collision with sea mine",
+       "o": "Liveblog Nahost: Iran: Zwei Öltanker in Straße von Hormus brennen nach Kollision mit Seemine",
+       "u": "https://www.faz.net/aktuell/politik/ausland/liveblog-nahost-iran-zwei-oeltanker-in-strasse-von-hormus-brennen-nach-kollision-mit-seemine-faz-200583539.html",
+       "s": "FAZ Ausland",
+       "c": "DE",
+       "l": "de",
+       "p": 1794634740,
+       "r": "known"
+      },
+      {
+       "t": "Iran: A tanker caught fire after hitting a mine in the Strait of Hormuz",
+       "o": "İran: Hürmüz Boğazı'nda bir tanker mayına çarparak alev aldı",
+       "u": "https://www.aa.com.tr/tr/dunya/iran-hurmuz-bogazinda-bir-tanker-mayina-carparak-alev-aldi/4124895",
+       "s": "Anadolu Turkish",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794641070,
+       "r": "state"
+      },
+      {
+       "t": "Iranian forces report three more tankers set on fire by mines in Hormuz",
+       "o": "Las fuerzas iraníes informan de otros tres petroleros incendiados por minas en Ormuz",
+       "u": "https://www.infobae.com/america/agencias/2026/11/14/las-fuerzas-iranies-informan-de-otros-tres-petroleros-incendiados-por-minas-en-ormuz/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794640534,
        "r": "known"
       }
      ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
+     "headlines": 9,
+     "outlets": 7,
+     "independent": 7,
      "countries": [
-      "AE",
-      "GB"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran's navy claims it shot down a US MQ-I drone off the southern coast. This is Iran's claim, reported by one outlet, and no independent source confirms it.",
-     "stories": [
-      "s9"
-     ],
-     "sources": [
-      {
-       "t": "Iran's navy claims US MQ-I drone shot down off southern coast",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-claims-us-mq-i-drone-shot-down-southern-coast",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794620702,
-       "r": "known"
-      }
-     ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
-     "countries": [
-      "GB"
-     ],
-     "regions": 1,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "BBC Swahili reports Iran has threatened to kill Trump and Netanyahu. This is a single-source report of a threat, not a military action.",
-     "stories": [
-      "s3"
-     ],
-     "sources": [
-      {
-       "t": "Iran threatens to kill Trump and Netanyahu",
-       "o": "Tanzania yaikumbusha Uingereza kuheshimu uhuru wa mahakama",
-       "u": "https://www.bbc.co.uk/swahili/live/cqx2en4vz8m8t?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Swahili",
-       "c": "GB",
-       "l": "sw",
-       "p": 1794629825,
-       "r": "known"
-      }
-     ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
-     "countries": [
-      "GB"
-     ],
-     "regions": 1,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "A report says Israel's Mossad chief is in Washington for talks on Iran. The White House confirms Iran and nuclear arms will be on the agenda when Trump meets Xi and Putin on November 19.",
-     "stories": [
-      "s5",
-      "s2",
-      "s1"
-     ],
-     "sources": [
-      {
-       "t": "Mossad chief in Washington for talks on Iran, report says",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/mossad-chief-washington-talks-iran-report-says",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794627226,
-       "r": "known"
-      },
-      {
-       "t": "Trump to discuss Iran war, but not Ukraine, at China summit",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-discuss-iran-war-not-ukraine-china-summit",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794623452,
-       "r": "known"
-      },
-      {
-       "t": "White House confirms Trump-Xi-Putin trilateral summit in China, Iran and nuclear arms on agenda",
-       "u": "https://www.jpost.com/international/article-914839",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794623220,
-       "r": "known"
-      },
-      {
-       "t": "Donald Trump to raise nuclear-arms cuts with Putin, Xi on November 19, White House says",
-       "u": "https://www.thehindu.com/news/international/donald-trump-to-raise-nuclear-arms-cuts-with-putin-xi-on-november-19-white-house-says/article71700773.ece",
-       "s": "The Hindu",
-       "c": "IN",
-       "l": "en",
-       "p": 1794627426,
-       "r": "known"
-      },
-      {
-       "t": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says",
-       "u": "https://www.al-monitor.com/originals/2026/11/trump-raise-nuclear-arms-cuts-putin-xi-thursday-white-house-says",
-       "s": "Al-Monitor",
-       "c": "US",
-       "l": "en",
-       "p": 1794624390,
-       "r": "known"
-      }
-     ],
-     "headlines": 6,
-     "outlets": 5,
-     "independent": 5,
-     "countries": [
-      "GB",
+      "AR",
+      "DE",
       "IL",
-      "IN",
-      "SG",
-      "US"
+      "IR",
+      "IT",
+      "RU",
+      "TR"
      ],
      "regions": 5,
      "party_only": false,
+     "state": 3
+    },
+    {
+     "text": "Iran's IRGC says an LNG carrier exploded after hitting a mine in Hormuz. This is the IRGC's account, reported by one outlet.",
+     "stories": [
+      "s15"
+     ],
+     "sources": [
+      {
+       "t": "LNG carrier explodes after hitting mine in Hormuz, IRGC says",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/lng-carrier-explodes-after-hitting-mine-hormuz-irgc-says",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794632649,
+       "r": "known"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "GB"
+     ],
+     "regions": 1,
+     "party_only": false,
      "state": 0
     },
     {
-     "text": "The UN says the IMO confirms 25 seafarer deaths since the Iran war began. Iran International, citing Iranian media only, reports Iran's oil output has fallen below pre-war domestic needs.",
+     "text": "The UK Maritime Trade Operations (UKMTO) says seven tanker attacks in Hormuz were recorded in one week. This is one outlet's report of UKMTO's figure.",
      "stories": [
-      "s4",
       "s12"
      ],
      "sources": [
       {
-       "t": "UN says IMO confirms 25 seafarer deaths since Iran war began",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/un-says-imo-confirms-25-seafarer-deaths-iran-war-began",
+       "t": "UKMTO says seven Hormuz tanker attacks recorded in a week",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-seven-hormuz-tanker-attacks-recorded-week",
        "s": "Middle East Eye",
        "c": "GB",
        "l": "en",
-       "p": 1794628847,
+       "p": 1794634147,
+       "r": "known"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "GB"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Rubio says further US military action against Iran is not needed because its economy is already weakened. Turkish state media say Trump does not want to restart attacks on Iran 'for now'.",
+     "stories": [
+      "s4",
+      "s8",
+      "s14",
+      "s3"
+     ],
+     "sources": [
+      {
+       "t": "Rubio Says Further US Military Action Is Not Needed Against Economically Weakened Iran",
+       "u": "https://english.aawsat.com/node/5341048",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794640633,
        "r": "known"
       },
       {
-       "t": "Iran's oil output plunges below pre-war domestic needs",
-       "u": "https://www.iranintl.com/en/202611135975",
-       "s": "Iran International",
-       "c": "IR",
+       "t": "Claim that Trump does not want to restart his attacks on Iran \"for now",
+       "o": "Trump'ın İran'a saldırıları \"şimdilik\" yeniden başlatmak istemediği iddiası",
+       "u": "https://www.aa.com.tr/tr/dunya/trumpin-irana-saldirilari-simdilik-yeniden-baslatmak-istemedigi-iddiasi/4124875",
+       "s": "Anadolu Turkish",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794638595,
+       "r": "state"
+      },
+      {
+       "t": "Netanyahu discusses possible resumption of attacks on Iran with Eisenkot: Israeli media",
+       "u": "https://www.aa.com.tr/en/middle-east/netanyahu-discusses-possible-resumption-of-attacks-on-iran-with-eisenkot-israeli-media/4124854",
+       "s": "Anadolu Agency",
+       "c": "TR",
        "l": "en",
-       "p": 1794623644,
+       "p": 1794633306,
+       "r": "state"
+      },
+      {
+       "t": "Israel puts Iran under the microscope... 3 scenarios on the army's table",
+       "o": "إسرائيل تضع إيران تحت المجهر.. 3 سيناريوهات على طاولة الجيش",
+       "u": "https://www.skynewsarabia.com/world/1904737-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D8%B6%D8%B9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%AC%D9%87%D8%B1-3-%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88%D9%87%D8%A7%D8%AA-%D8%B7%D8%A7%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1794641730,
        "r": "known"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "AE",
+      "SA",
+      "TR"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "The White House confirms Trump will meet Xi Jinping and Putin in China on Thursday. Nuclear weapons are expected to be on the agenda, according to outlets in several countries.",
+     "stories": [
+      "s6",
+      "s11"
+     ],
+     "sources": [
+      {
+       "t": "White House confirms Trump to meet Xi Jinping and Putin in China, expected to discuss reducing nuclear weapons during APEC summit",
+       "o": "ทำเนียบขาวยืนยัน ทรัมป์เตรียมพบ สีจิ้นผิง-ปูติน ที่จีน คาดหารือลดอาวุธนิวเคลียร์ระหว่างประชุม APEC",
+       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ndk1Od1R4QURGdFVBWG8xVU1hU0VFTVRtd3oyWC1LU2V5emlZWHNPNHUwTEFVS0ZvWktaSXZpTVVCTVM5WkFGbHhtNEVoZ09UamRpR1BMS3UwRHBLb3pSOExKa1RXSWNOd3JtYg?oc=5",
+       "s": "thestandard.co",
+       "c": "CO",
+       "l": "th",
+       "p": 1794639064,
+       "r": "unrated"
+      },
+      {
+       "t": "Nuclear weapons, Iran, Nvidia... Unprecedented summit between Donald Trump, Xi Jinping and Vladimir Putin on Thursday in China",
+       "o": "Arme nucléaire, Iran, Nvidia... Sommet inédit entre Donald Trump, Xi Jinping et Vladimir Poutine jeudi en Chine",
+       "u": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOazFpeTZVZUxGN21HLVgwenJlNnNPTFpGVWkxeTdZVG9iM0RseURDS2ZZQjh2M01ZLWtPSnlySWE0TF83dzI5c3NZRHVtLXZaVmJPY2VvSng0WF9OSXZsbGowMEVZX1N3WmJVU0RSdGFFMkJveHJrbkdJYkFPT1BkeXlpN2E3VVVqVmV5cFJrS2JpTE1UYTZsMVpEUUFQYXUzWHN3LUFuMjVHVFQ1SkpBUm1VdFRySE13SXFCOUE1bl9UdEhvT0hKUlFkT0RSVXAzcWVtd2JjaTJGWkh3ZGVrQ2lJdUs1dmNRajdJQmwxVzdXZktSN0RnNC02TE9LS3BzNjNBR1NZelFMZDNsS0Zuc2RmNUlyWTFsM250dHZHVU0tazdIU3Bv?oc=5",
+       "s": "BFM",
+       "c": "FR",
+       "l": "fr",
+       "p": 1794635137,
+       "r": "unrated"
       }
      ],
      "headlines": 2,
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "GB",
-      "IR"
+      "CO",
+      "FR"
      ],
      "regions": 2,
      "party_only": false,
@@ -12674,15 +12704,15 @@
     }
    ],
    "watch": [
-    "Iran's response to the threats against Trump and Netanyahu",
-    "Whether the Iranian drone claim is confirmed or disputed by US officials",
-    "Trump's raising of Iran at the November 19 summit in China"
+    "Further mine or tanker incidents in Hormuz and any UKMTO update on the count",
+    "Whether the US or Israel moves from talk of restraint or resumption to action, as the Israeli and Turkish reports suggest",
+    "The Thursday Trump–Xi–Putin meeting in China and whether it addresses Iran and nuclear weapons"
    ],
    "window_hours": 3,
-   "headlines_read": 15,
-   "outlets_read": 10,
-   "countries_read": 9,
-   "languages_read": 4,
+   "headlines_read": 29,
+   "outlets_read": 17,
+   "countries_read": 13,
+   "languages_read": 10,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-13T05:00:32Z",
    "ladder_note": "Re-checked after: The IRGC claims it attacked a US early-warning radar in Bahrain, a concrete attack reported by many outlets but not independently confirmed."
