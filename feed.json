@@ -1675,9 +1675,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Rubio: no more US strikes needed; Centcom says drones aimed at Bahrain downed",
+   "status": "US signals restraint as Iran warns of retaliation; Iran claims downing US drone",
    "summary": "The US and Israel have fought Iran this year, and shipping through the Strait of Hormuz remains disrupted. On Nov 13, Iran's Revolutionary Guards said they destroyed a US early-warning radar in Bahrain in reply to a strike near Sirik. AP and SBS say neither Bahrain nor the US has confirmed this. The Guards also say an LNG tanker hit a mine in Hormuz, and UKMTO reported a tanker hit by an unknown projectile with crew injured. Trump removed Vance from the Iran talks and said a deal is not needed, while Iran ties reopening Hormuz to the US lifting its blockade and sanctions.",
    "latest": [
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T04:36:16Z",
+     "text": "Gulf News reports the US is signalling restraint while Iran warns of retaliation. Rubio says the economic pain inflicted on Iran makes further military action unnecessary.",
+     "outlet": "Gulf News",
+     "country": "United Arab Emirates",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-us-signals-restraint-as-iran-warns-of-retaliation-1.500746947",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T04:36:16Z",
+     "text": "Iran's navy claims it shot down a US MQ-I drone off the southern coast. This is Iran's claim, reported by one outlet, and no independent source confirms it.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-claims-us-mq-i-drone-shot-down-southern-coast",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T04:36:16Z",
+     "text": "BBC Swahili reports Iran has threatened to kill Trump and Netanyahu. This is a single-source report of a threat, not a military action.",
+     "outlet": "BBC Swahili",
+     "country": "United Kingdom",
+     "url": "https://www.bbc.co.uk/swahili/live/cqx2en4vz8m8t?at_medium=RSS&at_campaign=rss",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-14",
      "at": "2026-11-14T01:49:54Z",
@@ -1732,39 +1765,6 @@
      "region": "russia",
      "tag": "non-party",
      "state_media": true
-    },
-    {
-     "date": "2026-11-13",
-     "at": "2026-11-13T22:46:54Z",
-     "text": "Brent closed unchanged at $95.84 a barrel, with Infobae describing calm in the Iran war.",
-     "outlet": "Infobae",
-     "country": "Argentina",
-     "url": "https://www.infobae.com/america/agencias/2026/11/13/el-brent-cierra-hoy-sin-variaciones-en-9584-el-barril-ante-calma-en-la-guerra-de-iran/",
-     "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "at": "2026-11-13T20:02:08Z",
-     "text": "Mossad chief is reported to be in Washington pressing to resume the war with Iran, according to Axios as relayed by several outlets. These are reports about private talks, not official statements.",
-     "outlet": "Infobae",
-     "country": "Argentina",
-     "url": "https://www.infobae.com/america/agencias/2026/11/13/jefe-de-la-mosad-visita-washington-en-medio-de-presiones-por-guerra-con-iran-segun-axios/",
-     "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-13",
-     "at": "2026-11-13T20:02:08Z",
-     "text": "Trump said on social media that he is removing J.D. Vance from the Iran negotiating team and that the US does not need an agreement. Only one Thai outlet carries this so far.",
-     "outlet": "แนวหน้า",
-     "country": "Thailand",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5RaFpsaXBFNVo4VTB4cm1VdHlacXBSMHA2VkdkWmJzbGVhQWxSNnJLcFdSUGNtalNrQ3BpZzR3ekd0aDFFN3pPeE5fM1ZFNmV2aWlzY1Z6bw?oc=5",
-     "region": "southeast-asia",
-     "tag": "non-party",
-     "state_media": false
     }
    ],
    "us_impact": {
@@ -12348,11 +12348,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-11T01:48:35Z",
-     "headline": "Steady: Bessent moved amid Iran threats; two tankers reportedly hit mines in Hormuz",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-11T05:22:12Z",
      "headline": "Steady: Rubio backs pressure over strikes; Iran denies talks; Hormuz tanker incident",
      "direction": "steady"
@@ -12466,56 +12461,72 @@
      "at": "2026-11-14T01:49:54Z",
      "headline": "Rubio: no more US strikes needed; Centcom says drones aimed at Bahrain downed",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-14T04:36:16Z",
+     "headline": "US signals restraint as Iran warns of retaliation; Iran claims downing US drone",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-14T01:49:54Z",
-   "next_at": "2026-11-14T04:49:54Z",
-   "headline": "Rubio: no more US strikes needed; Centcom says drones aimed at Bahrain downed",
+   "updated_at": "2026-11-14T04:36:16Z",
+   "next_at": "2026-11-14T07:36:16Z",
+   "headline": "US signals restraint as Iran warns of retaliation; Iran claims downing US drone",
    "direction": "steady",
    "points": [
     {
-     "text": "US Secretary of State Rubio says further US military action is not needed against Iran, which he describes as economically weakened. Arab News reports his comments.",
+     "text": "Gulf News reports the US is signalling restraint while Iran warns of retaliation. Rubio says the economic pain inflicted on Iran makes further military action unnecessary.",
      "stories": [
-      "s2"
+      "s7",
+      "s8"
      ],
      "sources": [
       {
-       "t": "Rubio says further US military action is not needed against economically weakened Iran",
-       "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ19jRk5HUFBYMWFZVUZEUENwVF80UlJEbXQtcFdqSTFTTGdZTkpWbVFndmZBdHFCcmdiSmJHcWFvb1g0b0lCVW5tYTJQb2xfeEVJTnNCVk1GS3k3a2NiNThxaFZXUE5vVVo0NUZtZ3BqZ0RrOENSejc0M1RaemE4cXkwWF9qRDM2ZXg2ME1fSkw2X1BFUFVramN4dEhzeFhsblZGV0hOWGl6SEtPYjY4eUlHQXpRZS13MHc4cTE1b0N2anhxcXRHN3h4bw?oc=5",
-       "s": "Arab News",
-       "c": "SA",
+       "t": "Middle East War: US signals restraint as Iran warns of retaliation",
+       "u": "https://gulfnews.com/world/mena/middle-east-war-us-signals-restraint-as-iran-warns-of-retaliation-1.500746947",
+       "s": "Gulf News",
+       "c": "AE",
        "l": "en",
-       "p": 1794618450,
+       "p": 1794625638,
+       "r": "known"
+      },
+      {
+       "t": "Rubio says economic pain inflicted on Iran makes military action unnecessary",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-says-economic-pain-inflicted-iran-makes-military-action",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794621906,
        "r": "known"
       }
      ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "SA"
+      "AE",
+      "GB"
      ],
-     "regions": 1,
+     "regions": 2,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Centcom says it shot down two Iranian drones aimed at Bahrain. This is the US command's account; no independent confirmation is in these reports.",
+     "text": "Iran's navy claims it shot down a US MQ-I drone off the southern coast. This is Iran's claim, reported by one outlet, and no independent source confirms it.",
      "stories": [
-      "s5"
+      "s9"
      ],
      "sources": [
       {
-       "t": "Centcom says two Iranian drones aimed at Bahrain shot down",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-two-iranian-drones-aimed-bahrain-shot-down",
+       "t": "Iran's navy claims US MQ-I drone shot down off southern coast",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-claims-us-mq-i-drone-shot-down-southern-coast",
        "s": "Middle East Eye",
        "c": "GB",
        "l": "en",
-       "p": 1794616351,
+       "p": 1794620702,
        "r": "known"
       }
      ],
@@ -12530,115 +12541,148 @@
      "state": 0
     },
     {
-     "text": "Russia's Interfax reports shipping traffic in the Strait of Hormuz remains 65% below pre-war levels. Lebanese outlet Al-Sharq reports Iraq is reviving a land route for oil exports via Syria because of the disruption.",
+     "text": "BBC Swahili reports Iran has threatened to kill Trump and Netanyahu. This is a single-source report of a threat, not a military action.",
      "stories": [
-      "s4",
-      "s9"
+      "s3"
      ],
      "sources": [
       {
-       "t": "Shipping traffic in the Strait of Hormuz remains 65% below pre-war levels",
-       "o": "Уровень судоходства в Ормузском проливе по-прежнему на 65% ниже довоенного",
-       "u": "https://www.interfax.ru/world/1128961",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794617100,
+       "t": "Iran threatens to kill Trump and Netanyahu",
+       "o": "Tanzania yaikumbusha Uingereza kuheshimu uhuru wa mahakama",
+       "u": "https://www.bbc.co.uk/swahili/live/cqx2en4vz8m8t?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Swahili",
+       "c": "GB",
+       "l": "sw",
+       "p": 1794629825,
+       "r": "known"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "GB"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "A report says Israel's Mossad chief is in Washington for talks on Iran. The White House confirms Iran and nuclear arms will be on the agenda when Trump meets Xi and Putin on November 19.",
+     "stories": [
+      "s5",
+      "s2",
+      "s1"
+     ],
+     "sources": [
+      {
+       "t": "Mossad chief in Washington for talks on Iran, report says",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/mossad-chief-washington-talks-iran-report-says",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794627226,
        "r": "known"
       },
       {
-       "t": "Disruption of the Strait of Hormuz pushes Iraq to revive a land route for oil exports via Syria",
-       "o": "تعطل مضيق هرمز يدفع العراق إلى إعادة تفعيل مسار بري لتصدير النفط عبر سوريا",
-       "u": "https://news.google.com/rss/articles/CBMingNBVV95cUxQQ0I3bVVqQ2VlR0swcVRLQy1hN2Vmbl9Band3VGpBUmVWVXVkZmhONTNmQ2lldkxxbkU0bGlYVFp2TGd0Z21rYkloRW5UV1lYbmxrdU5RY3c5RHpoTml5STRZa3BsRlFBYVhtZDJNS04yWEtIWEh6TjBVNzRZNDAyWklxN09HcUZBMHVxMk9FWkNqLWRlc1Q0RUk4OFlxYjN4dHdRdzl2VjcyaVFUaU5iR3BMYmFUTXB1MG5WalZFWnhMVXRsbWxpdHgxTnlyRld0WkpMenFDanY1TTZaRWJya0NVVURhc2hUdmxlY3hxNUpTVkhrRUoxTE13alhXZmtOdlRnenFtWXQyb29UcU90UDlMc0tGUjc0Nml1Ynk3MkpFV3VMdkZKOWhPMklNdnJOZmVvU3lDQUt2X1ZqRTh3em93eklTX1Q5dVhxczVLWnNVRS0xYVM0SERROTd2WmNKTWdfcVpsSjVZLTA0X1lZbDhheWpzLTNXWmZBOEJ5RVV5ZnJkTk01TllVNkl3SWRJN0FGVnBuOHJNOVZ4T3c?oc=",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794613211,
-       "r": "unrated"
+       "t": "Trump to discuss Iran war, but not Ukraine, at China summit",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-discuss-iran-war-not-ukraine-china-summit",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794623452,
+       "r": "known"
+      },
+      {
+       "t": "White House confirms Trump-Xi-Putin trilateral summit in China, Iran and nuclear arms on agenda",
+       "u": "https://www.jpost.com/international/article-914839",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794623220,
+       "r": "known"
+      },
+      {
+       "t": "Donald Trump to raise nuclear-arms cuts with Putin, Xi on November 19, White House says",
+       "u": "https://www.thehindu.com/news/international/donald-trump-to-raise-nuclear-arms-cuts-with-putin-xi-on-november-19-white-house-says/article71700773.ece",
+       "s": "The Hindu",
+       "c": "IN",
+       "l": "en",
+       "p": 1794627426,
+       "r": "known"
+      },
+      {
+       "t": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says",
+       "u": "https://www.al-monitor.com/originals/2026/11/trump-raise-nuclear-arms-cuts-putin-xi-thursday-white-house-says",
+       "s": "Al-Monitor",
+       "c": "US",
+       "l": "en",
+       "p": 1794624390,
+       "r": "known"
+      }
+     ],
+     "headlines": 6,
+     "outlets": 5,
+     "independent": 5,
+     "countries": [
+      "GB",
+      "IL",
+      "IN",
+      "SG",
+      "US"
+     ],
+     "regions": 5,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "The UN says the IMO confirms 25 seafarer deaths since the Iran war began. Iran International, citing Iranian media only, reports Iran's oil output has fallen below pre-war domestic needs.",
+     "stories": [
+      "s4",
+      "s12"
+     ],
+     "sources": [
+      {
+       "t": "UN says IMO confirms 25 seafarer deaths since Iran war began",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/un-says-imo-confirms-25-seafarer-deaths-iran-war-began",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794628847,
+       "r": "known"
+      },
+      {
+       "t": "Iran's oil output plunges below pre-war domestic needs",
+       "u": "https://www.iranintl.com/en/202611135975",
+       "s": "Iran International",
+       "c": "IR",
+       "l": "en",
+       "p": 1794623644,
+       "r": "known"
       }
      ],
      "headlines": 2,
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "LB",
-      "RU"
+      "GB",
+      "IR"
      ],
      "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Israel's Mossad chief is in Washington over the war, per Repubblica. The White House says Trump will raise Iran, not Ukraine, at the US-China-Russia summit in China on the 19th, and Yomiuri reports nuclear disarmament is planned as a main agenda item.",
-     "stories": [
-      "s8",
-      "s1",
-      "s6"
-     ],
-     "sources": [
-      {
-       "t": "Iran, Netanyahu's move: Mossad chief in Washington over the war",
-       "o": "Iran, mossa di Netanyahu: il capo del Mossad a Washington per la guerra",
-       "u": "https://www.repubblica.it/esteri/2026/11/14/news/guerra_iran_mossa_netanyahu_capo_mossad_usa-425722057/?rss",
-       "s": "Repubblica Esteri",
-       "c": "IT",
-       "l": "it",
-       "p": 1794614400,
-       "r": "known"
-      },
-      {
-       "t": "Trump doesn’t plan to discuss Ukraine with Xi and Putin in China but will talk about Iran war, US official says",
-       "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT2lVby1sUDgxNXZXcm0zc29WUTBzNWlLaXFEZ0NZenp3Ml9xTmVvOXJsVzJ4aTdZejBSeU1PcHhMNlZrU09hMUF0dlB2aVFtYWNoNFpqVkM3YU51SWp0dmM4ZlN1NGY2cjNoOWNtcVVybU1hRkduMklRekFzcURvWlZGdGd5VHEtRGFmbHFiMGRGN2JQWVJ0RmhKZGVVNUI1Y3QtWE9IMTJsRTZ5eG1malc4czQ2andCMklBRWNhTExBeWtyajI1Z1hnM0N3WS1teXNqdlUydzliUndUeDdBZjFn?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1794615398,
-       "r": "known"
-      },
-      {
-       "t": "White House: 'Trump will discuss Iran with Xi and Putin, not Ukraine'",
-       "o": "Casa Bianca, 'Trump discuterà di Iran con Xi e Putin, non di Ucraina'",
-       "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/14/casa-bianca-trump-discutera-di-iran-con-xi-e-putin-non-di-ucraina_864145b8-8539-4476-afaa-f64bca240844.html",
-       "s": "ANSA Mondo",
-       "c": "IT",
-       "l": "it",
-       "p": 1794614880,
-       "r": "known"
-      },
-      {
-       "t": "US-China-Russia summit to be held in China on the 19th; Trump expresses willingness, with nuclear disarmament planned as a main agenda item",
-       "o": "米中露首脳会談、１９日に中国で開催…トランプ氏が意欲示す核軍縮を主要議題とする方針",
-       "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWX29TOHlxOXdOVWdHcGVvSk9IdkZSZkRhN1YzQjFZYlk3eUVXVkFiR0J4YktHMVBGeXJHSTl1U2o1RlphNFAydldUMjY1VXhRdnVZUGNXNm41M3FnSkhBaXJn?oc=5",
-       "s": "読売新聞",
-       "c": "JP",
-       "l": "ja",
-       "p": 1794615660,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 8,
-     "outlets": 5,
-     "independent": 5,
-     "countries": [
-      "IT",
-      "JP",
-      "SA"
-     ],
-     "regions": 3,
      "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Whether Centcom reports more drone intercepts near Bahrain",
-    "Updated Hormuz shipping traffic figures after the mine reports",
-    "Agenda and outcome of the 19 November US-China-Russia summit"
+    "Iran's response to the threats against Trump and Netanyahu",
+    "Whether the Iranian drone claim is confirmed or disputed by US officials",
+    "Trump's raising of Iran at the November 19 summit in China"
    ],
    "window_hours": 3,
-   "headlines_read": 18,
-   "outlets_read": 14,
-   "countries_read": 11,
-   "languages_read": 7,
+   "headlines_read": 15,
+   "outlets_read": 10,
+   "countries_read": 9,
+   "languages_read": 4,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-13T05:00:32Z",
    "ladder_note": "Re-checked after: The IRGC claims it attacked a US early-warning radar in Bahrain, a concrete attack reported by many outlets but not independently confirmed."
