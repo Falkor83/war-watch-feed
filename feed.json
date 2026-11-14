@@ -1689,9 +1689,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Iran says a tanker hit a mine in Hormuz; Trump reportedly holds off on new strikes",
+   "status": "Iran says tankers hit mines in Hormuz; Trump reportedly may hold off on strikes",
    "summary": "The US-Israel war with Iran began in February, and Iran has since demanded permission for ships to pass through the Strait of Hormuz. On Nov 13 the US Central Command (CENTCOM) said it shot down two Revolutionary Guards drones heading for Bahrain, with no damage, and rejected Iran's claim that a US radar was hit. Iran's two navies say three or more tankers and a gas carrier caught fire after hitting mines on routes it calls unauthorised. At AP's publication time the UK maritime monitor (UKMTO) had not reported these incidents, and no vessel names were given. The White House says Iran is on the agenda when Trump, Putin and Xi meet in Shenzhen on Nov 19, and a US official says no agreement is expected.",
    "latest": [
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T16:26:21Z",
+     "text": "Iran says several oil tankers hit mines in the Strait of Hormuz and burned. The reported count differs by outlet: three in one account, four in another, and two in a third. These are Iran's claims and no independent confirmation is cited.",
+     "outlet": "DW Dari",
+     "country": "Germany",
+     "url": "https://www.dw.com/fa-af/ایران-یک-نفتکش-«متخلف»-در-تنگه-هرمز-با-ماین-برخورد-کرد/a-79948657?maca=dar-rss-dar-all-1481-rdf",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T16:26:21Z",
+     "text": "Reuters, relayed by Ukrainska Pravda, reports Trump is ready to refrain from new strikes on Iran absent provocations. BBC reports he is considering suspending strikes amid Saudi and Turkish pressure. Israeli media, citing Trump's advisers, report the same. Gulf News says Gulf peace efforts are in limbo.",
+     "outlet": "Ukrainska Pravda UA",
+     "country": "Ukraine",
+     "url": "https://www.pravda.com.ua/news/2026/11/14/8062876/",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T16:26:21Z",
+     "text": "Iran's IRGC says it shot down a US MQ-1 Predator drone over Qeshm Island. Russian state outlet TASS calls it the 17th such drone. The US has not confirmed it in these reports.",
+     "outlet": "TASS English",
+     "country": "Russia",
+     "url": "https://tass.com/world/2218199",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": true
+    },
     {
      "date": "2026-11-14",
      "at": "2026-11-14T13:40:31Z",
@@ -1742,36 +1775,6 @@
      "country": "France",
      "url": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261114-%D8%B3%D9%BE%D8%A7%D9%87-%D8%AF%D9%88-%D9%86%D9%81%D8%AA%DA%A9%D8%B4-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%A8%D8%B1%D8%AE%D9%88%D8%B1%D8%AF-%D8%A8%D8%A7-%D9%85%DB%8C%D9%86-%D8%AF%D8%B1%DB%8C%D8%A7%DB%8C%DB%8C-%D8%AF%D8%B1-%D8%A2%D8%AA%D8%B4-%D8%B3%D9%88%D8%AE%D8%AA%D9%86%D8%AF",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-14",
-     "text": "Headline (translated from es): US intercepts 2 Iranian drones aimed at Bahrain and denies destruction of radar system [story carried by 22 independent sources in 17 countries (AE, AR, AT, CH, DE, ES)]",
-     "outlet": "La Jornada Mundo",
-     "country": "Mexico",
-     "url": "https://www.jornada.com.mx/2026/11/14/mundo/016n2mun?partner=rss",
-     "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-14",
-     "text": "Headline (translated from es): Iran reports three tankers set on fire by the explosion of sea mines in the Strait of Hormuz [story carried by 10 independent sources in 9 countries (AR, AT, DE, FR, IL, IR)]",
-     "outlet": "Deutsche Welle",
-     "country": "Germany",
-     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQzNHcG9HRW9wNEtDeEVpR0lsVHY3SFAzZGRrYXVXeEdoejJRb1cyM0p2c1Fnb19Ra0tCQkptMjhVYkJXWllqUG9OV3Azc1NLdEYtNWlaa215bGpjamhDaXhvdHBFSGZRVXJpeTlMemNpYTdaZzl0UHJTSkQxdnROSC1kUERIZExyT0lQc1kzQUozZWdxQmFYZThobEpnYWhIVHN6azRXV0NCbDg0c0JOcUh0cURJM2pkU2dPOGxudDl0SkZ6TWx2ckxzSUtDRTZNNkt2SEZ2UE00NGU3UllOSkRvWW9nWUxRSGNmNzZNcUsweDJjZXBpSWdSY29xaDVE0gGAAkFVX3lxTE9XNHhmWnVGY3hvY1NRTVBUM0UtMVVFaGNCSjdCZ28yS1VDQ3Zqbm9Od0lyTXVIU3NncThLMnpXRk0tWGd1a3FsMjVPQTdfeXNrb25",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-14",
-     "text": "A US official says no agreement is expected and calls the meeting a first conversation; New START expired in February and China shows little interest in limits.",
-     "outlet": "Newsdrum (India)",
-     "country": "India",
-     "url": "https://www.newsdrum.in/international/trump-xi-putin-to-hold-historic-nuclear-talks-in-china-ukraine-off-agenda-12808264",
-     "region": "south-asia",
      "tag": "non-party",
      "state_media": false
     }
@@ -12529,11 +12532,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-11T15:20:54Z",
-     "headline": "Two tankers hit in Hormuz; Iran threatens US bases in Europe; nuclear material stays put",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-11T18:36:57Z",
      "headline": "Trump says war is ending soon as Iran threatens US Europe bases; Hormuz shipping still hit",
      "direction": "steady"
@@ -12647,243 +12645,231 @@
      "at": "2026-11-14T13:40:31Z",
      "headline": "Iran says a tanker hit a mine in Hormuz; Trump reportedly holds off on new strikes",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-14T16:26:21Z",
+     "headline": "Iran says tankers hit mines in Hormuz; Trump reportedly may hold off on strikes",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-14T13:40:31Z",
-   "next_at": "2026-11-14T16:40:31Z",
-   "headline": "Iran says a tanker hit a mine in Hormuz; Trump reportedly holds off on new strikes",
+   "updated_at": "2026-11-14T16:26:21Z",
+   "next_at": "2026-11-14T19:26:21Z",
+   "headline": "Iran says tankers hit mines in Hormuz; Trump reportedly may hold off on strikes",
    "direction": "steady",
    "points": [
     {
-     "text": "Iran's navy says an oil tanker caught fire after hitting a mine in the Strait of Hormuz. Several outlets across regions carry the account, but it is Iran's claim and not independently confirmed.",
-     "stories": [
-      "s1"
-     ],
-     "sources": [
-      {
-       "t": "Oil tanker catches fire after hitting naval mine in Strait of Hormuz, Iranian state media says",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-914859",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794661749,
-       "r": "known"
-      },
-      {
-       "t": "Oil tanker on fire in Strait of Hormuz: Iran's navy",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-tanker-fire-strait-hormuz-iran-navy",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794659232,
-       "r": "known"
-      },
-      {
-       "t": "Iran's navy says oil tanker on fire after hitting mine in Hormuz",
-       "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbnZ6VG1EVWlwUmJMbzhEN0JQRExxMnJLSzR3QkdqVmhTUUd5d0d4ZjgzM2NSQ3pkRHF4bmRFWUY4N2dZRjlScWVBNzhZLW9wRkx4ZnlmTDB6UEtQUGFhY3lNWVlPVVozcHZXNTlqaVlHdVdlMVd4LW85aVM0UXhGNUxaRUhPd1VxQ2RBdEpJTEZhWks5eUlwNUd3Z3hTRm1uU3dLSHRNZzNNOEZo?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1794657802,
-       "r": "known"
-      },
-      {
-       "t": "Another tanker hit a mine in the Strait of Hormuz",
-       "o": "Еще один танкер подорвался на мине в Ормузском проливе",
-       "u": "https://www.interfax.ru/world/1129006",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794654060,
-       "r": "known"
-      }
-     ],
-     "headlines": 9,
-     "outlets": 9,
-     "independent": 7,
-     "countries": [
-      "BR",
-      "GB",
-      "IL",
-      "IN",
-      "IR",
-      "RU",
-      "SA",
-      "TR"
-     ],
-     "regions": 7,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "Sources say Trump told advisers he may hold off on new Iran attacks unless provoked. Two independent outlets report this, and it matches the earlier single-source reports.",
+     "text": "Iran says several oil tankers hit mines in the Strait of Hormuz and burned. The reported count differs by outlet: three in one account, four in another, and two in a third. These are Iran's claims and no independent confirmation is cited.",
      "stories": [
       "s2",
-      "s7"
+      "s13"
      ],
      "sources": [
       {
-       "t": "Trump tells advisers he may hold off on Iran attacks barring new provocations",
-       "u": "https://www.hindustantimes.com/world-news/donald-trump-tells-advisers-he-may-hold-off-on-us-iran-attacks-barring-new-provocations-israel-101794659981814.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794660697,
+       "t": "Iran: an \"offending\" oil tanker hit a mine in the Strait of Hormuz",
+       "o": "ایران: یک نفتکش «متخلف» در تنگه هرمز با ماین برخورد کرد",
+       "u": "https://www.dw.com/fa-af/ایران-یک-نفتکش-«متخلف»-در-تنگه-هرمز-با-ماین-برخورد-کرد/a-79948657?maca=dar-rss-dar-all-1481-rdf",
+       "s": "DW Dari",
+       "c": "DE",
+       "l": "fa",
+       "p": 1794667920,
        "r": "known"
       },
       {
-       "t": "Sources: Trump tells advisers he may avoid new Iran strikes unless provoked",
-       "u": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcUZKblRlbHRyQkNxMzZHUTFrcnpTMjhBbXMwQ1NvQWxxWFQwQmJhV3Y4Vi1PUF8zN2pyVl9yREVpOG1DRTVMUmZ1RW1LMzctdHBzQ3ZqemxLYS1TNlgwQTlaZnMtSnRxczRHZS03S0VfUlhtQk1rbUljSUhzRVdvTmdaUmE4bEtNdDJyUWpjMnZQdGU3bDdYal9vaTVwazdKUThiQkgydEFISm9xUGQ0S290NVk3VmNmcUNqRkZ3WEJqV3g3VEo3M3RtSFM5aVlaUDEtVG5pVXl5cXRPZlVDbEN3YXR3T2VjVk0xa2dTY1hCUGN0MWl5dQ?oc=5",
-       "s": "Haaretz",
-       "c": "IL",
-       "l": "en",
-       "p": 1794660360,
-       "r": "known"
-      },
-      {
-       "t": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say",
-       "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU2YtSmxCd2NJRTlRZTd4cEVlUzc0cVlIdjFDYWdEY09QdENnaHJJYlFpWjZ2YTRMVlUtZDlMMENWMVJrRGlCcjdRUExDNEQzTG5sUW5RVEJqQk5CbEp0RUdZSE5aRjgwSDBweWRTbU5YdGVzZXJJUmVvdEpVSVN0WjREUWZTdjc5eHo0MXVIV2hJaV8wM2dtYjhpTHBTaS1yR2NxbVc1Mnc1OHNMVE1Rb3dITTI2SHV6UnJkQ0RtMHB3bnU4c252ZmpnZ3JBQngxZjZBcnR5bUfSAd4BQVVfeXFMTUI2MEREbm9GVWVPUkx2NW9xVHlsMnJwaFJPUkxTRTlWMVYxVGtYSVl0dVFBd1Q1dFN5cHFiSC1TS2k0YkNTMFF0cnZXVms5cjhWeDJqX0x5WHRUc0hfUV9VajBTZDNBVVVHdlptTy16anVGS0VrT3NFNWJDbTdZcTQwenQwbWhtdS1ObC1xbEw4dUFFd2RTZzVWcUdpaFhRZGhUYjU2aVV0R2Zib0dLendMMk9sRy0tUVJuVE9YMWRvdWRqV0x",
-       "s": "Al Arabiya English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794659220,
-       "r": "known"
-      },
-      {
-       "t": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say",
-       "u": "https://www.al-monitor.com/originals/2026/11/trump-tells-advisers-he-may-hold-iran-attacks-barring-new-provocations-sources",
-       "s": "Al-Monitor",
+       "t": "Live Updates: 3 oil tankers hit mines in Strait of Hormuz, Iran says",
+       "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeU5UZDJHMEc4OWsycksxeTkxZEs1R2s4clJCbG5wR2tMS3lyLWpsZU8zY1pFajlxSWtoeW42YzNxR0RZbTgyenlZYUFfQ3pBdzFiUDgwSEFWR1JZaGwta2hsZy1TMm15eHdrZm1OMmdpcXhBdzl3RDdPUnFiOFNsYXRjX2VVTHc?oc=5",
+       "s": "CBS News",
        "c": "US",
        "l": "en",
-       "p": 1794656788,
+       "p": 1794663547,
        "r": "known"
       },
       {
-       "t": "Sources: Trump told his advisers he may not bomb Iran if there are no provocations",
-       "o": "مصادر: ترامب قال لمستشاريه إنه قد لا يقصف إيران إذا لم تحدث استفزازات",
-       "u": "https://news.google.com/rss/articles/CBMiowRBVV95cUxPeTVUa3lMZEZRMllDU1RmZkFWaEdoT2ZfaWhFZ3loWUJER1dXbGxzRHQ5YXBGcU1EVnNoR1hGVWc0MWtIdWNLRFdyZC1zeHZhVHdWYWNMTmU1bllRekdoSUVIdlNDMnhSbmVZN29STm5oRlc2Vkl5TTRYN1JPQkRaQmdKRVNRMmNGaTBwak14OUY4MmdLZWp3SlduTWpEdEpndmhtV3QtUllqejFYRTZELWpPMkJvRUtDTXNpS2l6ZktveTNFemo5ODk5OFhaaTJpb0U1VGFiMFR1R1BrdFUzWUR0WV9IdHZFY0pFNWxhMG1UQ3U0MEttLUxnQ0QtQVRvNTZQMnZXWHFldmdiNUFkZDhLbVo4RmxMR0k5WEJtSHJzZkc3NU1CU1RoVGVUYVF1aDl4QWppQVA4M1B1MUlIbm91Ri1HaVBPV1JQZVJYYkYta1ItWThhNTAydVY2MFZTdDRTSW9rbkdEdmJGUXhPZVhMR3kwQ1BQX3hISXFySTFJNGswQl9zbmZ6UXNMYWI2UzFCQ3lqbVpwN09oUnhMc0J",
-       "s": "SWI swissinfo.ch",
-       "c": "CH",
+       "t": "Iran announces four oil tankers burned in the Strait of Hormuz as Trump considers suspending new strikes on Tehran",
+       "o": "إيران تعلن احتراق أربع ناقلات نفط في مضيق هرمز وترامب يدرس تعليق ضربات جديدة على طهران",
+       "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1WaEFaUktZZlIzZFNfMkl4X0pFSFZFcm5mZWROZXZmcjVUNUxtZUc4MXpBbFZSN3BvMHJrTG1VSkdGc1VRdFFDUTVZT1VobGpCNFlsTURnTmc0TWF1WlHSAWNBVV95cUxQVHMyeDhlNE9LRU9GMXBfU253T0pzTzZoeHRkZnZYT0x1UlNqWS1FVkJNM0pMUmtMYkdnUjFWZFYwb1dxM18yeW5wYVFMQnNNYjZLN3NlenJ1QkJNZ01DbmVRQnc?oc=5",
+       "s": "BBC News",
+       "c": "GB",
        "l": "ar",
-       "p": 1794654599,
-       "r": "unrated"
+       "p": 1794663524,
+       "r": "known"
+      },
+      {
+       "t": "Two tankers catch fire after hitting mines near the Strait of Hormuz",
+       "o": "Два танкера загорелись после подрыва на минах в районе Ормузского пролива",
+       "u": "https://www.rbc.ru/rbcfreenews/6af85693df54b1d2041793e9",
+       "s": "RBC",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794662952,
+       "r": "known"
       }
      ],
-     "headlines": 9,
-     "outlets": 9,
+     "headlines": 4,
+     "outlets": 4,
      "independent": 3,
      "countries": [
-      "CH",
+      "DE",
       "GB",
-      "IL",
-      "IN",
-      "SA",
-      "SG",
+      "RU",
       "US"
      ],
-     "regions": 6,
+     "regions": 3,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran's IRGC says it shot down a US MQ-1 Predator drone over Qeshm Island. Three independent outlets relay the claim, and the US has not confirmed it in these reports.",
+     "text": "Reuters, relayed by Ukrainska Pravda, reports Trump is ready to refrain from new strikes on Iran absent provocations. BBC reports he is considering suspending strikes amid Saudi and Turkish pressure. Israeli media, citing Trump's advisers, report the same. Gulf News says Gulf peace efforts are in limbo.",
      "stories": [
-      "s3"
+      "s1",
+      "s12",
+      "s15",
+      "s6"
      ],
      "sources": [
       {
-       "t": "Iran said it intercepted US MQ-1 Predator drone over Qeshm Island",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-said-it-intercepted-us-mq-1-predator-drone-over-qeshm-island",
-       "s": "Middle East Eye",
+       "t": "Reuters: Trump ready to refrain from new strikes on Iran in the absence of provocations",
+       "o": "Reuters: Трамп готовий утриматися від нових ударів по Ірану за відсутності провокацій",
+       "u": "https://www.pravda.com.ua/news/2026/11/14/8062876/",
+       "s": "Ukrainska Pravda UA",
+       "c": "UA",
+       "l": "uk",
+       "p": 1794670920,
+       "r": "known"
+      },
+      {
+       "t": "Trump considers suspending strikes on Iran amid Saudi and Turkish pressure and new US military movements",
+       "o": "ترامب يدرس تعليق الضربات على إيران وسط ضغوط سعودية وتركية وتحركات عسكرية أمريكية جديدة",
+       "u": "https://www.bbc.com/arabic/articles/cwp9dznjmpllo?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Arabic",
        "c": "GB",
-       "l": "en",
-       "p": 1794659631,
+       "l": "ar",
+       "p": 1794663112,
        "r": "known"
       },
       {
-       "t": "Iran's IRGC claims it shot down US MQ-1 Predator drone over Qeshm Island in Strait of Hormuz",
-       "u": "https://www.hindustantimes.com/world-news/irans-irgc-claims-it-shot-down-us-mq-1-predator-drone-over-qeshm-island-101794659260137.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
+       "t": "Trump tells advisers he may hold off on Iran attacks barring new provocations",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914862",
+       "s": "Jerusalem Post",
+       "c": "IL",
        "l": "en",
-       "p": 1794659333,
+       "p": 1794666179,
        "r": "known"
       },
       {
-       "t": "A US-made MQ-1 drone downed over Qeshm Island: IRGC",
-       "u": "https://en.mehrnews.com/news/249391/A-US-made-MQ-1-drone-shoots-down-over-Qeshm-Island-IRGC",
-       "s": "Mehr English",
-       "c": "IR",
+       "t": "Trump’s changing Iran war stance leaves Gulf peace efforts in limbo",
+       "u": "https://gulfnews.com/world/americas/trumps-changing-iran-war-stance-leaves-gulf-peace-efforts-in-limbo-1.500747490",
+       "s": "Gulf News",
+       "c": "AE",
        "l": "en",
-       "p": 1794659351,
-       "r": "state"
+       "p": 1794667487,
+       "r": "known"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 6,
+     "outlets": 5,
+     "independent": 5,
      "countries": [
+      "AE",
       "GB",
-      "IN",
-      "IR"
+      "IL",
+      "UA"
      ],
      "regions": 3,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "A US official says the Iran file is on the agenda of a Trump, Xi and Putin summit. An Iranian army spokesman says any new war would go beyond the region's borders. Both are single-source reports.",
+     "text": "Iran's IRGC says it shot down a US MQ-1 Predator drone over Qeshm Island. Russian state outlet TASS calls it the 17th such drone. The US has not confirmed it in these reports.",
      "stories": [
-      "s8",
-      "s9"
+      "s7",
+      "s11"
      ],
      "sources": [
       {
-       "t": "US official: Iran file on the agenda of the Trump, Xi and Putin summit",
-       "o": "مسؤول أميركي: الملف الإيراني على طاولة قمة ترمب وشي وبوتين",
-       "u": "https://news.google.com/rss/articles/CBMi4wNBVV95cUxNVS1vdk14eHdBdkFYZkRIdzRYVVJWdUxWY05hVWtzZGM0V2ZlZmgwRnlPLVZMVGQtV0pNNDVSVzAwNW5HdkxxZWZDMXowTWVvaHhDTnR3U2FzclBqQzh0elhjQk5vWUJmWkhCZkRWLWMwMVk4Z0dkbEdSVi15Wm9rLWtnZlZ0dDg4Vjk1OThfQmhqeF85Q3lKcTRMenJwS2tDRWZTNkVYSXJ3T2tjRlZiTXVOc0FvU1ZxbWpKWVBMNDVyc2VXc1dIVnUzMHlvZHB1V3pCQlJ4NGdrei02NHJqMlhDQ3VvOFJmTnNHN1UzbU45eDVENUNtYjNqT1Rmd1BQMGQzMzJaZFJseE1uMHBPRmxzTU9wUlZfc1ZwOWJ5NWp3ekdNQWFFanhXTDllUGtQYTdhY1pLcUpqM2pNVmJTeGJ2VnlZaFJjQm9xYlIta0RJOW41Y3FMYlhXQ00wY1M4Sndod0ZUWnBVTmprYVV4YXlqSVVTR1hzSVJPQ0FaaTJUajJ4ejhKWWxkbTg5SFFtXzB3UTlzYy1aSnJrSTlrUFp",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794653757,
-       "r": "unrated"
+       "t": "Iran shoots down 17th US MQ-1 drone over Qeshm Island in country’s south — IRGC",
+       "u": "https://tass.com/world/2218199",
+       "s": "TASS English",
+       "c": "RU",
+       "l": "en",
+       "p": 1794666917,
+       "r": "state"
       },
       {
-       "t": "Spokesman for Iranian army: any new war will go beyond the region's borders",
-       "o": "المتحدث باسم الجيش الإيراني: أي حرب جديدة ستتجاوز حدود المنطقة",
-       "u": "https://news.google.com/rss/articles/CBMigwRBVV95cUxOX0plTUdyem1HenBnc3NTcVE0aFFzVkk2a1hWZDFyUWJ4WkZnd290dDI2dXA0VUIzaHlIYjFSZlpuUUpWYVo1XzhIQ3dZc2lBWF9FOXVuYjB0a2xBNzYwdEZZQW9qUE5VRVZHUlRNMXJidVFpaFd1U1BTU09DRVFORmZjd21PZGVIVkpzZDFCX2otdHVNeU9tNFZpWFg0a2VrU3BLeEpqOC1WdmxWVnRibmtmbG9NbU8xMC1ZU29qYmtxZC1WTG1VTVZkcGhtZXBtUEs0LWhEZG1RdTVJTzc2SFFTN2RJQmFMeHZDTi05Z2w3d1ctdmR6cndzLW9XcHp3ckVjWmVlSzdkRHNrbE1ZMzRkQVZ1X2UwWWw3UFpoZC1lb0JDU2ZNeGkxZTdTM3J4dXkwcHFDYy1VNHoyemJXTUpad0VqaTZkSlN5cUFEUklibzY1SjRtUkRMVUVvMXd6YXRXM19HaVZzUEtaQlhoOGhSRDR3dGQzZXZ4ZEc0eFdfSllzYU5PRkFCR0pDNW9mTkVtLUExd2JkdUpWTVpaamt",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794653156,
+       "t": "Iran's Revolutionary Guard says it shot down a US MQ-1 drone",
+       "o": "La Guardia Revolucionaria iraní dice haber derribado un dron MQ-1 de EE.UU.",
+       "u": "https://www.infobae.com/america/agencias/2026/11/14/la-guardia-revolucionaria-irani-dice-haber-derribado-un-dron-mq-1-de-eeuu/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794663972,
+       "r": "known"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "AR",
+      "RU"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "BBC Persian reports Trump will hold talks with Russian and Chinese leaders on Iran this Thursday. Haaretz, citing Israeli media only, reports the three will discuss the war in Iran.",
+     "stories": [
+      "s14",
+      "s16"
+     ],
+     "sources": [
+      {
+       "t": "Trump will hold talks with Russian and Chinese leaders on Iran this Thursday",
+       "o": "ترامپ پنجشنبه این هفته با رهبران روسیه و چین درباره ایران گفت‌وگو می‌کند",
+       "u": "https://www.bbc.com/persian/articles/c6ly5ddd80gqo?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Persian",
+       "c": "GB",
+       "l": "fa",
+       "p": 1794662946,
+       "r": "known"
+      },
+      {
+       "t": "Trump, Putin and Xi will meet for the first time in China and discuss the war in Iran",
+       "o": "טראמפ, פוטין ושי ייפגשו לראשונה בסין וידונו במלחמה באיראן",
+       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd1pVcExlYXI0X2hseUc0NXZxMGYtTVNmV0Fjb1o0c2pXV3VDYzRrRUl6Tk1OVlhObTdzaWxhOXFLYlc2TGxnT0xPN2ppNmFiX0EyVkNlQ2lpaEt1cHZqWXhUbmZkV2lRb2tQUVNpTFl5UnRLVG0xVTFRTmtVVkhoMDRNNEVzdDFaNGI2UFFUNm1OZ3JUOVFtSHF0TmZSWWpocVZrSldUNGZpQ3pENnB4Mzd3?oc=5",
+       "s": "הארץ",
+       "c": "IL",
+       "l": "he",
+       "p": 1794663660,
        "r": "unrated"
       }
      ],
      "headlines": 2,
-     "outlets": 1,
-     "independent": 1,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "LB"
+      "GB",
+      "IL"
      ],
-     "regions": 1,
+     "regions": 2,
      "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Whether the tanker mine fire gets independent confirmation or a US response",
-    "Whether Trump's reported pause on strikes holds, and what the Trump, Xi and Putin summit says on Iran",
-    "Any further IRGC drone or missile claims, including the 'new' missile month BBC Persian is examining"
+    "Whether Trump formally announces a pause in strikes or the reported hold-off stays unconfirmed",
+    "Independent confirmation of the mine incidents in Hormuz from shipping or maritime sources",
+    "Outcome of the Thursday talks with Russian and Chinese leaders on Iran"
    ],
    "window_hours": 3,
-   "headlines_read": 31,
-   "outlets_read": 23,
-   "countries_read": 13,
-   "languages_read": 6,
+   "headlines_read": 20,
+   "outlets_read": 16,
+   "countries_read": 10,
+   "languages_read": 8,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-13T05:00:32Z",
    "ladder_note": "Re-checked after: The IRGC claims it attacked a US early-warning radar in Bahrain, a concrete attack reported by many outlets but not independently confirmed."
