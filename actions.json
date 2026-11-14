@@ -1001,6 +1001,108 @@
    "added": "2026-11-13",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-14-ye-1",
+   "date": "2026-11-14",
+   "country": "YE",
+   "kind": "military-readiness",
+   "what": "Houthi authorities reportedly threaten to close Sanaa schools to enforce military mobilisation (Saudi outlet Arab News)",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaUxrQ1hfVC1xZ0dOaFNBUkVqM0dsN1hUemlnYjFXb3Q3TW9qVFJBWEIwX2JYblhDa2I3SFF0UEdySzg0WGQ4enByR2dpdURqMzdQcjVsTnJ5VWJkRWo1WnppMnA0Q01aVU1WOWl6YVRTN3dGeTFIVEhQSDVyU2E3MVNLTG55Vkg0Q0kxNjVITzN3Y0NqT0dpM01ucFJucTVIVnVGRjlyRi02Uk9uRGhiZGxkajJWTTA?oc=5",
+   "outlet": "Arab News",
+   "hotspots": [
+    "yemen-houthi-saudi-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-14",
+   "independent": 2,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-14-ua-1",
+   "date": "2026-11-14",
+   "country": "UA",
+   "kind": "military-readiness",
+   "what": "Ukraine's parliament reportedly proposes widening the armed forces reserve; one Russian-language outlet, details on women unclear",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYWVqem1aUWxqUnpPQThtNWp0Y055YmxhVDFEMTBkQWpPOHZnOWRWVEEzYkY1S1lILUF5VExkTWZRZkE5aFlBSW5xM3piNkN4aGhYd05Uc19rWWFMS1NNdEZwR1c4Mzl2T2dtZzBxY3hUbE44VkFYNW1KcjhEWjh4TUR6ZVRUNUI3WnNBS0Z5NXg2LUVnajB6b0x2RWk0WjdJWnV0QlF5VE1vY0E0MTVXWUlYRQ?oc=5",
+   "outlet": "Военное дело",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-14",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-14-ua-2",
+   "date": "2026-11-14",
+   "country": "UA",
+   "kind": "health-surge",
+   "what": "Russian state agency TASS says Ukraine set up extra field hospitals near Sumy over losses; Russia's claim, not confirmed",
+   "url": "https://tass.ru/armiya-i-opk/28317293",
+   "outlet": "TASS",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-14",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-14-az-1",
+   "date": "2026-11-14",
+   "country": "AZ",
+   "kind": "military-readiness",
+   "what": "Azerbaijan holds another training session for reservists, state agency Azertac reports; appears part of a routine series",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYm11MjZvLThfMzZVbC0xRXRsUDROZ3ZJbmpjWUVtU25PalBib2l3dkJxRjkyaS02SmRqay1zQ2tZRDlhbXZxT0Joanh0NFRlbENQQmRoQ1luN3ExWmp1MkpyR0FnZnFraUg4ZHE2dm5PZnU5RzhMdmo5M2oxNXQ4UDlHNGNrTGc?oc=5",
+   "outlet": "Azərtac",
+   "hotspots": [],
+   "scheduled": true,
+   "program": "Azerbaijan's recurring reservist training sessions",
+   "source": "corpus",
+   "added": "2026-11-14",
+   "independent": 2,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-14-us-1",
+   "date": "2026-11-14",
+   "country": "US",
+   "kind": "infrastructure-protection",
+   "what": "A US airspace shutdown strands a student pilot; one Australian outlet, cause and scope not stated in the headline",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX1BTTzdEcXZZeXRHdkFiQ2Q5ZWNnVHlkdGE1T0hnZUVIdEhOMVhGUVBGak9oRm9fVWlpcTNvT2lBQW9zaENDUGdxbnEweW1XT1pjVFd6aUhKWU5NWlFHVHZaOExhNGR6Rk5iSHZVdzBmV3hBTDc3MEduRnRrSkdKcHRENEFNaXFPM1BYRHZrSldCdmdBRVVKNXEzeHA4SU5XdkE?oc=5",
+   "outlet": "Nine.com.au",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-14",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-14-us-2",
+   "date": "2026-11-14",
+   "country": "US",
+   "kind": "infrastructure-protection",
+   "what": "Peoria, Illinois keeps an evacuation going after the mayor confirms a bomb at the BioUrja ethanol plant; no perpetrator named",
+   "url": "https://www.hindustantimes.com/world-news/us-news/east-peoria-orders-one-mile-evacuation-after-bomb-threat-at-biourja-renewables-plant-in-illinois-101794626785566.html",
+   "outlet": "Hindustan Times World",
+   "hotspots": [],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-14",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -2962,6 +3064,214 @@
    "url": "https://www.dw.com/sw/umoja-wa-ulaya-kushiriki-katika-mazungumzo-kati-ya-kyiv-na-moscow/a-79938002?maca=kis-rss-kis-all-1488-rdf",
    "source": "corpus",
    "independent": 11
+  },
+  {
+   "id": "e-2026-11-14-4",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "Ukraine critic injured in Moscow car bombing, Russia says",
+   "countries": [
+    "CA",
+    "CH",
+    "FR",
+    "GB",
+    "JP",
+    "PL",
+    "QA",
+    "RU"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.washingtonpost.com/world/2026/11/13/ukraine-critic-injured-moscow-car-bombing-russia-says/",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-14-6",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "Ukraine launches nearly 1,200 drones at Russia as US-led talks will consider wider European security",
+   "countries": [
+    "AU",
+    "CA",
+    "FR",
+    "IN",
+    "RU",
+    "US"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.hindustantimes.com/world-news/us-news/ukraine-launches-nearly-1-200-drones-at-russia-as-us-led-talks-will-consider-wider-european-security-101794595053247.html",
+   "source": "corpus",
+   "independent": 9
+  },
+  {
+   "id": "e-2026-11-14-7",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "Eisenkot calls for respect for Israel's Arab minority after Netanyahu's attacks",
+   "countries": [
+    "CH",
+    "DE",
+    "FR",
+    "IN",
+    "IT",
+    "LB",
+    "SA",
+    "SG"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://www.dw.com/es/eisenkot-pide-respeto-a-minoría-árabe-de-israel-tras-los-ataques-de-netanyahu/a-79944475?maca=spa-rss-sp-all-1122-rdf",
+   "source": "corpus",
+   "independent": 5
+  },
+  {
+   "id": "e-2026-11-14-7",
+   "date": "2026-11-13",
+   "kind": "news",
+   "what": "European Council president explains why EU has chosen team rather than single representative for Ukraine peace talks",
+   "countries": [
+    "AT",
+    "DE",
+    "ES",
+    "GR",
+    "JP",
+    "KR",
+    "NL",
+    "QA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062799/",
+   "source": "corpus",
+   "independent": 10
+  },
+  {
+   "id": "e-2026-11-14-1",
+   "date": "2026-11-14",
+   "kind": "news",
+   "what": "Russian and Ukrainian attacks kill and wound people as Europe chooses its representatives for peace talks",
+   "countries": [
+    "AE",
+    "CO",
+    "DE",
+    "FR",
+    "GB",
+    "IT",
+    "PT",
+    "QA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPR3M3UktHcVdQU2F5SWxrM0swV29GOGczY3Y5ajZXS2FhdlNZSWRGa3ZJZ01IVEVxVURoZkdUNmJtb0NLRVhiS3ptM3NTMVkyZEw4M09tZnJVMEtTZUN1LXczbDdkZ29VUFBneEJ5U0JQaWxXeXV3OUZpVFM3MGREaFVXbUlaNW9QVzJCQldRaGstY3FQSFVCOXpHdkRNTVhUTXVjX3R2cTlEakJ4bEN1ZnpLOFIwb2VjNWd4NzFSdW5aeGJkTktpQXYwRWU1ai1HVFhuS3FNNHI0THhiX3NGY3JlSGx1MHRqcjFaYkhQNlRyUGVXSFpPNHNLQVJnNVd6a25ybEh4U3VOTTZCaHpPeUxmN2laUVlIZ1oyX2tuR2lIOWF2NGFIU25UYzRlNGlyeTZPb21Zb0gzMXRZbDNoRmdIWmtOaXMxLUc4cmRPWk1ROFk?oc=5",
+   "source": "corpus",
+   "independent": 23
+  },
+  {
+   "id": "e-2026-11-14-2",
+   "date": "2026-11-14",
+   "kind": "news",
+   "what": "IRGC: two oil tankers caught fire after hitting sea mines",
+   "countries": [
+    "AE",
+    "AR",
+    "CA",
+    "CH",
+    "DE",
+    "FR",
+    "GB",
+    "IR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261114-%D8%B3%D9%BE%D8%A7%D9%87-%D8%AF%D9%88-%D9%86%D9%81%D8%AA%DA%A9%D8%B4-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%A8%D8%B1%D8%AE%D9%88%D8%B1%D8%AF-%D8%A8%D8%A7-%D9%85%DB%8C%D9%86-%D8%AF%D8%B1%DB%8C%D8%A7%DB%8C%DB%8C-%D8%AF%D8%B1-%D8%A2%D8%AA%D8%B4-%D8%B3%D9%88%D8%AE%D8%AA%D9%86%D8%AF",
+   "source": "corpus",
+   "independent": 19
+  },
+  {
+   "id": "e-2026-11-14-3",
+   "date": "2026-11-14",
+   "kind": "news",
+   "what": "US intercepts 2 Iranian drones aimed at Bahrain and denies destruction of radar system",
+   "countries": [
+    "AE",
+    "AR",
+    "AT",
+    "CH",
+    "FR",
+    "GB",
+    "IL",
+    "IN"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.jornada.com.mx/2026/11/14/mundo/016n2mun?partner=rss",
+   "source": "corpus",
+   "independent": 17
+  },
+  {
+   "id": "e-2026-11-14-4",
+   "date": "2026-11-14",
+   "kind": "news",
+   "what": "Trump, Putin and Xi Jinping will discuss reducing nuclear arsenals in China",
+   "countries": [
+    "CO",
+    "GB",
+    "JP",
+    "LB",
+    "MD",
+    "SG",
+    "UA",
+    "US"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://ipn.md/en/trump-putin-and-xi-jinping-will-discuss-reducing-nuclear-arsenals-in-china/",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
+   "id": "e-2026-11-14-5",
+   "date": "2026-11-14",
+   "kind": "news",
+   "what": "White House announced that the Trump, Putin and Xi meeting will take place on 19 November in China. They will discuss nuclear weapons, but not the war in Ukraine",
+   "countries": [
+    "DE",
+    "FR",
+    "IN",
+    "IT",
+    "RU",
+    "SA",
+    "UA",
+    "US"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://meduza.io/news/2026/11/14/belyy-dom-ob-yavil-chto-vstrecha-trampa-putina-i-si-proydet-19-noyabrya-v-kitae-oni-obsudyat-yadernoe-oruzhie-no-ne-voynu-v-ukraine",
+   "source": "corpus",
+   "independent": 10
+  },
+  {
+   "id": "e-2026-11-14-6",
+   "date": "2026-11-14",
+   "kind": "news",
+   "what": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Arab Israelis",
+   "countries": [
+    "AE",
+    "AR",
+    "CH",
+    "DE",
+    "FR",
+    "GB",
+    "QA",
+    "SA"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://www.thenationalnews.com/news/mena/2026/11/14/eisenkot-accuses-netanyahu-of-racist-campaign-against-arab-israelis/",
+   "source": "corpus",
+   "independent": 9
+  },
+  {
+   "id": "e-2026-11-14-ladder-yemen-houthi-saudi-war",
+   "date": "2026-11-14",
+   "kind": "ladder",
+   "what": "Boiling point: yemen-houthi-saudi-war moved from stage 3 to 4 (Brink)",
+   "countries": [],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "",
+   "source": "rule"
   }
  ]
 }

@@ -473,6 +473,54 @@
 "https://www.africom.mil/pressrelease/37104/us-forces-conduct-strikes-targeting-al-shabaab",
 "https://www.newamerica.org/insights/half-a-year-without-a-strike-on-isis-somalia/"
 ]
+},
+{
+"made": "2026-11-14",
+"hotspot": "us-israel-iran-war",
+"text": "The Nov 19 Shenzhen meeting takes place without a signed agreement on Iran or Hormuz.",
+"likelihood": "likely",
+"check_by": "2026-11-20",
+"basis": [
+"https://www.newsbeep.com/809668/",
+"https://www.newsdrum.in/international/trump-xi-putin-to-hold-historic-nuclear-talks-in-china-ukraine-off-agenda-12808264"
+]
+},
+{
+"made": "2026-11-14",
+"hotspot": "russia-ukraine-war",
+"text": "A talks round with European representatives present is held before Dec 5.",
+"likelihood": "roughly even chance",
+"check_by": "2026-12-05",
+"basis": [
+"https://www.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl",
+"https://www.dw.com/sw/umoja-wa-ulaya-kushiriki-katika-mazungumzo-kati-ya-kyiv-na-moscow/a-79938002?maca=kis-rss-kis-all-1488-rdf",
+"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mTHAtZGZJZ0lydHM0dFlVTEphM1lDWENycldXYVNEZkxZX2J0X2JjVG5qcWRmVlNSUHpkbE1henZaOFJMZlZFa2JCR25rejVhRGpDQXYycmhSUDDSAWBBVV95cUxPM3l6ckhQeTFIOUhhSHFLVVIwb19qSkJRWnRJTjdDZzBLeTJRQUxfdkhFUXpRTjJzZFpxbEV0anJpYVp3eGRhYTk2OGpySFZQSWExS3FOeEhFNFB6UzEwdlE?oc=5",
+"https://www.interfax.ru/russia/1128826"
+]
+},
+{
+"made": "2026-11-14",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "The Houthis claim at least one further missile or drone strike on Saudi territory by Nov 28.",
+"likelihood": "likely",
+"check_by": "2026-11-28",
+"basis": [
+"https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca",
+"https://www.cfr.org/global-conflict-tracker/conflict/war-yemen",
+"https://www.interfax.ru/world/1128944"
+]
+},
+{
+"made": "2026-11-14",
+"hotspot": "sudan-civil-war",
+"text": "Fighting in Kordofan continues with no agreed ceasefire by Nov 30.",
+"likelihood": "likely",
+"check_by": "2026-11-30",
+"basis": [
+"https://news.google.com/rss/articles/CBMikgVBVV95cUxNNHVjRzNiaUJseUNhMlRyaTFEZFZBTkNKTTRueWhmclBZcnlUT2RmTHRtR2pRNWRPVWQ3VnRKazJXV0Z1WGtuZzI2QkZRRG5kRlRfV19RTllvSktOY2xKaTRkWUE0N0tNU0FzOEppQl9HbWlQZEY0NERTNUhnM0JSUkJxWGJLeDJtUkdQTExyd3Q3UUJ3RDRYeVlvOVRkNS1nOEtXVEZfdUdLVjlZQndfSzF2YzU3ZFBNZldhODd6ZE9mdlo2SmdzWFlUemJ1elVTVW1uODNub1pLek5xUkZLZ29Dc0VoSHJzNFRGcVhXTWdld2M5a2tHTE5IaHZybmRKRmZwNDF4S0RQemR5cEs3aUoxQy1GaW9weGtLR0RBbEd0VTh5cFAtQ1hyYTZXRVlKanVMTEdQMzI3bkQtb2hhQm5aVy1CSHM1TE1xZ1V2YzFnVDJBNTZ",
+"https://news.google.com/rss/articles/CBMitwFBVV95cUxNSFg0M05iR3VyS0Vfa05CWHIwUk1pSE1Vb0wzUjliOGwwRGVNOVhEdlp1dDQ5OUpNNGM4c2xqa3h3azQ1WWwtd1VZNWhGQXd4cG9vWU1IaDdINHdxYk9Walk2MHMwX29oZ0ZGTDFXSTdnYW1Mb3I3N000N1ZHU0JQSVZFWXJqS2FGMGN0VU4xY3d3Yi1yM29zbTNBX2FBV2lrcldVTFpHejJ2a29CZlhDRzZDVktCZDjSAccBQVVfeXFMTklzVEtGUS1wMlBMOW5tWF9OSnp0MHQ5WUM5ZTNRVXN3SjdHbFV2VmdKTzQ1b0owRGVJUXEzNDlKWXVtNGQ5bWpua0gyVEtpczlpQ3dEMlktQURWY1JFOUZuc0ZISmFCc05qbnJxRXhNWW5tamRibmdibWdGZE1BSWk1bl9mbHJtMUVXazUxR0lsaWFUSF9nRmQ5VGV",
+"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kck9STFR6QV9PQVFUbVJ5eG92elgxZ3ozZ0NsOTltU3kzMzBqTlZudWxnQWlnR2VSb05GelBIbU1QUnNPYk91VVdkX0NNMnFQN01ZakNB?oc=5"
+]
 }
 ]
 }
