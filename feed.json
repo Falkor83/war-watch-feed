@@ -1675,9 +1675,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "steady",
-   "status": "Iran reports tankers hit by mines in Hormuz; US says further military action not needed",
+   "status": "Iran says mines set three tankers on fire in Hormuz; Trump reportedly holds off strikes",
    "summary": "The US and Israel have fought Iran this year, and shipping through the Strait of Hormuz remains disrupted. On Nov 13, Iran's Revolutionary Guards said they destroyed a US early-warning radar in Bahrain in reply to a strike near Sirik. AP and SBS say neither Bahrain nor the US has confirmed this. The Guards also say an LNG tanker hit a mine in Hormuz, and UKMTO reported a tanker hit by an unknown projectile with crew injured. Trump removed Vance from the Iran talks and said a deal is not needed, while Iran ties reopening Hormuz to the US lifting its blockade and sanctions.",
    "latest": [
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T10:42:20Z",
+     "text": "Iran says sea mines set three tankers on fire in the Strait of Hormuz. These are Iran's own reports, carried by Deutsche Welle and Der Standard, and the IRGC gave a similar account to RFI. The reports are not independently confirmed.",
+     "outlet": "Deutsche Welle",
+     "country": "Germany",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQzNHcG9HRW9wNEtDeEVpR0lsVHY3SFAzZGRrYXVXeEdoejJRb1cyM0p2c1Fnb19Ra0tCQkptMjhVYkJXWllqUG9OV3Azc1NLdEYtNWlaa215bGpjamhDaXhvdHBFSGZRVXJpeTlMemNpYTdaZzl0UHJTSkQxdnROSC1kUERIZExyT0lQc1kzQUozZWdxQmFYZThobEpnYWhIVHN6azRXV0NCbDg0c0JOcUh0cURJM2pkU2dPOGxudDl0SkZ6TWx2ckxzSUtDRTZNNkt2SEZ2UE00NGU3UllOSkRvWW9nWUxRSGNmNzZNcUsweDJjZXBpSWdSY29xaDVE0gGAAkFVX3lxTE9XNHhmWnVGY3hvY1NRTVBUM0UtMVVFaGNCSjdCZ28yS1VDQ3Zqbm9Od0lyTXVIU3NncThLMnpXRk0tWGd1a3FsMjVPQTdfeXNrb25sSy1vN01rS3hQUkxwdDJPNExHaEp2ZGViV1JFZ1VCalBFTXhkVUtmamtDUnBza2dnSXJERTNTYi1WbTZZR0xNc1REaG90Umc1am5",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T10:42:20Z",
+     "text": "Korean broadcaster MBC reports a record 37 attacks on ships in Hormuz in October. The UN says 25 seafarers have been killed in or around Hormuz since the war began. Each comes from a single outlet.",
+     "outlet": "MBC 뉴스",
+     "country": "South Korea",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTRFhjRnlDRTZHOVVjUE45eUNTSVNCY0szUmE4TkFtNl9nZFkwQVRXczEyaFIzdlRlV0ZYTnJpT2FuSnBpdmd2NFVyMGFuTVkxaDlWNC03OGhyM01kUFlOc25MVm5TNkduSUN3Sy1PY3N0ai140gF0QVVfeXFMT1VoenVqaEpQSFJZZm4yZVlOUUlPTnJvRzhLaXlvRGd1cE5ad2NhcDZDejczUExVS3JBOTR3M1hXUFd0MTl4VFl2STBSVnZrakthaFVJTk1vbnd0dmUxRFhOOGwyWE9pZl9KeF9fTFhyb2RWOGg?oc=5",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-14",
+     "at": "2026-11-14T10:42:20Z",
+     "text": "The Washington Post, as relayed by Al Akhbar, reports that Trump does not want to resume attacks on Iran 'for now'. BBC Hausa quotes Trump saying the Iran war seems to be nearing its end. Both are single-source.",
+     "outlet": "Al Akhbar",
+     "country": "Lebanon",
+     "url": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxQNTB3Z05jMVlvcTg3UE1aYWQ1eTUxdVNtR3htWmViVWRRWE1ZVW01c3BiUkNoQzBYY0NfTzVLbGNpUVpiMm50ZW5RQmdzTHZQUW93dWU0N3hOMThvYkNiMTlHekU4RVp5M1czaWR5Q0xVVU1SWW9LNERlYVNEa1duVTJOU21JSUtnMnlkNnc3T1VyVVMyM3RueW5pY1haOHFQNnNaVHZFeFlfVXBjSC1KdmVSSTBUX3Q4M0JGUTdZRWduNFVTN255MExvRl9TWVBpeXIwTTZRY3RYZHd0bWQtODJlUWFDVmZudEJUb0dnMmM2WExFd0pGeTZXZ3hiN3VEZzlZUkF5bkFyX1lFZFU4WE85cWhwb0NkLWloNHVFY0FuQ0ZxYW1yZTh2SnVVZnFiRkFLNlNfTTNvVmhieVVWQUxhSlgwemNuakhBbWhiaUlsdERIZWdIYVNaaThaZEJxdGZwR0Q4R2hLTHBlQzZhR04xek9qaDJTN0tfT0xrcVNzZFFBY1hpcHVLbDNWb3ZUdlRkTWhNU0dNb1ZJX0VXWFl",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-14",
      "at": "2026-11-14T07:56:54Z",
@@ -1729,39 +1762,6 @@
      "outlet": "Middle East Eye",
      "country": "United Kingdom",
      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-claims-us-mq-i-drone-shot-down-southern-coast",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-14",
-     "at": "2026-11-14T04:36:16Z",
-     "text": "BBC Swahili reports Iran has threatened to kill Trump and Netanyahu. This is a single-source report of a threat, not a military action.",
-     "outlet": "BBC Swahili",
-     "country": "United Kingdom",
-     "url": "https://www.bbc.co.uk/swahili/live/cqx2en4vz8m8t?at_medium=RSS&at_campaign=rss",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-14",
-     "at": "2026-11-14T01:49:54Z",
-     "text": "US Secretary of State Rubio says further US military action is not needed against Iran, which he describes as economically weakened. Arab News reports his comments.",
-     "outlet": "Arab News",
-     "country": "Saudi Arabia",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ19jRk5HUFBYMWFZVUZEUENwVF80UlJEbXQtcFdqSTFTTGdZTkpWbVFndmZBdHFCcmdiSmJHcWFvb1g0b0lCVW5tYTJQb2xfeEVJTnNCVk1GS3k3a2NiNThxaFZXUE5vVVo0NUZtZ3BqZ0RrOENSejc0M1RaemE4cXkwWF9qRDM2ZXg2ME1fSkw2X1BFUFVramN4dEhzeFhsblZGV0hOWGl6SEtPYjY4eUlHQXpRZS13MHc4cTE1b0N2anhxcXRHN3h4bw?oc=5",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-14",
-     "at": "2026-11-14T01:49:54Z",
-     "text": "Centcom says it shot down two Iranian drones aimed at Bahrain. This is the US command's account; no independent confirmation is in these reports.",
-     "outlet": "Middle East Eye",
-     "country": "United Kingdom",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-two-iranian-drones-aimed-bahrain-shot-down",
      "region": "europe",
      "tag": "non-party",
      "state_media": false
@@ -12348,11 +12348,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-11T09:07:54Z",
-     "headline": "Steady: Iran says tanker hit mine in Hormuz; Tehran denies talks, Rubio backs pressure",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-11T12:35:06Z",
      "headline": "Steady: Iran says enriched uranium stays home; Hormuz tanker blast reported only by Iran",
      "direction": "steady"
@@ -12466,252 +12461,260 @@
      "at": "2026-11-14T07:56:54Z",
      "headline": "Iran reports tankers hit by mines in Hormuz; US says further military action not needed",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-14T10:42:20Z",
+     "headline": "Iran says mines set three tankers on fire in Hormuz; Trump reportedly holds off strikes",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-14T07:56:54Z",
-   "next_at": "2026-11-14T10:56:54Z",
-   "headline": "Iran reports tankers hit by mines in Hormuz; US says further military action not needed",
-   "direction": "escalating",
+   "updated_at": "2026-11-14T10:42:20Z",
+   "next_at": "2026-11-14T13:42:20Z",
+   "headline": "Iran says mines set three tankers on fire in Hormuz; Trump reportedly holds off strikes",
+   "direction": "steady",
    "points": [
     {
-     "text": "Iran says a mine hit two oil tankers east of the Strait of Hormuz and set them on fire. Iranian forces later reported three more tankers on fire from mines. These are Iran's reports, and the first was carried by several outlets in different countries.",
+     "text": "Iran says sea mines set three tankers on fire in the Strait of Hormuz. These are Iran's own reports, carried by Deutsche Welle and Der Standard, and the IRGC gave a similar account to RFI. The reports are not independently confirmed.",
      "stories": [
       "s1",
-      "s2"
+      "s7"
      ],
      "sources": [
       {
-       "t": "Tanker caught fire east of the Strait of Hormuz after hitting a mine",
-       "o": "Танкер загорелся к востоку от Ормузского пролива после подрыва на мине",
-       "u": "https://www.interfax.ru/world/1128982",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794639060,
-       "r": "known"
-      },
-      {
-       "t": "Iran reports fire on a tanker after it struck a naval mine east of the Strait of Hormuz",
-       "o": "Irán informa del incendio de un petrolero tras chocar con una mina naval al este del estrecho de Ormuz",
-       "u": "https://www.infobae.com/america/agencias/2026/11/14/iran-informa-del-incendio-de-un-petrolero-tras-chocar-con-una-mina-naval-al-este-del-estrecho-de-ormuz/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1794635143,
-       "r": "known"
-      },
-      {
-       "t": "Live blog Middle East: Iran: two oil tankers burning in Strait of Hormuz after collision with sea mine",
-       "o": "Liveblog Nahost: Iran: Zwei Öltanker in Straße von Hormus brennen nach Kollision mit Seemine",
-       "u": "https://www.faz.net/aktuell/politik/ausland/liveblog-nahost-iran-zwei-oeltanker-in-strasse-von-hormus-brennen-nach-kollision-mit-seemine-faz-200583539.html",
-       "s": "FAZ Ausland",
+       "t": "Iran reports three tankers set on fire by the explosion of sea mines in the Strait of Hormuz",
+       "o": "Irán informa de tres petroleros incendiados por la explosión de minas marinas en el estrecho de Ormuz",
+       "u": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQzNHcG9HRW9wNEtDeEVpR0lsVHY3SFAzZGRrYXVXeEdoejJRb1cyM0p2c1Fnb19Ra0tCQkptMjhVYkJXWllqUG9OV3Azc1NLdEYtNWlaa215bGpjamhDaXhvdHBFSGZRVXJpeTlMemNpYTdaZzl0UHJTSkQxdnROSC1kUERIZExyT0lQc1kzQUozZWdxQmFYZThobEpnYWhIVHN6azRXV0NCbDg0c0JOcUh0cURJM2pkU2dPOGxudDl0SkZ6TWx2ckxzSUtDRTZNNkt2SEZ2UE00NGU3UllOSkRvWW9nWUxRSGNmNzZNcUsweDJjZXBpSWdSY29xaDVE0gGAAkFVX3lxTE9XNHhmWnVGY3hvY1NRTVBUM0UtMVVFaGNCSjdCZ28yS1VDQ3Zqbm9Od0lyTXVIU3NncThLMnpXRk0tWGd1a3FsMjVPQTdfeXNrb25sSy1vN01rS3hQUkxwdDJPNExHaEp2ZGViV1JFZ1VCalBFTXhkVUtmamtDUnBza2dnSXJERTNTYi1WbTZZR0xNc1REaG90Umc1am5",
+       "s": "Deutsche Welle",
        "c": "DE",
-       "l": "de",
-       "p": 1794634740,
-       "r": "known"
-      },
-      {
-       "t": "Iran: A tanker caught fire after hitting a mine in the Strait of Hormuz",
-       "o": "İran: Hürmüz Boğazı'nda bir tanker mayına çarparak alev aldı",
-       "u": "https://www.aa.com.tr/tr/dunya/iran-hurmuz-bogazinda-bir-tanker-mayina-carparak-alev-aldi/4124895",
-       "s": "Anadolu Turkish",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794641070,
-       "r": "state"
-      },
-      {
-       "t": "Iranian forces report three more tankers set on fire by mines in Hormuz",
-       "o": "Las fuerzas iraníes informan de otros tres petroleros incendiados por minas en Ormuz",
-       "u": "https://www.infobae.com/america/agencias/2026/11/14/las-fuerzas-iranies-informan-de-otros-tres-petroleros-incendiados-por-minas-en-ormuz/",
-       "s": "Infobae",
-       "c": "AR",
        "l": "es",
-       "p": 1794640534,
+       "p": 1794645341,
+       "r": "known"
+      },
+      {
+       "t": "Three oil tankers in Strait of Hormuz caught fire, according to Iranian sources",
+       "o": "Drei Öltanker in Straße von Hormus laut iranischen Angaben in Brand geraten",
+       "u": "https://www.derstandard.at/story/3000000349211/nahost-iran-zwei-214ltanker-in-stra223e-von-hormuz-in-brand-geraten?ref=rss",
+       "s": "Der Standard International",
+       "c": "AT",
+       "l": "de",
+       "p": 1794642966,
+       "r": "known"
+      },
+      {
+       "t": "IRGC: two oil tankers caught fire after hitting sea mines",
+       "o": "سپاه: دو نفتکش پس از برخورد با مین‌ دریایی در آتش سوختند",
+       "u": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261114-%D8%B3%D9%BE%D8%A7%D9%87-%D8%AF%D9%88-%D9%86%D9%81%D8%AA%DA%A9%D8%B4-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%A8%D8%B1%D8%AE%D9%88%D8%B1%D8%AF-%D8%A8%D8%A7-%D9%85%DB%8C%D9%86-%D8%AF%D8%B1%DB%8C%D8%A7%DB%8C%DB%8C-%D8%AF%D8%B1-%D8%A2%D8%AA%D8%B4-%D8%B3%D9%88%D8%AE%D8%AA%D9%86%D8%AF",
+       "s": "RFI Persian",
+       "c": "FR",
+       "l": "fa",
+       "p": 1794646265,
        "r": "known"
       }
      ],
-     "headlines": 9,
-     "outlets": 7,
-     "independent": 7,
+     "headlines": 5,
+     "outlets": 4,
+     "independent": 4,
      "countries": [
-      "AR",
+      "AT",
       "DE",
-      "IL",
-      "IR",
-      "IT",
-      "RU",
-      "TR"
-     ],
-     "regions": 5,
-     "party_only": false,
-     "state": 3
-    },
-    {
-     "text": "Iran's IRGC says an LNG carrier exploded after hitting a mine in Hormuz. This is the IRGC's account, reported by one outlet.",
-     "stories": [
-      "s15"
-     ],
-     "sources": [
-      {
-       "t": "LNG carrier explodes after hitting mine in Hormuz, IRGC says",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/lng-carrier-explodes-after-hitting-mine-hormuz-irgc-says",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794632649,
-       "r": "known"
-      }
-     ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
-     "countries": [
-      "GB"
+      "FR"
      ],
      "regions": 1,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "The UK Maritime Trade Operations (UKMTO) says seven tanker attacks in Hormuz were recorded in one week. This is one outlet's report of UKMTO's figure.",
+     "text": "Korean broadcaster MBC reports a record 37 attacks on ships in Hormuz in October. The UN says 25 seafarers have been killed in or around Hormuz since the war began. Each comes from a single outlet.",
      "stories": [
-      "s12"
+      "s2",
+      "s10"
      ],
      "sources": [
       {
-       "t": "UKMTO says seven Hormuz tanker attacks recorded in a week",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-seven-hormuz-tanker-attacks-recorded-week",
-       "s": "Middle East Eye",
-       "c": "GB",
+       "t": "Record 37 attacks on ships in the Strait of Hormuz in October",
+       "o": "호르무즈 해협 선박 공격, 10월에 37건으로 최다",
+       "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTRFhjRnlDRTZHOVVjUE45eUNTSVNCY0szUmE4TkFtNl9nZFkwQVRXczEyaFIzdlRlV0ZYTnJpT2FuSnBpdmd2NFVyMGFuTVkxaDlWNC03OGhyM01kUFlOc25MVm5TNkduSUN3Sy1PY3N0ai140gF0QVVfeXFMT1VoenVqaEpQSFJZZm4yZVlOUUlPTnJvRzhLaXlvRGd1cE5ad2NhcDZDejczUExVS3JBOTR3M1hXUFd0MTl4VFl2STBSVnZrakthaFVJTk1vbnd0dmUxRFhOOGwyWE9pZl9KeF9fTFhyb2RWOGg?oc=5",
+       "s": "MBC 뉴스",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794650416,
+       "r": "unrated"
+      },
+      {
+       "t": "UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran",
+       "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdjB0S19BOXR1ZW1EU3dLRnNLUmYzb3YwZmFiQ0s2U25IdHZlQ1hTX1FYSTB2TjU3Q0h0UzBpTkRkMHdOUm5yRGhQVHdzTWJEdXNfWlMzc2RwRzRQMVk3MVdFMG5nLXd4MS04TWFkZTJocW9rVGdXMXEtelN6M3lMRjhUYVhHT290VkdQVkxObnpSTnFWNXNjS1FPc29aR25BM0lz0gGoAUFVX3lxTFBuVVc1SlJVcngxX0pBcGcwMnR3T0hOREcxVkdDSWVjb3JRdzZ1LURoVlVZRW5zblpialpwSEx1MFBGaWQ2T09WVGRMY1cySWdDc0Q2MVNDX0tlM1JtLUppbEZmcm9LaEg1VDVTdFV6a0VTYXV4eGFmX09GeGVWbWJSZlREY09kUXN4VEJKaDM5NXhNamQ3eVQxdjREam9Fc0lVZWlUSDJ6Uw?oc=5",
+       "s": "Al Jazeera",
+       "c": "QA",
        "l": "en",
-       "p": 1794634147,
+       "p": 1794642750,
        "r": "known"
       }
      ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
+     "headlines": 3,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "GB"
-     ],
-     "regions": 1,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Rubio says further US military action against Iran is not needed because its economy is already weakened. Turkish state media say Trump does not want to restart attacks on Iran 'for now'.",
-     "stories": [
-      "s4",
-      "s8",
-      "s14",
-      "s3"
-     ],
-     "sources": [
-      {
-       "t": "Rubio Says Further US Military Action Is Not Needed Against Economically Weakened Iran",
-       "u": "https://english.aawsat.com/node/5341048",
-       "s": "Asharq Al-Awsat English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794640633,
-       "r": "known"
-      },
-      {
-       "t": "Claim that Trump does not want to restart his attacks on Iran \"for now",
-       "o": "Trump'ın İran'a saldırıları \"şimdilik\" yeniden başlatmak istemediği iddiası",
-       "u": "https://www.aa.com.tr/tr/dunya/trumpin-irana-saldirilari-simdilik-yeniden-baslatmak-istemedigi-iddiasi/4124875",
-       "s": "Anadolu Turkish",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794638595,
-       "r": "state"
-      },
-      {
-       "t": "Netanyahu discusses possible resumption of attacks on Iran with Eisenkot: Israeli media",
-       "u": "https://www.aa.com.tr/en/middle-east/netanyahu-discusses-possible-resumption-of-attacks-on-iran-with-eisenkot-israeli-media/4124854",
-       "s": "Anadolu Agency",
-       "c": "TR",
-       "l": "en",
-       "p": 1794633306,
-       "r": "state"
-      },
-      {
-       "t": "Israel puts Iran under the microscope... 3 scenarios on the army's table",
-       "o": "إسرائيل تضع إيران تحت المجهر.. 3 سيناريوهات على طاولة الجيش",
-       "u": "https://www.skynewsarabia.com/world/1904737-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D8%B6%D8%B9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%AC%D9%87%D8%B1-3-%D8%B3%D9%8A%D9%86%D8%A7%D8%B1%D9%8A%D9%88%D9%87%D8%A7%D8%AA-%D8%B7%D8%A7%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1794641730,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "AE",
-      "SA",
-      "TR"
+      "KR",
+      "QA"
      ],
      "regions": 2,
      "party_only": false,
-     "state": 2
+     "state": 0
     },
     {
-     "text": "The White House confirms Trump will meet Xi Jinping and Putin in China on Thursday. Nuclear weapons are expected to be on the agenda, according to outlets in several countries.",
+     "text": "The Washington Post, as relayed by Al Akhbar, reports that Trump does not want to resume attacks on Iran 'for now'. BBC Hausa quotes Trump saying the Iran war seems to be nearing its end. Both are single-source.",
      "stories": [
-      "s6",
-      "s11"
+      "s3",
+      "s8"
      ],
      "sources": [
       {
-       "t": "White House confirms Trump to meet Xi Jinping and Putin in China, expected to discuss reducing nuclear weapons during APEC summit",
-       "o": "ทำเนียบขาวยืนยัน ทรัมป์เตรียมพบ สีจิ้นผิง-ปูติน ที่จีน คาดหารือลดอาวุธนิวเคลียร์ระหว่างประชุม APEC",
-       "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ndk1Od1R4QURGdFVBWG8xVU1hU0VFTVRtd3oyWC1LU2V5emlZWHNPNHUwTEFVS0ZvWktaSXZpTVVCTVM5WkFGbHhtNEVoZ09UamRpR1BMS3UwRHBLb3pSOExKa1RXSWNOd3JtYg?oc=5",
-       "s": "thestandard.co",
-       "c": "CO",
-       "l": "th",
-       "p": 1794639064,
+       "t": "Washington Post: Trump does not want to resume attacks on Iran \"for now",
+       "o": "«واشنطن بوست»: ترامب لا يرغب في استئناف الهجمات على إيران «حالياً»",
+       "u": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxQNTB3Z05jMVlvcTg3UE1aYWQ1eTUxdVNtR3htWmViVWRRWE1ZVW01c3BiUkNoQzBYY0NfTzVLbGNpUVpiMm50ZW5RQmdzTHZQUW93dWU0N3hOMThvYkNiMTlHekU4RVp5M1czaWR5Q0xVVU1SWW9LNERlYVNEa1duVTJOU21JSUtnMnlkNnc3T1VyVVMyM3RueW5pY1haOHFQNnNaVHZFeFlfVXBjSC1KdmVSSTBUX3Q4M0JGUTdZRWduNFVTN255MExvRl9TWVBpeXIwTTZRY3RYZHd0bWQtODJlUWFDVmZudEJUb0dnMmM2WExFd0pGeTZXZ3hiN3VEZzlZUkF5bkFyX1lFZFU4WE85cWhwb0NkLWloNHVFY0FuQ0ZxYW1yZTh2SnVVZnFiRkFLNlNfTTNvVmhieVVWQUxhSlgwemNuakhBbWhiaUlsdERIZWdIYVNaaThaZEJxdGZwR0Q4R2hLTHBlQzZhR04xek9qaDJTN0tfT0xrcVNzZFFBY1hpcHVLbDNWb3ZUdlRkTWhNU0dNb1ZJX0VXWFl",
+       "s": "Al Akhbar",
+       "c": "LB",
+       "l": "ar",
+       "p": 1794649883,
        "r": "unrated"
       },
       {
-       "t": "Nuclear weapons, Iran, Nvidia... Unprecedented summit between Donald Trump, Xi Jinping and Vladimir Putin on Thursday in China",
-       "o": "Arme nucléaire, Iran, Nvidia... Sommet inédit entre Donald Trump, Xi Jinping et Vladimir Poutine jeudi en Chine",
-       "u": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOazFpeTZVZUxGN21HLVgwenJlNnNPTFpGVWkxeTdZVG9iM0RseURDS2ZZQjh2M01ZLWtPSnlySWE0TF83dzI5c3NZRHVtLXZaVmJPY2VvSng0WF9OSXZsbGowMEVZX1N3WmJVU0RSdGFFMkJveHJrbkdJYkFPT1BkeXlpN2E3VVVqVmV5cFJrS2JpTE1UYTZsMVpEUUFQYXUzWHN3LUFuMjVHVFQ1SkpBUm1VdFRySE13SXFCOUE1bl9UdEhvT0hKUlFkT0RSVXAzcWVtd2JjaTJGWkh3ZGVrQ2lJdUs1dmNRajdJQmwxVzdXZktSN0RnNC02TE9LS3BzNjNBR1NZelFMZDNsS0Zuc2RmNUlyWTFsM250dHZHVU0tazdIU3Bv?oc=5",
-       "s": "BFM",
-       "c": "FR",
-       "l": "fr",
-       "p": 1794635137,
-       "r": "unrated"
+       "t": "It seems the Iran war is nearing its end - Trump",
+       "o": "Duk wanda ya ce tallafin mai zai dawo ƙarya yake yi - Tinubu",
+       "u": "https://www.bbc.co.uk/hausa/live/cqdr8rmndx06t?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Hausa",
+       "c": "GB",
+       "l": "ha",
+       "p": 1794645242,
+       "r": "known"
       }
      ],
      "headlines": 2,
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "CO",
-      "FR"
+      "GB",
+      "LB"
      ],
      "regions": 2,
      "party_only": false,
      "state": 0
+    },
+    {
+     "text": "US forces say they intercepted two Iranian drones aimed at Bahrain and deny that a radar system was destroyed. Reports of an alarm at a US base in Britain after Iranian threats come from Turkish and Israeli outlets. Israeli media say the US Air Force responded to suspected drone activity there.",
+     "stories": [
+      "s11",
+      "s12",
+      "s13"
+     ],
+     "sources": [
+      {
+       "t": "US intercepts 2 Iranian drones aimed at Bahrain and denies destruction of radar system",
+       "o": "Intercepta EU 2 drones de Irán contra Bahréin y desmiente destrucción de sistema de radar",
+       "u": "https://www.jornada.com.mx/2026/11/14/mundo/016n2mun?partner=rss",
+       "s": "La Jornada Mundo",
+       "c": "MX",
+       "l": "es",
+       "p": 1794642416,
+       "r": "known"
+      },
+      {
+       "t": "Alarm at the US base in Britain after Iran's threats: Troops told to take shelter",
+       "o": "İran'ın tehditleri sonrası İngiltere'deki ABD üssünde alarm: Askerlere sığınak talimatı",
+       "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeUgyU25rM0VDVzZDQkxGWmVhSkowdjB4QVFTVElrZ1ctY1IyR2lzQURFRmVEa0c3VkV0TTVuY2dILTFtT2xuTi1kOW9tOGdMbU44TU5pc19nbUZ5ZS1kOTduMmw3SlhyZWI5QzJDZ0NFV0hxc1ZleTlzNk1zR09NNnh5OXhzZlo5dFRmbjYxLTZRWHp4aGVlWkxiT1B3ZVdtV0JYOGxIejVReGdPMlNpV1RKSXFZLXBjQTdZQTNObzJJcG5lWU9XUlp3?oc=5",
+       "s": "TRHaber",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794642360,
+       "r": "unrated"
+      },
+      {
+       "t": "Iran threat concerns grow as US Air Force responds to suspected drone activity at British base",
+       "u": "https://www.jpost.com/international/article-914854",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794651844,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "IL",
+      "MX",
+      "TR"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran links resuming nuclear inspections to addressing the consequences of the attacks, per Al Jazeera. TASS reports that Gulf states want compensation from Iran for attacks. The Mossad director's Washington visit reportedly has the Iran file at the top of talks.",
+     "stories": [
+      "s4",
+      "s6",
+      "s5"
+     ],
+     "sources": [
+      {
+       "t": "Iran links resuming nuclear inspections to addressing the consequences of the attacks",
+       "o": "إيران تربط استئناف التفتيش النووي بمعالجة تداعيات الهجمات",
+       "u": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTWNtb0VzWm1HaWhJaHhYclZOMExyVngzM08tUHRPT1VMaEFCRmdUUEVMMXZLWXU2ZFE1QlRXSTNnT3lNVmtxYmZtLUlCbEdTRDhfZDVIeDYwTFhpWm41REo2WXFWb055aUthS1JvZ1ZKSTJMRFJfUFBuRnRlMi1RQ2FJcUNxam5UeXhqTHQ3djM0Snc2MGNHMjR3LUl4dS1JaTZzSmJXYVZCOUdrbGV3QlNkejNuQV9wbU5DeW44Q0hfRlhGN1FpR0U4em10LS02SVBDTV9KUmRWbm5aVThOYTh4ZThGRlg5NFJDQXUyaVgtdVFGbFlTR2VPR2RJNlJDVFlZS2c0WEZXUVYtZkNyenlEcmJFUGdJcUpPQ2dLM3VlcmdxSkVGbEJMQ3VNRUQ5eWVvWXFoaDBaRTMtYzhFWlVR?oc=5",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "ar",
+       "p": 1794649033,
+       "r": "known"
+      },
+      {
+       "t": "Gulf states demand compensation from Iran for attacks",
+       "o": "Страны Персидского залива потребовали от Ирана компенсаций за атаки",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28317729",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794647482,
+       "r": "state"
+      },
+      {
+       "t": "Mossad director in Washington… with the Iran file at the top of talks",
+       "o": "مدير الموساد في واشنطن.. وملف إيران في صدارة المباحثات",
+       "u": "https://www.skynewsarabia.com/world/1904738-%D9%85%D8%AF%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D8%A7%D8%AF-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%88%D9%85%D9%84%D9%81-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%AD%D8%AB%D8%A7%D8%AA",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1794647773,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "AE",
+      "QA",
+      "RU"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 1
     }
    ],
    "watch": [
-    "Further mine or tanker incidents in Hormuz and any UKMTO update on the count",
-    "Whether the US or Israel moves from talk of restraint or resumption to action, as the Israeli and Turkish reports suggest",
-    "The Thursday Trump–Xi–Putin meeting in China and whether it addresses Iran and nuclear weapons"
+    "Whether the US confirms Trump's reported pause on new strikes, or the sides' accounts diverge",
+    "Whether Iran moves on resuming nuclear inspections",
+    "Whether the mine-strike reports in Hormuz are confirmed by independent maritime monitors"
    ],
    "window_hours": 3,
-   "headlines_read": 29,
-   "outlets_read": 17,
-   "countries_read": 13,
+   "headlines_read": 26,
+   "outlets_read": 20,
+   "countries_read": 14,
    "languages_read": 10,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-13T05:00:32Z",
