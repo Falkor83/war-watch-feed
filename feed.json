@@ -1677,9 +1677,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "IRGC claims Bahrain base strike and mined tankers; Rubio says more US action not needed",
+   "status": "Iran drone strikes on US base in Bahrain again, days after last; Bahrain intercepts",
    "summary": "The US and Israel have fought Iran this year, and the Strait of Hormuz has been the main pressure point. US strikes in early November were described as limited. On Nov 15 Iran's Revolutionary Guards said they sent six drones at a base in Bahrain used by US forces, the first claimed strike on Bahrain in weeks; Bahrain says it intercepted the attack. Iran's navy says two or three tankers caught fire after hitting mines in Hormuz, while the US military says it has cleared the main routes. Secretary of State Rubio says further US military action is not needed because Iran's economy is weakened.",
    "latest": [
+    {
+     "date": "2026-11-15",
+     "at": "2026-11-15T12:26:39Z",
+     "text": "Iran's Revolutionary Guards claim a second drone attack on a US base in Bahrain within three days, which several outlets in different countries report. Bahrain says it intercepted the attacks, and the US military has not announced anything, according to Yomiuri.",
+     "outlet": "NYT World",
+     "country": "United States",
+     "url": "https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-15",
+     "at": "2026-11-15T12:26:39Z",
+     "text": "Saudi Arabia condemns the Iranian attacks on Bahrain, calling them a violation of international law and of the principles of good-neighbourliness, and calls for an immediate halt to strikes.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-joins-condemnation-iranian-attacks-bahrain",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-15",
+     "at": "2026-11-15T12:26:39Z",
+     "text": "Iran says it will keep responding to the US and that its response will not be short-lived, while still leaving the door open to talks. Egypt, Pakistan and Turkey foreign ministers urge diplomacy to avert further US-Iran escalation.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/agencias/2026/11/15/iran-advierte-de-que-seguira-respondiendo-a-eeuu-tras-atacar-objetivos-en-barein/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-15",
      "text": "Iran's Revolutionary Guards say they sent six drones at Bahrain's Riffa helicopter base on Sunday, calling it a reply to US aggression. It is the first direct strike on Bahrain in weeks.",
@@ -1729,36 +1762,6 @@
      "region": "europe",
      "tag": "non-party",
      "state_media": false
-    },
-    {
-     "date": "2026-11-15",
-     "text": "Headline: Iran attacks US military base in Bahrain [story carried by 9 independent sources in 9 countries (DE, ES, FR, IT, LB, NG)]",
-     "outlet": "Vanguard (Nigeria)",
-     "country": "Nigeria",
-     "url": "https://www.vanguardngr.com/2026/11/iran-attacks-us-military-base-in-bahrain/",
-     "region": "africa",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-15",
-     "text": "Iran's Revolutionary Guards claim new drone strikes on a US radar site at a base in Bahrain, the first such strike in about two months, according to one outlet. Bahraini defence forces say they intercepted several aerial attacks.",
-     "outlet": "Punch",
-     "country": "Nigeria",
-     "url": "https://punchng.com/iran-attacks-us-base-in-bahrain/?utm_source=rss.punchng.com&utm_medium=web",
-     "region": "africa",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-15",
-     "text": "Iran's Revolutionary Guards say two oil tankers exploded in the southern Strait of Hormuz. This comes only from Iranian media and the Guards' own account, so it is their claim and is not yet confirmed by independent sources.",
-     "outlet": "Mehr English",
-     "country": "Iran",
-     "url": "https://en.mehrnews.com/news/249411/2-violating-oil-tankers-explode-in-south-Hormuz-Strait-IRGC",
-     "region": "iran",
-     "tag": "party-press",
-     "state_media": true
     }
    ],
    "us_impact": {
@@ -12426,11 +12429,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-12T14:10:39Z",
-     "headline": "Trump says no need for Iran deal; IRGC claims two tankers hit in Hormuz, unconfirmed",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-12T16:56:56Z",
      "headline": "Iran army says two tankers hit mines in Hormuz; Trump says no Iran deal needed",
      "direction": "steady"
@@ -12544,325 +12542,301 @@
      "at": "2026-11-15T09:32:25Z",
      "headline": "Iran's Guards claim new drone strikes on US Bahrain radar; Bahrain intercepts",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-15T12:26:39Z",
+     "headline": "Iran drone strikes on US base in Bahrain again, days after last; Bahrain intercepts",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-15T09:32:25Z",
-   "next_at": "2026-11-15T12:32:25Z",
-   "headline": "Iran's Guards claim new drone strikes on US Bahrain radar; Bahrain intercepts",
+   "updated_at": "2026-11-15T12:26:39Z",
+   "next_at": "2026-11-15T15:26:39Z",
+   "headline": "Iran drone strikes on US base in Bahrain again, days after last; Bahrain intercepts",
    "direction": "escalating",
    "points": [
     {
-     "text": "Iran's Revolutionary Guards claim new drone strikes on a US radar site at a base in Bahrain, the first such strike in about two months, according to one outlet. Bahraini defence forces say they intercepted several aerial attacks.",
+     "text": "Iran's Revolutionary Guards claim a second drone attack on a US base in Bahrain within three days, which several outlets in different countries report. Bahrain says it intercepted the attacks, and the US military has not announced anything, according to Yomiuri.",
      "stories": [
       "s1",
       "s2",
-      "s3",
-      "s5",
-      "s8",
-      "s17",
-      "s24"
+      "s26",
+      "s29"
      ],
      "sources": [
       {
-       "t": "Iran attacks US base in Bahrain",
-       "u": "https://punchng.com/iran-attacks-us-base-in-bahrain/?utm_source=rss.punchng.com&utm_medium=web",
-       "s": "Punch",
-       "c": "NG",
+       "t": "Iran Attacks Bahrain for the Second Time in Days",
+       "u": "https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html",
+       "s": "NYT World",
+       "c": "US",
        "l": "en",
-       "p": 1794734108,
+       "p": 1794744424,
        "r": "known"
       },
       {
-       "t": "Explosion in Bahrain; Iran reports a drone attack on a US base",
-       "o": "انفجارها در بحرین؛ ایران از حمله پهپادی به یک پایگاه آمریکایی خبر داد",
-       "u": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261115-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D9%87%D8%A7-%D8%AF%D8%B1-%D8%A8%D8%AD%D8%B1%DB%8C%D9%86%D8%9B-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A7%D8%B2-%D8%AD%D9%85%D9%84%D9%87-%D9%BE%D9%87%D9%BE%D8%A7%D8%AF%DB%8C-%D8%A8%D9%87-%DB%8C%DA%A9-%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7%DB%8C%DB%8C-%D8%AE%D8%A8%D8%B1-%D8%AF%D8%A7%D8%AF",
-       "s": "RFI Persian",
-       "c": "FR",
-       "l": "fa",
-       "p": 1794732694,
-       "r": "known"
-      },
-      {
-       "t": "Iran claims drone attack on US military base in Bahrain",
-       "o": "Irán reivindica un ataque con drones a una base militar estadounidense en Baréin",
-       "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUVphTVo3OW1MTkQ5YW5TR3NtZXNQcWRCSjZTZ25lZkNDYXN2ZnpDUVhRdVlqRFA1RTA5cDY3eEkwYmlqSXJMTFBqdXd6bnJseWdMcU5IV3FieVR0aHhVRlBWQTZxWVhJQ1hxZ3pscGhWZlBHQlJlbGUyRTRuMWJMVmp3T2NBN0lBNkt1R3huS2ttNkhEZ0tIUHFvbTRMYjlrNkxRb3FkYTQzWXg5UG9yZ0dmMURrTmZwMEV4dVZQa1Jpa05FQlHSAcYBQVVfeXFMUG5rOWZxWjlmd3E3RnlTY1NaQ1I2cTk1Yzd5VXpoSDhLbkNfQWZPQkZRWDFpRHotTzdtRk53aHMzNENqUWJfS2xTQUlWc2RIMnpnd015VGdnYjB1ZUF0MWpZSXAxM0ZmXzdpQ3RURlBVRVpOd1gzbnd4WktWTk9QSGRSWExOZ0JScnZidTdSZlRPQzFPbmtBb3RWV1VEbjlmYkNEMWJnbGMzTTdBVG1FRnhhNXpZZHIzeG0yT0F3ZEM5ak1wUEh3?oc=5",
-       "s": "Deutsche Welle",
+       "t": "Iran attacks a US airbase in Bahrain for the first time since September",
+       "o": "Иран впервые с сентября атаковал авиабазу США в Бахрейне",
+       "u": "https://www.dw.com/ru/иран-впервые-с-сентября-атаковал-авиабазу-сша-в-бахрейне/a-79951869?maca=rus-rss-ru-all-1126-rdf",
+       "s": "DW Russian",
        "c": "DE",
-       "l": "es",
-       "p": 1794732399,
+       "l": "ru",
+       "p": 1794743820,
        "r": "known"
       },
       {
-       "t": "Iran claims strike on US base in Bahrain, kingdom says it intercepted aerial attacks",
-       "u": "https://www.hindustantimes.com/world-news/iran-claims-strike-on-us-base-in-bahrain-kingdom-says-it-intercepted-aerial-attacks-101794731270651.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1794731445,
+       "t": "Iran attacks Bahrain with drones for the second time in three days",
+       "o": "Irã ataca o Bahrein com drones pela segunda vez em três dias",
+       "u": "https://g1.globo.com/mundo/noticia/2026/11/15/ira-ataca-bahrein.ghtml",
+       "s": "G1 Mundo",
+       "c": "BR",
+       "l": "pt",
+       "p": 1794743461,
        "r": "known"
       },
       {
-       "t": "The Iranian Revolutionary Guards have claimed they targeted a US radar system in Bahrain. Bahrain directs citizens to move to safe locations.",
-       "o": "ایرانی پاسدارانِ انقلاب نے بحرین میں امریکی ریڈار سسٹم کو نشانہ بنانے کا دعویٰ کیا ہے۔ بحرین کی شہریوں کو محفوظ مقامات پر منتقل ہونے کی ہدایت۔",
-       "u": "https://www.dw.com/ur/ایرانی-پاسدارانِ-انقلاب-نے-بحرین-میں-امریکی-ریڈار-سسٹم-کو-نشانہ-بنانے-کا-دعویٰ-کیا-ہے۔-بحرین-کی-شہریوں-کو-محفوظ-مقامات-پر-منتقل-ہونے-کی-ہدایت۔/live-79951387?maca=urd-rss-urd-all-1497-rdf",
-       "s": "DW Urdu",
-       "c": "DE",
-       "l": "ur",
-       "p": 1794730620,
-       "r": "known"
-      }
-     ],
-     "headlines": 30,
-     "outlets": 26,
-     "independent": 26,
-     "countries": [
-      "AE",
-      "AT",
-      "CO",
-      "DE",
-      "EG",
-      "ES",
-      "FR",
-      "GB",
-      "ID",
-      "IN",
-      "IT",
-      "JP",
-      "KR",
-      "NG",
-      "RU",
-      "SA",
-      "TR",
-      "TW",
-      "US"
-     ],
-     "regions": 10,
-     "party_only": false,
-     "state": 4
-    },
-    {
-     "text": "Iran's Revolutionary Guards say two oil tankers exploded in the southern Strait of Hormuz. This comes only from Iranian media and the Guards' own account, so it is their claim and is not yet confirmed by independent sources.",
-     "stories": [
-      "s26"
-     ],
-     "sources": [
-      {
-       "t": "2 violating oil tankers explode in south Hormuz Strait: IRGC",
-       "u": "https://en.mehrnews.com/news/249411/2-violating-oil-tankers-explode-in-south-Hormuz-Strait-IRGC",
-       "s": "Mehr English",
-       "c": "IR",
+       "t": "Blasts rattle Bahrain as Iran launches second drone attack in 3 days",
+       "u": "https://www.dawn.com/news/2044711/blasts-rattle-bahrain-as-iran-launches-second-drone-attack-in-3-days",
+       "s": "Dawn",
+       "c": "PK",
        "l": "en",
-       "p": 1794725426,
-       "r": "state"
-      }
-     ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
-     "countries": [
-      "IR"
-     ],
-     "regions": 1,
-     "party_only": true,
-     "state": 1
-    },
-    {
-     "text": "US intelligence, as reported by the Wall Street Journal, estimates Iran still holds up to 2,500 missiles despite US claims that its arsenal was largely destroyed. Several outlets carry the figure.",
-     "stories": [
-      "s4",
-      "s18"
-     ],
-     "sources": [
+       "p": 1794741304,
+       "r": "known"
+      },
       {
-       "t": "Despite Trump's claim of \"annihilation,\" US estimates Iran still holds about 2,500 missiles",
-       "o": "트럼프 '궤멸' 주장에도…美, 이란 미사일 보유량 2천500기 추정",
-       "u": "https://www.yna.co.kr/view/AKR20261115042800009",
+       "t": "Iran resumes attacks on US bases in Middle East after two months; Bahraini army says it intercepted projectiles (comprehensive)",
+       "o": "이란, 두달만에 중동 美기지 공격 재개…바레인군 \"발사체 요격\"(종합)",
+       "u": "https://www.yna.co.kr/view/AKR20261115029351009",
        "s": "Yonhap Korean",
        "c": "KR",
        "l": "ko",
-       "p": 1794732672,
+       "p": 1794744015,
        "r": "known"
-      },
-      {
-       "t": "US intelligence: Iran still possesses up to 2,500 missiles",
-       "o": "الاستخبارات الأميركية: إيران لا تزال تمتلك ما يصل إلى 2500 صاروخ",
-       "u": "https://aawsat.com/node/5341347",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1794731852,
-       "r": "known"
-      },
-      {
-       "t": "Iran has 1,500-2,500 missiles despite US claims of ‘decimated’ arsenal: Report",
-       "u": "https://timesofindia.indiatimes.com/world/middle-east/iran-has-1500-2500-missiles-despite-us-claims-of-decimated-arsenal-report/articleshow/135850040.cms",
-       "s": "Times of India",
-       "c": "IN",
-       "l": "en",
-       "p": 1794727574,
-       "r": "known"
-      },
-      {
-       "t": "WSJ: US intelligence findings show Iran has nearly 2,500 missiles despite the war",
-       "o": "WSJ: ABD istihbarat bulguları, savaşa rağmen İran'ın 2 bin 500'e yakın füzesi olduğunu gösteriyor",
-       "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE52RUprM2trSVFONzJwTXBEaWhnYkd1RS1LSFpVZ1dvdnpHU3Azb1dVZkEtZExOMnJqMWNTY3U5WUdqWTZSTURvSWgxVEFYUGZWeHV2eU4zaHVsMFY1a3g5NDd0UGRUYU5yTzFZaGhrSlNsTkNsWjVBWmYwZXY?oc=5",
-       "s": "Habertürk",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794727329,
-       "r": "unrated"
       }
      ],
-     "headlines": 6,
-     "outlets": 5,
-     "independent": 4,
+     "headlines": 15,
+     "outlets": 13,
+     "independent": 13,
      "countries": [
+      "AR",
+      "BR",
+      "DE",
+      "FR",
+      "IL",
       "IN",
+      "JP",
       "KR",
-      "SA",
-      "TR"
+      "NG",
+      "PK",
+      "US"
      ],
-     "regions": 4,
+     "regions": 7,
      "party_only": false,
-     "state": 1
+     "state": 0
     },
     {
-     "text": "Iran's Parliament Speaker Ghalibaf says Iran will not stay in a state of 'neither war nor peace'. Iran also reiterates that it could widen the war if the US launches new attacks.",
+     "text": "Saudi Arabia condemns the Iranian attacks on Bahrain, calling them a violation of international law and of the principles of good-neighbourliness, and calls for an immediate halt to strikes.",
      "stories": [
-      "s7",
+      "s3",
       "s19"
      ],
      "sources": [
       {
-       "t": "Iranian Parliament Speaker Ghalibaf: We will not remain in a state of neither war nor peace",
-       "o": "İran Meclis Başkanı Kalibaf: Ne savaş ne barış durumu içinde kalmayacağız",
-       "u": "https://www.trthaber.com/haber/dunya/iran-meclis-baskani-kalibaf-ne-savas-ne-baris-durumu-icinde-kalmayacagiz-963328.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794730800,
-       "r": "known"
-      },
-      {
-       "t": "Iran not remain in state of ‘neither war nor peace’: Ghalibaf",
-       "u": "https://en.mehrnews.com/news/249410/Iran-not-remain-in-state-of-neither-war-nor-peace-Ghalibaf",
-       "s": "Mehr English",
-       "c": "IR",
+       "t": "Saudi Arabia joins condemnation of Iranian attacks on Bahrain",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-joins-condemnation-iranian-attacks-bahrain",
+       "s": "Middle East Eye",
+       "c": "GB",
        "l": "en",
-       "p": 1794724581,
-       "r": "state"
-      },
-      {
-       "t": "Iran reiterates threat to widen the scope of the war if the US launches new attacks",
-       "o": "Irán reitera su amenaza de ampliar el alcance de la guerra si EE.UU. lanza nuevos ataques",
-       "u": "https://www.infobae.com/america/agencias/2026/11/15/iran-reitera-su-amenaza-de-ampliar-el-alcance-de-la-guerra-si-eeuu-lanza-nuevos-ataques/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1794726932,
-       "r": "known"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 4,
-     "independent": 3,
-     "countries": [
-      "AR",
-      "IR",
-      "TR"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 3
-    },
-    {
-     "text": "Israeli media report that Israeli intelligence warned the CIA of an Iranian drone plot to assassinate Trump. Only Israeli-linked or Israeli-sourced reporting and a few regional outlets carry this, so it stays an Israeli-sourced report.",
-     "stories": [
-      "s6",
-      "s12",
-      "s21",
-      "s22"
-     ],
-     "sources": [
-      {
-       "t": "Israeli daily Haaretz... Yedioth: Israeli intelligence warned the CIA that Iran was preparing a drone-based assassination attempt on Trump",
-       "o": "«Ха-Йом»: израильская разведка предупредила ЦРУ, что Иран готовил покушение на Трампа с использованием беспилотников",
-       "u": "https://meduza.io/news/2026/11/15/ha-yom-izrailskaya-razvedka-predupredila-tsru-chto-iran-gotovil-pokushenie-na-trampa-s-ispolzovaniem-bespilotnikov",
-       "s": "Meduza Russian",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794732257,
+       "p": 1794743206,
        "r": "known"
       },
       {
-       "t": "Israel warns US that Iran has a plan to use drones to kill Trump and senior officials",
-       "o": "อิสราเอลเตือนสหรัฐฯ อิหร่านมีแผนใช้โดรนสังหารทรัมป์และเจ้าหน้าที่ระดับสูง",
-       "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlVERGVlbk5IbjZ5Yk5iOURKUVBzRklvQ2pjUmo2NDhCWFdCR3RpMWlkNmNkVEpPajc3M0lNbzRTMzMwVVNiTWV1T29tcE52WU1mTUxIX19PTUFRMEpqY0swWEY3d2s2Vmt6S2VQQTg1U2RtYTBEdmNHMVIySWNHQjNFMVBYcVEta0E?oc=5",
-       "s": "spacebar.th",
-       "c": "TH",
-       "l": "th",
-       "p": 1794730260,
-       "r": "unrated"
-      },
-      {
-       "t": "Mossad\" warns Washington... alleged Iranian plot to assassinate Trump",
-       "o": "الموساد\" يحذر واشنطن.. مخطط إيراني مزعوم لاغتيال ترامب",
-       "u": "https://www.skynewsarabia.com/world/1904845-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D8%A7%D8%AF-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%85%D8%AE%D8%B7%D8%B7-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D9%85%D8%B2%D8%B9%D9%88%D9%85-%D9%84%D8%A7%D8%BA%D8%AA%D9%8A%D8%A7%D9%84-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1794725301,
+       "t": "Saudi Arabia condemns Iranian attacks on Bahrain, calls for immediate halt to strikes",
+       "u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObXBYN2lzUGxCMzd2dFlpalVHYzJFMmtiTWpxSEVtVzNEOXdlUk91NmdHTHpkYjhhTUd1WktYaFVTblFjMUM2NlM4RW1VMk1KcVZlNk9iY0dVUzlLNzBqSjdXVXB3QWgzX3M4ZG1SMVNGTDliZFpNLWdHdzBsa1pVYzBITGE1eVFOTjNnVllIVHBBb01Qa2F2aTh0cEZ4YXQtOVVfOElJQUpBWjB0OXBIOGVTZFExcks5bnFweWotb3RxZkEwdGhlRmZlNG9PcXNGcXpydEtDQmR6QdIB3wFBVV95cUxNXzV1ODl4S09neElCdnFKR184S3JqMGdzaU1aelYyc1haVjNYLTFqMmJRMHhYZUdsWnl6YlZwOE85bWNFTmoybnRLZllPMXoxbzBZR2pMYVMxUG0zQWFURTRhRjM0VFJPSERUcHhqcmQ0RHBTYnBzY2dadFpXTzV3Y3N6NlJXZXREemhkdzNpTk1xR1d6ODdXRjQ4cnd5MVJqZl9Mc2ViMlZJZnN6UzRCS3gzQVNJOFQ1ZFhyWi14V3g0OGx",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794742020,
        "r": "known"
       },
       {
-       "t": "Mossad warns Washington: alleged Iranian plot to assassinate Trump",
-       "o": "الموساد\" يحذر واشنطن.. مخطط إيراني مزعوم لاغتيال ترامب",
-       "u": "https://news.google.com/rss/articles/CBMiwANBVV95cUxNWEFwR0hzRjg4MzF4RDlrb1VvZ2Zhc1lJSDJVa3piYzNSZkFuOE1HOXp4bmZzZFg4aXFrMEhoc0dhUFExSUVoemEyRTIxTU1FRFZCN3pyc3FsZWU4NGdLR1podXRNTjRqVHFkWDVYRUdaNWY4ekZVcGR6MTVqZnFuSm5yUzJicHIxS0xTVHJFak1HRjIweVVETm5lSXRlVlRGWk8xOGZPaGNCcGtVMXFCTzExS1BSQ3FJZURJYjVhWU5pc01MVFF3dzUzRU5ScnE2aU52UjV4V2RmMlBtR0ZkNmw5SE9SWl9FQ1Z0MmNTWDZwN1hMUkRLZXBfTjRzVzZUMFNNWkJCRTVhWkJiR29WdUNPN28zcWZlTEhvT0pidDhkM0RLeXRQTnl4UzMzcXRtSEFoMUtCXzNFbjdwdW9XX0NIUjNwdXh1VkVDTE9uV0ZFVmVxU19XbGU3Tl9BNXBKY0VDcS1TUjRsNUZDV1hzVnd5dlZLWnl2dnVaRTNGZUdUN21XQThOOHFUZzJub0dFRnZ1VFctS2FDQXFxclVmQjF",
-       "s": "سكاي نيوز عربية",
+       "t": "Iran claims drone strikes against a US base in Bahrain",
+       "o": "L'Iran revendique des frappes de drones contre une base américaine au Bahreïn",
+       "u": "https://www.france24.com/fr/moyen-orient/20261115-iran-revendique-frappes-drones-contre-base-am%C3%A9ricaine-au-bahre%C3%AFn",
+       "s": "France 24 French",
+       "c": "FR",
+       "l": "fr",
+       "p": 1794738075,
+       "r": "known"
+      },
+      {
+       "t": "Saudi Arabia: Iran's attack on Bahrain is a violation of international law and the principles of good neighborliness",
+       "o": "السعودية: الاعتداء الإيراني على البحرين انتهاك للقانون الدولي ومبادئ حسن الجوار",
+       "u": "https://aawsat.com/node/5341377",
+       "s": "Asharq Al-Awsat",
        "c": "SA",
        "l": "ar",
-       "p": 1794725424,
-       "r": "unrated"
-      },
-      {
-       "t": "Media: Mossad warned the CIA about Iran's plans to attack Trump and US officials",
-       "o": "СМИ: «Моссад» предупредил ЦРУ о планах Ирана атаковать Трампа и чиновников США",
-       "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93Vi1CYWR3QjhiajFQQ012Q0ZDOU1RcXFGUGlCMFVuaFFta096eGQ0WHM3bkxBaUhWdl9fMWItcThrUTBWRG5Jd0lmTDZXN0tNelYtSw?oc=5",
-       "s": "БИЗНЕС Online — Новости Казани",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794725220,
-       "r": "unrated"
+       "p": 1794738219,
+       "r": "known"
       }
      ],
      "headlines": 6,
      "outlets": 5,
      "independent": 5,
      "countries": [
-      "AE",
+      "FR",
+      "GB",
+      "SA"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran says it will keep responding to the US and that its response will not be short-lived, while still leaving the door open to talks. Egypt, Pakistan and Turkey foreign ministers urge diplomacy to avert further US-Iran escalation.",
+     "stories": [
+      "s5",
+      "s8",
+      "s10",
+      "s23"
+     ],
+     "sources": [
+      {
+       "t": "Iran warns it will keep responding to the US after attacking targets in Bahrain",
+       "o": "Irán advierte de que seguirá respondiendo a EE.UU. tras atacar objetivos en Baréin",
+       "u": "https://www.infobae.com/america/agencias/2026/11/15/iran-advierte-de-que-seguira-respondiendo-a-eeuu-tras-atacar-objetivos-en-barein/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794737749,
+       "r": "known"
+      },
+      {
+       "t": "Iran claims to have attacked a base in Bahrain but keeps the door open for talks with the US",
+       "o": "อิหร่านอ้างโจมตีฐานทัพในบาห์เรน แต่ยังเปิดทางเจรจากับสหรัฐ",
+       "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wamhVd1BMdjBJaFcxUkdDbXhvdHBXSDBNR3pLU1hiLVFJTlR3dnZNYVV1VzNkd3g1SGdoRmh5d2lRbS1vTnNiRHRYZUFjMkk4Z3JN?oc=5",
+       "s": "เดลินิวส์",
+       "c": "TH",
+       "l": "th",
+       "p": 1794736440,
+       "r": "unrated"
+      },
+      {
+       "t": "Warning from Iran that its response to possible attacks will not be short-lived",
+       "o": "İran'dan olası saldırılara vereceği yanıtın kısa süreli olmayacağı uyarısı",
+       "u": "https://www.aa.com.tr/tr/dunya/irandan-olasi-saldirilara-verecegi-yanitin-kisa-sureli-olmayacagi-uyarisi/4125744",
+       "s": "Anadolu Turkish",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794742350,
+       "r": "state"
+      },
+      {
+       "t": "Egypt, Pakistan, Turkey FMs urge diplomacy to avert further US-Iran escalation - Foreign Affairs - Egypt",
+       "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdXN0TXo2bG1rVHVILTk1ekJ5QVFubHAyN18wNERCci02SVpqZC1mMkNqOExqUC14N0IzeWtkRlp6RnhPYmhpeDdvMERpNXZEN3RJV3R0OHRrTDBxQ1BXcUItbV93N0V4VHVyaGpYZlRUQ2FFWFA3eE93aUVVdzlORlUwWEZOSmpRQklpeTA1cWJVQkptVFhGNUg5TTZaMmdNVllXNm9yT185U3JQMTA1d01GUHhZekxmdHRRaUhlMjlRR0F4ZEpCVzJHMU4?oc=5",
+       "s": "Ahram Online",
+       "c": "EG",
+       "l": "en",
+       "p": 1794741399,
+       "r": "state"
+      },
+      {
+       "t": "Iran strikes Bahrain base, repeats path to U.S. deal remains open",
+       "u": "https://www.japantimes.co.jp/news/2026/11/15/world/iran-bahrain-base-us-deal/",
+       "s": "The Japan Times",
+       "c": "JP",
+       "l": "en",
+       "p": 1794736140,
+       "r": "known"
+      }
+     ],
+     "headlines": 6,
+     "outlets": 5,
+     "independent": 5,
+     "countries": [
+      "AR",
+      "EG",
+      "JP",
+      "TH",
+      "TR"
+     ],
+     "regions": 4,
+     "party_only": false,
+     "state": 3
+    },
+    {
+     "text": "Iran accuses the UN nuclear watchdog of being influenced by the US and European countries. This is a single state-media report. Separately, a US intelligence estimate of up to 2,500 Iranian missiles is still being reported by several outlets.",
+     "stories": [
+      "s6",
+      "s4",
+      "s18"
+     ],
+     "sources": [
+      {
+       "t": "Iran accuses UN nuclear watchdog of being influenced by US, European countries",
+       "u": "https://www.aa.com.tr/en/middle-east/iran-accuses-un-nuclear-watchdog-of-being-influenced-by-us-european-countries/4125763",
+       "s": "Anadolu Agency",
+       "c": "TR",
+       "l": "en",
+       "p": 1794743938,
+       "r": "state"
+      },
+      {
+       "t": "US intelligence believes Iran's military may have up to 2,500 missiles",
+       "o": "Разведка США полагает, что у военных Ирана может быть до 2,5 тыс. ракет",
+       "u": "https://www.interfax.ru/world/1129111",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794736080,
+       "r": "known"
+      },
+      {
+       "t": "Iran has up to 2,500 missiles,\" US intelligence agency assesses",
+       "o": "“이란, 미사일 최대 2500개 가지고 있어”…미 정보기관 평가",
+       "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KS2dPY0VOcTdmWmtMb1Vpc1R4WjlySWRtbDV3LTdWTm03OE54V1NvLWtwcXREc0tUWkJCR2hSWXpydXBUVVlCV3k2alhwc1cxVGxFN21pOGJYT1h3VFdSWnVoa1Z2cWhsZkZHdml4T2dCYWPSAWZBVV95cUxQeUZ2NHNtdEtkUUJIVnRkZWJCWnF1LVR3UEZENkt2d3BLMHRGTTJtVmFDUzRRckVja0FmNkdjbU9rXzBSY1oxOFlwM0dzUERoZVBneUlWYXp2cXFmTlh1UDIyV2RCV1E?oc=5",
+       "s": "동아일보",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794739947,
+       "r": "unrated"
+      },
+      {
+       "t": "US estimates Iran still has up to 2,500 missiles: WSJ - Region - World",
+       "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVU0tNGJTYkQzbndPWWc0YkRZTF9tcWhoSi0yRnNSZGt5cGJSVzI0T3BkVkZqUHpTczl0RXA4aFd6QW5aQnF0b0xZTHRwVFBUdC1MaXllTll4YW5Da3JhRS1TbDZ1TDgyelNTXzRZdXlUejhxUG9wRkRkTkJaNTFyVUhRdktUZmt1MFpJa01NdVdCQXlVZFllMkFDWXdrYmFJTXQ4Ymh6akU2dnlNZEhYVUNZX3BQSGpTdUE?oc=5",
+       "s": "Ahram Online",
+       "c": "EG",
+       "l": "en",
+       "p": 1794739401,
+       "r": "state"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 4,
+     "independent": 4,
+     "countries": [
+      "EG",
+      "KR",
       "RU",
-      "SA",
-      "TH"
+      "TR"
      ],
      "regions": 3,
      "party_only": false,
-     "state": 1
+     "state": 3
     }
    ],
    "watch": [
-    "Whether Bahrain or other Gulf states report further drone or missile attacks after the Guards' new claims",
-    "Whether the US responds with strikes, which would change the 'neither war nor peace' posture",
-    "Independent confirmation of the tanker explosions in the Strait of Hormuz"
+    "Whether the US responds militarily to the Bahrain attacks",
+    "Whether Gulf states' condemnations lead to further steps or diplomatic moves",
+    "Whether Iran's door to talks with Washington is followed by any concrete contact"
    ],
    "window_hours": 3,
-   "headlines_read": 59,
-   "outlets_read": 42,
-   "countries_read": 24,
-   "languages_read": 16,
+   "headlines_read": 57,
+   "outlets_read": 35,
+   "countries_read": 21,
+   "languages_read": 12,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-15T06:48:10Z",
    "ladder_note": "Re-checked after: Iran's Revolutionary Guards say they launched six drones at a US radar facility in Bahrain, and Bahrain issued threat alerts; Bahrain says the drones were intercepted."
