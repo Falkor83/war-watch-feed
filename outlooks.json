@@ -521,6 +521,66 @@
 "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSFg0M05iR3VyS0Vfa05CWHIwUk1pSE1Vb0wzUjliOGwwRGVNOVhEdlp1dDQ5OUpNNGM4c2xqa3h3azQ1WWwtd1VZNWhGQXd4cG9vWU1IaDdINHdxYk9Walk2MHMwX29oZ0ZGTDFXSTdnYW1Mb3I3N000N1ZHU0JQSVZFWXJqS2FGMGN0VU4xY3d3Yi1yM29zbTNBX2FBV2lrcldVTFpHejJ2a29CZlhDRzZDVktCZDjSAccBQVVfeXFMTklzVEtGUS1wMlBMOW5tWF9OSnp0MHQ5WUM5ZTNRVXN3SjdHbFV2VmdKTzQ1b0owRGVJUXEzNDlKWXVtNGQ5bWpua0gyVEtpczlpQ3dEMlktQURWY1JFOUZuc0ZISmFCc05qbnJxRXhNWW5tamRibmdibWdGZE1BSWk1bl9mbHJtMUVXazUxR0lsaWFUSF9nRmQ5VGV",
 "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kck9STFR6QV9PQVFUbVJ5eG92elgxZ3ozZ0NsOTltU3kzMzBqTlZudWxnQWlnR2VSb05GelBIbU1QUnNPYk91VVdkX0NNMnFQN01ZakNB?oc=5"
 ]
+},
+{
+"made": "2026-11-15",
+"hotspot": "russia-ukraine-war",
+"text": "Reporting points to Russian strikes on Ukraine's energy grid continuing through the next three weeks, as Russia's defence ministry says it intends.",
+"likelihood": "likely",
+"check_by": "2026-12-06",
+"basis": [
+"https://euromaidanpress.com/2026/11/13/ukraines-grid-operator-kept-all-day-blackouts-in-parts-of-the-country-after-russias-latest-strikes-on-the-grid/",
+"https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity",
+"https://kyivindependent.com/russia-launches-mass-attack-on-odesa-oblast-as-strikes-kill-4-injure-69-across-ukraine-over-past-day/"
+]
+},
+{
+"made": "2026-11-15",
+"hotspot": "us-israel-iran-war",
+"text": "Iran's forces claim at least one more strike on a US-linked site in the Gulf before Dec 1.",
+"likelihood": "likely",
+"check_by": "2026-12-01",
+"basis": [
+"https://japantimes.co.jp/news/2026/11/15/world/iran-bahrain-base-us-deal",
+"https://www.derstandard.at/story/3000000349266/irans-revolutionsgarden-drohnenangriff-auf-us-radaranlage-in-bahrain?ref=rss",
+"https://news.ltn.com.tw/news/world/breakingnews/5641593"
+]
+},
+{
+"made": "2026-11-15",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Houthi forces reach Aden's outskirts by Dec 1; reported gains are far from the city and government forces say they are repelling attacks.",
+"likelihood": "unlikely",
+"check_by": "2026-12-01",
+"basis": [
+"https://english.news.cn/20261115/64b1ad9ee9f4419989308a063a7d9edd/c.html",
+"https://www.infobae.com/america/agencias/2026/11/14/las-fuerzas-gubernamentales-yemenies-rechazan-ataques-huties-en-taiz-y-lahj/",
+"https://www.democracynow.org/2026/11/3/headlines/houthis_advance_on_aden_as_fighting_worsens_yemens_hunger_crisis"
+]
+},
+{
+"made": "2026-11-15",
+"hotspot": "somalia-al-shabaab",
+"text": "AFRICOM reports further air strikes on al-Shabaab by Dec 6, in line with its October and November pace.",
+"likelihood": "very likely",
+"check_by": "2026-12-06",
+"basis": [
+"https://www.africom.mil/pressrelease/37112/new-press-release",
+"https://www.africom.mil/pressrelease/37104/us-forces-conduct-strikes-targeting-al-shabaab",
+"https://www.africom.mil/pressrelease/37047/us-forces-conduct-strike-targeting-al-shabaab"
+]
+},
+{
+"made": "2026-11-15",
+"hotspot": "sudan-civil-war",
+"text": "Fighting in Kordofan continues without both sides agreeing to UN-led talks by Dec 6.",
+"likelihood": "likely",
+"check_by": "2026-12-06",
+"basis": [
+"https://news.google.com/rss/articles/CBMiwgJBVV95cUxPRnNHR3pBMlhUVWFrdExfZGdzMWVqYzRlUWJQRFM4RHlFSVlEeExrQ1B6bHRnTHczRTFCX3dKVlE5ZGtNY3I4VEtLTUNSMjBTSkJTRFZ5eHRrbHVYX1pxWU44YzdaOFc3RXA4TkJac3pQR1pfYUFUWlZ3WWVTZzhuVDRKWGUtNUdmVDY4cEVxeXlINVRFcFhFTjlPTW1VTGVJaEtoU00ySzM0Wkl6c2k4azVJbWYwNm85YWo1aTNNRktsTzhYZWthYkdUZG5oeDJfUjc0emdpVHhSUWlINm5pZ0dTTnVjeVcyNFpfT2piRmJrTWRtd3g4OHhHMXoxN2NsVEVsX0RuY1V4VGtPTDVrdnA2SVo4cl9XeGo1bU44SmVfb1RudzdZNThFX281SUhFOHFhZTdsVjZMNnFycDEtc3B3?oc=5",
+"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kck9STFR6QV9PQVFUbVJ5eG92elgxZ3ozZ0NsOTltU3kzMzBqTlZudWxnQWlnR2VSb05GelBIbU1QUnNPYk91VVdkX0NNMnFQN01ZakNB?oc=5",
+"https://news.un.org/en/story/2026/10/1168638"
+]
 }
 ]
 }

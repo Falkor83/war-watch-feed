@@ -1003,6 +1003,24 @@
    "countries_reporting": 1
   },
   {
+   "id": "a-2026-11-13-ua-2",
+   "date": "2026-11-13",
+   "country": "UA",
+   "kind": "military-readiness",
+   "what": "Ukrainian official Koretsky announces new mobilisation rules and penalties for leaving units without leave (single outlet, Glavred)",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcFVVVk1XaW44ZFU3NmlWUnh5bkE0NGR2aDlYb2FUdzVHeVJMeGRPUHhMSENIQWliS2xsU3RWMlJJUnR6NUdTTTlvLTZUTm5KaklUWkJ1Z3FPcWszekxXbnI2U1R0R2M2SDdXRUN2LUFTTlRkcmMtVnV1QlJVYURZTlZfdm1Ici16VzlZN05hZWNmMTI0N3diOWtzamotQTRQUkNObGJwX2U1MDJSMjRBeWU2WDZUUXBueG9QbmRR0gHDAUFVX3lxTFB3QkpaWnJ1NlViTC1WaE1LNVpHTEFJNWx3NkZsUnZhZ2FtMldqSUJaVk5qTWNVZjBMVzk2Y3pXVGozU1VBNzR2VG9CZ29QTDB4VmN6UDhuS3EzcERUUEo3T3pxSlU0OVVhaWlKRWhaZDB3Z1ZldVNEYUNkZklocW53QW1Dd05IRmhGWFhhZzlQR21SUW8yNUt4LUt3dFNqTFl5ZTZMSGwtM0dEajc5dkJzX1pSeWV3ZE5fN1huQ2pqTTF2VQ?oc=5",
+   "outlet": "Главред",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-15",
+   "independent": 2,
+   "countries_reporting": 1
+  },
+  {
    "id": "a-2026-11-14-ye-1",
    "date": "2026-11-14",
    "country": "YE",
@@ -1101,6 +1119,24 @@
    "program": "",
    "source": "corpus",
    "added": "2026-11-14",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-14-ru-1",
+   "date": "2026-11-14",
+   "country": "RU",
+   "kind": "military-readiness",
+   "what": "Moscow's military commissar describes how the conscription call-up is being run in the city (Russian state agency TASS)",
+   "url": "https://tass.ru/armiya-i-opk/28318415",
+   "outlet": "TASS",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": true,
+   "program": "Russia's regular conscription call-up",
+   "source": "corpus",
+   "added": "2026-11-15",
    "independent": 1,
    "countries_reporting": 1
   }
@@ -3272,6 +3308,206 @@
    "hotspot": "yemen-houthi-saudi-war",
    "url": "",
    "source": "rule"
+  },
+  {
+   "id": "e-2026-11-15-8",
+   "date": "2026-11-14",
+   "kind": "news",
+   "what": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
+   "countries": [
+    "AU",
+    "GB",
+    "HK",
+    "KR",
+    "QA",
+    "SG",
+    "US",
+    "VN"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
+   "source": "corpus",
+   "independent": 8
+  },
+  {
+   "id": "e-2026-11-15-8",
+   "date": "2026-11-14",
+   "kind": "news",
+   "what": "US proposes that Ukraine lose territory to Russia in exchange for NATO entry, says Zelensky",
+   "countries": [
+    "BE",
+    "BR",
+    "ID",
+    "IN",
+    "NG",
+    "SG",
+    "TH",
+    "TR"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/eua-propoem-que-ucrania-perca-territorio-para-russia-em-troca-de-entrada-na-otan-diz-zelenski.shtml",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
+   "id": "e-2026-11-15-8",
+   "date": "2026-11-14",
+   "kind": "news",
+   "what": "Two tankers hit mines in the Strait of Hormuz",
+   "countries": [
+    "EG",
+    "GB",
+    "IR",
+    "PL",
+    "RU",
+    "SA",
+    "TR",
+    "UA"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.kommersant.ru/doc/9109727",
+   "source": "corpus",
+   "independent": 12
+  },
+  {
+   "id": "e-2026-11-15-1",
+   "date": "2026-11-15",
+   "kind": "news",
+   "what": "Zelensky: US proposed ceding Donbas in exchange for NATO membership; Russia likely to reject",
+   "countries": [
+    "AE",
+    "AR",
+    "BR",
+    "CA",
+    "CH",
+    "CN",
+    "CO",
+    "DE"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.hani.co.kr/arti/international/europe/1287408.html",
+   "source": "corpus",
+   "independent": 41
+  },
+  {
+   "id": "e-2026-11-15-2",
+   "date": "2026-11-15",
+   "kind": "news",
+   "what": "Senior Hamas commander killed in Israeli strike in Gaza",
+   "countries": [
+    "AE",
+    "AR",
+    "AT",
+    "BE",
+    "CH",
+    "CN",
+    "DE",
+    "EG"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://www.al-monitor.com/originals/2026/11/senior-hamas-commander-killed-israeli-strike-gaza",
+   "source": "corpus",
+   "independent": 27
+  },
+  {
+   "id": "e-2026-11-15-3",
+   "date": "2026-11-15",
+   "kind": "news",
+   "what": "Washington to Kyiv: give up Donbass in exchange for NATO membership",
+   "countries": [
+    "AR",
+    "BE",
+    "BR",
+    "CO",
+    "DE",
+    "DO",
+    "EC",
+    "ES"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://aawsat.com/node/5341293",
+   "source": "corpus",
+   "independent": 29
+  },
+  {
+   "id": "e-2026-11-15-4",
+   "date": "2026-11-15",
+   "kind": "news",
+   "what": "Saudi Arabia intercepts missiles as Houthis fire at Riyadh",
+   "countries": [
+    "AE",
+    "DE",
+    "EG",
+    "GB",
+    "IL",
+    "IN",
+    "LB",
+    "PK"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.bbc.co.uk/hausa/live/cmvg2k3r347et?at_medium=RSS&at_campaign=rss",
+   "source": "corpus",
+   "independent": 21
+  },
+  {
+   "id": "e-2026-11-15-5",
+   "date": "2026-11-15",
+   "kind": "news",
+   "what": "Bahrain sirens sound loudly; Iran's Islamic Revolutionary Guard Corps again claims attack on US military base",
+   "countries": [
+    "DE",
+    "FR",
+    "GB",
+    "ID",
+    "IN",
+    "JP",
+    "KR",
+    "LB"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.ltn.com.tw/news/world/breakingnews/5641593",
+   "source": "corpus",
+   "independent": 12
+  },
+  {
+   "id": "e-2026-11-15-6",
+   "date": "2026-11-15",
+   "kind": "news",
+   "what": "The Kremlin confirms a trilateral meeting between Donald Trump, Vladimir Putin and Xi Jinping on November 19 in China",
+   "countries": [
+    "AR",
+    "FR",
+    "IT",
+    "PL",
+    "PT",
+    "RU",
+    "TR",
+    "UA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.lemonde.fr/international/article/2026/11/15/le-kremlin-confirme-une-rencontre-trilaterale-entre-donald-trump-vladimir-poutine-et-xi-jinping-le-19-novembre-en-chine_6809488_3211.html",
+   "source": "corpus",
+   "independent": 17
+  },
+  {
+   "id": "e-2026-11-15-7",
+   "date": "2026-11-15",
+   "kind": "news",
+   "what": "Israeli strike kills Palestinian man, wounds two others in Gaza",
+   "countries": [
+    "AR",
+    "GB",
+    "IN",
+    "PK",
+    "QA",
+    "SA",
+    "TR",
+    "US"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-kills-palestinian-man-wounds-two-others-gaza",
+   "source": "corpus",
+   "independent": 11
   }
  ]
 }
