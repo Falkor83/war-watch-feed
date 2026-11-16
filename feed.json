@@ -1748,9 +1748,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Hormuz tanker fires continue as a third US carrier reaches the Gulf region",
+   "status": "Third US carrier in Gulf; Bahrain base attack and more Hormuz tanker fires reported",
    "summary": "The US and Israel have been at war with Iran, and a US blockade and Iranian attacks have disrupted the Strait of Hormuz. US officials told CBS that a preliminary June deal collapsed, the blockade was reinstated, and the US struck Iran's Qeshm Island this week. On Nov 15-16 Iran's Revolutionary Guards said the southern Hormuz route is mined and that several tankers hit mines and caught fire. Reuters said it could not verify these claims. The UK monitor UKMTO confirmed only one tanker hit by an unknown projectile, with all crew safe, and raised its regional threat level to severe. Bahrain says it intercepted Iranian attacks for the second time in three days, and US Central Command says no damage was done.",
    "latest": [
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T14:48:14Z",
+     "text": "Iran's Navy says a third violating oil tanker exploded in Hormuz within 24 hours, and Iranian army statements, carried by Lebanese and Saudi outlets, say a tanker caught fire after hitting a mine east of the strait. The Revolutionary Guards say two tankers exploded after hitting naval mines.",
+     "outlet": "IRNA English",
+     "country": "Iran",
+     "url": "https://en.irna.ir/news/86323643/Third-violating-oil-tanker-explodes-in-Hormuz-in-24-hours-Iran-s",
+     "region": "iran",
+     "tag": "non-party",
+     "state_media": true
+    },
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T14:48:14Z",
+     "text": "Spanish broadcaster RTVE and a Korean outlet report a new Iranian attack on a US base in Bahrain. Each comes from a single source, and the reports do not give US confirmation.",
+     "outlet": "RTVE.es",
+     "country": "Spain",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMVo0ZzJ4Wms0NUFHd0ltZ0c5Rm9ROXRXRWs3RGdfc01qaTN3UnF5WTdaOVlHWEtaT1A3Z3BkVk5sVl9TdEZzVl9tY1hjYVVmVThPTXFnc2JobklpQnA4SkR3X1FNdzl1YzFmbGlyRWhaUnd4ZGV1dkN1THU0WFBVM3htZXV5dnVfaU1LZ0dqQXAyNHlTRFU1QUlJSU94NHh0TlFOcG1jV3RlM3lhaGI3LVkzeVNlQnI1dTRXbGtUVFlLZm5I?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T14:48:14Z",
+     "text": "Infobae reports a third US aircraft carrier has arrived in the Middle East, adding 5,000 personnel and 60 aircraft. RFI asks whether the buildup is a deterrent or a prelude to a new war with Iran.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/mundo/2026/11/16/llego-el-tercer-portaaviones-de-eeuu-a-medio-oriente-en-plena-tension-con-iran-suma-5000-efectivos-y-60-aeronaves/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-16",
      "at": "2026-11-16T11:24:59Z",
@@ -1803,36 +1836,6 @@
      "region": "middle-east",
      "tag": "party-gov",
      "state_media": true
-    },
-    {
-     "date": "2026-11-16",
-     "text": "Iran's Nour News, citing IRNA, says the IRGC Navy declared the southern route mined, calls it a response to the US blockade and warns shipowners off.",
-     "outlet": "Nour News",
-     "country": "Iran",
-     "url": "https://nournews.ir/en/news/362340/irgc-navy-two-more-oil-tankers-explode-engulfed-in-massive-fires-in-hormuz-strait",
-     "region": "iran",
-     "tag": "party-gov",
-     "state_media": true
-    },
-    {
-     "date": "2026-11-16",
-     "text": "The UK maritime monitor UKMTO reports a tanker leaving the strait was hit by an unknown projectile, causing an engine-room fire; all crew are accounted for and none were hurt.",
-     "outlet": "ABC News",
-     "country": "United States",
-     "url": "https://abcnews.com/International/live-updates/iran-live-updates-americans-tired-forever-wars-araghchi/?id=137967256",
-     "region": "north-america",
-     "tag": "party-press",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-16",
-     "text": "CBS notes it is unclear whether the UKMTO-reported projectile strike and Iran's mine-strike claim describe the same tanker.",
-     "outlet": "CBS News",
-     "country": "United States",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
-     "region": "north-america",
-     "tag": "party-press",
-     "state_media": false
     }
    ],
    "us_impact": {
@@ -12711,11 +12714,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-13T16:27:55Z",
-     "headline": "US says it downed two Iranian drones over Bahrain, denying Iran's radar-strike claim",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-13T20:02:08Z",
      "headline": "Mossad chief lobbies in Washington to resume Iran war; Bahrain drone dispute continues",
      "direction": "steady"
@@ -12829,276 +12827,199 @@
      "at": "2026-11-16T11:24:59Z",
      "headline": "Hormuz tanker fires continue as a third US carrier reaches the Gulf region",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-16T14:48:14Z",
+     "headline": "Third US carrier in Gulf; Bahrain base attack and more Hormuz tanker fires reported",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-16T11:24:59Z",
-   "next_at": "2026-11-16T14:24:59Z",
-   "headline": "Hormuz tanker fires continue as a third US carrier reaches the Gulf region",
+   "updated_at": "2026-11-16T14:48:14Z",
+   "next_at": "2026-11-16T17:48:14Z",
+   "headline": "Third US carrier in Gulf; Bahrain base attack and more Hormuz tanker fires reported",
    "direction": "escalating",
    "points": [
     {
-     "text": "Iran's Revolutionary Guards and Navy say more tankers caught fire in or near the Strait of Hormuz; Pasdaran say two more were on fire after hitting mines. Iranian media alone report explosions on two oil tankers.",
+     "text": "Iran's Navy says a third violating oil tanker exploded in Hormuz within 24 hours, and Iranian army statements, carried by Lebanese and Saudi outlets, say a tanker caught fire after hitting a mine east of the strait. The Revolutionary Guards say two tankers exploded after hitting naval mines.",
      "stories": [
-      "s4",
-      "s7",
-      "s25"
+      "s25",
+      "s22",
+      "s14"
      ],
      "sources": [
       {
-       "t": "Iran war, Pasdaran: \"Two more oil tankers on fire after hitting mines in Hormuz\". LIVE",
-       "o": "Guerra Iran, Pasdaran: \"Altre 2 petroliere in fiamme dopo aver urtato mine a Hormuz\". LIVE",
-       "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yY0lyai0zbHVtUUFfS05kSWhiTHBCc3lNd2Z3Uk5ybG5WdFJtdlR2bk5fZDN4MEZGNU5QMFFmQzE2MjRMaUJqR2NZcHZITThVckpCYzgxcXp3R0JqQWRTcW1FT3ZEeTAtbXVTelNGQjRYM1o0V3NLN01YZw?oc=5",
-       "s": "Sky TG24",
-       "c": "IT",
-       "l": "it",
-       "p": 1794823817,
-       "r": "unrated"
-      },
-      {
-       "t": "UKMTO reports fire on tanker after attack in Strait of Hormuz",
-       "o": "UKMTO сообщил о возгорании на танкере после атаки в Ормузском проливе",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28321033",
-       "s": "TASS",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794819189,
-       "r": "state"
-      },
-      {
-       "t": "Another violating tanker catches fire east of Strait of Hormuz: Iran Navy",
-       "u": "https://en.irna.ir/news/86323264/Another-violating-tanker-catches-fire-east-of-Strait-of-Hormuz",
+       "t": "Third violating oil tanker explodes in Hormuz in 24 hours: Iran’s Navy",
+       "u": "https://en.irna.ir/news/86323643/Third-violating-oil-tanker-explodes-in-Hormuz-in-24-hours-Iran-s",
        "s": "IRNA English",
        "c": "IR",
        "l": "en",
-       "p": 1794817821,
+       "p": 1794838801,
        "r": "state"
       },
       {
-       "t": "IRGC Reports Explosions Aboard Two Oil Tankers in the Strait of Hormuz",
-       "u": "https://iranwire.com/en/news/160297-irgc-reports-explosions-aboard-two-oil-tankers-in-the-strait-of-hormuz/",
-       "s": "IranWire",
-       "c": "IR",
-       "l": "en",
-       "p": 1794826174,
+       "t": "Iranian army: a third oil tanker caught fire after hitting a mine east of Hormuz",
+       "o": "الجيش الإيراني: اشتعال ناقلة نفط ثالثة بعد اصطدامها بلغم شرق هرمز",
+       "u": "https://news.google.com/rss/articles/CBMinwRBVV95cUxObHRRd2Nob21zaUUzWHFhejQycUFiUUYzcjFYWWtwYlZMUWRjODRodnZKaml0RXcwVEx6NlhtemNVV1l3VmNrY0ltV2tWY3JKYlFPUzdrcEhSeGx6cElKckRPV3BOSnhPQkVZVGt5d1cwS0dRaVBqVG5SLUlzVk15R3pFOWd1YXV4M3FTNktOMXMzLVoxNmRocDdIZkdpem5fMlFzX0tkOWd5d2w3VVEyN0NrT1Y5cWJNOVVoSnBLbGhPMjlsOEtWOTB3NU1DQUFydkQ1aWg0VUlQWWg3bjlhUThHTnNjY09aaXVjT21odmpTb0t3UlF3dnJCTThHTHdtSk9ZN2J6ZXJCeEVIMXNzOUdJZ0xmSG5UbGIzS1JwUWRON2ZJY00tWDFqcFZEUVJ4QVh6dEczQ0RxZmxkWVVMLXVVNWZ2QkM5YjdFTFMwd0V1R3hRMG5uVlE2cUg0X0gycXJvd1VyYUNCZnMyNXpfTG1GcV80U2R4RENqeGJCeVVvcWZOTUc2YWdZU0xqQkp5N3I3a0FXUDdGVk5lY0gxV21",
+       "s": "الشرق بلومبرغ",
+       "c": "LB",
+       "l": "ar",
+       "p": 1794830103,
+       "r": "unrated"
+      },
+      {
+       "t": "IRGC: two oil tankers explode after hitting naval mines in Hormuz",
+       "o": "«الحرس الثوري»: انفجار ناقلتي نفط إثر اصطدامهما بألغام بحرية في «هرمز»",
+       "u": "https://news.google.com/rss/articles/CBMi4ARBVV95cUxOSXRuMnhnLUdta3dtbEdMLUQ4Uy00RGVadzF0ZjlvT2VGQk84bkMwNmxVdi1JbjhzZmc4NlR6bWc4MThONFVYM3AwRnZIc3V4aDA1d29hRnBhdUVEak5Oam9fM3duR2xoMklRVzRzSVF5a2NubmZjblhWSGtyR1lEYl9vc3ZvbTNCQTE2a2tPc1hHNk5XblJGblltWlVGVkVLNks0UW1CYzFZNi1YN2xTVUpfRUZDR0JKMmIwRjRlUUNvTU5YRW9GOXlfZkxQTmFucDJqNnR2YnJzQUhtMEF5MVVkWjRTUDBxTE96UzVzZm9KZlVBRkVaMDdmMWxqNW9OeDlPaHlyM2JfekJEbnJhQkRXeGVKdmtzYmtNZ3FlVTNrVFVNYkhFdEdFdDRQXzh4ZU1CYnlST3VwNGhMQXJjTmNGejlrMmF3WWJ6YlpBd1BQbVJfZmtZaE54aGhyZHhsRGtNeE1rV1FkVl9oaGJFVnNnTnF5dkIwQXpBN2hveXFva1p1SXRySUFVbnd3UzMtVnJCdlBqS3NKYjNONzhxQUV",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794833890,
        "r": "known"
       }
      ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 5,
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
      "countries": [
       "IR",
-      "IT",
-      "RU"
+      "LB",
+      "SA"
      ],
      "regions": 3,
      "party_only": false,
-     "state": 2
+     "state": 1
     },
     {
-     "text": "A third US aircraft carrier has arrived in the Middle East, and Bloomberg reports Iran targeting a Bahrain base. Al Jazeera asks whether the US-Iran war is about to resume.",
+     "text": "Spanish broadcaster RTVE and a Korean outlet report a new Iranian attack on a US base in Bahrain. Each comes from a single source, and the reports do not give US confirmation.",
      "stories": [
-      "s6",
-      "s11"
+      "s20",
+      "s10"
      ],
      "sources": [
       {
-       "t": "Third US aircraft carrier arrives in Middle East amid tensions with Iran",
-       "u": "https://www.aljazeera.com/video/newsfeed/2026/11/16/third-us-aircraft-carrier-arrives-in-middle-east-amid-tensions-with-iran?traffic_source=rss",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "en",
-       "p": 1794821496,
-       "r": "known"
+       "t": "A new Iranian attack on a US base in Bahrain raises tension in the Strait of Hormuz",
+       "o": "Un nuevo ataque de Irán a una base estadounidense en Baréin eleva la tensión en el estrecho de Ormuz",
+       "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMVo0ZzJ4Wms0NUFHd0ltZ0c5Rm9ROXRXRWs3RGdfc01qaTN3UnF5WTdaOVlHWEtaT1A3Z3BkVk5sVl9TdEZzVl9tY1hjYVVmVThPTXFnc2JobklpQnA4SkR3X1FNdzl1YzFmbGlyRWhaUnd4ZGV1dkN1THU0WFBVM3htZXV5dnVfaU1LZ0dqQXAyNHlTRFU1QUlJSU94NHh0TlFOcG1jV3RlM3lhaGI3LVkzeVNlQnI1dTRXbGtUVFlLZm5I?oc=5",
+       "s": "RTVE.es",
+       "c": "ES",
+       "l": "es",
+       "p": 1794831641,
+       "r": "unrated"
       },
       {
-       "t": "Watch Iran Targets Bahrain Base as US Deploys Third Aircraft Carrier to Middle East",
-       "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTnVpdEx4Ql95Z0VTRTdjbG5rYURVUmVBdzgxOTdudC1HNTFrX2lzbEFITXBETEx4VmtNUENnVVVzcUswamxybTFWUGNzZElVOHl1RWxtaXN2aGdHODdvVDY5WG1YNzBPRHNpLWQtM2Nmd1ctTE1aLUFZdWlDZkxETVZicWtyMXptVUF1RklHcDNyNUNIUk55Nw?oc=5",
-       "s": "Bloomberg",
-       "c": "US",
-       "l": "en",
-       "p": 1794818025,
-       "r": "known"
-      },
-      {
-       "t": "USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?",
-       "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeV9idVVUaFB2a1hNbHIxci1yVmxNTTQwczhxSFdvZXFxWVIwX2NDVUd1Wjc2UHprbUxsaU44R1JvYWpqMmdVLTVuNy1Cb2lTYkpTQ3BuMW90a1B0TFdEUEYzcndiZVI2WDNHRDd1Qmt0N0ZwSzR3Si1iS09SYXZXMTV3bExYMEZNTGZTU19nbW54QzQ0VVVVc3loY1RQcHg4djY5eVJXVDdLeDFWZC1oUVl4NNIBuAFBVV95cUxNQ0dvV2xFTmFuLWVhbmVycEw3T1VsUVA5bDVsc19Ibkl3ZUtRWm93MEVjTlBKV01pSFNiWXkwbWItdzZaV0JyZ2FuUVJTM0ljV3RaWDVqLThWcDBTdEN5NGk2NTdyRmdBWDhDRkUxRi1CVWQ5M0xVcFZBU3Q1OGE3djBWenFYczdJYjFaVnVrRlp2OW8zX3ZFeW5TZGdhVDItM05WelpTVVdtb0g4eEFoRGg0M1pLNFBl?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "en",
-       "p": 1794824219,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "QA",
-      "US"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran again attacked a US military base in Bahrain, according to one Korean outlet. Russia's TASS reports that the US Embassy in Bahrain warned of attack threats from Iran and the Houthis.",
-     "stories": [
-      "s8",
-      "s13"
-     ],
-     "sources": [
-      {
-       "t": "Shaking the peace talks: Iran attacks US military base in Bahrain again",
-       "u": "https://www.hani.co.kr/arti/international/arabafrica/1287616.html",
-       "s": "Hankyoreh English",
+       "t": "Iran shakes up peace talks? Attacks US military base in Bahrain again",
+       "o": "종전 협상판 흔드나…이란, 바레인 미군 기지 또 공격",
+       "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1EbUFlclVOajlsQWM1S3ZzNWZzbUhrMEo2YVp2a1Z1RjhBSFlIVjhZekNsamNVeUlVazI4QkZzN0dHXzBxQnBLWVN5TUxGOXBPcDBkVnBOOWxQRVU5VFdDY1VuRVVFcTRoaVRic1puSGx2aEU?oc=5",
+       "s": "한겨레",
        "c": "KR",
-       "l": "en",
-       "p": 1794827238,
-       "r": "known"
-      },
-      {
-       "t": "The US Embassy in Bahrain warned of the threat of attacks by Iran and the Houthis.",
-       "o": "Посольство США в Бахрейне предупредило об угрозе атак Ирана и хуситов",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28321257",
-       "s": "TASS",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794821964,
-       "r": "state"
+       "l": "ko",
+       "p": 1794835020,
+       "r": "unrated"
       }
      ],
      "headlines": 2,
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "KR",
-      "RU"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "Iran rules out UN inspections of damaged nuclear sites until the war ends, per CBS News and Asharq Al-Awsat.",
-     "stories": [
-      "s5"
-     ],
-     "sources": [
-      {
-       "t": "Iran Rules Out UN Inspections of Damaged Nuclear Sites Until War Ends",
-       "u": "https://english.aawsat.com/node/5341808",
-       "s": "Asharq Al-Awsat English",
-       "c": "SA",
-       "l": "en",
-       "p": 1794823319,
-       "r": "known"
-      },
-      {
-       "t": "Iran rules out inspections of damaged nuclear sites until war ends",
-       "u": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
-       "s": "CBS News World",
-       "c": "US",
-       "l": "en",
-       "p": 1794818972,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 2,
-     "countries": [
-      "SA",
-      "US"
+      "ES",
+      "KR"
      ],
      "regions": 2,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "The Revolutionary Guards claim six oil tankers have burned or sunk in the Strait since Sunday; this is Iran's own figure and is not independently confirmed. The Guards also claim they shot down a US drone, and Iranian media say they seized a fourth US MQM-170 drone intact.",
+     "text": "Infobae reports a third US aircraft carrier has arrived in the Middle East, adding 5,000 personnel and 60 aircraft. RFI asks whether the buildup is a deterrent or a prelude to a new war with Iran.",
      "stories": [
-      "s3",
-      "s26",
-      "s10",
-      "s23"
+      "s15",
+      "s19"
      ],
      "sources": [
       {
-       "t": "Revolutionary Guard announces 6 oil tankers burned and sank since Sunday in the Strait of Hormuz",
-       "o": "الحرس الثوري يعلن احتراق وغرق 6 ناقلات نفط منذ الأحد بمضيق هرمز",
-       "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMkxIM1dxOVRyTE8ycGhOMWxOWnF5UF9SN2dqS00tWGQ1dUNtQW5ZcjQ1TnRERExEYlgtVlFiMDNBWWdUUGRLU2ZXT1V5RHdhMTBCMjM3bTRJcFR3ZUpFOXdxVHNFcUpsRTRDekdaV3VtbzcwckFiTmg5TTl4VWVTdmZZcGZKWVhnQ1B0TWpaOUNkZEZkN2UwY0E1MEF4R3d0eG5qMExIZWZWdw?oc=5",
-       "s": "CNN",
-       "c": "US",
-       "l": "ar",
-       "p": 1794819842,
+       "t": "The third US aircraft carrier arrives in the Middle East: amid tension with Iran, it adds 5,000 personnel and 60 aircraft",
+       "o": "Llegó el tercer portaaviones de EEUU a Medio Oriente: en plena tensión con Irán, suma 5.000 efectivos y 60 aeronaves",
+       "u": "https://www.infobae.com/america/mundo/2026/11/16/llego-el-tercer-portaaviones-de-eeuu-a-medio-oriente-en-plena-tension-con-iran-suma-5000-efectivos-y-60-aeronaves/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794833734,
        "r": "known"
       },
       {
-       "t": "Revolutionary Guard: We shot down an American drone in the Strait of Hormuz",
-       "o": "الحرس الثوري: أسقطنا مسيّرة أميركية في مضيق هرمز",
-       "u": "https://news.google.com/rss/articles/CBMimgNBVV95cUxORjhFRDJ4YVdBU2pMeE1yZVNEem5uUnZYTWpHNE4tamRCSl9ZTUo1TkppX1pVRHlPTENObnVHU1JyUElBTzVWUFJzQkgxcV8xZEdrcXlmMkVKOVVWX3BOX2JnWU8ycFdraXdSVnRUSDhTamt5NTdDeE92aGVxQi04cHN2WkNNeXdJRmV2NU9ZTE0xRlcyR0xRS3hkYkRFR0FjMk5kRVk4eFVfb2xfcmFlQ2REcWhtaTJ4R2ZUa3BCRGgwM0NudmRVaURSbng2Sy1aQV9MaHNPWV9DZmNhaWlxdmdqQnYwTkxvbHdCNkpZZlhKelVBZ1d4WDVVN1haY2ZVSG9laGZhTmJ3dXBxU2JqeU1fYjhodHdSaEVJYmRHRjFkYTNOZ1c3NDVLQW9OM0d2anc0SUtvcndsOEdBS1VSYVR3dFhVWWp2X2o0YVA4Mk5ZaHZNYTRVZ1ZhZ3luU01MT296VE1hUVpFTVB4dUdTdWZoYzJfQXlUY3hWRjNkU3pfUDlBOXQyR2cxMmJxYy0xQWxtTzVCc3VlQQ?oc=5",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794825360,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran’s IRGC Navy seizes 4th US MQM-170 drone intact",
-       "u": "https://en.mehrnews.com/news/249449/Iran-s-IRGC-Navy-seizes-4th-US-MQM-170-drone-intact",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794824372,
-       "r": "state"
-      },
-      {
-       "t": "Iran again stresses diplomacy but tanker fires deepen Gulf tensions",
-       "u": "https://www.dailysabah.com/world/mid-east/iran-again-stresses-diplomacy-but-tanker-fires-deepen-gulf-tensions",
-       "s": "Daily Sabah",
-       "c": "TR",
-       "l": "en",
-       "p": 1794824400,
+       "t": "Three US aircraft carriers in the Middle East: a show of strength for deterrence or a prelude to a new war with Iran?",
+       "o": "سه ناو هواپیمابر آمریکا در خاورمیانه؛ نمایش قدرت برای بازدارندگی یا مقدمه‌ای برای جنگ تازه با ایران؟",
+       "u": "https://www.rfi.fr/fa/%D8%AE%D8%A7%D9%88%D8%B1%D9%85%DB%8C%D8%A7%D9%86%D9%87/20261116-%D8%B3%D9%87-%D9%86%D8%A7%D9%88-%D9%87%D9%88%D8%A7%D9%BE%DB%8C%D9%85%D8%A7%D8%A8%D8%B1-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D8%AF%D8%B1-%D8%AE%D8%A7%D9%88%D8%B1%D9%85%DB%8C%D8%A7%D9%86%D9%87%D8%9B-%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D9%82%D8%AF%D8%B1%D8%AA-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A8%D8%A7%D8%B2%D8%AF%D8%A7%D8%B1%D9%86%D8%AF%DA%AF%DB%8C-%DB%8C%D8%A7-%D9%85%D9%82%D8%AF%D9%85%D9%87-%D8%A7%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AC%D9%86%DA%AF-%D8%AA%D8%A7%D8%B2%D9%87-%D8%A8%D8%A7-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86",
+       "s": "RFI Persian",
+       "c": "FR",
+       "l": "fa",
+       "p": 1794831663,
        "r": "known"
-      },
-      {
-       "t": "ECO members throw weights behind Iran's proposal to end war",
-       "u": "https://en.mehrnews.com/news/249448/ECO-members-throw-weights-behind-Iran-s-proposal-to-end-war",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794823217,
-       "r": "state"
       }
      ],
-     "headlines": 6,
-     "outlets": 5,
-     "independent": 5,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "IR",
-      "LB",
-      "TR",
-      "US"
+      "AR",
+      "FR"
      ],
-     "regions": 3,
+     "regions": 2,
      "party_only": false,
-     "state": 3
+     "state": 0
+    },
+    {
+     "text": "The Revolutionary Guards claim they seized an American drone near the Strait of Hormuz. Russian agency Interfax and Infobae carry the claim; no US response is reported.",
+     "stories": [
+      "s3",
+      "s4"
+     ],
+     "sources": [
+      {
+       "t": "The IRGC claimed to have seized an American drone near the Strait of Hormuz",
+       "o": "КСИР заявил о захвате американского беспилотника вблизи Ормузского пролива",
+       "u": "https://www.interfax.ru/world/1129312",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794830580,
+       "r": "known"
+      },
+      {
+       "t": "Iran announces capture of a US Army drone after \"an electronic warfare operation\" in Hormuz",
+       "o": "Irán anuncia la captura de un dron del Ejército de EEUU tras \"una operación de guerra electrónica\" en Ormuz",
+       "u": "https://www.infobae.com/america/agencias/2026/11/16/iran-anuncia-la-captura-de-un-dron-del-ejercito-de-eeuu-tras-una-operacion-de-guerra-electronica-en-ormuz/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794838612,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "AR",
+      "RU"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 1
     }
    ],
    "watch": [
-    "Further UKMTO reports of tanker fires or mine hits in the Strait of Hormuz",
-    "Attacks on US bases in Bahrain and any new US Embassy security alerts",
-    "Movements of the third carrier and whether Iran's diplomacy proposal gains traction"
+    "Whether the US or Bahrain confirms the new attack on the Bahrain base",
+    "Further tanker incidents in Hormuz and whether shipping traffic through the strait is disrupted",
+    "Iran's response to the third carrier's arrival and any Pakistan or Russia-led diplomacy"
    ],
    "window_hours": 3,
-   "headlines_read": 45,
-   "outlets_read": 33,
-   "countries_read": 16,
+   "headlines_read": 37,
+   "outlets_read": 29,
+   "countries_read": 18,
    "languages_read": 10,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-16T00:11:39Z",
