@@ -1,57 +1,7 @@
 {
  "month": "2026-11",
- "usd": 19.1275,
+ "usd": 20.1409,
  "runs": [
-  {
-   "at": "2026-11-04T05:56:26Z",
-   "what": "weekly Americas review",
-   "model": "claude-opus-5-5",
-   "in": 7160,
-   "out": 9906,
-   "searches": 0,
-   "batch": true,
-   "usd": 0.1134
-  },
-  {
-   "at": "2026-11-04T05:59:28Z",
-   "what": "weekly big picture",
-   "model": "claude-opus-5-5",
-   "in": 33364,
-   "out": 14963,
-   "searches": 0,
-   "batch": true,
-   "usd": 0.2164
-  },
-  {
-   "at": "2026-11-04T09:02:04Z",
-   "what": "daily search notes",
-   "model": "claude-sonnet-5-5",
-   "in": 181426,
-   "out": 25095,
-   "searches": 12,
-   "batch": true,
-   "usd": 0.4269
-  },
-  {
-   "at": "2026-11-04T09:05:08Z",
-   "what": "daily analysis",
-   "model": "claude-opus-5-5",
-   "in": 20312,
-   "out": 9720,
-   "searches": 0,
-   "batch": true,
-   "usd": 0.1378
-  },
-  {
-   "at": "2026-11-04T09:24:09Z",
-   "what": "boiling point",
-   "model": "claude-opus-5-5",
-   "in": 15726,
-   "out": 6228,
-   "searches": 0,
-   "batch": true,
-   "usd": 0.0937
-  },
   {
    "at": "2026-11-05T04:41:16Z",
    "what": "ai risk",
@@ -811,10 +761,60 @@
    "searches": 0,
    "batch": true,
    "usd": 0.1315
+  },
+  {
+   "at": "2026-11-16T10:35:16Z",
+   "what": "daily search notes",
+   "model": "claude-sonnet-5-5",
+   "in": 149513,
+   "out": 25804,
+   "searches": 10,
+   "batch": true,
+   "usd": 0.3785
+  },
+  {
+   "at": "2026-11-16T10:39:20Z",
+   "what": "daily analysis",
+   "model": "claude-opus-5-5",
+   "in": 45893,
+   "out": 19136,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.2831
+  },
+  {
+   "at": "2026-11-16T10:47:26Z",
+   "what": "boiling point",
+   "model": "claude-opus-5-5",
+   "in": 20531,
+   "out": 10692,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.148
+  },
+  {
+   "at": "2026-11-16T10:49:59Z",
+   "what": "ai risk",
+   "model": "claude-opus-5-5",
+   "in": 8829,
+   "out": 5773,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.0754
+  },
+  {
+   "at": "2026-11-16T10:52:00Z",
+   "what": "actions",
+   "model": "claude-opus-5-5",
+   "in": 24030,
+   "out": 8029,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.1283
   }
  ],
  "cap": 45.0,
- "headlines_usd": 1.4536,
- "total_usd": 21.037,
- "focus_usd": 0.4559
+ "headlines_usd": 1.5597,
+ "total_usd": 22.2434,
+ "focus_usd": 0.5428
 }

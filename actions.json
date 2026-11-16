@@ -1139,6 +1139,131 @@
    "added": "2026-11-15",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-14-iq-1",
+   "date": "2026-11-14",
+   "country": "IQ",
+   "kind": "reassurance",
+   "what": "Iraq issues an official statement on reports of a 72-hour airspace closure; headline does not say if it denied or confirmed them",
+   "url": "https://www.skynewsarabia.com/middle-east/1904795-%D8%A8%D9%8A%D8%A7%D9%86-%D8%B1%D8%B3%D9%85%D9%8A-%D8%B9%D8%B1%D8%A7%D9%82%D9%8A-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A3%D9%86%D8%A8%D8%A7%D8%A1-%D8%A5%D8%BA%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A3%D8%AC%D9%88%D8%A7%D8%A1-%D9%8472-%D8%B3%D8%A7%D8%B9%D8%A9",
+   "outlet": "Sky News Arabia",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-16",
+   "independent": 1,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-16-ru-1",
+   "date": "2026-11-16",
+   "country": "RU",
+   "kind": "military-readiness",
+   "what": "Yakutia region keeps recruiting reservists into 'mobile fire groups', units usually used against drones (regional outlet)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcG9GNHVYQTBzNVpaQzJnS3Z1RFIwX1F3WGYtdW1mclBtOFZ3b1hzeXJLMF9TbnU1dWtGdElVZHVuUjNiMnJOMVZ6LV8tY1NUSzhhWDZ6WjdCYmV2Mk8teklDdHB3LWpLRnl3YW9idkY5OFZueHFyR3Vaa01aVFJ3dElNQ21NNTFheUF6azhR?oc=5",
+   "outlet": "ЯСИА",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-16",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-16-jp-1",
+   "date": "2026-11-16",
+   "country": "JP",
+   "kind": "supply-reserves",
+   "what": "Japan reportedly plans to propose an 'Asian IEA' for joint oil stockpiles, with ASEAN states able to rent Japanese storage tanks",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GVmg5Z2NhUGdTWGVwWjZjcU94TEU4WVBRS3lvTUZVS052YWhmMUxjcjRxZXJsWFlGOG8yRzlrbm5tUm5EVF9WSGlCaWxYVGJQWGFxUWZwVEtzNDZoanhDMmlHSUdjb01hSzZTaUVn?oc=5",
+   "outlet": "thestandard.co",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-16",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-16-ae-1",
+   "date": "2026-11-16",
+   "country": "AE",
+   "kind": "supply-reserves",
+   "what": "Four ASEAN states and the UAE are reported set to join a regional oil-sharing initiative (Inquirer; members not named in headline)",
+   "url": "https://globalnation.inquirer.net/348114/4-asean-nations-uae-set-to-join-oil-sharing-initiative",
+   "outlet": "Inquirer Global Nation",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-16",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-16-ne-1",
+   "date": "2026-11-16",
+   "country": "NE",
+   "kind": "military-readiness",
+   "what": "Niger's general-mobilisation committee (COMOG) meets wives of defence and security forces, per state paper Le Sahel",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNFRhXy1JUGNBcFBwSE9Pc3FxWXhSUUxjckFKcnpKaDNuX3MtellUdS1RXzR5RUxsRzdjSVZTNTJteEphQXpBUFMweFREQ1U2dDg1dENGT2VETUJFekpVMWtwdzBFcWppZ1dYMnpJdksyeG9Sc1VEbEFHa2ZJWG1IMm1zY1ZyUmNSNk5GTG9uY0hFZGlQNTBEOV9Mb0VfaGM4d0I5N3hNSkhuTTU2aWhXdkd5R3I3VXhva3VSSnZFVThtS3lCRkxYMjJoUkhXUG9BTHprVnNJYVFqMVR2UW5j?oc=5",
+   "outlet": "Le Sahel.org",
+   "hotspots": [
+    "burkina-niger-sahel"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-16",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-16-jp-2",
+   "date": "2026-11-16",
+   "country": "JP",
+   "kind": "military-readiness",
+   "what": "Japan widens government involvement in defence-goods production; Yonhap notes critics' worry about a 'total mobilisation' echo",
+   "url": "https://www.yna.co.kr/view/AKR20261116046700073",
+   "outlet": "Yonhap Korean",
+   "hotspots": [
+    "china-japan-east-china-sea",
+    "china-taiwan-pressure"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-16",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-16-kr-1",
+   "date": "2026-11-16",
+   "country": "KR",
+   "kind": "health-surge",
+   "what": "Gunsan city, South Korea, urges blood donations during a winter shortage (seasonal, no conflict link stated)",
+   "url": "https://www.yna.co.kr/view/AKR20261116031900055",
+   "outlet": "Yonhap Korean",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-16",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -3508,6 +3633,213 @@
    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-kills-palestinian-man-wounds-two-others-gaza",
    "source": "corpus",
    "independent": 11
+  },
+  {
+   "id": "e-2026-11-16-7",
+   "date": "2026-11-15",
+   "kind": "news",
+   "what": "Drones attacked three merchant ships in the Black Sea off the coast of Romania",
+   "countries": [
+    "AR",
+    "BE",
+    "ES",
+    "FR",
+    "IT",
+    "PL",
+    "PT",
+    "RU"
+   ],
+   "hotspot": "black-sea-shipping-attacks",
+   "url": "https://www.rbc.ru/rbcfreenews/6af9ccc47f8668dfa9681cdc",
+   "source": "corpus",
+   "independent": 10
+  },
+  {
+   "id": "e-2026-11-16-8",
+   "date": "2026-11-15",
+   "kind": "news",
+   "what": "Yemen’s Houthis unilaterally release 600 war detainees",
+   "countries": [
+    "AR",
+    "BR",
+    "IT",
+    "QA",
+    "RU",
+    "US"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
+   "source": "corpus",
+   "independent": 9
+  },
+  {
+   "id": "e-2026-11-16-1",
+   "date": "2026-11-16",
+   "kind": "news",
+   "what": "Yemeni government partner forces withdraw from Bab al-Mandab after the Houthis seized the port city of Mokha",
+   "countries": [
+    "AR",
+    "AU",
+    "CN",
+    "DE",
+    "FR",
+    "GB",
+    "HK",
+    "IL"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.dw.com/sw/vikosi-washirika-wa-serikali-ya-yemen-vyaondoka-bab-al-mandab-baada-ya-wahouthi-kuuteka-mji-wa-bandari-wa-mokha/a-79953886?maca=kis-rss-kis-all-1488-rdf",
+   "source": "corpus",
+   "independent": 23
+  },
+  {
+   "id": "e-2026-11-16-2",
+   "date": "2026-11-16",
+   "kind": "news",
+   "what": "US Intel Says Iran Still Has 2,500 Missiles",
+   "countries": [
+    "BR",
+    "FR",
+    "ID",
+    "IN",
+    "IT",
+    "KR",
+    "LB",
+    "SA"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://english.aawsat.com/node/5341746",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-16-3",
+   "date": "2026-11-16",
+   "kind": "news",
+   "what": "Iran launched a drone attack on a US military base located in Bahrain",
+   "countries": [
+    "BR",
+    "EC",
+    "FR",
+    "GB",
+    "IL",
+    "IT",
+    "LK",
+    "RU"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.bbc.co.uk/tigrinya/live/cq36geepl273t?at_medium=RSS&at_campaign=rss",
+   "source": "corpus",
+   "independent": 14
+  },
+  {
+   "id": "e-2026-11-16-4",
+   "date": "2026-11-16",
+   "kind": "news",
+   "what": "UK, Australia, Canada and Italy demand Israel's government allow humanitarian aid into Gaza",
+   "countries": [
+    "AE",
+    "AR",
+    "CH",
+    "EG",
+    "ES",
+    "GB",
+    "HK",
+    "IT"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://elpais.com/internacional/2026-11-16/el-reino-unido-australia-canada-e-italia-exigen-al-gobierno-de-israel-que-permita-la-entrada-de-ayuda-humanitaria-en-gaza.html",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-16-5",
+   "date": "2026-11-16",
+   "kind": "news",
+   "what": "Ukraine Hits Russia’s Crimea Bridge in 1,300-Drone Barrage",
+   "countries": [
+    "DE",
+    "FR",
+    "HK",
+    "IN",
+    "RU",
+    "SA",
+    "SG",
+    "TH"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://english.aawsat.com/node/5341790",
+   "source": "corpus",
+   "independent": 10
+  },
+  {
+   "id": "e-2026-11-16-6",
+   "date": "2026-11-16",
+   "kind": "news",
+   "what": "Zelensky: Starlink restrictions sabotage Ukraine's fight against Russia",
+   "countries": [
+    "GB",
+    "HK",
+    "IN",
+    "LB",
+    "QA",
+    "SA",
+    "TH",
+    "UA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.bbc.co.uk/swahili/live/cmkgk30kvyrzt?at_medium=RSS&at_campaign=rss",
+   "source": "corpus",
+   "independent": 8
+  },
+  {
+   "id": "e-2026-11-16-7",
+   "date": "2026-11-16",
+   "kind": "news",
+   "what": "Third US aircraft carrier arrives in Middle East amid tensions with Iran",
+   "countries": [
+    "BR",
+    "DE",
+    "ID",
+    "IN",
+    "LB",
+    "QA",
+    "US",
+    "VN"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/third-us-aircraft-carrier-arrives-in-middle-east-amid-tensions-with-iran?traffic_source=rss",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
+   "id": "e-2026-11-16-8",
+   "date": "2026-11-16",
+   "kind": "news",
+   "what": "On a surprise visit to Ukraine... Prince Harry to war wounded: \"You will defeat Russia",
+   "countries": [
+    "AR",
+    "AT",
+    "DE",
+    "GB",
+    "QA",
+    "SA",
+    "ZA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://aawsat.com/node/5341809",
+   "source": "corpus",
+   "independent": 9
+  },
+  {
+   "id": "e-2026-11-16-ladder-us-israel-iran-war",
+   "date": "2026-11-16",
+   "kind": "ladder",
+   "what": "Boiling point: us-israel-iran-war moved from stage 3 to 4 (Brink)",
+   "countries": [],
+   "hotspot": "us-israel-iran-war",
+   "url": "",
+   "source": "rule"
   }
  ]
 }

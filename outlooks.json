@@ -581,6 +581,54 @@
 "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kck9STFR6QV9PQVFUbVJ5eG92elgxZ3ozZ0NsOTltU3kzMzBqTlZudWxnQWlnR2VSb05GelBIbU1QUnNPYk91VVdkX0NNMnFQN01ZakNB?oc=5",
 "https://news.un.org/en/story/2026/10/1168638"
 ]
+},
+{
+"made": "2026-11-16",
+"hotspot": "us-israel-iran-war",
+"text": "Further Iranian attacks or claimed attacks on Gulf shipping or Gulf bases are reported by Nov 30.",
+"likelihood": "likely",
+"check_by": "2026-11-30",
+"basis": [
+"https://www.aa.com.tr/en/middle-east/iran-says-2-oil-tankers-hit-mines-catch-fire-in-strait-of-hormuz/4126136",
+"https://foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15",
+"https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain",
+"https://www.sofx.com/iran-hits-u-s-base-in-bahrain-with-drones-for-second-time-in-three-days/"
+]
+},
+{
+"made": "2026-11-16",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Houthi missiles or drones are again reported aimed at Saudi territory by Nov 30.",
+"likelihood": "likely",
+"check_by": "2026-11-30",
+"basis": [
+"https://www.thehindu.com/news/international/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-in-eastern-province/article71704331.ece",
+"https://www.bbc.co.uk/urdu/live/cmlyjkzxel2et?at_medium=RSS&at_campaign=rss",
+"https://www.thenationalnews.com/news/mena/2026/11/15/southern-yemeni-forces-withdraw-from-area-near-bab-al-mandab/"
+]
+},
+{
+"made": "2026-11-16",
+"hotspot": "russia-ukraine-war",
+"text": "The Nov 19 Shenzhen meeting ends without a Russia-Ukraine ceasefire announcement.",
+"likelihood": "very likely",
+"check_by": "2026-11-22",
+"basis": [
+"https://www.koreatimes.co.kr/world/20261116/china-confirms-first-xi-trump-putin-summit-on-thursday",
+"https://english.aawsat.com/world/5341790-ukraine-hits-russia%E2%80%99s-crimea-bridge-1300-drone-barrage"
+]
+},
+{
+"made": "2026-11-16",
+"hotspot": "black-sea-shipping-attacks",
+"text": "Another drone hit on a merchant ship in Romanian waters is reported by Nov 30.",
+"likelihood": "roughly even chance",
+"check_by": "2026-11-30",
+"basis": [
+"https://gcaptain.com/three-ships-struck-by-drones-in-black-sea-near-romanian-shipping-canal/",
+"https://www.trtworld.com/article/937e89028458",
+"https://epaper.dawn.com/DetailImage.php?StoryImage=16_11_2026_011_007"
+]
 }
 ]
 }
