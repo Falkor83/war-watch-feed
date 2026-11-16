@@ -1748,9 +1748,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Trump raises Iran at Shenzhen summit; Hormuz drone and mine reports unconfirmed",
+   "status": "Iran says it downed a US drone over Hormuz; mine-hit and carrier reports unconfirmed",
    "summary": "The US and Israel have been at war with Iran, and a US blockade and Iranian attacks have disrupted the Strait of Hormuz. US officials told CBS that a preliminary June deal collapsed, the blockade was reinstated, and the US struck Iran's Qeshm Island this week. On Nov 15-16 Iran's Revolutionary Guards said the southern Hormuz route is mined and that several tankers hit mines and caught fire. Reuters said it could not verify these claims. The UK monitor UKMTO confirmed only one tanker hit by an unknown projectile, with all crew safe, and raised its regional threat level to severe. Bahrain says it intercepted Iranian attacks for the second time in three days, and US Central Command says no damage was done.",
    "latest": [
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T20:54:38Z",
+     "text": "Iran's army says it shot down an MQ-1-type US drone over the Strait of Hormuz. Iranian, Russian and Turkish state media carry the claim, and no US response is reported.",
+     "outlet": "TRT Haber Dunya",
+     "country": "Turkey",
+     "url": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-mq-1-tipi-iha-dusuruldu-963459.html",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T20:54:38Z",
+     "text": "RIA Novosti reports a fourth ship hit a mine in the Strait of Hormuz in one day. This comes from one state outlet, and no independent source confirms it.",
+     "outlet": "RIA Novosti",
+     "country": "Russia",
+     "url": "https://ria.ru/20261116/ormuz-2131990727.html",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": true
+    },
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T20:54:38Z",
+     "text": "US and Israeli outlets report a larger US naval buildup. The Jerusalem Post and WSJ report three carriers and 53,000 troops in the region, and the WSJ also reports a fifth carrier deploying. Sky News Arabia reports a third carrier. The carrier counts differ, and these are sides' own media reports.",
+     "outlet": "Sky News Arabia",
+     "country": "United Arab Emirates",
+     "url": "https://www.skynewsarabia.com/world/1905146-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%AA%D8%AF%D9%81%D8%B9-%D8%A8%D8%AD%D8%A7%D9%85%D9%84%D8%A9-%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D9%88%D8%B3%D8%B7-%D8%AA%D9%88%D8%AA%D8%B1-%D9%85%D8%AA%D8%B5%D8%A7%D8%B9%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-16",
      "at": "2026-11-16T17:31:39Z",
@@ -1803,39 +1836,6 @@
      "country": "Spain",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMVo0ZzJ4Wms0NUFHd0ltZ0c5Rm9ROXRXRWs3RGdfc01qaTN3UnF5WTdaOVlHWEtaT1A3Z3BkVk5sVl9TdEZzVl9tY1hjYVVmVThPTXFnc2JobklpQnA4SkR3X1FNdzl1YzFmbGlyRWhaUnd4ZGV1dkN1THU0WFBVM3htZXV5dnVfaU1LZ0dqQXAyNHlTRFU1QUlJSU94NHh0TlFOcG1jV3RlM3lhaGI3LVkzeVNlQnI1dTRXbGtUVFlLZm5I?oc=5",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-16",
-     "at": "2026-11-16T14:48:14Z",
-     "text": "Infobae reports a third US aircraft carrier has arrived in the Middle East, adding 5,000 personnel and 60 aircraft. RFI asks whether the buildup is a deterrent or a prelude to a new war with Iran.",
-     "outlet": "Infobae",
-     "country": "Argentina",
-     "url": "https://www.infobae.com/america/mundo/2026/11/16/llego-el-tercer-portaaviones-de-eeuu-a-medio-oriente-en-plena-tension-con-iran-suma-5000-efectivos-y-60-aeronaves/",
-     "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-16",
-     "at": "2026-11-16T11:24:59Z",
-     "text": "Iran's Revolutionary Guards and Navy say more tankers caught fire in or near the Strait of Hormuz; Pasdaran say two more were on fire after hitting mines. Iranian media alone report explosions on two oil tankers.",
-     "outlet": "Sky TG24",
-     "country": "Italy",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yY0lyai0zbHVtUUFfS05kSWhiTHBCc3lNd2Z3Uk5ybG5WdFJtdlR2bk5fZDN4MEZGNU5QMFFmQzE2MjRMaUJqR2NZcHZITThVckpCYzgxcXp3R0JqQWRTcW1FT3ZEeTAtbXVTelNGQjRYM1o0V3NLN01YZw?oc=5",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-16",
-     "at": "2026-11-16T11:24:59Z",
-     "text": "A third US aircraft carrier has arrived in the Middle East, and Bloomberg reports Iran targeting a Bahrain base. Al Jazeera asks whether the US-Iran war is about to resume.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/third-us-aircraft-carrier-arrives-in-middle-east-amid-tensions-with-iran?traffic_source=rss",
-     "region": "gulf",
      "tag": "non-party",
      "state_media": false
     }
@@ -10448,260 +10448,232 @@
   {
    "id": "us-israel-iran-war",
    "date": "2026-11-16",
-   "question": "Will the US/Israel-Iran war widen into a regional war, with another Gulf state fighting Iran directly?",
+   "question": "Will the US/Israel–Iran war widen into a clearly wider regional war, with a new state joining, attacks on a new country's territory, or nucl",
    "stage": 4,
    "stage_label": "Brink",
    "likelihood": "unlikely",
-   "likelihood_of": "another state, such as Bahrain or another Gulf state, carrying out its own strikes on Iran within 30 days",
+   "likelihood_of": "reaching stage 5 (a clearly wider war) within 30 days",
    "horizon": "30 days",
-   "direction": "rising",
-   "summary": "Iran's Revolutionary Guards say they have mined the southern Hormuz route and that tankers have hit mines. UKMTO confirms one tanker was hit by an unknown projectile, with all crew safe, and Reuters could not verify the mine claims. Bahrain's military says it intercepted several Iranian attacks, the second strike on Bahrain in three days according to AFP, so a further state's forces are now repeatedly engaged. Gulf neighbours have so far answered with statements, not strikes of their own.",
+   "direction": "steady",
+   "summary": "The war between the US, Israel and Iran continues, with more US carriers heading to the region and Iran saying it shot down a US drone over the Strait of Hormuz. Israel's cabinet is reported to be discussing a strike on Iran that the US opposes. Diplomacy is also active: Trump says he will raise Iran with Xi and Putin. US and UK travel advice has not changed since late October, which points to a steady picture rather than a new jump.",
    "drivers": [
     {
-     "text": "Iran's Nour News says the IRGC Navy declared the southern Hormuz route mined, calling it a response to the US blockade",
-     "cites": [
-      "n03",
-      "n01"
-     ]
-    },
-    {
-     "text": "Bahrain's military says it intercepted several Iranian attacks, which AFP calls the second strike on Bahrain in three days; US Central Command says it downed two drones aimed at Bahrain",
-     "cites": [
-      "n08",
-      "n09"
-     ]
-    },
-    {
-     "text": "UKMTO raised the regional maritime threat level to severe and reports a tanker hit leaving the strait",
-     "cites": [
-      "n06",
-      "n04"
-     ]
-    },
-    {
-     "text": "A third US aircraft carrier has arrived as Iran steps up threats against US forces and Gulf states",
+     "text": "More US aircraft carriers are reported deploying toward Iran, though outlets give different counts (third vs fifth).",
      "cites": [
       "h5",
-      "h15"
+      "h6"
+     ]
+    },
+    {
+     "text": "Iran's army says it shot down a US MQ-1 drone over the Strait of Hormuz; this is Iran's claim, carried by Turkish, Russian and UK outlets.",
+     "cites": [
+      "h4",
+      "h7",
+      "h18"
+     ]
+    },
+    {
+     "text": "Israel's cabinet is reported to be discussing a strike on Iran despite US opposition.",
+     "cites": [
+      "h2"
+     ]
+    },
+    {
+     "text": "Iranian state-aligned media report a third tanker explosion in Hormuz and Iran rethinking its nuclear threshold.",
+     "cites": [
+      "h8",
+      "h9"
      ]
     }
    ],
    "brakes": [
     {
-     "text": "Saudi Arabia, Qatar, Jordan and Egypt responded with condemnation and solidarity statements, not military action",
+     "text": "Trump says he will discuss Iran with Xi and Putin at a summit in Shenzhen, and a Saudi outlet says Washington leaves the door to talks ajar.",
      "cites": [
-      "n10"
+      "h21",
+      "h24",
+      "h15"
      ]
     },
     {
-     "text": "Iran's claims of several tankers burning are unverified, and it is unclear whether the UKMTO incident is the same ship",
+     "text": "The US is reported to oppose an Israeli strike on Iran.",
      "cites": [
-      "n07",
-      "n05"
+      "h2"
+     ]
+    },
+    {
+     "text": "US and UK travel advice for Israel, Iran, Qatar and the UAE has not been updated since 22–27 October, and evacuation and airspace headlines are minimal (1 each).",
+     "cites": [
+      "d3",
+      "d6",
+      "d9",
+      "d2"
      ]
     }
    ],
-   "tip": "A Gulf state such as Bahrain or Saudi Arabia strikes Iranian territory, or Iranian fire kills people or hits infrastructure in a Gulf state.",
-   "offramp": "The US and Iran agree terms to reopen Hormuz, or UKMTO reports no new attacks on shipping for two weeks.",
+   "tip": "Iranian fire striking the territory of a Gulf state not yet in the fighting, or a strike on Iranian nuclear sites prompting a new state to join, would move it up a stage.",
+   "offramp": "An agreement from the Shenzhen talks, or US–Iran terms to reopen Hormuz with no reported attacks for two weeks, would move it down.",
    "watch": [
-    "Further Iranian strikes on Bahrain or other Gulf states",
-    "UKMTO incident reports near Hormuz",
-    "Any US-Iran talks on Hormuz"
+    "Outcome of the Trump–Xi–Putin talks on Iran",
+    "Whether Israel acts on a strike plan despite US opposition",
+    "Independent confirmation of Hormuz drone and tanker incidents"
    ],
-   "agree": "Yes: the data shows 333 clash and 128 threat headlines against 54 on talks, matching the Bahrain and Hormuz stories, though some volume comes from unrelated US-China chip and summit coverage.",
-   "sides": "Coverage is broad (286 outlets in 54 countries, 20% from involved states), but the mine and tanker-loss claims come from Iranian state media and are unverified, and US Central Command statements are also one side's account.",
-   "prev_stage": 3,
+   "agree": "Mostly yes. Clash and threat headlines are high (328 and 127), but part of the volume comes from summit coverage alongside 54 talks headlines, while unchanged travel advice and low evacuation and airspace counts do not show a new escalation",
+   "sides": "Coverage is broad, with 283 outlets in 53 countries and 22% from involved countries. The drone shoot-down and tanker reports trace back to Iranian sources, and the carrier counts differ between US and Gulf outlets.",
+   "prev_stage": 4,
    "headlines": [
     {
      "id": "h15",
-     "t": "Watch Iran Targets Bahrain Base as US Deploys Third Aircraft Carrier to Middle East",
-     "o": "",
-     "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTnVpdEx4Ql95Z0VTRTdjbG5rYURVUmVBdzgxOTdudC1HNTFrX2lzbEFITXBETEx4VmtNUENnVVVzcUswamxybTFWUGNzZElVOHl1RWxtaXN2aGdHODdvVDY5WG1YNzBPRHNpLWQtM2Nmd1ctTE1aLUFZdWlDZkxETVZicWtyMXptVUF1RklHcDNyNUNIUk55Nw?oc=5",
-     "s": "Bloomberg",
-     "c": "US",
-     "l": "en",
-     "p": 1794818025
+     "t": "Washington threatens Iran with force while leaving the door to negotiation \"ajar",
+     "o": "واشنطن تلوّح لإيران بالقوة وتترك باب التفاوض «موارباً»",
+     "u": "https://aawsat.com/node/5342040",
+     "s": "Asharq Al-Awsat",
+     "c": "SA",
+     "l": "ar",
+     "p": 1794848611
     },
     {
      "id": "h18",
-     "t": "Iran faces difficult options: expected US sanctions and negotiations over Hormuz",
-     "o": "إيران أمام خيارات صعبة .. عقوبات أمريكية مرتقبة ومفاوضات بشأن هرمز",
-     "u": "https://mustaqila.com/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A3%D9%85%D8%A7%D9%85-%D8%AE%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%B5%D8%B9%D8%A8%D8%A9-%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9/",
-     "s": "mustaqila.com",
-     "c": "IQ",
+     "t": "Iran says it shot down US drone over Strait of Hormuz",
+     "o": "",
+     "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-shot-down-us-drone-over-strait-hormuz",
+     "s": "Middle East Eye",
+     "c": "GB",
+     "l": "en",
+     "p": 1794846284
+    },
+    {
+     "id": "h2",
+     "t": "Ignoring the issue of the transitional government: the cabinet discusses a strike on Iran, and US opposition",
+     "o": "התעלם מסוגיית ממשלת המעבר: הקבינט דן בתקיפה באיראן, ובהתנגדות ארה\"ב",
+     "u": "https://www.ynet.co.il/news/article/rju44tdrml",
+     "s": "Ynet Hebrew",
+     "c": "IL",
+     "l": "he",
+     "p": 1794860195
+    },
+    {
+     "id": "h21",
+     "t": "Trump says to discuss Ukraine, Iran, nuclear disarmament with Putin and Xi Jinping",
+     "o": "",
+     "u": "https://tass.com/world/2219043",
+     "s": "TASS English",
+     "c": "RU",
+     "l": "en",
+     "p": 1794844035
+    },
+    {
+     "id": "h24",
+     "t": "Trump on his meeting with Xi and Putin: we will talk about nuclear disarmament, Iran and Ukraine",
+     "o": "ترمب عن لقاء شي وبوتين: سنتحدث عن نزع السلاح النووي وإيران وأوكرانيا",
+     "u": "https://aawsat.com/node/5341997",
+     "s": "Asharq Al-Awsat",
+     "c": "SA",
      "l": "ar",
-     "p": 1794816900
+     "p": 1794843051
+    },
+    {
+     "id": "h4",
+     "t": "Iranian army: MQ1-type UAV shot down over the Strait of Hormuz",
+     "o": "İran ordusu: Hürmüz Boğazı'nda MQ1 tipi İHA düşürüldü",
+     "u": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-mq-1-tipi-iha-dusuruldu-963459.html",
+     "s": "TRT Haber Dunya",
+     "c": "TR",
+     "l": "tr",
+     "p": 1794858840
     },
     {
      "id": "h5",
-     "t": "Iran escalates threats against US forces and Gulf states as third American carrier arrives",
+     "t": "Fifth U.S. Carrier Deploys for Iran War: How They Work",
      "o": "",
-     "u": "https://www.thenationalnews.com/news/gulf/2026/11/16/iran-escalates-threats-against-us-forces-and-gulf-states-as-third-american-carrier-arrives/",
-     "s": "The National",
-     "c": "AE",
+     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORHdNR0J3TWVLeks2NEhhanAtUjdrV3NaSGZQZndHWGhuY2xOSzN4YmM3UVBiX1Z2MGJ6bS1hOFJSNHNhYUFoZEFsQnV0MmYwczJLS1RkbmhkMFZOSzN0TnAyRWF1dG96QUZFNTNpb2ExbEI4eDRZNHl5TjNkOHBxNjY2d0d1TnhNLUVXSGdGeHZHSFFIY3lxeWVxS1ZNU0VJa1UwbGdOMWVYTkRJQVFlQVFHdU56MVZSMldETXc1SHlLbk5yZms1SHRR?oc=5",
+     "s": "Wall Street Journal",
+     "c": "US",
      "l": "en",
-     "p": 1794820872
+     "p": 1794855677
+    },
+    {
+     "id": "h6",
+     "t": "America deploys a third aircraft carrier amid escalating tension with Iran",
+     "o": "أميركا تدفع بحاملة ثالثة وسط توتر متصاعد مع إيران",
+     "u": "https://www.skynewsarabia.com/world/1905146-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%AA%D8%AF%D9%81%D8%B9-%D8%A8%D8%AD%D8%A7%D9%85%D9%84%D8%A9-%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D9%88%D8%B3%D8%B7-%D8%AA%D9%88%D8%AA%D8%B1-%D9%85%D8%AA%D8%B5%D8%A7%D8%B9%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+     "s": "Sky News Arabia",
+     "c": "AE",
+     "l": "ar",
+     "p": 1794852765
+    },
+    {
+     "id": "h7",
+     "t": "Mehr: Iranian air defense forces shot down a US MQ-1 drone near Hormuz",
+     "o": "Mehr: силы ПВО Ирана сбили американский беспилотник MQ-1 в районе Ормуза",
+     "u": "https://tass.ru/mezhdunarodnaya-panorama/28323561",
+     "s": "TASS",
+     "c": "RU",
+     "l": "ru",
+     "p": 1794852060
+    },
+    {
+     "id": "h8",
+     "t": "Third oil tanker explodes in Hormuz as IRGC warns of US-devised route",
+     "o": "",
+     "u": "https://www.tehrantimes.com/news/532227/Third-oil-tanker-explodes-in-Hormuz-as-IRGC-warns-of-US-devised",
+     "s": "Tehran Times",
+     "c": "IR",
+     "l": "en",
+     "p": 1794850901
+    },
+    {
+     "id": "h9",
+     "t": "After the strikes, Iran rethinks the nuclear threshold",
+     "o": "",
+     "u": "https://www.tehrantimes.com/news/532223/After-the-strikes-Iran-rethinks-the-nuclear-threshold",
+     "s": "Tehran Times",
+     "c": "IR",
+     "l": "en",
+     "p": 1794850140
     }
    ],
-   "notes": [
-    {
-     "id": "n01",
-     "date": "2026-11-16",
-     "fact": "Iran's Revolutionary Guards navy says two tankers hit mines and caught fire in the southern Hormuz route; it named no vessels and gave no casualty details.",
-     "url": "https://www.aa.com.tr/en/middle-east/iran-says-2-oil-tankers-hit-mines-catch-fire-in-strait-of-hormuz/4126136",
-     "outlet": "Anadolu Agency",
-     "home": "TR",
-     "region": "middle-east",
-     "media": "state-controlled",
-     "tag": "party-gov",
-     "key": "claim:irgc navy",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n03",
-     "date": "2026-11-16",
-     "fact": "Iran's Nour News, citing IRNA, says the IRGC Navy declared the southern route mined, calls it a response to the US blockade and warns shipowners off.",
-     "url": "https://nournews.ir/en/news/362340/irgc-navy-two-more-oil-tankers-explode-engulfed-in-massive-fires-in-hormuz-strait",
-     "outlet": "Nour News",
-     "home": "IR",
-     "region": "iran",
-     "media": "state-controlled",
-     "tag": "party-gov",
-     "key": "claim:irgc navy",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n04",
-     "date": "2026-11-16",
-     "fact": "The UK maritime monitor UKMTO reports a tanker leaving the strait was hit by an unknown projectile, causing an engine-room fire; all crew are accounted for and none were hurt.",
-     "url": "https://abcnews.com/International/live-updates/iran-live-updates-americans-tired-forever-wars-araghchi/?id=137967256",
-     "outlet": "ABC News",
-     "home": "US",
-     "region": "north-america",
-     "media": "private",
-     "tag": "party-press",
-     "key": "claim:ukmto",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n05",
-     "date": "2026-11-16",
-     "fact": "CBS notes it is unclear whether the UKMTO-reported projectile strike and Iran's mine-strike claim describe the same tanker.",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
-     "outlet": "CBS News",
-     "home": "US",
-     "region": "north-america",
-     "media": "private",
-     "tag": "party-press",
-     "key": "outlet:cbs-news",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n06",
-     "date": "2026-11-15",
-     "fact": "UKMTO set the regional maritime threat level to severe, citing IRGC attacks, attempted attacks and harassment of shipping near Hormuz.",
-     "url": "https://foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15",
-     "outlet": "Fox News",
-     "home": "US",
-     "region": "north-america",
-     "media": "private",
-     "tag": "party-press",
-     "key": "claim:ukmto",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n07",
-     "date": "2026-11-15",
-     "fact": "Reuters says it could not independently verify the Revolutionary Guards' claim that two tankers exploded after striking naval mines.",
-     "url": "https://www.arabnews.com/middle-east/two-tankers-on-fire-after-hitting-naval-mines-in-the-strait-of-hormuz-irans-irgc-says-3012053",
-     "outlet": "Arab News",
-     "home": "SA",
-     "region": "gulf",
-     "media": "state-funded",
-     "tag": "party-gov",
-     "key": "claim:irgc navy",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n08",
-     "date": "2026-11-15",
-     "fact": "Bahrain's military says it intercepted several Iranian attacks; AFP says sirens sounded and it was the second strike on Bahrain in three days.",
-     "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain",
-     "outlet": "France 24",
-     "home": "FR",
-     "region": "europe",
-     "media": "public-service",
-     "tag": "non-party",
-     "key": "claim:bahrain military",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n09",
-     "date": "2026-11-13",
-     "fact": "US Central Command says it shot down two Iranian drones aimed at Bahrain on Friday, with no injuries or damage, rejecting Iran's claim of destroying a US radar.",
-     "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
-     "outlet": "CBS News",
-     "home": "US",
-     "region": "north-america",
-     "media": "private",
-     "tag": "party-gov",
-     "key": "claim:us centcom",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n10",
-     "date": "2026-11-15",
-     "fact": "Saudi Arabia, Qatar, Jordan and Egypt condemned Iran's Sunday attacks on Bahrain, expressing solidarity with it.",
-     "url": "https://thehill.com/policy/international/6221436-iran-drone-attack-bahrain/",
-     "outlet": "The Hill",
-     "home": "US",
-     "region": "north-america",
-     "media": "private",
-     "tag": "party-press",
-     "key": "outlet:the-hill",
-     "hotspot": "us-israel-iran-war"
-    }
-   ],
+   "notes": [],
    "tiles": [
     {
      "id": "d1",
      "kind": "who_reports",
      "label": "Who's reporting (48 h)",
-     "value": "922 headlines",
-     "note": "286 outlets, 54 countries, 28 languages; 20% from the sides' own countries",
+     "value": "910 headlines",
+     "note": "283 outlets, 53 countries, 27 languages; 22% from the sides' own countries",
      "level": 0,
      "parts": [
       [
        "Middle East",
-       186
+       178
       ],
       [
        "Europe",
-       176
+       172
       ],
       [
        "Gulf",
-       131
+       120
       ],
       [
        "South & Central Asia",
-       79
-      ],
-      [
-       "Russia",
-       68
+       75
       ],
       [
        "Iran",
-       67
+       73
       ],
       [
        "East Asia",
-       57
+       62
       ],
       [
-       "SE Asia",
-       50
+       "Russia",
+       58
+      ],
+      [
+       "N. America",
+       55
       ]
      ]
     },
@@ -10709,13 +10681,13 @@
      "id": "d2",
      "kind": "headline_signals",
      "label": "Headline signals (48 h)",
-     "value": "573",
+     "value": "569",
      "note": "what the headlines are about (one headline can count twice)",
      "level": 2,
      "parts": [
       [
        "mobilization",
-       14
+       15
       ],
       [
        "evacuation",
@@ -10727,11 +10699,11 @@
       ],
       [
        "threats",
-       128
+       127
       ],
       [
        "clashes",
-       333
+       328
       ],
       [
        "talks",
@@ -10739,7 +10711,7 @@
       ],
       [
        "nuclear",
-       42
+       43
       ]
      ]
     },
@@ -10867,18 +10839,10 @@
      "id": "d17",
      "kind": "market",
      "label": "Betting market",
-     "value": "1% yes",
+     "value": "2% yes",
      "note": "Will the US officially declare war on Iran by December 31, 2026? (+0 pts this week); a market price, not a forecast",
      "level": 0,
      "url": "https://polymarket.com/event/will-the-us-officially-declare-war-on-iran-by"
-    },
-    {
-     "id": "d18",
-     "kind": "actions",
-     "label": "Preparedness actions (30 days)",
-     "value": "9",
-     "note": "6 countries: Egypt, India, Iran, Iraq, Israel, United Kingdom); latest 2026-11-12",
-     "level": 1
     }
    ],
    "score": 12.0,
@@ -10931,7 +10895,8 @@
      "2026-11-16",
      4
     ]
-   ]
+   ],
+   "recheck": "2026-11-16T20:55:13Z"
   },
   {
    "id": "yemen-houthi-saudi-war",
@@ -12716,11 +12681,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-13T22:46:54Z",
-     "headline": "Tankers reportedly hit mines in Hormuz; Brent flat at $95.84 amid calm",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-14T01:49:54Z",
      "headline": "Rubio: no more US strikes needed; Centcom says drones aimed at Bahrain downed",
      "direction": "steady"
@@ -12834,150 +12794,169 @@
      "at": "2026-11-16T17:31:39Z",
      "headline": "Trump raises Iran at Shenzhen summit; Hormuz drone and mine reports unconfirmed",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-16T20:54:38Z",
+     "headline": "Iran says it downed a US drone over Hormuz; mine-hit and carrier reports unconfirmed",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-16T17:31:39Z",
-   "next_at": "2026-11-16T20:31:39Z",
-   "headline": "Trump raises Iran at Shenzhen summit; Hormuz drone and mine reports unconfirmed",
+   "updated_at": "2026-11-16T20:54:38Z",
+   "next_at": "2026-11-16T23:54:38Z",
+   "headline": "Iran says it downed a US drone over Hormuz; mine-hit and carrier reports unconfirmed",
    "direction": "escalating",
    "points": [
     {
-     "text": "Trump says he will raise Iran, nuclear disarmament and Ukraine with Xi Jinping and Vladimir Putin during the Shenzhen meeting, according to Saudi, Russian and Turkish outlets and DW.",
+     "text": "Iran's army says it shot down an MQ-1-type US drone over the Strait of Hormuz. Iranian, Russian and Turkish state media carry the claim, and no US response is reported.",
      "stories": [
-      "s1",
-      "s17"
+      "s1"
      ],
      "sources": [
       {
-       "t": "Trump on his meeting with Xi and Putin: we will talk about nuclear disarmament, Iran and Ukraine",
-       "o": "ترمب عن لقاء شي وبوتين: سنتحدث عن نزع السلاح النووي وإيران وأوكرانيا",
-       "u": "https://aawsat.com/node/5341997",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1794843051,
-       "r": "known"
-      },
-      {
-       "t": "Trump wants to discuss Ukraine, Iran and nuclear disarmament with Putin and Xi Jinping",
-       "o": "Трамп хочет обсудить с Путиным и Си Цзиньпином Украину, Иран и ядерное разоружение",
-       "u": "https://www.interfax.ru/world/1129360",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794841200,
-       "r": "known"
-      },
-      {
-       "t": "Trump will discuss \"Iran, nuclear disarmament and Ukraine\" during his China visit",
-       "o": "Trump, Çin ziyaretinde \"İran, nükleer silahsızlanma ve Ukrayna\" konularını görüşecek",
-       "u": "https://www.aa.com.tr/tr/dunya/trump-cin-ziyaretinde-iran-nukleer-silahsizlanma-ve-ukrayna-konularini-gorusecek/4126961",
-       "s": "Anadolu Turkish",
+       "t": "Iranian army: MQ1-type UAV shot down over the Strait of Hormuz",
+       "o": "İran ordusu: Hürmüz Boğazı'nda MQ1 tipi İHA düşürüldü",
+       "u": "https://www.trthaber.com/haber/dunya/iran-ordusu-hurmuz-bogazinda-mq-1-tipi-iha-dusuruldu-963459.html",
+       "s": "TRT Haber Dunya",
        "c": "TR",
        "l": "tr",
-       "p": 1794846719,
-       "r": "state"
-      },
-      {
-       "t": "Trump, Putin and Xi meet in Shenzhen to discuss world peace, while Iran and nuclear weapons could be discussed",
-       "o": "Trump, Putin na Xi kukutana Shenzhen kujadili amani duniani, huku Iran na silaha za nyuklia zikiweza kujadiliwa",
-       "u": "https://www.dw.com/sw/trump-putin-na-xi-kukutana-shenzhen-kujadili-amani-duniani-huku-iran-na-silaha-za-nyuklia-zikiweza-kujadiliwa/a-79961583?maca=kis-rss-kis-all-1488-rdf",
-       "s": "DW Swahili",
-       "c": "DE",
-       "l": "sw",
-       "p": 1794841320,
-       "r": "known"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 4,
-     "countries": [
-      "DE",
-      "RU",
-      "SA",
-      "TR"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "Iran's Revolutionary Guards say they seized another US drone near Hormuz, which would be the fourth, per Russian state agency TASS. A Turkish and a British outlet report a US drone shot down over the strait, citing Iran. No US response is reported.",
-     "stories": [
-      "s19",
-      "s2",
-      "s25"
-     ],
-     "sources": [
-      {
-       "t": "Iran’s Islamic Revolutionary Guard Corps Navy seizes fourth US MQM-170 drone intact",
-       "u": "https://tass.com/world/2218931",
-       "s": "TASS English",
-       "c": "RU",
-       "l": "en",
-       "p": 1794840132,
-       "r": "state"
-      },
-      {
-       "t": "MQ-1 type UAV shot down over the Strait of Hormuz",
-       "o": "Hürmüz Boğazı'nda MQ-1 tipi İHA düşürüldü",
-       "u": "https://www.hurriyet.com.tr/dunya/hurmuz-bogazinda-mq-1-tipi-iha-dusuruldu-43380548",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794847440,
+       "p": 1794858840,
        "r": "known"
       },
       {
-       "t": "Iran says it shot down US drone over Strait of Hormuz",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-shot-down-us-drone-over-strait-hormuz",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794846284,
-       "r": "known"
-      },
-      {
-       "t": "IRGC Claims to Have Landed a U.S. Drone South of Qeshm",
-       "u": "https://iranwire.com/en/news/160323-irgc-claims-to-have-landed-a-us-drone-south-of-qeshm/",
-       "s": "IranWire",
+       "t": "Iranian Army shoots down MQ-1 drone over Strait of Hormuz",
+       "u": "https://en.mehrnews.com/news/249461/Iranian-Army-shoots-down-MQ-1-drone-over-Strait-of-Hormuz",
+       "s": "Mehr English",
        "c": "IR",
        "l": "en",
-       "p": 1794843159,
-       "r": "known"
+       "p": 1794855918,
+       "r": "state"
+      },
+      {
+       "t": "Iran's air defenses shoot down an American drone over the Strait of Hormuz",
+       "o": "ПВО Ирана сбила американский беспилотник над Ормузским проливом",
+       "u": "https://ria.ru/20261116/pvo-2131975193.html",
+       "s": "RIA Novosti",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794854218,
+       "r": "state"
       }
      ],
      "headlines": 4,
      "outlets": 4,
      "independent": 4,
      "countries": [
-      "GB",
       "IR",
       "RU",
       "TR"
      ],
-     "regions": 4,
+     "regions": 3,
+     "party_only": false,
+     "state": 3
+    },
+    {
+     "text": "RIA Novosti reports a fourth ship hit a mine in the Strait of Hormuz in one day. This comes from one state outlet, and no independent source confirms it.",
+     "stories": [
+      "s4"
+     ],
+     "sources": [
+      {
+       "t": "Fourth ship in a day hits a mine in the Strait of Hormuz",
+       "o": "Четвертое за сутки судно подорвалось на мине в Ормузском проливе",
+       "u": "https://ria.ru/20261116/ormuz-2131990727.html",
+       "s": "RIA Novosti",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794861137,
+       "r": "state"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "RU"
+     ],
+     "regions": 1,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Al Jazeera reports oil tankers hit sea mines in the Strait of Hormuz. This comes from a single outlet, and the Iranian navy's earlier claims of exploding tankers remain unverified.",
+     "text": "US and Israeli outlets report a larger US naval buildup. The Jerusalem Post and WSJ report three carriers and 53,000 troops in the region, and the WSJ also reports a fifth carrier deploying. Sky News Arabia reports a third carrier. The carrier counts differ, and these are sides' own media reports.",
      "stories": [
-      "s15"
+      "s7",
+      "s8",
+      "s11"
      ],
      "sources": [
       {
-       "t": "Oil tankers hit sea mines in the Strait of Hormuz",
-       "u": "https://www.aljazeera.com/video/newsfeed/2026/11/16/oil-tankers-hit-sea-mines-in-the-strait-of-hormuz?traffic_source=rss",
-       "s": "Al Jazeera",
-       "c": "QA",
+       "t": "America deploys a third aircraft carrier amid escalating tension with Iran",
+       "o": "أميركا تدفع بحاملة ثالثة وسط توتر متصاعد مع إيران",
+       "u": "https://www.skynewsarabia.com/world/1905146-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D8%A7-%D8%AA%D8%AF%D9%81%D8%B9-%D8%A8%D8%AD%D8%A7%D9%85%D9%84%D8%A9-%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D9%88%D8%B3%D8%B7-%D8%AA%D9%88%D8%AA%D8%B1-%D9%85%D8%AA%D8%B5%D8%A7%D8%B9%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1794852765,
+       "r": "known"
+      },
+      {
+       "t": "Three aircraft carriers, 53,000 troops in Middle East as US, Israel prepare for possible Iran war",
+       "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsTUVkTl9zazMyUGVMbjctb2lDWV9JRTY2aUZFaFljc1JyZHFOd3VmMmFnbTBsUno1UjFyTG5ROTd2ZHc4bjhJN19SUEMxa3lKRkNhUFo1dXkzNUww?oc=5",
+       "s": "Jerusalem Post",
+       "c": "IL",
        "l": "en",
-       "p": 1794843469,
+       "p": 1794856543,
+       "r": "known"
+      },
+      {
+       "t": "Watch What U.S. Aircraft Carriers Bring to the Iran War",
+       "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTEVOR1hUSWItcG1tUkJjMHgxclJENDhTQkZ5eXY5UTRuTTBpTE9FTlFJV1JlQzR2bmY0SEdQWDg2M2duZnd5UlVKb3N6MFYtLW85dmhtRGJDd2NQcnR3ZVRXeDZicWxEc1NVbFoxMGRZclhfRGEtbFlHdWhkczZ1VXRtSkh4Z0gyMmlfZEJCdkwybV9fNktLc21URFo3bWs5UmRJ?oc=5",
+       "s": "Wall Street Journal",
+       "c": "US",
+       "l": "en",
+       "p": 1794856380,
+       "r": "known"
+      },
+      {
+       "t": "Fifth U.S. Carrier Deploys for Iran War: How They Work",
+       "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORHdNR0J3TWVLeks2NEhhanAtUjdrV3NaSGZQZndHWGhuY2xOSzN4YmM3UVBiX1Z2MGJ6bS1hOFJSNHNhYUFoZEFsQnV0MmYwczJLS1RkbmhkMFZOSzN0TnAyRWF1dG96QUZFNTNpb2ExbEI4eDRZNHl5TjNkOHBxNjY2d0d1TnhNLUVXSGdGeHZHSFFIY3lxeWVxS1ZNU0VJa1UwbGdOMWVYTkRJQVFlQVFHdU56MVZSMldETXc1SHlLbk5yZms1SHRR?oc=5",
+       "s": "Wall Street Journal",
+       "c": "US",
+       "l": "en",
+       "p": 1794855677,
+       "r": "known"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "AE",
+      "IL",
+      "US"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Ynet, an Israeli outlet, reports the Israeli cabinet is discussing a strike on Iran, with US opposition. This is an Israeli media report only.",
+     "stories": [
+      "s9"
+     ],
+     "sources": [
+      {
+       "t": "Ignoring the issue of the transitional government: the cabinet discusses a strike on Iran, and US opposition",
+       "o": "התעלם מסוגיית ממשלת המעבר: הקבינט דן בתקיפה באיראן, ובהתנגדות ארה\"ב",
+       "u": "https://www.ynet.co.il/news/article/rju44tdrml",
+       "s": "Ynet Hebrew",
+       "c": "IL",
+       "l": "he",
+       "p": 1794860195,
        "r": "known"
       }
      ],
@@ -12985,124 +12964,26 @@
      "outlets": 1,
      "independent": 1,
      "countries": [
-      "QA"
+      "IL"
      ],
      "regions": 1,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "A Vietnamese outlet reports an Iranian attack killed 6 US soldiers in Kuwait, and an Israeli outlet reports families of soldiers killed in a strike on Kuwait criticising the Army. Neither has US official confirmation in these reports; the Israeli item is a side's own media.",
-     "stories": [
-      "s14",
-      "s26"
-     ],
-     "sources": [
-      {
-       "t": "Iran attack kills 6 US soldiers in Kuwait: Defense weaknesses revealed",
-       "o": "Vụ Iran tấn công làm 6 binh sĩ Mỹ tử trận ở Kuwait: Hé lộ lỗ hổng phòng thủ",
-       "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWHNIUGZ4aHVuc3dxVU5HWEFQU1BpQW1BRFRFNnlFMVpDSzZDc3J0QVdVaUFmdmY2X3BQZ0gwOHlRZjJ2Zml4MlBoT29ROURhOTVuWW5PN2NFLUNGYzRxNUhxb3RPcW1vMkgyeFBNWEpJS3M2U19qUk9MbGlLTkZxLWtPd0dIQzVCU3ZqQ2ZaOXNuQUltSlRLV1ZySUd4MXc5Y2EwNjlLRUZ3b3dmbml4ajdncWFYdTVuN1pJYUc3LTlFZkhYVFE?oc=5",
-       "s": "Báo Dân trí",
-       "c": "VN",
-       "l": "vi",
-       "p": 1794843662,
-       "r": "unrated"
-      },
-      {
-       "t": "'They killed my wife': Families of US soldiers killed in Iran strike on Kuwait slam Army leadership",
-       "u": "https://www.jpost.com/middle-east/article-915068",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1794842706,
-       "r": "known"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "IL",
-      "VN"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Washington threatens Iran with force while leaving the door to negotiation open, per Saudi media. Iran says nuclear inspections will only happen after the war ends. A third US carrier's arrival is confirmed by AP and The Hindu.",
-     "stories": [
-      "s6",
-      "s5",
-      "s4"
-     ],
-     "sources": [
-      {
-       "t": "Washington threatens Iran with force while leaving the door to negotiation \"ajar",
-       "o": "واشنطن تلوّح لإيران بالقوة وتترك باب التفاوض «موارباً»",
-       "u": "https://aawsat.com/node/5342040",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1794848611,
-       "r": "known"
-      },
-      {
-       "t": "Iran says it will only allow nuclear inspection after the end of the war",
-       "o": "Irã afirma que só permitirá inspeção nuclear após final da guerra",
-       "u": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/ira-afirma-que-so-permitira-inspecao-nuclear-apos-final-da-guerra.shtml",
-       "s": "Folha Mundo",
-       "c": "BR",
-       "l": "pt",
-       "p": 1794848820,
-       "r": "known"
-      },
-      {
-       "t": "Third American aircraft carrier arrives in West Asia as Trump keeps options open in Iran war",
-       "u": "https://www.thehindu.com/news/international/third-american-aircraft-carrier-arrives-in-west-asia-as-trump-keeps-options-open-in-iran-war/article71709128.ece",
-       "s": "The Hindu",
-       "c": "IN",
-       "l": "en",
-       "p": 1794848424,
-       "r": "known"
-      },
-      {
-       "t": "Third American aircraft carrier arrives in the Middle East as Trump keeps options open in Iran war",
-       "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYmZiWEcxLU9Xck9JR2h3VDIwa1VETmRCam5zQm1BWmhNcGhZS0pBdi1BZGRZLXhZT3VmUG5wYld2N1gydV8teDVFc0UtNVljakJ5Q1JNRkRUb0dqRDRfX0p4QVBGdkZRaWd3Y1J6aFdZWlZhVGt5LWxzcG9mRHVPYnBXZFFrSXVqYXkxd081YzdlNTN1T05yVTgwZUIzSUhQQWc?oc=5",
-       "s": "AP",
-       "c": "US",
-       "l": "en",
-       "p": 1794844860,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "BR",
-      "IN",
-      "SA",
-      "US"
-     ],
-     "regions": 4,
-     "party_only": false,
+     "party_only": true,
      "state": 0
     }
    ],
    "watch": [
-    "Whether the Pentagon or White House confirms or denies deaths of US soldiers in Kuwait",
-    "Any US response to Iran's drone seizure and shootdown claims near Hormuz",
-    "What Trump and Xi and Putin say on Iran at the Shenzhen summit"
+    "Whether the US confirms or denies losing a drone over Hormuz",
+    "Whether shipping data or insurers confirm the mine strikes",
+    "Trump's Asia trip and what he raises with Xi and Putin on Iran"
    ],
    "window_hours": 3,
-   "headlines_read": 37,
-   "outlets_read": 29,
-   "countries_read": 16,
-   "languages_read": 9,
+   "headlines_read": 21,
+   "outlets_read": 14,
+   "countries_read": 10,
+   "languages_read": 8,
    "model": "Claude Haiku 5.5",
-   "ladder_checked_at": "2026-11-16T00:11:39Z",
-   "ladder_note": "Re-checked after: Mines reportedly hit tankers in the Strait of Hormuz and set them on fire, a concrete shipping escalation confirmed by many independent outlets, though the strait itself is not reported closed."
+   "ladder_checked_at": "2026-11-16T20:54:38Z",
+   "ladder_note": "Re-checked after: Reports of a third to fifth US carrier deployment and a claimed drone shootdown suggest a military buildup, but the carrier counts differ and most reports come only from the sides' own media."
   }
  ],
  "ai_risk": {
