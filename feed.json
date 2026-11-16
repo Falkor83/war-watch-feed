@@ -1677,9 +1677,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Two more tankers hit mines in Hormuz; Iran drones Bahrain again; Houthis step up attacks",
+   "status": "Tankers hit mines in Hormuz; Iran cuts Strait reopening deadline to two days",
    "summary": "The US and Israel have fought Iran this year, and the Strait of Hormuz has been the main pressure point. US strikes in early November were described as limited. On Nov 15 Iran's Revolutionary Guards said they sent six drones at a base in Bahrain used by US forces, the first claimed strike on Bahrain in weeks; Bahrain says it intercepted the attack. Iran's navy says two or three tankers caught fire after hitting mines in Hormuz, while the US military says it has cleared the main routes. Secretary of State Rubio says further US military action is not needed because Iran's economy is weakened.",
    "latest": [
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T08:40:40Z",
+     "text": "Iran's Revolutionary Guards and army say oil tankers hit mines in the Strait of Hormuz and caught fire. Six independent outlets in five countries carry the mine reports. A British maritime report says a tanker was hit by an unknown projectile and caught fire.",
+     "outlet": "Al Arabiya English",
+     "country": "Saudi Arabia",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbndTVlFFeEM2NnhaTWpwWmRYMjB0eDBmdGlKVFp6VFZhOXhLeWhTTURsbHZrdUNOUEQwVkpwV2kzZm9yNWt4a1hXdFh6SnJNeUY1WmxHcGs0YWFQclRnX1ZzRTFZYnNITE5tT1Qwbjd1VkpjSmtwWmt4Z0VxaDFHQTg4QUk1ZmdrNTBWZWszb19sdGM3c2l3NS1WSEdneWkxaF9VYkhyanNBOUNRQU1xX1hNUkNuZnhmSHRVQ2lCdzdSbDlhWURMQkZIQdIB0AFBVV95cUxPazN4MlROWnV2V1dPUy1QTkdLYTRyLUVUb2dCcXRtZEhISVV3aUlxTW10MVFfUl8wNHFIVzhpRkNFLTAzZk5mdGxsWGFfTTNXNTN5R0h6YVF3WXAzUEptY3hHcmtHb01TRG52S2ZHRnZoYjhKRGVpVDlIMmpiQnJ5QVZvbW03MHFqbXFSa0VES2ZCMDQ0blROYzQ1Z3Z2aGlqSzhRX2doM2NlOHltOUU1eWE5ZDE1VXpLT0hqT3Q0cTdXME9rMklnMXB1MlBRcWVX?oc",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T08:40:40Z",
+     "text": "The Guards say six oil tankers have burned or sunk in the Strait since Sunday. That figure is Iran's own claim, carried by a few outlets, and is not independently confirmed.",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxONjhyU0hvaDd1WWsxYkE4Q0pNYUpiV2FvbF94ck44M0t3QnZrTVFWdEVrUU1XSGVON25iMGpQRnBIOUI0SVZTWjFwUF9NeVFmbW9qeHVJRldoVjQzc205SjhucUtRMlRFRm50Q2RuVnR1RkMta3hVMlhDWVJlR3NDOVNTQjBsUE5rTHpDdjZiT0tLZS1GNnRCVmFtVlYtOUg2WnRjSnVUOXZZczZqVF8tcUdPbGx6LWxyMGt3NzVoeV9PckZIUzdKcnc4LXF1aXJ1UlJ6eWVZTS1kcDBaYkNmNDdtRVdaMEZaR3hiX1R6VTBqSkZCaGMxWGg4NHdKVVFMbUNoQ3F2dEprc01Ia1JmX0EyT2ZkRkJvdE9Vb2pDVW9GNm5sNTRuaGlRYnZWMklEZDh1dWJUbldOeWhpbF80S21BT09Bclg4MXI2RXhB?oc=5",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T08:40:40Z",
+     "text": "Iran says it has cut the deadline for reopening the Strait of Hormuz from seven days to two.",
+     "outlet": "DW Turkish",
+     "country": "Germany",
+     "url": "https://www.dw.com/tr/i̇ran-hürmüz-boğazı-nda-iki-günde-6-tanker-yandı/a-79955026?maca=tur-rss-tur-all-1495-rdf",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-16",
      "at": "2026-11-16T05:55:37Z",
@@ -1732,39 +1765,6 @@
      "country": "United Kingdom",
      "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-16",
-     "at": "2026-11-16T03:12:00Z",
-     "text": "A third US aircraft carrier has arrived in the Middle East to join the blockade of Iran. Iran says it is still in a state of war and warns it could strike first.",
-     "outlet": "Hindustan Times World",
-     "country": "India",
-     "url": "https://www.hindustantimes.com/world-news/still-in-state-of-war-says-iran-as-third-us-carrier-arrives-in-west-asia-to-join-blockade-101794793624263.html",
-     "region": "south-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-16",
-     "at": "2026-11-16T00:11:39Z",
-     "text": "Several tankers hit naval mines in or near the Strait of Hormuz and caught fire, according to reports from many independent outlets. Iran's navy and Revolutionary Guards (IRGC) say at least two tankers were hit, and one of them sank.",
-     "outlet": "Tehran Times",
-     "country": "Iran",
-     "url": "https://www.tehrantimes.com/news/532186/Two-tankers-explode-after-hitting-naval-mines-south-of-Strait",
-     "region": "iran",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-16",
-     "at": "2026-11-16T00:11:39Z",
-     "text": "Iran launched drone attacks on a US military base in Bahrain, which Bahrain says it intercepted. Iran also claims it hit a radar in Bahrain, but that claim appears only in Israeli-published reporting. The UAE, the GCC and Saudi Arabia condemned the attacks as a violation of international law.",
-     "outlet": "Bloomberg",
-     "country": "United States",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTlsTGpib2E2Sm9JYXBzRlBxWTZNbGFEWHhjaHk3MG5ab1VybmtNNlAyaWtWYnFranRoZFRWNmY1clprM3lzeXJETGtTRW5oeldDa0NqdFJrWF9SZWkwUUZnSnNoVXJBcTk3ZmVNODB6Z21ZMVJLejZPSjI5S0pybXByY1hJNGEtWm5mNmVqZlJzVGxrblBCdVBiQVFNQQ?oc=5",
-     "region": "north-america",
      "tag": "non-party",
      "state_media": false
     }
@@ -12386,11 +12386,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-13T10:56:12Z",
-     "headline": "Iran claims Bahrain radar strike and tanker mine blast; Trump threatens, Vance sidelined",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-13T13:42:59Z",
      "headline": "Iran claims a US radar hit in Bahrain and a Hormuz mine blast; IAEA access still blocked",
      "direction": "steady"
@@ -12504,81 +12499,84 @@
      "at": "2026-11-16T05:55:37Z",
      "headline": "Two more tankers hit mines in Hormuz; Iran drones Bahrain again; Houthis step up attacks",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-16T08:40:40Z",
+     "headline": "Tankers hit mines in Hormuz; Iran cuts Strait reopening deadline to two days",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-16T05:55:37Z",
-   "next_at": "2026-11-16T08:55:37Z",
-   "headline": "Two more tankers hit mines in Hormuz; Iran drones Bahrain again; Houthis step up attacks",
+   "updated_at": "2026-11-16T08:40:40Z",
+   "next_at": "2026-11-16T11:40:40Z",
+   "headline": "Tankers hit mines in Hormuz; Iran cuts Strait reopening deadline to two days",
    "direction": "escalating",
    "points": [
     {
-     "text": "Iran's Revolutionary Guards say two oil tankers hit mines in the Strait of Hormuz. The same story ran in five independent outlets across six countries, mostly state media. The Guards also say six tankers caught fire on Sunday and Monday after hitting mines; this is their claim, reported by one Lebanese outlet.",
+     "text": "Iran's Revolutionary Guards and army say oil tankers hit mines in the Strait of Hormuz and caught fire. Six independent outlets in five countries carry the mine reports. A British maritime report says a tanker was hit by an unknown projectile and caught fire.",
      "stories": [
       "s1",
-      "s4"
+      "s7",
+      "s11"
      ],
      "sources": [
       {
-       "t": "Iran: 2 oil tankers exploded after hitting mines in the Strait of Hormuz",
-       "o": "İran: Hürmüz Boğazı'nda 2 petrol tankeri mayına çarparak infilak etti",
-       "u": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-2-petrol-tankeri-mayina-carparak-infilak-etti-963376.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794805200,
+       "t": "Oil tanker on fire in Strait of Hormuz due to naval mine, Iran’s army says",
+       "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbndTVlFFeEM2NnhaTWpwWmRYMjB0eDBmdGlKVFp6VFZhOXhLeWhTTURsbHZrdUNOUEQwVkpwV2kzZm9yNWt4a1hXdFh6SnJNeUY1WmxHcGs0YWFQclRnX1ZzRTFZYnNITE5tT1Qwbjd1VkpjSmtwWmt4Z0VxaDFHQTg4QUk1ZmdrNTBWZWszb19sdGM3c2l3NS1WSEdneWkxaF9VYkhyanNBOUNRQU1xX1hNUkNuZnhmSHRVQ2lCdzdSbDlhWURMQkZIQdIB0AFBVV95cUxPazN4MlROWnV2V1dPUy1QTkdLYTRyLUVUb2dCcXRtZEhISVV3aUlxTW10MVFfUl8wNHFIVzhpRkNFLTAzZk5mdGxsWGFfTTNXNTN5R0h6YVF3WXAzUEptY3hHcmtHb01TRG52S2ZHRnZoYjhKRGVpVDlIMmpiQnJ5QVZvbW03MHFqbXFSa0VES2ZCMDQ0blROYzQ1Z3Z2aGlqSzhRX2doM2NlOHltOUU1eWE5ZDE1VXpLT0hqT3Q0cTdXME9rMklnMXB1MlBRcWVX?oc",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794811560,
        "r": "known"
       },
       {
        "t": "Two oil tankers hit mines in the Strait of Hormuz, IRGC says",
-       "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaTR5QkNGNFZWT3Vvd2EwcUxmRHhSQ2VrSjNsZVQ0WjJwejBWUmJUYUpnT0M4eUx4NHprUDUtZFAyUXVCWmZZdVQzMnFDejRMZzQyUWM1LTZyeUVtT0NZQUs3Zlp3d2diY0JiYXFHQldpRXFlck41cWZmNFMxX01yejlEV0Fad2NPaERKM2t0OVcxUDY4azRRY3cydkE1TU5xOThJQnI3Zw?oc=5",
-       "s": "Arab News",
-       "c": "SA",
+       "u": "https://www.jpost.com/middle-east/article-915014",
+       "s": "Jerusalem Post",
+       "c": "IL",
        "l": "en",
-       "p": 1794804670,
+       "p": 1794810729,
        "r": "known"
       },
       {
-       "t": "IRGC says two oil tankers hit mines in the Hormuz Strait",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-two-oil-tankers-hit-mines-hormuz-strait",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794804473,
+       "t": "2 tankers exploded in the Strait of Hormuz",
+       "o": "Hürmüz Boğazı'nda 2 tanker infilak etti",
+       "u": "https://www.hurriyet.com.tr/dunya/hurmuz-bogazinda-2-tanker-infilak-etti-43379674",
+       "s": "Hurriyet Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794810150,
        "r": "known"
       },
       {
-       "t": "IRGC says two oil tankers hit mines and exploded in the Strait of Hormuz",
-       "o": "КСИР заявил о подрыве двух нефтяных танкеров на минах в Ормузском проливе",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28320327",
-       "s": "TASS",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794805602,
+       "t": "Two more tankers hit naval mines in Strait of Hormuz, says IRGC Navy",
+       "u": "https://en.irna.ir/news/86322979/Two-more-tankers-hit-naval-mines-in-Strait-of-Hormuz-says-IRGC",
+       "s": "IRNA English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794809801,
        "r": "state"
       },
       {
-       "t": "Iran's Revolutionary Guard: 6 oil tankers caught fire in the Strait of Hormuz on Sunday and Monday after hitting mines",
-       "o": "الحرس الثوري الإيراني: اشتعال النيران في 6 ناقلات نفط بمضيق هرمز يومي الأحد والاثنين بعد اصطدامها بألغام",
-       "u": "https://news.google.com/rss/articles/CBMingZBVV95cUxQVTJza2JDRWdZY0pfcEJ1YUJOWUdMV2poaDFiV19leHJ4TDhaa3BBTTVWeW45bGRVV1RBS05pQjFRRjN2bUdEaE1DeFN2SkNOY1BZZTJCanViLUlIRzBzLW5wbHRFbjhaak1YOEFXMEFBR29XSno1Um9TemRQNkUzV2ZUVFBHaEluVHJDcDRHeHlFZXFOUXJiNThuQUpJZXBOZEFZNEZ6cWdEVHFXdGlUWEJwajV3VzFLOWQ0OTBTZlp1Q0ZwWGhjbDdKUGtBWUQyb3RBaUF6R1dVcUloVndDMUF4MldBUmV6d1NkTXhSMmFVUEZ0ZjQ1LThRVG9FdlFCaURQWUtybnBhamlvWnB2NnRId0l4V1JOTWRZSThMdFIxbm1Yc0txemc4bFVTOTBPUDRuMGwzNXRNVGg4VEluYUNBU0FtNDVwUlJlQ1pJTmE2YlJOeGUtd0tJMkNzcFBkVmVYUTJweXNMQTUtNlJISklXYXZoTTZyc250RnlsN3l4TnN4U2FvQm9EeldUWXF4amMteEtzek5TaFFmeEkyR01",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794804175,
-       "r": "unrated"
+       "t": "Iranian navy says vessel ablaze after hitting mine east of Hormuz Strait",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-navy-says-vessel-ablaze-after-hitting-mine-east-hormuz-strait",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1794816262,
+       "r": "known"
       }
      ],
      "headlines": 9,
      "outlets": 8,
-     "independent": 6,
+     "independent": 8,
      "countries": [
       "GB",
       "IL",
       "IR",
-      "LB",
       "RU",
       "SA",
       "TR"
@@ -12588,109 +12586,121 @@
      "state": 4
     },
     {
-     "text": "Iran launched another drone attack on a US military base in Bahrain, according to BBC Tigrinya, and Yonhap says it is the second attack on the base within two days. Yonhap's video report also says the US has warned its citizens in Bahrain of possible attacks by Iran and the Houthis.",
+     "text": "The Guards say six oil tankers have burned or sunk in the Strait since Sunday. That figure is Iran's own claim, carried by a few outlets, and is not independently confirmed.",
      "stories": [
-      "s2",
+      "s22",
       "s3",
-      "s5"
+      "s24"
      ],
      "sources": [
       {
-       "t": "[Video] Iran attacks US base in Bahrain again within two days; Houthis also step up offensive",
-       "o": "[영상] 이란, 이틀 만에 또 바레인 美기지 공격…후티도 공세 강화",
-       "u": "https://www.yna.co.kr/view/AKR20261116083200704",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794798261,
+       "t": "IRGC: six oil tankers have burned and sunk in Hormuz since yesterday",
+       "o": "الحرس الثوري: احتراق 6 ناقلات نفط وغرقها في هرمز منذ أمس",
+       "u": "https://news.google.com/rss/articles/CBMizgJBVV95cUxONjhyU0hvaDd1WWsxYkE4Q0pNYUpiV2FvbF94ck44M0t3QnZrTVFWdEVrUU1XSGVON25iMGpQRnBIOUI0SVZTWjFwUF9NeVFmbW9qeHVJRldoVjQzc205SjhucUtRMlRFRm50Q2RuVnR1RkMta3hVMlhDWVJlR3NDOVNTQjBsUE5rTHpDdjZiT0tLZS1GNnRCVmFtVlYtOUg2WnRjSnVUOXZZczZqVF8tcUdPbGx6LWxyMGt3NzVoeV9PckZIUzdKcnc4LXF1aXJ1UlJ6eWVZTS1kcDBaYkNmNDdtRVdaMEZaR3hiX1R6VTBqSkZCaGMxWGg4NHdKVVFMbUNoQ3F2dEprc01Ia1JmX0EyT2ZkRkJvdE9Vb2pDVW9GNm5sNTRuaGlRYnZWMklEZDh1dWJUbldOeWhpbF80S21BT09Bclg4MXI2RXhB?oc=5",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "ar",
+       "p": 1794808737,
        "r": "known"
       },
       {
-       "t": "US warns its citizens in Bahrain of possible attacks by Iran and the Houthis",
-       "o": "ABD, Bahreyn'deki vatandaşlarını İran ve Husilerin muhtemel saldırılarına karşı uyardı",
-       "u": "https://www.aa.com.tr/tr/dunya/abd-bahreyndeki-vatandaslarini-iran-ve-husilerin-muhtemel-saldirilarina-karsi-uyardi/4126095",
-       "s": "Anadolu Turkish",
-       "c": "TR",
+       "t": "Iran: 6 tankers caught fire in the Strait of Hormuz in two days",
+       "o": "İran: Hürmüz Boğazı'nda iki günde 6 tanker yandı",
+       "u": "https://www.dw.com/tr/i̇ran-hürmüz-boğazı-nda-iki-günde-6-tanker-yandı/a-79955026?maca=tur-rss-tur-all-1495-rdf",
+       "s": "DW Turkish",
+       "c": "DE",
        "l": "tr",
-       "p": 1794805388,
+       "p": 1794816000,
+       "r": "known"
+      },
+      {
+       "t": "Mines in the Strait of Hormuz, \"two more tankers on fire",
+       "o": "Mine nello Stretto di Hormuz, 'altre due petroliere in fiamme'",
+       "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/16/mine-nello-stretto-di-hormuz-altre-due-petroliere-in-fiamme_ffa45e18-6e1d-4bfa-97b9-c88f407ac0f5.html",
+       "s": "ANSA Mondo",
+       "c": "IT",
+       "l": "it",
+       "p": 1794812550,
+       "r": "known"
+      },
+      {
+       "t": "Iran: We reduced the deadline for reopening the Strait of Hormuz from 7 days to two days",
+       "o": "إيران: خفضنا مهلة إعادة فتح مضيق هرمز من 7 أيام إلى يومين",
+       "u": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxNUUxhYnJXSno5ZnlxdFAwNGZFTFJiTzktdy1VN19QNENIcEhiZmw5UXg5NHBzeHhtMUpycE9fSm5IcTJBSjJ1Rk9LWElmaXRfR01aWERBTE5PRFdCanMteTJ4TUVLWkFtVDZDUUhNeVpNWnI3ejMyZmZtRHRIUmJlTmZBZ2R6Mi12S25BQWZjdDl5dG03d0xVei1PMmd5RkFReWlJME9jeU1nWkQwR2NUei1VYTlBb0dnM3M4aWFxQ21jUklnbExCX3k2Tkw3TERPSXduSjhYa2luN0hMUkRQclJ4bkVjdDBRZnliUzFOYWdDWm5EZDdBOW5ONWVEbzBadTBpeU9QR0xTcGwzZjM3blZqTlJjcDlrM3RfX05pYXh3bWNnOHZuV3VfVzB0cW45R0VUOG1vVVBBNjUtQWNuRlJlRlBzN2tYY3lmZ2I1R3BmRGVNZkdmeGY3ci1RYVB0a2ZCNkp6UUFWZzl1Nm9Qc0lmUGRnTXluVTdjWFBHSWJidERxb0tGdEtkMkN2RmZGbHdncm1BalRsYVVtYXlFOUZ",
+       "s": "Anadolu Agency",
+       "c": "TR",
+       "l": "ar",
+       "p": 1794808856,
        "r": "state"
       },
       {
-       "t": "Iran launched a drone attack on a US military base located in Bahrain",
-       "o": "ኢራን ኣብ ባሕሬን ኣብ ዝርከብ ወተሃደራዊ መዓስከር ኣመሪካ ብድሮን መጥቃዕቲ ፈጺማ",
-       "u": "https://www.bbc.co.uk/tigrinya/live/cq36geepl273t?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Tigrinya",
-       "c": "GB",
-       "l": "ti",
-       "p": 1794807433,
-       "r": "known"
-      },
-      {
-       "t": "[Shorts] Iran strikes US base in Middle East…Houthis launch all-out offensive on interim capital",
-       "o": "[쇼츠] 이란은 중동 美기지 때리고…후티는 임시 수도 총공세",
-       "u": "https://www.yna.co.kr/view/AKR20261116093000704",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794803882,
-       "r": "known"
+       "t": "Iran claims: 6 oil tankers sunk or burned in 24 hours, tensions peak in Hormuz",
+       "o": "ईरान का दावा: 24 घंटे में 6 तेल टैंकर डूबे या जले, होर्मुज में तनाव चरम पर",
+       "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS3lCY1lPeHExUnRPRDdfT1NCRy1Sc3JUWDF3Y0pOSUFxT0IzSGJTbWxWcGpWMmJuOENrTHJYUkJ4SnhzUUdYSF9tS0E2aTRtNFdkYzMxM0d1dGlBWHFnSTR4WjM5V25oWEl2OXNubXgtU09ib2gxVURUWEdBQkhPQTlKVUZtVmxhWDlUa0xaamowYjhEc3lQanVXRkY1S1JtOGdYRWswNjkxc09PVTJoX2RCTFkyZ2k1dEln0gHAAUFVX3lxTFBja2FTcGxvejdJXzJUNGJQU0NrenBXZmRqNGMtaDJsLTMxT3dZVFlORE9YcWFpM2hEX3dhSzdEZFV1Mm5RM2RJVkVfOHp6dDRiT3c1VnJFeFVqNDAxNm0xRG1BTnZQWGlwTUR6aTNMaG4wdFZ2djZaX3JEWFVzeWpuTldSdVpKY3cyOXU0SUtrOGYteWRaUUp3LWlVU241V1FLMHBTQVlfVEJBWDRvdFRnYlZaQ0lMdmpqamZIcVE1VQ?oc=5",
+       "s": "AajTak",
+       "c": "IN",
+       "l": "hi",
+       "p": 1794808446,
+       "r": "unrated"
       }
      ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 5,
      "countries": [
-      "GB",
-      "KR",
+      "DE",
+      "IN",
+      "IT",
+      "QA",
       "TR"
      ],
-     "regions": 3,
+     "regions": 4,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Yonhap reports that the Houthis have stepped up their offensive, with one report describing an all-out push on the interim capital. Only one or two outlets carry this, so it is not yet widely confirmed.",
+     "text": "Iran says it has cut the deadline for reopening the Strait of Hormuz from seven days to two.",
      "stories": [
-      "s2",
-      "s5"
+      "s3"
      ],
      "sources": [
       {
-       "t": "[Video] Iran attacks US base in Bahrain again within two days; Houthis also step up offensive",
-       "o": "[영상] 이란, 이틀 만에 또 바레인 美기지 공격…후티도 공세 강화",
-       "u": "https://www.yna.co.kr/view/AKR20261116083200704",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794798261,
-       "r": "known"
-      },
-      {
-       "t": "US warns its citizens in Bahrain of possible attacks by Iran and the Houthis",
-       "o": "ABD, Bahreyn'deki vatandaşlarını İran ve Husilerin muhtemel saldırılarına karşı uyardı",
-       "u": "https://www.aa.com.tr/tr/dunya/abd-bahreyndeki-vatandaslarini-iran-ve-husilerin-muhtemel-saldirilarina-karsi-uyardi/4126095",
-       "s": "Anadolu Turkish",
-       "c": "TR",
+       "t": "Iran: 6 tankers caught fire in the Strait of Hormuz in two days",
+       "o": "İran: Hürmüz Boğazı'nda iki günde 6 tanker yandı",
+       "u": "https://www.dw.com/tr/i̇ran-hürmüz-boğazı-nda-iki-günde-6-tanker-yandı/a-79955026?maca=tur-rss-tur-all-1495-rdf",
+       "s": "DW Turkish",
+       "c": "DE",
        "l": "tr",
-       "p": 1794805388,
-       "r": "state"
+       "p": 1794816000,
+       "r": "known"
       },
       {
-       "t": "[Shorts] Iran strikes US base in Middle East…Houthis launch all-out offensive on interim capital",
-       "o": "[쇼츠] 이란은 중동 美기지 때리고…후티는 임시 수도 총공세",
-       "u": "https://www.yna.co.kr/view/AKR20261116093000704",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794803882,
+       "t": "Mines in the Strait of Hormuz, \"two more tankers on fire",
+       "o": "Mine nello Stretto di Hormuz, 'altre due petroliere in fiamme'",
+       "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/16/mine-nello-stretto-di-hormuz-altre-due-petroliere-in-fiamme_ffa45e18-6e1d-4bfa-97b9-c88f407ac0f5.html",
+       "s": "ANSA Mondo",
+       "c": "IT",
+       "l": "it",
+       "p": 1794812550,
        "r": "known"
+      },
+      {
+       "t": "Iran: We reduced the deadline for reopening the Strait of Hormuz from 7 days to two days",
+       "o": "إيران: خفضنا مهلة إعادة فتح مضيق هرمز من 7 أيام إلى يومين",
+       "u": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxNUUxhYnJXSno5ZnlxdFAwNGZFTFJiTzktdy1VN19QNENIcEhiZmw5UXg5NHBzeHhtMUpycE9fSm5IcTJBSjJ1Rk9LWElmaXRfR01aWERBTE5PRFdCanMteTJ4TUVLWkFtVDZDUUhNeVpNWnI3ejMyZmZtRHRIUmJlTmZBZ2R6Mi12S25BQWZjdDl5dG03d0xVei1PMmd5RkFReWlJME9jeU1nWkQwR2NUei1VYTlBb0dnM3M4aWFxQ21jUklnbExCX3k2Tkw3TERPSXduSjhYa2luN0hMUkRQclJ4bkVjdDBRZnliUzFOYWdDWm5EZDdBOW5ONWVEbzBadTBpeU9QR0xTcGwzZjM3blZqTlJjcDlrM3RfX05pYXh3bWNnOHZuV3VfVzB0cW45R0VUOG1vVVBBNjUtQWNuRlJlRlBzN2tYY3lmZ2I1R3BmRGVNZkdmeGY3ci1RYVB0a2ZCNkp6UUFWZzl1Nm9Qc0lmUGRnTXluVTdjWFBHSWJidERxb0tGdEtkMkN2RmZGbHdncm1BalRsYVVtYXlFOUZ",
+       "s": "Anadolu Agency",
+       "c": "TR",
+       "l": "ar",
+       "p": 1794808856,
+       "r": "state"
       }
      ],
      "headlines": 3,
-     "outlets": 2,
-     "independent": 2,
+     "outlets": 3,
+     "independent": 3,
      "countries": [
-      "KR",
+      "DE",
+      "IT",
       "TR"
      ],
      "regions": 2,
@@ -12698,90 +12708,148 @@
      "state": 1
     },
     {
-     "text": "Iran says the 'no war, no peace' stance will not last while the compensation dispute continues, and Hurriyet reports Tehran's line that it will either accept seven conditions or face an expanding war.",
+     "text": "Iran rules out UN inspections of damaged nuclear sites until the war ends. Three outlets carry the same statement and a Taiwanese outlet adds that the US-Iran conflict is not over.",
      "stories": [
-      "s6",
-      "s7",
-      "s8",
-      "s9",
-      "s11"
+      "s2",
+      "s8"
      ],
      "sources": [
       {
-       "t": "US reinforces presence near Iran with 3 aircraft carriers and warns of a \"plot\" to target Trump",
-       "o": "أميركا تعزز وجودها قرب إيران بـ3 حاملات طائرات وتحذر من \"مخطط\" لاستهداف ترمب",
-       "u": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxPWjRWN19naU1RbUtwNGNpLWtvNjhEY3BvWEY3RmdSMU01VlNsOHhNQmxiMndONFMzb3VmVVZpVks2T0xqQ00tQzdfMkhlcTMtc041bHJka2hjYU8yS2pLS1FZb3hxcW5DNnFIOHZXZHNETXVvR0kzeVJOVzV6Njhua2pxYmdhU2s3Zk96eTFiblhVUWducjd6NTBfODdqOVhqczc0NldFRUd6RGlGcmh6a08wR2VLaEhEa2UwM19kSjhqZ25iOENHQ1NzYk1YRllkcTRFbXhiYUd6bkg5cVdPZWVkOUhsYll2dUNja1ZWNTBuZHNlcDZNaFZmWGlxVzNVOVdwTG1DSG1yQzQyLUlkeXl4VEMtNUJtbEpaVEV1TndNYXJjSE9vamZLUWlvX0hXTmMxTjNsRHB2MXhtbHRXbGFqUkpPVlJGcm9uZkE2Wm5oc1U4aWp5X2hWcDJuZG1uNW01cURtdnU2VXZpTzVwMmZKMEREd2xlZGR6Y3BTZ0FtR1FXRXJpeTM3Rlg5UkpMbmJQZDRBTUcyYUEtbDRDTHc",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794803783,
-       "r": "unrated"
+       "t": "Iran rules out UN inspections of damaged nuclear sites until war ends",
+       "u": "https://www.straitstimes.com/world/middle-east/iran-rules-out-un-inspections-of-damaged-nuclear-sites-until-war-ends",
+       "s": "The Straits Times",
+       "c": "SG",
+       "l": "en",
+       "p": 1794814500,
+       "r": "known"
       },
       {
-       "t": "USS Roosevelt\" arrives! US military gathers 3 carriers in the Middle East, pressing on Iran",
-       "o": "「羅斯福號」到了！美軍中東再現3航艦集結壓境伊朗",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5642320",
+       "t": "Iran rules out UN inspections of damaged nuclear sites until war ends",
+       "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdVNFZ0FUdXF3Y3VXNllPT0d5Znk0TG53X2F3cllhTzIxT0FibWg3LVdlSk8tUWlwR1g4TWtzMGtDZFdDM0wxVXZ1ZjNXUEt5UnhwR0lpNV94anB0dVF3UE51R2d1VE8wVEtJNDQybHdoNGw1Zk90bVFLcFdnWXVkeURaWmxyWVFMZGQ1Z3RWVE5BZk1idDZDMmppOVpDRHhUWHcxb1o4LS1KVURLVThkNl9zWGM?oc=5",
+       "s": "Arab News",
+       "c": "SA",
+       "l": "en",
+       "p": 1794812757,
+       "r": "known"
+      },
+      {
+       "t": "Iran rules out UN inspections of damaged nuclear sites until war ends - Region - World",
+       "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWDM5UFU0djd1MTB1dE5xSjNxb3lVSjljM1ZHRVotY1lfZGNPX3ZFQ0QtYlpaMmhMLXRNZDF5djRDRHo5NlVDNEtIY1JuQnpNX2tDaWNVcWd6bjNKemc5R19TR1FQSm9xalBnZVdQVHZsZ1h5TzdqR00zU0M3TXFSclYyLWhBbWQxRWdSN3AzRnVmS0hTNHh5b3dYRm1LZWQtWVd3MVRQbWlqZGg0bHFiZExEQ3VUV2NEMU5KRw?oc=5",
+       "s": "Ahram Online",
+       "c": "EG",
+       "l": "en",
+       "p": 1794816020,
+       "r": "state"
+      },
+      {
+       "t": "US-Iran conflict not over; Iran refuses IAEA inspection of damaged nuclear facilities",
+       "o": "美伊衝突未落幕 伊朗拒讓國際原子能總署核查受損核設施",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5642560",
        "s": "Liberty Times",
        "c": "TW",
        "l": "zh",
-       "p": 1794803046,
-       "r": "known"
-      },
-      {
-       "t": "Iran warns ‘no war, no peace’ will not last amid tension over compensation",
-       "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSkFEN2V3OGJrSUxKVVV4WnJ2TDZWN2t3WW1iYlpQbl9PTFZkRGpja01rUnM3bEpVZDFFcEFKTEZuYlhVdUU3NHlibkhtVjF6Sk9jREdMRTI1TFR3THFqN2Y1blhMajBvNjAzUUw3ZWZQM0lRbnpZeXJ0dXVfbDFIRVVDelU0QnA3aGp3VWVhaGV0M0ZxMEhkWmlSczh4Z1BnbVgwNVQ3LVZ1SUJp?oc=5",
-       "s": "Amwaj.media",
-       "c": "GB",
-       "l": "en",
-       "p": 1794802701,
-       "r": "known"
-      },
-      {
-       "t": "Iran won't back down! Either 7 conditions or an expanding war",
-       "o": "İran geri adım atmıyor! Ya 7 şart ya genişleyen savaş",
-       "u": "https://www.hurriyet.com.tr/dunya/iran-geri-adim-atmiyor-ya-7-sart-ya-genisleyen-savas-43379563",
-       "s": "Hurriyet Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1794801600,
-       "r": "known"
-      },
-      {
-       "t": "Iran war: Third US aircraft carrier reaches the Middle East",
-       "o": "Iran-Krieg: Dritter US-Flugzeugträger erreicht Nahen Osten",
-       "u": "https://www.spiegel.de/ausland/iran-krieg-dritter-us-flugzeugtraeger-erreicht-nahen-osten-a-97da317f-1d1c-41c8-ae22-22a908b3b203#ref=rss",
-       "s": "Spiegel Ausland",
-       "c": "DE",
-       "l": "de",
-       "p": 1794800220,
+       "p": 1794816150,
        "r": "known"
       }
      ],
-     "headlines": 6,
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 2,
+     "countries": [
+      "EG",
+      "SA",
+      "SG",
+      "TW"
+     ],
+     "regions": 4,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Single outlets report a US carrier build-up, with the USS Roosevelt reaching the region. Trump is reported to have said the war is over while Iran vows continued retaliation. UN Secretary-General Guterres urged both sides to end the 'no war, no peace' situation.",
+     "stories": [
+      "s17",
+      "s15",
+      "s13",
+      "s4"
+     ],
+     "sources": [
+      {
+       "t": "USS Roosevelt has reached the Middle East. Tension rises around Iran",
+       "o": "USS Roosevelt dotarł na Bliski Wschód. Rośnie napięcie wokół Iranu",
+       "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQVFjXzV6aTF1a3hfcnVVLXEzeEhhMkRMVnhWb1lMVlE5TVphR01LdEp6aE1hS3lYQlF2WG92Z3BPSWVtZG96RWhxemRBVVNpSlV6TVptMGJMbkMtU1gybnpnZV9oMXZObUxxVmhYSEllS2dIWEpYVUhXWDVSU3B3VFNCQ242ZlUxV21tblZHRVZzcVUybTJoazNldG5TSjh2bUpxNzVqb0x0YjA?oc=5",
+       "s": "Wiadomości Onet",
+       "c": "PL",
+       "l": "pl",
+       "p": 1794812743,
+       "r": "unrated"
+      },
+      {
+       "t": "Trump says \"war is over\" while Iran vows continued retaliation…three US carriers gather in Middle East",
+       "o": "‘전쟁 끝났다’는 트럼프 vs ‘보복 계속’ 이란…미 항모 3척 중동 집결",
+       "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4c0N3RjMzVGJiWmh2QnFHN01xM2ZHT3VsTlZSUGpXQUNiOXQ4dTBWV1dFdEZYYWJ6NGRRTnhyWXNHakhBYXJWSmNOdldZOWRPTGs5dDBGZ3hfQXY2Z2dTa0pLT1hXYjM4bUNwY1Zuc01HcFBnRnlZ?oc=5",
+       "s": "서울신문",
+       "c": "KR",
+       "l": "ko",
+       "p": 1794813235,
+       "r": "unrated"
+      },
+      {
+       "t": "Preparing for war with Iran again? US deploys third aircraft carrier in West Asia, stirring the sea",
+       "o": "ईरान से फिर जंग की तैयारी! अमेरिका ने पश्चिम एशिया में तैनात किया तीसरा एयरक्राफ्ट कैरियर, समंदर में हलचल",
+       "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZ1Fxc1E1MUtxWWF5QUF3YzZHbmU0UmRzRFo2S1BkMVJUTVpiN1M0Z0xXZ3RwUmFnVFdBWE1rS3BSUVdhWjNDSXZFdGdhclFEeF9kTFVtSmVKRGhNTXlocTNHanI3aFhfVnFkZE81WDFNTUNmd09meWRYNjJqdkdYVjU3MUxiVW5wUjMxMko5ZzVkNlFKS0VqTnEtWE1NeWlTMk52aUVJSGRHNklVQ01abjJ0RGtEUUZCdVlzaGxPOXhUTWZOTUhZYkdoY2trS08tMmhPTkF5anVGQ0hyYWFlVHRR0gHnAUFVX3lxTE1uLXdxb3pBYkduczJhaklJbU9PVkRJTVBibS1ualRfLWV4Wk5SaWp4XzJTTHB3dl9QSmVBUm9ZMW9hOGsyYm1yQW91c2YxcjZBTkJHMEpGd3l6ZmpNdk0yWGp2UDNBcDlZTUJoTV91Nl8teFU0SDFoaXJBamUxV2VieDFzeEI0M1BVNEtBZFRGM2ZzREFOMjhBeXRzYWtMOFdBaDFkdWh3dkd1c2ZmdXU4aEM2eUVPYllkSER",
+       "s": "AajTak",
+       "c": "IN",
+       "l": "hi",
+       "p": 1794813566,
+       "r": "unrated"
+      },
+      {
+       "t": "Guterres calls on US and Iran to end \"neither peace nor war\" situation",
+       "o": "Гутерриш призвал США и Иран положить конец состоянию \"ни мира, ни войны\"",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28320685",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794812722,
+       "r": "state"
+      },
+      {
+       "t": "Guterres: We need serious diplomacy to end the \"no war, no peace\" situation between America and Iran",
+       "o": "جوتيريش: نحتاج عملية دبلوماسية جادة لإنهاء حالة \"اللا سلم واللا حرب\" بين أميركا وإيران",
+       "u": "https://news.google.com/rss/articles/CBMimAVBVV95cUxPM0diV1VtdnI1Q0lsbmlHNUdaYndCVExpUmFMUTE2NVJKa2pRS2JqSS1CdG5wX25tQ3VqM0ZsaTI1RXBJTm9wNzd2a2tGcExMY0dHbVRjSl9DQzBuTjR3QmFvZ1dTNWVzYmdoR0ljMU1TanR4a05qaThZcjgtV1d5YVdEVUNGUThfamN5TlUtSGZ0U0xPUk8xS2dIOWQ0b3VvODdUVFBIRll6N3REdXhiYlFRRlNVVGtua3BNaHp3V0YzeFRsMUF1NnlBZWtBZWdnXzdfZU1UUHduVGJLRTVYUWQ4QzFuaGI2SnRKWTZLd0dsRW5kd3phN3FCMnVBellvMFNRd1RtbGtSZHZwV1N5R25mRTVuTjFlNndVXy1RTGY4SzBiU2dGejZ5SkUyODRhRHV6SDZqQ3NpYnZqU05iTkc1eE9GMkg3aktCTl96T1YtMHJ0SjVPSHZILXV5aHZKX1cyampaQTRjZ29oalRLR1E5dWVNcGUxTkhPYUZDTlJNSGxBNURUNFl3X2RQRUNRN3A5OGFHaFhXOTc2dW0zQVB",
+       "s": "الشرق للأخبار",
+       "c": "LB",
+       "l": "ar",
+       "p": 1794810938,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 5,
      "outlets": 5,
      "independent": 5,
      "countries": [
-      "DE",
-      "GB",
+      "IN",
+      "KR",
       "LB",
-      "TR",
-      "TW"
+      "PL",
+      "RU"
      ],
-     "regions": 3,
+     "regions": 5,
      "party_only": false,
-     "state": 0
+     "state": 1
     }
    ],
    "watch": [
-    "Whether the US or Iran responds to the new tanker mine losses and the Bahrain drone attacks",
-    "Whether the Houthis' offensive grows or is confirmed by more independent outlets",
-    "Whether Iran's threats against two US Navy officers and its 'expanding war' warning lead to new action"
+    "Whether Iran acts on its two-day Strait reopening deadline",
+    "Further tanker incidents in Hormuz, and whether the six-tanker figure is confirmed by independent sources",
+    "US carrier movements and any response to the Iranian nuclear inspection refusal"
    ],
    "window_hours": 3,
-   "headlines_read": 27,
-   "outlets_read": 19,
-   "countries_read": 14,
-   "languages_read": 10,
+   "headlines_read": 46,
+   "outlets_read": 30,
+   "countries_read": 18,
+   "languages_read": 11,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-16T00:11:39Z",
    "ladder_note": "Re-checked after: Mines reportedly hit tankers in the Strait of Hormuz and set them on fire, a concrete shipping escalation confirmed by many independent outlets, though the strait itself is not reported closed."
