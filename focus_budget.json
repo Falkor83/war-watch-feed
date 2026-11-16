@@ -1,17 +1,7 @@
 {
  "month": "2026-11",
- "usd": 0.5428,
+ "usd": 0.5445,
  "runs": [
-  {
-   "at": "2026-11-05T23:45:42Z",
-   "what": "focus update",
-   "model": "claude-haiku-5-5",
-   "in": 3370,
-   "out": 2143,
-   "searches": 0,
-   "batch": false,
-   "usd": 0.0014
-  },
   {
    "at": "2026-11-06T02:53:05Z",
    "what": "focus update",
@@ -811,6 +801,16 @@
    "searches": 0,
    "batch": false,
    "usd": 0.0016
+  },
+  {
+   "at": "2026-11-16T11:25:11Z",
+   "what": "focus update",
+   "model": "claude-haiku-5-5",
+   "in": 3558,
+   "out": 2678,
+   "searches": 0,
+   "batch": false,
+   "usd": 0.0017
   }
  ],
  "cap": 3.0
