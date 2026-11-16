@@ -1677,9 +1677,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Bahrain drone attack condemned; US sends third carrier as Iran rejects 'neither war nor peace'",
+   "status": "Tankers hit mines in Hormuz and burn; Iran strikes Bahrain again; Oman talks planned",
    "summary": "The US and Israel have fought Iran this year, and the Strait of Hormuz has been the main pressure point. US strikes in early November were described as limited. On Nov 15 Iran's Revolutionary Guards said they sent six drones at a base in Bahrain used by US forces, the first claimed strike on Bahrain in weeks; Bahrain says it intercepted the attack. Iran's navy says two or three tankers caught fire after hitting mines in Hormuz, while the US military says it has cleared the main routes. Secretary of State Rubio says further US military action is not needed because Iran's economy is weakened.",
    "latest": [
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T00:11:39Z",
+     "text": "Several tankers hit naval mines in or near the Strait of Hormuz and caught fire, according to reports from many independent outlets. Iran's navy and Revolutionary Guards (IRGC) say at least two tankers were hit, and one of them sank.",
+     "outlet": "Tehran Times",
+     "country": "Iran",
+     "url": "https://www.tehrantimes.com/news/532186/Two-tankers-explode-after-hitting-naval-mines-south-of-Strait",
+     "region": "iran",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T00:11:39Z",
+     "text": "Iran launched drone attacks on a US military base in Bahrain, which Bahrain says it intercepted. Iran also claims it hit a radar in Bahrain, but that claim appears only in Israeli-published reporting. The UAE, the GCC and Saudi Arabia condemned the attacks as a violation of international law.",
+     "outlet": "Bloomberg",
+     "country": "United States",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTlsTGpib2E2Sm9JYXBzRlBxWTZNbGFEWHhjaHk3MG5ab1VybmtNNlAyaWtWYnFranRoZFRWNmY1clprM3lzeXJETGtTRW5oeldDa0NqdFJrWF9SZWkwUUZnSnNoVXJBcTk3ZmVNODB6Z21ZMVJLejZPSjI5S0pybXByY1hJNGEtWm5mNmVqZlJzVGxrblBCdVBiQVFNQQ?oc=5",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-16",
+     "at": "2026-11-16T00:11:39Z",
+     "text": "The WSJ reports, citing US intelligence, that Iran still has up to 2,500 ballistic missiles. This contradicts Trump's and Defense Secretary Hegseth's claims that Iran's arsenal was destroyed.",
+     "outlet": "L'Orient-Le Jour",
+     "country": "Lebanon",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORl8xa29oRmhScjRnNHJId1dXMEczS1M0M1FoMjlMZVRIdHB5QTVSZVYyeWRVU0ZaX19QOHE2REM3N190MGhKZ194VmdKZy1tVENITnhLdVVWTGdWUFN4S1lzNFZtaEdOU19QU2JMUzJMSlBIaHRvM0xJVGFBZTVEY3BYS3RvZXREWktreGNWak1SZ1k3SjZ2ZXZOQXFGbFdPZ1FEMzdEVURQSFBWR3VvYTJ0aGUyZw?oc=5",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-15",
      "at": "2026-11-15T20:53:58Z",
@@ -1732,39 +1765,6 @@
      "country": "United Arab Emirates",
      "url": "https://www.thenationalnews.com/news/mena/2026/11/15/iran-attacks-bahrain-in-blatant-challenge-to-peace-push/",
      "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-15",
-     "at": "2026-11-15T17:57:02Z",
-     "text": "Two WSJ-based reports give different missile counts. DW Russian reports up to 2,500 ballistic missiles, which the WSJ says could be about half Iran's pre-war arsenal. Liberty Times reports over 1,500, which the WSJ says intelligence indicates, against Trump's 'total destruction' claim.",
-     "outlet": "DW Russian",
-     "country": "Germany",
-     "url": "https://www.dw.com/ru/wsj-иран-располагает-до-2500-баллистических-ракет-и-мог-восстановить-до-половины-довоенного-арсенала/a-79952797?maca=rus-rss-ru-all-1126-rdf",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-15",
-     "at": "2026-11-15T15:12:28Z",
-     "text": "Iran's Revolutionary Guards say two oil tankers hit naval mines in the Strait of Hormuz and caught fire. Iranian state media say one of them sank. A separate British Navy report describes an attack on a tanker near the strait.",
-     "outlet": "TRT Haber Dunya",
-     "country": "Turkey",
-     "url": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-deniz-mayinlarina-carpan-2-petrol-tankerinden-biri-batti-963352.html",
-     "region": "middle-east",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-15",
-     "at": "2026-11-15T15:12:28Z",
-     "text": "Iran says it struck a US military base in Bahrain with six drones. Bahrain says its air defences destroyed several of the drones and accuses Iran of attacking its territory to settle a score with the US. The GCC secretary-general condemned the attacks.",
-     "outlet": "France 24 Spanish",
-     "country": "France",
-     "url": "https://www.france24.com/es/medio-oriente/20261115-en-directo-ir%C3%A1n-afirma-que-atac%C3%B3-base-militar-de-ee-uu-en-bahrein-fuerzas-yemen%C3%ADes-se-retiran-de-%C3%A1rea-clave-en-guerra-con-hut%C3%ADes",
-     "region": "europe",
      "tag": "non-party",
      "state_media": false
     }
@@ -10585,250 +10585,217 @@
   },
   {
    "id": "us-israel-iran-war",
-   "date": "2026-11-15",
-   "question": "Will the US/Israel–Iran fighting widen into a clearly wider regional war, with a new state joining or attacks on a new country's territory?",
+   "date": "2026-11-16",
+   "question": "Will the US/Israel–Iran war widen into a clearly wider regional war, with a new state joining the fighting or a new country's territory comi",
    "stage": 3,
    "stage_label": "Mobilizing",
    "likelihood": "unlikely",
-   "likelihood_of": "a clearly wider regional war within 30 days",
+   "likelihood_of": "a clearly wider war (stage 5: a new state joining or sustained attacks on a new country) within 30 days",
    "horizon": "30 days",
    "direction": "steady",
-   "summary": "Iran's Revolutionary Guards say they sent six drones at a base in Bahrain used by US forces, and Iranian sources report tankers hit by mines in Hormuz. Bahrain says it intercepted the attacks. Bahrain has been targeted before, so this is a renewed strike on a country already drawn in, not a new front. US officials describe their recent strikes on Iranian islands as limited, Iran keeps saying a path to a deal is open, and oil prices are far below last month's level.",
+   "summary": "The war remains at the mobilizing stage. In the last 48 hours the US sent a third aircraft carrier to the region, and Gulf governments condemned repeated Iranian drone attacks on Bahrain, which hosts a US base. Gulf states are publicly calling for no further escalation, travel advice has not changed since late October, and coverage describes Washington as relying on sanctions rather than new talks or major new strikes.",
    "drivers": [
     {
-     "text": "Iran's Revolutionary Guards say they sent six drones at Bahrain's Riffa base, the first strike on Bahrain in weeks",
+     "text": "A third US aircraft carrier has entered the Middle East while Trump weighs his next move.",
      "cites": [
-      "w31",
-      "h20"
+      "h1",
+      "h9"
      ]
     },
     {
-     "text": "Outlets in many countries carry Iranian reports of tankers on fire after hitting mines in the Strait of Hormuz",
+     "text": "Gulf outlets and governments report fresh Iranian drone attacks on Bahrain, including on a US base.",
      "cites": [
-      "g21",
-      "g23",
-      "w33"
+      "h2",
+      "h18",
+      "h23"
      ]
     },
     {
-     "text": "The US says it carried out limited strikes near Qeshm and Bandar Abbas, after Iran fired surface-to-air missiles at US assets",
+     "text": "Reported US intelligence findings say Iran may still have up to 2,500 ballistic missiles, which leaves it able to keep striking.",
      "cites": [
-      "w36",
-      "w34"
-     ]
-    },
-    {
-     "text": "Clash-related headlines far outnumber talks: 250 against 63",
-     "cites": [
-      "d2"
+      "h15",
+      "h22"
      ]
     }
    ],
    "brakes": [
     {
-     "text": "AP describes the US strikes as limited, not a return to full war, and Bahrain reports intercepting the attacks",
+     "text": "Gulf states condemn the Bahrain attacks but say no to escalation, which points away from new states joining the fighting.",
      "cites": [
-      "w36",
-      "h18"
+      "h18",
+      "h12"
      ]
     },
     {
-     "text": "Iran pairs its strike claims with statements that a path to a deal with the US remains open",
+     "text": "Yonhap describes Washington as waiting on sanctions, with neither new negotiations nor new attacks.",
      "cites": [
-      "h5",
-      "h6",
-      "h3"
+      "h19",
+      "h20"
      ]
     },
     {
-     "text": "Brent crude is down 29.1% over 30 days and was nearly flat over the past week, which does not suggest markets expect a wider war",
+     "text": "US and UK travel advice for Israel, Qatar and the UAE has not been raised since 22–27 October.",
      "cites": [
-      "d15"
+      "d3",
+      "d4",
+      "d7",
+      "d9"
      ]
     }
    ],
-   "tip": "Iranian fire kills US personnel or hits a US warship, or Iran strikes a Gulf state it has not attacked before, such as Saudi Arabia or Qatar.",
-   "offramp": "The US and Iran agree terms to reopen Hormuz, or two weeks pass with no reported attacks on shipping or Gulf bases.",
+   "tip": "A US or Israeli strike on Iranian nuclear sites such as Pickaxe Mountain, Iranian fire that kills US personnel, or a Gulf state such as Bahrain or Saudi Arabia striking Iran in response would move it ",
+   "offramp": "A US–Iran agreement to reopen Hormuz, or two weeks with no attacks reported by UKMTO and no further strikes on Bahrain, would move it down.",
    "watch": [
-    "Further Iranian drone or missile claims against Bahrain or other Gulf states",
-    "Mine or tanker incidents in Hormuz",
-    "Any formal US–Iran talks on Hormuz"
+    "Whether Bahrain or other Gulf states respond militarily to the drone attacks",
+    "Where the third carrier operates and any US strikes on nuclear sites",
+    "Any change in US or UK travel advice for Gulf states"
    ],
-   "agree": "Mostly yes: clash headlines are up with the Bahrain strike, but the data shows no new evacuations or travel-advice changes since late October, and oil is far below last month.",
-   "sides": "Coverage is broad, spanning Europe, the Gulf, Asia, Africa and Latin America, with 24% from the countries involved; the strike and mine claims come mainly from Iran's Revolutionary Guards and navy, and the US strike accounts come from US of",
+   "agree": "Mostly yes: the data shows a high count of clash and threat headlines (296 and 103) next to 56 on talks, matching coverage of the Bahrain attacks and the carrier deployment, while unchanged travel advice and few evacuation or airspace items",
+   "sides": "Coverage is broad, from 262 outlets in 51 countries with 21% from the countries involved; reports of the Bahrain attacks come mainly from Gulf outlets and governments that condemn Iran, and Iran's own account is largely missing from these h",
    "prev_stage": 3,
    "headlines": [
     {
+     "id": "h1",
+     "t": "Third US aircraft carrier enters Middle East as Trump heads to China for talks with Xi, Putin",
+     "o": "",
+     "u": "https://www.jpost.com/middle-east/article-915003",
+     "s": "Jerusalem Post",
+     "c": "IL",
+     "l": "en",
+     "p": 1794786813
+    },
+    {
+     "id": "h12",
+     "t": "Saudi Arabia: Iran’s Attack on Bahrain is a Violation of Int’l Law",
+     "o": "",
+     "u": "https://english.aawsat.com/node/5341645",
+     "s": "Asharq Al-Awsat English",
+     "c": "SA",
+     "l": "en",
+     "p": 1794771015
+    },
+    {
+     "id": "h15",
+     "t": "Iran attacks the US in Bahrain. WSJ: \"It still has up to 2,500 missiles",
+     "o": "L’Iran attacca gli Usa in Bahrein. Il Wsj: “Ha ancora fino a 2.500 missili”",
+     "u": "https://www.repubblica.it/esteri/2026/11/16/news/iran_attacca_gli_usa_in_bahrein_ha_ancora_fino_a_2500_missili-425725654/?rss",
+     "s": "Repubblica Esteri",
+     "c": "IT",
+     "l": "it",
+     "p": 1794769924
+    },
+    {
      "id": "h18",
-     "t": "Bahrain intercepts Iranian air attacks, Tehran says it hit a US base",
-     "o": "Bahrein intercepta ataques aéreos iranianos, Teerão afirma ter atingido base norte-americana",
-     "u": "https://www.publico.pt/2026/11/15/mundo/noticia/bahrein-intercepta-ataques-aereos-iranianos-teerao-afirma-atingido-base-norteamericana-2195021",
-     "s": "Publico Mundo",
-     "c": "PT",
-     "l": "pt",
-     "p": 1794733554
+     "t": "Iran strikes Bahrain again, Gulf warns 'no to escalation'",
+     "o": "Iran torna a colpire in Bahrain, monito dal Golfo 'no a escalation'",
+     "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVzNzMk92Y1Jmb3RWTWZtQll4RHBBbWtObFhSVnJmdmlyenpJdTY4Ukk4cjdEZU1jQ2tyS3pKbm1rcEl3eXR4SW9tVktGMmRyMW9ldGN5MG1BMW1EVVVfMUpCa09LOVRQYkh2V2hRQWRLV1hPM0Uwa09qdFRNMm5WbTQ1bmUtM0tvTXMwWXFQbHlJQVpsWjd6TUNsNVhXY282ZTZGVGluLWhldDZZSEhqZGFVaTdtMjFHdkZmR2hsWU8zTE9TQzFrVWg1Wms1V0p4UUR4YTVyS1VRNW9iNHllVm5BX0tjOWVyOG0wTtIB8gFBVV95cUxQZDZqWm5Gbk5DSnVNbDNTSzNnTHp2MEVoMHFkOVhNYkhNSU05NC1MM0JPWXhfNVFXaUpETlpSOGNDbFk3N0xIcW9iYzZxTkUxbHJOMkc5TEtqSlQtb3ZaMHFSTGF1ZW1KZGZJV202RmJXOWcta0g1U0pyMnhKOTNxNnd2NlQwSDZMaE50ckl5Q180bWJ1QkxHS1I1MlZ5amdMSnl4N2JlTGYwdTk4aUd0Rkt",
+     "s": "ANSA",
+     "c": "IT",
+     "l": "it",
+     "p": 1794768840
+    },
+    {
+     "id": "h19",
+     "t": "Without negotiations or attacks, Trump waits for Iran's collapse through sanctions?",
+     "o": "협상도 공격도 없이…트럼프, 제재로 이란 붕괴 기다리나",
+     "u": "https://www.yna.co.kr/view/AKR20261116002200071",
+     "s": "Yonhap Korean",
+     "c": "KR",
+     "l": "ko",
+     "p": 1794768693
+    },
+    {
+     "id": "h2",
+     "t": "Oil Steadies With Iranian Attack on Base in Bahrain in Focus",
+     "o": "",
+     "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTlsTGpib2E2Sm9JYXBzRlBxWTZNbGFEWHhjaHk3MG5ab1VybmtNNlAyaWtWYnFranRoZFRWNmY1clprM3lzeXJETGtTRW5oeldDa0NqdFJrWF9SZWkwUUZnSnNoVXJBcTk3ZmVNODB6Z21ZMVJLejZPSjI5S0pybXByY1hJNGEtWm5mNmVqZlJzVGxrblBCdVBiQVFNQQ?oc=5",
+     "s": "Bloomberg",
+     "c": "US",
+     "l": "en",
+     "p": 1794783830
     },
     {
      "id": "h20",
-     "t": "Iran announced a six-drone attack on a US military radar in Bahrain and issued a warning about the Strait of Hormuz",
-     "o": "Irán anunció ataque con seis drones contra un radar militar de Estados Unidos en Baréin y lanzó advertencia sobre el estrecho de Ormuz",
-     "u": "https://www.eltiempo.com/mundo/medio-oriente/iran-anuncio-ataque-con-seis-drones-contra-un-radar-militar-de-estados-unidos-en-barein-y-lanzo-advertencia-sobre-el-estrecho-de-ormuz-3601222",
-     "s": "El Tiempo Mundo",
-     "c": "CO",
-     "l": "es",
-     "p": 1794733452
+     "t": "Without negotiations or attacks… is Trump waiting for sanctions to bring Iran down?",
+     "o": "협상도 공격도 없이…트럼프, 제재로 이란 붕괴 기다리나",
+     "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uYWR1a0U4YXBhejBpUTltdjJ4WDJVYzVWcURNWkMxOGZqNldlcU5PTTVCNjZ2azBNMFAxTTJLYUZoc25vREUyRlJ2MERMVHZwcFNMekhQWWxOcTjSAWBBVV95cUxPOF9ySEZBUEFVRXJoUFJlc256N3o2cVlYYzVpUkxQbjJXVGlYS05aS0NUaGdYaHZzaEx3Nmk2Skk5VnJpSXhJbzRPUGQtemU5MkdQSk5TeWZZN2lCMDlmaEg?oc=5",
+     "s": "Yonhap",
+     "c": "KR",
+     "l": "ko",
+     "p": 1794768693
     },
     {
-     "id": "h3",
-     "t": "Envoy: Accepting Tehran’s terms, only path to balanced talks with US",
+     "id": "h22",
+     "t": "Iran may have as many as 2,500 ballistic missiles. US intelligence contradicts Hegseth's words",
+     "o": "Iran może mieć nawet 2,5 tys. rakiet balistycznych. Amerykański wywiad podważa słowa Hegsetha",
+     "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQckI0NzVTNlZURGM3WkNnR2tFUDhJcGhMdE9uaTJKNlVqWVN0emt6RHFyU1IwVEUyQmZSai1xTU9MTkhfb2hlTnVBUlpWSFpYMFA0NXIzWlM0cnMxalFJNFBWV0ZCSTFTQnA2NVM5alB0U2t3dzczdEs1Y0o3VkdQb2NkRE0zUjYzbXJzN29sTjVHNmtwQ1R4c2diWUZKcnN4d2gtT1FfeHJLU202aG1sWHBHNDNzZWxvS0xwMml1aEx0aVhuMlktSHhLYnRlWl9UWWxsSnBnX1JBU19U?oc=5",
+     "s": "Money.pl",
+     "c": "PL",
+     "l": "pl",
+     "p": 1794767501
+    },
+    {
+     "id": "h23",
+     "t": "UAE strongly condemns fresh Iranian drone attack on Bahrain",
      "o": "",
-     "u": "https://en.irna.ir/news/86322285/Envoy-Accepting-Tehran-s-terms-only-path-to-balanced-talks",
-     "s": "IRNA English",
-     "c": "IR",
+     "u": "https://gulfnews.com/uae/government/uae-strongly-condemns-fresh-iranian-drone-attack-on-bahrain-1.500748468",
+     "s": "Gulf News",
+     "c": "AE",
      "l": "en",
-     "p": 1794736693
+     "p": 1794767239
     },
     {
-     "id": "h5",
-     "t": "Iran claims to have attacked a base in Bahrain but keeps the door open for talks with the US",
-     "o": "อิหร่านอ้างโจมตีฐานทัพในบาห์เรน แต่ยังเปิดทางเจรจากับสหรัฐ",
-     "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wamhVd1BMdjBJaFcxUkdDbXhvdHBXSDBNR3pLU1hiLVFJTlR3dnZNYVV1VzNkd3g1SGdoRmh5d2lRbS1vTnNiRHRYZUFjMkk4Z3JN?oc=5",
-     "s": "เดลินิวส์",
-     "c": "TH",
-     "l": "th",
-     "p": 1794736440
-    },
-    {
-     "id": "h6",
-     "t": "Iran strikes Bahrain base, repeats path to U.S. deal remains open",
+     "id": "h9",
+     "t": "US deploys third aircraft carrier to Middle East as Trump weighs next move in Iran war - Region - World",
      "o": "",
-     "u": "https://www.japantimes.co.jp/news/2026/11/15/world/iran-bahrain-base-us-deal/",
-     "s": "The Japan Times",
-     "c": "JP",
+     "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIZEJnRG5XSkFrV2doT2lUcnI4LUVxc2dqanJjSVdhUmNBRWdDdnAxMjRhdjRsLTBCS1gwdkY4ZUY4QkctR3l3X1lGc043S3dxcXhhQk5ab0g?oc=5",
+     "s": "Ahram Online",
+     "c": "EG",
      "l": "en",
-     "p": 1794736140
+     "p": 1794773623
     }
    ],
-   "notes": [
-    {
-     "id": "g21",
-     "date": "2026-11-15",
-     "fact": "Headline (translated from tr): Iran's Revolutionary Guards: 2 oil tankers caught fire after hitting mines in the Strait of Hormuz [story carried by 29 independent sources in 19 countries (AR, AT, CH, DE, FR, GB)]",
-     "url": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-hurmuz-bogazinda-2-petrol-tankeri-mayina-carparak-alev-aldi-963317.html",
-     "outlet": "TRT Haber Dunya",
-     "home": "TR",
-     "region": "middle-east",
-     "media": "unrated",
-     "tag": "non-party",
-     "key": "outlet:trthaber-com",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "g23",
-     "date": "2026-11-14",
-     "fact": "Headline (translated from ru): Two tankers hit mines in the Strait of Hormuz [story carried by 18 independent sources in 11 countries (AE, EG, FR, GB, IR, PL)]",
-     "url": "https://www.kommersant.ru/doc/9109727",
-     "outlet": "Kommersant",
-     "home": "RU",
-     "region": "russia",
-     "media": "unrated",
-     "tag": "non-party",
-     "key": "outlet:kommersant-ru",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "w31",
-     "date": "2026-11-15",
-     "fact": "Iran's Revolutionary Guards say they sent six drones at Bahrain's Riffa helicopter base on Sunday, calling it a reply to US aggression. It is the first direct strike on Bahrain in weeks.",
-     "url": "https://japantimes.co.jp/news/2026/11/15/world/iran-bahrain-base-us-deal",
-     "outlet": "The Japan Times",
-     "home": "JP",
-     "region": "east-asia",
-     "media": "private",
-     "tag": "party-gov",
-     "key": "claim:iran revolutionary guards",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "w33",
-     "date": "2026-11-14",
-     "fact": "Arab News, citing Iranian state media via Reuters, says Iran's navy reported a tanker on fire after hitting a mine. It adds that the US military says it has cleared the main routes of mines.",
-     "url": "https://arabnews.com/middle-east/irans-navy-says-oil-tanker-on-fire-after-hitting-mine-in-hormuz-3011782",
-     "outlet": "Arab News",
-     "home": "SA",
-     "region": "gulf",
-     "media": "state-funded",
-     "tag": "party-gov",
-     "key": "claim:iran navy us military disputes mines on main routes",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "w34",
-     "date": "2026-11-12",
-     "fact": "NBC says the US military reported new limited 'defensive' strikes. Explosions were heard on Qeshm and Hengam islands and near Bandar Abbas. Page shows no exact date, about three days old.",
-     "url": "https://www.nbcnews.com/world/iran-war",
-     "outlet": "NBC News",
-     "home": "US",
-     "region": "north-america",
-     "media": "private",
-     "tag": "party-gov",
-     "key": "claim:us military",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "w36",
-     "date": "2026-11-02",
-     "fact": "A US official told AP the US struck Iranian targets in Hormuz, saying Iran fired surface-to-air missiles at US assets. AP described the strikes as limited, not a return to full war.",
-     "url": "https://www.pbs.org/newshour/world/u-s-strikes-iranian-targets-in-strait-of-hormuz-u-s-official-tells-ap",
-     "outlet": "PBS NewsHour",
-     "home": "US",
-     "region": "north-america",
-     "media": "public-service",
-     "tag": "party-gov",
-     "key": "claim:us official anonymous",
-     "hotspot": "us-israel-iran-war"
-    }
-   ],
+   "notes": [],
    "tiles": [
     {
      "id": "d1",
      "kind": "who_reports",
      "label": "Who's reporting (48 h)",
-     "value": "854 headlines",
-     "note": "251 outlets, 48 countries, 28 languages; 24% from the sides' own countries",
+     "value": "842 headlines",
+     "note": "262 outlets, 51 countries, 29 languages; 21% from the sides' own countries",
      "level": 0,
      "parts": [
       [
        "Europe",
-       181
+       183
       ],
       [
        "Middle East",
-       157
+       171
       ],
       [
        "Gulf",
-       134
-      ],
-      [
-       "N. America",
-       69
-      ],
-      [
-       "South & Central Asia",
-       67
+       118
       ],
       [
        "Iran",
        66
       ],
       [
+       "South & Central Asia",
+       62
+      ],
+      [
        "Russia",
-       57
+       61
+      ],
+      [
+       "N. America",
+       47
       ],
       [
        "East Asia",
-       47
+       45
       ]
      ]
     },
@@ -10836,13 +10803,13 @@
      "id": "d2",
      "kind": "headline_signals",
      "label": "Headline signals (48 h)",
-     "value": "514",
+     "value": "513",
      "note": "what the headlines are about (one headline can count twice)",
-     "level": 1,
+     "level": 2,
      "parts": [
       [
        "mobilization",
-       5
+       7
       ],
       [
        "evacuation",
@@ -10854,19 +10821,19 @@
       ],
       [
        "threats",
-       121
+       103
       ],
       [
        "clashes",
-       250
+       296
       ],
       [
        "talks",
-       63
+       56
       ],
       [
        "nuclear",
-       73
+       49
       ]
      ]
     },
@@ -10946,8 +10913,8 @@
      "id": "d11",
      "kind": "currency",
      "label": "ILS vs US dollar",
-     "value": "0.5% weaker",
-     "note": "in 7 days; 3.0% weaker in 30",
+     "value": "0.3% weaker",
+     "note": "in 7 days; 2.8% weaker in 30",
      "level": 0
     },
     {
@@ -10955,7 +10922,7 @@
      "kind": "currency",
      "label": "IRR vs US dollar",
      "value": "1.2% weaker",
-     "note": "in 7 days; 6.8% weaker in 30; a managed rate, moves little",
+     "note": "in 7 days; 6.6% weaker in 30; a managed rate, moves little",
      "level": 0
     },
     {
@@ -10976,14 +10943,6 @@
     },
     {
      "id": "d15",
-     "kind": "oil",
-     "label": "Brent crude",
-     "value": "$92.14",
-     "note": "+0.3% in 7 days (price of 2026-11-11)",
-     "level": 0
-    },
-    {
-     "id": "d16",
      "kind": "outages",
      "label": "Internet outages: Israel",
      "value": "2 alerts",
@@ -10991,7 +10950,7 @@
      "level": 2
     },
     {
-     "id": "d17",
+     "id": "d16",
      "kind": "outages",
      "label": "Internet outages: Iran",
      "value": "2 alerts",
@@ -10999,21 +10958,13 @@
      "level": 2
     },
     {
-     "id": "d18",
+     "id": "d17",
      "kind": "market",
      "label": "Betting market",
-     "value": "2% yes",
-     "note": "Will the US officially declare war on Iran by December 31, 2026? (+0 pts this week); a market price, not a forecast",
+     "value": "1% yes",
+     "note": "Will the US officially declare war on Iran by December 31, 2026? (-1 pts this week); a market price, not a forecast",
      "level": 0,
      "url": "https://polymarket.com/event/will-the-us-officially-declare-war-on-iran-by"
-    },
-    {
-     "id": "d19",
-     "kind": "actions",
-     "label": "Preparedness actions (30 days)",
-     "value": "9",
-     "note": "6 countries: Egypt, India, Iran, Iraq, Israel, United Kingdom); latest 2026-11-12",
-     "level": 1
     }
    ],
    "score": 8.0,
@@ -11062,7 +11013,8 @@
      "2026-11-15",
      3
     ]
-   ]
+   ],
+   "recheck": "2026-11-16T00:12:23Z"
   },
   {
    "id": "israel-hezbollah-lebanon",
@@ -12434,11 +12386,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-13T01:49:50Z",
-     "headline": "Trump threatens renewed Iran strikes, pulls Vance from talks; no new strike confirmed",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-13T05:00:32Z",
      "headline": "Iran claims attack on US radar in Bahrain; Trump hints at renewed strikes, no deal sought",
      "direction": "escalating"
@@ -12552,121 +12499,194 @@
      "at": "2026-11-15T20:53:58Z",
      "headline": "Bahrain drone attack condemned; US sends third carrier as Iran rejects 'neither war nor peace'",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-16T00:11:39Z",
+     "headline": "Tankers hit mines in Hormuz and burn; Iran strikes Bahrain again; Oman talks planned",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-15T20:53:58Z",
-   "next_at": "2026-11-15T23:53:58Z",
-   "headline": "Bahrain drone attack condemned; US sends third carrier as Iran rejects 'neither war nor peace'",
+   "updated_at": "2026-11-16T00:11:39Z",
+   "next_at": "2026-11-16T03:11:39Z",
+   "headline": "Tankers hit mines in Hormuz and burn; Iran strikes Bahrain again; Oman talks planned",
    "direction": "escalating",
    "points": [
     {
-     "text": "The UAE and Saudi Arabia condemned a fresh Iranian drone attack on Bahrain, with Saudi Arabia calling it a violation of international law. Iran's claim that it hit a radar in Bahrain comes only from Israeli-published reporting.",
+     "text": "Several tankers hit naval mines in or near the Strait of Hormuz and caught fire, according to reports from many independent outlets. Iran's navy and Revolutionary Guards (IRGC) say at least two tankers were hit, and one of them sank.",
      "stories": [
       "s1",
       "s3",
-      "s19"
+      "s4",
+      "s5",
+      "s19",
+      "s20"
      ],
      "sources": [
       {
-       "t": "UAE strongly condemns fresh Iranian drone attack on Bahrain",
-       "u": "https://gulfnews.com/uae/government/uae-strongly-condemns-fresh-iranian-drone-attack-on-bahrain-1.500748468",
-       "s": "Gulf News",
-       "c": "AE",
+       "t": "Two tankers explode after hitting naval mines south of Strait of Hormuz",
+       "u": "https://www.tehrantimes.com/news/532186/Two-tankers-explode-after-hitting-naval-mines-south-of-Strait",
+       "s": "Tehran Times",
+       "c": "IR",
        "l": "en",
-       "p": 1794767239,
+       "p": 1794764393,
        "r": "known"
       },
       {
-       "t": "Saudi Arabia: Iran’s Attack on Bahrain is a Violation of Int’l Law",
-       "u": "https://english.aawsat.com/node/5341645",
-       "s": "Asharq Al-Awsat English",
-       "c": "SA",
+       "t": "Two oil tankers ablaze after striking naval mines in the Strait of Hormuz",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/two-oil-tankers-ablaze-after-striking-naval-mines-strait-hormuz",
+       "s": "Middle East Eye",
+       "c": "GB",
        "l": "en",
-       "p": 1794771015,
+       "p": 1794756614,
        "r": "known"
       },
       {
-       "t": "Iranian plot to hit Trump and senior administration officials, and intelligence from Israel",
-       "o": "הכוונה האיראנית לפגוע בטראמפ ובבכירי הממשל - והמודיעין מישראל",
-       "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DamM0MVV0Q1JpUFlfN2FTbm5xTmNJME5ySm9sWS1tLUhkcnBkVXJxSjYxQkM5aDZ2a2NZdENsaFk0WjJLeDhWcjB3c0tmLW4tY2MyODU2WFlHc3hPdzB4b1NuQlJJOGl4YXBLeHhWSVpRS2NCdGc?oc=5",
-       "s": "רשת 13",
-       "c": "IL",
-       "l": "he",
-       "p": 1794767165,
-       "r": "unrated"
+       "t": "Iranian forces attack a new US military target in the Middle East",
+       "o": "Fuerzas iraníes atacan nuevo objetivo militar de Estados Unidos en Oriente Medio",
+       "u": "http://www.cubadebate.cu/noticias/2026/11/15/fuerzas-iranies-atacan-nuevo-objetivo-militar-de-estados-unidos-en-oriente-medio/",
+       "s": "Cubadebate",
+       "c": "CU",
+       "l": "es",
+       "p": 1794748927,
+       "r": "known"
+      },
+      {
+       "t": "The British Navy reports an attack on a tanker near the Strait of Hormuz",
+       "o": "La Marina británica informa de un ataque a un buque cisterna cerca del estrecho de Ormuz",
+       "u": "https://www.infobae.com/america/agencias/2026/11/15/la-marina-britanica-informa-de-un-ataque-a-un-buque-cisterna-cerca-del-estrecho-de-ormuz/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794748662,
+       "r": "known"
+      },
+      {
+       "t": "Iran Claims Tanker With 2 Million Barrels Of Oil Sank In Strait Of Hormuz",
+       "u": "https://www.ndtv.com/world-news/iran-claims-tanker-with-2-million-barrels-of-oil-sank-in-strait-of-hormuz-12331036#publisher=newsstand",
+       "s": "NDTV World",
+       "c": "IN",
+       "l": "en",
+       "p": 1794766967,
+       "r": "known"
       }
      ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
+     "headlines": 38,
+     "outlets": 30,
+     "independent": 30,
      "countries": [
       "AE",
+      "AR",
+      "CH",
+      "CU",
+      "DE",
+      "ES",
+      "FR",
+      "GB",
       "IL",
-      "SA"
+      "IN",
+      "IR",
+      "IT",
+      "LB",
+      "RU",
+      "SA",
+      "TR"
      ],
-     "regions": 2,
+     "regions": 7,
      "party_only": false,
-     "state": 0
+     "state": 9
     },
     {
-     "text": "Egypt's state-run Ahram Online reports the US is deploying a third aircraft carrier to the Middle East as Trump weighs his next move. The Frankfurter Rundschau reports top US ministers were moved to secured military bases, and the WSJ reports US aircraft were evacuated from a second UK base due to the Iran threat.",
+     "text": "Iran launched drone attacks on a US military base in Bahrain, which Bahrain says it intercepted. Iran also claims it hit a radar in Bahrain, but that claim appears only in Israeli-published reporting. The UAE, the GCC and Saudi Arabia condemned the attacks as a violation of international law.",
      "stories": [
-      "s8",
+      "s2",
+      "s11",
+      "s19",
       "s15",
-      "s22"
+      "s28",
+      "s10"
      ],
      "sources": [
       {
-       "t": "US deploys third aircraft carrier to Middle East as Trump weighs next move in Iran war - Region - World",
-       "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RX05UU1RNcUlKMEVWa2twVHB1VGlkUGpYQ0FiY0ZCOTY5cGNQODlJQzR2M2thMXV1eGdyRnlhYWY5czdyTFhqT0ZYVXBzaEtUcXBMZWFKWGw?oc=5",
-       "s": "Ahram Online",
-       "c": "EG",
-       "l": "en",
-       "p": 1794769214,
-       "r": "state"
-      },
-      {
-       "t": "Acute threat from Iran: Trump's top ministers moved to secured military bases",
-       "o": "Akute Bedrohung durch Iran: Trumps Top-Minister in gesicherte Militärstützpunkte verlegt",
-       "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaElzQmdFNnM0R21lbm5WeS1nZnhqaHNZV253Qzhoa09CNy1fb3VsQ1VPNjJ6bFRZc2Jwb19OWDVZaDRtZEtQR0YyY1NUXzZGQjNaOGptakpoODRadmV5QTNCWWtiOF9sS1JCa0Qtd0pzRDctTXpNM0JUZkIxMl9vN2lsRmd5ck42SjlLcE9fbnVQZVF1bVVYVW9QM1JIRTNIUVE?oc=5",
-       "s": "Frankfurter Rundschau",
-       "c": "DE",
-       "l": "de",
-       "p": 1794765341,
-       "r": "unrated"
-      },
-      {
-       "t": "Exclusive | U.S. Aircraft Evacuated From Second U.K. Base Due to Iran Threat",
-       "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ0tDaWxJVnFUVzlrbFZ4UlNRWTRpdWdidXRnenUzSVlISnNTT1RNaDRNWC1iWU9PZXdPTHRQUUJOTlJaOFRLdWxodDBhV3hINllRODNtSnVtdVU5ZHZMcWN1Q0h5ejJUVHB2WGpyVWxJU2ZFTGtROC11SUJTdU1DNWt5MUNiRTFfSmNkMjhrcU1aODh6bEQ2SThibDcxMUIzUmx4TDRsR1cxcUNta0E?oc=5",
-       "s": "Wall Street Journal",
+       "t": "Oil Steadies With Iranian Attack on Base in Bahrain in Focus",
+       "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTlsTGpib2E2Sm9JYXBzRlBxWTZNbGFEWHhjaHk3MG5ab1VybmtNNlAyaWtWYnFranRoZFRWNmY1clprM3lzeXJETGtTRW5oeldDa0NqdFJrWF9SZWkwUUZnSnNoVXJBcTk3ZmVNODB6Z21ZMVJLejZPSjI5S0pybXByY1hJNGEtWm5mNmVqZlJzVGxrblBCdVBiQVFNQQ?oc=5",
+       "s": "Bloomberg",
        "c": "US",
        "l": "en",
-       "p": 1794765893,
+       "p": 1794783830,
+       "r": "known"
+      },
+      {
+       "t": "Iran launches drone attacks against US military base in Bahrain",
+       "u": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+       "s": "The Guardian",
+       "c": "GB",
+       "l": "en",
+       "p": 1794764169,
+       "r": "known"
+      },
+      {
+       "t": "Iran attacks Bahrain and escalates military tensions in the Gulf",
+       "o": "Irã ataca Bahrein e amplia escalada militar no Golfo",
+       "u": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/ira-ataca-bahrein-e-amplia-escalada-militar-no-golfo.shtml",
+       "s": "Folha Mundo",
+       "c": "BR",
+       "l": "pt",
+       "p": 1794761580,
+       "r": "known"
+      },
+      {
+       "t": "Iran claims drone attack on US military base in Bahrain",
+       "u": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
+       "s": "France 24",
+       "c": "FR",
+       "l": "en",
+       "p": 1794756562,
+       "r": "known"
+      },
+      {
+       "t": "Bahrain intercepts Iranian aerial attacks as Tehran claims strikes on U.S. military base",
+       "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUDdDc2F1YkxKS0didjBIa0dsdjJiSkhCZ245SEJqcWxZRU9FeDRKVnFKX2xJODNBbTN1ODQzT3RueUIwRDIycDFTVmtfdUM2WHZKUmN3dXdXeGotOEkzNDVqRTVpRUpZRzdLZmZlWk82LWwtTUJoVFhhMVhnOFhCajR6TlBucFNIQmpiX2ozVmRuRl9uY1hiUXdzQlBpVlRzNzliZ1ZNRmE5WWhEZ1U4amIwcHVmU0E?oc=5",
+       "s": "Globe and Mail",
+       "c": "CA",
+       "l": "en",
+       "p": 1794748956,
        "r": "known"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 27,
+     "outlets": 20,
+     "independent": 20,
      "countries": [
-      "DE",
-      "EG",
+      "AE",
+      "AU",
+      "BR",
+      "CA",
+      "EC",
+      "FR",
+      "GB",
+      "IL",
+      "LK",
+      "RU",
+      "SA",
+      "TH",
+      "TR",
       "US"
      ],
-     "regions": 3,
+     "regions": 9,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "The WSJ says Iran still has up to 2,500 ballistic missiles, while US intelligence contradicts Defense Secretary Hegseth's account of Iran's arsenal. Iran's parliament speaker Qalibaf says Iran does not accept a prolonged 'neither war nor peace' state, per Iranian media.",
+     "text": "The WSJ reports, citing US intelligence, that Iran still has up to 2,500 ballistic missiles. This contradicts Trump's and Defense Secretary Hegseth's claims that Iran's arsenal was destroyed.",
      "stories": [
       "s6",
-      "s12",
-      "s9"
+      "s8",
+      "s35",
+      "s36"
      ],
      "sources": [
       {
@@ -12680,13 +12700,105 @@
        "r": "known"
       },
       {
-       "t": "Iran may have as many as 2,500 ballistic missiles. US intelligence contradicts Hegseth's words",
-       "o": "Iran może mieć nawet 2,5 tys. rakiet balistycznych. Amerykański wywiad podważa słowa Hegsetha",
-       "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQckI0NzVTNlZURGM3WkNnR2tFUDhJcGhMdE9uaTJKNlVqWVN0emt6RHFyU1IwVEUyQmZSai1xTU9MTkhfb2hlTnVBUlpWSFpYMFA0NXIzWlM0cnMxalFJNFBWV0ZCSTFTQnA2NVM5alB0U2t3dzczdEs1Y0o3VkdQb2NkRE0zUjYzbXJzN29sTjVHNmtwQ1R4c2diWUZKcnN4d2gtT1FfeHJLU202aG1sWHBHNDNzZWxvS0xwMml1aEx0aVhuMlktSHhLYnRlWl9UWWxsSnBnX1JBU19U?oc=5",
-       "s": "Money.pl",
-       "c": "PL",
-       "l": "pl",
-       "p": 1794767501,
+       "t": "Iran is believed to still have up to 2,500 missiles, WSJ reports",
+       "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORl8xa29oRmhScjRnNHJId1dXMEczS1M0M1FoMjlMZVRIdHB5QTVSZVYyeWRVU0ZaX19QOHE2REM3N190MGhKZ194VmdKZy1tVENITnhLdVVWTGdWUFN4S1lzNFZtaEdOU19QU2JMUzJMSlBIaHRvM0xJVGFBZTVEY3BYS3RvZXREWktreGNWak1SZ1k3SjZ2ZXZOQXFGbFdPZ1FEMzdEVURQSFBWR3VvYTJ0aGUyZw?oc=5",
+       "s": "L'Orient-Le Jour",
+       "c": "LB",
+       "l": "en",
+       "p": 1794763372,
+       "r": "known"
+      },
+      {
+       "t": "Iran has rebuilt a stock of about 2,500 missiles, according to US intelligence",
+       "o": "L’Iran a reconstitué un stock d’environ 2500 missiles, affirme le renseignement américain",
+       "u": "https://www.lefigaro.fr/international/l-iran-a-reconstitue-un-stock-d-environ-2500-missiles-affirme-le-renseignement-americain-20261115",
+       "s": "Le Figaro International",
+       "c": "FR",
+       "l": "fr",
+       "p": 1794749625,
+       "r": "known"
+      },
+      {
+       "t": "Iran may still have 2,500 missiles in its stockpile, US intelligence assesses",
+       "o": "Irã ainda pode ter 2.500 mísseis em seu estoque, avalia inteligência dos EUA",
+       "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZUtCTVBUOE0zMll5Q0FRRnduNVJVV2RHVV9QeEdEYjJMaFVJeVlNNENpQlVSZ3dpelM2M285dUhiZXpJUFdxMl9rUGpCMUhsajZ3aXdlVFlmNzNmWnIwVVVMRTlrbW1wRTRMMlhvWEc1RkdoNkNRQlRZdmFhWndGYzFVOGZ0R1hMZGhxNG9GdmQxajB0bGZVQkFvRFNMbFp2VFVReVMxX2N1cXlic0JfQ0wxN0RaZS1NVGh0d2hQcklEV3o5MVo2WWt2YUsyMVk?oc=5",
+       "s": "UOL Notícias",
+       "c": "BR",
+       "l": "pt",
+       "p": 1794769283,
+       "r": "unrated"
+      },
+      {
+       "t": "Slapping Trump's \"total destruction\" claim: WSJ reports intelligence indicates Iran still has over 1,500 missiles",
+       "o": "打臉川普「全面摧毀」！WSJ：情報指伊朗仍有逾1500枚飛彈",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5641939",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794756613,
+       "r": "known"
+      }
+     ],
+     "headlines": 10,
+     "outlets": 9,
+     "independent": 9,
+     "countries": [
+      "BR",
+      "FR",
+      "IN",
+      "IT",
+      "KR",
+      "LB",
+      "PL",
+      "TW"
+     ],
+     "regions": 5,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iranian Foreign Minister Araghchi is due to visit Oman and Pakistan this week for talks. Iran says it holds firm to its conditions, while Iranian officials warn that Washington may use diplomacy to buy time.",
+     "stories": [
+      "s7",
+      "s31",
+      "s30"
+     ],
+     "sources": [
+      {
+       "t": "Iran foreign minister Abbas Aragchi to visit Muscat, hold talks with Omani counterpart",
+       "u": "https://www.hindustantimes.com/world-news/iran-foreign-minister-abbas-aragchi-to-visit-muscat-hold-talks-with-omani-counterpart-101794748995709.html",
+       "s": "Hindustan Times World",
+       "c": "IN",
+       "l": "en",
+       "p": 1794751085,
+       "r": "known"
+      },
+      {
+       "t": "Iran Foreign Minister Araghchi to visit Oman for talks with counterpart",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-914945",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794747867,
+       "r": "known"
+      },
+      {
+       "t": "Iran’s foreign minister to visit Pakistan, Oman for talks this week",
+       "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV2pEYkxTZUxRYnFHbTdzM3A2eDNnbzJYSXkxSEtOeXdobkJiaHZmb2Nkc0VLRjNoWDdxeVBRQmpXY052TnRBLVMyQ2ZET2RRc0toOE1ReVNoQnRiaFFJRHYzTm5RQWNZX2VTZlpKa29YX2VzcW45Nms0VmIwXzNkVEtPbkNXa29PNWY0RWZXVXBhRnZzaEstVVE4YzZTV3NOVnlaMTlXR05Mc2d3WFl4azg4MVk1UnNXR3Zac19kdVdSZ9IBxwFBVV95cUxPT05TWkNSMnFMU2ZPelZDWXJ1aTR1SnA3T0JiQl9Pd3Z0WUtBS3RnNUE0cjZ0cnBleE5OU3dLYzlMWWtocmp0eWV1SGNDYk5DR09iYWE5UW93S0RxaERtZlFLTFZUckI2aW9pTkNjbzc2NWZBWWFqNk5JM3ZBU2Q5dVo5b1NsVXF6SzBFVFU5YmRWZXlEMzNPcmRWa0laT1dGVzk4VmNBWVBEX21HemRsMG9keXB2aGRpdy1VaEhyRFg2NmVHOWpj?oc=5",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794746700,
+       "r": "known"
+      },
+      {
+       "t": "Iranian agency: Araghchi visits Muscat for talks with his Omani counterpart",
+       "o": "وكالة إيرانية: عراقجي يزور مسقط لإجراء محادثات مع نظيره العماني",
+       "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXWVNDTDhFTUdhZ3pNdHowdTB3QXJJemkyUDREYjRsQXZBS1NEM3g3alQ0VnF1UnRYLTgyR1hMejZMUGItNWljcUEya1VaWUdJQ3d1eUp3?oc=5",
+       "s": "إرم نيوز",
+       "c": "LB",
+       "l": "ar",
+       "p": 1794749769,
        "r": "unrated"
       },
       {
@@ -12700,80 +12812,33 @@
        "r": "known"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 6,
+     "outlets": 6,
+     "independent": 6,
      "countries": [
-      "IT",
-      "PL",
+      "IL",
+      "IN",
+      "LB",
       "SA"
      ],
-     "regions": 2,
+     "regions": 3,
      "party_only": false,
      "state": 0
-    },
-    {
-     "text": "Iran's Foreign Ministry says Washington's responses to Tehran's conditions cannot be implemented in practice, per TASS.",
-     "stories": [
-      "s5",
-      "s17",
-      "s21"
-     ],
-     "sources": [
-      {
-       "t": "Iran's MFA: Washington's responses to Tehran's conditions cannot be implemented in practice",
-       "o": "МИД Ирана: ответы Вашингтона на условия Тегерана нельзя реализовать на практике",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28319637",
-       "s": "TASS",
-       "c": "RU",
-       "l": "ru",
-       "p": 1794770457,
-       "r": "state"
-      },
-      {
-       "t": "Iran ready for diplomacy, economic blockade and military confrontation: Deputy FM",
-       "u": "https://en.irna.ir/news/86322858/Iran-ready-for-diplomacy-economic-blockade-and-military-confrontation",
-       "s": "IRNA English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794772397,
-       "r": "state"
-      },
-      {
-       "t": "Iran will not leave any strike unanswered",
-       "u": "https://en.irna.ir/photo/86322817/Iran-will-not-leave-any-strike-unanswered",
-       "s": "IRNA English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794766490,
-       "r": "state"
-      }
-     ],
-     "headlines": 3,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "IR",
-      "RU"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 3
     }
    ],
    "watch": [
-    "Whether Trump announces a next step after the third carrier deployment",
-    "Any Iranian or Bahraini response to the drone attack and Saudi and UAE follow-up",
-    "Independent confirmation of the reported supertanker sinking and mine strikes in the Strait of Hormuz"
+    "Whether independent maritime sources confirm the tanker sinking and the mine strikes",
+    "Outcome of Araghchi's talks in Oman and Pakistan",
+    "Any new Iranian strikes on Bahrain or other Gulf states, and the Gulf response"
    ],
-   "window_hours": 3,
-   "headlines_read": 25,
-   "outlets_read": 21,
-   "countries_read": 14,
-   "languages_read": 9,
+   "window_hours": 12,
+   "headlines_read": 178,
+   "outlets_read": 96,
+   "countries_read": 35,
+   "languages_read": 15,
    "model": "Claude Haiku 5.5",
-   "ladder_checked_at": "2026-11-15T06:48:10Z",
-   "ladder_note": "Re-checked after: Iran's Revolutionary Guards say they launched six drones at a US radar facility in Bahrain, and Bahrain issued threat alerts; Bahrain says the drones were intercepted."
+   "ladder_checked_at": "2026-11-16T00:11:39Z",
+   "ladder_note": "Re-checked after: Mines reportedly hit tankers in the Strait of Hormuz and set them on fire, a concrete shipping escalation confirmed by many independent outlets, though the strait itself is not reported closed."
   }
  ],
  "ai_risk": {

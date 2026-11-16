@@ -1,17 +1,7 @@
 {
  "month": "2026-11",
- "usd": 0.4619,
+ "usd": 0.5379,
  "runs": [
-  {
-   "at": "2026-11-05T09:48:41Z",
-   "what": "focus update",
-   "model": "claude-haiku-5-5",
-   "in": 4272,
-   "out": 2200,
-   "searches": 0,
-   "batch": false,
-   "usd": 0.0015
-  },
   {
    "at": "2026-11-05T12:34:31Z",
    "what": "focus update",
@@ -811,6 +801,26 @@
    "searches": 0,
    "batch": false,
    "usd": 0.0016
+  },
+  {
+   "at": "2026-11-16T00:11:51Z",
+   "what": "focus update",
+   "model": "claude-haiku-5-5",
+   "in": 5448,
+   "out": 2501,
+   "searches": 0,
+   "batch": false,
+   "usd": 0.0018
+  },
+  {
+   "at": "2026-11-16T00:12:23Z",
+   "what": "boiling point re-check",
+   "model": "claude-opus-5-5",
+   "in": 5989,
+   "out": 2514,
+   "searches": 0,
+   "batch": false,
+   "usd": 0.0742
   }
  ],
  "cap": 3.0
