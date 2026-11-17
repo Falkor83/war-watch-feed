@@ -1642,9 +1642,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Iran claims 3rd Bahrain radar attack in 5 days; Bahrain intercepts; 3rd US carrier arrives",
+   "status": "Dirty-bomb claim draws Trump warning; Qeshm blasts and Hormuz tanker fires reported; Qatar-Iran talks",
    "summary": "The US and Israel have been at war with Iran, and shipping through the Strait of Hormuz has been restricted for months. Iran's Revolutionary Guards say they sent drones at a US radar at Isa Air Base in Bahrain on Nov 17, their third such claim in five days; Bahrain says its air defences stopped them, and no independent source has confirmed damage. AP reports these attacks end a pause of about two months in Iranian strikes on Gulf neighbours. A third US aircraft carrier, USS Theodore Roosevelt, has entered the region. UKMTO reports a projectile hit a tanker with no casualties, while Iran's Guard navy claims mines damaged six tankers since Nov 15.",
    "latest": [
+    {
+     "date": "2026-11-17",
+     "at": "2026-11-17T15:12:00Z",
+     "text": "Trump says the US is taking seriously a reported Iranian dirty-bomb plot against Washington, and Tehran calls the report fabricated. Iran's Foreign Ministry says the claims are a pretext for ground aggression.",
+     "outlet": "NDTV World",
+     "country": "India",
+     "url": "https://www.ndtv.com/world-news/us-iran-war-they-are-crazy-trump-on-reported-iranian-dirty-bomb-plot-in-washington-12339810#publisher=newsstand",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-17",
+     "at": "2026-11-17T15:12:00Z",
+     "text": "Blasts were heard near Qeshm Island in the Strait of Hormuz, according to Iranian media and several outside outlets. Iran's IRGC air defence says it downed an MQ-1 drone over Qeshm, a claim reported only by Iranian media.",
+     "outlet": "TRT Haber Dunya",
+     "country": "Turkey",
+     "url": "https://www.trthaber.com/haber/dunya/iran-medyasi-hurmuz-bogazindaki-kesm-adasinda-patlama-sesi-duyuldu-963581.html",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-17",
+     "at": "2026-11-17T15:12:00Z",
+     "text": "Iran's navy says a supertanker and an LPG carrier hit naval mines and caught fire in the Strait; this is Iran's claim. Russian outlet Kommersant separately reports a tanker fire after shelling in the Strait.",
+     "outlet": "IRNA English",
+     "country": "Iran",
+     "url": "https://en.irna.ir/news/86324571/Supertanker-LPG-carrier-hit-naval-mines-catch-fire-in-Strait",
+     "region": "iran",
+     "tag": "non-party",
+     "state_media": true
+    },
     {
      "date": "2026-11-17",
      "at": "2026-11-17T12:18:22Z",
@@ -1695,36 +1728,6 @@
      "country": "United Arab Emirates",
      "url": "https://gulfnews.com/world/gulf/bahrain/three-attacks-in-five-days-why-is-iran-targeting-us-radar-systems-in-bahrain-1.500750407",
      "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-17",
-     "text": "The US Embassy in Bahrain's Nov 16 alert cited heightened threats from Iran-backed Houthis and reported Iranian efforts to target US officials and facilities in the region.",
-     "outlet": "Gulf News",
-     "country": "United Arab Emirates",
-     "url": "https://gulfnews.com/world/gulf/bahrain/explosions-heard-in-bahrain-after-threat-alert-iran-claims-drone-attack-on-us-radar-1.500750199",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-17",
-     "text": "Gulf News says the US and Israel are reportedly planning strikes on Iran's economic targets, and Iran says it will not wait for a US attack.",
-     "outlet": "Gulf News",
-     "country": "United Arab Emirates",
-     "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-iran-tensions-escalate-as-third-aircraft-carrier-enters-region-1.500748608",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-17",
-     "text": "Headline: Third US aircraft carrier reaches Middle East as Trump weighs Iran options [story carried by 17 independent sources in 15 countries (AE, AR, CN, DE, EG, ES)]",
-     "outlet": "South China Morning Post",
-     "country": "Hong Kong",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3374663/third-us-aircraft-carrier-reaches-middle-east-trump-weighs-iran-options",
-     "region": "china",
      "tag": "non-party",
      "state_media": false
     }
@@ -12858,11 +12861,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-14T16:26:21Z",
-     "headline": "Iran says tankers hit mines in Hormuz; Trump reportedly may hold off on strikes",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-14T19:23:48Z",
      "headline": "Trump may hold off on Iran strikes; Iran claims tankers hit mines, a US drone downed",
      "direction": "steady"
@@ -12976,283 +12974,294 @@
      "at": "2026-11-17T12:18:22Z",
      "headline": "",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-17T15:12:00Z",
+     "headline": "Dirty-bomb claim draws Trump warning; Qeshm blasts and Hormuz tanker fires reported; Qatar-Iran talks",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-17T12:18:22Z",
-   "next_at": "2026-11-17T15:18:22Z",
-   "headline": "",
+   "updated_at": "2026-11-17T15:12:00Z",
+   "next_at": "2026-11-17T18:12:00Z",
+   "headline": "Dirty-bomb claim draws Trump warning; Qeshm blasts and Hormuz tanker fires reported; Qatar-Iran talks",
    "direction": "escalating",
    "points": [
     {
-     "text": "Iran says its forces hit a US-operated radar system in Bahrain with drones, the third such attack in five days. Bahrain says it intercepted Iranian air attacks, and explosions were heard over the capital, Manama.",
+     "text": "Trump says the US is taking seriously a reported Iranian dirty-bomb plot against Washington, and Tehran calls the report fabricated. Iran's Foreign Ministry says the claims are a pretext for ground aggression.",
      "stories": [
       "s1",
-      "s2",
-      "s28",
-      "s33",
-      "s37"
+      "s3",
+      "s16"
      ],
      "sources": [
       {
-       "t": "Iran claims attack on US base in Bahrain",
-       "o": "L’Iran revendique une attaque contre une base américaine à Bahreïn",
-       "u": "https://www.lemonde.fr/international/article/2026/11/17/l-iran-revendique-une-attaque-contre-une-base-americaine-a-bahrein_6812959_3210.html",
-       "s": "Le Monde International",
-       "c": "FR",
-       "l": "fr",
-       "p": 1794912835,
+       "t": "\"They Are Crazy\": Trump On Reported Iranian 'Dirty Bomb' Plot In Washington",
+       "u": "https://www.ndtv.com/world-news/us-iran-war-they-are-crazy-trump-on-reported-iranian-dirty-bomb-plot-in-washington-12339810#publisher=newsstand",
+       "s": "NDTV World",
+       "c": "IN",
+       "l": "en",
+       "p": 1794924909,
        "r": "known"
       },
       {
-       "t": "Iran claims radar attack in Bahrain as diplomatic efforts continue",
-       "u": "https://www.dailysabah.com/world/mid-east/iran-claims-radar-attack-in-bahrain-as-diplomatic-efforts-continue",
-       "s": "Daily Sabah",
-       "c": "TR",
+       "t": "Trump says US taking seriously report of possible Iranian dirty bomb plot in Washington",
+       "u": "https://www.al-monitor.com/originals/2026/11/trump-says-us-taking-seriously-report-possible-iranian-dirty-bomb-plot-washington",
+       "s": "Al-Monitor",
+       "c": "US",
        "l": "en",
-       "p": 1794909360,
+       "p": 1794923198,
        "r": "known"
       },
       {
-       "t": "Bahrain Intercepts Iranian Air Attacks",
-       "u": "https://english.aawsat.com/node/5342236",
-       "s": "Asharq Al-Awsat English",
-       "c": "SA",
+       "t": "U.S. taking seriously report of possible Iranian dirty bomb plot in Washington, Trump says",
+       "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUTl6YTFfVXZmY01OdVVrY3g0VWJnQTVaazh1Zm5QbnMtWTRKdUpnWXRwSEt5SXJNaV9USVdWUjB1MmRDTHhwazIwOEV0MGx5NlJHUDA0d21XUVFZLTlFU3RianQ5bjM5LUtzbExIWjkyLWxsUDc3cVpJVDl3OXA0RlIyZV9ONDY2?oc=5",
+       "s": "Globe and Mail",
+       "c": "CA",
        "l": "en",
-       "p": 1794908169,
+       "p": 1794922516,
        "r": "known"
       },
       {
-       "t": "IRGC Claims Drone Strike on U.S. Radar at Bahrain’s Isa Air Base",
-       "u": "https://iranwire.com/en/news/160351-irgc-claims-drone-strike-on-us-radar-at-bahrains-isa-air-base/",
-       "s": "IranWire",
-       "c": "IR",
-       "l": "en",
-       "p": 1794908145,
+       "t": "Iran reportedly plans to set off a \"dirty bomb\" in Washington; Trump says it will be taken seriously",
+       "o": "傳伊朗擬在華府引爆「髒彈」 川普：會認真看待",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5644183",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1794921103,
        "r": "known"
       },
       {
-       "t": "Iran fires drones at US military radar system in Bahrain amid Gulf tensions",
-       "u": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions",
-       "s": "South China Morning Post",
-       "c": "HK",
+       "t": "Not Iran drones, but a ‘dirty bomb’ against Trump in America? Chemical weapons attack on US troops? | Hindustan Times",
+       "u": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPYUMtMUZaN1VWNkN1OXpZS0JSUTRnN3BQcUVQcXl6NFNjZFFEVk11MUZGdGZnci1FZlh1Z0lqdzZOLWpjUXFwNHl6OTVzRHgycVEwQlFqTXVLOEROczRhRGFWYXdLX29FeHlxY1FXelM5VHlNZFMwS1ZwSlY5Y01VV2hQTHpCaHA4MnVocWt4RjdMNmlKZFRCWnpHRW00Zk5UMGxTdEtycDZLNTJFV3ZvODFnVHlxaTRPblhJZjF3UzY0X1JsWjBjME5fRFNtVnFKZE04SVJhTkY5bVROZTJzQjNvbzhnU0VhRmFCeTN5NjFqbFVnS3VN0gH8AUFVX3lxTE9sYUY5c2xwT0JOeTZ2TW9DQjZCLURVOTY2ZzFReEdDaGFaT19VX1h0Nm9oTGRBTElOa3BUd2xMeTB5cDlKUENCZzFmbUFxMU9fTEpvSmpKaHloZ0NObUJPMXZMM201aWVmbnJoMjlPRzYwYjV4S3p1VTBNVDZOVFJBbTBOUk9yY2V3VzRWMUI3YWVfNmJhWkNnVnRvVWFaWXd3R29LNUN",
+       "s": "Hindustan Times",
+       "c": "IN",
        "l": "en",
-       "p": 1794916131,
+       "p": 1794919268,
        "r": "known"
       }
      ],
-     "headlines": 16,
-     "outlets": 14,
-     "independent": 14,
+     "headlines": 14,
+     "outlets": 13,
+     "independent": 11,
      "countries": [
-      "AE",
-      "AR",
       "CA",
-      "DE",
       "FR",
-      "HK",
-      "IR",
+      "GB",
+      "IN",
+      "IT",
       "RU",
-      "SA",
-      "TR",
-      "TW"
+      "SG",
+      "TW",
+      "US"
      ],
-     "regions": 9,
+     "regions": 6,
      "party_only": false,
-     "state": 1
+     "state": 2
     },
     {
-     "text": "Ships were hit in the Strait of Hormuz. Iran's navy and Revolutionary Guards say tankers were struck by mines or ablaze, and a Brazilian report says a crew is missing. Sky News Arabia reports the fate of a tanker's crew is unknown after a second attack.",
+     "text": "Blasts were heard near Qeshm Island in the Strait of Hormuz, according to Iranian media and several outside outlets. Iran's IRGC air defence says it downed an MQ-1 drone over Qeshm, a claim reported only by Iranian media.",
      "stories": [
-      "s4",
-      "s5",
-      "s20",
-      "s27",
-      "s8"
+      "s2",
+      "s28"
      ],
      "sources": [
       {
-       "t": "Two vessels hit mines in the Strait of Hormuz, another damaged by a strike",
-       "o": "В Ормузском проливе два судна подорвались на минах, еще одно пострадало от удара",
-       "u": "https://www.interfax.ru/world/1129585",
+       "t": "Iranian media: explosion sound heard on Qeshm Island in the Strait of Hormuz",
+       "o": "İran medyası: Hürmüz Boğazı'ndaki Keşm Adası'nda patlama sesi duyuldu",
+       "u": "https://www.trthaber.com/haber/dunya/iran-medyasi-hurmuz-bogazindaki-kesm-adasinda-patlama-sesi-duyuldu-963581.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1794923040,
+       "r": "known"
+      },
+      {
+       "t": "Explosion reported near Qeshm Island in the Strait of Hormuz",
+       "o": "В Ормузском проливе у острова Кешм произошел взрыв",
+       "u": "https://www.interfax.ru/world/1129621",
        "s": "Interfax",
        "c": "RU",
        "l": "ru",
-       "p": 1794915600,
+       "p": 1794922740,
        "r": "known"
       },
       {
-       "t": "Iran’s Navy says another tanker hit by mine in Hormuz",
-       "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLTRkRHVyRC1HWXloTGRZdXg5QW1BRFFsMVI2V3NiV0FWYlkwTW56NmFiQlJZUVZUd2lDYnREa0tQZC1sVHFfN09faE9jYzdTQkpLNVBleGE3OUZIWGk1dUNISUluaVItaXpZcEgtcFZ3bG1KbDA3RnpseGI4T2VQakJuQVZjdFQ3VFpKLUNsTE8zemZDREMtaDdOaUhNZw?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1794913425,
-       "r": "known"
-      },
-      {
-       "t": "Iran's IRGC says two tankers ablaze in Hormuz",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-two-tankers-ablaze-hormuz",
+       "t": "Iranian media reports blasts heard in Qeshm Island",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-media-reports-blasts-heard-qeshm-island",
        "s": "Middle East Eye",
        "c": "GB",
        "l": "en",
-       "p": 1794913002,
+       "p": 1794922591,
        "r": "known"
       },
       {
-       "t": "Breaking | Iranian Revolutionary Guard navy: explosion and fire break out on two oil tankers west and south of the Strait of Hormuz after they hit mines",
-       "o": "عاجل | بحرية الحرس الثوري الإيراني: انفجار واندلاع حريق بناقلتي نفط غرب مضيق هرمز وجنوبه بعد اصطدامهما بألغام",
-       "u": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOa244eU55NDRZb1h1OG9sc2MtcmZJcHlYZnh0RGIxQTNCdWgwUDFRdFZZQ01laEQwOTVkZmdiRnI0Yjg2a3RKZlZPV0R4WnlUcmh5dEdyeWdRZjdJOXlWQ3FEMVpmOUJnTnRMQnQ3VFlfZmkwcllsNXp6OEQ0UldYYi1TS3pTOUZIMkVlbWxEQy1mOWhwLUZDa3FKR1BjZHFxSldJYXJGV19HRC13SWYzQnZWcExqMVpJT0l5bDlybG4xQjNqYWMycVYyQ1pyOEdvMXcyVDV0SHZUWGdaLWd5UUxaNTV4RmZaR2psX2VlSDBuVWRWWkJEaTM2TmwySmRhNGpwdnpCeFk0VHZFdGJqNXUzUTliLXFmQXdPVDdRU05ZOXRoY0FpXzJwbHgzWGJVZ1pqVExQeldHZm8t?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "ar",
-       "p": 1794909401,
+       "t": "Explosion heard on Iran’s Qeshm island, Fars agency reports",
+       "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa3BYb3JvVzFOOTVLWHF2Tzd2d2hOX0NmaTlKdE84YUdJS0haSTJHOXpuZ0FwWTJEX2NzdjdCY19CSjU4ajN5NkdYbjhycTd6TXB0T0UyUHJiR2tfelIwVWFDaVIyS2hDWVh2dUdaTHlTTmVhWFgtSjhiX0FsNDZ3ZnhjZ05teWNVU04wN04xMk9fRjVvdHBmVGRXaDRhN1pTcmtBODJjcGcxM0V0eFNwelA5WElKbUpf0gG-AUFVX3lxTE5uY2ZyTGRmTTkxMFp4WXdvWnFPYzVyUUJwOFExdjlUTW52OVRJOXlkY0ZmT25ubUJLQ3hGaG80X2gzR2FhRFo3UG9RdkhMSE1COXpTQV9JNHl0Z0puUGFBbWxoNFhMQlRPRTZhZUI3OHdtY3k0OFRqYUk1em1SbktEd3hCcHNMSEZZLUZIcnEtSEY1OWlFZkttQUxEcGFOc3pUeFlzOVU4WW95U1FZOXJkdnlwZUFTazkzMWRBYXc?oc=5",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1794922440,
        "r": "known"
       },
       {
-       "t": "Oil tanker hits mine in the Strait of Hormuz; crew missing",
-       "o": "Petroleiro pega fogo no Estreito de Ormuz e Irã faz novo ataque ao Bahrein após volta de tensões no Oriente Médio",
-       "u": "https://g1.globo.com/mundo/noticia/2026/11/17/petroleiro-estreito-de-ormuz-tripulacao-desaparecida.ghtml",
-       "s": "G1 Mundo",
-       "c": "BR",
-       "l": "pt",
-       "p": 1794909106,
-       "r": "known"
+       "t": "IRGC air defense downs MQ-1 drone over Qeshm island",
+       "u": "https://en.mehrnews.com/news/249488/IRGC-air-defense-downs-MQ-1-drone-over-Qeshm-island",
+       "s": "Mehr English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794924870,
+       "r": "state"
       }
      ],
-     "headlines": 12,
-     "outlets": 12,
-     "independent": 12,
+     "headlines": 8,
+     "outlets": 8,
+     "independent": 7,
      "countries": [
-      "AE",
-      "BR",
-      "CH",
       "GB",
       "IR",
-      "QA",
       "RU",
       "SA",
       "TR"
      ],
-     "regions": 6,
+     "regions": 5,
      "party_only": false,
-     "state": 4
+     "state": 3
     },
     {
-     "text": "CNN, citing US intelligence, reports Iran may be planning a 'dirty bomb' or chemical attack in Washington. US intelligence is reported to be divided on the threat. Tehran calls the report fabricated, and Trump says he takes the possible threat 'very seriously'.",
+     "text": "Iran's navy says a supertanker and an LPG carrier hit naval mines and caught fire in the Strait; this is Iran's claim. Russian outlet Kommersant separately reports a tanker fire after shelling in the Strait.",
      "stories": [
-      "s3",
-      "s18",
-      "s24",
-      "s6"
+      "s38",
+      "s27"
      ],
      "sources": [
       {
-       "t": "CNN learns of Iran's plans to attack US officials with a \"dirty bomb",
-       "o": "CNN узнал о планах Ирана атаковать чиновников США «грязной бомбой»",
-       "u": "https://www.rbc.ru/politics/17/11/2026/6afc20991e1978708a474973",
-       "s": "RBC",
+       "t": "Supertanker, LPG carrier hit naval mines, catch fire in Strait of Hormuz: IRGC Navy",
+       "u": "https://en.irna.ir/news/86324571/Supertanker-LPG-carrier-hit-naval-mines-catch-fire-in-Strait",
+       "s": "IRNA English",
+       "c": "IR",
+       "l": "en",
+       "p": 1794917928,
+       "r": "state"
+      },
+      {
+       "t": "A tanker caught fire after shelling in the Strait of Hormuz",
+       "o": "Танкер загорелся после обстрела в Ормузском проливе",
+       "u": "https://www.kommersant.ru/doc/9111631",
+       "s": "Kommersant",
        "c": "RU",
        "l": "ru",
-       "p": 1794915181,
-       "r": "known"
-      },
-      {
-       "t": "Tehran denies report of alleged Iranian plan to detonate 'dirty bomb' in Washington",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/tehran-denies-report-alleged-iranian-plan-detonate-dirty-bomb-washington",
-       "s": "Middle East Eye",
-       "c": "GB",
-       "l": "en",
-       "p": 1794913430,
-       "r": "known"
-      },
-      {
-       "t": "Iran Developing Plans for 'Dirty Bomb' or Chemical Attack in D.C., Report Says",
-       "u": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSkFwSXluT0doVFBPVDJTdlZ1eDFPZElCeHRrNldmRG1fRE1xUnBZeTVWc2dTd3hrV3lsS29tT3pic05RSXpiOFF2Wm10S1dySWVuZkQ0YUVuSWJtV2l5bUFJSDVYNGVaT04tbHlmUi11eHd3OURnTW9NQWZOeW5Wb1AyOFNSTVdWbkNoR1o2MkdFZHFZbGwtUzNVdzVsYTB4Y3dJSDU4dUt1YWlpS0RHRlAybEtKakxtcUN5bDBqajVpZVF6dFB6NFItMEhTSDVVdUpNM1dlNlhFYjRVaXRUaVJzWmxVaXZiV0xLd21iQXZqd2JGNDcwWg?oc=5",
-       "s": "Haaretz",
-       "c": "IL",
-       "l": "en",
-       "p": 1794910500,
-       "r": "known"
-      },
-      {
-       "t": "Iran denies CNN report on a possible plan to detonate a dirty bomb in Washington",
-       "o": "إيران تنفي تقرير CNN عن خطة محتملة لتفجير قنبلة قذرة في واشنطن",
-       "u": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxPQW1xeXFEX3dGLXdrOGVFTThYYmFUU3lNSFloSnBfWG5sTnlaWUJIUDU2RlZLQzlKT050dHpSUXFOZlpUTXBFS2hWV2xVTkYwMGRuNHkySEoyYTQyV1BXVEQwSy1mX0xHSC1SUjg1LXpMZnlVc2FOZzdkT1RqcFV0SGZ2NnhDSHFNLVFfUHVNRk40N3lkTEFFRXMxMzRrSm5JUld1S1FuMFpzNS1GTFRacFk1a2ZjeF8yWTdJTXViUFphU1ljMTVkdFVZZG5hcC16ZFc2VG9xWnVGLXhCQlBnRnA2X1ItMjJWc2lTY3N4MG1SRFNQZHYzNy1iTmpZdDlTajU2WWdDYzJGT0MzMlh6bV90dXZXT21qQURDTXhMb3ZBRFVRekVOdmNQYnlLdk9lVlZDMGhSU2hSeS1lNWpsbVQxTE1lcm5SN3VkZWtoSndaMGZ0Y2JMVVpmYVIxRWxHb1BHMXBxSEJuYVJISHdfMHdxQmkzYV9GNy1sTkdtMlh6OHBwdXQ1d3F3T2J2SExkT24xUFQxQW5udXJ0enZGUF9",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1794915305,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran calls US \"fabricated propaganda\" over alleged dirty bomb plot in Washington",
-       "o": "이란, 美워싱턴 더티밤 테러 계획설에 \"조작된 선전\" 반발",
-       "u": "https://www.yna.co.kr/view/AKR20261117168200079",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794914660,
+       "p": 1794917574,
        "r": "known"
       }
      ],
-     "headlines": 11,
-     "outlets": 11,
-     "independent": 10,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "DE",
-      "GB",
-      "IL",
-      "IT",
-      "KR",
-      "LB",
-      "NG",
-      "RU",
-      "SA",
-      "UA"
+      "IR",
+      "RU"
      ],
-     "regions": 6,
+     "regions": 2,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Diplomacy continues on several tracks. Oman is discussing maritime security with Iran as attacks in Hormuz rise, and mediator Qatar says a negotiating proposal with Iran is being coordinated and urges a halt to escalation.",
+     "text": "Iran is reported to have attacked a US air base in Bahrain, and the UAE condemned the renewed attack. Washington denies that a US radar was hit by Iranian drones, while Bahrain says it intercepted Iranian drones.",
      "stories": [
-      "s23",
-      "s9",
-      "s12"
+      "s4",
+      "s6"
      ],
      "sources": [
       {
-       "t": "Oman discusses maritime security with Iran amid rising attacks in Strait of Hormuz",
-       "u": "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/",
-       "s": "The National",
+       "t": "UAE strongly condemns renewed Iranian attack on Bahrain",
+       "u": "https://gulfnews.com/uae/uae-strongly-condemns-renewed-iranian-attack-on-bahrain-1.500750792",
+       "s": "Gulf News",
        "c": "AE",
        "l": "en",
-       "p": 1794911339,
+       "p": 1794923449,
        "r": "known"
       },
       {
-       "t": "Shipping security in the Strait of Hormuz: Tehran and Washington's pressure tool and Oman's effort to contain the crisis",
-       "o": "امنیت کشتیرانی در تنگه هرمز؛ ابزار فشار تهران و واشنگتن و تلاش عمان برای مهار بحران",
-       "u": "https://www.rfi.fr/fa/%D8%AE%D8%A7%D9%88%D8%B1%D9%85%DB%8C%D8%A7%D9%86%D9%87/20261117-%D8%A7%D9%85%D9%86%DB%8C%D8%AA-%DA%A9%D8%B4%D8%AA%DB%8C%D8%B1%D8%A7%D9%86%DB%8C-%D8%AF%D8%B1-%D8%AA%D9%86%DA%AF%D9%87-%D9%87%D8%B1%D9%85%D8%B2%D8%9B-%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1-%D9%81%D8%B4%D8%A7%D8%B1-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D9%88-%D9%88%D8%A7%D8%B4%D9%86%DA%AF%D8%AA%D9%86-%D9%88-%D8%AA%D9%84%D8%A7%D8%B4-%D8%B9%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D9%87%D8%A7%D8%B1-%D8%A8%D8%AD%D8%B1%D8%A7%D9%86",
-       "s": "RFI Persian",
+       "t": "Iran attacks US air base in Bahrain",
+       "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVFEUFh1RlBvOUpoYzRFWGhybGo2WkJKcGd0SXk0RjVTeUNlN0Y2YWNXRWJwb1JPb0lRVG5ZTzlzaW9XRGJSV3g4VU1SSG42U2N3bml3ZzM1YVQ2bmlNSl9aMEswcTJHUTg0TDlDcXFqLXp2Q1g2ZWdmcnpUY3AwODBOWFA?oc=5",
+       "s": "Financial Times",
+       "c": "GB",
+       "l": "en",
+       "p": 1794920539,
+       "r": "known"
+      },
+      {
+       "t": "Bahrain intercepts Iranian drones targeting US radar after 2-month lull in Gulf strikes",
+       "u": "https://www.foxnews.com/world/bahrain-intercepts-iranian-drones-targeting-us-radar-after-2-month-lull-gulf-strikes",
+       "s": "Fox News World",
+       "c": "US",
+       "l": "en",
+       "p": 1794919349,
+       "r": "known"
+      },
+      {
+       "t": "Washington denies a US radar was hit by Iranian drones in Bahrain",
+       "o": "واشنطن تنفي إصابة رادار أميركي بمسيرات إيرانية في البحرين",
+       "u": "https://www.skynewsarabia.com/middle-east/1905351-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%AA%D9%86%D9%81%D9%8A-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%B1%D8%A7%D8%AF%D8%A7%D8%B1-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D8%A8%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1794918890,
+       "r": "known"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
+     "countries": [
+      "AE",
+      "GB",
+      "US"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Qatar confirms a meeting with Iran today and calls for restraint, while Qatar's foreign ministry warns Gulf escalation poses a grave danger.",
+     "stories": [
+      "s11",
+      "s13",
+      "s19"
+     ],
+     "sources": [
+      {
+       "t": "Qatar confirms a meeting today with Iran amid escalation and calls for restraint",
+       "o": "Catar confirma una reunión hoy con Irán en medio de la escalada y llama a la contención",
+       "u": "https://www.infobae.com/america/agencias/2026/11/17/catar-confirma-una-reunion-hoy-con-iran-en-medio-de-la-escalada-y-llama-a-la-contencion/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794922373,
+       "r": "known"
+      },
+      {
+       "t": "Qatari-Iranian meeting to bring views closer to Washington... and a warning about the repercussions of escalation",
+       "o": "لقاء قطري - إيراني لتقريب وجهات النظر مع واشنطن... وتحذير من تداعيات التصعيد",
+       "u": "https://aawsat.com/node/5342340",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794922075,
+       "r": "known"
+      },
+      {
+       "t": "Qatar warns Gulf escalation poses 'grave danger' and announces new talks with Iran",
+       "u": "https://www.euronews.com/2026/11/17/qatar-warns-gulf-escalation-poses-grave-danger-and-announces-new-talks-with-iran",
+       "s": "Euronews",
        "c": "FR",
-       "l": "fa",
-       "p": 1794916526,
-       "r": "known"
-      },
-      {
-       "t": "Mediator Qatar: \"Negotiating proposal with Iran being coordinated today…must refrain from escalation",
-       "o": "중재국 카타르 \"오늘 이란과 협상안 조율…확전 자제해야\"",
-       "u": "https://www.yna.co.kr/view/AKR20261117168800079",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1794916203,
+       "l": "en",
+       "p": 1794919892,
        "r": "known"
       }
      ],
@@ -13260,9 +13269,9 @@
      "outlets": 3,
      "independent": 3,
      "countries": [
-      "AE",
+      "AR",
       "FR",
-      "KR"
+      "SA"
      ],
      "regions": 3,
      "party_only": false,
@@ -13270,15 +13279,15 @@
     }
    ],
    "watch": [
-    "Status and fate of crews on the tankers hit in Hormuz",
-    "Whether Iran continues attacks on US radar sites in Bahrain",
-    "Outcome of Qatar's negotiating proposal and Oman's talks with Iran on shipping security"
+    "Cause of the Qeshm Island blasts and whether the drone claim is confirmed",
+    "Outcome of the Qatar-Iran meeting and any new negotiating proposal",
+    "Any US official response to Iran's denial of the dirty-bomb plot"
    ],
    "window_hours": 3,
-   "headlines_read": 75,
-   "outlets_read": 46,
-   "countries_read": 24,
-   "languages_read": 16,
+   "headlines_read": 63,
+   "outlets_read": 39,
+   "countries_read": 19,
+   "languages_read": 11,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-17T09:32:45Z",
    "ladder_note": "Re-checked after: The IRGC says it attacked a US radar system in Bahrain, and Bahrain confirms it intercepted Iranian air attacks and explosions were heard in Manama. This is a new strike on a country in this update."
