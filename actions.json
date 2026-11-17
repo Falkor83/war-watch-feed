@@ -1264,6 +1264,110 @@
    "added": "2026-11-16",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-16-pl-1",
+   "date": "2026-11-16",
+   "country": "PL",
+   "kind": "military-readiness",
+   "what": "Poland's defence ministry plans a 3,250-zloty payment for reservists who attend training (per RMF24)",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNajdwR3J6ckVtRDJqcmlXNWl3YzBWU3VESnktUE5NNmxtZXhOc1ktSEtNQjBNMmdiNzdwTlVyN2JtWTBDY0JPRUpJaE1oWWNCdUtkckZvY3FMY0ZjVnZzZE5iTXViUFMwRHFDNnhUa2dSLTI1dzZPcnExOEZQQVZ5cm53WHhybGl0QUJrR2hGZFB4SVRKYkVpOA?oc=5",
+   "outlet": "Бакинский рабочий",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-17",
+   "independent": 2,
+   "countries_reporting": 3
+  },
+  {
+   "id": "a-2026-11-16-ph-1",
+   "date": "2026-11-16",
+   "country": "PH",
+   "kind": "supply-reserves",
+   "what": "Philippine trade secretary says four ASEAN states, including Indonesia and Singapore, agreed to regional oil stockpiling",
+   "url": "https://gulfnews.com/business/energy/4-asean-countries-agree-to-regional-oil-stockpiling-philippine-trade-secretary-roque-1.500749839",
+   "outlet": "Gulf News",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-17",
+   "independent": 2,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-16-ly-1",
+   "date": "2026-11-16",
+   "country": "LY",
+   "kind": "military-readiness",
+   "what": "Libya amends conscription laws to set the minimum recruitment age at 18; UN children-in-conflict envoy welcomes it",
+   "url": "https://reliefweb.int/report/libya/libya-un-special-representative-children-and-armed-conflict-welcomes-amendments-conscription-laws-bringing-age-recruitment-18-years",
+   "outlet": "ReliefWeb",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-17",
+   "independent": 2,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-17-us-1",
+   "date": "2026-11-17",
+   "country": "US",
+   "kind": "reassurance",
+   "what": "US Vice President Vance says Americans do not need to stockpile food and water or build shelters",
+   "url": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxOZmdfUm5jUEZnTEpuN0ROZFc5M1ZDSV9COWp1eVZJMHhhcFZxcm9sX3NGWjdSSDFZeGxCZGhicVlFRi1TWkNwQ0dxZTVPV2duRGNGTFdEQlI5a2R2R2toSGVtQWhNWlZqTHhvMGowd090RC1STExUX2NPYVJwRFVCZXZjLVIxcGp0WDdkYW9BTGh2RkJhWG0xTnZ1dm1TWlc2STlIcmJqY3FEUEhKM0tzQlg5eGlJVTM0bGlrVlg2WG1CMmU1R0xNQVR6ejFMbXF3SklQTVNHNnlzWTd4ZnpJTEMyajIyNU1wcVZNSXZMa2l3eFhWZU9KaEl4dThLN0xZQ1FkLUVzN1lMajNMN3V3VTJMcEdXUkFlbFF2dXBReFlJZU8xS0tTRW42QndVZnpZUmVzY3B3Q09DaUZ1Tkp4ZW02aldpSWo3M2twUjBfRjRvQWNBWXBoMTg1MjByMTNoY0tfRUR5M3pBbXFwaTVlajEyRE56YXpYWXoxOGFLNlczWV9pd3V5ZGF0cnM0ZEpxcVNRaDdvVjdDWkRnZFQxY3h",
+   "outlet": "Al Arabiya",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-17",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-17-ru-1",
+   "date": "2026-11-17",
+   "country": "RU",
+   "kind": "military-readiness",
+   "what": "Leningrad regional outlet reports a 'mobilisation' announced in the region; single source, scope unclear, likely reservist units",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB5R0V5cVRFekxiRG15ZTF4bXRXT0dJbDFTQ0U4Rm5CbVpQQmxaWFloWE1OSlUzRWh4OGRUdm1EVjJaMDhHdjZCYTRB?oc=5",
+   "outlet": "47 новостей из Ленинградской области",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-17",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-17-jp-1",
+   "date": "2026-11-17",
+   "country": "JP",
+   "kind": "civil-preparedness",
+   "what": "Tokyo's Edogawa Ward stocks portable toilets in underground shelters at 10 sites (Nikkei); purpose not stated",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ydlRad2pQM0ZHcUR5TE4yVkpwR3BjREJOTHlRQlEwWWl0dmJiMXgxay1OQ2VydjR6eHZGeDhyTGdZRmhPTjNwVUExZnBkdjVhazN6VllfTElzaUxDdzdZNGRaSHI2dm1BZTFpQw?oc=5",
+   "outlet": "日本経済新聞",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-17",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -3840,6 +3944,204 @@
    "hotspot": "us-israel-iran-war",
    "url": "",
    "source": "rule"
+  },
+  {
+   "id": "e-2026-11-17-3",
+   "date": "2026-11-16",
+   "kind": "news",
+   "what": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
+   "countries": [
+    "AE",
+    "AR",
+    "CH",
+    "FR",
+    "GB",
+    "IL",
+    "IN",
+    "KR"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd203NG52SlFONmtCTm91YjhsamNiTGxGRFlza0ZqS2FETXNPNHZ3Z1RDMWlaLXZGVjhua3A3QVA2WXgyd3ExOW96UVgweGU1VmpaM0toTl9DVEQxZXBFZVlCMDhOTmRsWExzOWhSZVNUVmFBSW50NmpUc1F3TEhYcXZ1Tno0ekdmY1lOZmhnbEM0YTNBQ2s2dWlPaTJ5U0VxRzJCQVpMZjJOaDRnTzFUbNIBtgFBVV95cUxOWGw4WGYyQUpwckQ1RUFsdjlTM25OMFYtUnlwTldhY2JhR2JwQXp0UTFOUE52Vm5qa3lCSzBZMllBNnBGcUJhOTh2Wl9lWHk2Y2VtQmh6aUZ6Z2dTRmJoY3BvR1RhMmdVRkg1Z19WTUxPU0ZOTHozci1EZ2xaX1kzTl9rLWZMb2tieDFRdHIwNWNyQ0tnMjVOQnpnMk5sNkx6YTk0anVyMHo5el9NbWcxUnlHckhqUQ?oc=5",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-17-1",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "CNN: US intelligence points to possible Iranian plot targeting Trump officials with a 'dirty bomb'",
+   "countries": [
+    "AE",
+    "AR",
+    "AU",
+    "BR",
+    "GB",
+    "IL",
+    "IN",
+    "IT"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSFRWQTJLaWlIQWVTX2pmR0ZQcjJSX1JCQWhMdkc3SkxPV0VKTXdYZkFVUk9KX2VHSFBpUXpreGpZWlpYLUxiNWNtMmVIYzlyMUNXNWlBQmN2R0RPUTd0WTd3MHhlQ0tVbkd4MUZwNU1saUVIRFd3UnRKMHNQSVlpS2gxb3NuRmZoRG5qbTU2U0l1THQ4aDJiTHgzeDZHUFhpbURscDduai1Jdm1ZVHdwTVRZREFPYkZiYXVQS0daUVBqMGpMbGhIb3RZQ1FvanM?oc=5",
+   "source": "corpus",
+   "independent": 34
+  },
+  {
+   "id": "e-2026-11-17-2",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "China says it has 'no information' on whether North Korea's leader Kim will meet Trump",
+   "countries": [
+    "AE",
+    "BR",
+    "FR",
+    "GB",
+    "HK",
+    "IL",
+    "IN",
+    "JP"
+   ],
+   "hotspot": "korean-peninsula",
+   "url": "https://www.euronews.com/2026/11/17/china-says-it-has-no-information-on-whether-north-koreas-leader-kim-will-meet-trump",
+   "source": "corpus",
+   "independent": 19
+  },
+  {
+   "id": "e-2026-11-17-3",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "Ukraine Attacks Kerch Bridge Linking Russia to Occupied Crimea",
+   "countries": [
+    "BR",
+    "DE",
+    "GB",
+    "IL",
+    "NL",
+    "PL",
+    "RU",
+    "SA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.nytimes.com/2026/11/17/world/europe/ukraine-kyiv-russia-kerch-bridge-crimea.html",
+   "source": "corpus",
+   "independent": 14
+  },
+  {
+   "id": "e-2026-11-17-4",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "Ukraine strikes Crimean bridge for second day as Russia pounds Kyiv bridges",
+   "countries": [
+    "AR",
+    "DE",
+    "FR",
+    "GB",
+    "PL",
+    "RU",
+    "SG",
+    "TH"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.straitstimes.com/world/europe/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges",
+   "source": "corpus",
+   "independent": 16
+  },
+  {
+   "id": "e-2026-11-17-5",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "Trump is not going to let Iran conflict become a 'forever war', asserts Vance",
+   "countries": [
+    "AE",
+    "GB",
+    "KR",
+    "PK",
+    "RU",
+    "SA",
+    "TR",
+    "US"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.dawn.com/news/2045146/trump-is-not-going-to-let-iran-conflict-become-a-forever-war-asserts-vance",
+   "source": "corpus",
+   "independent": 10
+  },
+  {
+   "id": "e-2026-11-17-6",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "UN report: drones responsible for about 75% of civilian deaths in Sudan this year",
+   "countries": [
+    "AZ",
+    "EG",
+    "ES",
+    "FR",
+    "GB",
+    "LB",
+    "NG",
+    "SA"
+   ],
+   "hotspot": "sudan-civil-war",
+   "url": "https://aawsat.com/node/5342251",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-17-7",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "Ukraine holds peace talks with US, Europe as conflict escalates",
+   "countries": [
+    "AT",
+    "CA",
+    "GB",
+    "HK",
+    "IN",
+    "QA",
+    "SG",
+    "TH"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS3dzRnQ3eTJYSU9YS3AxRFl6NzhfNDZ4OXdTcmoyd1NXOFlJT015eHM3bGFjWnhSWWZJckIzRkFkUEJzQi1icEZ2TnpRRlZTM2l6X1k1Q2RFUk5fWmJyNFByRzhlbURlU0dlQURpVEFUODEzYmY2U1hjR0pWSlVKaXBUel8wMXlzUF83alBWRjVVRUNwc0lSSGNGYW1ZUWlQM2RUYk44QdIBrAFBVV95cUxOUU9INmQ3TGVsSWozY2hQNWxuTlluaXREeTR6OHljdUJrOFNHc0hielJqMUFnUXZXeWxsUkRrMFh6eWFOVGJmVGYyMVVGOFNnUnFsdGlMNG1nME40T1AyVjFjcVQ5d2hHUHJhZjIyVHlLck9USHY1c19CU1gtelYyTFNfY05lUEdVWm42MjN2azNPMmJkOHlDdkkzb3pPc05OcS0yb0FndGVpY2Qt?oc=5",
+   "source": "corpus",
+   "independent": 9
+  },
+  {
+   "id": "e-2026-11-17-8",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "Iranian drones strike US radar in Bahrain: it is the third attack since Friday",
+   "countries": [
+    "AR",
+    "DE",
+    "FR",
+    "QA",
+    "RU",
+    "SA",
+    "TR",
+    "VN"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnZqY3d2UmNZd0w4emFhUERlNWFUWFlzbmdXR1B2MFJLdU1tb3gwWHg2VUw2eWFRczBHV3NCLUIwcVJQUDZnS1M0UHNtZlRDeGZkM3RMdjczYzBoQU5IdzZzNE43ZVkzR2lNX0VTdzRnR1ktSWRoY29vQVJVM2hfSzVaM1FHQmRTSGt5N1BnRTg5cFlPVWRJLWgwNGVBWG9Pa29hRlU2ZktLNnow0gGsAUFVX3lxTE1SSlRSaDFIWndWZHh6MUpzSjlUZnU5N1Y3T210eXhWUXpzUDJMMHJUVk5LelF4RUxnU1J2VnJnTUlmQXoxMXFwRUJHM25MbWRtY2p4aVJJOXlKeEh0Z01GQUZvQUZ0YjY5UXh1VUtOVmM0a2ZfU2VZdDI1OTdfNHl2ZzQ3MDBUSGhRZ0RSVHA1Vk1uU0REX3daMVZEM1ZlQlBOQ1JVVTI5ejQ1NWU?oc=5",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-17-9",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "Ukraine war talks at China trilateral, meeting with Kim Jong Un likely: How Trump's Asia visit is taking shape",
+   "countries": [
+    "IN",
+    "JP",
+    "KR",
+    "RU",
+    "TW",
+    "US"
+   ],
+   "hotspot": "korean-peninsula",
+   "url": "https://www.hindustantimes.com/world-news/trump-xi-putin-meeting-shenzhen-ukraine-war-kim-jong-un-yalta-conference-elon-musk-latest-news-101794885377339.html",
+   "source": "corpus",
+   "independent": 11
   }
  ]
 }
