@@ -1368,6 +1368,163 @@
    "added": "2026-11-17",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-17-md-1",
+   "date": "2026-11-17",
+   "country": "MD",
+   "kind": "infrastructure-protection",
+   "what": "Moldova closed its airspace as a drone crossed over Chisinau; Ukrainian outlets call it Russian, TASS says it came from Ukraine",
+   "url": "https://www.pravda.com.ua/news/2026/11/17/8063312/",
+   "outlet": "Ukrainska Pravda UA",
+   "hotspots": [
+    "moldova-drone-spillover-transnistria",
+    "russia-ukraine-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-18",
+   "independent": 3,
+   "countries_reporting": 3
+  },
+  {
+   "id": "a-2026-11-17-my-1",
+   "date": "2026-11-17",
+   "country": "MY",
+   "kind": "infrastructure-protection",
+   "what": "Malaysia's regulator MCMC picks TM to lead the RM2.7bn SALAM undersea cable project, a connectivity build rather than a security step",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2FNZjQ2NVdHQ25HanR0Ym5WVUhwUk5rbUpVb0JJd1R1d3pjTjgzZnlyeVNMSFNrdU9OYjRnazREaDk3VVZ1Mkc3YmZ5M3h5VnV6aTBVWTlpSU5weU1YMlRHSC1BZktBNnY5Skx3YVRabWgwWS1LN21lYUdQREszTFFjaGZqbFR1TXFZOGdvR0NHYmJkWC0xSkNwd1VGeTVHNS1qUXppZVN1YkJlZGdfaEkxWXEtQmVxWUFfWlg2OHBvR1hlV2c?oc=5",
+   "outlet": "Free Malaysia Today",
+   "hotspots": [],
+   "scheduled": true,
+   "program": "SALAM undersea cable project",
+   "source": "corpus",
+   "added": "2026-11-18",
+   "independent": 2,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-17-de-1",
+   "date": "2026-11-17",
+   "country": "DE",
+   "kind": "reassurance",
+   "what": "Berliner Zeitung reports the Bundeswehr passed its personnel target in October, with no conscription seen as needed",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSGpuYTBmNE1fS2hUQTV6SEp0dnl6eExyT3phYVJxclllTGVEc3ZqbVI0VlpfR0lFRHdKQV96MG5OMFFueVJpLTFOMVhQaml5eDZVNXVibEhFX3hTZ3dyREJSRThwdWdZdUk0c0t4UkJFLUQ3NzdELURYLTd2R2QtN1pkNEs1Wk1qSlJabjVXUUp3dkRoVEh3VGNsQ2NmalBBUVMyVS1VSmN0cDlIX0JZRElhTlRoaVFQS0MxdUoyVFlCYy1IZkxNOFY3cmdmT18wNGhEcA?oc=5",
+   "outlet": "Berliner Zeitung",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-18",
+   "independent": 3,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-17-us-2",
+   "date": "2026-11-17",
+   "country": "US",
+   "kind": "supply-reserves",
+   "what": "US Strategic Petroleum Reserve reported at 276.4m barrels after drawdowns, lowest since Oct 1982 (TASS, citing US data)",
+   "url": "https://tass.com/economy/2219375",
+   "outlet": "TASS English",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-18",
+   "independent": 3,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-17-ru-2",
+   "date": "2026-11-17",
+   "country": "RU",
+   "kind": "civil-preparedness",
+   "what": "Tatarstan, Russia, reclassifies some bomb shelters as simpler shelters because they have lost protective properties",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aX3VVYnpmZUZOYmtGYktiSGV1OWJBaEMtRmJGdG1CTnY3UmtYa1lYb2pHMWxrUFIzLUVCS3BWQ2VlRGNHXzU3dUlpVG1TSEdWanVZVdIBU0FVX3lxTE82MGtpd2tSUk1ya2YtdU0zSkJydGE5Y0p1LXFOaWt3aVBOZENkUE13Y21kNXotemE1QmRheXdHcDlsWVFBbDE3VFhrSmJOcGp0d1E0?oc=5",
+   "outlet": "БИЗНЕС Online — Новости Казани",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-18",
+   "independent": 2,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-18-vn-1",
+   "date": "2026-11-18",
+   "country": "VN",
+   "kind": "military-readiness",
+   "what": "Vietnam sets the schedule of medical checks for its 2027 conscription intake across 34 provinces and cities",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVmloaEx2WXJZSUEtWGVmb21YZ2p3ZmFkRDN2TE40aVREX1hUYVN4SlFXUUROeC16YkJYMF85NnExNWVRV0FmYnd4S0FleTNkRWEtYkZrcjZVSDYtNUdOeWd4OXB4SjYwWkpjV2tVcklmUHJlMk1uQm5SMEJ2TlpJN3dvZU1sR2txVDZLRUNiU1lOZw?oc=5",
+   "outlet": "Vietnam.vn",
+   "hotspots": [],
+   "scheduled": true,
+   "program": "annual military conscription cycle",
+   "source": "corpus",
+   "added": "2026-11-18",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-18-am-1",
+   "date": "2026-11-18",
+   "country": "AM",
+   "kind": "military-readiness",
+   "what": "Armenia's government sets the dates for its regular winter conscription call-up",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JSzBoTzMxeUxYaDExbkp0dTJnT3Y3cW9Sa3lxcklQczlEdUdZbHR1UnpJc2xVTEZ5NmFCVER4YmQwQ2RNak8yazcyOGZuQ2RLQkHSAVdBVV95cUxQUC1mRm1TQ3RuLW0tMWZFbUFWN2xxaHhMamktQTZCNGJlWkZrV2pOMzFRbVFXX0pSYURTVmRlMUg3elhiR0dkc2lRNDd6dUdGNkRKdHg1b1U?oc=5",
+   "outlet": "Armenpress",
+   "hotspots": [],
+   "scheduled": true,
+   "program": "twice-yearly conscription call-up",
+   "source": "corpus",
+   "added": "2026-11-18",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-18-de-1",
+   "date": "2026-11-18",
+   "country": "DE",
+   "kind": "military-readiness",
+   "what": "German reservists train for forest combat in Upper Lusatia, Saxony (regional outlet)",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNN1FuTF9XMUFEeE4xcUhzNE1CcXVKZERqcU5IMml2WlA0akQxclctUWxDQ0haaFJINm5SOU1MTXk4bTRZWmJwRnFqRFR1OWtzNmZRY1F0RGZKdVJfSlh2a1JKUTFHdnJtSEc2aWx4MmVzSWtrM012bURPQ1pWSTlIQllVNlNGU1hWbGtJSTVELUI1Vk1RR2dCOG9ibVFjZ2hmZHJ6X1hNd3lYazdDdk1GV1pJWE1yMklTWGc?oc=5",
+   "outlet": "Die Sachsen News",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-18",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-18-ua-1",
+   "date": "2026-11-18",
+   "country": "UA",
+   "kind": "civil-preparedness",
+   "what": "A bomb shelter is being built at a school lyceum in Odesa region; the building subsided during the works",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSGFjLXdXOGpzNTZsMzVEcnNwa1JFbEhwejNaV0NtY2NCa2FBX01FS1gtQzlwTEhoamNCcXU3RnNFVW5jdXZoQmtsVl9hMlU4dTFVcmVuMlI2WmRoc19mR2tuWFBqZ2g3N3E5NWVWSjdsUXpmWFd3cXlVbzR2eXZsaFRRaXpnaEpJWElSYzZrRFB2RHliZFA4QVpzYkTSAZsBQVVfeXFMTzFRSDYzbk1pdE9aR1BvSWhNejVuenFqMHF4d2NoVF8xb1l5T0NFLUJxWFROLURwcFpreUNyUU56MGZyb243LUJpZ3RUZnFnSWRKeHE5emhWend3SUJQTnZZN251X2txdFVJQkd1bVJJQ2g1ckIzcVZzNHY4b092c1B0a2haZkVRMmpJeHJjbVdITWQ5NXhUUlBsanc?oc=5",
+   "outlet": "Українські Національні Новини (УНН)",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-18",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -4142,6 +4299,206 @@
    "url": "https://www.hindustantimes.com/world-news/trump-xi-putin-meeting-shenzhen-ukraine-war-kim-jong-un-yalta-conference-elon-musk-latest-news-101794885377339.html",
    "source": "corpus",
    "independent": 11
+  },
+  {
+   "id": "e-2026-11-18-3",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "U.S. launches strikes on Iran's Qeshm Island in Strait of Hormuz",
+   "countries": [
+    "BR",
+    "CH",
+    "CN",
+    "DE",
+    "EG",
+    "ES",
+    "FR",
+    "GB"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
+   "source": "corpus",
+   "independent": 30
+  },
+  {
+   "id": "e-2026-11-18-3",
+   "date": "2026-11-17",
+   "kind": "news",
+   "what": "Trump says government takes report of Iranian plans for dirty bomb ‘very seriously’",
+   "countries": [
+    "AR",
+    "DE",
+    "EC",
+    "FR",
+    "GB",
+    "ID",
+    "IN",
+    "IT"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcFlvTGVHYURPQUs2bmJTc2VFZkg1VC1WdTRKQnJrV09uTDhwbVRaOXktUFZsbVNrTWwyMlpUNnBUb2hYSjJ0QXhHRGx2T2x5YVZOS0s0R3FpTDRyeXFKX1pUUmJJVnJ0M25PQmlka3JoVWhWa01OZm5CdW55elJSbnRpb2JPQllqckRzM1lwWFhKT253dTZ5SXV5OExpcF9yRjJRa1kyQUN5Y2taWmdWQlNvaEdMQV91emhKb3BTT3o0RElzLUN0Tk9WYW4xZlhs?oc=5",
+   "source": "corpus",
+   "independent": 22
+  },
+  {
+   "id": "e-2026-11-18-1",
+   "date": "2026-11-18",
+   "kind": "news",
+   "what": "Watch US Strikes Iran’s Qeshm Island as Bahrain and Kuwait Face Fresh Drone Attacks",
+   "countries": [
+    "AE",
+    "AR",
+    "BR",
+    "EG",
+    "FR",
+    "GB",
+    "HK",
+    "ID"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdER0OVZUdV9zYVUtX2RsMUVkTUtCLWlUcEFDNi0xRXZOdnc3eG9kWGJkY0tqbzB2ZFpUbWc2aVNMRjE2aXdTYy1BWlNlTEVPZC0wVm90M1dNZnJ6M3lLU3VtbzhSQlZ6WUhJd1RoUmlJSHlNTlRPUHBTTXh6WHYzbnU1T2NmUHB1VExyMEhQZXhuUlBXRHBJVw?oc=5",
+   "source": "corpus",
+   "independent": 30
+  },
+  {
+   "id": "e-2026-11-18-2",
+   "date": "2026-11-18",
+   "kind": "news",
+   "what": "Iran, US trade threats over dirty bombs and first strikes as new war wave looms",
+   "countries": [
+    "AE",
+    "AR",
+    "CA",
+    "DE",
+    "ES",
+    "FR",
+    "GB",
+    "HK"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.scmp.com/week-asia/politics/article/3374868/iran-us-trade-threats-over-dirty-bombs-and-first-strikes-new-war-wave-looms",
+   "source": "corpus",
+   "independent": 27
+  },
+  {
+   "id": "e-2026-11-18-3",
+   "date": "2026-11-18",
+   "kind": "news",
+   "what": "Australia sanctions individuals and entities involved in illegal settlement activity in the West Bank",
+   "countries": [
+    "AR",
+    "AU",
+    "CN",
+    "GB",
+    "IL",
+    "IR",
+    "KR",
+    "LB"
+   ],
+   "hotspot": "west-bank-settler-violence",
+   "url": "https://www.trthaber.com/haber/dunya/avustralyadan-bati-seriadaki-yasa-disi-yerlesim-faaliyetlerine-katilan-kisi-ve-kuruluslara-yaptirim-963657.html",
+   "source": "corpus",
+   "independent": 13
+  },
+  {
+   "id": "e-2026-11-18-4",
+   "date": "2026-11-18",
+   "kind": "news",
+   "what": "UK sanctions eight Israeli companies involved in building settlements in the West Bank; Israel responds",
+   "countries": [
+    "AE",
+    "AR",
+    "CH",
+    "CO",
+    "FR",
+    "GB",
+    "IL",
+    "IN"
+   ],
+   "hotspot": "west-bank-settler-violence",
+   "url": "https://www.eltiempo.com/mundo/medio-oriente/reino-unido-sanciona-a-ocho-empresas-israelies-involucradas-en-la-construccion-de-colonias-en-cisjordania-israel-responde-3601836",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-18-5",
+   "date": "2026-11-18",
+   "kind": "news",
+   "what": "US confirms it targeted a missile site on Iran's Qeshm Island; Iran claims it downed a US drone",
+   "countries": [
+    "AE",
+    "DE",
+    "FR",
+    "GB",
+    "HK",
+    "IL",
+    "IN",
+    "LB"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.bbc.co.uk/urdu/live/c5gm3y1rvmrxt?at_medium=RSS&at_campaign=rss",
+   "source": "corpus",
+   "independent": 17
+  },
+  {
+   "id": "e-2026-11-18-6",
+   "date": "2026-11-18",
+   "kind": "news",
+   "what": "Ukraine hits Crimean bridge ahead of meeting between Trump, Xi and Putin",
+   "countries": [
+    "AU",
+    "CA",
+    "CO",
+    "DE",
+    "FR",
+    "GB",
+    "IN",
+    "IT"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.japantimes.co.jp/news/2026/11/18/world/society/ukraine-crimean-bridge-trump-putin/",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-18-7",
+   "date": "2026-11-18",
+   "kind": "news",
+   "what": "The secret mission of French soldiers in Ukraine; Moscow: \"Direct participation in the war",
+   "countries": [
+    "BE",
+    "DE",
+    "EG",
+    "FR",
+    "HK",
+    "IT",
+    "KR",
+    "RU"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.repubblica.it/esteri/2026/11/18/news/missione_segreta_soldati_francesi_ucraina_addestramento_truppe_armi_mosca_attacca_partecipazione_diretta_guerra-425731459/?rss",
+   "source": "corpus",
+   "independent": 16
+  },
+  {
+   "id": "e-2026-11-18-8",
+   "date": "2026-11-18",
+   "kind": "news",
+   "what": "Russia says it can restore the Crimean bridge in a reduced timeframe after Ukrainian attack",
+   "countries": [
+    "AR",
+    "AU",
+    "DE",
+    "GB",
+    "HK",
+    "JP",
+    "QA",
+    "US"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.infobae.com/america/agencias/2026/11/18/rusia-dice-que-puede-restaurar-puente-de-crimea-en-tiempo-reducido-tras-ataque-ucraniano/",
+   "source": "corpus",
+   "independent": 12
   }
  ]
 }

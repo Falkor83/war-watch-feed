@@ -41,6 +41,14 @@
 "https://www.internazionale.it/ultime-notizie-reuters/2026/11/02/yemen-s-houthis-advance-to-within-80-km-of-aden-sources-say",
 "https://news.google.com/read/CBMiSEFVX3lxTFB6dWR6QWxyT2F0alI1dEpFVGlDaUQ4aEhlMENuRkZYeWt3c2lpbDdEXzNVT3dYT3NaQlE2SUtWZmsxMEMxS2pLMg?hl=en-US&gl=US&ceid=US%3Aen",
 "https://www.jpost.com/middle-east/article-913351"
+],
+"result": "happened",
+"checked": "2026-11-18",
+"why": "Reuters, Al Jazeera and AP all report Houthi advances and Saudi-backed reinforcements on the Lahj front, with Tur al-Baha about 80 km from Aden.",
+"evidence": [
+"https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb",
+"https://www.nbcnews.com/world/yemen/yemen-houthi-rebels-saudi-arabia-backed-forces-retreat-aden-rcna609670",
+"https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden"
 ]
 },
 {
@@ -94,6 +102,13 @@
 "basis": [
 "https://abcnews.com/International/live-updates/iran-live-updates-trump-good-call-netanyahu/?id=137762456",
 "https://energynews.pro/en/brent-falls-764-after-trumps-remarks-on-iran"
+],
+"result": "did_not",
+"checked": "2026-11-18",
+"why": "CBS News live coverage on Nov 18 reports no US-Iran agreement. Iran's offer to reopen the strait within two days still depends on its seven conditions, and mediation by Qatar continues.",
+"evidence": [
+"https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
+"https://www.rte.ie/news/middle-east/2026/1118/1599631-iran-us/"
 ]
 },
 {
@@ -688,6 +703,44 @@
 "basis": [
 "https://www.africom.mil/pressrelease/37112/us-forces-conduct-strike-targeting-al-shabaab",
 "https://news.google.com/rss/articles/CBMipgFBVV95cUxONlpSa2JSdjNOYkV2b1FGYzdUczhRRlZMMmlxNTVoMVE2QlZmZVZWTEVnUHNKWERiZFZuVkItei1XQWFYa2RmT09nTjR5cUJhX2xlNWtGMWdxTU1NRGF1NFlQSHpOQnNGU0lzRjA3LUtIX2U2NDlTQWx6R2xZU0xSQ2FBODhXazZKMXBzQ0lfQ3pOSmxmZnZXN083LUdBeWliR1dKR3Vn?oc=5"
+]
+},
+{
+"made": "2026-11-18",
+"hotspot": "us-israel-iran-war",
+"text": "Further Iranian attacks on Gulf sites hosting US forces are reported by Dec 2.",
+"likelihood": "likely",
+"check_by": "2026-12-02",
+"basis": [
+"https://english.news.cn/20261118/4d068baf65e149b68edf59015482ca6b/c.html",
+"https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/",
+"https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261118-%D8%AD%D9%85%D9%84%D8%A7%D8%AA-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D8%A8%D9%87-%D8%AC%D8%B2%DB%8C%D8%B1%DB%80-%D9%82%D8%B4%D9%85-%D9%88-%D8%AD%D9%85%D9%84%D8%A7%D8%AA-%D9%BE%D9%87%D9%BE%D8%A7%D8%AF%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%DA%A9%D9%88%DB%8C%D8%AA-%D9%88-%D8%A8%D8%AD%D8%B1%DB%8C%D9%86",
+"https://www.jpost.com/middle-east/iran-news/article-915235"
+]
+},
+{
+"made": "2026-11-18",
+"hotspot": "russia-ukraine-war",
+"text": "Road traffic across the Kerch bridge remains suspended on Dec 2.",
+"likelihood": "likely",
+"check_by": "2026-12-02",
+"basis": [
+"https://www.kjrh.com/investigations/russia-ukraine-war-on-the-ground/ukraine-says-it-brought-down-part-of-russias-kerch-bridge-as-russia-hits-back-at-kyivs-bridges",
+"https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia",
+"https://www.cnn.com/2026/11/17/europe/ukraine-russia-kerch-bridge-intl-hnk",
+"https://www.infobae.com/america/agencias/2026/11/18/rusia-dice-que-puede-restaurar-puente-de-crimea-en-tiempo-reducido-tras-ataque-ucraniano/"
+]
+},
+{
+"made": "2026-11-18",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Houthi forces reach Aden's outskirts or cut one of its main road links by Dec 2.",
+"likelihood": "roughly even chance",
+"check_by": "2026-12-02",
+"basis": [
+"https://www.nbcnews.com/world/yemen/yemen-houthi-rebels-saudi-arabia-backed-forces-retreat-aden-rcna609670",
+"https://sitkasentinel.com/stories/saudi-backed-forces-in-yemen-beef-up-defenses-outside-aden-to-thwart-houthis-and-other-mideast,186971",
+"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTGdKNEV2dGQxbWV0MUEzMUh5czNJQXBGSjZQUUlTbmJWYWQwMnB4bElQYWpOOC1LaGZkYUVZeUdYRFdrcVYtcWhFNDRLdzk2OUI5Rlh2T1k2cGI1T0lKdUprbzBnNG5SOGhvdnd4eFhFVE9KN1ZUdGJkY3MyWWZSVS1LWnUzUHpPN0tiYTdBQUZ3b0tIX24xWlNHNVZ4TUNHQWhubHFhT00?oc=5"
 ]
 }
 ]
