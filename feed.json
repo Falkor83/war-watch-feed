@@ -1642,9 +1642,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "US hits Qeshm Island again; new dirty-bomb claims and a tanker hit; talks continue",
+   "status": "US hits Qeshm again after Iranian attacks on Bahrain; dirty-bomb claim disputed",
    "summary": "The US and Israel have been at war with Iran, and shipping through the Strait of Hormuz has been restricted for months. Iran's Revolutionary Guards say they sent drones at a US radar at Isa Air Base in Bahrain on Nov 17, their third such claim in five days; Bahrain says its air defences stopped them, and no independent source has confirmed damage. AP reports these attacks end a pause of about two months in Iranian strikes on Gulf neighbours. A third US aircraft carrier, USS Theodore Roosevelt, has entered the region. UKMTO reports a projectile hit a tanker with no casualties, while Iran's Guard navy claims mines damaged six tankers since Nov 15.",
    "latest": [
+    {
+     "date": "2026-11-18",
+     "at": "2026-11-18T02:58:21Z",
+     "text": "US strikes hit Qeshm Island and an Iranian missile site after an attack on a US radar system in Bahrain, according to US officials and several outlets. Bahrain and Kuwait say they intercepted Iranian air attacks, and the Revolutionary Guard says it targeted a US radar in Bahrain.",
+     "outlet": "Asharq Al-Awsat",
+     "country": "Saudi Arabia",
+     "url": "https://aawsat.com/node/5342554",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-18",
+     "at": "2026-11-18T02:58:21Z",
+     "text": "Bahrain accuses Iran of continuing its attacks on its territory, and later issued an all-clear after a warning of a potential threat. Iranian outlets have not been cited in these reports on the attacks.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/agencias/2026/11/18/barein-acusa-a-iran-de-continuar-sus-ataques-contra-su-territorio/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-18",
+     "at": "2026-11-18T02:58:21Z",
+     "text": "US officials say there is no imminent Iranian threat to US territory after a report of a possible Iranian dirty-bomb plot against Washington. Trump says he is 'looking into' the report. Iran calls the claim disinformation.",
+     "outlet": "Iran International",
+     "country": "Iran",
+     "url": "https://www.iranintl.com/en/202611183106",
+     "region": "iran",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-18",
      "at": "2026-11-18T00:12:28Z",
@@ -1697,39 +1730,6 @@
      "country": "Canada",
      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOazM0VlNJeloxR2lzV1o3d01DamFPbHJOa0Flb0NzLURnVWtwQzY1UThkOWQzRnctMzhmR1Z1YzBRMUlIb1R6cG5iQjRjNHNZNFlVd1czcXdpRG41U213TXg1X2Y4Ul80aEJBeEQ1UFZIVUdkeFJKNG5HbUtTWmp6NDJLSGtDRHRwOE9jSmJFRFR5OUpDV2s4WVNaS1FhVW9OOTctQVlXZ2I1aWI5YmpuaXl6ZWhFTTIza2ZQeEZ2V0ZVN0t4bThheURYU2FqbEU5SkcyX3hycnNycFg2UW9zX00tSTA4aHJSRFE1bDdPb2R6SF8wb1VHWjZIeHBVYlRfWmpV?oc=5",
      "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-17",
-     "at": "2026-11-17T21:24:09Z",
-     "text": "Iran's Mehr news agency, a claim reported only by Iranian media, says a fourth tanker hit a naval mine in the eastern Strait of Hormuz. Separately, Oman evacuated 24 crew from a tanker after a fire near the Strait, according to one independent outlet.",
-     "outlet": "Mehr English",
-     "country": "Iran",
-     "url": "https://en.mehrnews.com/news/249496/Fourth-tanker-hits-naval-mine-in-eastern-Strait-of-Hormuz",
-     "region": "iran",
-     "tag": "non-party",
-     "state_media": true
-    },
-    {
-     "date": "2026-11-17",
-     "at": "2026-11-17T18:39:14Z",
-     "text": "Several independent outlets in different regions report US strikes on Qeshm Island in the Strait of Hormuz. Iranian officials say the attack caused no serious damage.",
-     "outlet": "Yonhap Korean",
-     "country": "South Korea",
-     "url": "https://www.yna.co.kr/view/AKR20261117176051079",
-     "region": "east-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-17",
-     "at": "2026-11-17T18:39:14Z",
-     "text": "Oman evacuated 24 crew members from a tanker hit by a missile in the Strait, according to one outlet. Iran's navy says mines caused explosions on three oil tankers, a claim reported only by Iranian-linked media. A Dutch broadcaster reports a tanker set on fire and explosions on an Iranian island.",
-     "outlet": "Infobae",
-     "country": "Argentina",
-     "url": "https://www.infobae.com/america/agencias/2026/11/17/oman-evacua-a-24-tripulantes-de-buque-cisterna-alcanzado-por-un-misil-en-estrecho-de-ormuz/",
-     "region": "latin-america",
      "tag": "non-party",
      "state_media": false
     }
@@ -10370,468 +10370,6 @@
  ],
  "boil": [
   {
-   "id": "us-israel-iran-war",
-   "date": "2026-11-17",
-   "question": "Will the US/Israel–Iran fighting widen into a clearly wider regional war, with new states drawn in or sustained attacks on Gulf states' terr",
-   "stage": 4,
-   "stage_label": "Brink",
-   "likelihood": "unlikely",
-   "likelihood_of": "reaching stage 5 (a clearly wider regional war) within 30 days",
-   "horizon": "30 days",
-   "direction": "rising",
-   "summary": "Iran's Revolutionary Guards say they have targeted a US radar in Bahrain three times in five days. Bahrain says it intercepted the attacks, and no independent source has confirmed damage. AP says these strikes end a roughly two-month pause in Iranian attacks on Gulf neighbours, and a third US carrier has arrived. Talks have stalled, but each claimed attack so far has been stopped without reported casualties, so the war is at the brink of widening rather than past it.",
-   "drivers": [
-    {
-     "text": "AP says the Bahrain strikes end a roughly two-month pause in Iranian attacks on Gulf neighbours; Iran says it is answering US strikes and drone flights",
-     "cites": [
-      "n04",
-      "h2"
-     ]
-    },
-    {
-     "text": "USS Theodore Roosevelt's arrival gives the US three carriers in the region, AP reports",
-     "cites": [
-      "n08"
-     ]
-    },
-    {
-     "text": "Gulf News says the US and Israel are reportedly planning strikes on Iranian economic targets; Iran says it will not wait for a US attack",
-     "cites": [
-      "n09"
-     ]
-    },
-    {
-     "text": "Iran's Guard navy says mines damaged six tankers; UKMTO separately reports a projectile hit a tanker",
-     "cites": [
-      "n07"
-     ]
-    }
-   ],
-   "brakes": [
-    {
-     "text": "Bahrain says its air defences stopped the attacks; CENTCOM says it downed two drones on Nov 13 with no damage or injuries",
-     "cites": [
-      "h5",
-      "n01",
-      "n03"
-     ]
-    },
-    {
-     "text": "No independent source confirms any radar damage, so Iran's claims of hits remain unverified",
-     "cites": [
-      "n02"
-     ]
-    },
-    {
-     "text": "US travel advice for Iran, Qatar and the UAE has not changed since 2026-10-22, so there are no new evacuation-type moves",
-     "cites": [
-      "d5",
-      "d7",
-      "d9"
-     ]
-    }
-   ],
-   "tip": "An Iranian strike that kills US personnel or a Gulf state's citizens, or that prompts a Gulf state to strike Iran directly.",
-   "offramp": "The US and Iran agree terms to reopen Hormuz, or two weeks pass with no claimed attacks on Bahrain and no UKMTO incidents.",
-   "watch": [
-    "Further IRGC claims on Bahrain or other Gulf bases",
-    "Any reported US or Israeli strike on Iranian economic or nuclear sites",
-    "UKMTO tanker incident reports"
-   ],
-   "agree": "Mostly yes: clash-type headlines (242) far outnumber talks (38). The data shows no new evacuations or travel-advice changes, so the headlines run ahead of state actions.",
-   "sides": "Coverage is broad: 236 outlets in 40 countries, 25% from involved countries. The attack claims come from the IRGC, and the denials from Bahrain and CENTCOM, so outcomes rest on the parties' own statements.",
-   "prev_stage": 4,
-   "headlines": [
-    {
-     "id": "h2",
-     "t": "Iranian drones strike US radar in Bahrain: it is the third attack since Friday",
-     "o": "Drones iraníes golpean radar estadounidense en Baréin: es el tercer ataque desde el viernes",
-     "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnZqY3d2UmNZd0w4emFhUERlNWFUWFlzbmdXR1B2MFJLdU1tb3gwWHg2VUw2eWFRczBHV3NCLUIwcVJQUDZnS1M0UHNtZlRDeGZkM3RMdjczYzBoQU5IdzZzNE43ZVkzR2lNX0VTdzRnR1ktSWRoY29vQVJVM2hfSzVaM1FHQmRTSGt5N1BnRTg5cFlPVWRJLWgwNGVBWG9Pa29hRlU2ZktLNnow0gGsAUFVX3lxTE1SSlRSaDFIWndWZHh6MUpzSjlUZnU5N1Y3T210eXhWUXpzUDJMMHJUVk5LelF4RUxnU1J2VnJnTUlmQXoxMXFwRUJHM25MbWRtY2p4aVJJOXlKeEh0Z01GQUZvQUZ0YjY5UXh1VUtOVmM0a2ZfU2VZdDI1OTdfNHl2ZzQ3MDBUSGhRZ0RSVHA1Vk1uU0REX3daMVZEM1ZlQlBOQ1JVVTI5ejQ1NWU?oc=5",
-     "s": "Deutsche Welle",
-     "c": "DE",
-     "l": "es",
-     "p": 1794908793
-    },
-    {
-     "id": "h5",
-     "t": "Bahrain Intercepts Iranian Air Attacks",
-     "o": "",
-     "u": "https://english.aawsat.com/node/5342236",
-     "s": "Asharq Al-Awsat English",
-     "c": "SA",
-     "l": "en",
-     "p": 1794908169
-    }
-   ],
-   "notes": [
-    {
-     "id": "n01",
-     "date": "2026-11-17",
-     "fact": "Iran's Revolutionary Guards say they sent drones at a US radar at Isa Air Base in Bahrain; Bahrain's state TV says air defences stopped them.",
-     "url": "https://www.yahoo.com/news/world/articles/bahrain-thwarts-drone-attack-iran-073554661.html",
-     "outlet": "Yahoo News",
-     "home": "US",
-     "region": "north-america",
-     "media": "private",
-     "tag": "party-gov",
-     "key": "claim:irgc",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n02",
-     "date": "2026-11-17",
-     "fact": "No independent source has confirmed the Tuesday attack damaged the radar, Gulf News reports; it counts three claimed attacks on US radars in Bahrain in five days.",
-     "url": "https://gulfnews.com/world/gulf/bahrain/three-attacks-in-five-days-why-is-iran-targeting-us-radar-systems-in-bahrain-1.500750407",
-     "outlet": "Gulf News",
-     "home": "AE",
-     "region": "gulf",
-     "media": "private",
-     "tag": "non-party",
-     "key": "outlet:gulf-news",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n03",
-     "date": "2026-11-13",
-     "fact": "US Central Command said it shot down two Iranian drones on Nov 13 with no damage or injuries, rejecting the IRGC's claim of a radar hit.",
-     "url": "https://www.military.com/iran-targets-us-military-base-in-2nd-bahrain-drone-attack-in-3-days",
-     "outlet": "Military.com",
-     "home": "US",
-     "region": "north-america",
-     "media": "unrated",
-     "tag": "party-press",
-     "key": "claim:us centcom party in this war",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n04",
-     "date": "2026-11-16",
-     "fact": "AP reports the Bahrain strikes end a roughly two-month pause in Iranian attacks on Gulf neighbours; Iran says it is answering US strikes and drone flights.",
-     "url": "https://www.boston25news.com/news/business/2-month-lull-ends/VMRUCUEDKQ4AXF5WD56J3PYC5I/",
-     "outlet": "AP (via Boston 25)",
-     "home": "US",
-     "region": "north-america",
-     "media": "unrated",
-     "tag": "party-press",
-     "key": "wire:ap",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n07",
-     "date": "2026-11-16",
-     "fact": "Iran's Guard navy says mines have damaged six tankers since Sunday on a US-backed route; UKMTO separately reports a projectile hit a tanker, no casualties.",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3374663/third-us-aircraft-carrier-reaches-middle-east-trump-weighs-iran-options",
-     "outlet": "South China Morning Post",
-     "home": "HK",
-     "region": "china",
-     "media": "private",
-     "tag": "party-gov",
-     "key": "claim:irgc navy",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n08",
-     "date": "2026-11-16",
-     "fact": "AP reports USS Theodore Roosevelt has entered the Middle East, giving the US three carriers there while Trump keeps strike options open.",
-     "url": "https://www.pbs.org/newshour/world/third-u-s-aircraft-carrier-in-middle-east-as-trump-keeps-options-open-in-iran-war",
-     "outlet": "PBS NewsHour",
-     "home": "US",
-     "region": "north-america",
-     "media": "public-service",
-     "tag": "party-press",
-     "key": "claim:us official party unnamed",
-     "hotspot": "us-israel-iran-war"
-    },
-    {
-     "id": "n09",
-     "date": "2026-11-17",
-     "fact": "Gulf News says the US and Israel are reportedly planning strikes on Iran's economic targets, and Iran says it will not wait for a US attack.",
-     "url": "https://gulfnews.com/world/mena/middle-east-conflict-us-iran-tensions-escalate-as-third-aircraft-carrier-enters-region-1.500748608",
-     "outlet": "Gulf News",
-     "home": "AE",
-     "region": "gulf",
-     "media": "private",
-     "tag": "non-party",
-     "key": "outlet:times uk",
-     "hotspot": "us-israel-iran-war"
-    }
-   ],
-   "tiles": [
-    {
-     "id": "d1",
-     "kind": "who_reports",
-     "label": "Who's reporting (48 h)",
-     "value": "775 headlines",
-     "note": "236 outlets, 40 countries, 25 languages; 25% from the sides' own countries",
-     "level": 0,
-     "parts": [
-      [
-       "Middle East",
-       147
-      ],
-      [
-       "Europe",
-       129
-      ],
-      [
-       "Gulf",
-       118
-      ],
-      [
-       "South & Central Asia",
-       68
-      ],
-      [
-       "Iran",
-       64
-      ],
-      [
-       "N. America",
-       59
-      ],
-      [
-       "East Asia",
-       52
-      ],
-      [
-       "Russia",
-       51
-      ]
-     ]
-    },
-    {
-     "id": "d2",
-     "kind": "headline_signals",
-     "label": "Headline signals (48 h)",
-     "value": "442",
-     "note": "what the headlines are about (one headline can count twice)",
-     "level": 2,
-     "parts": [
-      [
-       "mobilization",
-       14
-      ],
-      [
-       "evacuation",
-       1
-      ],
-      [
-       "airspace",
-       6
-      ],
-      [
-       "threats",
-       108
-      ],
-      [
-       "clashes",
-       242
-      ],
-      [
-       "talks",
-       38
-      ],
-      [
-       "nuclear",
-       33
-      ]
-     ]
-    },
-    {
-     "id": "d3",
-     "kind": "advice_us",
-     "label": "US travel advice: Israel",
-     "value": "Level 3 of 4",
-     "note": "updated 2026-10-22",
-     "level": 1,
-     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.isr.html"
-    },
-    {
-     "id": "d4",
-     "kind": "advice_uk",
-     "label": "UK travel advice: Israel",
-     "value": "Avoid all travel to parts",
-     "note": "updated 2026-10-27: Updated information about Regional tensions (‘Warnings and insurance’ page)  ",
-     "level": 1,
-     "url": "https://www.gov.uk/foreign-travel-advice/israel"
-    },
-    {
-     "id": "d5",
-     "kind": "advice_us",
-     "label": "US travel advice: Iran",
-     "value": "Level 4 of 4",
-     "note": "updated 2026-10-22",
-     "level": 2,
-     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.irn.html"
-    },
-    {
-     "id": "d6",
-     "kind": "advice_uk",
-     "label": "UK travel advice: Iran",
-     "value": "Avoid all travel to whole country",
-     "note": "updated 2026-10-27: Updated information about Regional tensions (‘Warnings and insurance’ page)  ",
-     "level": 2,
-     "url": "https://www.gov.uk/foreign-travel-advice/iran"
-    },
-    {
-     "id": "d7",
-     "kind": "advice_us",
-     "label": "US travel advice: Qatar",
-     "value": "Level 3 of 4",
-     "note": "updated 2026-10-22",
-     "level": 1,
-     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.qat.html"
-    },
-    {
-     "id": "d8",
-     "kind": "advice_uk",
-     "label": "UK travel advice: Qatar",
-     "value": "No travel warning",
-     "note": "updated 2026-10-27: Updated information about regional tensions (‘Warnings and insurance’ page) .\r\n\r\n ",
-     "level": 0,
-     "url": "https://www.gov.uk/foreign-travel-advice/qatar"
-    },
-    {
-     "id": "d9",
-     "kind": "advice_us",
-     "label": "US travel advice: United Arab Emirates",
-     "value": "Level 3 of 4",
-     "note": "updated 2026-10-22",
-     "level": 1,
-     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.are.html"
-    },
-    {
-     "id": "d10",
-     "kind": "advice_uk",
-     "label": "UK travel advice: United Arab Emirates",
-     "value": "No travel warning",
-     "note": "updated 2026-10-27: Updated information about regional tensions (‘Warnings and insurance’ page) ",
-     "level": 0,
-     "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates"
-    },
-    {
-     "id": "d11",
-     "kind": "currency",
-     "label": "ILS vs US dollar",
-     "value": "2.3% weaker",
-     "note": "in 7 days; 4.3% weaker in 30",
-     "level": 0
-    },
-    {
-     "id": "d12",
-     "kind": "currency",
-     "label": "IRR vs US dollar",
-     "value": "0.6% weaker",
-     "note": "in 7 days; 6.6% weaker in 30; a managed rate, moves little",
-     "level": 0
-    },
-    {
-     "id": "d13",
-     "kind": "currency",
-     "label": "QAR vs US dollar",
-     "value": "0.0% stronger",
-     "note": "in 7 days; 0.0% stronger in 30; a managed rate, moves little",
-     "level": 0
-    },
-    {
-     "id": "d14",
-     "kind": "currency",
-     "label": "AED vs US dollar",
-     "value": "0.0% stronger",
-     "note": "in 7 days; 0.0% stronger in 30; a managed rate, moves little",
-     "level": 0
-    },
-    {
-     "id": "d15",
-     "kind": "outages",
-     "label": "Internet outages: Israel",
-     "value": "2 alerts",
-     "note": "1 critical, last 7 days (IODA)",
-     "level": 2
-    },
-    {
-     "id": "d16",
-     "kind": "outages",
-     "label": "Internet outages: Iran",
-     "value": "2 alerts",
-     "note": "1 critical, last 7 days (IODA)",
-     "level": 2
-    },
-    {
-     "id": "d17",
-     "kind": "market",
-     "label": "Betting market",
-     "value": "2% yes",
-     "note": "Will the US officially declare war on Iran by December 31, 2026? (+0 pts this week); a market price, not a forecast",
-     "level": 0,
-     "url": "https://polymarket.com/event/will-the-us-officially-declare-war-on-iran-by"
-    },
-    {
-     "id": "d18",
-     "kind": "actions",
-     "label": "Preparedness actions (30 days)",
-     "value": "11",
-     "note": "8 countries: Egypt, India, Iran, Iraq, Israel, Japan, United Arab Emirates, United Kingdom); latest 2026-11-16",
-     "level": 1
-    }
-   ],
-   "score": 12.0,
-   "history": [
-    [
-     "2026-11-04",
-     3
-    ],
-    [
-     "2026-11-05",
-     3
-    ],
-    [
-     "2026-11-07",
-     3
-    ],
-    [
-     "2026-11-08",
-     3
-    ],
-    [
-     "2026-11-09",
-     3
-    ],
-    [
-     "2026-11-10",
-     3
-    ],
-    [
-     "2026-11-11",
-     3
-    ],
-    [
-     "2026-11-12",
-     3
-    ],
-    [
-     "2026-11-13",
-     3
-    ],
-    [
-     "2026-11-14",
-     3
-    ],
-    [
-     "2026-11-15",
-     3
-    ],
-    [
-     "2026-11-16",
-     4
-    ],
-    [
-     "2026-11-17",
-     4
-    ]
-   ]
-  },
-  {
    "id": "yemen-houthi-saudi-war",
    "date": "2026-11-17",
    "question": "Will the Houthi–Saudi fighting in Yemen widen into a clearly wider war, with new states joining or a return to attacks on Red Sea shipping?",
@@ -11273,6 +10811,448 @@
      4
     ]
    ]
+  },
+  {
+   "id": "us-israel-iran-war",
+   "date": "2026-11-18",
+   "question": "Will the US/Israel-Iran fighting widen into a clearly wider regional war, with a new state joining, attacks on a new country's territory, or",
+   "stage": 4,
+   "stage_label": "Brink",
+   "likelihood": "unlikely",
+   "likelihood_of": "a clearly wider war (a new state joining the fighting, attacks on a new country's territory, or nuclear use) within 30 d",
+   "horizon": "30 days",
+   "direction": "steady",
+   "summary": "The US-Iran war continues at about the same level. Outlets in several regions report a renewed Iranian strike on a US radar site in Bahrain, followed by a US strike on Iran's Qeshm Island. Some describe this as the end of a two-month lull. Bahrain and Kuwait say they intercepted Iranian air attacks, but nothing cited shows a new state joining the fighting. Governments have not changed their travel advice since late October, and the US Secretary of State played down a reported dirty-bomb threat to the US.",
+   "drivers": [
+    {
+     "text": "Outlets report an Iranian attack on a US radar site in Bahrain and a US retaliatory strike on Qeshm Island, ending a two-month lull.",
+     "cites": [
+      "h9",
+      "h17",
+      "h18",
+      "h19"
+     ]
+    },
+    {
+     "text": "Bahrain and Kuwait say they intercepted Iranian air attacks, and Bahrain accuses Iran of continuing attacks on its territory.",
+     "cites": [
+      "h4",
+      "h10"
+     ]
+    },
+    {
+     "text": "A Jerusalem Post report says Iran has hardened its negotiating stance and is weighing escalation in the Strait of Hormuz.",
+     "cites": [
+      "h8"
+     ]
+    }
+   ],
+   "brakes": [
+    {
+     "text": "Rubio says there is no immediate Iranian threat to US territory, and US officials report no signs of an attack on Washington.",
+     "cites": [
+      "h3",
+      "h5",
+      "h6"
+     ]
+    },
+    {
+     "text": "US travel advice for Israel, Iran, Qatar and the UAE has not changed since 2026-10-22, which suggests no new evacuation-level step.",
+     "cites": [
+      "d3",
+      "d5",
+      "d7",
+      "d9"
+     ]
+    },
+    {
+     "text": "Talks are still in the news, and a betting market prices a formal US war declaration by year-end at 2% (weak evidence on its own).",
+     "cites": [
+      "d2",
+      "d17"
+     ]
+    }
+   ],
+   "tip": "Iranian fire that kills US personnel or hits a US warship, a Gulf state such as Bahrain or Kuwait striking Iranian territory, or a strike on Iranian nuclear sites would move it up.",
+   "offramp": "A US-Iran agreement to reopen Hormuz, or two weeks with no reported attacks at sea or on Gulf bases, would move it down.",
+   "watch": [
+    "Further Iranian strikes on Bahrain or Kuwait and any Gulf state response",
+    "Shipping attacks or moves to close the Strait of Hormuz",
+    "Whether talks continue after the Qeshm strike"
+   ],
+   "agree": "Mostly yes: the data is dominated by clash and threat headlines that match the reported Bahrain-Qeshm exchange, but state actions such as travel advice have not changed since October, and talks headlines are still present.",
+   "sides": "Coverage is broad (280 outlets in 45 countries, 25% from the countries involved); the Bahrain attack reports rest largely on US and Bahraini statements, the dirty-bomb story comes from US reporting that Iran calls fabricated, and the Hormuz",
+   "prev_stage": 4,
+   "headlines": [
+    {
+     "id": "h10",
+     "t": "Bahrain and Kuwait intercept Iranian air attacks",
+     "o": "البحرين والكويت تتصديان لهجمات جوية إيرانية",
+     "u": "https://aawsat.com/node/5342554",
+     "s": "Asharq Al-Awsat",
+     "c": "SA",
+     "l": "ar",
+     "p": 1794965649
+    },
+    {
+     "id": "h17",
+     "t": "In response to attack on US base in Bahrain, US strikes Iranian island in Strait of Hormuz",
+     "o": "回应美驻巴林基地遇袭 美军空袭霍尔木兹海峡伊朗岛屿",
+     "u": "https://www.zaobao.com.sg/news/world/story20261118-10015737",
+     "s": "zaobao.com.sg",
+     "c": "SG",
+     "l": "zh",
+     "p": 1794964500
+    },
+    {
+     "id": "h18",
+     "t": "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+     "o": "",
+     "u": "https://www.thisiswiltshire.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+     "s": "thisiswiltshire.co.uk",
+     "c": "GB",
+     "l": "en",
+     "p": 1794964500
+    },
+    {
+     "id": "h19",
+     "t": "U . S . strikes Iran Qeshm Island after reported attack on Bahrain radar site",
+     "o": "",
+     "u": "http://eng.chinamil.com.cn/2025xb/W/N/16500419.html",
+     "s": "eng.chinamil.com.cn",
+     "c": "CN",
+     "l": "en",
+     "p": 1794964500
+    },
+    {
+     "id": "h3",
+     "t": "Rubio says no imminent threat after CNN report on possible Iran dirty bomb plot",
+     "o": "",
+     "u": "https://www.iranintl.com/en/202611183106",
+     "s": "Iran International",
+     "c": "IR",
+     "l": "en",
+     "p": 1794968966
+    },
+    {
+     "id": "h4",
+     "t": "Bahrain accuses Iran of continuing its attacks on its territory",
+     "o": "Baréin acusa a Irán de continuar sus ataques contra su territorio",
+     "u": "https://www.infobae.com/america/agencias/2026/11/18/barein-acusa-a-iran-de-continuar-sus-ataques-contra-su-territorio/",
+     "s": "Infobae",
+     "c": "AR",
+     "l": "es",
+     "p": 1794968138
+    },
+    {
+     "id": "h5",
+     "t": "US sees no signs of Iran preparing an attack on Washington",
+     "o": "США не видят признаков подготовки атаки на Вашингтон со стороны Ирана",
+     "u": "https://tass.ru/mezhdunarodnaya-panorama/28328489",
+     "s": "TASS",
+     "c": "RU",
+     "l": "ru",
+     "p": 1794966854
+    },
+    {
+     "id": "h6",
+     "t": "Rubio: there is no \"imminent\" threat from Iran to US territory",
+     "o": "روبيو: لا يوجد تهديد «وشيك» من إيران على الأراضي الأميركية",
+     "u": "https://aawsat.com/node/5342556",
+     "s": "Asharq Al-Awsat",
+     "c": "SA",
+     "l": "ar",
+     "p": 1794966825
+    },
+    {
+     "id": "h8",
+     "t": "Iran hardens negotiating stance after US midterms, weighs Strait of Hormuz escalation - report",
+     "o": "",
+     "u": "https://www.jpost.com/middle-east/iran-news/article-915254",
+     "s": "Jerusalem Post",
+     "c": "IL",
+     "l": "en",
+     "p": 1794966277
+    },
+    {
+     "id": "h9",
+     "t": "After attack on US radar system in Bahrain, US fires missiles at Iranian missile base",
+     "o": "बहरीन में अमेरिकी रडार सिस्टम पर हमले से भड़का US, ईरान के मिसाइल बेस पर दागीं मिसाइलें",
+     "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVG5KNlg0WGJQREdJQkRfZi00Y3BuV0VzalV2WnhscUJtMTZjdV9iZ1BmM3ZQR2c5NUE0cTFJUy1zTWN2R1k2NV9NaHVRVU5HR3dLVUg4N1dlTXduYy1RZWNIZmx0Z0pucVdZcm4wQjVELXI2by1keHg5NzVfQ0NaaGQwWkdGdlBmdXNsZlBJTTBSbDNVNG9TNjQ0eUhoOE5FTUlWanllb3lUZzVCMmhVOTJJZklyQllUS0pFOEhtaWRjb2t3UENfbVpRMGVHdnJnajJhQnlJZmIyRS1s?oc=5",
+     "s": "AajTak",
+     "c": "IN",
+     "l": "hi",
+     "p": 1794966275
+    }
+   ],
+   "notes": [],
+   "tiles": [
+    {
+     "id": "d1",
+     "kind": "who_reports",
+     "label": "Who's reporting (48 h)",
+     "value": "1012 headlines",
+     "note": "280 outlets, 45 countries, 25 languages; 25% from the sides' own countries",
+     "level": 0,
+     "parts": [
+      [
+       "Europe",
+       189
+      ],
+      [
+       "Middle East",
+       168
+      ],
+      [
+       "Gulf",
+       153
+      ],
+      [
+       "N. America",
+       97
+      ],
+      [
+       "Iran",
+       85
+      ],
+      [
+       "Russia",
+       74
+      ],
+      [
+       "South & Central Asia",
+       71
+      ],
+      [
+       "Latin America",
+       59
+      ]
+     ]
+    },
+    {
+     "id": "d2",
+     "kind": "headline_signals",
+     "label": "Headline signals (48 h)",
+     "value": "656",
+     "note": "what the headlines are about (one headline can count twice)",
+     "level": 2,
+     "parts": [
+      [
+       "mobilization",
+       6
+      ],
+      [
+       "evacuation",
+       4
+      ],
+      [
+       "airspace",
+       7
+      ],
+      [
+       "threats",
+       135
+      ],
+      [
+       "clashes",
+       429
+      ],
+      [
+       "talks",
+       43
+      ],
+      [
+       "nuclear",
+       32
+      ]
+     ]
+    },
+    {
+     "id": "d3",
+     "kind": "advice_us",
+     "label": "US travel advice: Israel",
+     "value": "Level 3 of 4",
+     "note": "updated 2026-10-22",
+     "level": 1,
+     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.isr.html"
+    },
+    {
+     "id": "d4",
+     "kind": "advice_uk",
+     "label": "UK travel advice: Israel",
+     "value": "Avoid all travel to parts",
+     "note": "updated 2026-10-27: Updated information about Regional tensions (‘Warnings and insurance’ page)  ",
+     "level": 1,
+     "url": "https://www.gov.uk/foreign-travel-advice/israel"
+    },
+    {
+     "id": "d5",
+     "kind": "advice_us",
+     "label": "US travel advice: Iran",
+     "value": "Level 4 of 4",
+     "note": "updated 2026-10-22",
+     "level": 2,
+     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.irn.html"
+    },
+    {
+     "id": "d6",
+     "kind": "advice_uk",
+     "label": "UK travel advice: Iran",
+     "value": "Avoid all travel to whole country",
+     "note": "updated 2026-10-27: Updated information about Regional tensions (‘Warnings and insurance’ page)  ",
+     "level": 2,
+     "url": "https://www.gov.uk/foreign-travel-advice/iran"
+    },
+    {
+     "id": "d7",
+     "kind": "advice_us",
+     "label": "US travel advice: Qatar",
+     "value": "Level 3 of 4",
+     "note": "updated 2026-10-22",
+     "level": 1,
+     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.qat.html"
+    },
+    {
+     "id": "d8",
+     "kind": "advice_uk",
+     "label": "UK travel advice: Qatar",
+     "value": "No travel warning",
+     "note": "updated 2026-10-27: Updated information about regional tensions (‘Warnings and insurance’ page) .\r\n\r\n ",
+     "level": 0,
+     "url": "https://www.gov.uk/foreign-travel-advice/qatar"
+    },
+    {
+     "id": "d9",
+     "kind": "advice_us",
+     "label": "US travel advice: United Arab Emirates",
+     "value": "Level 3 of 4",
+     "note": "updated 2026-10-22",
+     "level": 1,
+     "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.are.html"
+    },
+    {
+     "id": "d10",
+     "kind": "advice_uk",
+     "label": "UK travel advice: United Arab Emirates",
+     "value": "No travel warning",
+     "note": "updated 2026-10-27: Updated information about regional tensions (‘Warnings and insurance’ page) ",
+     "level": 0,
+     "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates"
+    },
+    {
+     "id": "d11",
+     "kind": "currency",
+     "label": "ILS vs US dollar",
+     "value": "2.5% weaker",
+     "note": "in 7 days; 4.9% weaker in 30",
+     "level": 0
+    },
+    {
+     "id": "d12",
+     "kind": "currency",
+     "label": "IRR vs US dollar",
+     "value": "1.0% weaker",
+     "note": "in 7 days; 7.2% weaker in 30; a managed rate, moves little",
+     "level": 0
+    },
+    {
+     "id": "d13",
+     "kind": "currency",
+     "label": "QAR vs US dollar",
+     "value": "0.0% stronger",
+     "note": "in 7 days; 0.0% stronger in 30; a managed rate, moves little",
+     "level": 0
+    },
+    {
+     "id": "d14",
+     "kind": "currency",
+     "label": "AED vs US dollar",
+     "value": "0.0% stronger",
+     "note": "in 7 days; 0.0% stronger in 30; a managed rate, moves little",
+     "level": 0
+    },
+    {
+     "id": "d15",
+     "kind": "outages",
+     "label": "Internet outages: Israel",
+     "value": "2 alerts",
+     "note": "1 critical, last 7 days (IODA)",
+     "level": 2
+    },
+    {
+     "id": "d16",
+     "kind": "outages",
+     "label": "Internet outages: Iran",
+     "value": "2 alerts",
+     "note": "1 critical, last 7 days (IODA)",
+     "level": 2
+    },
+    {
+     "id": "d17",
+     "kind": "market",
+     "label": "Betting market",
+     "value": "2% yes",
+     "note": "Will the US officially declare war on Iran by December 31, 2026?; a market price, not a forecast",
+     "level": 0,
+     "url": "https://polymarket.com/event/will-the-us-officially-declare-war-on-iran-by"
+    }
+   ],
+   "score": 12.0,
+   "history": [
+    [
+     "2026-11-04",
+     3
+    ],
+    [
+     "2026-11-05",
+     3
+    ],
+    [
+     "2026-11-07",
+     3
+    ],
+    [
+     "2026-11-08",
+     3
+    ],
+    [
+     "2026-11-09",
+     3
+    ],
+    [
+     "2026-11-10",
+     3
+    ],
+    [
+     "2026-11-11",
+     3
+    ],
+    [
+     "2026-11-12",
+     3
+    ],
+    [
+     "2026-11-13",
+     3
+    ],
+    [
+     "2026-11-14",
+     3
+    ],
+    [
+     "2026-11-15",
+     3
+    ],
+    [
+     "2026-11-16",
+     4
+    ],
+    [
+     "2026-11-17",
+     4
+    ]
+   ],
+   "recheck": "2026-11-18T02:59:01Z"
   },
   {
    "id": "israel-hezbollah-lebanon",
@@ -12863,11 +12843,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-15T04:00:34Z",
-     "headline": "Iran reports tankers hit mines in Hormuz; Trump reportedly may hold off new strikes",
-     "direction": "steady"
-    },
-    {
      "at": "2026-11-15T06:48:10Z",
      "headline": "Iran claims drone attack on US radar site in Bahrain; Bahrain says drones intercepted",
      "direction": "escalating"
@@ -12981,242 +12956,311 @@
      "at": "2026-11-18T00:12:28Z",
      "headline": "US hits Qeshm Island again; new dirty-bomb claims and a tanker hit; talks continue",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-18T02:58:21Z",
+     "headline": "US hits Qeshm again after Iranian attacks on Bahrain; dirty-bomb claim disputed",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-18T00:12:28Z",
-   "next_at": "2026-11-18T03:12:28Z",
-   "headline": "US hits Qeshm Island again; new dirty-bomb claims and a tanker hit; talks continue",
-   "direction": "steady",
+   "updated_at": "2026-11-18T02:58:21Z",
+   "next_at": "2026-11-18T05:58:21Z",
+   "headline": "US hits Qeshm again after Iranian attacks on Bahrain; dirty-bomb claim disputed",
+   "direction": "escalating",
    "points": [
     {
-     "text": "US airstrikes on Iran's Qeshm Island are reported again, with a US military official confirming strikes on Iranian military facilities after a radar system attack. Several outlets in different regions also report the strikes on an IRGC missile site.",
+     "text": "US strikes hit Qeshm Island and an Iranian missile site after an attack on a US radar system in Bahrain, according to US officials and several outlets. Bahrain and Kuwait say they intercepted Iranian air attacks, and the Revolutionary Guard says it targeted a US radar in Bahrain.",
      "stories": [
-      "s6",
       "s1",
       "s2",
-      "s18"
+      "s11",
+      "s18",
+      "s29"
      ],
      "sources": [
       {
-       "t": "US launches airstrikes on Iranian military facilities on Qeshm Island after retaliatory radar system attack",
-       "o": "報復雷達系統遇襲 美軍出手空襲伊朗葛希姆島軍事設施",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5644374",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794957084,
+       "t": "Bahrain and Kuwait intercept Iranian air attacks",
+       "o": "البحرين والكويت تتصديان لهجمات جوية إيرانية",
+       "u": "https://aawsat.com/node/5342554",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794965649,
        "r": "known"
       },
       {
-       "t": "Iran live updates: US conducts airstrikes on Qeshm Island, US military official says",
-       "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS3V1VW00MDA5bHloakZKSy1tTXFqWXVkR09sV1ppd01Pb2JmMlRWR3lTd2dLNzBzekVFTllIeDlKMHp1RFZNMHU0cGp0V2YzYjE3MU9vc0VTU0MzN2hZTHF6aG1TdUdwbmNTckpjcWdXdGRPbk9HVDlmWDBWRUVZZDNJQ1VWUXA5XzNIZEluX19BMlVGcktNV1lGSUZub2NUVUNHY25zT0c0ei1MVWROQ2ZUdXjSAboBQVVfeXFMTVlDanlSMThGWUtuQ3NIVEU1QlhRRURfdEhrbjFST20tdXBGXzN1X3VRM3pvZHJncGUxNVJpS1lkZmFlYlZadVJrbXJGUHZ4UTNYXzBvdWRyNzQzWndTMVFFTmNRQmc3TGFrRFAydzVOYmFzVG5WdjZXVDVJZXo3bFpvUkNHcjBsV0UtNzljX1BBeUcyOVJQLUttNnFqRW1naHBFOThLUWRtY2RfUnR5dlFTRmU4X1ZKb3Rn?oc=5",
-       "s": "ABC News",
-       "c": "US",
+       "t": "Air strikes on Kuwait and Bahrain simultaneous with US attack on Qeshm",
+       "o": "حملات هوایی به کویت و بحرین همزمان با حمله آمریکا به قشم",
+       "u": "https://www.bbc.co.uk/persian/live/cm879d8q0292t?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Persian",
+       "c": "GB",
+       "l": "fa",
+       "p": 1794962976,
+       "r": "known"
+      },
+      {
+       "t": "Bahrain says air defences intercepted Iranian attacks",
+       "u": "https://www.straitstimes.com/world/middle-east/bahrain-issues-all-clear-after-threat-alert-amid-us-iran-exchanges-of-fire",
+       "s": "The Straits Times",
+       "c": "SG",
        "l": "en",
-       "p": 1794952920,
+       "p": 1794961195,
        "r": "known"
       },
       {
-       "t": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
-       "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU3NxaFU3RUpkTklaRUU5NkxhTjZ6aHhYOWl4WG9PQUh1dWp6ck9qdkJhc3FHMjN5cUhWSzF6OWFmZnE5MXQ3U0RKd2RmeXdvZUZ3Qjk4VzFEM0tka3dOai1IVWZFY0VaVlVHS3d2NkdyeDU3UHZEY2tMbV85ZEVldUhRSG1SS2VwZ1c1ck4wNE1HbU81WXluYU5KRUN0NmRFdVJRNWI5MFpreDR4eGNaQkgtMVg3SjjSAbwBQVVfeXFMUDFvNkpucUdWODBUZW5kV01tbDNjaGVlYWp6a2NtdktFQVJpVW9mTjJFWEhWWm1LQlIwcW5tVVozb0FpUWl5TEd1VkstTFh2S2VXRi1YLWdxcl9TaF9XcjFhLUNHb291ZkxHY210TENUclk4WjNlZml0Y1hDbnBBRURzTm1ORjl4a0hWUFVGWUVJbFNwUksyUDJ0ZmtBZWRiZV9pNTJ4QndvRGVMNzVtVW5VQ3J6azQ3c3lJcVc?oc=5",
+       "t": "Iran war live: Kuwait says intercepting ‘hostile’ drone attacks",
+       "u": "https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks?traffic_source=rss",
        "s": "Al Jazeera",
        "c": "QA",
        "l": "en",
-       "p": 1794958745,
+       "p": 1794960027,
        "r": "known"
       },
       {
-       "t": "US jets strike IRGC missile site on Iran’s Qeshm Island after drone attack on Bahrain",
-       "u": "https://gulfnews.com/world/mena/us-jets-strike-irgc-missile-site-on-irans-qeshm-island-after-drone-attack-on-bahrain-1.500751334",
-       "s": "Gulf News",
-       "c": "AE",
+       "t": "U . S . strikes Iranian missile site in self - defense | News",
+       "u": "https://www.wyomingnewsnow.tv/news/national/u-s-strikes-iranian-missile-site-in-self-defense/article_23c1f7c2-09ae-5b60-b29e-9f3959037d85.html",
+       "s": "wyomingnewsnow.tv",
        "l": "en",
-       "p": 1794956195,
-       "r": "known"
-      },
-      {
-       "t": "Washington struck an IRGC site on Iran's Qeshm Island",
-       "o": "واشنطن استهدفت موقعا للحرس الثوري في جزيرة قشم الإيرانية",
-       "u": "https://www.dw.com/ar/واشنطن-استهدفت-موقعا-للحرس-الثوري-في-جزيرة-قشم-الإيرانية/live-79926107?maca=ara-rss-ar-all-1125-rdf",
-       "s": "DW Arabic",
-       "c": "DE",
-       "l": "ar",
-       "p": 1794955680,
-       "r": "known"
+       "p": 1794964500,
+       "r": "unrated"
       }
      ],
-     "headlines": 12,
+     "headlines": 11,
      "outlets": 11,
      "independent": 11,
      "countries": [
-      "AE",
-      "DE",
-      "KR",
-      "PH",
+      "CN",
+      "FR",
+      "GB",
+      "IN",
       "QA",
-      "RU",
-      "TR",
-      "TW",
+      "SA",
+      "SG",
+      "UA",
       "US"
      ],
-     "regions": 7,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "A video from an outlet in Brazil shows a ship hit by a projectile in the Strait of Hormuz catching fire and exploding. Iranian state media separately says a third tanker hit a naval mine in the eastern Strait; no independent confirmation of that claim is in these reports.",
-     "stories": [
-      "s17",
-      "s23"
-     ],
-     "sources": [
-      {
-       "t": "Video: Ship hit by a projectile in the Strait of Hormuz catches fire and explodes",
-       "o": "Vídeo: Navio atingido por projétil no Estreito de Ormuz pega fogo e explode",
-       "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObU1namo3YVN4Y3hTWGVqLWdPVEx4MUxGQWVrR0FmWlQ0b3RXQkpyNzJ2b0kzZV9jZWhidG1IaFBBcjlrUDZ5TUZWRlBhbEpwWE04OG93VWJEMUZYQ2d1RDJ0YWt5UnJqRkJfVG9aOWFTcHg3eGlGRk9SV3RCSWNSMFJjOWRNX1hnTkRfNnJaclNSYWlFV2ZzNEN6Mktwc0RxOUJoUW9Da3JaaWtNeklkdGdIR3VWOWxYZXc?oc=5",
-       "s": "CNN Brasil",
-       "c": "BR",
-       "l": "pt",
-       "p": 1794951270,
-       "r": "unrated"
-      },
-      {
-       "t": "Third tanker hits naval mine in eastern Strait of Hormuz",
-       "u": "https://en.irna.ir/news/86325178/Third-tanker-hits-naval-mine-in-eastern-Strait-of-Hormuz",
-       "s": "IRNA English",
-       "c": "IR",
-       "l": "en",
-       "p": 1794952068,
-       "r": "state"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "BR",
-      "IR"
-     ],
-     "regions": 2,
+     "regions": 6,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Taiwanese and Thai outlets report US intelligence claims that Iran is plotting a dirty bomb attack on Washington. Iran's UN mission calls the accusations a disinformation campaign, and Iranian media say the claim is false.",
+     "text": "Bahrain accuses Iran of continuing its attacks on its territory, and later issued an all-clear after a warning of a potential threat. Iranian outlets have not been cited in these reports on the attacks.",
      "stories": [
-      "s3",
-      "s19",
-      "s21"
+      "s8",
+      "s25",
+      "s34"
      ],
      "sources": [
       {
-       "t": "US intelligence: Iran plotting dirty bomb attack on Washington",
-       "o": "美情資︰伊朗謀劃髒彈攻擊華府",
-       "u": "https://news.ltn.com.tw/news/world/paper/1778888",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1794951000,
+       "t": "Bahrain accuses Iran of continuing its attacks on its territory",
+       "o": "Baréin acusa a Irán de continuar sus ataques contra su territorio",
+       "u": "https://www.infobae.com/america/agencias/2026/11/18/barein-acusa-a-iran-de-continuar-sus-ataques-contra-su-territorio/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1794968138,
        "r": "known"
       },
       {
-       "t": "Tehran says US is paving the way for a villainous plan! After Trump's strong warning that the US is very serious, news that Iran will use a 'radioactive bomb' attack in America",
-       "o": "เตหะรานเชื่อUSปูทางสู่แผนร้าย!หลังทรัมป์กร้าวสหรัฐฯจริงจังมาก ข่าวอิหร่านจะใช้'ระเบิดกัมมันตรังสี'โจมตีในอเมริกา",
-       "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zckhkdTdta3RMZmVYOFRDUzB2VUZaRmJsOTlxN2pGRjJCRWxNaGNSN0p2Y0I5Tk5MdWhRU19hUEFRbHZVY1d6cUo1WW45Qm1QalQ3SW1pWTA5aDNfbEE?oc=5",
-       "s": "ผู้จัดการออนไลน์",
-       "c": "TH",
-       "l": "th",
-       "p": 1794956700,
-       "r": "unrated"
+       "t": "Bahrain issues all-clear after warning of potential threat amid US-Iran exchanges",
+       "u": "https://www.hindustantimes.com/world-news/bahrain-issues-all-clear-after-warning-of-potential-threat-amid-us-iran-exchanges-101794963166856.html",
+       "s": "Hindustan Times World",
+       "c": "IN",
+       "l": "en",
+       "p": 1794963592,
+       "r": "known"
       },
       {
-       "t": "Europe assassination scheme emerges as Iran denies DC 'dirty bomb' plot amid Trump warning",
-       "u": "https://www.foxnews.com/world/europe-assassination-scheme-emerges-iran-denies-dirty-bomb-plot-amid-trump-warning",
-       "s": "Fox News World",
+       "t": "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
+       "u": "https://www.kwit.org/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+       "s": "kwit.org",
        "c": "US",
        "l": "en",
-       "p": 1794954522,
+       "p": 1794964500,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 7,
+     "outlets": 7,
+     "independent": 3,
+     "countries": [
+      "AR",
+      "IN",
+      "US"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "US officials say there is no imminent Iranian threat to US territory after a report of a possible Iranian dirty-bomb plot against Washington. Trump says he is 'looking into' the report. Iran calls the claim disinformation.",
+     "stories": [
+      "s3",
+      "s7",
+      "s4",
+      "s13",
+      "s32"
+     ],
+     "sources": [
+      {
+       "t": "Rubio says no imminent threat after CNN report on possible Iran dirty bomb plot",
+       "u": "https://www.iranintl.com/en/202611183106",
+       "s": "Iran International",
+       "c": "IR",
+       "l": "en",
+       "p": 1794968966,
        "r": "known"
       },
       {
-       "t": "Iran’s UN Mission: Accusations regarding dams and dirty bomb are disinformation campaign",
-       "u": "https://en.irna.ir/news/86325186/Iran-s-UN-Mission-Accusations-regarding-dams-and-dirty-bomb",
-       "s": "IRNA English",
-       "c": "IR",
+       "t": "Rubio: there is no \"imminent\" threat from Iran to US territory",
+       "o": "روبيو: لا يوجد تهديد «وشيك» من إيران على الأراضي الأميركية",
+       "u": "https://aawsat.com/node/5342556",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1794966825,
+       "r": "known"
+      },
+      {
+       "t": "Iran called reports of a \"dirty bomb\" plot in the US disinformation",
+       "o": "Иран назвал сообщения о заговоре с \"грязной бомбой\" в США дезинформацией",
+       "u": "https://www.interfax.ru/world/1129701",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1794961560,
+       "r": "known"
+      },
+      {
+       "t": "Trump says \"we're looking into\" report that Iran may use dirty bomb on D.C.",
+       "u": "https://www.cbsnews.com/video/trump-says-were-looking-report-iran-may-use-dirty-bomb-dc/",
+       "s": "CBS News World",
+       "c": "US",
        "l": "en",
-       "p": 1794953420,
-       "r": "state"
+       "p": 1794961411,
+       "r": "known"
+      },
+      {
+       "t": "Iran has the dirty bomb ready for Washington\": the case bursts into Trump's mission",
+       "o": "“L’Iran ha pronta la bomba sporca su Washington”: il caso irrompe sulla missione di Trump",
+       "u": "https://www.repubblica.it/esteri/2026/11/18/news/iran_pronta_bomba_sporca_washington_caso_irrompe_missione_trump-425730657/?rss",
+       "s": "Repubblica Esteri",
+       "c": "IT",
+       "l": "it",
+       "p": 1794960000,
+       "r": "known"
       }
      ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
+     "headlines": 9,
+     "outlets": 9,
+     "independent": 9,
      "countries": [
+      "AR",
+      "IL",
       "IR",
-      "TH",
-      "TW",
+      "IT",
+      "MA",
+      "RU",
+      "SA",
       "US"
      ],
-     "regions": 4,
+     "regions": 8,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Fighting continues alongside talks: one outlet reports the US and Iran exchanging fire despite mediators' efforts. Separately, Trump, Xi and Putin are due to meet in China on Thursday, with the Iran war on the agenda.",
+     "text": "An Indian national is reported missing after attacks on a commercial vessel in the Strait of Hormuz, and oil prices rose on the news. This is a single-source report.",
      "stories": [
-      "s10",
-      "s13"
+      "s24",
+      "s22"
      ],
      "sources": [
       {
-       "t": "US, Iran exchange fire despite talks with mediators",
-       "u": "https://news.rthk.hk/rthk/en/component/k2/1878220-20261118.htm",
-       "s": "RTHK International",
-       "c": "HK",
+       "t": "Indian national missing after attacks on commercial vessel in Strait of Hormuz",
+       "u": "https://www.thehindu.com/news/national/indian-national-missing-after-attacks-on-commercial-vessel-in-strait-of-hormuz/article71714331.ece",
+       "s": "The Hindu",
+       "c": "IN",
        "l": "en",
-       "p": 1794957072,
+       "p": 1794964052,
        "r": "known"
       },
       {
-       "t": "Donald Trump, Xi Jinping and Vladimir Putin meet this Thursday in China, with the wars in Iran and Ukraine and nuclear proliferation as key topics",
-       "o": "Donald Trump, Xi Jinping y Vladimir Putin se reúnen este jueves en China con las guerras de Irán, Ucrania y la proliferación nuclear como temas clave",
-       "u": "https://www.eltiempo.com/mundo/asia/donald-trump-xi-jinping-y-vladimir-putin-se-reunen-este-jueves-en-china-con-las-guerras-de-iran-ucrania-y-la-proliferacion-nuclear-como-temas-clave-3601790",
-       "s": "El Tiempo Mundo",
-       "c": "CO",
-       "l": "es",
-       "p": 1794953996,
-       "r": "known"
+       "t": "Attack in the Strait of Hormuz pushes up world oil prices",
+       "o": "Serangan di Selat Hormuz Dorong Harga Minyak Dunia",
+       "u": "https://www.liputan6.com/bisnis/read/8337362/serangan-di-selat-hormuz-dorong-harga-minyak-dunia",
+       "s": "liputan6.com",
+       "c": "ID",
+       "l": "id",
+       "p": 1794964500,
+       "r": "unrated"
       }
      ],
      "headlines": 2,
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "CO",
-      "HK"
+      "ID",
+      "IN"
      ],
      "regions": 2,
      "party_only": false,
      "state": 0
+    },
+    {
+     "text": "One Israeli outlet reports Iran is hardening its negotiating stance after the US midterms and weighing escalation in the Strait of Hormuz; this is a single-source report. A US outlet says tit-for-tat attacks persist and a peace deal remains elusive.",
+     "stories": [
+      "s33",
+      "s35"
+     ],
+     "sources": [
+      {
+       "t": "Iran hardens negotiating stance after US midterms, weighs Strait of Hormuz escalation - report",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-915254",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1794966277,
+       "r": "known"
+      },
+      {
+       "t": "Tit-for-Tat US-Iran Attacks Persist As Peace Deal Remains Elusive",
+       "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZFBSMGItencycUp0TTZuTXZyaEdmN1puYlZRTWdTSlpaeTczRUNzZUhFeV9odkZOSTZPY3lLLU5hOHNFaTI5eTdaaERZWmxKVDIwUmV4YUh1UFdJWDBOUm9oSjFPVVlNZDFQa2xSVXJEMUUyaEY4Z2NkTW5BWVE5T0h30gGEAUFVX3lxTE1Jck9TMmxKOHhQa1NqcU5qLVdxbm40SGhTV0xhanZNVC0xWnV0ZmVuN2JEdnFKVVNsdTVPR2VOMUFvdnhrU0lkbnFoNEtNNkJOOXZzdVVQQ1VqdjdQS1lVX0NNd3Qyb3ZUN1ZjUVF0c19zM3c1cjBPWVhLZlhsZ1ptMmM1LQ?oc=5",
+       "s": "RFE/RL",
+       "c": "US",
+       "l": "en",
+       "p": 1794960509,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "IL",
+      "US"
+     ],
+     "regions": 2,
+     "party_only": true,
+     "state": 0
     }
    ],
    "watch": [
-    "Whether the US military confirms any strikes beyond Qeshm Island",
-    "Independent confirmation of the tanker and mine reports in the Strait of Hormuz",
-    "Outcome of the Trump, Xi and Putin meeting in China on Thursday"
+    "Whether Iran carries out further strikes on Bahrain or Kuwait after the Qeshm strikes",
+    "Shipping and oil prices in the Strait of Hormuz, and the status of the missing crew member",
+    "Any official confirmation or denial of the dirty-bomb plot claim from US or Iranian officials"
    ],
    "window_hours": 3,
-   "headlines_read": 39,
-   "outlets_read": 33,
-   "countries_read": 22,
-   "languages_read": 9,
+   "headlines_read": 58,
+   "outlets_read": 46,
+   "countries_read": 21,
+   "languages_read": 11,
    "model": "Claude Haiku 5.5",
-   "ladder_checked_at": "2026-11-17T09:32:45Z",
-   "ladder_note": "Re-checked after: The IRGC says it attacked a US radar system in Bahrain, and Bahrain confirms it intercepted Iranian air attacks and explosions were heard in Manama. This is a new strike on a country in this update."
+   "ladder_checked_at": "2026-11-18T02:58:21Z",
+   "ladder_note": "Re-checked after: US strikes on Iranian territory (Qeshm Island and a missile site) followed Iranian attacks on US radar and air defences in Bahrain and Kuwait, ending a reported two-month lull."
   }
  ],
  "ai_risk": {
