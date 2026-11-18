@@ -1769,9 +1769,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Iran claims second drone kill; tanker hit in Hormuz; Rubio sees no imminent threat",
+   "status": "US strikes Qeshm missile site after Iran hits Kuwait, Bahrain; tanker fire in Hormuz",
    "summary": "The US–Israel war with Iran centres on the Strait of Hormuz and US bases around the Gulf. On Nov 17 US jets struck what US military officials call an IRGC missile site on Qeshm Island, describing it as self-defence after Iranian attacks. Iranian media reported several blasts, and Iran's army says it captured a US drone south of the island. Iran's army says its drones then targeted Patriot batteries at Kuwait's Ali Al Salem base, and Kuwait and Bahrain say they intercepted missiles and drones. US Central Command says every drone aimed at a US radar in Bahrain was intercepted, the third attempt in five days; no independent source has confirmed damage or casualties.",
    "latest": [
+    {
+     "date": "2026-11-18",
+     "at": "2026-11-18T17:21:17Z",
+     "text": "Iran targeted a US air base in Kuwait and sites in Bahrain after US defensive strikes, according to French and US outlets. The US then struck an IRGC missile site on Qeshm Island, which it calls self-defense. Iran says the Qeshm island was hit and that it retaliated against Kuwait.",
+     "outlet": "France 24",
+     "country": "France",
+     "url": "https://www.france24.com/en/video/20261118-us-strikes-iranian-island-after-tehran-targets-bahrain",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-18",
+     "at": "2026-11-18T17:21:17Z",
+     "text": "Tehran expects a new US attack and hints at a 'more destructive' response, per Asharq Al-Awsat. Separately, the US has tightened its Iran blockade with curbs on oil transfers at sea, according to a US advisory.",
+     "outlet": "Asharq Al-Awsat",
+     "country": "Saudi Arabia",
+     "url": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPbjhkTGgwRVpqVTc4NTlWRm5VeXFnckxWSE5zeHFncEc4ZnRBNlh4LVhVc0o1TE5QOG51UkZWbXBMOVFBekozektlbXM2Q0ZqdnBDSGFkdHlFdGRXa1BSR2MybVNFWWNKZE1aeERPcElKMXZhdXlEYTBPOWdPNEFYRkk0VUFBdTlCckc2UkJydFdyc2FYbGRyVkpSRUNjV0tLejJBNXpELW92QmMxQkV0LU51X21pYkw2MkJkVnhvUjNKTFZKUTQ4OFVUdW1BdTA3X096ZTBoVnpNbTYtT0xzc20tZXlPeVFQQy0wNHhYSkZ0cWJweDRPcElmNmtBS1NmNEpUNUFZeDJLOVFPZjFnalJqZFFrSXpQSkFVXy11Wm9zSUJmcDQ0bjVsaGs0WnFua0JKdjR1MGY0MTh2LTZxTmJiNGl3aHpiUnRVZy1WZG4tX2NwWW13MWRtQmlFSkFjUmZIUEphWTdyNVlhS0I0WTN1MzJmRU1VQnNmZk9YTnQyU0ZMb29JZVBuU2I0NW94cWF6bFlaMzFTcm1haTBOYk1",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-18",
+     "at": "2026-11-18T17:21:17Z",
+     "text": "Israeli spy chief reportedly lobbied for joint strikes on Iran during a US visit, according to sources cited by Al-Monitor and other outlets in five countries. The US intelligence director says threats from Iran have increased substantially.",
+     "outlet": "Al-Monitor",
+     "country": "United States",
+     "url": "https://www.al-monitor.com/originals/2026/11/israeli-spy-chief-lobbied-joint-iran-strikes-us-visit-sources-say",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-18",
      "at": "2026-11-18T14:02:22Z",
@@ -1825,37 +1858,6 @@
      "url": "https://news.ltn.com.tw/news/world/breakingnews/5645150",
      "region": "east-asia",
      "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-18",
-     "at": "2026-11-18T11:17:36Z",
-     "text": "Iran's army chief has warned that Iran's response would be 'more devastating' if it is attacked again, according to reports from several countries. Iranian state media repeated the warning.",
-     "outlet": "ANSA Mondo",
-     "country": "Italy",
-     "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/18/teheran-la-nostra-risposta-iran-sara-piu-devastante-in-caso-di-un-altro-attacco_0caca58b-53b2-4a21-8578-e89bd0e53981.html",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-18",
-     "text": "China's Xinhua repeated the US account of a self-defense strike on Qeshm and the Iranian official's no-damage statement, noting it was Iran's third attempted strike on a US site in five days.",
-     "outlet": "Xinhua",
-     "country": "China",
-     "url": "https://english.news.cn/20261118/4d068baf65e149b68edf59015482ca6b/c.html",
-     "region": "china",
-     "tag": "party-gov",
-     "state_media": true
-    },
-    {
-     "date": "2026-11-18",
-     "text": "Kuwait and Bahrain said they intercepted missiles and drones from Iran and its Houthi allies; RTÉ says it was Iran's first attack on Kuwait since September.",
-     "outlet": "RTÉ",
-     "country": "Ireland",
-     "url": "https://www.rte.ie/news/middle-east/2026/1118/1599631-iran-us/",
-     "region": "europe",
-     "tag": "party-gov",
      "state_media": false
     }
    ],
@@ -12892,11 +12894,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-15T17:57:02Z",
-     "headline": "Hormuz tanker losses reported to rise; Iran rejects 'neither war nor peace' stance",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-15T20:53:58Z",
      "headline": "Bahrain drone attack condemned; US sends third carrier as Iran rejects 'neither war nor peace'",
      "direction": "escalating"
@@ -13010,282 +13007,195 @@
      "at": "2026-11-18T14:02:22Z",
      "headline": "Iran claims second drone kill; tanker hit in Hormuz; Rubio sees no imminent threat",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-18T17:21:17Z",
+     "headline": "US strikes Qeshm missile site after Iran hits Kuwait, Bahrain; tanker fire in Hormuz",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-18T14:02:22Z",
-   "next_at": "2026-11-18T17:02:22Z",
-   "headline": "Iran claims second drone kill; tanker hit in Hormuz; Rubio sees no imminent threat",
+   "updated_at": "2026-11-18T17:21:17Z",
+   "next_at": "2026-11-18T20:21:17Z",
+   "headline": "US strikes Qeshm missile site after Iran hits Kuwait, Bahrain; tanker fire in Hormuz",
    "direction": "escalating",
    "points": [
     {
-     "text": "Iran says it shot down another US MQ-9 drone over the Strait of Hormuz. The claim comes from Iranian state media and is reported by outlets in four countries; it is not independently confirmed.",
+     "text": "Iran targeted a US air base in Kuwait and sites in Bahrain after US defensive strikes, according to French and US outlets. The US then struck an IRGC missile site on Qeshm Island, which it calls self-defense. Iran says the Qeshm island was hit and that it retaliated against Kuwait.",
      "stories": [
-      "s1"
+      "s3",
+      "s12",
+      "s18"
      ],
      "sources": [
       {
-       "t": "Iran announces it shot down a US drone east of the Strait of Hormuz",
-       "o": "İran, Hürmüz Boğazı'nın doğusunda ABD'ye ait İHA düşürdüğünü duyurdu",
-       "u": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinin-dogusunda-abdye-ait-iha-dusurdugunu-duyurdu-963690.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1795001520,
-       "r": "known"
-      },
-      {
-       "t": "Iran announces the destruction of another US Predator drone over the Strait of Hormuz",
-       "o": "Irán anuncia la destrucción de otro dron Predator de EEUU en el estrecho de Ormuz",
-       "u": "https://www.infobae.com/america/agencias/2026/11/18/iran-anuncia-la-destruccion-de-otro-dron-predator-de-eeuu-en-el-estrecho-de-ormuz/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1795001455,
-       "r": "known"
-      },
-      {
-       "t": "Iran shoots down another US MQ-9 drone over Strait of Hormuz",
-       "u": "https://en.irna.ir/news/86325873/Iran-shoots-down-another-US-MQ-9-drone-over-Strait-of-Hormuz",
-       "s": "IRNA English",
-       "c": "IR",
+       "t": "US strikes Iranian island after Tehran targets Bahrain",
+       "u": "https://www.france24.com/en/video/20261118-us-strikes-iranian-island-after-tehran-targets-bahrain",
+       "s": "France 24",
+       "c": "FR",
        "l": "en",
-       "p": 1795002853,
-       "r": "state"
+       "p": 1795013005,
+       "r": "known"
       },
       {
-       "t": "Iran shot down a US MQ-9 drone over the Strait of Hormuz",
-       "o": "Иран сбил американский беспилотник MQ-9 над Ормузским проливом",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28330837",
-       "s": "TASS",
-       "c": "RU",
-       "l": "ru",
-       "p": 1795000350,
-       "r": "state"
+       "t": "Iran targets US air base in Kuwait after US defensive strikes amid criticism from Gulf states",
+       "u": "https://www.foxnews.com/world/iran-targets-us-air-base-kuwait-us-defensive-strikes-criticism-gulf-states",
+       "s": "Fox News World",
+       "c": "US",
+       "l": "en",
+       "p": 1795012748,
+       "r": "known"
+      },
+      {
+       "t": "US strikes IRGC missile site on Qeshm Island in ‘self-defense’",
+       "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbUNENlZ3TE9KQmkyOTdlQmRVbTYyZmpZVGk3OWRwMi1IcW5HdDhIVTNnV0VXSXNCVGNMOUNYQ3pTX3U3bU5rN0N6alRTcXJNVFhmX0tpUVZYRTNqOFZiOTdKdXlwUXRyQkR0LURHS2oyRUp4S1FMdGhNSzRfUFhsSUg1NE5BUGY3NHNtRzNvUFl5a3NGSzl0T2pHQ1hKQjBNbnNiblVxYWRORUstT0huVjA0SkZxZE9OV0d5V0lfTmrSAcYBQVVfeXFMUGZHMWpVaHNscEZBSEZ2bkhDTTlyaUVQamJmSHdYc2wxSFlNRk9tZGZKQlZOdk1SOVU0MHFONkphbFotbVpQMS1HS2o1dGd6eEpPbXh2cndXTkl3OV9BVlpJZkVZVzVsR0M5S0ozMjd6Mnk1S19RMWZ6Vy1DTllEZ3FVeVFMTmkxVTZxTDlkY0hCdkk2azUyckIxWEluV3FoTjdobGRGaHdsaFFYNzZTaVJLYWZrYmYzeGh2OGRTTkIwYzlQTjNB?oc=5",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1795016100,
+       "r": "known"
+      },
+      {
+       "t": "Iran: Qeshm island hit by United States, Tehran retaliates against Kuwait",
+       "o": "Iran : l'île de Qeshm touchée par les États-Unis, Téhéran riposte au Koweït",
+       "u": "https://www.france24.com/fr/vid%C3%A9o/20261118-iran-l-%C3%AEle-de-qeshm-touch%C3%A9e-par-les-%C3%A9tats-unis-t%C3%A9h%C3%A9ran-riposte-au-kowe%C3%AFt",
+       "s": "France 24 French",
+       "c": "FR",
+       "l": "fr",
+       "p": 1795012395,
+       "r": "known"
       }
      ],
      "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "AR",
-      "IR",
-      "RU",
-      "TR"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 2
-    },
-    {
-     "text": "Reports from France, Russia and Israel say a gas tanker was hit and caught fire in or near the Strait of Hormuz, with one sailor missing and two injured. Images circulated of a large fire on a tanker off Oman.",
-     "stories": [
-      "s2"
-     ],
-     "sources": [
-      {
-       "t": "One sailor missing in Strait of Hormuz after strike on tanker",
-       "o": "В Ормузском проливе после удара по танкеру пропал один моряк",
-       "u": "https://www.interfax.ru/world/1129864",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1795007100,
-       "r": "known"
-      },
-      {
-       "t": "Strait of Hormuz: images of spectacular fire on oil tanker hit by strike off Oman",
-       "o": "Détroit d’Ormuz : les images du spectaculaire incendie d’un pétrolier touché par une frappe au large d’Oman",
-       "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZFFTU2oxZW0xN21PaW1EejFUeldtNlRGbU5UR19IUVR6YTA5VGRiVmZyWkRTRm1iMTJ6NzluRGpUNTdLZVd6aF9jbHlueFhCbDhEVF9ENm1FSHAxT1VIdzIzcjVKQjJwX2ZHR1Iyb1BhX3BnQnZMZVFvX29rSXg0OW95UWlLdDRTckFvMmRIVTVfRGdMVV95ZUtlajRaa19mTnJMaE1DdC1tcXBXbzFWX2NROVlfNV9fcmJmUVdOX3p0WVA5YUNXNlhGa1h0WGtUbENHY3FiMXE4MTkwQkJOVDc1alpGd2M?oc=5",
-       "s": "Le Figaro",
-       "c": "FR",
-       "l": "fr",
-       "p": 1795003529,
-       "r": "unrated"
-      },
-      {
-       "t": "Strait of Hormuz: gas tanker hit and caught fire - one sailor missing, two injured",
-       "o": "מיצר הורמוז: מכלית גז נפגעה ועלתה באש - ימאי נעדר ושניים נפצעו",
-       "u": "https://news.google.com/rss/articles/CBMigAVBVV95cUxOVnlFM19FbFpVaG5QM2dMa1puZEdhUnd5OG9yRzBJYkgtUFVDNHFLQnhiSjI5c040ZEVCamtIQWdBZzUwWDlUeFM4UVJjR2NZRUh6NndCbTBpQ0RnVkFSVVBCYmZSLUdTMzVZUTB3UE8xeC15NWFOcG94MTRRZXBXUnVLeDNBaGNjZGNUcVRWWUN1MFhuN1ptVFRDNEJOWnpQNVM3RXVFYW1oZjdSOE14VU1NS2h2TVhZZGgwLXdnSEVHcXMtcTAyeW8yQzRKTFA1bE80bER3aFVWbF83dV9sZGFYWS05dXR4NHhoYUItOE5kd3RWMFFQMFFid2RDcTcyd0hyZ0otLXRwZThlMHFTdjNIb00tSUM3SlhqUnVQWlotVHFsbFRXMEhrdHU4em01U0RYRG1PSHlBcTE3RUFvMzRFRmVDdi1pNU9OSDdoQU1acTJpMUtTcWN5YXVwZzl4MUlNRkRpaG1pR1pDa2NQQnVrVU1DVWUwZHhhYkEzUGc3aVVqZ1pTN28yRnNCUDZCc0ZOTmY5NnBkN1NLalE3bUQ",
-       "s": "PORT2PORT",
-       "c": "IL",
-       "l": "he",
-       "p": 1795001086,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 3,
      "outlets": 3,
      "independent": 3,
      "countries": [
       "FR",
-      "IL",
-      "RU"
+      "SA",
+      "US"
      ],
      "regions": 3,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Iran widened its attacks to a US air base in Kuwait and sites in Bahrain, according to Canadian and US outlets. Kuwait says it repelled its first Iranian attack in two months, and Kuwait and Bahrain report intercepting Iranian drones.",
+     "text": "Tehran expects a new US attack and hints at a 'more destructive' response, per Asharq Al-Awsat. Separately, the US has tightened its Iran blockade with curbs on oil transfers at sea, according to a US advisory.",
      "stories": [
-      "s4",
-      "s6",
-      "s21"
+      "s14",
+      "s5"
      ],
      "sources": [
       {
-       "t": "Iran widens Gulf attacks by targeting a US air base in Kuwait and sites in Bahrain",
-       "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdS1TMG1Ob0FKWmVQbDJuLUFtZl9jOWZnMGxNdFRKaGRyblBkSlVhQ0VxNGo0a2drT0IwcHdGbGd1eUpkYXgzMnV0ODRqME1ncmlnc0VHR0tRYmdGblhhNjh0MDJfa21jWVJwMW9ISnVNdlEyZGdCaDljWTc3SHhmTXp0M1pOMnNSalRNTGFSMmVNUWUwUVlhSlU2YmtmZjdMaHJOTGMyYTJBVnNPdTV0MjJLUGRFUzQzN1ZRU3FDajMtcjd0SHEzVThwNjdsWDctbmc1Q3RmSTQ4dDQyZEtfSmhfYUlBNVhQUGlzZWdUdUxTMHo4aHpselpmeGc?oc=5",
-       "s": "Globe and Mail",
-       "c": "CA",
+       "t": "Tehran expects a new US attack and hints at a \"more destructive\" response",
+       "o": "طهران تتوقع هجوماً أميركياً جديداً وتلوّح برد «أكثر تدميراً»",
+       "u": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPbjhkTGgwRVpqVTc4NTlWRm5VeXFnckxWSE5zeHFncEc4ZnRBNlh4LVhVc0o1TE5QOG51UkZWbXBMOVFBekozektlbXM2Q0ZqdnBDSGFkdHlFdGRXa1BSR2MybVNFWWNKZE1aeERPcElKMXZhdXlEYTBPOWdPNEFYRkk0VUFBdTlCckc2UkJydFdyc2FYbGRyVkpSRUNjV0tLejJBNXpELW92QmMxQkV0LU51X21pYkw2MkJkVnhvUjNKTFZKUTQ4OFVUdW1BdTA3X096ZTBoVnpNbTYtT0xzc20tZXlPeVFQQy0wNHhYSkZ0cWJweDRPcElmNmtBS1NmNEpUNUFZeDJLOVFPZjFnalJqZFFrSXpQSkFVXy11Wm9zSUJmcDQ0bjVsaGs0WnFua0JKdjR1MGY0MTh2LTZxTmJiNGl3aHpiUnRVZy1WZG4tX2NwWW13MWRtQmlFSkFjUmZIUEphWTdyNVlhS0I0WTN1MzJmRU1VQnNmZk9YTnQyU0ZMb29JZVBuU2I0NW94cWF6bFlaMzFTcm1haTBOYk1",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1795013952,
+       "r": "known"
+      },
+      {
+       "t": "US Tightens Iran Blockade with Curbs on Oil Transfers at Sea, Advisory Shows",
+       "u": "https://english.aawsat.com/node/5342866",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
        "l": "en",
-       "p": 1795006284,
+       "p": 1795020217,
        "r": "known"
-      },
-      {
-       "t": "Iran Escalates Attacks on Kuwait and Bahrain",
-       "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ2hyeGNxTUhhZFAyVGY0YWNfZGw2Xy0yQXZ6cHE5NzNxVGZ5d2Zxem8tbDgwcHcxU0ZxWGxyQTN3NzhtZzI1T19uTWEwWmo5cDZJTmR6aElIamZNRGstenlQbndZMEZPVm1qV0V0ZzlNZDB3N3lXajdFMVEyNTMyOUNHbnFpX3BlRXhXMmM0RDJFZzVESjdKY0VIWEJRWlk1SDJUanBVZnhKODZuUnZHRGFSYS1iSThKeWpuMS0yNzZJQmZJ?oc=5",
-       "s": "Wall Street Journal",
-       "c": "US",
-       "l": "en",
-       "p": 1795000320,
-       "r": "known"
-      },
-      {
-       "t": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
-       "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTa1F2RExCTGE2dGZ5eTN2YlZzRnNyQk5WUjAxT1lFNEg5NHd5c09VZTdTZmhvaXNsTW9GNzIwX3dqTDNDV19xazJtSFIxeHFzeFhCRXRZa3NRQm51eVE?oc=5",
-       "s": "BBC News",
-       "c": "GB",
-       "l": "en",
-       "p": 1795007088,
-       "r": "known"
-      },
-      {
-       "t": "Kuwait and Bahrain intercept Iranian drones. Region on the brink of escalation",
-       "o": "Kuwejt i Bahrajn przechwytują irańskie drony. Region na krawędzi eskalacji",
-       "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPczR5N0drMGM0SmtWdGJnZkYtdUxIZE03MElnWlNMenZTaXBDNkdCbFJhS2E1eGR6UnJLemIybUE1Rl9Zbm1tb2pUZktVeVJ5X21TZTU5aDBSOW5MRmQteVVXQ0xEejFtZWZWS2dIa0VLWjdQV1BkTGFmWVR1TkpKNDZOZHBkcm9RVGxCVzdOR3RiRTlTbDEtLVRCeXEzeUVMY3VxYjhVNS11NVU?oc=5",
-       "s": "Wiadomości Onet",
-       "c": "PL",
-       "l": "pl",
-       "p": 1795000617,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 4,
-     "countries": [
-      "CA",
-      "GB",
-      "PL",
-      "US"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Rubio says there is no imminent threat of an Iranian 'dirty bomb' attack on the US, after reports of such a plan. Trump has said a severe price would follow if the plan is true.",
-     "stories": [
-      "s3",
-      "s18"
-     ],
-     "sources": [
-      {
-       "t": "Iran plans \"dirty bomb\" in Washington? Rubio cools tensions: no imminent threat for now",
-       "o": "伊朗擬在華府引爆「髒彈」？魯比歐出面降溫：暫無迫切威脅",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5645429",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1795005687,
-       "r": "known"
-      },
-      {
-       "t": "Rubio says there is no imminent threat of an Iranian 'dirty bomb' attack on the US",
-       "o": "Rubio diz que não há ameaça iminente de ataque do Irã com 'bomba suja' nos EUA",
-       "u": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/rubio-diz-que-nao-ha-ameaca-iminente-de-ataque-do-ira-com-bomba-suja-nos-eua.shtml",
-       "s": "Folha Mundo",
-       "c": "BR",
-       "l": "pt",
-       "p": 1795001700,
-       "r": "known"
-      },
-      {
-       "t": "Iran attacks US military base in Kuwait... Trump: \"If the dirty bomb plan is true, a severe price",
-       "o": "이란, 쿠웨이트 미군기지 공격…트럼프 \"더티밤 계획 사실이면 혹독한 대가\"",
-       "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3MWJZR0gzdzY5a1VQMHZCeUpxdXExVVJEQWd1dFpaQTVmRG10cU5pdnR5eXEzLTlSYWtIc2tfbXkxa0lXMnd4by1MSWE3TU96RUhzZFY5T25FdU4z?oc=5",
-       "s": "뉴스핌",
-       "c": "KR",
-       "l": "ko",
-       "p": 1795001520,
-       "r": "unrated"
       }
      ],
      "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "BR",
-      "KR",
-      "TW"
+      "SA"
      ],
-     "regions": 2,
+     "regions": 1,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Israeli outlet Haaretz reports that US and Israeli military chiefs met as Israel pushes for new strikes on Iran. Israeli media also report that the US struck a missile launch site in Iran while diplomatic contacts continue. Both are reported only by Israeli media.",
+     "text": "Israeli spy chief reportedly lobbied for joint strikes on Iran during a US visit, according to sources cited by Al-Monitor and other outlets in five countries. The US intelligence director says threats from Iran have increased substantially.",
      "stories": [
-      "s25",
-      "s26"
+      "s1",
+      "s7"
      ],
      "sources": [
       {
-       "t": "U.S., Israeli military chiefs meet as Israel pushes for new Iran strikes",
-       "u": "https://news.google.com/rss/articles/CBMimgJBVV95cUxObTh6YmpJcmQwNnJXR2p6bzZFRDJGZl9iX2hJZWR6Sjc4X05Uc0dYR3J6VG9BRE9SVUpfQU1RMXZnUzR3SUN3dDdDb2huY29fZFc4X1VabGpYaFA0ZkZCWnpJYjR0ZldTdE5KdEhjUUloTHdPUS03VF9Xc3A2WXhGSER3bWdFREVzVGp5YUhsZExvdUdTMlM5bVZyMm9acG44akZwY25RUGdUZF8ybHljYnBlOUNoRTBlMDZfXzJVM2JLTnpGdWhNVW9FWHdwWnlNN0FoaUJGVlc3czhtVTVDVzJIYTlmcGdmUThrUTNFZWRBN1FfcTgzRHREcFAtZ3hSVEViYkxGTFhNRS1vTXRsckRwWVhWVDUyVGc?oc=5",
-       "s": "Haaretz",
-       "c": "IL",
+       "t": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say",
+       "u": "https://www.al-monitor.com/originals/2026/11/israeli-spy-chief-lobbied-joint-iran-strikes-us-visit-sources-say",
+       "s": "Al-Monitor",
+       "c": "US",
        "l": "en",
-       "p": 1795008420,
+       "p": 1795020400,
        "r": "known"
       },
       {
-       "t": "US struck missile launch site in Iran, diplomatic contacts continue",
-       "o": "ארה\"ב תקפה אתר שיגור טילים באיראן, המגעים המדיניים נמשכים",
-       "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ydkRZZUkxU3VWdVVsd3VURzExeUU2V1ktakVjTFRsSm5OTV8zdnpQVGlHcExrWW9kQkt1VkJvM0JQUU9jNkw4?oc=5",
-       "s": "אתר החדשות דבר",
-       "c": "IL",
-       "l": "he",
-       "p": 1795004340,
-       "r": "unrated"
+       "t": "Report: Israeli Spy Chief Lobbied for Joint Iran Strikes on US Visit",
+       "u": "https://english.aawsat.com/node/5342853",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
+       "l": "en",
+       "p": 1795019312,
+       "r": "known"
+      },
+      {
+       "t": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say",
+       "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXBXdjBFalZOaTd4TWk3YWxBTllKZkp4dm9DWHJnUFlzcHhqejdNMkRibmtLXzI3TXFnZENSbXAteTJlSnE2UjMydHE4RjNkMURidzhnRHNzaDdpc2RPYk5uZVN2MzVXZXRzRnlSOUVQRVk2VFc5S0dUTkdrRzJnc2xORjBfR2RlMmhHX3dodk9GaXdjaHgtRFRNZWJWV3dNVTBVMHFDSklabF9yZDNzSXlSb1BwMjhuVjdVVUdMYWdBc0k?oc=5",
+       "s": "L'Orient-Le Jour",
+       "c": "LB",
+       "l": "en",
+       "p": 1795016916,
+       "r": "known"
+      },
+      {
+       "t": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say",
+       "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkJqT2oyYk82bDFiWGJYTVlhX2hxNWs5NzFWY01GTUZVLV8zbWgycFhsTjhuOEcxUTF4Y1BiTWNxUWp4THZhdjBYVnMxd1lCY0d0YlpIWlltUV9JckxaMG5zSURFaW5VV1hGVnBzcm04TENiQWpjWFVwU211MW9qYTdwbERzX19CQkY4UVNseVFMSERmemJPTGY5bmRScXRmaUNEOGhhbm4yOHVGRmtZLXgyN1VBRnJvVngw?oc=5",
+       "s": "Reuters",
+       "c": "GB",
+       "l": "en",
+       "p": 1795016779,
+       "r": "known"
+      },
+      {
+       "t": "Threats from Iran Have Increased Substantially, US Intelligence Director Says",
+       "u": "https://english.aawsat.com/node/5342850",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
+       "l": "en",
+       "p": 1795019010,
+       "r": "known"
       }
      ],
-     "headlines": 2,
-     "outlets": 2,
+     "headlines": 7,
+     "outlets": 6,
      "independent": 2,
      "countries": [
-      "IL"
+      "GB",
+      "LB",
+      "SA",
+      "SG",
+      "US"
      ],
-     "regions": 1,
-     "party_only": true,
+     "regions": 5,
+     "party_only": false,
      "state": 0
     }
    ],
    "watch": [
-    "Whether Iran's army chief follows through on his warning of a 'more crushing' response if the US attacks again",
-    "Search and status of the missing sailor from the tanker strike, and any shipping changes in the Strait of Hormuz",
-    "Whether the diplomatic contacts reported by Israeli media lead to a pause, or whether the Israeli push for new strikes advances"
+    "Iranian response to the Qeshm strikes, including any further attacks on US bases in Kuwait or Bahrain",
+    "Shipping in the Strait of Hormuz and whether the tanker fire and US blockade curbs change traffic",
+    "Planned US CENTCOM chief visit to Israel for talks on the Iranian threat (Israeli media report)"
    ],
    "window_hours": 3,
-   "headlines_read": 44,
-   "outlets_read": 36,
-   "countries_read": 19,
-   "languages_read": 13,
+   "headlines_read": 38,
+   "outlets_read": 24,
+   "countries_read": 13,
+   "languages_read": 7,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T02:58:21Z",
    "ladder_note": "Re-checked after: US strikes on Iranian territory (Qeshm Island and a missile site) followed Iranian attacks on US radar and air defences in Bahrain and Kuwait, ending a reported two-month lull."
