@@ -1769,9 +1769,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Trump weighs new Iran strikes as Netanyahu presses; no new confirmed attacks",
+   "status": "Tankers hit near Hormuz, one crew member missing; Trump still weighing new strikes on Iran",
    "summary": "The US–Israel war with Iran centres on the Strait of Hormuz and US bases around the Gulf. On Nov 17 US jets struck what US military officials call an IRGC missile site on Qeshm Island, describing it as self-defence after Iranian attacks. Iranian media reported several blasts, and Iran's army says it captured a US drone south of the island. Iran's army says its drones then targeted Patriot batteries at Kuwait's Ali Al Salem base, and Kuwait and Bahrain say they intercepted missiles and drones. US Central Command says every drone aimed at a US radar in Bahrain was intercepted, the third attempt in five days; no independent source has confirmed damage or casualties.",
    "latest": [
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T07:38:32Z",
+     "text": "Ukrinform reports two tankers attacked in the Strait of Hormuz, with one crew member missing. Anadolu, citing a British agency, reports an oil tanker hit by an attack near the strait. Iran's army navy says three violating vessels caught fire after striking naval mines in the strait, a claim from Iranian media only.",
+     "outlet": "Ukrinform Ukrainian",
+     "country": "Ukraine",
+     "url": "https://www.ukrinform.ua/rubric-world/4186227-v-ormuzkij-protoci-atakuvali-dva-tankeri-odin-clen-ekipazu-znik-bezvisti.html",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": true
+    },
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T07:38:32Z",
+     "text": "TASS, citing AP, reports 15 hangars damaged at a US air base in Kuwait from Iranian strikes. This is a single report so far, carried by Russian state media, and it has not been confirmed by other sources.",
+     "outlet": "TASS",
+     "country": "Russia",
+     "url": "https://tass.ru/mezhdunarodnaya-panorama/28333773",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": true
+    },
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T07:38:32Z",
+     "text": "Reports from South Korea, Russia and Italy say Trump is considering new strikes on Iran, with Netanyahu reportedly pressing for a 4-7 day campaign. Hankyoreh reports two carriers on standby and B-1 and B-2 bombers readied, and no decision has been reported.",
+     "outlet": "Yonhap Korean",
+     "country": "South Korea",
+     "url": "https://www.yna.co.kr/view/AKR20261119122800009",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-19",
      "at": "2026-11-19T04:53:33Z",
@@ -1825,39 +1858,6 @@
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVXNNZGpHSU9BLXpFVEg1YjR0YW5paUN0dnVyMDZQeU5ka0M5V3hoX2lEbEtsU25DQ25GR2EtVjEtZ0JGRmw0SVpFN2VfbnVxYmYtUnhXRFIxS25zc2NpQVhxeXA5dnk4azQ4SkpxREtweHRMWDRzUTRWZW90STQta0Y4U1lpb1J2VFotM3lGYjFfSHgyY1VveW9MV2p6WmpoeGRweFMyc1doazh6bkc0?oc=5",
      "region": "south-asia",
      "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-19",
-     "at": "2026-11-19T02:05:47Z",
-     "text": "The US expanded its naval blockade and warned it may intercept ships receiving cargo from Iran.",
-     "outlet": "Infobae",
-     "country": "Argentina",
-     "url": "https://www.infobae.com/america/mundo/2026/11/18/estados-unidos-amplio-su-bloqueo-naval-y-advirtio-que-podra-interceptar-barcos-que-reciban-cargamentos-procedentes-de-iran/",
-     "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-18",
-     "at": "2026-11-18T23:21:12Z",
-     "text": "Iran reports explosions on three oil tankers near the Strait of Hormuz and blames mines. Many outlets across several regions carry Iran's account, but the items here do not include independent confirmation of the cause.",
-     "outlet": "Der Standard International",
-     "country": "Austria",
-     "url": "https://www.derstandard.at/story/3000000349932/iran-meldet-explosionen-an-drei-schiffen-bei-stra223e-von-hormuz?ref=rss",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-18",
-     "at": "2026-11-18T23:21:12Z",
-     "text": "Iran's own media say Tehran has widened attacks on Gulf nations after a latest US strike on an Iranian island, and that Iran is seizing on a NYT dam report to widen retaliation threats. These are claims from the sides' own media and are not independently confirmed here.",
-     "outlet": "The War Zone",
-     "country": "United States",
-     "url": "https://www.twz.com/news-features/tehran-widens-attacks-on-gulf-nations-after-latest-u-s-strike-on-iranian-island",
-     "region": "north-america",
-     "tag": "party-press",
      "state_media": false
     }
    ],
@@ -12787,11 +12787,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-16T08:40:40Z",
-     "headline": "Tankers hit mines in Hormuz; Iran cuts Strait reopening deadline to two days",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-16T11:24:59Z",
      "headline": "Hormuz tanker fires continue as a third US carrier reaches the Gulf region",
      "direction": "escalating"
@@ -12905,141 +12900,155 @@
      "at": "2026-11-19T04:53:33Z",
      "headline": "Trump weighs new Iran strikes as Netanyahu presses; no new confirmed attacks",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-19T07:38:32Z",
+     "headline": "Tankers hit near Hormuz, one crew member missing; Trump still weighing new strikes on Iran",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-19T04:53:33Z",
-   "next_at": "2026-11-19T07:53:33Z",
-   "headline": "Trump weighs new Iran strikes as Netanyahu presses; no new confirmed attacks",
-   "direction": "steady",
+   "updated_at": "2026-11-19T07:38:32Z",
+   "next_at": "2026-11-19T10:38:32Z",
+   "headline": "Tankers hit near Hormuz, one crew member missing; Trump still weighing new strikes on Iran",
+   "direction": "escalating",
    "points": [
     {
-     "text": "Several outlets in three countries report that Netanyahu is pressing Trump for a four-to-seven-day strike campaign on Iran, and that Trump is weighing a new wave of strikes. One Russian outlet attributes the same strike consideration to the New York Times.",
+     "text": "Ukrinform reports two tankers attacked in the Strait of Hormuz, with one crew member missing. Anadolu, citing a British agency, reports an oil tanker hit by an attack near the strait. Iran's army navy says three violating vessels caught fire after striking naval mines in the strait, a claim from Iranian media only.",
      "stories": [
-      "s1",
-      "s2",
-      "s13"
+      "s14",
+      "s12",
+      "s36"
      ],
      "sources": [
       {
-       "t": "Israel alarmed? Pushes Trump to join in striking Iran, launching a new wave of \"large-scale air strikes",
-       "o": "以色列急了？力促川普聯手打伊朗 發動新一波「大規模空襲」",
-       "u": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPZXVOcnJ4ZFlPM2h6YzhNM2hTMTlTXzk4YWJSemNGOGxGQnlyc1Z1T2ZTUWxjNU4xd1I0bEdkd2gzTVQyQ3pYUFBPTGJNNXZ6VGlnWTJ4Z3hFOGxMRGwxZS1zQ08wamwzS1VZWmtHLU9wb1dNb3pEMjJxdFNwRTRwZUwyWWlDV3Q4emV0TXNHRWh5MFNXUEZZdHp0ZjhUQkF2aDVVZTc2WXU0Y2swdlBUSGpKVVI1M0djb1FlcDZtbTdGYldrNkdXRGtRckJ4SDBsN1J0MkJqNGx0QV90cmVDZkNrWjU5RU9SMF91Tk5qb3lUQXA5U2Uycl90TEVvX3F6R3J0dTI3NjRKV2hsVFVMTkZZalJtbmJ5VUhiQVMxUHdRczVCdndwSzNvX0lHVFR5Y3FlTkw2Z25ObnRMS19NaGtoU0Z6YjdrS1JvbC1VZWpqSFo0YzZNS0lXOV8zUlVwVlJQQ256QjBrbUZI?oc=5",
-       "s": "Yahoo News",
-       "c": "US",
-       "l": "zh",
-       "p": 1795058092,
-       "r": "known"
+       "t": "Two tankers attacked in the Strait of Hormuz, one crew member missing",
+       "o": "В Ормузькій протоці атакували два танкери, один член екіпажу зник безвісти",
+       "u": "https://www.ukrinform.ua/rubric-world/4186227-v-ormuzkij-protoci-atakuvali-dva-tankeri-odin-clen-ekipazu-znik-bezvisti.html",
+       "s": "Ukrinform Ukrainian",
+       "c": "UA",
+       "l": "uk",
+       "p": 1795069728,
+       "r": "state"
       },
       {
-       "t": "Netanyahu presses Trump for four-to-seven-day Iran strike campaign - report",
-       "u": "https://www.jpost.com/international/article-915391",
-       "s": "Jerusalem Post",
-       "c": "IL",
+       "t": "British agency: oil tanker hit by attack near the Strait of Hormuz",
+       "o": "هيئة بريطانية: ناقلة نفط تتعرض لهجوم قرب مضيق هرمز",
+       "u": "https://news.google.com/rss/articles/CBMivANBVV95cUxNQzh2T3pxakQ2dWstaVFjYm5rYnlQcHV1VUppZ0dkTUx5bV9wTVJqRTRBdFNSblVkTFJhX29jRHNNNDVCa0tjSkxyblgxVV9JNVB5eENKSlYyNUdLejZUcnJaYkdYTzM1TUJTb2ZwNWVySE1ra01EYk1PM0Y2NWVkSzl6cFU2Nm1Fekdfa1VqV2V4cF9RMnJOTURmMXBKOGllZUxQamgtWVMwbkQ5c2c2dk9jdHlHdjUzSjRkSnlOWlpJbXVjVF9qSnVkVDI5ZzdiVDF0andRQzlmUEZOek01LVFUV0p1d05NQXByYTBxUzdNWWZuUjk0RGhFb1RSZGlUVGZwdXJ1V25WcXVlYnlqU1pHOV9MeGxlUE9yOUxlbUJnc3Z5YVJabi0zWXA1ZzZ6Z1ZHOVkwN3lvVWlVSWhwWFM1OFE3SjZrMTBZVVZUdHN1QU9EZ0dKWVZpWS1zR3pqaE9HMFlfMjg0dGtYdWFLMDB5YnJBSWhzQVI4NzFPa3VoZjNMQ2J6ejJSUzlMX2tla2xOOTF2NzBNNk95Y0VyeGY",
+       "s": "Anadolu Agency",
+       "c": "TR",
+       "l": "ar",
+       "p": 1795070237,
+       "r": "state"
+      },
+      {
+       "t": "Three violating vessels catch fire after striking naval mines in Strait of Hormuz: Iran’s Army Navy",
+       "u": "https://en.irna.ir/news/86326369/Three-violating-vessels-catch-fire-after-striking-naval-mines",
+       "s": "IRNA English",
+       "c": "IR",
        "l": "en",
-       "p": 1795056205,
+       "p": 1795065707,
+       "r": "state"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "IR",
+      "TR",
+      "UA"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 3
+    },
+    {
+     "text": "TASS, citing AP, reports 15 hangars damaged at a US air base in Kuwait from Iranian strikes. This is a single report so far, carried by Russian state media, and it has not been confirmed by other sources.",
+     "stories": [
+      "s8"
+     ],
+     "sources": [
+      {
+       "t": "AP: 15 hangars damaged at US air base in Kuwait due to Iranian strikes",
+       "o": "AP: на авиабазе США в Кувейте из-за иранских ударов повреждено 15 ангаров",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28333773",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795071857,
+       "r": "state"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "RU"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 1
+    },
+    {
+     "text": "Reports from South Korea, Russia and Italy say Trump is considering new strikes on Iran, with Netanyahu reportedly pressing for a 4-7 day campaign. Hankyoreh reports two carriers on standby and B-1 and B-2 bombers readied, and no decision has been reported.",
+     "stories": [
+      "s3",
+      "s10",
+      "s18",
+      "s24"
+     ],
+     "sources": [
+      {
+       "t": "Trump considers additional strikes on Iran amid pressure on Israel; no decision made yet",
+       "o": "트럼프, 이스라엘 압박 속 이란 추가공습 검토…결정은 안 내려",
+       "u": "https://www.yna.co.kr/view/AKR20261119122800009",
+       "s": "Yonhap Korean",
+       "c": "KR",
+       "l": "ko",
+       "p": 1795069606,
        "r": "known"
       },
       {
-       "t": "Trump weighs new wave of strikes on Iran as Netanyahu pressures the US",
-       "o": "ทรัมป์ชั่งน้ำหนักโจมตีอิหร่านระลอกใหม่ หลังเนทันยาฮูเร่งกดดันสหรัฐฯ",
-       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVSFRmNkpsQlA2emkwVUh1TE40ZUstUXVySzNTUUhYUFpyb1laUERXbi1ldHU0SnllZ2N3QlZJWGpxNnlZSnUwRnE5UWF4Z0NmZHlJNFdjUFZqdw?oc=5",
-       "s": "ฮั่วเซ่งเฮง",
-       "c": "TH",
-       "l": "th",
-       "p": 1795056240,
+       "t": "NYT: Trump considering new strikes on Iran",
+       "o": "NYT: Трамп задумался над новыми ударами по Ирану",
+       "u": "https://www.kommersant.ru/doc/9113258",
+       "s": "Kommersant",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795068738,
+       "r": "known"
+      },
+      {
+       "t": "Gaza, Israeli operation in the center of the Strip. China-Russia bilateral, no to Iranian nuclear weapons – NYT: \"Netanyahu pressing Trump for a 4-7 day campaign against Tehran",
+       "o": "Gaza, operazione israeliana nel centro della Striscia. Bilaterale Cina-Russia, no al nucleare Iran - Nyt: \"Netanyahu preme su Trump per campagna di 4-7 giorni contro Teheran\"",
+       "u": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxPdm1XYXdWMUM3OFhIS3FYdkJwN1FDazFpekM1aVdXbjZzTWxicVEzUFdOckVFZzUtd1gyaTJrdVVjNWQ4MEN4VU9TeGp2WjBRVG1OY25ISjdXZ2hiUkFUUkRVc1A0VXJDYVdnc3pjX0hTRllydzJYSWZwU3ZOSVBDTllSbVlBMDRzaV9uc3R0d3NLbEVKTXlUVFZnbFNBdHVWaWhveGl6N0RIaHZIX2l6anVOTDZ1cmEyRmJLOUhLVEV4blpIQWFjbENwNURCRDhaVXJSNTFVR0dQQWtnT2xRMU1hRExPR3lNREo5M1Q3Q3psZXdtR0J2ellsMmxnWTJ4cjRuZ282NXR4am13TlVMYXNMdGI3UW5NS0hFYW5pcHBmYjNibkljYmtVbUVKTU10ZVIzRTQwSjhjektGTTRUTlQyRk5vS1MxbkNYY25qeTYxQmlDQmM4S19TQkdEd0pXVVJPQXNKRnVWOXlGMWtXMHRISVF6aTBDR2w2WFBMQmhfdGVJYTlUTHhmaXpvLU5FaEFtMEVjMDd0b1pHTUZ0Vk5",
+       "s": "RaiNews",
+       "c": "IT",
+       "l": "it",
+       "p": 1795070339,
        "r": "unrated"
       },
       {
-       "t": "Trump Says Iran Looking at Gas, Bioweapons But Downplays Threat",
-       "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNENfYnNDRjVaNEkzT3h5NUpwdHZPNGF0aVhpXy0tYURiaURpSURxSGN4anlFNTJTR2hlTnVSUGptTk1RSzNFenlEdmwxSnQyTG5TWmNNWW96ZndhaHNDYk9TRUVWUEw1VlBQVnEtS3VvZEdGRDZXVmlyajR3LXMzRnZkMVZ5bFhPelB6RC11NEVTc0ZQMXltRkpaSGFjekhPTFNWeHdnZHJCQUUwVlpGaERCNA?oc=5",
-       "s": "Bloomberg",
-       "c": "US",
-       "l": "en",
-       "p": 1795054020,
-       "r": "known"
+       "t": "Iran-US war, live news from the Middle East | NYT: \"Netanyahu presses Trump for a brief military campaign against Tehran.\" UN: Palestinians must be able to return home",
+       "o": "Guerra Iran-Usa, le notizie in diretta dal Medio Oriente | Il Nyt: «Netanyahu preme su Trump per una breve campagna militare contro Teheran». Onu: i palestinesi devono poter tornare a casa",
+       "u": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNb0liRm9LUGxUWlBvNlRuYXhxdG1aTnBzZGtWREZFbXJNV1dIMDd3Ykxud24tV1VRb2pON0tZZWVjdzFSWWVSdmtuUk9yUWQwOTlPeWpZLWhtMmRGamxPUEdUcEFNdEJRS1hhV2oyeEdxN3NKTmYzT2FhZUg3T0xWLWtUS3lUX3NraUpuQUhPTHphSDJZcGppQUtwWmZrcWo4QjQxbmdwdUVROW5rSHRONWN3T1lCRTFZY2k1V2d4Ny1EWjJuWTA5LWtDb19za3JLLXZFa1c3dllvUmFvQURZZm5DYjZibWkwVkNibXo1blQtMDd4WlNoN1N5Q3FweDdGREFFTzA2X0JqRVl1d2ZiWVFqNXdCekY4VG5qOENKZ9IBpAJBVV95cUxQQnMxTzhpaTdDSGd3YThsU2Q1dlc4anFzRkl5WEhyT3I2WGFZNWlsNzFfdnJYenVfLUZCZVlZNDYwQkpwLVJQRnh3OUF5RXdhWUllRDRESl9Zb1lqbVhtVG82S1J0TUVvV1hfLWI2aDBsR0ZVVFp5V2tEWlNzZU9",
+       "s": "Corriere della Sera",
+       "c": "IT",
+       "l": "it",
+       "p": 1795068082,
+       "r": "unrated"
       },
       {
-       "t": "Trump admits to ‘indications’ of Iran looking at using gas and bio weapons against the US; weighs new wave of strikes",
-       "u": "https://www.hindustantimes.com/world-news/us-news/donald-trump-admits-to-indications-of-iran-looking-at-using-gas-and-bio-weapons-against-the-us-weighs-new-wave-of-strikes-101795051670506.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
+       "t": "Trump considers new large-scale strikes on Iran again; two carriers on standby, B-1 and B-2 readied to deploy",
+       "u": "https://www.hani.co.kr/arti/international/international_general/1288117.html",
+       "s": "Hankyoreh English",
+       "c": "KR",
        "l": "en",
-       "p": 1795053391,
-       "r": "known"
-      }
-     ],
-     "headlines": 8,
-     "outlets": 7,
-     "independent": 7,
-     "countries": [
-      "IL",
-      "IN",
-      "RU",
-      "TH",
-      "US"
-     ],
-     "regions": 5,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Trump says Iran is looking at gas and biological weapons but downplays the threat, and says Iran would be eliminated if it attacks. A Taiwanese outlet reports Iran plans a dirty bomb attack in Washington; Iran casts such reports as a pretext for renewed war, according to a UK outlet.",
-     "stories": [
-      "s2",
-      "s24",
-      "s20",
-      "s5"
-     ],
-     "sources": [
-      {
-       "t": "Trump Says Iran Looking at Gas, Bioweapons But Downplays Threat",
-       "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNENfYnNDRjVaNEkzT3h5NUpwdHZPNGF0aVhpXy0tYURiaURpSURxSGN4anlFNTJTR2hlTnVSUGptTk1RSzNFenlEdmwxSnQyTG5TWmNNWW96ZndhaHNDYk9TRUVWUEw1VlBQVnEtS3VvZEdGRDZXVmlyajR3LXMzRnZkMVZ5bFhPelB6RC11NEVTc0ZQMXltRkpaSGFjekhPTFNWeHdnZHJCQUUwVlpGaERCNA?oc=5",
-       "s": "Bloomberg",
-       "c": "US",
-       "l": "en",
-       "p": 1795054020,
-       "r": "known"
-      },
-      {
-       "t": "Trump admits to ‘indications’ of Iran looking at using gas and bio weapons against the US; weighs new wave of strikes",
-       "u": "https://www.hindustantimes.com/world-news/us-news/donald-trump-admits-to-indications-of-iran-looking-at-using-gas-and-bio-weapons-against-the-us-weighs-new-wave-of-strikes-101795051670506.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1795053391,
-       "r": "known"
-      },
-      {
-       "t": "Trump: Iran is considering using biological weapons... and we will eliminate them if they attack | CNN Arabic | CNN",
-       "o": "ترامب: إيران تدرس استخدام أسلحة بيولوجية.. وسنقضي عليهم لو شنوا هجوماً | CNN Arabic | CNN",
-       "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbzJKajE0MngtOXhWQlBqNjFoX0lNcXQwTF9KdnpJaHA3M3JUakk0TU9tYm9PNU1fRzI3UURkS3hoOGJDTGdfd2N2QkhEUkJtd1d2ejc2cnlMeXZUUi14RzItZ3VSNkNVT3g5emlISEtENVZJbWdxVjBUQnBPc2puZjRGUmVRbHQweVQ4YUVSSkFHRlpobUVtLVJjdDkwaHotS2M5Y0dFeHlXcC0zU0hZT2liZmdKclNvajMzT2Z5TlE?oc=5",
-       "s": "CNN",
-       "c": "US",
-       "l": "ar",
-       "p": 1795055555,
-       "r": "known"
-      },
-      {
-       "t": "Reports Iran plans to detonate dirty bomb in Washington; Trump says it will be annihilated if attacked",
-       "o": "傳伊朗擬在華府引爆髒彈 川普稱若遭攻擊將予以殲滅",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5645837",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1795054947,
-       "r": "known"
-      },
-      {
-       "t": "Iran casts reports on ‘dual-use’ dams, ‘dirty bomb’ as pretext for renewed war",
-       "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaTRNak4yTGpyYWFTSW9ZQmszTEdjZnFWWmhmbFpuT1FyUDNwMnQtV2lZUUsxeDRjUExNNzdxSGV0b2g5Yl9sNzNVWEowSWtqYm1oeVpPcXpyWVpvMzZtMGZCMTVERFFGbVREYm5qOUluckVJNkpLcktkSW95djBnbzVnSjllYTd1NzBESXpiRDg3NkJORXFnWUJwS2JWcjM4bGduRmlrbVBXTGxZbk1n?oc=5",
-       "s": "Amwaj.media",
-       "c": "GB",
-       "l": "en",
-       "p": 1795061482,
+       "p": 1795066238,
        "r": "known"
       }
      ],
@@ -13047,135 +13056,86 @@
      "outlets": 5,
      "independent": 5,
      "countries": [
-      "GB",
-      "IN",
-      "TW",
-      "US"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "The Revolutionary Guards say three tankers hit mines east of the Strait of Hormuz, according to a Russian outlet. A UAE outlet separately reports a tanker hit in Hormuz and Iranian strikes on Kuwait and Bahrain. Only these sources are reported so far, and no independent confirmation of the cause has been found.",
-     "stories": [
-      "s4",
-      "s3"
-     ],
-     "sources": [
-      {
-       "t": "IRGC reports three tankers hit mines east of the Strait of Hormuz",
-       "o": "КСИР сообщил о подрыве трех танкеров на минах к востоку от Ормузского пролива",
-       "u": "https://www.kommersant.ru/doc/9113167",
-       "s": "Kommersant",
-       "c": "RU",
-       "l": "ru",
-       "p": 1795061519,
-       "r": "known"
-      },
-      {
-       "t": "Middle East war: Houthi missile intercepted over Saudi Arabia, tanker hit in Hormuz, Iran strikes Kuwait and Bahrain as Trump demands ‘lasting’ deal",
-       "u": "https://gulfnews.com/world/mena/middle-east-war-houthi-missile-intercepted-over-saudi-arabia-tanker-hit-in-hormuz-iran-strikes-kuwait-and-bahrain-as-trump-demands-lasting-deal-1.500752996",
-       "s": "Gulf News",
-       "c": "AE",
-       "l": "en",
-       "p": 1795062427,
-       "r": "known"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "AE",
+      "IT",
+      "KR",
       "RU"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Trump says he wants a 'lasting' deal and that the conflict will end 'one way or the other,' and says the US does not need China or Russia to end it. Tehran rejects the IAEA director's arguments about double standards, and a US deputy president says the war will not become a two-year conflict.",
-     "stories": [
-      "s11",
-      "s3",
-      "s17",
-      "s18",
-      "s8"
-     ],
-     "sources": [
-      {
-       "t": "Iran war at crossroads: Trump demands 'lasting' deal, warns conflict will end 'one way or the other'",
-       "u": "https://gulfnews.com/world/mena/iran-war-at-crossroads-trump-demands-lasting-deal-warns-conflict-will-end-one-way-or-the-other-1.500752968",
-       "s": "Gulf News",
-       "c": "AE",
-       "l": "en",
-       "p": 1795060305,
-       "r": "known"
-      },
-      {
-       "t": "Middle East war: Houthi missile intercepted over Saudi Arabia, tanker hit in Hormuz, Iran strikes Kuwait and Bahrain as Trump demands ‘lasting’ deal",
-       "u": "https://gulfnews.com/world/mena/middle-east-war-houthi-missile-intercepted-over-saudi-arabia-tanker-hit-in-hormuz-iran-strikes-kuwait-and-bahrain-as-trump-demands-lasting-deal-1.500752996",
-       "s": "Gulf News",
-       "c": "AE",
-       "l": "en",
-       "p": 1795062427,
-       "r": "known"
-      },
-      {
-       "t": "Trump says the US does not need help from China or Russia to end the conflict with Iran",
-       "o": "Trump dice que EEUU no necesita ayuda de China o Rusia para cerrar el conflicto con Irán",
-       "u": "https://www.infobae.com/america/agencias/2026/11/19/trump-dice-que-eeuu-no-necesita-ayuda-de-china-o-rusia-para-cerrar-el-conflicto-con-iran/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1795056353,
-       "r": "known"
-      },
-      {
-       "t": "Tehran rejects the IAEA director's arguments, defending that it does not apply double standards to Israel and Iran",
-       "o": "Teherán rechaza los argumentos del director del OIEA al defender que no incurre en doble rasero con Israel e Irán",
-       "u": "https://www.infobae.com/america/agencias/2026/11/19/teheran-rechaza-los-argumentos-del-director-del-oiea-al-defender-que-no-incurre-en-doble-rasero-con-israel-e-iran/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1795056336,
-       "r": "known"
-      },
-      {
-       "t": "US Deputy President: The US will not allow the Iran war to turn into a two-year-long conflict",
-       "o": "Trump, Xi iyo Putin oo la filayo inay kulan taariikhi ah yeeshaan, inta uu socdo shirka APEC",
-       "u": "https://www.bbc.co.uk/somali/live/cxvg264349z4t?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Somali",
-       "c": "GB",
-       "l": "so",
-       "p": 1795060656,
-       "r": "known"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "AE",
-      "AR",
-      "GB"
      ],
      "regions": 3,
      "party_only": false,
      "state": 0
+    },
+    {
+     "text": "At the Trump-Xi-Putin meeting, Trump says the US does not need China or Russia to end the war, and he ruled out a preliminary deal in favour of a lasting pact. Yonhap quotes him saying he and Xi agree on Hormuz shipping and on Iran not getting nuclear weapons.",
+     "stories": [
+      "s4",
+      "s20",
+      "s11"
+     ],
+     "sources": [
+      {
+       "t": "Trump says US does not 'need any help' from China, Russia to end war on Iran",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-does-not-need-any-help-china-russia-end-war-iran",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1795068937,
+       "r": "known"
+      },
+      {
+       "t": "Trump says they will not ask China or Russia for help in ending the Iran war:",
+       "o": "Trump, İran savaşının bitirilmesi için Çin ya da Rusya'dan yardım istemeyeceklerini söyledi:",
+       "u": "https://www.trthaber.com/haber/dunya/trump-iran-savasinin-bitirilmesi-icin-cin-ya-da-rusyadan-yardim-istemeyeceklerini-soyledi-963761.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1795066620,
+       "r": "known"
+      },
+      {
+       "t": "Trump ruled out a preliminary agreement with Iran and said he will seek a lasting pact to end the war in the Middle East",
+       "o": "Trump descartó un acuerdo preliminar con Irán y aseguró que buscará un pacto duradero para poner fin a la guerra en Medio Oriente",
+       "u": "https://www.infobae.com/america/mundo/2026/11/19/trump-descarto-un-acuerdo-preliminar-con-iran-y-aseguro-que-buscara-un-pacto-duradero-para-poner-fin-a-la-guerra-en-medio-oriente/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1795067964,
+       "r": "known"
+      },
+      {
+       "t": "Trump: \"Xi Jinping and I agree on Hormuz energy shipping and on Iran not being allowed nuclear weapons\" (comprehensive)",
+       "o": "트럼프 \"시진핑과 호르무즈 에너지 수송·이란 핵불허 공감대\"(종합)",
+       "u": "https://www.yna.co.kr/view/AKR20261119116151071",
+       "s": "Yonhap Korean",
+       "c": "KR",
+       "l": "ko",
+       "p": 1795070290,
+       "r": "known"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 4,
+     "countries": [
+      "AR",
+      "GB",
+      "KR",
+      "TR"
+     ],
+     "regions": 4,
+     "party_only": false,
+     "state": 1
     }
    ],
    "watch": [
-    "Whether Trump decides on the new strike wave Netanyahu is pressing for",
-    "Confirmation or denial of the Hormuz mine strikes on tankers",
-    "Outcome of the US-China-Russia summit and whether Iran is on its agenda"
+    "Whether independent sources confirm the tanker attacks, the missing crew member, and the cause of the fire",
+    "Whether US or Israeli officials confirm a decision on new strikes on Iran",
+    "Whether the Kuwait base damage is confirmed by sources beyond TASS and AP"
    ],
    "window_hours": 3,
-   "headlines_read": 29,
-   "outlets_read": 22,
-   "countries_read": 15,
-   "languages_read": 10,
+   "headlines_read": 47,
+   "outlets_read": 34,
+   "countries_read": 21,
+   "languages_read": 12,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T23:21:12Z",
    "ladder_note": "Re-checked after: Explosions on three tankers in the Strait of Hormuz are reported by many independent outlets, though the cause and attribution are Iran's account and unconfirmed."
