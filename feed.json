@@ -1778,9 +1778,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Iran says mines hit two supertankers in Hormuz; Trump weighs renewed strikes, no decision",
+   "status": "Hormuz tanker attacks reported near daily; US, Israel weigh renewed strikes; no decision",
    "summary": "The US and Israel have fought Iran for nearly nine months, and shipping through the Strait of Hormuz remains limited. A US defense official says US jets struck an Iranian missile site on Qeshm Island in self-defence. Iran then fired at a US air base in Kuwait and at Bahrain; both Gulf states say they intercepted the attacks, with no damage reported. An Emirati vessel was attacked near Hormuz, with 11 crew reported injured and one missing, and Iran's Revolutionary Guards say more tankers hit mines, which UKMTO and CENTCOM have not confirmed. In Shenzhen, Trump says he and Xi agree that Hormuz should be open.",
    "latest": [
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T16:34:05Z",
+     "text": "Yonhap reports Iran has intensified attacks on tankers in the Strait of Hormuz, about one a day, even as oil prices fall. Gulf News reports a search continues for a Jordanian sailor missing after a UAE oil tanker was attacked there.",
+     "outlet": "Yonhap Korean",
+     "country": "South Korea",
+     "url": "https://www.yna.co.kr/view/AKR20261119184700079",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T16:34:05Z",
+     "text": "The Times of India reports the US has warned Americans in the Middle East of potential attacks and flight disruptions amid rising Iran-Houthi tensions.",
+     "outlet": "Times of India",
+     "country": "India",
+     "url": "https://timesofindia.indiatimes.com/world/us/us-warns-americans-in-middle-east-of-potential-attacks-flight-disruptions-amid-rising-iran-houthi-tensions/articleshow/135995907.cms",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T16:34:05Z",
+     "text": "Reuters, the Jerusalem Post and Al Arabiya report the US and European countries urged Iran at an IAEA meeting to let inspections resume at bombed nuclear sites. Iran's side blames US and Israeli attacks for the halt, per TRT Haber.",
+     "outlet": "Reuters",
+     "country": "United Kingdom",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX1BENXJsTm9KVlRxVjk0SENfVmszM1ZXVFpjQzJZcVRneVFiR210MTNseE0yUlJqWmRObE9ndjlKQkZUVFJqd0Joc3hFLWNhcW5KQ0ZKZWdBWDZ5Q1BCNWFQcDdBN1N5MDllSGNNYjdOUG1IaG5BNjB2S3hPMHRTSGpDM2phXzkzSUF6TkJtMktQRWpodkdiRVVSM0FJZ0lDOVRLZk5Dby1SdXV1elBEaW5GM0k?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-19",
      "at": "2026-11-19T13:08:24Z",
@@ -1832,36 +1865,6 @@
      "url": "https://www.foxnews.com/live-news/trump-to-meet-xi-in-shenzhen-ahead-of-high-stakes-trilateral-talks-with-putin",
      "region": "north-america",
      "tag": "party-gov",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-19",
-     "text": "The New York Times reports Trump is considering resuming attacks on Iran in 4 to 7 days under Israeli pressure. Other outlets carry the same report, and no decision has been announced.",
-     "outlet": "Infobae",
-     "country": "Argentina",
-     "url": "https://www.infobae.com/america/agencias/2026/11/19/trump-valora-volver-a-atacar-iran-de-4-a-7-dias-tras-presiones-de-israel-segun-el-nyt/",
-     "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-19",
-     "text": "Trump says he would 'absolutely' pursue war on Iran again, and calls Vance's Iran ceasefire memorandum a 'waste of time'. Both remarks come from Trump's own statements as reported by outlets.",
-     "outlet": "Middle East Eye",
-     "country": "United Kingdom",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-he-would-absolutely-pursue-war-iran-again",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-19",
-     "text": "Sky TG24 reports an oil tanker hit by an unidentified projectile in Hormuz, a single-source report. Bloomberg, cited by TASS, says LNG shipments through the strait have fallen to a minimum. Oil prices rebounded on fears of renewed fighting.",
-     "outlet": "Sky TG24",
-     "country": "Italy",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE81ekFtQW55SkM1SnBaRlU2MTBCTnFvekhNVXpfZXJrTi1IZUdNTHdoN2JhM0tpTjNmRkdCUTJvWEs3LVk0TzRRZmQyVElhSnRwQUc2MDJCSVJCRjlkclV2VVY5TUszRkFHN1hrclJBVUpBSk1nSUFqZzNKbw?oc=5",
-     "region": "europe",
-     "tag": "non-party",
      "state_media": false
     }
    ],
@@ -12843,11 +12846,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-16T17:31:39Z",
-     "headline": "Trump raises Iran at Shenzhen summit; Hormuz drone and mine reports unconfirmed",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-16T20:54:38Z",
      "headline": "Iran says it downed a US drone over Hormuz; mine-hit and carrier reports unconfirmed",
      "direction": "escalating"
@@ -12961,309 +12959,204 @@
      "at": "2026-11-19T13:08:24Z",
      "headline": "Iran says mines hit two supertankers in Hormuz; Trump weighs renewed strikes, no decision",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-19T16:34:05Z",
+     "headline": "Hormuz tanker attacks reported near daily; US, Israel weigh renewed strikes; no decision",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-19T13:08:24Z",
-   "next_at": "2026-11-19T16:08:24Z",
-   "headline": "Iran says mines hit two supertankers in Hormuz; Trump weighs renewed strikes, no decision",
+   "updated_at": "2026-11-19T16:34:05Z",
+   "next_at": "2026-11-19T19:34:05Z",
+   "headline": "Hormuz tanker attacks reported near daily; US, Israel weigh renewed strikes; no decision",
    "direction": "escalating",
    "points": [
     {
-     "text": "Iran's IRGC Navy says two supertankers hit naval mines in the Strait of Hormuz and caught fire; one claim puts their cargo above 4 million barrels of crude. Turkish and Russian outlets carry the same account, but these stories give no independent confirmation of the hits.",
+     "text": "Yonhap reports Iran has intensified attacks on tankers in the Strait of Hormuz, about one a day, even as oil prices fall. Gulf News reports a search continues for a Jordanian sailor missing after a UAE oil tanker was attacked there.",
      "stories": [
-      "s1",
-      "s30",
-      "s12"
-     ],
-     "sources": [
-      {
-       "t": "Iran: Two supertankers catch fire after hitting mines in Strait of Hormuz",
-       "o": "İran: Hürmüz Boğazı'nda iki süper tanker mayına çarparak alev aldı",
-       "u": "https://www.trthaber.com/haber/dunya/iran-hurmuz-bogazinda-iki-super-tanker-mayina-carparak-alev-aldi-963821.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1795086780,
-       "r": "known"
-      },
-      {
-       "t": "Two oil supertankers hit mines in the Strait of Hormuz",
-       "o": "В Ормузском проливе два нефтяных супертанкера подорвались на мине",
-       "u": "https://ria.ru/20261119/iran-2132693915.html",
-       "s": "RIA Novosti",
-       "c": "RU",
-       "l": "ru",
-       "p": 1795088679,
-       "r": "state"
-      },
-      {
-       "t": "Two more violating supertankers catch fire in Strait of Hormuz: IRGC Navy",
-       "u": "https://en.irna.ir/news/86326732/Two-more-violating-supertankers-catch-fire-in-Strait-of-Hormuz",
-       "s": "IRNA English",
-       "c": "IR",
-       "l": "en",
-       "p": 1795086386,
-       "r": "state"
-      },
-      {
-       "t": "Iran: more oil tankers damaged by mines in Strait of Hormuz",
-       "o": "איראן: מכליות נפט נוספות נפגעו ממוקשים במצר הורמוז",
-       "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5hSHBaSTZYazZrSUV1a1JIdVhVVDU4YlZweDNfTklLZDBGNGNQQU5XNW1pMDR6RmtpODFHTlpsdkV2eEVCQTk5dGJnOA?oc=5",
-       "s": "JDN",
-       "c": "IL",
-       "l": "he",
-       "p": 1795085421,
-       "r": "unrated"
-      },
-      {
-       "t": "IRGC Navy claims two supertankers carrying over 4mln barrels of crude oil struck a naval mine and exploded while attempting to transit a restricted route in the Strait of Hormuz",
-       "u": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNLTVnX29NQkx6T1dFTVowWlFlN1ppeTh4bGx2NzV4QWJ3WGxyXzRzV2lEei1kSjBnWHlVS2dhaThPakluOERRTkRhVnEzS3Z3VlNPUDlaTGJZYnB2R0lFMHBIaGxWVzVMeXJMWFYzb0dZXzJzMDJiQjg3NVJwdEhZbjZYT0JHUmNYQzdRZ2pYVWZOc3RfV3JqMlVpcnNrZHlWc3JpV2Q1REVqVlVHck5oN2I0dWp0RTVRRWp4TjRvWVlqRGQxeTktcFdnZXBOa25yUDFIQWljRlIxWkdwN0VsNkFLaGpzZmVVMGU1dm9LMlJUMGx0SFJ0S19POEVrZ3VfaldjZW4zbVlNbTJTc2JyN2MtQXU3MkhMODZyam41bnBSR1pMZUs1eW1XZC1EZVpwZ1RWQUY0REo?oc=5",
-       "s": "Newsquawk",
-       "c": "US",
-       "l": "en",
-       "p": 1795083295,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 10,
-     "outlets": 10,
-     "independent": 10,
-     "countries": [
-      "CH",
-      "IL",
-      "IR",
-      "RU",
-      "TR",
-      "US"
-     ],
-     "regions": 5,
-     "party_only": false,
-     "state": 5
-    },
-    {
-     "text": "The New York Times reports Trump is weighing renewed strikes on Iran, with Netanyahu pressing for a campaign of 4 to 7 days. No decision has been announced. Israel's Netanyahu is quoted as saying military action against Iran is inevitable and only the timing remains.",
-     "stories": [
-      "s16",
-      "s18",
-      "s15",
-      "s4",
-      "s10",
-      "s9",
+      "s13",
       "s6"
      ],
      "sources": [
       {
-       "t": "Netanyahu presses US to join Israel in '4-7 day' campaign of airstrikes on Iran: NYT",
-       "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVnRHNzI4dnZGNERJaHIzOEhFdWZqNlBOUVJJZUx5V0FzQ1UxZ0M3R1lERWEyNkNRQmxwdnN6RlpCSERkRWxONG1LZFktbVROZnQ4bGIwYUI4MU1xQnRIa0UtSVN1SUxhMVFXRU10WHphV19iZExmTHg3QUE0TDQyWlFBQy1tMGNuMGVFWTdDQUhpOVJqWkY3WmVLSlZpUVpBY1pjcGdhbVdXZ0otMVdRczExUTZmQlJIZ2RMdFVUVGUzdHJ1LXl6UjBHWEFKMlE?oc=5",
-       "s": "L'Orient-Le Jour",
-       "c": "LB",
-       "l": "en",
-       "p": 1795087134,
-       "r": "known"
-      },
-      {
-       "t": "New York Times: Netanyahu is pushing Trump to launch attacks on Iran lasting no more than a week",
-       "o": "نيويورك تايمز: نتنياهو يدفع ترمب لشن هجمات على إيران لا تتجاوز أسبوعا",
-       "u": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPNE9idWpEdTRidlBfd0JBSGlhWDJZbnQ2V19WWEZzN3JrX3pidXFrNGNyNTR1eWs1X3JSb2wyUFhRT01FV19Lc2NuVWViTVNwRk1LLWhvN20zdkdPeGxVRm01Yk9heXBaV3hsa3hPLUxWYl8zQThKdGNPdm53VXlORnh3d3VTYWdOTE9NVS01b2JCNWRucXJVNnN6RTBOdHk4QlBfRjBtVUxtbVFRXzd6cFFENnljWkhoV0lCdG5UVDAxZktnLXcxc1FFU3MwZUFQVWZFNEdYOW9HYTFyUktLUDUtbDFsbVZIYmNQWEwwRGdKWFNsaWNaOW9QZWhfTzRxWTN6RTVIRXlBRkptV0IwQjB4Z1UzREVNbl9rXzZ5WWJzZnlHcUYxS0FtbjFnOVRKQXJ1VVdqRjVmTjgtVTNTd1lXNHEzdEZsVmtB?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "ar",
-       "p": 1795085815,
-       "r": "known"
-      },
-      {
-       "t": "Trump considering another round of mass strikes on Iran as tensions escalate: Report",
-       "u": "https://www.hindustantimes.com/world-news/trump-considering-another-round-of-mass-strikes-on-iran-as-tensions-escalate-101795087599276.html",
-       "s": "Hindustan Times World",
-       "c": "IN",
-       "l": "en",
-       "p": 1795087737,
-       "r": "known"
-      },
-      {
-       "t": "Trump considering renewed attack on Iran; Israel speaks of chemical weapons threat",
-       "o": "ترامپ در حال بررسی حمله دوباره به ایران؛ اسرائیل از تهدید تسلیحات شیمیایی می‌گوید",
-       "u": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261119-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%AF%D8%B1-%D8%AD%D8%A7%D9%84-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AD%D9%85%D9%84%D9%87-%D8%AF%D9%88%D8%A8%D8%A7%D8%B1%D9%87-%D8%A8%D9%87-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%9B-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%DB%8C%D9%84-%D8%A7%D8%B2-%D8%AA%D9%87%D8%AF%DB%8C%D8%AF-%D8%AA%D8%B3%D9%84%DB%8C%D8%AD%D8%A7%D8%AA-%D8%B4%DB%8C%D9%85%DB%8C%D8%A7%DB%8C%DB%8C-%D9%85%DB%8C-%DA%AF%D9%88%DB%8C%D8%AF",
-       "s": "RFI Persian",
-       "c": "FR",
-       "l": "fa",
-       "p": 1795087537,
-       "r": "known"
-      },
-      {
-       "t": "Donald J. Trump says Iran considering chemical and biological weapons, but plays down threat",
-       "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSlk2enc0NkpRVlFCUXNnWGstbFlCcUttcWI4eWpnWmlYWi1Ed2xzZlhjS21JdFhrNUM5Z2ZOTGo3SktDX09xVllCWDV1NXFsTThoaDhuSHFQZk9SMk91NThKU3ZLNUJUTmVmaXByYUEtWm9uQzVVRWZIWlIzbzdURjRGTkhUWWJaX1Q5WHBNUDRuLV9iWGhXaV9XS0tnNzFreUlzSWNxVzZfal9YdXZ1dmFPTlhVMFlVNWpHc1Z4cXdGa0dh?oc=5",
-       "s": "联合早报",
-       "c": "SG",
-       "l": "en",
-       "p": 1795083595,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 9,
-     "outlets": 8,
-     "independent": 8,
-     "countries": [
-      "AE",
-      "FR",
-      "IN",
-      "KR",
-      "LB",
-      "QA",
-      "SG",
-      "TW"
-     ],
-     "regions": 6,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Trump says the US would 'see what happens' in the conflict after January 1, calls the Vance-brokered memorandum with Iran 'a waste of time', and warns of a 'dirty' Iranian attack, promising a crushing response.",
-     "stories": [
-      "s2",
-      "s19",
-      "s7"
-     ],
-     "sources": [
-      {
-       "t": "Trump says US will 'see what happens' in conflict with Iran after January 1",
-       "u": "https://www.al-monitor.com/originals/2026/11/trump-says-us-will-see-what-happens-conflict-iran-after-january-1",
-       "s": "Al-Monitor",
-       "c": "US",
-       "l": "en",
-       "p": 1795092397,
-       "r": "known"
-      },
-      {
-       "t": "U.S. will ‘see what happens’ in conflict with Iran after Jan. 1, Trump says",
-       "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaHo5WmoxNXlUbUJxT2FmQW9JbUVyeTdEdngyUWR6OEhCa0k0bTZWVTJGTUxBbndoSUFrZWwtX0FLRWktdDQ2eWZNeklMZ3EwUDJBZjBNX0hWakJKdUN3al9oT1NCblI5aW9oRzNOLWNXMVRXRlFGS0tBeFlVWGxOZHptTUdlZHkyVWctcVg5T2VSNzhjUlFJ?oc=5",
-       "s": "Globe and Mail",
-       "c": "CA",
-       "l": "en",
-       "p": 1795091766,
-       "r": "known"
-      },
-      {
-       "t": "Trump says US will ‘see what happens’ in conflict with Iran after January 1",
-       "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSGNnN0J1VmlodUlLY1p5bDlnMkpkVWJLdjgtOE9aek81bkR2Vnd3WWVaNnYtWjF4ZHpQb1BRc2ZWRXN3QjlyUWFxTjBvY3FXVWtFblZXNTRYQ1I5U2YxdlN0c2p1SUJqVThoSmZtRkVfUVo1akpKNHhVSzBYWGpVSWRQWFJ4ck9wa1BqbmZDUDFqbXVLZGJtaC1vNFdYLS10QzZuMjFwUFZ2UTBpS2t3b3M4ajEzMEVFT2c?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1795090530,
-       "r": "known"
-      },
-      {
-       "t": "Trump says US will 'see what happens' in conflict with Iran after January 1",
-       "u": "https://www.straitstimes.com/world/middle-east/trump-says-us-will-see-what-happens-in-conflict-with-iran-after-january-1",
-       "s": "The Straits Times",
-       "c": "SG",
-       "l": "en",
-       "p": 1795090513,
-       "r": "known"
-      },
-      {
-       "t": "Iran can't be trusted! Trump says Vance brokering a US-Iran memorandum was \"a waste of time",
-       "o": "看清伊朗無法信任！川普直言范斯促成美伊備忘錄是「浪費時間」",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5646568",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1795085133,
-       "r": "known"
-      }
-     ],
-     "headlines": 8,
-     "outlets": 8,
-     "independent": 4,
-     "countries": [
-      "AE",
-      "CA",
-      "GB",
-      "SA",
-      "SG",
-      "TW",
-      "US"
-     ],
-     "regions": 5,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "A single Mexican outlet reports Iran attacked US Patriot systems in Kuwait while Washington tightened its blockade of Tehran. Iran's military chief vowed revenge for the Minab dead, a claim carried only by Iranian media. Several Middle Eastern states have urged Washington not to resume full-scale war.",
-     "stories": [
-      "s22",
-      "s28",
-      "s21",
-      "s17"
-     ],
-     "sources": [
-      {
-       "t": "Iran attacks US Patriot systems in Kuwait; Washington tightens blockade against Tehran",
-       "o": "Ataca Irán sistemas Patriot de EU en Kuwait; endurece Washington bloqueo contra Teherán",
-       "u": "https://www.jornada.com.mx/2026/11/19/mundo/023n2mun?partner=rss",
-       "s": "La Jornada Mundo",
-       "c": "MX",
-       "l": "es",
-       "p": 1795083912,
-       "r": "known"
-      },
-      {
-       "t": "Iran’s military chief vows to avenge Minab martyrs blood",
-       "u": "https://en.mehrnews.com/news/249539/Iran-s-military-chief-vows-to-avenge-Minab-martyrs-blood",
-       "s": "Mehr English",
-       "c": "IR",
-       "l": "en",
-       "p": 1795087136,
-       "r": "state"
-      },
-      {
-       "t": "Middle Eastern countries urge US not to resume full-scale war... \"Iran's retaliation would be enormous",
-       "o": "중동국들, 美에 전면전 재개 만류…\"이란 보복 수준 엄청날 것\"",
-       "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XNGw3UHNhLXRRajZTck1BeXFYYkJndmpIX3dvVUt0V2JncGpmbVhFSWJKMkxJRWRyazVUY1duTkR0VXdlQ01qVEpwcnV2d2dmRHlNR1k3LUJsQkJ1cURIaGJR?oc=5",
-       "s": "뉴스1",
+       "t": "Iran intensifies attacks on tankers in Hormuz as oil prices fall – about one a day",
+       "o": "\"이란, 유가 하락하자 호르무즈 유조선 공격 강화…하루 1건꼴\"",
+       "u": "https://www.yna.co.kr/view/AKR20261119184700079",
+       "s": "Yonhap Korean",
        "c": "KR",
        "l": "ko",
-       "p": 1795084106,
-       "r": "unrated"
+       "p": 1795099933,
+       "r": "known"
       },
       {
-       "t": "Mideast nations ramp up efforts to avert all-out war as Israel urges Iran strikes - Region - World",
-       "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeGFGNzYyUE1GclFMckVCeThtZlFSM3ZRZzlWNWpZQmYtUVN2Qk9CZzFZcFFjNUVabW5yeXJZYnZGajVIX0JnR1R2TEx6Ym9QVWVRY1pvMXE2cHE1Q0VQZkxCTGd5Q1BFVmhXSWlfRUItWkkxUlBXSFYtQ1JjZ1VaNW5iVWt1bTlDdlhhX2VjN2FMdzNyQk0tT21BbkpWMDhGUTJyeFlyOVRFelA0RWRFRzc0TDFuY3l4aHlKZA?oc=5",
-       "s": "Ahram Online",
-       "c": "EG",
+       "t": "Search continues for Jordanian sailor missing after UAE oil tanker attacked in Strait of Hormuz",
+       "u": "https://gulfnews.com/uae/search-continues-for-jordanian-sailor-missing-after-uae-oil-tanker-attacked-in-strait-of-hormuz-1.500753933",
+       "s": "Gulf News",
+       "c": "AE",
        "l": "en",
-       "p": 1795085907,
-       "r": "state"
+       "p": 1795102851,
+       "r": "known"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "AE",
+      "KR"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "The Times of India reports the US has warned Americans in the Middle East of potential attacks and flight disruptions amid rising Iran-Houthi tensions.",
+     "stories": [
+      "s14"
+     ],
+     "sources": [
+      {
+       "t": "US warns Americans in Middle East of potential attacks, flight disruptions amid rising Iran-Houthi tensions",
+       "u": "https://timesofindia.indiatimes.com/world/us/us-warns-americans-in-middle-east-of-potential-attacks-flight-disruptions-amid-rising-iran-houthi-tensions/articleshow/135995907.cms",
+       "s": "Times of India",
+       "c": "IN",
+       "l": "en",
+       "p": 1795099441,
+       "r": "known"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "IN"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Reuters, the Jerusalem Post and Al Arabiya report the US and European countries urged Iran at an IAEA meeting to let inspections resume at bombed nuclear sites. Iran's side blames US and Israeli attacks for the halt, per TRT Haber.",
+     "stories": [
+      "s1",
+      "s15"
+     ],
+     "sources": [
+      {
+       "t": "West presses Iran at IAEA to let inspections resume at bombed nuclear sites",
+       "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX1BENXJsTm9KVlRxVjk0SENfVmszM1ZXVFpjQzJZcVRneVFiR210MTNseE0yUlJqWmRObE9ndjlKQkZUVFJqd0Joc3hFLWNhcW5KQ0ZKZWdBWDZ5Q1BCNWFQcDdBN1N5MDllSGNNYjdOUG1IaG5BNjB2S3hPMHRTSGpDM2phXzkzSUF6TkJtMktQRWpodkdiRVVSM0FJZ0lDOVRLZk5Dby1SdXV1elBEaW5GM0k?oc=5",
+       "s": "Reuters",
+       "c": "GB",
+       "l": "en",
+       "p": 1795099433,
+       "r": "known"
+      },
+      {
+       "t": "US, European countries urge Iran at IAEA meeting to let inspections resume at bombed nuclear sites",
+       "u": "https://www.jpost.com/international/article-915481",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1795098364,
+       "r": "known"
+      },
+      {
+       "t": "West presses Iran at IAEA to let inspections resume at bombed nuclear sites",
+       "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQW84S3ZVcWNkY3Z1eVlBM1h2eGtZcFpYQTJZRWRJcHdOMU9BdmVzVWY5ZEZXU2FEMkhaNEtaN0ZQbUwzVWhMay0taFhmVm5pMjVmdFdfNVFPekNXVWp4TklkQjJESldlZjlra01Kb0dIRW9zVjI2WTl1aHktLVQ0YWhRb1Zta2dfT2NCRXIxeGd0SUhjZmNiS0hfVzFNUl90aDczN2VoQzd0U1VjejJyU2xBQTR4WGY1aE9MOU51eFI4Z1RRdE9jbTlKb3VYUdIB0wFBVV95cUxQY29PNTNwRTNFMFYzdXpXM3lteUQzWjRPQUZnSUpCQkRxZmFCVk1HVHFzcENIZlFVMnJSQlQ3X0RaTDFOYkZJemNwN1BYQ3RUejVodXhMNldpbDIwcHBwT181WGVOU1Bpd2lZM2lOT1o3ZzMxdkRDd0FKQWd0b1hhcEJVckszQ3JRM2hPc285MDkyV2pEaGREQ1lFMi02cVEzcUI5T0pGU1hJdl9GN3c1MFF3WTJNSTNwX2tqTWZhYXJMOVY5R1p1bTQwY1JCeGR",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1795096380,
+       "r": "known"
+      },
+      {
+       "t": "Iran blamed the US and Israeli attacks for the halt of nuclear inspections",
+       "o": "İran, nükleer denetimlerin durma nedenini ABD ve İsrail saldırılarına bağladı",
+       "u": "https://www.trthaber.com/haber/dunya/iran-nukleer-denetimlerin-durma-nedenini-abd-ve-israil-saldirilarina-bagladi-963853.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1795099320,
+       "r": "known"
       }
      ],
      "headlines": 5,
      "outlets": 4,
-     "independent": 4,
+     "independent": 3,
      "countries": [
-      "EG",
-      "IR",
-      "KR",
-      "MX"
+      "GB",
+      "IL",
+      "SA",
+      "TR"
      ],
-     "regions": 4,
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran's own media and IRGC officials make claims that other outlets have not confirmed. The IRGC says it is ready for a possible US ground attack, and IRNA says its air defence has been significantly enhanced. TASS, citing an IRGC official, says Iran demonstrated missiles with a 4,500 km range near Diego Garcia.",
+     "stories": [
+      "s7",
+      "s28",
+      "s4"
+     ],
+     "sources": [
+      {
+       "t": "Iranian Revolutionary Guard Corps: We are ready for a possible US ground attack",
+       "o": "İran Devrim Muhafızları Ordusu: ABD'nin olası kara saldırısına hazırız",
+       "u": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-ordusu-abdnin-olasi-kara-saldirisina-haziriz-963856.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1795102620,
+       "r": "known"
+      },
+      {
+       "t": "Iran’s air defense capability significantly enhanced: IRGC",
+       "u": "https://en.irna.ir/news/86326891/Iran-s-air-defense-capability-significantly-enhanced-IRGC",
+       "s": "IRNA English",
+       "c": "IR",
+       "l": "en",
+       "p": 1795097172,
+       "r": "state"
+      },
+      {
+       "t": "Iran demonstrates 4,500 km range missiles near Diego Garcia, says IRGC official",
+       "u": "https://tass.com/world/2222017",
+       "s": "TASS English",
+       "c": "RU",
+       "l": "en",
+       "p": 1795104206,
+       "r": "state"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 3,
+     "countries": [
+      "IR",
+      "RU",
+      "TR"
+     ],
+     "regions": 3,
      "party_only": false,
      "state": 3
     }
    ],
    "watch": [
-    "Whether the US announces a decision on renewed strikes within the 4 to 7 day window reported by NYT",
-    "Independent confirmation of the Hormuz mine and tanker reports, or shipping data showing traffic halted",
-    "Iranian response to the reported Kuwait attack and any further strikes on US bases in the Gulf"
+    "Whether Washington announces a decision on renewed strikes on Iran",
+    "Whether IAEA inspectors get access to bombed nuclear sites",
+    "The fate of the missing Jordanian sailor and any further tanker attacks in Hormuz"
    ],
    "window_hours": 3,
-   "headlines_read": 52,
-   "outlets_read": 39,
-   "countries_read": 21,
-   "languages_read": 10,
+   "headlines_read": 34,
+   "outlets_read": 26,
+   "countries_read": 15,
+   "languages_read": 9,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T23:21:12Z",
    "ladder_note": "Re-checked after: Explosions on three tankers in the Strait of Hormuz are reported by many independent outlets, though the cause and attribution are Iran's account and unconfirmed."
