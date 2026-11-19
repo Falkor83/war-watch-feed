@@ -1769,9 +1769,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Iran reports explosions on three tankers near Hormuz; Tehran claims wider Gulf attacks, unconfirmed",
+   "status": "Hormuz tanker blasts; Iran hits Kuwait, Bahrain; US weighs new strikes",
    "summary": "The US–Israel war with Iran centres on the Strait of Hormuz and US bases around the Gulf. On Nov 17 US jets struck what US military officials call an IRGC missile site on Qeshm Island, describing it as self-defence after Iranian attacks. Iranian media reported several blasts, and Iran's army says it captured a US drone south of the island. Iran's army says its drones then targeted Patriot batteries at Kuwait's Ali Al Salem base, and Kuwait and Bahrain say they intercepted missiles and drones. US Central Command says every drone aimed at a US radar in Bahrain was intercepted, the third attempt in five days; no independent source has confirmed damage or casualties.",
    "latest": [
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T02:05:47Z",
+     "text": "Iran's Revolutionary Guards and Iranian-cited reports say three tankers were struck by mines near the Strait of Hormuz, and a separate report says a tanker was attacked off Oman. Iran's account of the cause is not independently confirmed.",
+     "outlet": "NDTV World",
+     "country": "India",
+     "url": "https://www.ndtv.com/world-news/3-oil-tankers-catch-fire-after-hitting-mines-east-of-strait-of-hormuz-iran-12346597#publisher=newsstand",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T02:05:47Z",
+     "text": "Reports say Iran struck Kuwait, Bahrain and Jordan in response to a US attack on Qeshm Island, targeting drone and missile sites. Two outlets from two countries carry this, but the reports are not yet confirmed by the governments named.",
+     "outlet": "Jagran",
+     "country": "India",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVXNNZGpHSU9BLXpFVEg1YjR0YW5paUN0dnVyMDZQeU5ka0M5V3hoX2lEbEtsU25DQ25GR2EtVjEtZ0JGRmw0SVpFN2VfbnVxYmYtUnhXRFIxS25zc2NpQVhxeXA5dnk4azQ4SkpxREtweHRMWDRzUTRWZW90STQta0Y4U1lpb1J2VFotM3lGYjFfSHgyY1VveW9MV2p6WmpoeGRweFMyc1doazh6bkc0?oc=5",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T02:05:47Z",
+     "text": "The US expanded its naval blockade and warned it may intercept ships receiving cargo from Iran.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/mundo/2026/11/18/estados-unidos-amplio-su-bloqueo-naval-y-advirtio-que-podra-interceptar-barcos-que-reciban-cargamentos-procedentes-de-iran/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-18",
      "at": "2026-11-18T23:21:12Z",
@@ -1824,39 +1857,6 @@
      "country": "United Kingdom",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83cTFkOWY0RjY1ZGdwQl92anFhZkNNYmU4THJZT0VQUk9wd3JzV3BvcmhhbWJuSGFfcFhjMTNuQUNsRzgyY3d3MzltR2F4NWVWT3o0Rnp0dlR2WmFEMFZPWWxNU0xuV3Z0YlJPWXE2YnZoRE5TbW5xc1JyTQ?oc=5",
      "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-18",
-     "at": "2026-11-18T20:06:56Z",
-     "text": "Israel is reportedly weighing an attack on Iran in coming days, according to Israel's Channel 12. Asharq Al-Awsat, citing two sources, says the Mossad chief urged new joint strikes. Israeli outlets report the same lobbying, and Anadolu reports CENTCOM's commander discussed resuming attacks with Israel.",
-     "outlet": "ANSA Mondo",
-     "country": "Italy",
-     "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/18/channel-12-israele-valuta-attacco-alliran-nei-prossimi-giorni_02e75191-af93-4050-ab1c-f2c66aea31d2.html",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-18",
-     "at": "2026-11-18T17:21:17Z",
-     "text": "Iran targeted a US air base in Kuwait and sites in Bahrain after US defensive strikes, according to French and US outlets. The US then struck an IRGC missile site on Qeshm Island, which it calls self-defense. Iran says the Qeshm island was hit and that it retaliated against Kuwait.",
-     "outlet": "France 24",
-     "country": "France",
-     "url": "https://www.france24.com/en/video/20261118-us-strikes-iranian-island-after-tehran-targets-bahrain",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-18",
-     "at": "2026-11-18T17:21:17Z",
-     "text": "Tehran expects a new US attack and hints at a 'more destructive' response, per Asharq Al-Awsat. Separately, the US has tightened its Iran blockade with curbs on oil transfers at sea, according to a US advisory.",
-     "outlet": "Asharq Al-Awsat",
-     "country": "Saudi Arabia",
-     "url": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPbjhkTGgwRVpqVTc4NTlWRm5VeXFnckxWSE5zeHFncEc4ZnRBNlh4LVhVc0o1TE5QOG51UkZWbXBMOVFBekozektlbXM2Q0ZqdnBDSGFkdHlFdGRXa1BSR2MybVNFWWNKZE1aeERPcElKMXZhdXlEYTBPOWdPNEFYRkk0VUFBdTlCckc2UkJydFdyc2FYbGRyVkpSRUNjV0tLejJBNXpELW92QmMxQkV0LU51X21pYkw2MkJkVnhvUjNKTFZKUTQ4OFVUdW1BdTA3X096ZTBoVnpNbTYtT0xzc20tZXlPeVFQQy0wNHhYSkZ0cWJweDRPcElmNmtBS1NmNEpUNUFZeDJLOVFPZjFnalJqZFFrSXpQSkFVXy11Wm9zSUJmcDQ0bjVsaGs0WnFua0JKdjR1MGY0MTh2LTZxTmJiNGl3aHpiUnRVZy1WZG4tX2NwWW13MWRtQmlFSkFjUmZIUEphWTdyNVlhS0I0WTN1MzJmRU1VQnNmZk9YTnQyU0ZMb29JZVBuU2I0NW94cWF6bFlaMzFTcm1haTBOYk1",
-     "region": "gulf",
      "tag": "non-party",
      "state_media": false
     }
@@ -12787,11 +12787,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-16T03:12:00Z",
-     "headline": "Tankers hit mines in Hormuz, a third US carrier arrives, and Iran drones Bahrain again",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-16T05:55:37Z",
      "headline": "Two more tankers hit mines in Hormuz; Iran drones Bahrain again; Houthis step up attacks",
      "direction": "escalating"
@@ -12905,104 +12900,96 @@
      "at": "2026-11-18T23:21:12Z",
      "headline": "Iran reports explosions on three tankers near Hormuz; Tehran claims wider Gulf attacks, unconfirmed",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-19T02:05:47Z",
+     "headline": "Hormuz tanker blasts; Iran hits Kuwait, Bahrain; US weighs new strikes",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-18T23:21:12Z",
-   "next_at": "2026-11-19T02:21:12Z",
-   "headline": "Iran reports explosions on three tankers near Hormuz; Tehran claims wider Gulf attacks, unconfirmed",
+   "updated_at": "2026-11-19T02:05:47Z",
+   "next_at": "2026-11-19T05:05:47Z",
+   "headline": "Hormuz tanker blasts; Iran hits Kuwait, Bahrain; US weighs new strikes",
    "direction": "escalating",
    "points": [
     {
-     "text": "Iran reports explosions on three oil tankers near the Strait of Hormuz and blames mines. Many outlets across several regions carry Iran's account, but the items here do not include independent confirmation of the cause.",
+     "text": "Iran's Revolutionary Guards and Iranian-cited reports say three tankers were struck by mines near the Strait of Hormuz, and a separate report says a tanker was attacked off Oman. Iran's account of the cause is not independently confirmed.",
      "stories": [
-      "s1"
+      "s17",
+      "s20",
+      "s16"
      ],
      "sources": [
       {
-       "t": "Iran reports explosions on three ships near the Strait of Hormuz",
-       "o": "Iran meldet Explosionen an drei Schiffen bei Straße von Hormus",
-       "u": "https://www.derstandard.at/story/3000000349932/iran-meldet-explosionen-an-drei-schiffen-bei-stra223e-von-hormuz?ref=rss",
-       "s": "Der Standard International",
-       "c": "AT",
-       "l": "de",
-       "p": 1795040573,
-       "r": "known"
-      },
-      {
-       "t": "Iran reports new explosions on three oil tankers from mines in the Strait of Hormuz",
-       "o": "Irán informa de nuevas explosiones en tres petroleros por minas en el estrecho de Ormuz",
-       "u": "https://www.infobae.com/america/agencias/2026/11/18/iran-informa-de-nuevas-explosiones-en-tres-petroleros-por-minas-en-el-estrecho-de-ormuz/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1795039279,
-       "r": "known"
-      },
-      {
-       "t": "Live blog Middle East: Iran reports several explosions on oil tankers near the Strait of Hormuz",
-       "o": "Liveblog Nahost: Iran meldet mehrere Explosionen auf Öltankern bei Straße von Hormus",
-       "u": "https://www.faz.net/aktuell/politik/ausland/liveblog-nahost-iran-meldet-mehrere-explosionen-auf-oeltankern-bei-strasse-von-hormus-faz-200583539.html",
-       "s": "FAZ Ausland",
-       "c": "DE",
-       "l": "de",
-       "p": 1795039079,
-       "r": "known"
-      },
-      {
-       "t": "Three oil tankers catch fire after hitting naval mines east of Strait of Hormuz: Report",
-       "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaW1MY3NXMndpMlVIWWwzR1ZWVFpSSWxQd2NvQkVjREx0NmExWDNoclVBdExxTjdpY0hIUzNoQjVFRDlXc3hCanMxZVJWMWNxZFlsTUZEWVhKMUJYWGVBcm5ERjNsQ0duamVteGt0NW5ESmQyOUJSajJTN1VIUDVDOG9BaGxQWHBUNEdES1hwaDYtYmEyV2VxaWZ4Rng4M204NC1xUkFoRXg5dEsySEVhQS0xMVhMS3NpdFo0ZWNxdU11Rkt3NlpKWGkwaGViZ09Nby1nS0JGQ0xQLVJp0gHiAUFVX3lxTE9waWdQTVRyWVh1Z1dmQ3hSY01PbmFVZEN0VFZsRm91SUpfZmQzV2pxS0hGT0pRWFlsNjhjc2dTXzVjVGxsSFpsRU9IMjZnWlRKTHJnVHdUUHAxemN1NFgxbjlES2xOcXEzSDRCdzE3YVItcHV5ZHVGbENQd3JxelI4c1hUeHY4UXotcjNNdlltMXFBb25GQnJUU1U4amNVSWJCUFdWTUp3VFJxTV9VbjRSV0lsSTZsajhqVHd4N2JKSGt",
-       "s": "Al Arabiya English",
-       "c": "SA",
+       "t": "3 Oil Tankers Catch Fire After Hitting Mines East Of Strait Of Hormuz: Iran",
+       "u": "https://www.ndtv.com/world-news/3-oil-tankers-catch-fire-after-hitting-mines-east-of-strait-of-hormuz-iran-12346597#publisher=newsstand",
+       "s": "NDTV World",
+       "c": "IN",
        "l": "en",
-       "p": 1795035300,
+       "p": 1795045829,
+       "r": "known"
+      },
+      {
+       "t": "IRGC reports three tankers struck by mines in the Strait of Hormuz area",
+       "o": "КСИР сообщил о подрыве на минах трех танкеров в районе Ормузского пролива",
+       "u": "https://www.interfax.ru/world/1129959",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795044000,
+       "r": "known"
+      },
+      {
+       "t": "Tanker attacked in the Strait of Hormuz off the coast of Oman",
+       "o": "Танкер подвергся атаке в Ормузском проливе у берегов Омана",
+       "u": "https://www.interfax.ru/world/1129962",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795045980,
        "r": "known"
       }
      ],
-     "headlines": 9,
-     "outlets": 9,
-     "independent": 8,
+     "headlines": 3,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "AR",
-      "AT",
-      "BR",
-      "DE",
-      "GB",
-      "IR",
-      "RU",
-      "SA",
-      "TR"
+      "IN",
+      "RU"
      ],
-     "regions": 6,
+     "regions": 2,
      "party_only": false,
-     "state": 2
+     "state": 0
     },
     {
-     "text": "Iran's own media say Tehran has widened attacks on Gulf nations after a latest US strike on an Iranian island, and that Iran is seizing on a NYT dam report to widen retaliation threats. These are claims from the sides' own media and are not independently confirmed here.",
+     "text": "Reports say Iran struck Kuwait, Bahrain and Jordan in response to a US attack on Qeshm Island, targeting drone and missile sites. Two outlets from two countries carry this, but the reports are not yet confirmed by the governments named.",
      "stories": [
-      "s14",
+      "s15",
       "s18"
      ],
      "sources": [
       {
-       "t": "Tehran Widens Attacks On Gulf Nations After Latest U.S. Strike On Iranian Island",
-       "u": "https://www.twz.com/news-features/tehran-widens-attacks-on-gulf-nations-after-latest-u-s-strike-on-iranian-island",
-       "s": "The War Zone",
-       "c": "US",
-       "l": "en",
-       "p": 1795039601,
-       "r": "known"
+       "t": "In response to a US attack, Iran hits Kuwait, Bahrain and Jordan, targeting drone and missile sites",
+       "o": "अमेरिकी हमले के जवाब में ईरान ने कुवैत, बहरीन और जॉर्डन पर किए हमले, ड्रोन-मिसाइल ठिकानों को बनाया निशाना",
+       "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVXNNZGpHSU9BLXpFVEg1YjR0YW5paUN0dnVyMDZQeU5ka0M5V3hoX2lEbEtsU25DQ25GR2EtVjEtZ0JGRmw0SVpFN2VfbnVxYmYtUnhXRFIxS25zc2NpQVhxeXA5dnk4azQ4SkpxREtweHRMWDRzUTRWZW90STQta0Y4U1lpb1J2VFotM3lGYjFfSHgyY1VveW9MV2p6WmpoeGRweFMyc1doazh6bkc0?oc=5",
+       "s": "Jagran",
+       "c": "IN",
+       "l": "hi",
+       "p": 1795046220,
+       "r": "unrated"
       },
       {
-       "t": "Tehran seizes on NYT dam report to widen retaliation threats",
-       "u": "https://www.iranintl.com/en/202611181667",
-       "s": "Iran International",
-       "c": "IR",
-       "l": "en",
-       "p": 1795035416,
+       "t": "New escalation in Middle East: Iran attacks Kuwait and Bahrain after US bombing on Qeshm Island",
+       "o": "Nueva escalada en Medio Oriente: Irán ataca a Kuwait y Baréin tras bombardeo de Estados Unidos en la isla de Qeshm",
+       "u": "https://www.eltiempo.com/mundo/medio-oriente/nueva-escalada-en-medio-oriente-iran-ataca-a-kuwait-y-barein-tras-bombardeo-de-estados-unidos-en-la-isla-de-qeshm-3602187",
+       "s": "El Tiempo Mundo",
+       "c": "CO",
+       "l": "es",
+       "p": 1795045238,
        "r": "known"
       }
      ],
@@ -13010,55 +12997,84 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "IR",
-      "US"
+      "CO",
+      "IN"
      ],
      "regions": 2,
-     "party_only": true,
+     "party_only": false,
      "state": 0
     },
     {
-     "text": "The US intelligence director says threats from Iran have increased substantially. Fox News and Arab News report the US military is rushing to build bunkers across the Middle East.",
+     "text": "The US expanded its naval blockade and warned it may intercept ships receiving cargo from Iran.",
      "stories": [
-      "s3",
-      "s2"
+      "s19"
      ],
      "sources": [
       {
-       "t": "Threats from Iran have increased substantially, US intelligence director says",
-       "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOV9oU1JWelJSek1UMFBfQVl0RWc0ZlhIUFlSWHJEc1BIZ3E4NFZVeGUtZjhoeDRYeGxjYW1QY2FfYzZrUEIwM1lMNGZMNl82OHBsWEtCTHVVTG44ekFuRlhyNlhGQW5uYWxrMnBoMUU0S1M5N3lSV3RsVmF0THJTVC1iZUY0MjV6SzNLRkU0TFQza1lGVlZTaFoxRHdNOXN5S2xtYkU1OWtKcFB4Z21RYlhnY1ZOQQ?oc=5",
-       "s": "Arab News",
-       "c": "SA",
+       "t": "United States expanded its naval blockade and warned it may intercept ships receiving cargo from Iran",
+       "o": "Estados Unidos amplió su bloqueo naval y advirtió que podrá interceptar barcos que reciban cargamentos procedentes de Irán",
+       "u": "https://www.infobae.com/america/mundo/2026/11/18/estados-unidos-amplio-su-bloqueo-naval-y-advirtio-que-podra-interceptar-barcos-que-reciban-cargamentos-procedentes-de-iran/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1795044036,
+       "r": "known"
+      }
+     ],
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
+     "countries": [
+      "AR"
+     ],
+     "regions": 1,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "US officials say Trump is weighing new strikes on Iran as Israel presses for action; Al Jazeera reports a US aircraft carrier is leaving the region.",
+     "stories": [
+      "s3",
+      "s5",
+      "s11"
+     ],
+     "sources": [
+      {
+       "t": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
+       "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TOTFWdU93OVF0V1d3QTZ4elZ2SHRiV0RzRmxjM3J2aTZuR3RyNlRWVmN2akRqUTcxVGpRM1dOZmFrelB4cGw3eWRha2F5TmI5SXpRdDFUZEwta3VSTUxQOTd3NGhGVnY1VUlnaWdVazFLVGhpUmlBck9xSmVzdw?oc=5",
+       "s": "The New York Times",
+       "c": "US",
        "l": "en",
-       "p": 1795036850,
+       "p": 1795043584,
        "r": "known"
       },
       {
-       "t": "US intelligence: no foreign hands behind internet outages, and the Iranian threat has sharply increased",
-       "o": "الاستخبارات الأمريكية: لا أيادٍ خارجية وراء أعطال الإنترنت والتهديد الإيراني زاد بشدة",
-       "u": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxOUlQyUnZNRHg1cm9xV0luX0Yya3JqM1B6NzBGU24wSzNaOVd0QjVRY3pESDhDcmlyejloT2NsSFUyR1g1UFdsMFhodThkYW5vdC01dGFGYi01ejRXd3lzeFF4YkVwSDN0UmNiYmtYdVJBOWFESlZJUmlsVGR1MlphOG1MT2dRLW1JZjByNGFHLTh4QmhYSGRjd1lxeDFWTE0xbmtGTHFjS0dIQnJkN09RYVotc1NiU0ZsbUwtY19vY2FIQmF1UTFKTy1zNXZPUzJ0R2ZSSDV0MkFfdDhqcklYbkJ6MU14b3AyVzk3T1hkVTFfNkFRNGRmZlVyRzluMFRKNmpZaHpITlo5aEZDb0J6SU1iRXFVWXhtcTZ5V3h6X2dZd2RfTEtERUQ1OHY3RFg4TVdydXhaOEtaZkVnUUVHOVhGT0lzbWJsY3hrXzlweERZUUFQN2xoeWZR?oc=5",
+       "t": "Trump weighs new strike on Iran after Netanyahu pressures US: Infoquest",
+       "o": "ทรัมป์ชั่งน้ำหนักโจมตีอิหร่านระลอกใหม่ หลังเนทันยาฮูเร่งกดดันสหรัฐฯ : อินโฟเควสท์",
+       "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ZaG45UElRQ1NLb2dNN3p4UnhGaERyQWFIYmpEaFg5OS01aUEzMjFrRW9PLXdsSUxDbDZVM1lrOUhOYldrOHBtcmZVN3hURmhz?oc=5",
+       "s": "สำนักข่าวอินโฟเควสท์",
+       "c": "TH",
+       "l": "th",
+       "p": 1795052052,
+       "r": "unrated"
+      },
+      {
+       "t": "Mideast nations ramp up efforts to avert all-out war as Israel urges Iran strikes, officials say",
+       "u": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPaE1QQllSNzdZdC1xeFZzcHhwMWxVTFBKdUY3REZWRDZZMFd1YjExTHkwMU9iSXFXNklVRXN0NHk5c1daekliTmFma0lmYzVLY05XS0VuZjdTdWpsMGFSYjJLOFRPTER6Znp1Rms1NWpDLVRHOEhOLWRiSm5RZUx0UXVINXk3cUlaa3ROM3FsTXVBdjFlZ2RpNkJVd2tucmVLTkROdk5Gdi1kNVFLOWxweUZOaVY4bk44YWt3S2p3S3FQV254MHgxZXlTU2UxRExPczZFb0pTZ3l0UGo2bHlHMTh2UzhPYlFwanY3QS0yUlVXZGxRRWRtQkxVMk94RDlsYTdMbTVROGx5MW05?oc=5",
+       "s": "Globe and Mail",
+       "c": "CA",
+       "l": "en",
+       "p": 1795051145,
+       "r": "known"
+      },
+      {
+       "t": "US aircraft carrier leaves as Mossad pushes Washington toward a joint strike on Iran",
+       "o": "حاملة طائرات أمريكية تغادر والموساد يضغط لجر واشنطن لضربة مشتركة ضد إيران",
+       "u": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOcjZ3U3oyS2U1bkNxTkJlOHhhVmZIT05XaDduSkRYaGRyVkFEbDg5U295LXlOeU50bFczWHllMDQ1Ny1lcjRxZkdqY0kyOXJfNFNoUVA2RXlCS0sxdEZQM19XNTlQR1BwSlQwVU1rZHFPQUp3b3lrLWo1Y09XQ0FTa1FGaXRnTm1UNEg4SE1ibUNwdWUycmVuLXpGOW1XTGM3bWVKNGtERHUxUnkwY1JKc19Od3dsazhBckxYLVFiNnJVbVNZNlp6eGl3Rmg3R0llOXdSM09vNkdMN0tMaGhkamRqdTFPZmlDTG44Q3dROGc3SHJDdWR2NC1uLTE3aEdEbFlteGY4VlV1LXYyRW9Jd0NUYUVkRi05c3ROMkdHallnMEF4UERrQTNxN3BxNG5teEVaaFFYN0JaWjR5NXZvek5hYw?oc=5",
        "s": "Al Jazeera",
        "c": "QA",
        "l": "ar",
-       "p": 1795034551,
-       "r": "known"
-      },
-      {
-       "t": "US military rushing to build new bunkers across Middle East amid Iran war",
-       "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeDJkYk1fVDdDMnl5WERpaXVKUmp1TEN4T3NYa3IxZEE5UllIZUFzMEZiUWF3Z1pna1VZeDE5MmtuZEwxd1gzN2wwTW5DSDBKUVdLcXptOWVjNEFfYXl6X0ZvQUU5YU5YMDdxV0pQMTVIRWotUjlVUEpKb0t1cEJSc1VVdXZCZ1U1OXltYnFmNVJTUkZoNUxXM2JJQmN1SGdZNUo2U2tOTF9mTHhhV3RlTFZ0ZVAzempTTWNfdXVhWE15dHF1bGFoZ0o0Y9IB0AFBVV95cUxOVmEzaGRkcElwZTg0aFdLVzc2bVY4aEt6R2tXTms1OGtwXzk3QnB5d0dDdlVBTFN0TVRFam0yREFzNXNWeEVkSWtJUVRoWVZlck9YQ09TVFM4S1hpNlQ1WDBOQTdfWm1mQnZ6ZEc1SnM5LURsTmZWbkxUbHlIbWVadEdoWVNNMkdULXVPU0s4RWhrWjItYm45N093cXhJMWVOLVVUVXBaR0RWeXZSVHd2YVd2NEcxZHA5VzJTVFhUQXJUM0xjZlV1MUNBVlBKaXdy?oc",
-       "s": "Al Arabiya English",
-       "c": "SA",
-       "l": "en",
-       "p": 1795037640,
-       "r": "known"
-      },
-      {
-       "t": "US races to build bunkers across Middle East as Iranian strikes threaten American troops",
-       "u": "https://www.foxnews.com/world/us-races-build-bunkers-across-middle-east-iranian-strikes-threaten-american-troops",
-       "s": "Fox News World",
-       "c": "US",
-       "l": "en",
-       "p": 1795036708,
+       "p": 1795048480,
        "r": "known"
       }
      ],
@@ -13066,100 +13082,76 @@
      "outlets": 4,
      "independent": 4,
      "countries": [
+      "CA",
       "QA",
-      "SA",
+      "TH",
       "US"
      ],
-     "regions": 2,
+     "regions": 3,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Israel's spy chief is reported, citing sources, to have lobbied Washington for joint strikes on Iran during a US visit. This is a single-outlet report and was already flagged in the previous update.",
+     "text": "The US intelligence chief says Iran's threat has increased significantly, and US officials warn of a higher risk of lethal attacks.",
      "stories": [
-      "s9",
-      "s12"
+      "s1",
+      "s9"
      ],
      "sources": [
       {
-       "t": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say",
-       "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbTJZZG1zWjlaYzBtenBpTHcyUGI5clpXQU9weVExUk9UZDM0YnVIRjVSLUdibWFQVTdlUl83YUVOdENwQmNlODA1RTVsbS1nbG9yankxbGtHVV8xQUhRcnF4bTYxVENIdld3YUpNODg0bi1WeGtsNmNKQUZPZWdMNFdObElIbEFTT1N5eGJMWVBlNnlrazdxbTFmbmE1R0tFSkktaTZJdG04elFkOW04dVZJUkJOa0RE?oc=5",
-       "s": "Arab News",
-       "c": "SA",
-       "l": "en",
-       "p": 1795037390,
+       "t": "US intelligence chief warns of growing Iranian threat",
+       "o": "Глава Нацразведки США предупредил о растущей иранской угрозе",
+       "u": "https://www.interfax.ru/world/1129961",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795045560,
        "r": "known"
       },
       {
-       "t": "Report: Mossad chief urged Washington to carry out joint strikes on Iran",
-       "o": "تقرير: رئيس الموساد دعا واشنطن إلى شن ضربات مشتركة على إيران",
-       "u": "https://news.google.com/rss/articles/CBMiuANBVV95cUxNLTJoSGJjWENPRmFCOTdxZ3VPY3dDbjdlMUlYbHRqZEplY3F5QU9RbnZodU9IY3FsYzhUc1ptaEhRTy10aFJsemVldnhTWW8ySFU3Tk9ZQlZRYmhjMUJmWXpkRXcwMk9vQjN3UzZ3MEpzZDVrNHhXOGZhYS1ZZEhKNjA5UW5DRWk2dXJoSUx0Q3d6SFZIbEU4dFB4ZzNiZFpmdzZXa3JoUjlUZVVpaWdyVWpyNXNuUGhBTlFtODdnSzNwbWdsS2UtZzRzbERUM0xuWTV5NFVCeHY2RjgzV0x2ZmpmM0wxU0pFSTU0MG1vaWlWa2xiTnV5OVhucGVycUxabDF4REE0RHRkak1QLVhWR1Z5S3BuYkVIa0xXV3d2UG1ZdkVNU2FGdVFVeXFPd3BmSVRIak84eXY2ZDN4b1c1b0V5VkM4SEllMW5kdk1NdHJzeWxqTFZSUlBzb290M2g4dVZ2ZGdCczc2cFNfMmRLUXdEckV5Nnh1V1BvMEF4ZFpjWnBYbFZWX2VMZVUwUGlmSmJNbWRGZEIzaGFOTzVGNzV",
-       "s": "الشرق للأخبار",
-       "c": "LB",
-       "l": "ar",
-       "p": 1795033534,
-       "r": "unrated"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "LB",
-      "SA"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran's state media warn regional countries against providing territory for US strikes. A separate report says the US homeland security secretary sees no threat of a 'dirty bomb' attack by Iran.",
-     "stories": [
-      "s6",
-      "s11"
-     ],
-     "sources": [
-      {
-       "t": "Iran warns regional countries against providing territory for US strikes",
-       "o": "Иран предостерег страны региона от предоставления территорий для ударов США",
-       "u": "https://ria.ru/20261119/iran-2132526036.html",
-       "s": "RIA Novosti",
-       "c": "RU",
-       "l": "ru",
-       "p": 1795040744,
-       "r": "state"
+       "t": "Major destructive attack! US intelligence chief: Iran's threat has increased significantly",
+       "o": "大規模毀滅性攻擊！美情報總監：伊朗威脅大幅增加",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5645718",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1795043844,
+       "r": "known"
       },
       {
-       "t": "US homeland security secretary sees no threat of ‘dirty bomb’ attack by Iran",
-       "u": "https://tass.com/world/2220799",
-       "s": "TASS English",
-       "c": "RU",
-       "l": "en",
-       "p": 1795033794,
-       "r": "state"
+       "t": "United States warns of increased threat of lethal attacks from Iran",
+       "o": "Estados Unidos advirtió de un aumento de la amenaza de atentados letales de Irán",
+       "u": "https://www.infobae.com/estados-unidos/2026/11/19/estados-unidos-advirtio-de-un-aumento-de-la-amenaza-de-atentados-letales-de-iran/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1795049280,
+       "r": "known"
       }
      ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
      "countries": [
-      "RU"
+      "AR",
+      "RU",
+      "TW"
      ],
-     "regions": 1,
+     "regions": 3,
      "party_only": false,
-     "state": 2
+     "state": 0
     }
    ],
    "watch": [
-    "Whether the cause of the three tanker explosions near Hormuz is confirmed by independent sources",
-    "Any Israeli or US strike on Iran, which Israeli outlets have reported is under consideration",
-    "Gulf states' responses to Iran's claims of attacks on US assets in Kuwait and Bahrain"
+    "Whether an independent party confirms the cause of the three tanker explosions near Hormuz",
+    "Whether Gulf governments confirm the Iranian strikes on Kuwait, Bahrain and Jordan",
+    "Any US decision on new strikes on Iran following the Qeshm Island attack"
    ],
    "window_hours": 3,
-   "headlines_read": 30,
+   "headlines_read": 31,
    "outlets_read": 22,
-   "countries_read": 14,
-   "languages_read": 7,
+   "countries_read": 13,
+   "languages_read": 9,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T23:21:12Z",
    "ladder_note": "Re-checked after: Explosions on three tankers in the Strait of Hormuz are reported by many independent outlets, though the cause and attribution are Iran's account and unconfirmed."
