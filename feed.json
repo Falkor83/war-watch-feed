@@ -1778,9 +1778,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Hormuz tanker attacks reported near daily; US, Israel weigh renewed strikes; no decision",
+   "status": "Strike debate continues with no new attacks; Pentagon puts war cost above $48 billion",
    "summary": "The US and Israel have fought Iran for nearly nine months, and shipping through the Strait of Hormuz remains limited. A US defense official says US jets struck an Iranian missile site on Qeshm Island in self-defence. Iran then fired at a US air base in Kuwait and at Bahrain; both Gulf states say they intercepted the attacks, with no damage reported. An Emirati vessel was attacked near Hormuz, with 11 crew reported injured and one missing, and Iran's Revolutionary Guards say more tankers hit mines, which UKMTO and CENTCOM have not confirmed. In Shenzhen, Trump says he and Xi agree that Hormuz should be open.",
    "latest": [
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T19:18:22Z",
+     "text": "The Pentagon says the Iran war has cost the United States more than $48 billion so far. Al Arabiya notes this figure does not include damaged facilities.",
+     "outlet": "El Tiempo Mundo",
+     "country": "Colombia",
+     "url": "https://www.eltiempo.com/mundo/medio-oriente/cuanto-le-ha-costado-la-guerra-en-iran-a-estados-unidos-el-pentagono-reporta-que-el-gasto-sigue-en-aumento-estas-son-las-cifras-3602417",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T19:18:22Z",
+     "text": "Al Jazeera reports Trump is studying large-scale strikes on Iran amid Israeli pressure for escalation. Yonhap reports Netanyahu saying military action against Iran is inevitable and only the timing remains to be coordinated.",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQY2tWY3pQSDN3eFpPZDJrWE40NEE5LVJTamEtQlNiY3V3OWdCZVhnZWwwRGxEUEc5WU5IR0NfX0twMGFSV3k4cFNyZDlqU1RNT3R5VlQtVGg3cll1VEpnazRJc2VqNHVMZnNnZzJIMjdNcWF1NHpaeTdrNHZCbkdiS1I0NUtoOVgyNV9OMXJIVlNMQW55V1NSRzd4WVZXTXNLQXVyRjduY196clJsRkZYUW1JVWE0M1lZNGZpa1lsc01OU1lkRG1yUkNBZDhKdGNzTkJzZ0UtYi1JX0FiU1I2MXhUSVJ1Q1BqdHJOT0FrV0NqNDItUjZ1S3dTcVdVQ040cjM5a3o2ZkNfbGE1SXREazFueFpZeldIRmxCNXhrNE1nVGFSXzV0RE1DTHJjbDZHT2FLd2FWdl9ITGY4MzR0dFNsWVJQb0poZUF0cA?oc=5",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-19",
+     "at": "2026-11-19T19:18:22Z",
+     "text": "Liberty Times reports Trump saying the US-Iran situation should be watched to see how it develops after New Year's. Asharq Al-Awsat describes Washington and Tehran as on the brink of an open confrontation, which is its own assessment.",
+     "outlet": "Liberty Times",
+     "country": "Taiwan",
+     "url": "https://news.ltn.com.tw/news/world/breakingnews/5647032",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-19",
      "at": "2026-11-19T16:34:05Z",
@@ -1834,37 +1867,6 @@
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVnRHNzI4dnZGNERJaHIzOEhFdWZqNlBOUVJJZUx5V0FzQ1UxZ0M3R1lERWEyNkNRQmxwdnN6RlpCSERkRWxONG1LZFktbVROZnQ4bGIwYUI4MU1xQnRIa0UtSVN1SUxhMVFXRU10WHphV19iZExmTHg3QUE0TDQyWlFBQy1tMGNuMGVFWTdDQUhpOVJqWkY3WmVLSlZpUVpBY1pjcGdhbVdXZ0otMVdRczExUTZmQlJIZ2RMdFVUVGUzdHJ1LXl6UjBHWEFKMlE?oc=5",
      "region": "middle-east",
      "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-19",
-     "at": "2026-11-19T13:08:24Z",
-     "text": "Trump says the US would 'see what happens' in the conflict after January 1, calls the Vance-brokered memorandum with Iran 'a waste of time', and warns of a 'dirty' Iranian attack, promising a crushing response.",
-     "outlet": "Al-Monitor",
-     "country": "United States",
-     "url": "https://www.al-monitor.com/originals/2026/11/trump-says-us-will-see-what-happens-conflict-iran-after-january-1",
-     "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-19",
-     "text": "Headline: Iran widens Gulf attacks by targeting U.S. air base in Kuwait and sites in Bahrain [story carried by 35 independent sources in 21 countries (AE, BR, CA, CH, CN, EG)]",
-     "outlet": "PBS NewsHour",
-     "country": "United States",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaW9yLUs5SFJFWmk1NUp3aUpBc0lfYl95MEJsUl83dUs2ck9rT1ctbllHMFU0bWpseVFKSG01MV9ueV9LNW9EazJ2M2xla19qSzBPWklsM0F6ZHhDd3h1TzRxTFhSMm5aamtzN3AtZnFORWlNVk1yM0tTY0phUXRORmJwUmFIbU1BZ3ZyanlTVkg0TDMzekV3V0ZkVEl2MTNENkQyOTNSWjVsZGhVNWhZZHpFdjNDTUnSAbwBQVVfeXFMT2g5NGpZdnN5R1R2QXVsV2txeXQzYWhVdllQa1NrY2RSM2JsSHNvNmNWRnNzSGk2UlpoRnlJVFdGbGNQZnJwd0M2S2FDdEdRWmRDTEJ6UFdMUXp0d040UjlHdWFLLVROcjdmRHhCNzdySDNvWFdfWWRsS1BNVkNVYUYybnFmX2RaTFh3TmQxeFFqb2VvUnVxbWlpM3E",
-     "region": "north-america",
-     "tag": "party-press",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-19",
-     "text": "Fox News reports Trump saying he and Xi agree Iran must not have a nuclear weapon and both want the Strait of Hormuz open.",
-     "outlet": "Fox News",
-     "country": "United States",
-     "url": "https://www.foxnews.com/live-news/trump-to-meet-xi-in-shenzhen-ahead-of-high-stakes-trilateral-talks-with-putin",
-     "region": "north-america",
-     "tag": "party-gov",
      "state_media": false
     }
    ],
@@ -12846,11 +12848,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-16T20:54:38Z",
-     "headline": "Iran says it downed a US drone over Hormuz; mine-hit and carrier reports unconfirmed",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-17T00:26:30Z",
      "headline": "Iran says four tankers hit mines or caught fire in Hormuz in 24 hours; UKMTO confirms one attack",
      "direction": "escalating"
@@ -12964,41 +12961,202 @@
      "at": "2026-11-19T16:34:05Z",
      "headline": "Hormuz tanker attacks reported near daily; US, Israel weigh renewed strikes; no decision",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-19T19:18:22Z",
+     "headline": "Strike debate continues with no new attacks; Pentagon puts war cost above $48 billion",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-19T16:34:05Z",
-   "next_at": "2026-11-19T19:34:05Z",
-   "headline": "Hormuz tanker attacks reported near daily; US, Israel weigh renewed strikes; no decision",
-   "direction": "escalating",
+   "updated_at": "2026-11-19T19:18:22Z",
+   "next_at": "2026-11-19T22:18:22Z",
+   "headline": "Strike debate continues with no new attacks; Pentagon puts war cost above $48 billion",
+   "direction": "steady",
    "points": [
     {
-     "text": "Yonhap reports Iran has intensified attacks on tankers in the Strait of Hormuz, about one a day, even as oil prices fall. Gulf News reports a search continues for a Jordanian sailor missing after a UAE oil tanker was attacked there.",
+     "text": "The Pentagon says the Iran war has cost the United States more than $48 billion so far. Al Arabiya notes this figure does not include damaged facilities.",
      "stories": [
-      "s13",
-      "s6"
+      "s1",
+      "s10"
      ],
      "sources": [
       {
-       "t": "Iran intensifies attacks on tankers in Hormuz as oil prices fall – about one a day",
-       "o": "\"이란, 유가 하락하자 호르무즈 유조선 공격 강화…하루 1건꼴\"",
-       "u": "https://www.yna.co.kr/view/AKR20261119184700079",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1795099933,
+       "t": "How much has the war in Iran cost the United States? The Pentagon reports spending keeps rising. These are the figures",
+       "o": "¿Cuánto le ha costado la guerra en Irán a Estados Unidos?: el Pentágono reporta que el gasto sigue en aumento. Estas son las cifras",
+       "u": "https://www.eltiempo.com/mundo/medio-oriente/cuanto-le-ha-costado-la-guerra-en-iran-a-estados-unidos-el-pentagono-reporta-que-el-gasto-sigue-en-aumento-estas-son-las-cifras-3602417",
+       "s": "El Tiempo Mundo",
+       "c": "CO",
+       "l": "es",
+       "p": 1795113879,
        "r": "known"
       },
       {
-       "t": "Search continues for Jordanian sailor missing after UAE oil tanker attacked in Strait of Hormuz",
-       "u": "https://gulfnews.com/uae/search-continues-for-jordanian-sailor-missing-after-uae-oil-tanker-attacked-in-strait-of-hormuz-1.500753933",
-       "s": "Gulf News",
-       "c": "AE",
+       "t": "Iran War Has Cost Over $48 Billion: Pentagon Official",
+       "u": "https://www.ndtv.com/world-news/iran-war-has-cost-over-48-billion-pentagon-official-12351273#publisher=newsstand",
+       "s": "NDTV World",
+       "c": "IN",
        "l": "en",
-       "p": 1795102851,
+       "p": 1795112876,
+       "r": "known"
+      },
+      {
+       "t": "Pentagon\": the war on Iran has cost America more than $48 billion",
+       "o": "«البنتاغون»: الحرب على إيران كلّفت أميركا أكثر من 48 مليار دولار",
+       "u": "https://aawsat.com/node/5343316",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1795111611,
+       "r": "known"
+      },
+      {
+       "t": "Iran war costs surpass $48bn, US Pentagon official says",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-war-costs-surpass-48b-us-pentagon-official-says",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1795108193,
+       "r": "known"
+      },
+      {
+       "t": "Iran war has cost US over $48 bln so far, but estimate doesn’t include damaged facilities",
+       "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQM3dGLUk2eFRCQ09kMlVvM2RJdlNhbmFYSVMybDdweHQ4bGlNYTBMTTFpblZnelJnSFd0RTJTU21qREdSWjEwdjNGUG1aSnpUQmFJM1lveG1qT3Q4MVN4NDJWM2toWS1UMGl3dEZ6WjMyd1l2YUJURVM3dkRIY3FFd0xqOUl0WEFPX1V4MHVzMjRlckRXX3JDWUZMMXA1SXE5OVB1c3BUc1FPOGVBZVNJUWhnRFYtdmdCYkxYMUdKenJCeFVBdF9BeTNYeUl5bDRqV0VsNnRXUXY1MGdfM2fSAeMBQVVfeXFMTW5rQjFpQUk5YmhOcWNVbndjcE55YVVGMmx0Q0hNTzFCUnE1SVJxMGM5TS1Mb2t1U29oZ2xHaEpZTUkxbVpkZXFNV2phdE1MVktUYlFhZW1jbUZacWJIWXc3amtlMkhpcFVkV1hscFpaVTQyQXRiamUwLWNkOGdSYWwzM0hZdUc4ZHBRRWVSWDd6UC1taWphdW1PVDJXV3h0Y1hrdnRlYmpWSmMxMW9NZV9YOTA1RXFRWWprUHItR0t",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1795107240,
+       "r": "known"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 5,
+     "countries": [
+      "CO",
+      "GB",
+      "IN",
+      "SA"
+     ],
+     "regions": 4,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Al Jazeera reports Trump is studying large-scale strikes on Iran amid Israeli pressure for escalation. Yonhap reports Netanyahu saying military action against Iran is inevitable and only the timing remains to be coordinated.",
+     "stories": [
+      "s9",
+      "s8",
+      "s12"
+     ],
+     "sources": [
+      {
+       "t": "Trump studies large-scale strikes against Iran amid Israeli pressure for escalation",
+       "o": "ترمب يدرس ضربات واسعة ضد إيران وضغوط إسرائيلية للتصعيد",
+       "u": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQY2tWY3pQSDN3eFpPZDJrWE40NEE5LVJTamEtQlNiY3V3OWdCZVhnZWwwRGxEUEc5WU5IR0NfX0twMGFSV3k4cFNyZDlqU1RNT3R5VlQtVGg3cll1VEpnazRJc2VqNHVMZnNnZzJIMjdNcWF1NHpaeTdrNHZCbkdiS1I0NUtoOVgyNV9OMXJIVlNMQW55V1NSRzd4WVZXTXNLQXVyRjduY196clJsRkZYUW1JVWE0M1lZNGZpa1lsc01OU1lkRG1yUkNBZDhKdGNzTkJzZ0UtYi1JX0FiU1I2MXhUSVJ1Q1BqdHJOT0FrV0NqNDItUjZ1S3dTcVdVQ040cjM5a3o2ZkNfbGE1SXREazFueFpZeldIRmxCNXhrNE1nVGFSXzV0RE1DTHJjbDZHT2FLd2FWdl9ITGY4MzR0dFNsWVJQb0poZUF0cA?oc=5",
+       "s": "Al Jazeera",
+       "c": "QA",
+       "l": "ar",
+       "p": 1795109065,
+       "r": "known"
+      },
+      {
+       "t": "Netanyahu: 'Military action against Iran is inevitable' – only timing remains to be coordinated\" (summary)",
+       "o": "\"네타냐후 '대이란 군사행동 불가피' 입장…시기 조율만 남아\"(종합)",
+       "u": "https://www.yna.co.kr/view/AKR20261119178751079",
+       "s": "Yonhap Korean",
+       "c": "KR",
+       "l": "ko",
+       "p": 1795109277,
+       "r": "known"
+      },
+      {
+       "t": "Netanyahu presses for a green light to attack Iran; Trump: I'm not in a hurry, we'll see in 2027",
+       "o": "נתניהו לוחץ לאור ירוק לתקוף באיראן; טראמפ: לא ממהר, נראה ב-2027",
+       "u": "https://www.ynet.co.il/news/article/hkeqfqncfg",
+       "s": "Ynet Hebrew",
+       "c": "IL",
+       "l": "he",
+       "p": 1795111654,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "IL",
+      "KR",
+      "QA"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Liberty Times reports Trump saying the US-Iran situation should be watched to see how it develops after New Year's. Asharq Al-Awsat describes Washington and Tehran as on the brink of an open confrontation, which is its own assessment.",
+     "stories": [
+      "s5",
+      "s3"
+     ],
+     "sources": [
+      {
+       "t": "Says Iran researching biochemical weapons; Trump: \"Let's see how the US-Iran situation develops after New Year's",
+       "o": "稱伊朗研究生化武器 川普：看元旦後美伊局勢如何發展",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5647032",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1795110843,
+       "r": "known"
+      },
+      {
+       "t": "Trump awaits what comes after January... Washington and Tehran on the brink of an open confrontation",
+       "o": "ترمب يترقب ما بعد يناير... واشنطن وطهران على حافة مواجهة مفتوحة",
+       "u": "https://aawsat.com/node/5343337",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1795113983,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "SA",
+      "TW"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "The IEA says the energy shock from the Iran war will permanently reshape the global energy sector and that a return to the earlier situation is not expected.",
+     "stories": [
+      "s2"
+     ],
+     "sources": [
+      {
+       "t": "No going back ‘to the way it was’ before the Iran war’s energy shock, IEA says",
+       "u": "https://www.straitstimes.com/world/europe/no-going-back-to-the-way-it-was-before-the-iran-wars-energy-shock-iea-says",
+       "s": "The Straits Times",
+       "c": "SG",
+       "l": "en",
+       "p": 1795112507,
+       "r": "known"
+      },
+      {
+       "t": "Iran war energy shock to permanently reshape global energy sector, says IEA",
+       "u": "https://www.hindustantimes.com/world-news/iran-war-energy-shock-to-permanently-reshape-global-energy-sector-says-iea-101795108193410.html",
+       "s": "Hindustan Times World",
+       "c": "IN",
+       "l": "en",
+       "p": 1795108887,
        "r": "known"
       }
      ],
@@ -13006,157 +13164,61 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "AE",
-      "KR"
+      "IN",
+      "SG"
      ],
      "regions": 2,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "The Times of India reports the US has warned Americans in the Middle East of potential attacks and flight disruptions amid rising Iran-Houthi tensions.",
+     "text": "Iran International, an Iranian-focused outlet, reports a tanker loading Iranian crude in the Persian Gulf as Tehran weighs resuming exports. Greenpeace warns of 609 potential oil slicks in the Gulf and Strait of Hormuz.",
      "stories": [
-      "s14"
+      "s11",
+      "s7"
      ],
      "sources": [
       {
-       "t": "US warns Americans in Middle East of potential attacks, flight disruptions amid rising Iran-Houthi tensions",
-       "u": "https://timesofindia.indiatimes.com/world/us/us-warns-americans-in-middle-east-of-potential-attacks-flight-disruptions-amid-rising-iran-houthi-tensions/articleshow/135995907.cms",
-       "s": "Times of India",
-       "c": "IN",
-       "l": "en",
-       "p": 1795099441,
-       "r": "known"
-      }
-     ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
-     "countries": [
-      "IN"
-     ],
-     "regions": 1,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Reuters, the Jerusalem Post and Al Arabiya report the US and European countries urged Iran at an IAEA meeting to let inspections resume at bombed nuclear sites. Iran's side blames US and Israeli attacks for the halt, per TRT Haber.",
-     "stories": [
-      "s1",
-      "s15"
-     ],
-     "sources": [
-      {
-       "t": "West presses Iran at IAEA to let inspections resume at bombed nuclear sites",
-       "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX1BENXJsTm9KVlRxVjk0SENfVmszM1ZXVFpjQzJZcVRneVFiR210MTNseE0yUlJqWmRObE9ndjlKQkZUVFJqd0Joc3hFLWNhcW5KQ0ZKZWdBWDZ5Q1BCNWFQcDdBN1N5MDllSGNNYjdOUG1IaG5BNjB2S3hPMHRTSGpDM2phXzkzSUF6TkJtMktQRWpodkdiRVVSM0FJZ0lDOVRLZk5Dby1SdXV1elBEaW5GM0k?oc=5",
-       "s": "Reuters",
-       "c": "GB",
-       "l": "en",
-       "p": 1795099433,
-       "r": "known"
-      },
-      {
-       "t": "US, European countries urge Iran at IAEA meeting to let inspections resume at bombed nuclear sites",
-       "u": "https://www.jpost.com/international/article-915481",
-       "s": "Jerusalem Post",
-       "c": "IL",
-       "l": "en",
-       "p": 1795098364,
-       "r": "known"
-      },
-      {
-       "t": "West presses Iran at IAEA to let inspections resume at bombed nuclear sites",
-       "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQW84S3ZVcWNkY3Z1eVlBM1h2eGtZcFpYQTJZRWRJcHdOMU9BdmVzVWY5ZEZXU2FEMkhaNEtaN0ZQbUwzVWhMay0taFhmVm5pMjVmdFdfNVFPekNXVWp4TklkQjJESldlZjlra01Kb0dIRW9zVjI2WTl1aHktLVQ0YWhRb1Zta2dfT2NCRXIxeGd0SUhjZmNiS0hfVzFNUl90aDczN2VoQzd0U1VjejJyU2xBQTR4WGY1aE9MOU51eFI4Z1RRdE9jbTlKb3VYUdIB0wFBVV95cUxQY29PNTNwRTNFMFYzdXpXM3lteUQzWjRPQUZnSUpCQkRxZmFCVk1HVHFzcENIZlFVMnJSQlQ3X0RaTDFOYkZJemNwN1BYQ3RUejVodXhMNldpbDIwcHBwT181WGVOU1Bpd2lZM2lOT1o3ZzMxdkRDd0FKQWd0b1hhcEJVckszQ3JRM2hPc285MDkyV2pEaGREQ1lFMi02cVEzcUI5T0pGU1hJdl9GN3c1MFF3WTJNSTNwX2tqTWZhYXJMOVY5R1p1bTQwY1JCeGR",
-       "s": "Al Arabiya English",
-       "c": "SA",
-       "l": "en",
-       "p": 1795096380,
-       "r": "known"
-      },
-      {
-       "t": "Iran blamed the US and Israeli attacks for the halt of nuclear inspections",
-       "o": "İran, nükleer denetimlerin durma nedenini ABD ve İsrail saldırılarına bağladı",
-       "u": "https://www.trthaber.com/haber/dunya/iran-nukleer-denetimlerin-durma-nedenini-abd-ve-israil-saldirilarina-bagladi-963853.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1795099320,
-       "r": "known"
-      }
-     ],
-     "headlines": 5,
-     "outlets": 4,
-     "independent": 3,
-     "countries": [
-      "GB",
-      "IL",
-      "SA",
-      "TR"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran's own media and IRGC officials make claims that other outlets have not confirmed. The IRGC says it is ready for a possible US ground attack, and IRNA says its air defence has been significantly enhanced. TASS, citing an IRGC official, says Iran demonstrated missiles with a 4,500 km range near Diego Garcia.",
-     "stories": [
-      "s7",
-      "s28",
-      "s4"
-     ],
-     "sources": [
-      {
-       "t": "Iranian Revolutionary Guard Corps: We are ready for a possible US ground attack",
-       "o": "İran Devrim Muhafızları Ordusu: ABD'nin olası kara saldırısına hazırız",
-       "u": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-ordusu-abdnin-olasi-kara-saldirisina-haziriz-963856.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1795102620,
-       "r": "known"
-      },
-      {
-       "t": "Iran’s air defense capability significantly enhanced: IRGC",
-       "u": "https://en.irna.ir/news/86326891/Iran-s-air-defense-capability-significantly-enhanced-IRGC",
-       "s": "IRNA English",
+       "t": "Tanker loads Iranian crude in Persian Gulf as Tehran weighs resuming exports",
+       "u": "https://www.iranintl.com/en/202611192862",
+       "s": "Iran International",
        "c": "IR",
        "l": "en",
-       "p": 1795097172,
-       "r": "state"
+       "p": 1795112460,
+       "r": "known"
       },
       {
-       "t": "Iran demonstrates 4,500 km range missiles near Diego Garcia, says IRGC official",
-       "u": "https://tass.com/world/2222017",
-       "s": "TASS English",
-       "c": "RU",
+       "t": "Greenpeace warns of 609 potential oil slicks in Gulf, Strait of Hormuz - Region - World",
+       "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ1VXR0VaazM0ckZtZDdSZ1BuREJuQkhvbHFUdDQ5YnNGc01HdXl0ai16Rll0T2ZoQ0RYWW96X29aOFZKbkhvUlE5VkJMc1lQdUh0TEJieTU0cVk5Y00zRDhhOWJ3UTJXbEdlMW5paG5rX3BhSW5DTlZ1YXNBNzFQSl9nNHNZYms4S25nOFR4Y1V5MXpETlloUnRhc0o3cHNYWW1CRWlmV1NLLVNkUllNd1FrTmI5bC1aMWhxZQ?oc=5",
+       "s": "Ahram Online",
+       "c": "EG",
        "l": "en",
-       "p": 1795104206,
+       "p": 1795110305,
        "r": "state"
       }
      ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 3,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
-      "IR",
-      "RU",
-      "TR"
+      "EG",
+      "IR"
      ],
-     "regions": 3,
+     "regions": 2,
      "party_only": false,
-     "state": 3
+     "state": 1
     }
    ],
    "watch": [
-    "Whether Washington announces a decision on renewed strikes on Iran",
-    "Whether IAEA inspectors get access to bombed nuclear sites",
-    "The fate of the missing Jordanian sailor and any further tanker attacks in Hormuz"
+    "Whether Trump sets a decision point on large-scale strikes or keeps the timing open",
+    "Any new tanker attacks in the Strait of Hormuz after the near-daily pattern in the previous update",
+    "Whether Iran moves to resume crude exports from the Gulf"
    ],
    "window_hours": 3,
-   "headlines_read": 34,
-   "outlets_read": 26,
-   "countries_read": 15,
-   "languages_read": 9,
+   "headlines_read": 19,
+   "outlets_read": 17,
+   "countries_read": 14,
+   "languages_read": 6,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T23:21:12Z",
    "ladder_note": "Re-checked after: Explosions on three tankers in the Strait of Hormuz are reported by many independent outlets, though the cause and attribution are Iran's account and unconfirmed."
