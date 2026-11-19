@@ -742,6 +742,54 @@
 "https://sitkasentinel.com/stories/saudi-backed-forces-in-yemen-beef-up-defenses-outside-aden-to-thwart-houthis-and-other-mideast,186971",
 "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTGdKNEV2dGQxbWV0MUEzMUh5czNJQXBGSjZQUUlTbmJWYWQwMnB4bElQYWpOOC1LaGZkYUVZeUdYRFdrcVYtcWhFNDRLdzk2OUI5Rlh2T1k2cGI1T0lKdUprbzBnNG5SOGhvdnd4eFhFVE9KN1ZUdGJkY3MyWWZSVS1LWnUzUHpPN0tiYTdBQUZ3b0tIX24xWlNHNVZ4TUNHQWhubHFhT00?oc=5"
 ]
+},
+{
+"made": "2026-11-19",
+"hotspot": "russia-ukraine-war",
+"text": "Ukraine strikes the Crimea bridge or Russian refineries again by Dec 10, based on three bridge strikes in a week and an ongoing refinery campaign.",
+"likelihood": "likely",
+"check_by": "2026-12-10",
+"basis": [
+"https://www.dw.com/zh/乌克兰一周内三次袭击克里米亚大桥-铁路运输中断/a-79988821?maca=chi-rss-chi-all-1127-rdf",
+"https://www.straitstimes.com/world/europe/drone-attacks-nearly-halve-russias-november-oil-refining-sources-say",
+"https://kyivindependent.com/new-video-shows-damage-to-crimean-bridge-as-train-traffic-resumes/"
+]
+},
+{
+"made": "2026-11-19",
+"hotspot": "us-israel-iran-war",
+"text": "UKMTO or Gulf states report another attack on shipping or on a US-hosting Gulf state by Dec 10, based on this week's repeated attacks.",
+"likelihood": "likely",
+"check_by": "2026-12-10",
+"basis": [
+"https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444",
+"https://newscord.org/article/irgc-navy-reports-third-oil-tanker-explosion-in-strait-of-hormuz-in-24-hours--Story_20261116_3rdnoncompliantoilta6b7d17ab",
+"https://iranwire.com/en/news/160414-emirati-vessel-attacked-in-strait-of-hormuz-11-crew-members-injured-and-one-missing/"
+]
+},
+{
+"made": "2026-11-19",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Saudi or coalition officials report another Houthi missile or drone launch at Saudi territory by Dec 10, based on repeated attacks since September.",
+"likelihood": "likely",
+"check_by": "2026-12-10",
+"basis": [
+"https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south",
+"https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh",
+"https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline"
+]
+},
+{
+"made": "2026-11-19",
+"hotspot": "sudan-civil-war",
+"text": "Both the army and the RSF confirm attendance at UN-set talks by Dec 19, given the in-absentia death sentence for Hemedti and ongoing Kordofan fighting.",
+"likelihood": "unlikely",
+"check_by": "2026-12-19",
+"basis": [
+"https://www.radiotamazuj.org/en/news/article/sudanese-court-sentences-rsf-leader-hemedti-to-death-in-absentia",
+"https://news.google.com/rss/articles/CBMi4ANBVV95cUxNbi1tRVZRMjF0MlVnT0FhaUxlOWlxMGlDVkRQYm4xdnF3bXBJc2V0emF0VlViRjBnTnR2eEx6YXRvcHlsWE40MmdUdDR1WktERU9jZnlWNkViNDloRHlBT05FXzFOVmZmOXR5SFdEZFNjUVgteWI5eFl2WnRVSWdHZjh1UEVYVDNGTjRVMktkYUpWTVlaWk55MjhtTzJ1TkNwalJwV0pncmNEMUUydVZlRk1tYmJKZUtYd1RFdUp6d190d0FMLXVYLTRqdllQSHlRcUlZV1ZMdVJWNFF0LWVxcy0xZXZWaGVuRWFjNnBteWJjUjdXQmZVbzJzOGR1QzJicVhwMmlzNFY3Z05mY2tHMk1PUWc3LV9rbkQwdEM3aU1RVHp1RzVzdlFnaUFqNTZvZFVRb3Z2VmNTUmFxYTNDUi1mYWZzamx6bGVFMHhWU2lPaWUyQlI",
+"https://news.google.com/rss/articles/CBMilwJBVV95cUxOb2ZJLXdObUtBNi1UTEhYNnRHQUNyQUkzQ19SZU1HVWdZbXZfcFQ3blNFdlE4ZHIyRmd6ZnBRcHlZWkE0a0RySDR4RlNMRmhsMS1BakV5TGExc2h3WWt2U1hvUFJaamJscWZfR2wwa05LNy05M3hjWEpxRGhkVFROdWotLWFhLWN4MDAwamtmVmRhaHRkT05VUklhNFVGZk9EMzZxUkd2WE5ORjhsUTRZQlhKNFU1aDBfZ3hWa0t2Z24tZ05BdnRNZHhWMk9QbzAwbTVsb2RfSEUwQ0IydzEwVFlqX0FoQjhPWW9ZY1RhcVZDT3F1SWhfdHUySXI0SVNSbzVEUDhjUjJWczJUX2xRbmFuZ3BkX0U?oc=5"
+]
 }
 ]
 }

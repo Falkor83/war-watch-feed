@@ -1,38 +1,6 @@
 {
  "actions": [
   {
-   "id": "a-2024-11-18-se",
-   "date": "2024-11-18",
-   "country": "SE",
-   "kind": "civil-preparedness",
-   "what": "Sweden begins mailing 5.2 million 'If Crisis or War Comes' booklets to households, urging food and water stocks",
-   "url": "https://logicallyfacts.com/en/article/heres-what-you-should-know-about-swedens-crisis-or-war-pamphlets",
-   "outlet": "Logically Facts",
-   "hotspots": [
-    "russia-ukraine-war",
-    "russia-nato-eastern-flank-kaliningrad"
-   ],
-   "scheduled": null,
-   "program": "MSB crisis booklet, first updated since 2018",
-   "source": "seed"
-  },
-  {
-   "id": "a-2024-11-18-fi",
-   "date": "2024-11-18",
-   "country": "FI",
-   "kind": "civil-preparedness",
-   "what": "Finland publishes a consolidated online preparedness guide for incidents and crises",
-   "url": "https://www.thenationalnews.com/news/europe/2024/11/18/sweden-and-finland-advise-citizens-how-to-prepare-for-potential-war",
-   "outlet": "The National",
-   "hotspots": [
-    "russia-ukraine-war",
-    "russia-nato-eastern-flank-kaliningrad"
-   ],
-   "scheduled": null,
-   "program": "",
-   "source": "seed"
-  },
-  {
    "id": "a-2025-03-26-eu",
    "date": "2025-03-26",
    "country": "EU",
@@ -1525,24 +1493,147 @@
    "added": "2026-11-18",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-18-ua-2",
+   "date": "2026-11-18",
+   "country": "UA",
+   "kind": "military-readiness",
+   "what": "Ukraine's parliament reports further changes to the mobilisation process; details in Ukrainian outlets are explanatory and partial",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNUtYdmNBcmZZQ2RUV1dDZF96MFN3TThQeHZPLUV2NTkzZkNWYnRzcUxlNDRqY2lwbzZYYWxBY3FTYVZDSEV4TGQxWGtFV3lQYVQ3aW9tV1RhNmtndDNTWXFOSDBCeFhheUN3ejdnWkRCUVRlNzZSMVQtMEprX3BqUnJlMTg1TFdleURnaUFzaFh0TDhacm5FdzlMdEtFMnpYRmstVXdwOGdVTkJCb2E2X083ajlhOFowN0dPNXdwYVlOUjhJYjZBTzBIX29GX1lhRTJMNUdhd9IB3AFBVV95cUxPQ1QxNVZDUWZjcTlVOU5nTVR5dmRRMkdKaWc0cWxlOG85ZklpWXUwZW1YaFF5U0sxTHFsNlRhYnpBLW5OSERON0VQdm5JZjAzLUxwakd3U19WZndJSlc1aHk0TGpnLW9LRWpWRWJ1bm9pRWw3NEVqNFRySGlrTjZBMXRDQ19QaFFJaEN2UTBLeDdRY1dRLXJEWU9RNFRzdUcxSlNPYkNGRDlYejNXYndKU1ctbkF6dktPU3RQWXUzTkxPYXp6aXM",
+   "outlet": "MY.UA",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-19",
+   "independent": 3,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-18-ca-1",
+   "date": "2026-11-18",
+   "country": "CA",
+   "kind": "reassurance",
+   "what": "Public Safety Canada says its household stockpiling guidelines are not tied to any single threat or risk",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYURyVDgtaWczSnpaTmNvYlBELUV0NzFxMWlQUE5MWGhDdkoxUlNGZE9reFUtekt1MVdzSm1VZmZhX2QyRjFPUThoS0JrenZ1bnR5U3kxbFJHSzZSYzItUjBwNS0xcnVZbDhGa0R6MTdpcXFnelhuU2JjdUJQVjk3OE9uMGEwZGhiR0pEU2hRUHhUUks0b3FaTnZnMmt4bkpnU2hNYThhallIYkszLTlYTF9rNU9QS2VBZHhWNFMyNTh2ZFd1LVE?oc=5",
+   "outlet": "CTV News",
+   "hotspots": [],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-19",
+   "independent": 1,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-19-us-1",
+   "date": "2026-11-19",
+   "country": "US",
+   "kind": "reassurance",
+   "what": "Trump urges calm over unspecified technical failures in the US and says there is no need to stock up on food or water",
+   "url": "https://www.infobae.com/america/agencias/2026/11/19/trump-pide-calma-ante-los-fallos-tecnicos-en-eeuu-y-descarta-la-necesidad-de-hacer-acopio-de-alimentos-o-agua/",
+   "outlet": "Infobae",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-19",
+   "independent": 1,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-19-ru-1",
+   "date": "2026-11-19",
+   "country": "RU",
+   "kind": "military-readiness",
+   "what": "Russia's Oryol region approves support measures for reservists, including payments to families of reservists killed",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd3dEZnVfMXYwSnF4NThIcGJYOGZEc0h2cWZnTTFCbFdWR1NfWFV5RE1DV1QxRm5OYl9JSmViWkVUaFM5czQyN1ctQncwUVhraEg2eldtTFhtMXhLdVhPVW5HbjR2MWhwOE5uazFYYndtSm9xZU9ja1dDX3JQMU1lWFlNTEJLV2ZRa0RMdnpUR0dWaTRNaGdSZWlxelpKLTNHN1E?oc=5",
+   "outlet": "Интерфакс Россия",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-19",
+   "independent": 2,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-19-jp-1",
+   "date": "2026-11-19",
+   "country": "JP",
+   "kind": "civil-preparedness",
+   "what": "Akaiwa City, Okayama, holds a disaster drill at a petrol station used as a fuel hub, on Japan's Stockpile Day",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GcmZGRl9IbWRGdUNKTVdfN3VpUTlfclByTktyRU9FWnJmbWxrSWZKdkFkYzJwRHRxd3BiTXN4dzllWjdaM1JZSEh0ZGpMM1FrdC0td3EwV3ZFXzJQQzREaVNiTmE1RjhDV3RVN9IBckFVX3lxTFBXVzBNeFlKdk5yNl9LVVBFS25GVV9iU29icXkzR2JlQ1lVU0pfNWhfM1UwT1BoUTFyLVF4ZlZJZ056SklCd3B2T3QxbkRTVkREM3lqS2xZd1M3Y3YtNXE3VGlLdnRZQWNuT1l5cXZtNUlndw?oc=5",
+   "outlet": "ｄメニューニュース",
+   "hotspots": [],
+   "scheduled": true,
+   "program": "Japan's annual Stockpile Day (19 November)",
+   "source": "corpus",
+   "added": "2026-11-19",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-19-fr-1",
+   "date": "2026-11-19",
+   "country": "FR",
+   "kind": "military-readiness",
+   "what": "French Army announces new benefits for its 41,000 ground-force reservists under a goal to double their number in four years",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOQWVQVkRYN3Q3TDkyeTljQ21KRW9KN3NfaWFrNmFTN29xWnBRSXZVWElGYW9zWXJ5TmpuSmlYTnJzZnY4Qk9jMmYwbTg2Si11S01RUXVmSk5KeEdZRjBKTmdkdG5rZldPelljcm96MHI2SnJlT0VlM0U3WUV0LU50bDhwRW9LejhHcmlNOWR6VktKZUxkV1FqN3ZiMFdWMl9KNEx3SVFOVzVGUXlLU1ktdFBkanJUOHJ6RE9tcFVvR1lmUDNhQTVXb3VNMjJnR0hWNjZ0SFBOTnhKQVU0TlRPaXY4MU9ySElEWDY3MVdrSEp0OENUMWZtYTZLX3FzNFNMWXVkSVNadw?oc=5",
+   "outlet": "Forum Militaire",
+   "hotspots": [
+    "russia-nato-eastern-flank-kaliningrad"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-19",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-19-co-1",
+   "date": "2026-11-19",
+   "country": "CO",
+   "kind": "supply-reserves",
+   "what": "Official Galán (per Infobae) warns of an energy-rationing risk and asks people to cut use at peak hours; no conflict link stated",
+   "url": "https://www.infobae.com/colombia/2026/11/19/galan-advierte-riesgo-de-racionamiento-de-energia-y-pide-reducir-consumo-en-horas-pico/",
+   "outlet": "Infobae",
+   "hotspots": [],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-19",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-19-ye-1",
+   "date": "2026-11-19",
+   "country": "YE",
+   "kind": "military-readiness",
+   "what": "Houthi-run Saba says tribes in Bani Al-Namari, Al-Hayma Al-Dakhiliyah, held a mobilisation to support the fronts",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1XY2JEYXphR29GdU14OVFuTjlfZjlVMFg1X1dQM25ZUVplQTl3OW4tZ3FmbUhLYjJNaWhCRHJHeEEyeHRCTzQ5RVdR?oc=5",
+   "outlet": "Saba",
+   "hotspots": [
+    "yemen-houthi-saudi-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-19",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
-  {
-   "id": "e-2024-11-18-cables",
-   "date": "2024-11-18",
-   "kind": "hybrid",
-   "what": "Two Baltic Sea data cables cut (Sweden-Lithuania, Finland-Germany); Sweden opens a sabotage investigation",
-   "countries": [
-    "SE",
-    "FI",
-    "DE",
-    "LT"
-   ],
-   "hotspot": "russia-nato-eastern-flank-kaliningrad",
-   "url": "https://thestar.com.my/news/focus/2024/11/24/nordic-countries-dust-off-their-crisis-advice",
-   "source": "seed"
-  },
   {
    "id": "e-2024-11-19-nuclear",
    "date": "2024-11-19",
@@ -4499,6 +4590,206 @@
    "url": "https://www.infobae.com/america/agencias/2026/11/18/rusia-dice-que-puede-restaurar-puente-de-crimea-en-tiempo-reducido-tras-ataque-ucraniano/",
    "source": "corpus",
    "independent": 12
+  },
+  {
+   "id": "e-2026-11-19-1",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Israeli army launches a ground operation in Gaza beyond the \"yellow line",
+   "countries": [
+    "AE",
+    "AR",
+    "CA",
+    "CH",
+    "DE",
+    "FR",
+    "GB",
+    "IN"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://www.rfi.fr/es/oriente-medio/20261119-el-ej%C3%A9rcito-israel%C3%AD-lanza-una-operaci%C3%B3n-terrestre-en-gaza-m%C3%A1s-all%C3%A1-de-la-l%C3%ADnea-amarilla",
+   "source": "corpus",
+   "independent": 30
+  },
+  {
+   "id": "e-2026-11-19-2",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Apec summit live: Trump says meeting with Xi and Putin ‘making history’ as trilateral talks begin",
+   "countries": [
+    "AE",
+    "AR",
+    "AT",
+    "CG",
+    "DE",
+    "ES",
+    "FR",
+    "GB"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUVpmZVNtOS1wekNuODkzWkVwNms0UWhRMnUyVEZBNjdYY2Vwa3ROd2otZW9WWkhLR2ZobkRoRmxXdXF0Sm40R3NncnVLZTRRU1d1ZkEtVGd4bWZtZ3lMYzYwSXM3OTYtbnV1QnpuR0UwTVExT2d1enhUUlo5NXNhaGtQQU1ZM0U0UkFCNW8wT0FudnpTQzR3bHdyOUtXRFBWRks5Sm1Pd29LUEZfWFRUem5EUUtoUk5TNWxXM252RGpLeENHY1QwZFJFLUxLRzZkZl96ZDNQeWJXd2c?oc=5",
+   "source": "corpus",
+   "independent": 31
+  },
+  {
+   "id": "e-2026-11-19-3",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Liveblog Ukraine war: Russia: Trains will run again over the Crimea bridge today",
+   "countries": [
+    "AR",
+    "DE",
+    "FR",
+    "GB",
+    "IN",
+    "IT",
+    "PL",
+    "RU"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-russland-noch-heute-fahren-wieder-zuege-ueber-krim-bruecke-faz-110683325.html",
+   "source": "corpus",
+   "independent": 17
+  },
+  {
+   "id": "e-2026-11-19-4",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Hegseth, in Caracas, announces US-Venezuela military partnership agreement",
+   "countries": [
+    "BR",
+    "GB",
+    "HK",
+    "IL",
+    "IN",
+    "LB",
+    "QA",
+    "RU"
+   ],
+   "hotspot": "us-boat-strikes-caribbean-pacific",
+   "url": "https://www.channelnewsasia.com/world/hegseth-in-caracas-announces-us-venezuela-military-partnership-agreement-6563576",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-19-5",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "IRGC reports three tankers hit mines east of the Strait of Hormuz",
+   "countries": [
+    "AR",
+    "AT",
+    "BR",
+    "FR",
+    "GB",
+    "IL",
+    "IN",
+    "IR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.kommersant.ru/doc/9113167",
+   "source": "corpus",
+   "independent": 16
+  },
+  {
+   "id": "e-2026-11-19-6",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Coalition intercepts Houthi missiles toward Riyadh and the south and destroys two launch platforms",
+   "countries": [
+    "AE",
+    "GB",
+    "IL",
+    "LB",
+    "PK",
+    "QA",
+    "RU",
+    "SA"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://aawsat.com/node/5343041",
+   "source": "corpus",
+   "independent": 18
+  },
+  {
+   "id": "e-2026-11-19-7",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Xi Jinping, before meeting Trump and Putin, called for banning and destroying nuclear weapons. He repeated his old thesis that they are \"the sword of Damocles hanging over humanity",
+   "countries": [
+    "AR",
+    "CU",
+    "DE",
+    "EG",
+    "ES",
+    "GB",
+    "IT",
+    "KR"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://meduza.io/news/2026/11/19/si-tszinpin-pered-vstrechey-s-trampom-i-putinym-prizval-zapretit-i-unichtozhit-yadernoe-oruzhie-on-povtoril-svoy-staryy-tezis-chto-eto-damoklov-mech-chelovechestva",
+   "source": "corpus",
+   "independent": 14
+  },
+  {
+   "id": "e-2026-11-19-8",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Houthi Attack Damages Saudi Capital’s Tallest Tower",
+   "countries": [
+    "AR",
+    "AT",
+    "FR",
+    "GB",
+    "IL",
+    "NG",
+    "RU",
+    "SG"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa0hZSmpRQXJwM2pNbUxHY01JZUd1TkdjdU5YNGZYd1hqMmNES3RoTWRCVm9GYjMwX0x5NkMwb2FicHNjWkhMZ1dQUVNsUW1hblVuQjVLVkhlVUZZRDFiMlcxdWNweTV0NjR6TG43MmFYMjczckZ1SmhzSlZtOFdtZVVsNHZpSk1UVWdRZ0phakNPT05NRUxmOFFmNGtMZw?oc=5",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-19-9",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Ukraine attacked the Crimea Bridge three times in one week, rail transport interrupted",
+   "countries": [
+    "AR",
+    "DE",
+    "FR",
+    "GB",
+    "IN",
+    "IT",
+    "PL",
+    "QA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.dw.com/zh/乌克兰一周内三次袭击克里米亚大桥-铁路运输中断/a-79988821?maca=chi-rss-chi-all-1127-rdf",
+   "source": "corpus",
+   "independent": 14
+  },
+  {
+   "id": "e-2026-11-19-10",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Iran widens Gulf attacks by targeting U.S. air base in Kuwait and sites in Bahrain",
+   "countries": [
+    "AE",
+    "BR",
+    "CA",
+    "CH",
+    "FR",
+    "GB",
+    "QA",
+    "TH"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaW9yLUs5SFJFWmk1NUp3aUpBc0lfYl95MEJsUl83dUs2ck9rT1ctbllHMFU0bWpseVFKSG01MV9ueV9LNW9EazJ2M2xla19qSzBPWklsM0F6ZHhDd3h1TzRxTFhSMm5aamtzN3AtZnFORWlNVk1yM0tTY0phUXRORmJwUmFIbU1BZ3ZyanlTVkg0TDMzekV3V0ZkVEl2MTNENkQyOTNSWjVsZGhVNWhZZHpFdjNDTUnSAbwBQVVfeXFMT2g5NGpZdnN5R1R2QXVsV2txeXQzYWhVdllQa1NrY2RSM2JsSHNvNmNWRnNzSGk2UlpoRnlJVFdGbGNQZnJwd0M2S2FDdEdRWmRDTEJ6UFdMUXp0d040UjlHdWFLLVROcjdmRHhCNzdySDNvWFdfWWRsS1BNVkNVYUYybnFmX2RaTFh3TmQxeFFqb2VvUnVxbWlpM3E5Y1Q0dWRPNVBJMzFGSDZZQnltTlQyYTlNUllQa09WZWw?oc=5",
+   "source": "corpus",
+   "independent": 13
   }
  ]
 }
