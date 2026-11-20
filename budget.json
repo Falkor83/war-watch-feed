@@ -1,67 +1,7 @@
 {
  "month": "2026-11",
- "usd": 23.3825,
+ "usd": 24.5143,
  "runs": [
-  {
-   "at": "2026-11-08T10:38:22Z",
-   "what": "weekly Asia-Pacific notes",
-   "model": "claude-sonnet-5-5",
-   "in": 110623,
-   "out": 14803,
-   "searches": 7,
-   "batch": true,
-   "usd": 0.2546
-  },
-  {
-   "at": "2026-11-08T10:38:22Z",
-   "what": "weekly Americas notes",
-   "model": "claude-sonnet-5-5",
-   "in": 104384,
-   "out": 18200,
-   "searches": 7,
-   "batch": true,
-   "usd": 0.2654
-  },
-  {
-   "at": "2026-11-08T10:38:22Z",
-   "what": "weekly cyber notes",
-   "model": "claude-sonnet-5-5",
-   "in": 108854,
-   "out": 13075,
-   "searches": 7,
-   "batch": true,
-   "usd": 0.2442
-  },
-  {
-   "at": "2026-11-08T10:41:33Z",
-   "what": "weekly Europe review",
-   "model": "claude-opus-5-5",
-   "in": 12888,
-   "out": 12155,
-   "searches": 0,
-   "batch": true,
-   "usd": 0.1473
-  },
-  {
-   "at": "2026-11-08T10:41:33Z",
-   "what": "weekly Middle East review",
-   "model": "claude-opus-5-5",
-   "in": 14622,
-   "out": 10958,
-   "searches": 0,
-   "batch": true,
-   "usd": 0.1388
-  },
-  {
-   "at": "2026-11-08T10:41:33Z",
-   "what": "weekly Africa review",
-   "model": "claude-opus-5-5",
-   "in": 13061,
-   "out": 14506,
-   "searches": 0,
-   "batch": true,
-   "usd": 0.1712
-  },
   {
    "at": "2026-11-08T10:41:33Z",
    "what": "weekly Asia-Pacific review",
@@ -811,10 +751,70 @@
    "searches": 0,
    "batch": true,
    "usd": 0.1509
+  },
+  {
+   "at": "2026-11-20T10:17:04Z",
+   "what": "daily search notes",
+   "model": "claude-sonnet-5-5",
+   "in": 271974,
+   "out": 16995,
+   "searches": 10,
+   "batch": true,
+   "usd": 0.4569
+  },
+  {
+   "at": "2026-11-20T10:21:07Z",
+   "what": "daily analysis",
+   "model": "claude-opus-5-5",
+   "in": 50873,
+   "out": 17598,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.2777
+  },
+  {
+   "at": "2026-11-20T10:29:17Z",
+   "what": "boiling point",
+   "model": "claude-opus-5-5",
+   "in": 22238,
+   "out": 6882,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.1133
+  },
+  {
+   "at": "2026-11-20T10:31:19Z",
+   "what": "ai risk",
+   "model": "claude-opus-5-5",
+   "in": 10020,
+   "out": 7076,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.0908
+  },
+  {
+   "at": "2026-11-20T10:34:51Z",
+   "what": "actions",
+   "model": "claude-opus-5-5",
+   "in": 29459,
+   "out": 7966,
+   "searches": 0,
+   "batch": true,
+   "usd": 0.1386
+  },
+  {
+   "at": "2026-11-20T10:36:53Z",
+   "what": "track record",
+   "model": "claude-sonnet-5-5",
+   "in": 32309,
+   "out": 448,
+   "searches": 2,
+   "batch": true,
+   "usd": 0.0545
   }
  ],
  "cap": 45.0,
- "headlines_usd": 1.9568,
- "total_usd": 26.1931,
- "focus_usd": 0.8538
+ "headlines_usd": 2.1044,
+ "total_usd": 27.4835,
+ "focus_usd": 0.8648
 }

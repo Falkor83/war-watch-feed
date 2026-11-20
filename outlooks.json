@@ -498,6 +498,14 @@
 "basis": [
 "https://www.newsbeep.com/809668/",
 "https://www.newsdrum.in/international/trump-xi-putin-to-hold-historic-nuclear-talks-in-china-ukraine-off-agenda-12808264"
+],
+"result": "happened",
+"checked": "2026-11-20",
+"why": "The Shenzhen meeting among Trump, Xi and Putin took place on Nov 19. Iranwire reports the joint declaration made no mention of Iran or the Strait of Hormuz, and other outlets report no agreement on Iran came out of it.",
+"evidence": [
+"https://iranwire.com/en/news/160472-us-china-and-russia-issue-joint-statement-on-strategic-stability-after-shenzhen-summit-omitting-iran-and-ukraine-pledges/",
+"https://alhurra.com/en/56048",
+"https://asiatimes.com/2026/11/shenzhen-summit-letdown-and-the-limits-of-multipolarity/"
 ]
 },
 {
@@ -789,6 +797,67 @@
 "https://www.radiotamazuj.org/en/news/article/sudanese-court-sentences-rsf-leader-hemedti-to-death-in-absentia",
 "https://news.google.com/rss/articles/CBMi4ANBVV95cUxNbi1tRVZRMjF0MlVnT0FhaUxlOWlxMGlDVkRQYm4xdnF3bXBJc2V0emF0VlViRjBnTnR2eEx6YXRvcHlsWE40MmdUdDR1WktERU9jZnlWNkViNDloRHlBT05FXzFOVmZmOXR5SFdEZFNjUVgteWI5eFl2WnRVSWdHZjh1UEVYVDNGTjRVMktkYUpWTVlaWk55MjhtTzJ1TkNwalJwV0pncmNEMUUydVZlRk1tYmJKZUtYd1RFdUp6d190d0FMLXVYLTRqdllQSHlRcUlZV1ZMdVJWNFF0LWVxcy0xZXZWaGVuRWFjNnBteWJjUjdXQmZVbzJzOGR1QzJicVhwMmlzNFY3Z05mY2tHMk1PUWc3LV9rbkQwdEM3aU1RVHp1RzVzdlFnaUFqNTZvZFVRb3Z2VmNTUmFxYTNDUi1mYWZzamx6bGVFMHhWU2lPaWUyQlI",
 "https://news.google.com/rss/articles/CBMilwJBVV95cUxOb2ZJLXdObUtBNi1UTEhYNnRHQUNyQUkzQ19SZU1HVWdZbXZfcFQ3blNFdlE4ZHIyRmd6ZnBRcHlZWkE0a0RySDR4RlNMRmhsMS1BakV5TGExc2h3WWt2U1hvUFJaamJscWZfR2wwa05LNy05M3hjWEpxRGhkVFROdWotLWFhLWN4MDAwamtmVmRhaHRkT05VUklhNFVGZk9EMzZxUkd2WE5ORjhsUTRZQlhKNFU1aDBfZ3hWa0t2Z24tZ05BdnRNZHhWMk9QbzAwbTVsb2RfSEUwQ0IydzEwVFlqX0FoQjhPWW9ZY1RhcVZDT3F1SWhfdHUySXI0SVNSbzVEUDhjUjJWczJUX2xRbmFuZ3BkX0U?oc=5"
+]
+},
+{
+"made": "2026-11-20",
+"hotspot": "russia-ukraine-war",
+"text": "Further Russian mass strikes on Ukrainian energy or transport infrastructure are reported in the next two weeks.",
+"likelihood": "very likely",
+"check_by": "2026-12-04",
+"basis": [
+"https://www.thestandard.com.hk/world/article/349083/Putin-says-he-will-hit-back-hard-after-Ukraine-strikes-Crimea-Bridge-again",
+"https://www.lbc.co.uk/article/vladimir-putin-kerch-bridge-crimea-zelenskyy-angry-5HjdnK6_2/",
+"https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/",
+"https://news.google.com/rss/articles/CBMiiwVBVV95cUxOUUtWUmtLXzBCMVdSNFA2TjI3SE1ob1hlX0hKSWpVby1CeVp3X215bkRvem1GWURxQmhxTjNwSG1PUUFUbTAtT195OVRYOVotNjEzUG9Hcy0xcGdFMFRXRXZ3azdCTFl5N2ZlbDA1c3hlVWlSWi1WVFAtQkNHSWIzNVVzd2dsUWpWNjA2eVh2aFhWY280NG5JYjVlbkh5VjdJSmo3azJtUHE2VkVyRGx0U1hxTlZiazdqU3FXdlJxQldPRHlMdzZMLTh2Sldlc1R0UDVnM0RlWjVBTi1uQ3JzMEtlU3R4aUJOam1ZNU4tNkpBMDJyNEl5TTd2OUM2UjItSTI4TVp5TFMwLTVkaHNDQlljeElxV3k3TmxHUTVva215VzBlWklOdnpISElQLXJCVjBIQWJkQkszdFVaUVk4bmQ1U1V2elV6eFdBR0NRVVQyT3RXQ2h"
+]
+},
+{
+"made": "2026-11-20",
+"hotspot": "us-israel-iran-war",
+"text": "A large joint US-Israeli strike campaign on Iranian nuclear sites begins before Dec 20.",
+"likelihood": "unlikely",
+"check_by": "2026-12-20",
+"basis": [
+"https://www.timesofisrael.com/liveblog_entry/trump-says-hes-not-rushing-into-iran-strike-will-wait-until-january/",
+"https://israelnationalnews.com/news/436674",
+"https://www.timesofisrael.com/netanyahu-reportedly-tells-aides-renewed-war-with-iran-unavoidable-as-trump-weighs-options/"
+]
+},
+{
+"made": "2026-11-20",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "More Houthi missile or drone launches toward Saudi Arabia are reported in the next two weeks.",
+"likelihood": "very likely",
+"check_by": "2026-12-04",
+"basis": [
+"https://news.google.com/rss/articles/CBMijAVBVV95cUxQYlY1VGRzZ3MtQ0JjdWhwRDVjODBBRHF2SHIwZ2lKSXlUVFduNHRveHVDRENFMG9nZHkxV2owRWoyWF9LcnZTRVdGS0pjU0liQ0hpMG9QemM2STFlU1JyRlFoc1l6NUFxYm5uOVJiQUx6aWNfQ3ZZX2hRUFRsMHhBUU5nMGY3cGR4VGliel92QVdna0NXR1J2dnlQRGNGb0x6REJfM25WWEdFcUUwU2UwWWR1QmNvNl9uczdnNkkyYmg5S1JraHBidWJHLTFheTFYSGlKNU5qWW1OdVRfcmNwb0JnazRYNHFsUEwxOVZzNjF4cjB3NVhQSnkzbWEzQVlib1NUMGRrbVlrZmhIVll3TUQwQmhNbW96bVhuWG91NlVCM2tJN2tOa2ZZSTBLM1BENVd3OGtVZVpxZUpxR3N1V3hodVRpaUlianZxZ0h1SmVmWWN6Qlp",
+"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-downing-houthi-drones-launched-towards-riyadh",
+"https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/"
+]
+},
+{
+"made": "2026-11-20",
+"hotspot": "black-sea-shipping-attacks",
+"text": "A Black Sea maritime ceasefire is agreed by Russia and Ukraine.",
+"likelihood": "very unlikely",
+"check_by": "2026-12-18",
+"basis": [
+"https://www.thestandard.com.hk/world/article/349083/Putin-says-he-will-hit-back-hard-after-Ukraine-strikes-Crimea-Bridge-again",
+"https://www.lbc.co.uk/article/vladimir-putin-kerch-bridge-crimea-zelenskyy-angry-5HjdnK6_2/",
+"https://news.google.com/rss/articles/CBMiiwVBVV95cUxOUUtWUmtLXzBCMVdSNFA2TjI3SE1ob1hlX0hKSWpVby1CeVp3X215bkRvem1GWURxQmhxTjNwSG1PUUFUbTAtT195OVRYOVotNjEzUG9Hcy0xcGdFMFRXRXZ3azdCTFl5N2ZlbDA1c3hlVWlSWi1WVFAtQkNHSWIzNVVzd2dsUWpWNjA2eVh2aFhWY280NG5JYjVlbkh5VjdJSmo3azJtUHE2VkVyRGx0U1hxTlZiazdqU3FXdlJxQldPRHlMdzZMLTh2Sldlc1R0UDVnM0RlWjVBTi1uQ3JzMEtlU3R4aUJOam1ZNU4tNkpBMDJyNEl5TTd2OUM2UjItSTI4TVp5TFMwLTVkaHNDQlljeElxV3k3TmxHUTVva215VzBlWklOdnpISElQLXJCVjBIQWJkQkszdFVaUVk4bmQ1U1V2elV6eFdBR0NRVVQyT3RXQ2h"
+]
+},
+{
+"made": "2026-11-20",
+"hotspot": "somalia-al-shabaab",
+"text": "AFRICOM reports further air strikes in Somalia within two weeks.",
+"likelihood": "very likely",
+"check_by": "2026-12-04",
+"basis": [
+"https://www.africom.mil/pressrelease/37175/us-forces-conduct-strikes-targeting-al-shabaab",
+"https://news.antiwar.com/2026/11/18/us-launches-series-of-airstrikes-in-somalia-amid-heavy-fighting-between-al-shabaab-and-us-backed-forces/",
+"https://ftlsomalia.com/us-airstrike-hits-al-shabaab-positions-40km-northwest-of-kismayo/"
 ]
 }
 ]

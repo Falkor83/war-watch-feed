@@ -1631,21 +1631,102 @@
    "added": "2026-11-19",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-19-ua-1",
+   "date": "2026-11-19",
+   "country": "UA",
+   "kind": "military-readiness",
+   "what": "Ukraine's education ministry sets out which students could lose deferment from mobilisation under planned changes",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLXZnVmhLMzA0VWxINzNFNndzdS1XbVllaWJDZHg1XzlhZHRMRFRnbHlBMmFHUmQ0aHhubmR3Ykl4cWNZZnMtZ3BEYk53Qlg5OVNDSnd0UXJNLW56TlluUHBnaTZ5RkdBaERENkVzNE9aNkFBMFR1dFR3NTV5M0lycnplTk9IclBFcnNya1NmZUViWWM4bnNxd0FqMno5YkVPYlpZMUdkN01uMHFnZnBDSElTOHFfdlpzV0lKX2NxUHhkVHEzbkNFatIBzgFBVV95cUxQYy1CTWVseTlFdC05dTZMUnJZRDBTdHRMREFqZTl1TWFfM05CRTI4anMwNm8wVDhKb1NaSFZHTUlaZVl6NG83c2JLTk10dlgwY0ROWjhBdmx2SG0tV3ZnQUsyLWZON1liVks3eW5kbzhxX3JnNjlQXzFPNUNfTWdEODBlQnBLVk9TeXE3bk4xSkVMVlBrWFM5QkRnNXZOZ2dCZEpidy1lQXl4cGMwcmRBdlZXVGg4M1NBUlNrWkJMbnE5TmdpV2xyWGc2bU1tQQ?oc=5",
+   "outlet": "Politeka",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-20",
+   "independent": 2,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-20-il-1",
+   "date": "2026-11-20",
+   "country": "IL",
+   "kind": "military-readiness",
+   "what": "Israel's army brings in a new reservist training framework; reservists tell Makor Rishon it does not ease their load",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95S0F4V3pTQ1RBdC1CQUZqMXljamIyd3RLNFNyMTlTc1k4WEZLVE1qbkNybkhYU2NiWDAyZ1dpZjZDeHE2WGI5RWd5aFQ0akg5M01pNXpkN0dieWNJa2R6UU5LQ2szNE1S?oc=5",
+   "outlet": "מקור ראשון",
+   "hotspots": [
+    "israel-hezbollah-lebanon",
+    "israel-hamas-gaza",
+    "us-israel-iran-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-20",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-20-iq-1",
+   "date": "2026-11-20",
+   "country": "IQ",
+   "kind": "military-readiness",
+   "what": "Iraqi federal police and Popular Mobilization Forces prepare to enter the Jurf area, an Al Jazeera reporter says",
+   "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOby1XVEtUeXRpNGJUTE5vcFp6eTRaZHAzbm9iRmRFVzVZaFhBcmVESHJ0djhXZlljblJtWXhkNzlQSDhuQmdtNU9zcjVfSnV3MEFkYk1YeWRCdW5ScXhvOWpYbm5MekU2SnpKYzRpcjhzMmVfTkd2eG9ZcU5mVjhnVldfU0JNV21KcEtXeGxKczRnX0ZjUmo3cGFpdzZfUEtXQktmcEdhWnBXWThrcmVpVEpQUUZIVkp5OXV6UGxub3FrY0VXRFVtclpXQ2k3OGp6eXZrTnQ5RDdGbDZXdEE4dWUzRnIzQy13R1pDcTUyMWVFN0xKcXlzbkk5cVAtYjlHcTM1WUFROVBmdnF3ZENLc0pKeXBvTkRySzVCTG5zOGcwNzJqMlh6aXhQTFNVVllz?oc=5",
+   "outlet": "Al Jazeera",
+   "hotspots": [
+    "iraq-militias-us-exit",
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-20",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-20-ye-1",
+   "date": "2026-11-20",
+   "country": "YE",
+   "kind": "military-readiness",
+   "what": "Houthi-run Saba says armed tribal gatherings in Dhamar back continued general mobilisation and more men for the fronts",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50WE85R1dJMnc5R2pSUkFHTUdVWVdxS1lVeWd5b0ZkRmlBTlhRWERiN1ZULWR4N0ZUd3F5X0NtdmZjWFZIRjhWYk5ZZkNLWDQ?oc=5",
+   "outlet": "Saba",
+   "hotspots": [
+    "yemen-houthi-saudi-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-20",
+   "independent": 1,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-20-ru-1",
+   "date": "2026-11-20",
+   "country": "RU",
+   "kind": "military-readiness",
+   "what": "Zabaykalsky Krai says its 'Manul' mobile fire group members would not be sent to the war if mobilisation is declared",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUUtLdEhadmF0aHVWMjV2Ynhqc2tTdEMzOFJDX3VzWWdqQlBvYjgwd0sxcGxuN0I1akQwVWFQSUo1TUR2ZWUybDM3ZGhDUmxiTG5zQUdOa0FtYWRwU0NBQkUxMlE2bHRiSUVHZWRCS3kwckNpcVJONXNDQlJiOHQ0MFJTVzZNZ1ZJNFZJcndmQ1VqN0RMMVJwR3k5bUhyLUJhTVZN?oc=5",
+   "outlet": "Забайкальский рабочий",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-20",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
-  {
-   "id": "e-2024-11-19-nuclear",
-   "date": "2024-11-19",
-   "kind": "nuclear",
-   "what": "Putin signs a doctrine lowering Russia's threshold for using nuclear weapons",
-   "countries": [
-    "RU"
-   ],
-   "hotspot": "russia-ukraine-war",
-   "url": "https://lbc.co.uk/news/sweden-war-pamphlet-citizens-prepare-wwiii",
-   "source": "seed"
-  },
   {
    "id": "e-2025-09-drones",
    "date": "2025-09-15",
@@ -4790,6 +4871,205 @@
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaW9yLUs5SFJFWmk1NUp3aUpBc0lfYl95MEJsUl83dUs2ck9rT1ctbllHMFU0bWpseVFKSG01MV9ueV9LNW9EazJ2M2xla19qSzBPWklsM0F6ZHhDd3h1TzRxTFhSMm5aamtzN3AtZnFORWlNVk1yM0tTY0phUXRORmJwUmFIbU1BZ3ZyanlTVkg0TDMzekV3V0ZkVEl2MTNENkQyOTNSWjVsZGhVNWhZZHpFdjNDTUnSAbwBQVVfeXFMT2g5NGpZdnN5R1R2QXVsV2txeXQzYWhVdllQa1NrY2RSM2JsSHNvNmNWRnNzSGk2UlpoRnlJVFdGbGNQZnJwd0M2S2FDdEdRWmRDTEJ6UFdMUXp0d040UjlHdWFLLVROcjdmRHhCNzdySDNvWFdfWWRsS1BNVkNVYUYybnFmX2RaTFh3TmQxeFFqb2VvUnVxbWlpM3E5Y1Q0dWRPNVBJMzFGSDZZQnltTlQyYTlNUllQa09WZWw?oc=5",
    "source": "corpus",
    "independent": 13
+  },
+  {
+   "id": "e-2026-11-20-6",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Our response will be much more painful,\" Vladimir Putin reacts to attack on the Crimean Bridge",
+   "countries": [
+    "AE",
+    "AR",
+    "DE",
+    "EC",
+    "EG",
+    "IT",
+    "RU",
+    "UA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://eluniverso.com/internacional/europa/nuestra-respuesta-sera-mucho-mas-dolorosa-vladimir-putin-reacciona-a-ataque-contra-puente-de-crimea-nota/",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-20-6",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Ukraine - Russia war latest : Putin threatens painful response after Kyiv strikes Crimean bridge for third time",
+   "countries": [
+    "DE",
+    "ES",
+    "FR",
+    "GB",
+    "IN",
+    "RU",
+    "TH",
+    "UA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-putin-zelensky-b3087642.html",
+   "source": "corpus",
+   "independent": 17
+  },
+  {
+   "id": "e-2026-11-20-6",
+   "date": "2026-11-19",
+   "kind": "news",
+   "what": "Ukraine’s next threat is not Donald Trump",
+   "countries": [
+    "AE",
+    "ES",
+    "IL",
+    "JP",
+    "PL",
+    "RU",
+    "US"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMXVLR0RXMlZVYjJ2alhyV2tfbEozNVdVd2hVVTBVM2xPSElib2NxSFI4NlNfSUExMzFXSVZPY0JRXzJ5NERBbFdtRVFsUzREQmNWZnc3a19pVkNUclNOWTQwYkZ1dk04OW81UHRMaExQeTQxcUlNcTM1SG9yVXFlQmtOWFpLNVVrT3BFQzIwQUZYSUViSjRoR3lqUkJ5bDVMUWxMNGN0NnNOQQ?oc=5",
+   "source": "corpus",
+   "independent": 14
+  },
+  {
+   "id": "e-2026-11-20-1",
+   "date": "2026-11-20",
+   "kind": "news",
+   "what": "Myanmar military recognized as committing genocide against Rohingya by International Court of Justice",
+   "countries": [
+    "BR",
+    "CN",
+    "ES",
+    "GB",
+    "IN",
+    "KR",
+    "SG",
+    "US"
+   ],
+   "hotspot": "myanmar-civil-war",
+   "url": "https://www.bbc.com/japanese/articles/crq5vz4j0xlvo?at_medium=RSS&at_campaign=rss",
+   "source": "corpus",
+   "independent": 20
+  },
+  {
+   "id": "e-2026-11-20-2",
+   "date": "2026-11-20",
+   "kind": "news",
+   "what": "Trump to Europeans: Putin wants to end the war in Ukraine",
+   "countries": [
+    "AE",
+    "DE",
+    "GB",
+    "IN",
+    "IT",
+    "KR",
+    "RU",
+    "SA"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.skynewsarabia.com/world/1906006-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%84%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D9%8A%D9%86-%D8%A8%D9%88%D8%AA%D9%8A%D9%86-%D9%8A%D8%B1%D9%8A%D8%AF-%D8%A5%D9%86%D9%87%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7",
+   "source": "corpus",
+   "independent": 16
+  },
+  {
+   "id": "e-2026-11-20-3",
+   "date": "2026-11-20",
+   "kind": "news",
+   "what": "European leaders back Ukraine as Trump draws closer to Putin",
+   "countries": [
+    "AE",
+    "BG",
+    "DE",
+    "GB",
+    "HU",
+    "MX",
+    "QA",
+    "RU"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.jornada.com.mx/2026/11/20/mundo/021n4mun?partner=rss",
+   "source": "corpus",
+   "independent": 17
+  },
+  {
+   "id": "e-2026-11-20-4",
+   "date": "2026-11-20",
+   "kind": "news",
+   "what": "Senate votes against a resolution to limit Trump's powers in the war on Iran",
+   "countries": [
+    "AU",
+    "DE",
+    "GB",
+    "ID",
+    "IN",
+    "JP",
+    "LB",
+    "QA"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMioAVBVV95cUxNMTlvcG1pTVBGMTBnN2VYQVR1T3RJMGdmSmlVOG9qY2pSYjhKcUpKUjhpdFFKUDNlci1pYnp2MHIybFYzLVp0WV9IdVZOTFFQVjZRcnpDdWZLdXlKRHpmZ0NXWU1kbkhyUkZrT0J4dVREYWpELWo1b2ZuMERZZWVzOWpVVW5sRDlHbHBrOUpMa29VNDB3T1lRSnFiRVFMTzB1T2hrUVc2ZEYzS1Jma05lTjc5bjF5alpXTUpnY0I0OTRSNUU4Uzh2M3VOMnkzMDhzRzVxeWdyTGRabWh0T3BfOWNMczVqSmZSUGJ5bUI0dmx0X0k1Y3VKWkNCbExIWDlxSHFSOEU0REZIdXFYcVNDaWRLeThfaUd6a0VwVVVTb0xmWlRWUkl0akE3UTNkMjhWOTNBWE9Pd3lHZDNOTHhhRjNmQkh3cVdsbEYwNUdoQXN5czZ2V012UGcyVG1BY2hKTEgxX1BlR3Rjc1ZiZS1oT2g1ZTlmVFE5c05CM2pPYkRWUnN2V0NDQmRaSmV3dWQ5U3VTdXVyY3hQYVNkcFhwanN",
+   "source": "corpus",
+   "independent": 13
+  },
+  {
+   "id": "e-2026-11-20-5",
+   "date": "2026-11-20",
+   "kind": "news",
+   "what": "WSJ: US discusses Ukraine joining NATO in exchange for Donbas",
+   "countries": [
+    "AE",
+    "DE",
+    "EG",
+    "GB",
+    "IT",
+    "RU",
+    "SA",
+    "US"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.dw.com/ru/wsj-сша-обсуждают-вступление-украины-в-нато-в-обмен-на-донбасс/a-79999651?maca=rus-rss-ru-all-1126-rdf",
+   "source": "corpus",
+   "independent": 15
+  },
+  {
+   "id": "e-2026-11-20-6",
+   "date": "2026-11-20",
+   "kind": "news",
+   "what": "Russia’s day-long attack on Kyiv damages embassies",
+   "countries": [
+    "AR",
+    "AT",
+    "CG",
+    "DE",
+    "FR",
+    "GB",
+    "HR",
+    "PL"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
+   "source": "corpus",
+   "independent": 13
+  },
+  {
+   "id": "e-2026-11-20-7",
+   "date": "2026-11-20",
+   "kind": "news",
+   "what": "Three Kyiv bridges hit during major Russian missile attack",
+   "countries": [
+    "AT",
+    "AU",
+    "BR",
+    "DE",
+    "FR",
+    "GB",
+    "IT",
+    "KR"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+   "source": "corpus",
+   "independent": 14
   }
  ]
 }
