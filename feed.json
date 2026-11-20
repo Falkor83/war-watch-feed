@@ -1776,9 +1776,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Iran says mines set two tankers ablaze near Hormuz; Trump says no rush on strikes",
+   "status": "Iraq enters militia stronghold; Iran tests US blockade; new strike talk grows",
    "summary": "The US and Israel have been at war with Iran since early 2026, with Hormuz shipping disrupted and a US naval blockade of Iran in place. Foreign Policy reports that US-Iran strikes resumed in the past week after a roughly two-month lull, including Iranian fire at US assets in Bahrain and Kuwait. On Nov 19, UKMTO reported a vessel hit by an unknown projectile off Oman, and Iran's navy says two tankers caught fire after hitting mines east of the strait. Trump told Axios he is not rushing a decision on wider strikes and would wait until after the new year, while Axios reports Netanyahu is pressing for a joint campaign. The Senate rejected a war powers resolution 48-51.",
    "latest": [
+    {
+     "date": "2026-11-20",
+     "at": "2026-11-20T12:59:44Z",
+     "text": "Iraqi forces have entered Jurf al-Sakhar, the stronghold of the Iran-backed Kataib Hezbollah, under a compromise deal. Reuters and other outlets report it as a Tehran-mediated agreement. RFI reports that the militias withdrew under pressure from Trump.",
+     "outlet": "Infobae",
+     "country": "Argentina",
+     "url": "https://www.infobae.com/america/mundo/2026/11/20/las-fuerzas-iraquies-entraron-al-bastion-del-grupo-terrorista-proirani-kataeb-hezbola-tras-un-acuerdo-mediado-por-teheran/",
+     "region": "latin-america",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-20",
+     "at": "2026-11-20T12:59:44Z",
+     "text": "Iran is readying a tanker convoy at Kharg Island to test the US naval blockade, according to Euronews and FAZ. Araghchi says the blockade must be broken. IranWire, an Iranian outlet, reports one sanctioned tanker moved 200,000 barrels of Iranian oil despite the blockade; this is that outlet's claim.",
+     "outlet": "Euronews",
+     "country": "France",
+     "url": "https://www.euronews.com/2026/11/20/iran-readies-tanker-convoy-at-kharg-island-to-test-us-oil-blockade",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-20",
+     "at": "2026-11-20T12:59:44Z",
+     "text": "Reports of planned renewed attacks on Iran are growing. CBS News, citing sources, says the US and Israel are considering a new assault; this is US media reporting sources, not independently confirmed. RFI reports the Mossad chief has held consultations in Washington on a new round of strikes.",
+     "outlet": "CBS News World",
+     "country": "United States",
+     "url": "https://www.cbsnews.com/news/iran-war-us-israel-considering-new-assault-sources-say/",
+     "region": "north-america",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-20",
      "text": "Headline (translated from ar): Senate votes against a resolution to limit Trump's powers in the war on Iran [story carried by 13 independent sources in 11 countries (AU, DE, GB, ID, IN, JP)]",
@@ -1826,36 +1859,6 @@
      "country": "United Arab Emirates",
      "url": "https://www.skynewsarabia.com/world/1905938-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%AA%D8%B1%D8%AF%D8%AF-%D9%88%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D8%B6%D8%BA%D8%B7-%D9%83%D9%88%D8%A7%D9%84%D9%8A%D8%B3-%D8%B6%D8%B1%D8%A8%D8%A9-%D9%85%D8%AD%D8%AA%D9%85%D9%84%D8%A9-%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
      "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-20",
-     "text": "Iran's army says two oil tankers caught fire after hitting naval mines in the Strait of Hormuz. This comes from one UK outlet relaying the Iranian army's account, and no independent confirmation has been reported. Separately, a US maritime agency memo says the Iran blockade is pushing up Gulf insurance premiums.",
-     "outlet": "Middle East Eye",
-     "country": "United Kingdom",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-army-says-two-oil-tankers-ablaze-after-hitting-naval-mines",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-20",
-     "text": "One Thai outlet reports Iran plans a convoy of tankers flying the Iranian flag from Kharg Island through the US blockade. This is a single unrated report and is unconfirmed. Iran's state media says Tehran rules out IAEA inspections while US threats continue, which is Iran's own claim.",
-     "outlet": "spacebar.th",
-     "country": "Thailand",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUllKWlhnTkNNUUZ2RzhkUmJXYzROaGNrbXBUUUpYZU5aZXNCN0U1SGQ3SHpIUXloZE9GejRyZzFtWTNJNjY2Q016cVVnQ3V3UWZCaW5rSVRtTzRwTmhTSEJvMzJ3LVlaUmc0QURzcWd5X3Z4WkZNdTdXRzBrejkzYWwyVERSQVBlQjY0?oc=5",
-     "region": "southeast-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-20",
-     "text": "A Pentagon official puts the cost of the US war against Iran above $48 billion, according to several outlets. A Korean outlet converts this to over 64 trillion won and notes that it excludes damage to US bases in the Middle East.",
-     "outlet": "BBC Urdu",
-     "country": "United Kingdom",
-     "url": "https://www.bbc.co.uk/urdu/live/cx24e1zdpy5qt?at_medium=RSS&at_campaign=rss",
-     "region": "europe",
      "tag": "non-party",
      "state_media": false
     }
@@ -13329,11 +13332,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-17T15:12:00Z",
-     "headline": "Dirty-bomb claim draws Trump warning; Qeshm blasts and Hormuz tanker fires reported; Qatar-Iran talks",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-17T18:39:14Z",
      "headline": "US hits Qeshm Island again; Iran targets Bahrain radar; tanker hit in Hormuz",
      "direction": "escalating"
@@ -13447,199 +13445,249 @@
      "at": "2026-11-20T10:13:46Z",
      "headline": "Strikes on Iran still deferred; Iraqi forces enter militia base; Senate blocks war curbs",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-20T12:59:44Z",
+     "headline": "Iraq enters militia stronghold; Iran tests US blockade; new strike talk grows",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-20T10:13:46Z",
-   "next_at": "2026-11-20T13:13:46Z",
-   "headline": "Strikes on Iran still deferred; Iraqi forces enter militia base; Senate blocks war curbs",
-   "direction": "steady",
+   "updated_at": "2026-11-20T12:59:44Z",
+   "next_at": "2026-11-20T15:59:44Z",
+   "headline": "Iraq enters militia stronghold; Iran tests US blockade; new strike talk grows",
+   "direction": "escalating",
    "points": [
     {
-     "text": "Iraqi security forces have moved into Jurf Al Sakhar, an Iran-backed militia stronghold, according to a Reuters witness and Iraqi security officials reported by Al-Monitor.",
+     "text": "Iraqi forces have entered Jurf al-Sakhar, the stronghold of the Iran-backed Kataib Hezbollah, under a compromise deal. Reuters and other outlets report it as a Tehran-mediated agreement. RFI reports that the militias withdrew under pressure from Trump.",
      "stories": [
-      "s1"
+      "s1",
+      "s4",
+      "s6"
      ],
      "sources": [
       {
-       "t": "Iraqi security forces move into Iran-backed militia stronghold of Jurf Al Sakhar",
-       "u": "https://www.thenationalnews.com/news/mena/2026/11/20/iraqi-security-forces-move-into-iran-backed-militia-stronghold-of-jurf-al-sakhar/",
-       "s": "The National",
-       "c": "AE",
-       "l": "en",
-       "p": 1795164267,
+       "t": "Iraqi forces entered the stronghold of the pro-Iranian group Kataib Hezbollah after an agreement mediated by Tehran",
+       "o": "Las fuerzas iraquíes entraron al bastión del grupo terrorista proiraní Kataeb Hezbollah tras un acuerdo mediado por Teherán",
+       "u": "https://www.infobae.com/america/mundo/2026/11/20/las-fuerzas-iraquies-entraron-al-bastion-del-grupo-terrorista-proirani-kataeb-hezbola-tras-un-acuerdo-mediado-por-teheran/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1795176903,
        "r": "known"
       },
       {
-       "t": "Iraqi security forces deploy in Iran-backed militia stronghold, Reuters witness says",
-       "u": "https://www.straitstimes.com/world/middle-east/iraqi-security-forces-to-deploy-in-iran-backed-militia-stronghold-security-officials-say",
-       "s": "The Straits Times",
+       "t": "Iraqi forces enter stronghold of Iran-backed group under compromise deal",
+       "u": "https://www.channelnewsasia.com/world/iraqi-forces-enter-stronghold-iran-backed-group-under-compromise-deal-6569101",
+       "s": "CNA World",
        "c": "SG",
        "l": "en",
-       "p": 1795162530,
+       "p": 1795171680,
        "r": "known"
       },
       {
-       "t": "Iraqi security forces to deploy in Iran-backed militia stronghold, security officials say",
-       "u": "https://www.al-monitor.com/originals/2026/11/iraqi-security-forces-deploy-iran-backed-militia-stronghold-security-officials",
-       "s": "Al-Monitor",
-       "c": "US",
+       "t": "Iraqi forces strike compromise with powerful pro-Iran militia",
+       "u": "https://www.france24.com/en/video/20261120-iraqi-forces-strike-compromise-with-powerful-pro-iran-militia",
+       "s": "France 24",
+       "c": "FR",
        "l": "en",
-       "p": 1795160810,
+       "p": 1795171007,
        "r": "known"
       },
       {
-       "t": "Iraqi security forces to deploy in Iran-backed militia stronghold, security officials say",
-       "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV3p3ekUySC1lT1U3N1A5azB2VFVYbjVEcTIwcG1SdE9RXzU1QVBTb29YTDhreFJaUXkxaEtCbzlIazZaazVQNW15QnNocUU5SE5FSXBDc0lpTk9hQlhuM0o4TlMzVHhyemRRR2hWQUhIYUJXRkFBVzc0czQxOTl5RHloZkx5Y2VnX2xScGpwU0pnMGo5RHZCWHVGUUw2UHB3cXAtbTdfRDBrNGkzbG5LakF3MXBuNjdVZy13RWJJWHFUN3NaRGlFVzY3Q2k?oc=5",
-       "s": "Reuters",
-       "c": "GB",
-       "l": "en",
-       "p": 1795159860,
+       "t": "Iraqi security forces deploy in Jurf al-Sakhar; pro-Iranian militias withdraw under Trump's pressure",
+       "o": "استقرار نیروهای امنیتی عراق در جرف‌الصخر؛ عقب‌نشینی شبه‌نظامیان نزدیک به ایران زیر سایه فشارهای ترامپ",
+       "u": "https://www.rfi.fr/fa/%D8%AE%D8%A7%D9%88%D8%B1%D9%85%DB%8C%D8%A7%D9%86%D9%87/20261120-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%86%DB%8C%D8%B1%D9%88%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%86%DB%8C%D8%AA%DB%8C-%D8%B9%D8%B1%D8%A7%D9%82-%D8%AF%D8%B1-%D8%AC%D8%B1%D9%81-%D8%A7%D9%84%D8%B5%D8%AE%D8%B1%D8%9B-%D8%B9%D9%82%D8%A8-%D9%86%D8%B4%DB%8C%D9%86%DB%8C-%D8%B4%D8%A8%D9%87-%D9%86%D8%B8%D8%A7%D9%85%DB%8C%D8%A7%D9%86-%D9%86%D8%B2%D8%AF%DB%8C%DA%A9-%D8%A8%D9%87-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1-%D8%B3%D8%A7%DB%8C%D9%87-%D9%81%D8%B4%D8%A7%D8%B1%D9%87%D8%A7%DB%8C-%D8%AA%D8%B1%D8%A7%D9%8",
+       "s": "RFI Persian",
+       "c": "FR",
+       "l": "fa",
+       "p": 1795174866,
+       "r": "known"
+      },
+      {
+       "t": "Iraqi forces enter an area controlled by pro-Iranian militias after ultimatum expires",
+       "o": "Las fuerzas de Irak entran en una zona controlada por milicias proiraníes tras expirar el ultimátum",
+       "u": "https://www.infobae.com/america/agencias/2026/11/20/las-fuerzas-de-irak-entran-en-una-zona-controlada-por-milicias-proiranies-tras-expirar-el-ultimatum/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1795174262,
        "r": "known"
       }
      ],
      "headlines": 5,
-     "outlets": 5,
-     "independent": 3,
+     "outlets": 4,
+     "independent": 4,
      "countries": [
-      "AE",
-      "GB",
-      "SA",
-      "SG",
-      "US"
+      "AR",
+      "FR",
+      "SG"
      ],
-     "regions": 4,
+     "regions": 3,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "The US Senate again voted down a resolution that would have limited Trump's powers in the war on Iran, with Senate Republicans blocking it.",
+     "text": "Iran is readying a tanker convoy at Kharg Island to test the US naval blockade, according to Euronews and FAZ. Araghchi says the blockade must be broken. IranWire, an Iranian outlet, reports one sanctioned tanker moved 200,000 barrels of Iranian oil despite the blockade; this is that outlet's claim.",
      "stories": [
-      "s2",
-      "s7"
+      "s15",
+      "s8",
+      "s3",
+      "s17"
      ],
      "sources": [
       {
-       "t": "Senate votes against a resolution to limit Trump's powers in the war on Iran",
-       "o": "مجلس الشيوخ يصوت ضد قرار يحد من صلاحيات ترمب في الحرب على إيران",
-       "u": "https://news.google.com/rss/articles/CBMioAVBVV95cUxNMTlvcG1pTVBGMTBnN2VYQVR1T3RJMGdmSmlVOG9qY2pSYjhKcUpKUjhpdFFKUDNlci1pYnp2MHIybFYzLVp0WV9IdVZOTFFQVjZRcnpDdWZLdXlKRHpmZ0NXWU1kbkhyUkZrT0J4dVREYWpELWo1b2ZuMERZZWVzOWpVVW5sRDlHbHBrOUpMa29VNDB3T1lRSnFiRVFMTzB1T2hrUVc2ZEYzS1Jma05lTjc5bjF5alpXTUpnY0I0OTRSNUU4Uzh2M3VOMnkzMDhzRzVxeWdyTGRabWh0T3BfOWNMczVqSmZSUGJ5bUI0dmx0X0k1Y3VKWkNCbExIWDlxSHFSOEU0REZIdXFYcVNDaWRLeThfaUd6a0VwVVVTb0xmWlRWUkl0akE3UTNkMjhWOTNBWE9Pd3lHZDNOTHhhRjNmQkh3cVdsbEYwNUdoQXN5czZ2V012UGcyVG1BY2hKTEgxX1BlR3Rjc1ZiZS1oT2g1ZTlmVFE5c05CM2pPYkRWUnN2V0NDQmRaSmV3dWQ5U3VTdXVyY3hQYVNkcFhwanN",
-       "s": "Asharq Al-Awsat",
-       "c": "SA",
-       "l": "ar",
-       "p": 1795165079,
-       "r": "known"
-      },
-      {
-       "t": "Backing Trump, US Senate Republicans block Iran war resolution",
-       "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTXRqSHFYS3dTY1RBd2tEazZCOFVvSzN5ZHhLZlBXal9BQXo5WHN1STdOcDNRMG1GMjZ1VHAwaW1iRWRTay1lYl9NTXRzMW9SZ2RBU28zNmJpOTlKazU3UktPOTZ6OE10eDZtVThlRzA1VHBBejJLMWhMaUFUdWlCZUlDN1huWG9xTzlkVm1JTTFYaGJzeEN5ZW1DaUtiRkhWZkV2RDgyQXo2a19abVRGQzJkSEk?oc=5",
-       "s": "L'Orient-Le Jour",
-       "c": "LB",
+       "t": "Iran readies tanker convoy at Kharg Island to test US oil blockade",
+       "u": "https://www.euronews.com/2026/11/20/iran-readies-tanker-convoy-at-kharg-island-to-test-us-oil-blockade",
+       "s": "Euronews",
+       "c": "FR",
        "l": "en",
-       "p": 1795162042,
+       "p": 1795169209,
        "r": "known"
       },
       {
-       "t": "US Senate again fails to pass a resolution to end the war against Iran",
-       "o": "Сенат США знову провалив резолюцію щодо завершення війни проти Ірану",
-       "u": "https://www.ukrinform.ua/rubric-world/4186725-senat-ssa-znovu-provaliv-rezoluciu-sodo-zaversenna-vijni-proti-iranu.html",
-       "s": "Ukrinform Ukrainian",
-       "c": "UA",
-       "l": "uk",
-       "p": 1795165530,
-       "r": "state"
+       "t": "With tanker convoy: Iran wants to force an end to the naval blockade",
+       "o": "mit Tankerkonvoi: Iran will ein Ende der Seeblockade erzwingen",
+       "u": "https://www.faz.net/aktuell/politik/ausland/iran-will-ende-der-seeblockade-erzwingen-accg-201701027.html",
+       "s": "FAZ Ausland",
+       "c": "DE",
+       "l": "de",
+       "p": 1795173734,
+       "r": "known"
+      },
+      {
+       "t": "Iranian Foreign Minister Araghchi: the US naval blockade must be broken",
+       "o": "İran Dışişleri Bakanı Arakçi: ABDnin deniz ablukasının kırılması gerekiyor",
+       "u": "https://www.trthaber.com/haber/dunya/iran-disisleri-bakani-arakci-abdnin-deniz-ablukasinin-kirilmasi-gerekiyor-963972.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1795175820,
+       "r": "known"
+      },
+      {
+       "t": "Sanctioned Tanker Transfers 200,000 Barrels of Iranian Oil Amid U.S. Naval Blockade",
+       "u": "https://iranwire.com/en/news/160515-sanctioned-tanker-transfers-200000-barrels-of-iranian-oil-amid-us-naval-blockade/",
+       "s": "IranWire",
+       "c": "IR",
+       "l": "en",
+       "p": 1795176378,
+       "r": "known"
       }
      ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 6,
+     "outlets": 5,
+     "independent": 4,
      "countries": [
-      "LB",
-      "SA",
-      "UA"
+      "DE",
+      "FR",
+      "IR",
+      "TR"
      ],
      "regions": 3,
      "party_only": false,
      "state": 1
     },
     {
-     "text": "Israel's ambassador to Washington, Leiter, says US troops can go home once Iran is defeated and that Israel will join if strikes are renewed. These are Israeli statements reported by Jerusalem Post and Turkish TRT.",
+     "text": "Reports of planned renewed attacks on Iran are growing. CBS News, citing sources, says the US and Israel are considering a new assault; this is US media reporting sources, not independently confirmed. RFI reports the Mossad chief has held consultations in Washington on a new round of strikes.",
      "stories": [
-      "s22",
+      "s21",
+      "s7",
       "s16"
      ],
      "sources": [
       {
-       "t": "US troops can go home when Iran defeated, Israel will join if strikes renewed, Amb. Leiter says",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-915567",
-       "s": "Jerusalem Post",
-       "c": "IL",
+       "t": "U.S. and Israel considering new assault on Iran, sources say",
+       "u": "https://www.cbsnews.com/news/iran-war-us-israel-considering-new-assault-sources-say/",
+       "s": "CBS News World",
+       "c": "US",
        "l": "en",
-       "p": 1795161997,
+       "p": 1795176159,
        "r": "known"
       },
       {
-       "t": "Israel's ambassador to Washington says US soldiers may return to their families after Iran is defeated",
-       "o": "İsrail'in Washington Büyükelçisinden ABD askerleri İran yenildikten sonra ailelerine dönebilirler açıklaması",
-       "u": "https://www.trthaber.com/haber/dunya/israilin-washington-buyukelcisinden-abd-askerleri-iran-yenildikten-sonra-ailelerine-donebilirler-aciklamasi-963931.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1795159680,
+       "t": "Mossad chief's consultations in Washington on launching a new round of US and Israeli attacks on Iran",
+       "o": "رایزنی رئیس موساد در واشنگتن برای آغاز دور تازه حملات آمریکا و اسرائیل به ایران",
+       "u": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20261120-%D8%B1%D8%A7%DB%8C%D8%B2%D9%86%DB%8C-%D8%B1%D8%A6%DB%8C%D8%B3-%D9%85%D9%88%D8%B3%D8%A7%D8%AF-%D8%AF%D8%B1-%D9%88%D8%A7%D8%B4%D9%86%DA%AF%D8%AA%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A2%D8%BA%D8%A7%D8%B2-%D8%AF%D9%88%D8%B1-%D8%AA%D8%A7%D8%B2%D9%87-%D8%AD%D9%85%D9%84%D8%A7%D8%AA-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D9%88-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%DB%8C%D9%84-%D8%A8%D9%87-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86",
+       "s": "RFI Persian",
+       "c": "FR",
+       "l": "fa",
+       "p": 1795173756,
+       "r": "known"
+      },
+      {
+       "t": "Israel, US could launch joint strike on Iran within two weeks, former Navy chief predicts",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-915587",
+       "s": "Jerusalem Post",
+       "c": "IL",
+       "l": "en",
+       "p": 1795178502,
        "r": "known"
       }
      ],
      "headlines": 3,
      "outlets": 3,
-     "independent": 2,
+     "independent": 3,
      "countries": [
+      "FR",
       "IL",
-      "TR"
+      "US"
      ],
-     "regions": 1,
+     "regions": 3,
      "party_only": false,
-     "state": 1
+     "state": 0
     },
     {
-     "text": "Iran says it attacked a US military base in Kuwait. This is Iran's own claim, reported by one BBC outlet, and no independent confirmation appears in the reports.",
+     "text": "In Washington, the Senate narrowly rejected a bid to curb Trump's war powers over Iran, according to Ahram Online. Reuters reports Congress is struggling to avert a US shutdown as the war divides lawmakers.",
      "stories": [
-      "s9"
+      "s12",
+      "s5"
      ],
      "sources": [
       {
-       "t": "Iran says it attacked a US military base in Kuwait",
-       "o": "Isra'ila ta ƙaddamar da sabuwar mamaya a Gaza",
-       "u": "https://www.bbc.co.uk/hausa/live/cmj6l5r688e8t?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Hausa",
+       "t": "US Senate narrowly rejects bid to curb Trump's war powers over Iran - Region - World",
+       "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUm1sLXg4bHVNTXlvaFlzSXFhc2FoM2U0QWhYckEyMzg2QkRkNThXOWJuUFF3V2ppVlB6ZlZIcVVNVV9BOTNvZ09hZXNOMzh6LTJwNm5fYWRibHVyM1hmaWNiZV94bHA1QlFQNTYxLThuN09qNDJaSjhpQWhNdDJoLWtzTU1qdVNDNzVOem0zRkNDd28zV1hDeUF6U2hkWVZzcFRuUlhUbVp1S013MlU2U0kxa0lsWm9INUprYQ?oc=5",
+       "s": "Ahram Online",
+       "c": "EG",
+       "l": "en",
+       "p": 1795171392,
+       "r": "state"
+      },
+      {
+       "t": "Congress struggles to avert US shutdown as Iran war divides lawmakers",
+       "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUDZZTmpNTGpqLUMwR0JBZUJuaVBuMDAwYVpVanpkNTJDSGpNMEkxdXlSX1JkSDJpaG1SNUlmMnJZTHZ2Y192UmFKSjlGazN5UE9hZEJfcmFwdzVGWFE0QWk3OXBGWEpudkV5bTdiLVEwWjJicDFrTHJWVGVQT2RNMlBYZ3pMMmhQTHhKRnJ1QktWbGhVWWxRb0paRGZvdVNDdlRJNEd1N1lEbG9LOU1mTURPZE9CZlVvUk5j?oc=5",
+       "s": "Reuters",
        "c": "GB",
-       "l": "ha",
-       "p": 1795165296,
+       "l": "en",
+       "p": 1795174765,
        "r": "known"
       }
      ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
      "countries": [
+      "EG",
       "GB"
      ],
-     "regions": 1,
+     "regions": 2,
      "party_only": false,
-     "state": 0
+     "state": 1
     }
    ],
    "watch": [
-    "Whether the Iraqi deployment into Jurf Al Sakhar holds and how militia groups respond",
-    "Whether independent outlets confirm Iran's claimed attack on the US base in Kuwait",
-    "Any Israeli move toward renewed strikes after Israel's ambassador's remarks"
+    "Whether the Kharg Island tanker convoy tries to pass the US blockade",
+    "Whether the US or Israel confirms plans for a new assault on Iran",
+    "Whether Iraqi forces hold Jurf al-Sakhar and the militias stay out"
    ],
    "window_hours": 3,
-   "headlines_read": 34,
-   "outlets_read": 26,
-   "countries_read": 14,
-   "languages_read": 11,
+   "headlines_read": 33,
+   "outlets_read": 21,
+   "countries_read": 12,
+   "languages_read": 6,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T23:21:12Z",
    "ladder_note": "Re-checked after: Explosions on three tankers in the Strait of Hormuz are reported by many independent outlets, though the cause and attribution are Iran's account and unconfirmed."
