@@ -1778,9 +1778,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Trump defers new Iran strikes to next year; Hormuz tanker attacks and mine reports continue",
+   "status": "Trump defers Iran strikes to 2027; war cost passes $48B; Senate blocks war-powers curb",
    "summary": "The US and Israel have fought Iran for nearly nine months, and shipping through the Strait of Hormuz remains limited. A US defense official says US jets struck an Iranian missile site on Qeshm Island in self-defence. Iran then fired at a US air base in Kuwait and at Bahrain; both Gulf states say they intercepted the attacks, with no damage reported. An Emirati vessel was attacked near Hormuz, with 11 crew reported injured and one missing, and Iran's Revolutionary Guards say more tankers hit mines, which UKMTO and CENTCOM have not confirmed. In Shenzhen, Trump says he and Xi agree that Hormuz should be open.",
    "latest": [
+    {
+     "date": "2026-11-20",
+     "at": "2026-11-20T04:44:18Z",
+     "text": "A Pentagon official puts the cost of the US war against Iran above $48 billion, according to several outlets. A Korean outlet converts this to over 64 trillion won and notes that it excludes damage to US bases in the Middle East.",
+     "outlet": "BBC Urdu",
+     "country": "United Kingdom",
+     "url": "https://www.bbc.co.uk/urdu/live/cx24e1zdpy5qt?at_medium=RSS&at_campaign=rss",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-20",
+     "at": "2026-11-20T04:44:18Z",
+     "text": "The US Senate rejected a war powers resolution that would have limited Trump's ability to attack Iran, so the Democrats' effort failed.",
+     "outlet": "TRT Haber Dunya",
+     "country": "Turkey",
+     "url": "https://www.trthaber.com/haber/dunya/abd-senatosu-trumpin-irana-saldirmasini-engelleyen-savas-yetkileri-tasarisini-reddetti-963895.html",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-20",
+     "at": "2026-11-20T04:44:18Z",
+     "text": "Reports differ on the next step. One Vietnamese outlet says Trump has postponed an attack on Iran to 2027. An Indian outlet says Trump is exploring military strike options with Israel. Trump has said there is no rush to decide.",
+     "outlet": "deshbandhu.co.in",
+     "country": "India",
+     "url": "https://www.deshbandhu.co.in/world/west-asia-us-iran-tension-trump-israel-joint-military-strike-hormuz-332186",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-20",
      "at": "2026-11-20T01:19:50Z",
@@ -1833,39 +1866,6 @@
      "country": "Argentina",
      "url": "https://www.infobae.com/estados-unidos/2026/11/19/el-pentagono-estimo-en-usd-48300-millones-el-gasto-que-acumula-estados-unidos-por-la-guerra-en-iran/",
      "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-19",
-     "at": "2026-11-19T22:04:38Z",
-     "text": "US Senate Republicans blocked a resolution that would have called on Trump to end the Iran war.",
-     "outlet": "Reuters",
-     "country": "United Kingdom",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcmstcFNFWmdlWE9OT3pCd2JxN1RvaDZMZ2dlZC01YU9hUVFDdFdETmRJLWYtRWI5bkpNVHgyQUFTRVNncW9kUUZkdGhFRkl1RUx6MGs2eVhNNXhZbzROalJGQnRSSUdqdVBhQ1NuLTRONXEyQWpYemhwenhCd2VlNlY4VUZJT3NRdjBmdzBTZGxreUlHNmgyX0p4TzVxX1FvaXZR?oc=5",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-19",
-     "at": "2026-11-19T19:18:22Z",
-     "text": "The Pentagon says the Iran war has cost the United States more than $48 billion so far. Al Arabiya notes this figure does not include damaged facilities.",
-     "outlet": "El Tiempo Mundo",
-     "country": "Colombia",
-     "url": "https://www.eltiempo.com/mundo/medio-oriente/cuanto-le-ha-costado-la-guerra-en-iran-a-estados-unidos-el-pentagono-reporta-que-el-gasto-sigue-en-aumento-estas-son-las-cifras-3602417",
-     "region": "latin-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-19",
-     "at": "2026-11-19T19:18:22Z",
-     "text": "Al Jazeera reports Trump is studying large-scale strikes on Iran amid Israeli pressure for escalation. Yonhap reports Netanyahu saying military action against Iran is inevitable and only the timing remains to be coordinated.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQY2tWY3pQSDN3eFpPZDJrWE40NEE5LVJTamEtQlNiY3V3OWdCZVhnZWwwRGxEUEc5WU5IR0NfX0twMGFSV3k4cFNyZDlqU1RNT3R5VlQtVGg3cll1VEpnazRJc2VqNHVMZnNnZzJIMjdNcWF1NHpaeTdrNHZCbkdiS1I0NUtoOVgyNV9OMXJIVlNMQW55V1NSRzd4WVZXTXNLQXVyRjduY196clJsRkZYUW1JVWE0M1lZNGZpa1lsc01OU1lkRG1yUkNBZDhKdGNzTkJzZ0UtYi1JX0FiU1I2MXhUSVJ1Q1BqdHJOT0FrV0NqNDItUjZ1S3dTcVdVQ040cjM5a3o2ZkNfbGE1SXREazFueFpZeldIRmxCNXhrNE1nVGFSXzV0RE1DTHJjbDZHT2FLd2FWdl9ITGY4MzR0dFNsWVJQb0poZUF0cA?oc=5",
-     "region": "gulf",
      "tag": "non-party",
      "state_media": false
     }
@@ -12848,11 +12848,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-17T06:47:52Z",
-     "headline": "Tankers hit near Hormuz; Iran claims drone seizures; unverified US dirty-bomb report",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-17T09:32:45Z",
      "headline": "Iran says it hit US radar in Bahrain; Bahrain reports interceptions; Hormuz tanker incidents continue",
      "direction": "escalating"
@@ -12966,133 +12961,276 @@
      "at": "2026-11-20T01:19:50Z",
      "headline": "Trump defers new Iran strikes to next year; Hormuz tanker attacks and mine reports continue",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-20T04:44:18Z",
+     "headline": "Trump defers Iran strikes to 2027; war cost passes $48B; Senate blocks war-powers curb",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-20T01:19:50Z",
-   "next_at": "2026-11-20T04:19:50Z",
-   "headline": "Trump defers new Iran strikes to next year; Hormuz tanker attacks and mine reports continue",
+   "updated_at": "2026-11-20T04:44:18Z",
+   "next_at": "2026-11-20T07:44:18Z",
+   "headline": "Trump defers Iran strikes to 2027; war cost passes $48B; Senate blocks war-powers curb",
    "direction": "steady",
    "points": [
     {
-     "text": "Trump says there is no rush to decide on new strikes on Iran and is looking to next year. Israel's ambassador to the US says the decision lies with Trump.",
+     "text": "A Pentagon official puts the cost of the US war against Iran above $48 billion, according to several outlets. A Korean outlet converts this to over 64 trillion won and notes that it excludes damage to US bases in the Middle East.",
      "stories": [
       "s1",
       "s4",
-      "s11",
-      "s15"
+      "s7",
+      "s13"
      ],
      "sources": [
       {
-       "t": "Trump says no rush to decide on new Iran strikes, looks to next year",
-       "u": "https://www.scmp.com/news/world/middle-east/article/3375136/trump-says-no-rush-decide-new-iran-strikes-looks-next-year",
-       "s": "South China Morning Post",
-       "c": "HK",
-       "l": "en",
-       "p": 1795132174,
-       "r": "known"
-      },
-      {
-       "t": "Trump Pushes Iran Strike Decision to Next Year: 'We've Got Time'",
-       "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaDJOakhVVnVOMmVma0kxYTNVZDAyZkF1ZjF4QXpLb1ZhVF9FVlRfNWZxTndhN1Rwa3h0aTRPMzd1VFBVRVVIUGlWaXdXTDAwcy1mRTg5UE1hT2Q3RmVVemJSZ3gwQXgxemg0ZmgyVFNXS2dQNms3ZEN0dm1GbEp0MXRzZE9JSDVJS3FNMDYxZmRTdWlCWjBEMXBiTml6R2lGQnZISEcycHFPRzV4SkI4djVJZjItendHWEJfMG96S1VFMHJCcUJkX2JvcjVTeG8xQy1fcHI0T0R3NUUyN2FQUUxSWHRkQQ?oc=5",
-       "s": "Haaretz",
-       "c": "IL",
-       "l": "en",
-       "p": 1795131720,
-       "r": "known"
-      },
-      {
-       "t": "Israel’s ambassador to US says the decision to strike Iran lies with Trump",
-       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/israels-ambassador-us-says-decision-strike-iran-lies-trump",
-       "s": "Middle East Eye",
+       "t": "Pentagon: the cost of the war against Iran has exceeded $48 billion",
+       "o": "پینٹاگون: ایران کے خلاف جنگ کی لاگت 48 ارب ڈالر سے زیادہ ہو گئی",
+       "u": "https://www.bbc.co.uk/urdu/live/cx24e1zdpy5qt?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Urdu",
        "c": "GB",
-       "l": "en",
-       "p": 1795131638,
+       "l": "ur",
+       "p": 1795148788,
        "r": "known"
       },
       {
-       "t": "Trump considering fresh attacks on Iran in coordination with Israel, may decide after returning from China visit",
-       "o": "ईरान पर इजरायल के साथ नए हमले पर विचार कर रहे ट्रंप , चीन यात्रा से लौटने के बाद ले सकते हैं फैसला - trump considering fresh attacks on iran in coordination with israel",
-       "u": "https://www.jagran.com/world/america-trump-considering-fresh-attacks-on-iran-in-coordination-with-israel-40442271.html",
-       "s": "jagran.com",
-       "c": "IN",
-       "l": "hi",
-       "p": 1795134600,
+       "t": "Pentagon reveals latest estimate of the cost of the Iran war",
+       "o": "البنتاغون يكشف أحدث تقدير لتكلفة حرب إيران",
+       "u": "https://www.skynewsarabia.com/middle-east/1905926-%D8%A7%D9%84%D8%A8%D9%86%D8%AA%D8%A7%D8%BA%D9%88%D9%86-%D9%8A%D9%83%D8%B4%D9%81-%D8%A3%D8%AD%D8%AF%D8%AB-%D8%AA%D9%82%D8%AF%D9%8A%D8%B1-%D9%84%D8%AA%D9%83%D9%84%D9%81%D8%A9-%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1795141283,
+       "r": "known"
+      },
+      {
+       "t": "Pentagon official: US military war against Iran costs over $48 billion | Finance | SETN",
+       "o": "五角大廈官員 ： 美軍對伊朗戰爭耗資逾480億美元 | 財經 | 三立新聞網 SETN . COM",
+       "u": "https://www.setn.com/news/1942117",
+       "s": "setn.com",
+       "c": "TW",
+       "l": "zh",
+       "p": 1795146300,
        "r": "unrated"
       },
       {
-       "t": "Netanyahu presses that military action against Iran is inevitable… Trump draws a line saying he has time",
-       "o": "네타냐후 對이란 군사행동 불가피 압박 … 트럼프 시간 있다 선 긋기",
-       "u": "https://biz.chosun.com/international/international_general/2026/11/20/3MO2W4KQV5BVDLOU5MHSA4S7YA/",
-       "s": "biz.chosun.com",
-       "c": "KR",
-       "l": "ko",
-       "p": 1795131000,
+       "t": "Iran war costs surpass USD 48 billion",
+       "u": "https://www.siasat.com/iran-war-costs-surpass-usd-48-billion-3581743/",
+       "s": "siasat.com",
+       "c": "IN",
+       "l": "en",
+       "p": 1795146300,
+       "r": "unrated"
+      },
+      {
+       "t": "Iran war costs surpass $48B - The Daily News",
+       "u": "https://www.ironmountaindailynews.com/news/2026/11/iran-war-costs-surpass-48b/",
+       "s": "ironmountaindailynews.com",
+       "c": "US",
+       "l": "en",
+       "p": 1795146300,
        "r": "unrated"
       }
      ],
-     "headlines": 6,
-     "outlets": 6,
-     "independent": 6,
+     "headlines": 10,
+     "outlets": 10,
+     "independent": 10,
      "countries": [
+      "AE",
+      "AZ",
       "GB",
-      "HK",
-      "IL",
       "IN",
-      "JP",
-      "KR"
+      "KR",
+      "TW",
+      "US"
      ],
      "regions": 5,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Anadolu, citing the Iranian army, reports two oil tankers caught fire after hitting mines east of the Strait of Hormuz. The Japan Times reports Iran is intensifying tanker attacks even as oil prices slide. Qatar warns that the Hormuz closure is a 'global crisis' and urges diplomacy.",
+     "text": "The US Senate rejected a war powers resolution that would have limited Trump's ability to attack Iran, so the Democrats' effort failed.",
      "stories": [
-      "s10",
-      "s5",
-      "s8",
-      "s9"
+      "s2"
      ],
      "sources": [
       {
-       "t": "2 oil tankers catch fire after hitting mines in waters east of Strait of Hormuz : Iranian army",
-       "u": "https://aa.com.tr/en/middle-east/2-oil-tankers-catch-fire-after-hitting-mines-in-waters-east-of-strait-of-hormuz-iranian-army/4131604",
-       "s": "Anadolu Agency",
+       "t": "US Senate rejects war powers bill that would have blocked Trump from attacking Iran",
+       "o": "ABD Senatosu, Trump'ın İran'a saldırmasını engelleyen savaş yetkileri tasarısını reddetti",
+       "u": "https://www.trthaber.com/haber/dunya/abd-senatosu-trumpin-irana-saldirmasini-engelleyen-savas-yetkileri-tasarisini-reddetti-963895.html",
+       "s": "TRT Haber Dunya",
        "c": "TR",
-       "l": "en",
-       "p": 1795131000,
-       "r": "state"
-      },
-      {
-       "t": "Iran intensifies Hormuz tanker attacks just as oil prices slide",
-       "u": "https://www.japantimes.co.jp/news/2026/11/20/world/iran-hormuz-attacks-oil-prices/",
-       "s": "The Japan Times",
-       "c": "JP",
-       "l": "en",
-       "p": 1795134540,
+       "l": "tr",
+       "p": 1795144560,
        "r": "known"
       },
       {
-       "t": "Qatar warns Hormuz closure is a 'global crisis', urges diplomacy with Iran",
-       "u": "https://gulfnews.com/world/gulf/qatar/qatar-warns-hormuz-closure-is-a-global-crisis-urges-diplomacy-with-iran-1.500754338",
+       "t": "US Senate rejects war powers resolution; Democrats' bid to end the Iran war fails",
+       "u": "https://www.hani.co.kr/arti/international/international_general/1288291.html",
+       "s": "Hankyoreh English",
+       "c": "KR",
+       "l": "en",
+       "p": 1795139850,
+       "r": "known"
+      },
+      {
+       "t": "US Senate rejects resolution to limit Trump's war powers against Iran",
+       "o": "美国参议院否决限制特朗普对伊朗战争权力决议",
+       "u": "https://www.zaobao.com.sg/news/world/story20261120-10028722",
+       "s": "zaobao.com.sg",
+       "c": "SG",
+       "l": "zh",
+       "p": 1795141800,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 3,
+     "countries": [
+      "KR",
+      "SG",
+      "TR"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Reports differ on the next step. One Vietnamese outlet says Trump has postponed an attack on Iran to 2027. An Indian outlet says Trump is exploring military strike options with Israel. Trump has said there is no rush to decide.",
+     "stories": [
+      "s3",
+      "s12"
+     ],
+     "sources": [
+      {
+       "t": "US preparing new attack on Iran! Trump exploring options for military strike jointly with Israel",
+       "o": "ईरान पर फिर हमले की तैयारी में अमेरिका ! इजरायल के साथ मिलकर कार्रवाई के विकल्प तलाश रहे ट्रंप | west - asia - us - iran - tension - trump - israel - joint - military - strike - hormuz",
+       "u": "https://www.deshbandhu.co.in/world/west-asia-us-iran-tension-trump-israel-joint-military-strike-hormuz-332186",
+       "s": "deshbandhu.co.in",
+       "c": "IN",
+       "l": "hi",
+       "p": 1795146300,
+       "r": "unrated"
+      },
+      {
+       "t": "Trump postpones attack on Iran to 2027",
+       "o": "Ông Trump lùi thời điểm tấn công Iran sang năm 2027",
+       "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdE8zYnJRS0U4YldwdTl6S2NSTWtfZFZzUHVXLXdZZTBPUmZIZS1iMXNPZTNsSFdiVXRhUEJjWW5fSi1aM1JyUVdTU3ZGU2RvMG0yalRGMXY4LTZXQVhWMG5wVFc3OUE5bGRBTWNkQmhiTVVwTmt4Qk1MUFd0TXExVktDYk9ZcmhxSjdSdFBEVEdoOUZYM3NEMQ?oc=5",
+       "s": "Báo Tuổi Trẻ",
+       "c": "VN",
+       "l": "vi",
+       "p": 1795141680,
+       "r": "unrated"
+      },
+      {
+       "t": "US-Israel war with Iran: Saudi faces Houthi missiles; Trump delays Iran decision",
+       "u": "https://gulfnews.com/world/mena/us-israel-war-on-iran-saudi-faces-houthi-missiles-trump-delays-iran-decision-1.500754425",
        "s": "Gulf News",
        "c": "AE",
        "l": "en",
-       "p": 1795131595,
+       "p": 1795143007,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "AE",
+      "IN",
+      "VN"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "A Wall Street Journal report, relayed by the BBC, says Mossad's chief is calling for new joint attacks on Iran. A Haaretz analysis says Netanyahu is pushing for strikes while the IDF remains skeptical. Both are single-source reports from Israeli or related media.",
+     "stories": [
+      "s6",
+      "s14"
+     ],
+     "sources": [
+      {
+       "t": "Wall Street Journal: Mossad chief calls for new joint attacks to be carried out against Iran",
+       "o": "Wall Street Journal: Madaxa Mossad oo ku baaqay weerarro cusub oo wadajir ah oo Iiraan lagu qaado",
+       "u": "https://www.bbc.co.uk/somali/live/c6rmgj448m1dt?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Somali",
+       "c": "GB",
+       "l": "so",
+       "p": 1795145489,
        "r": "known"
       },
       {
-       "t": "Oil ends almost unchanged despite the risk of new US attacks against Iran",
-       "o": "El petróleo termina casi sin cambios pese al riesgo de nuevos ataques estadounidenses contra Irán",
-       "u": "https://www.infobae.com/america/mundo/2026/11/19/el-petroleo-termina-casi-sin-cambios-pese-al-riesgo-de-nuevos-ataques-estadounidenses-contra-iran/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1795131522,
+       "t": "Analysis • Warmongering Netanyahu is pushing to strike Iran, but the IDF remains skeptical",
+       "u": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQUU0yNFNZWEhlMmlSQmhDQnVsS19KLWhxeHRlRHkxeUlNV2pfc1FrNndqczFZX2pmaV9QckFJM3paLWJVZHdUZjJWbnRuTlBqMjFWbGVUR2VNZ2JDeXJabFVfNGhUWjJxbXFwUk9kcFR3aDhCZHdtY19GblQzVDJNZ2tBZHZ4T2E2aksxT3BXQjBBQzdLOEVhTFRBYmdPT0dVVXphaXpqYjBOcThHckMwSnl3cXNrTmcxZk9kcE9HVzZDdV9rUUVuT1AwQnVXa1JjM2F5NlVDOWNORUtQZVAwZy1Tb3dCTUlVTEt4aU1PSUVpaUtQQU5FQ2d1YmVybUk2akRnT3VIZy1XVnVYTFdNTGZjdWFCbWUyRHpOeTRxV0x2ZXpS?oc=5",
+       "s": "Haaretz",
+       "c": "IL",
+       "l": "en",
+       "p": 1795147380,
+       "r": "known"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "GB",
+      "IL"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iran says Trump's claims that it is developing biological and chemical weapons resemble the origins of the Iraq war. An IRGC spokesman says Iran will not accept a continued war of attrition. A US outlet reports Iranian oil is being transferred between tankers as the US widens its blockade; this is single-source.",
+     "stories": [
+      "s5",
+      "s8",
+      "s10",
+      "s16"
+     ],
+     "sources": [
+      {
+       "t": "Iran responded that Trump's remarks about biological weapons \"resemble the origin of the Iraq war",
+       "o": "ትራምፕ ስለ ባዮሎጂካል የጦር መሣሪያ ያደረጉት ንግግር “የኢራቅ ጦርነት መነሻን ይመስላል” ስትል ኢራን ምላሽ ሰጠች",
+       "u": "https://www.bbc.co.uk/amharic/live/cw0k6gnv0v7vt?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Amharic",
+       "c": "GB",
+       "l": "am",
+       "p": 1795148788,
+       "r": "known"
+      },
+      {
+       "t": "[US stocks] News: Trump: Iran developing biochemical weapons; US tightens review of AI chip exports to China | Finance",
+       "o": "《 美股 》 消息面 ： 川普 ： 伊朗研發生化武器 美輸中AI晶片審核嚴格 - 財經",
+       "u": "https://www.chinatimes.com/realtimenews/20261120001884-260410",
+       "s": "chinatimes.com",
+       "c": "TW",
+       "l": "zh",
+       "p": 1795145400,
+       "r": "unrated"
+      },
+      {
+       "t": "Iran not to accept continuation of war of attrition : IRGC spokesman",
+       "u": "https://www.mangalorean.com/iran-not-to-accept-continuation-of-war-of-attrition-irgc-spokesman/",
+       "s": "mangalorean.com",
+       "c": "IN",
+       "l": "en",
+       "p": 1795144500,
+       "r": "unrated"
+      },
+      {
+       "t": "Iranian Oil Transferred Between Tankers as US Widens Blockade",
+       "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObUNtdVJyTEZDb1BTbnhxeWpKdFdhU0YyQ19xTHQxYVNtR1ljZzIzbnYzTWR6eElWSk1QeTRVQ3RqQ05ZYi1VYV95QmdWaWxCeVE5b0dNdk1WbWN4XzVEZFdKOHdXejV0MTdHQkRnc2xyU2I1R2dZTlBySHA5b3Y1dnpNMFQxUVlGeEw3ZmV1ekh4ZDBIQWFRdlJ1NEdBOVBZRjBSa0tMWVZQQjVkM0FuNk53?oc=5",
+       "s": "Bloomberg",
+       "c": "US",
+       "l": "en",
+       "p": 1795144500,
        "r": "known"
       }
      ],
@@ -13100,70 +13238,9 @@
      "outlets": 4,
      "independent": 4,
      "countries": [
-      "AE",
-      "AR",
-      "JP",
-      "TR"
-     ],
-     "regions": 4,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "Western states are pressing Iran at the IAEA to allow inspections at bombed nuclear sites, according to an Israeli outlet. Iran has called new US biological and chemical weapons claims identical to those made before the Iraq war.",
-     "stories": [
-      "s20",
-      "s6",
-      "s13",
-      "s23"
-     ],
-     "sources": [
-      {
-       "t": "West Presses Iran at IAEA to Let Inspections Resume at Bombed Nuclear Sites",
-       "u": "https://www.algemeiner.com/2026/11/19/west-presses-iran-iaea-let-inspections-resume-bombed-nuclear-sites/",
-       "s": "algemeiner.com",
-       "c": "IL",
-       "l": "en",
-       "p": 1795133700,
-       "r": "unrated"
-      },
-      {
-       "t": "Iran's reaction to Trump's remarks on biological weapons: like claims that paved the way for the Iraq war",
-       "o": "واکنش ایران به سخنان ترامپ درباره سلاح بیولوژیک: مانند ادعاهای زمینه‌ساز جنگ عراق است",
-       "u": "https://www.bbc.co.uk/persian/live/cmqx50ez02ent?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Persian",
-       "c": "GB",
-       "l": "fa",
-       "p": 1795133247,
-       "r": "known"
-      },
-      {
-       "t": "Iran: \"US raises allegations of biological and chemical weapons, identical to the time of the Iraq war",
-       "o": "이란 \"美 생물·화학무기 의혹 제기, 이라크전 당시와 판박이\"",
-       "u": "https://www.yna.co.kr/view/AKR20261120021800009",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1795129825,
-       "r": "known"
-      },
-      {
-       "t": "The U.S. and Iran Are Back to Trading Strikes",
-       "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zbUtPd0N2aE9RSlA5Y19OMUx6SllSTmdPbDJ6MXQ3U1RIbGxYb3UtQmxXeGJGWFgybUtGeFRlVW53S3ozbjFpVGVCeDhfNXhRTDZsaEZqWEhkSjd6UlFtWnZfMkpHbTRVYVFkWmtjZm5aZURHVUtNMmgtWmthQzA?oc=5",
-       "s": "Foreign Policy",
-       "c": "US",
-       "l": "en",
-       "p": 1795130775,
-       "r": "known"
-      }
-     ],
-     "headlines": 6,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
       "GB",
-      "IL",
-      "KR",
+      "IN",
+      "TW",
       "US"
      ],
      "regions": 4,
@@ -13172,15 +13249,15 @@
     }
    ],
    "watch": [
-    "Trump's decision on strikes after his China trip, and any Israeli moves in coordination",
-    "Whether the tanker mine and fire reports in Hormuz are confirmed by independent sources, not only the Iranian army",
-    "Whether Iran agrees to IAEA inspections at the bombed nuclear sites"
+    "Whether Trump's decision on new Iran strikes is announced, and whether it is joint with Israel",
+    "Whether Israel's push for joint strikes gains official backing",
+    "Whether Iran's response to the US weapons claims leads to IAEA or diplomatic moves"
    ],
    "window_hours": 3,
-   "headlines_read": 30,
+   "headlines_read": 27,
    "outlets_read": 24,
-   "countries_read": 14,
-   "languages_read": 8,
+   "countries_read": 13,
+   "languages_read": 11,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T23:21:12Z",
    "ladder_note": "Re-checked after: Explosions on three tankers in the Strait of Hormuz are reported by many independent outlets, though the cause and attribution are Iran's account and unconfirmed."
