@@ -1776,9 +1776,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Strike talk persists with no new attack; Trump says no rush; Iraqi forces enter militia town",
+   "status": "Tanker fire near Hormuz per UKMTO; Qeshm blasts disputed, no confirmed new strikes",
    "summary": "The US and Israel have been at war with Iran since early 2026, with Hormuz shipping disrupted and a US naval blockade of Iran in place. Foreign Policy reports that US-Iran strikes resumed in the past week after a roughly two-month lull, including Iranian fire at US assets in Bahrain and Kuwait. On Nov 19, UKMTO reported a vessel hit by an unknown projectile off Oman, and Iran's navy says two tankers caught fire after hitting mines east of the strait. Trump told Axios he is not rushing a decision on wider strikes and would wait until after the new year, while Axios reports Netanyahu is pressing for a joint campaign. The Senate rejected a war powers resolution 48-51.",
    "latest": [
+    {
+     "date": "2026-11-20",
+     "at": "2026-11-20T18:59:25Z",
+     "text": "UKMTO says a tanker caught fire after a projectile strike near the Strait of Hormuz. Several independent outlets in different regions carried the report. An Iranian-sourced report instead blames a mine.",
+     "outlet": "Asharq Al-Awsat English",
+     "country": "Saudi Arabia",
+     "url": "https://english.aawsat.com/node/5343705",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-20",
+     "at": "2026-11-20T18:59:25Z",
+     "text": "Iranian media reported a missile strike and explosion on or near Qeshm Island, with one report of a possible downed enemy aircraft. Hormozgan Governorate denied a missile attack, and Tasnim linked the blast to disposal of unexploded munitions. No independent confirmation of an attack has been published.",
+     "outlet": "RIA Novosti",
+     "country": "Russia",
+     "url": "https://ria.ru/20261120/raketa-2133035567.html",
+     "region": "russia",
+     "tag": "non-party",
+     "state_media": true
+    },
+    {
+     "date": "2026-11-20",
+     "at": "2026-11-20T18:59:25Z",
+     "text": "Iran is reported to be trying to break the US naval blockade, with oil moved between tankers in the Gulf. These reports come from Saudi and Arab outlets.",
+     "outlet": "Asharq Al-Awsat",
+     "country": "Saudi Arabia",
+     "url": "https://aawsat.com/node/5343734",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-20",
      "at": "2026-11-20T16:15:58Z",
@@ -1830,37 +1863,6 @@
      "outlet": "Euronews",
      "country": "France",
      "url": "https://www.euronews.com/2026/11/20/iran-readies-tanker-convoy-at-kharg-island-to-test-us-oil-blockade",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-20",
-     "at": "2026-11-20T12:59:44Z",
-     "text": "Reports of planned renewed attacks on Iran are growing. CBS News, citing sources, says the US and Israel are considering a new assault; this is US media reporting sources, not independently confirmed. RFI reports the Mossad chief has held consultations in Washington on a new round of strikes.",
-     "outlet": "CBS News World",
-     "country": "United States",
-     "url": "https://www.cbsnews.com/news/iran-war-us-israel-considering-new-assault-sources-say/",
-     "region": "north-america",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-20",
-     "text": "Headline (translated from ar): Senate votes against a resolution to limit Trump's powers in the war on Iran [story carried by 13 independent sources in 11 countries (AU, DE, GB, ID, IN, JP)]",
-     "outlet": "Asharq Al-Awsat",
-     "country": "Saudi Arabia",
-     "url": "https://news.google.com/rss/articles/CBMioAVBVV95cUxNMTlvcG1pTVBGMTBnN2VYQVR1T3RJMGdmSmlVOG9qY2pSYjhKcUpKUjhpdFFKUDNlci1pYnp2MHIybFYzLVp0WV9IdVZOTFFQVjZRcnpDdWZLdXlKRHpmZ0NXWU1kbkhyUkZrT0J4dVREYWpELWo1b2ZuMERZZWVzOWpVVW5sRDlHbHBrOUpMa29VNDB3T1lRSnFiRVFMTzB1T2hrUVc2ZEYzS1Jma05lTjc5bjF5alpXTUpnY0I0OTRSNUU4Uzh2M3VOMnkzMDhzRzVxeWdyTGRabWh0T3BfOWNMczVqSmZSUGJ5bUI0dmx0X0k1Y3VKWkNCbExIWDlxSHFSOEU0REZIdXFYcVNDaWRLeThfaUd6a0VwVVVTb0xmWlRWUkl0akE3UTNkMjhWOTNBWE9Pd3lHZDNOTHhhRjNmQkh3cVdsbEYwNUdoQXN5czZ2V01",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-20",
-     "text": "Headline (translated from ur): US costs in the war with Iran have exceeded 48 billion dollars [story carried by 8 independent sources in 8 countries (DE, FR, GB, IL, IN, MU)]",
-     "outlet": "Deutsche Welle",
-     "country": "Germany",
-     "url": "https://www.dw.com/ur/ایران-جنگ-میں-امریکہ-کے-اخراجات-48-بلین-ڈالر-سے-تجاوز-کر-چکے/a-80000125?maca=urd-rss-urd-all-1497-rdf",
      "region": "europe",
      "tag": "non-party",
      "state_media": false
@@ -13335,11 +13337,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-17T21:24:09Z",
-     "headline": "US strikes Qeshm Island again; Iran hits Bahrain again after two-month lull",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-18T00:12:28Z",
      "headline": "US hits Qeshm Island again; new dirty-bomb claims and a tanker hit; talks continue",
      "direction": "steady"
@@ -13453,189 +13450,317 @@
      "at": "2026-11-20T16:15:58Z",
      "headline": "Strike talk persists with no new attack; Trump says no rush; Iraqi forces enter militia town",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-20T18:59:25Z",
+     "headline": "Tanker fire near Hormuz per UKMTO; Qeshm blasts disputed, no confirmed new strikes",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-20T16:15:58Z",
-   "next_at": "2026-11-20T19:15:58Z",
-   "headline": "Strike talk persists with no new attack; Trump says no rush; Iraqi forces enter militia town",
-   "direction": "steady",
+   "updated_at": "2026-11-20T18:59:25Z",
+   "next_at": "2026-11-20T21:59:25Z",
+   "headline": "Tanker fire near Hormuz per UKMTO; Qeshm blasts disputed, no confirmed new strikes",
+   "direction": "escalating",
    "points": [
     {
-     "text": "CBS, citing sources, reports the US and Israel are discussing resuming strikes on Iran. Russian and Ukrainian outlets carried the report, but it is not independently confirmed.",
+     "text": "UKMTO says a tanker caught fire after a projectile strike near the Strait of Hormuz. Several independent outlets in different regions carried the report. An Iranian-sourced report instead blames a mine.",
      "stories": [
-      "s1"
+      "s1",
+      "s8"
      ],
      "sources": [
       {
-       "t": "CBS reported that the U.S. and Israel are discussing resuming strikes on Iran",
-       "o": "CBS сообщил, что США и Израиль обсуждают возобновление ударов по Ирану",
-       "u": "https://www.interfax.ru/world/1130485",
-       "s": "Interfax",
+       "t": "Tanker Catches Fire After Projectile Strike Near Strait of Hormuz, UKMTO Says",
+       "u": "https://english.aawsat.com/node/5343705",
+       "s": "Asharq Al-Awsat English",
+       "c": "SA",
+       "l": "en",
+       "p": 1795194833,
+       "r": "known"
+      },
+      {
+       "t": "Tanker catches fire after projectile strike near Strait of Hormuz - UKMTO",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-catches-fire-after-projectile-strike-near-hormuz-ukmto",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1795194562,
+       "r": "known"
+      },
+      {
+       "t": "Tanker catches fire after projectile strike near Strait of Hormuz, UKMTO says",
+       "u": "https://www.straitstimes.com/world/middle-east/tanker-catches-fire-after-projectile-strike-near-strait-of-hormuz-ukmto-says",
+       "s": "The Straits Times",
+       "c": "SG",
+       "l": "en",
+       "p": 1795194319,
+       "r": "known"
+      },
+      {
+       "t": "A tanker caught fire in the Strait of Hormuz",
+       "o": "В Ормузском проливе загорелся танкер",
+       "u": "https://ria.ru/20261120/tanker-2133034580.html",
+       "s": "RIA Novosti",
        "c": "RU",
        "l": "ru",
-       "p": 1795183020,
-       "r": "known"
+       "p": 1795194091,
+       "r": "state"
       },
       {
-       "t": "US and Israel considering a new attack on Iran - media",
-       "o": "США та Ізраїль розглядають можливість нової атаки на Іран - ЗМІ",
-       "u": "https://www.ukrinform.ua/rubric-world/4186903-ssa-ta-izrail-rozgladaut-mozlivist-novoi-ataki-na-iran-zmi.html",
-       "s": "Ukrinform Ukrainian",
-       "c": "UA",
-       "l": "uk",
-       "p": 1795188720,
-       "r": "state"
+       "t": "An oil tanker caught fire after hitting a mine in the Strait of Hormuz",
+       "o": "Hürmüz Boğazı'nda bir petrol tankeri mayına çarparak alev aldı",
+       "u": "https://www.hurriyet.com.tr/dunya/hurmuz-bogazinda-bir-petrol-tankeri-mayina-carparak-alev-aldi-43385511",
+       "s": "Hurriyet Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1795193071,
+       "r": "known"
       }
      ],
-     "headlines": 4,
-     "outlets": 4,
+     "headlines": 8,
+     "outlets": 8,
      "independent": 4,
      "countries": [
+      "GB",
+      "IL",
       "RU",
-      "UA"
+      "SA",
+      "SG",
+      "TR"
      ],
-     "regions": 2,
+     "regions": 5,
      "party_only": false,
-     "state": 3
+     "state": 2
     },
     {
-     "text": "Yonhap reports Trump saying he won't rush a decision, while the same report says US and Israeli forces are preparing to attack Iran. An Iranian outlet claims Trump has pushed the decision on renewed strikes to 2027; this is that outlet's claim and is unconfirmed.",
+     "text": "Iranian media reported a missile strike and explosion on or near Qeshm Island, with one report of a possible downed enemy aircraft. Hormozgan Governorate denied a missile attack, and Tasnim linked the blast to disposal of unexploded munitions. No independent confirmation of an attack has been published.",
      "stories": [
-      "s6",
-      "s18"
+      "s4",
+      "s5",
+      "s17",
+      "s26",
+      "s31",
+      "s35"
      ],
      "sources": [
       {
-       "t": "Trump says he won't rush: \"US and Israeli forces are preparing to attack Iran",
-       "o": "서두르지 않겠다는 트럼프…\"미·이스라엘군은 이란 공격 채비\"",
-       "u": "https://www.yna.co.kr/view/AKR20261120180500071",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1795185987,
+       "t": "A missile exploded near the Iranian city of Qeshm",
+       "o": "В районе иранского города Кешм взорвалась ракета",
+       "u": "https://ria.ru/20261120/raketa-2133035567.html",
+       "s": "RIA Novosti",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795193580,
+       "r": "state"
+      },
+      {
+       "t": "Missile falls on the outskirts of the city of Qeshm",
+       "o": "سقوط صاروخ على أطراف مدينة قشم",
+       "u": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPWUFxbmtOUDZpZmdtVW1kQ2pMZ0xMYU1qek5sSEhPZm8xd3ZDLWlwT0JYRGlVc3lrTnlDdG96Zkw2bnA1NnQyaEFXdmFSQXZfbUMyWl83bkhsVk1fRVJpcDdxRzdzaFYwT055RGt5Nml1WU40SnQ0MWd5SUdHTWpCOXh5dTNXSlBfdXlLeGNwZGczVS1wVUo1LWNwQXZpaUI4enpMSkttSThKUHpqcTJUS195MlV2UUNHeHhpRjl1MTQ4eVB0eUdvV3l0aS1mMTZQV29iWUpOdC1aWGpqTDVmMDVXLTM4VE5IV2RGMlI5VUR1aEhRMzJZa2RxYmRSZVptUWxNazlqMDBUUm9oOXg0QlJ6cklxcnRjNHdwbkt6ZWZCQlZHLTZhaWowUEwxRWJuLVHSAbcCQVVfeXFMTjlQQ3k1WEZTbGRZeVJ2U0RWZ3ZPWmlrU3pUQlpja0w1eW5jaUZfWFRMQWcwRWZtRGl0dnlDeGF4NGxjZ2dtUlhsRmVVOThmYXBJdmg3TE1PM00tQ0ZuSHJiajh6emlEZmM2dlN",
+       "s": "تسنیم",
+       "c": "IR",
+       "l": "ar",
+       "p": 1795193216,
+       "r": "unrated"
+      },
+      {
+       "t": "Hormozgan Governorate denies Iranian press claim that \"US-Israel launched a missile attack on Qeshm Island",
+       "o": "Hürmüzgan Valiliği, İran basınının \"ABDİsrail, Keşm Adası'na füze saldırısı düzenledi\" iddiasını yalanladı",
+       "u": "https://www.trthaber.com/haber/dunya/hurmuzgan-valiligi-iran-basininin-abd-israil-kesm-adasina-fuze-saldirisi-duzenledi-iddiasini-yalanladi-964000.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1795194660,
        "r": "known"
       },
       {
-       "t": "Trump Pushes Decision on Renewed Strikes Against Iran to 2027",
-       "u": "https://iranwire.com/en/news/160522-trump-pushes-decision-on-renewed-strikes-against-iran-to-2027/",
-       "s": "IranWire",
-       "c": "IR",
+       "t": "Explosion on Iran's Qeshm Island linked to disposal of unexploded munitions, Tasnim reports",
+       "u": "https://www.al-monitor.com/originals/2026/11/explosion-irans-qeshm-island-linked-disposal-unexploded-munitions-tasnim-reports",
+       "s": "Al-Monitor",
+       "c": "US",
        "l": "en",
-       "p": 1795181196,
+       "p": 1795196790,
        "r": "known"
+      },
+      {
+       "t": "Explosion on Iran’s Qeshm Island linked to disposal of unexploded munitions: Report",
+       "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRkVQenNKZy1HQ0JsNVdzLWZVYlBveEEzRDBkMUV5V2NpTWk0bUd6cXBXNHpZdDdlRl84RHJtNE90b0hjRkdZUDdncWEwQm1JU2lpbE5wV0dxcTAwRmp3d1h6b3RXZ19TOVpvTDdiaXd2cDZDem1zdU1KckNScERENWJFLUdqbXMwVFI3bWZxOXdQTmFBN0dELU1nNWpnSmUxX2pQQXpyd2hkcGRpdVVEWUxvWXowUdIBuwFBVV95cUxNbDlwTjJzOWdHTWdHbFoyQ3NVWmRSREtTSFlxNkI5aWtvODBSZXBhdWVIb1BHR0prc25MZ3ZDRWFJYmZvZ2N5Y0Q5d3BGeFdBN0l4Y2xWLV82aVhjbkRjUG56aG5KTW1obF8yZXUtUjNCQ2tLNzd5NkRZYXoweGQ1enRrTjJmREI5cy05eVRsUUdoRE9yNmdYWVlGdXE3NHVYZjdWQ1RTaEdlWVZTSmJfWFlvZVVqVGtja2Fv?oc=5",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1795192560,
+       "r": "known"
+      }
+     ],
+     "headlines": 13,
+     "outlets": 11,
+     "independent": 11,
+     "countries": [
+      "IL",
+      "IR",
+      "KR",
+      "RU",
+      "SA",
+      "TR",
+      "US"
+     ],
+     "regions": 6,
+     "party_only": false,
+     "state": 6
+    },
+    {
+     "text": "Iran is reported to be trying to break the US naval blockade, with oil moved between tankers in the Gulf. These reports come from Saudi and Arab outlets.",
+     "stories": [
+      "s2"
+     ],
+     "sources": [
+      {
+       "t": "Iran seeks to break the US naval blockade",
+       "o": "إيران تسعى لكسر الحصار البحري الأميركي",
+       "u": "https://aawsat.com/node/5343734",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1795199679,
+       "r": "known"
+      },
+      {
+       "t": "Iranian oil transferred between two tankers in the Gulf as Washington expands its naval blockade",
+       "o": "نقل النفط الإيراني بين ناقلتين في الخليج مع توسيع واشنطن حصارها البحري",
+       "u": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxPNmpiTzItVTFMbjY0Q0ZrQWM2MjgtXzdZWFRwcDV6NURISTkwWllmQ2huZ3JKMmJtQVRZOGpqSWtQYngxWEtrbHNNX3lJajZNTHB2NS0yaGlRcnZOTFc5Z1BUTUlpVC1LZUQtR0hNb1V2aUdJbU5OdHRoLWlHZmhsZm9GNGJoQVNpZ3ZuWWdJRnJlaFdmTndnSnhGR2xGLXgyQjRxcHZzSnlWckhvVDJXVERuX0tlN2lSRFE3RW5jRWp3QldzdzBlMmdJVnBYLTVBLVU5eG8wZDdKUzRDNWk5YlJwTHFpRWpkc3R4Q3N2bjRVZ0I3ZU1NTTFzc2t6QzVDRnh5bUJaZ2NjS09WMTlfYmFwQ01BVGhUYm9oajBnZ3BMcGxSbS1NTWRpU0twbXJCemtEaTBzT0ktR2k4Y3M0dURBZUsxaFNtMHdxSU5NSkxVdFFOOHN5MFR5eVhpNTZVc3RJRE9qOVl6YW9fSDhDOVcwRU9kZ0d1alNfVGdSM2QzRTBJUWNYd3pWaFA2OEs1ZE40eEhjZk1wbGdaQ2NSRDl",
+       "s": "العربي الجديد",
+       "c": "GB",
+       "l": "ar",
+       "p": 1795191092,
+       "r": "unrated"
       }
      ],
      "headlines": 2,
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "IR",
+      "GB",
+      "SA"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Trump says Iran is not ready for a deal on US terms. CBS, citing Trump, says the next move on Iran may not come until 2027. Bessent says he will keep squeezing Iran. These are US statements, not independently verified.",
+     "stories": [
+      "s3",
+      "s33",
+      "s16",
+      "s24"
+     ],
+     "sources": [
+      {
+       "t": "Trump says Iran is not ready for a deal on US terms",
+       "o": "Трамп заявил о неготовности Ирана к сделке на условиях США",
+       "u": "https://www.kommersant.ru/doc/9126677",
+       "s": "Kommersant",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795198350,
+       "r": "known"
+      },
+      {
+       "t": "Live Updates: Trump says next move on Iran may not come until 2027 as Tehran denies chemical weapons claim",
+       "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTGgwZTZaQWNtSzNpRDhQajRHRHFFTDhiVXczZmUtaFJiMVdTMFcwN1dWV053c1lGY2hiUnJrNnc3X1JoREFHLWNYTG52bVk5cXhMSDlCU2NkcDVCeWhQamZsX3JXdVBYdzJSdWQ1NDlKaTE4ZzIxc3U1SE1lcnhjdm45TmtHVzBMTmI4?oc=5",
+       "s": "CBS News",
+       "c": "US",
+       "l": "en",
+       "p": 1795195920,
+       "r": "known"
+      },
+      {
+       "t": "Bessent says still living at US military base, vows to squeeze Iran",
+       "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc1RUaUVIWTF2RWZBa2dhUnBkOFhqNDlYeFZiMW1ONnJkX0tYSlQtTnAydVRSTEdQb3JFMGtTRmJ6d2VBQlJIUmZOaURyYlFNWHN6N3pIU3BTemxWUUN0N1h4a3c1Z1Q1djR4STg1dzEza01OckVQak1femVQZnNsYWdvUGRFQm1qWnA0UHNON2k5RENvTC1hbWVNRUhUb0g0TFJPR21MWnMzNFQ5Vlo1UmM3Q05wbVZzQlHSAb8BQVVfeXFMT09wY3RpUnBUeEs3OGl1NkZ3Z0VOelRXcnhPWS13Ym14TTAtRmxDRDBkdkM2VmZRMVRyODhhdl9yeVBucEJTaEZfUElnbC13dF9HUXpxRlFROHJ1TTFTTmVNbTI2UENPb0NFaTVIczNSdUg3Q0xpQnFNWlEwTWpCMkwyRXNYOG03UUw5ckVmXzFIeG83cU9kY2VtLVZXUTUxTVZZOVRQVm5MaVNzcnQwaFlKWk05SVBHbW1SVDI3UFE?oc=5",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1795196820,
+       "r": "known"
+      },
+      {
+       "t": "Despite threats, Bessent vows to continue pressure on Iran",
+       "o": "رغم التهديدات.. بيسنت يتعهد بمواصلة الضغط على إيران",
+       "u": "https://www.skynewsarabia.com/middle-east/1906111-%D8%B1%D8%BA%D9%85-%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA-%D8%A8%D9%8A%D8%B3%D9%86%D8%AA-%D9%8A%D8%AA%D8%B9%D9%87%D8%AF-%D8%A8%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A9-%D8%A7%D9%84%D8%B6%D8%BA%D8%B7-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+       "s": "Sky News Arabia",
+       "c": "AE",
+       "l": "ar",
+       "p": 1795193677,
+       "r": "known"
+      }
+     ],
+     "headlines": 8,
+     "outlets": 8,
+     "independent": 7,
+     "countries": [
+      "AE",
+      "RU",
+      "SA",
+      "US"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "Netanyahu says military action against Iran is inevitable, and Israeli preparations for possible new strikes are reported. Israel's side of this is its own government's claim.",
+     "stories": [
+      "s29",
+      "s21"
+     ],
+     "sources": [
+      {
+       "t": "Netanyahu: \"Military action against Iran is inevitable\"…repeated signals of war resumption",
+       "o": "네타냐후 “대이란 군사행동 불가피”…잇따른 전쟁 재개 ‘신호’",
+       "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObnhNUUw3N2VaTzZFYm5ZeFlkZWgwLXdIcV9yZ3hZUHRrZlU5Qm1zdC1UZFlNZkd4eWFaRVRjWHhqbjh6VzFhdEZNSDBJWGhnRTdOR29sQkhfeGhLaGFndlJUV1dpd3pYR2pKSjNpNGltV3ZHMEVHZHFodVBGcngwXzVB?oc=5",
+       "s": "한겨레",
+       "c": "KR",
+       "l": "ko",
+       "p": 1795191960,
+       "r": "unrated"
+      },
+      {
+       "t": "Israel prepares for the possibility of new strikes against Iran",
+       "o": "إسرائيل تتأهب لاحتمال شن ضربات جديدة ضد إيران",
+       "u": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5kazJUSlE4QjFxVm9Ib0N0Mk9QNUEtZVFBQi1MU3hPZm9VYVFIRHdHSmNxSXFkc2Z5ekNYWkdB?oc=5",
+       "s": "الحرة",
+       "c": "AE",
+       "l": "ar",
+       "p": 1795194726,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "AE",
       "KR"
      ],
      "regions": 2,
      "party_only": false,
      "state": 0
-    },
-    {
-     "text": "Iraqi forces have entered Jurf al-Sakhar, the stronghold of the Iran-backed militia, under a deal with the group, per NYT, Der Standard and Al Jazeera. This is a continuation of the previous update.",
-     "stories": [
-      "s2",
-      "s7"
-     ],
-     "sources": [
-      {
-       "t": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia",
-       "u": "https://www.nytimes.com/2026/11/20/world/middleeast/iraq-militia-iran-kataib-hezbollah.html",
-       "s": "NYT World",
-       "c": "US",
-       "l": "en",
-       "p": 1795189562,
-       "r": "known"
-      },
-      {
-       "t": "Iraqi forces advance into stronghold of pro-Iranian militia",
-       "o": "Irakische Kräfte rücken in Hochburg proiranischer Miliz vor",
-       "u": "https://www.derstandard.at/story/3000000350285/irakische-kr228fte-r252cken-in-hochburg-proiranischer-miliz-vor?ref=rss",
-       "s": "Der Standard International",
-       "c": "AT",
-       "l": "de",
-       "p": 1795183881,
-       "r": "known"
-      },
-      {
-       "t": "Iraqi forces deploy to Jurf al-Sakhar after deal with Iran-backed group",
-       "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDdELUI3RVJITHJubkdreVZyVEVNSGFjV0hZRnZ6WlMzRG03NXBOclVuaktKX2ZHTVBNSEJXeUpmOE13ejhxdE1WUXQ3bl9VckVBbkhBdUt2Y1JoLVpWSEtIQmNMcEpOY0QwTlFqdFhYTEt6bDh2RWdfelhQcWFsdEpYY1BHVVgtUXdCQ29jWGdQVEx4TlAwdWRMZW13bElkaFVtSVJMZGNzbXk5anBGSWxaQdIBuAFBVV95cUxPd1dodnduMjZCVVl6VWFCOElnZWRTeFpEbjBhSmlVWkFVeDR2M2pEVkNzOGxTYmVtcWp5OWxyX2M2OTRyUG1xaGsyTlNxZWV3VE1Sb2xrWFNzLTU0RnpGQXR1ZHZrTzRfYkdBdFZRS1BSWHkxeUNUdV9UUG1kQjFFTEdIbEs0TUEyZzN3YVFreG1nQVRkZVpUQWN1SVh5UHpXeDJuZnJCcXB5dzktZFg4TWZ3QU1jNVVG?oc=5",
-       "s": "Al Jazeera",
-       "c": "QA",
-       "l": "en",
-       "p": 1795180857,
-       "r": "known"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "AT",
-      "QA",
-      "US"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran International reports Iran is readying tankers to run the US blockade and threatens Persian Gulf oil if fired on. RFE/RL reports Iran is teasing a breach of the blockade as oil revenue runs out. Both rely on the sides' own media.",
-     "stories": [
-      "s12",
-      "s11"
-     ],
-     "sources": [
-      {
-       "t": "Iran readies tankers to run US blockade, threatens Persian Gulf oil if fired on",
-       "u": "https://www.iranintl.com/en/202611204873",
-       "s": "Iran International",
-       "c": "IR",
-       "l": "en",
-       "p": 1795183983,
-       "r": "known"
-      },
-      {
-       "t": "With Oil Revenue Running Out, Iran Teases Breaking US Blockade",
-       "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnS0VmRlE3ekV3ZHk0YzY3QjVhVkJJQUd1WWQ2NXVPQmpsN1pqWWg2MVpxajZYQnJIRVNOakJPU0FaUHVJYkVJQ2xScnNrcy15X2ZkLVpsTE42bXdYQ1VrVzJ0X2ZrdDFJalNWbnNJRUJBWEt6amc3V2N30gF8QVVfeXFMTUllRVc4WjBtR0x5QzBEcWE5TDBtQUVnOVRCSDRPUWlfU0ZUdldBd3pFbXZackNOR0xtNmE2el9MRWxmSmtXdkhlNGVJVWlfbDVsczFwem9DMmx2UU1nb0QtZFpwUjN5N0R4Vkh4SjdhY0w4WEIzWmFWcE5Wcg?oc=5",
-       "s": "RFE/RL",
-       "c": "US",
-       "l": "en",
-       "p": 1795185536,
-       "r": "known"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "IR",
-      "US"
-     ],
-     "regions": 2,
-     "party_only": true,
-     "state": 0
     }
    ],
    "watch": [
-    "Whether CBS-sourced reports of renewed strikes get confirmation from independent outlets",
-    "Whether Iranian tankers attempt to run the US blockade",
-    "Whether the Qeshm explosion report, which comes only from an Israeli outlet citing Iranian reports, is confirmed"
+    "Whether UKMTO or independent investigators confirm the cause of the tanker fire: projectile or mine",
+    "Independent confirmation or denial of the Qeshm Island explosions",
+    "Any announced US or Israeli strike, or further blockade-running attempts by Iranian tankers"
    ],
    "window_hours": 3,
-   "headlines_read": 25,
-   "outlets_read": 20,
-   "countries_read": 12,
-   "languages_read": 8,
+   "headlines_read": 64,
+   "outlets_read": 37,
+   "countries_read": 17,
+   "languages_read": 11,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T23:21:12Z",
    "ladder_note": "Re-checked after: Explosions on three tankers in the Strait of Hormuz are reported by many independent outlets, though the cause and attribution are Iran's account and unconfirmed."
