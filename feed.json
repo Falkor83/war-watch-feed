@@ -1776,9 +1776,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Iran claims 58th US drone downed; new US oil sanctions; talks stalled",
+   "status": "Tanker attacks near Hormuz and a downed US drone; Iran offers a deal, Trump says no rush",
    "summary": "The US and Israel have been at war with Iran since early 2026, with Hormuz shipping disrupted and a US naval blockade of Iran in place. Foreign Policy reports that US-Iran strikes resumed in the past week after a roughly two-month lull, including Iranian fire at US assets in Bahrain and Kuwait. On Nov 19, UKMTO reported a vessel hit by an unknown projectile off Oman, and Iran's navy says two tankers caught fire after hitting mines east of the strait. Trump told Axios he is not rushing a decision on wider strikes and would wait until after the new year, while Axios reports Netanyahu is pressing for a joint campaign. The Senate rejected a war powers resolution 48-51.",
    "latest": [
+    {
+     "date": "2026-11-21",
+     "at": "2026-11-21T10:09:12Z",
+     "text": "UKMTO, the UK maritime security agency, reports a tanker hit by an unidentified object near the Strait of Hormuz, and a separate report describes another tanker shelled there. Attacks on two oil tankers in the Strait are also reported.",
+     "outlet": "Liberty Times",
+     "country": "Taiwan",
+     "url": "https://news.ltn.com.tw/news/world/breakingnews/5648742",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-21",
+     "at": "2026-11-21T10:09:12Z",
+     "text": "Iran's Revolutionary Guards say they downed a US drone over the Strait of Hormuz. The claim comes from Iranian sources; no US confirmation appears in these reports.",
+     "outlet": "Al Jazeera",
+     "country": "Qatar",
+     "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
+     "region": "gulf",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-21",
+     "at": "2026-11-21T10:09:12Z",
+     "text": "Iran is reported to seek a deal to end the conflict and to offer a faster reopening of Hormuz. Iran also says it will not reopen the Strait until seven of its conditions are met, and that it is ready for war if the US does not accept its terms.",
+     "outlet": "Publico Mundo",
+     "country": "Portugal",
+     "url": "https://www.publico.pt/2026/11/21/mundo/noticia/teerao-procura-acordo-conflito-admite-acelerar-reabertura-ormuz-2195814",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-21",
      "at": "2026-11-21T07:25:23Z",
@@ -1830,39 +1863,6 @@
      "outlet": "The Japan Times",
      "country": "Japan",
      "url": "https://www.japantimes.co.jp/news/2026/11/21/world/politics/iran-diplomacy-terms-unacceptable/",
-     "region": "east-asia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-21",
-     "at": "2026-11-21T04:38:22Z",
-     "text": "Iranian hardliners are pushing a tanker convoy to defy the US blockade, according to Iran International and Amwaj.media. No decision on a convoy is reported.",
-     "outlet": "Amwaj.media",
-     "country": "United Kingdom",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmt4OXJRUW1rZ2N3bmhlU3NsWUxOQUVaSjk3eTJxX3FQYXRVTzBIVzZRTk9KMzAzTEpReGpkNW0xMkRvZS1tTjVaQ3p6djFkQ2ZVNm1HMDZ3UmN3NmU2SVhwWjJQVzI1Y3hRMVU0dzhHYmNnNHJaOHVfVW9qTUJLMFk3RWZvM19FM1ZKVVdzY2dRVktHaXgwQ3hJVmQwajQ?oc=5",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-21",
-     "at": "2026-11-21T01:32:48Z",
-     "text": "Axios, as reported by Kommersant, says Trump's envoys held secret talks in Berlin with Qatar on reviving the Iran nuclear deal. Sky News Arabia separately reports a US-Qatari meeting in Berlin on ending the war. Each report comes from a single outlet.",
-     "outlet": "Kommersant",
-     "country": "Russia",
-     "url": "https://www.kommersant.ru/doc/9126974",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-21",
-     "at": "2026-11-21T01:32:48Z",
-     "text": "Iran's foreign minister Araghchi says Tehran still wants a diplomatic end to the war with the US. Trump has called Iran's terms unacceptable. Iranian-linked media say Tehran's first demand is that Trump explicitly declare he wants an agreement; this is Iran's claim.",
-     "outlet": "Yonhap Korean",
-     "country": "South Korea",
-     "url": "https://www.yna.co.kr/view/AKR20261121019900009",
      "region": "east-asia",
      "tag": "non-party",
      "state_media": false
@@ -13337,11 +13337,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-18T11:17:36Z",
-     "headline": "Iran hits US bases in Kuwait, Bahrain after US Qeshm strikes; UAE tanker attacked",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-18T14:02:22Z",
      "headline": "Iran claims second drone kill; tanker hit in Hormuz; Rubio sees no imminent threat",
      "direction": "escalating"
@@ -13455,67 +13450,96 @@
      "at": "2026-11-21T07:25:23Z",
      "headline": "Iran claims 58th US drone downed; new US oil sanctions; talks stalled",
      "direction": "escalating"
+    },
+    {
+     "at": "2026-11-21T10:09:12Z",
+     "headline": "Tanker attacks near Hormuz and a downed US drone; Iran offers a deal, Trump says no rush",
+     "direction": "steady"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-21T07:25:23Z",
-   "next_at": "2026-11-21T10:25:23Z",
-   "headline": "Iran claims 58th US drone downed; new US oil sanctions; talks stalled",
-   "direction": "escalating",
+   "updated_at": "2026-11-21T10:09:12Z",
+   "next_at": "2026-11-21T13:09:12Z",
+   "headline": "Tanker attacks near Hormuz and a downed US drone; Iran offers a deal, Trump says no rush",
+   "direction": "steady",
    "points": [
     {
-     "text": "Iran's Revolutionary Guards say they shot down their 58th US MQ-9 drone over the Strait of Hormuz. This is an Iranian claim from Iranian state media, and no US confirmation appears in these reports.",
+     "text": "UKMTO, the UK maritime security agency, reports a tanker hit by an unidentified object near the Strait of Hormuz, and a separate report describes another tanker shelled there. Attacks on two oil tankers in the Strait are also reported.",
      "stories": [
+      "s2",
+      "s6"
+     ],
+     "sources": [
+      {
+       "t": "UKMTO: tanker hit by unidentified object at stern near Strait of Hormuz",
+       "o": "UKMTO：油輪在荷姆茲海峽附近 遭不明物體擊中船尾",
+       "u": "https://news.ltn.com.tw/news/world/breakingnews/5648742",
+       "s": "Liberty Times",
+       "c": "TW",
+       "l": "zh",
+       "p": 1795249957,
+       "r": "known"
+      },
+      {
+       "t": "UKMTO reports yet another tanker shelled in the Strait of Hormuz",
+       "o": "UKMTO сообщило о еще одном танкере, обстрелянном в Ормузском проливе",
+       "u": "https://ria.ru/20261121/tanker-2133110480.html",
+       "s": "RIA Novosti",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795251042,
+       "r": "state"
+      },
+      {
+       "t": "Attack on two oil tankers in the Strait of Hormuz",
+       "o": "هجوم على ناقلتي نفط في مضيق «هرمز»",
+       "u": "https://aawsat.com/node/5343893",
+       "s": "Asharq Al-Awsat",
+       "c": "SA",
+       "l": "ar",
+       "p": 1795252389,
+       "r": "known"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "RU",
+      "SA",
+      "TW"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "Iran's Revolutionary Guards say they downed a US drone over the Strait of Hormuz. The claim comes from Iranian sources; no US confirmation appears in these reports.",
+     "stories": [
+      "s5",
       "s10"
      ],
      "sources": [
       {
-       "t": "IRGC shoots down 58th US MQ-9 drone over Strait of Hormuz",
-       "u": "https://en.irna.ir/news/86327810/IRGC-shoots-down-58th-US-MQ-9-drone-over-Strait-of-Hormuz",
-       "s": "IRNA English",
-       "c": "IR",
+       "t": "Iran’s IRGC downs US drone over Hormuz as efforts to end war remain stalled",
+       "u": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
+       "s": "Al Jazeera",
+       "c": "QA",
        "l": "en",
-       "p": 1795240195,
-       "r": "state"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "IR"
-     ],
-     "regions": 1,
-     "party_only": true,
-     "state": 2
-    },
-    {
-     "text": "The Financial Times reports that oil shipped through Hormuz has fallen as Iranian strikes increase. The US has also announced new sanctions targeting Iran's oil sector.",
-     "stories": [
-      "s7",
-      "s1"
-     ],
-     "sources": [
-      {
-       "t": "Oil shipped through Hormuz falls as Iranian strikes increase",
-       "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRGJLeFNBLUxKMHJ5aGMyd1c3NzN5UHdpcnc0M0xkNWVtTHNlNV9ENW5SN1FmanBubUlhcU5XS29JNzNiWFVGY09BT2h3OW5pM3RvcG5RLVFLbU0tMGhZZzdocWJfQk04TElreFFQVXRFVjRJWGVvWjdvUl9Tc3NMcW5iWHQ?oc=5",
-       "s": "Financial Times",
-       "c": "GB",
-       "l": "en",
-       "p": 1795237485,
+       "p": 1795253424,
        "r": "known"
       },
       {
-       "t": "US announces new sanctions against Iran targeting the oil sector",
-       "o": "США оголосили нові санкції проти Ірану, націлені на нафтовий сектор",
-       "u": "https://www.pravda.com.ua/news/2026/11/21/8063915/",
-       "s": "Ukrainska Pravda UA",
-       "c": "UA",
-       "l": "uk",
-       "p": 1795244580,
+       "t": "Iran shoots down a US MQ-9 drone over the Strait of Hormuz",
+       "o": "Irán derriba un dron estadounidense MQ-9 sobre el estrecho de Ormuz",
+       "u": "https://www.infobae.com/america/agencias/2026/11/21/iran-derriba-un-dron-estadounidense-mq-9-sobre-el-estrecho-de-ormuz/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1795249859,
        "r": "known"
       }
      ],
@@ -13523,90 +13547,183 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "GB",
-      "UA"
-     ],
-     "regions": 1,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Al Arabiya reports US and Israeli pressure on Trump to resume the war on Iran. Yonhap quotes Trump saying he won't rush, while pressure for further attacks grows.",
-     "stories": [
-      "s6",
-      "s5"
-     ],
-     "sources": [
-      {
-       "t": "US and Israeli pressure on Trump to resume the war on Iran",
-       "o": "ضغوط أميركية وإسرائيلية على ترامب لاستئناف حرب إيران",
-       "u": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxQcks4aTZYS3dVS2VGZlJPU0ZqVnJ6bG82Q0ZJS0VmVkxNc2FWOUFGckFfM2h4VEw3ekw4RDNsdUxTVkJkcG1QRVdtVFljcHZRWHB6R0U5MDA0UG1RQXFkWHlEcUptRTJqY1Y0Nlp6T3FxemVoUzdDakJGeUw1N1RTQ3pkVVlPWVdabG1uazY3Yzg4TnZOSjhzT2NBdWlHNzVwQ1hUNDNjT05MMVFGUGlRc3Y4RWF4cDE4Q3F2azZQOWZKR2p3ZW9aaTJWckUtQkcySVdUVFBsUl9rQUZEQ0Q1OU12UGtFUzIwUFNURUZUN1gwVUFOb2R5UjhJNUFnQUpNQkRzQlFNVzV2YmV2VFJiR1laRTlpbmNCc1J3MzRDMjNQMktJX2wxZmFQOXVqbHFSMFJ0Nk5UdTN4dEhjZnR2RDVMLWNqUXRnVTZBZDl6bHRSV05KTlVWUXI2cHhFbFFjMVp3LUtmX1dveEl0OElCalFHQ0JWdnNXeHFMR0FFd2xXbVFMRk5KNTltLWtzMVRpeXNPRlpQNFk4OHpIUDFwMG1",
-       "s": "Al Arabiya",
-       "c": "SA",
-       "l": "ar",
-       "p": 1795237560,
-       "r": "known"
-      },
-      {
-       "t": "Trump says he won't rush, but pressure grows for further attacks on Iran (roundup)",
-       "o": "트럼프는 서두르지 않겠다는데…이란 추가공격 압박 커져(종합)",
-       "u": "https://www.yna.co.kr/view/AKR20261121034600009",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1795238887,
-       "r": "known"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "KR",
-      "SA"
+      "AR",
+      "QA"
      ],
      "regions": 2,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "A Majlis deputy tells TASS that Iran has ceased to be a member of the NPT after strikes on its nuclear facilities. This is one lawmaker's claim, and it is not confirmed by other sources in these reports.",
+     "text": "Iran is reported to seek a deal to end the conflict and to offer a faster reopening of Hormuz. Iran also says it will not reopen the Strait until seven of its conditions are met, and that it is ready for war if the US does not accept its terms.",
      "stories": [
+      "s1",
+      "s9",
       "s8"
      ],
      "sources": [
       {
-       "t": "Majlis deputy: Iran has ceased to be a member of the NPT after strikes on its nuclear facilities",
-       "o": "В Тегеране заявили, что Иран \"вытолкали из ДНЯО\"",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28341841",
+       "t": "Tehran seeks a deal to end the conflict and admits it may speed up reopening of Hormuz",
+       "o": "Teerão procura acordo para o conflito e admite acelerar reabertura de Ormuz",
+       "u": "https://www.publico.pt/2026/11/21/mundo/noticia/teerao-procura-acordo-conflito-admite-acelerar-reabertura-ormuz-2195814",
+       "s": "Publico Mundo",
+       "c": "PT",
+       "l": "pt",
+       "p": 1795253475,
+       "r": "known"
+      },
+      {
+       "t": "Iran seeks a deal to avoid another war and offers to speed up the reopening of Hormuz",
+       "o": "Irán busca un acuerdo que evite otra guerra y ofrece acelerar la reapertura de Ormuz",
+       "u": "https://www.infobae.com/america/agencias/2026/11/21/iran-busca-un-acuerdo-que-evite-otra-guerra-y-ofrece-acelerar-la-reapertura-de-ormuz/",
+       "s": "Infobae",
+       "c": "AR",
+       "l": "es",
+       "p": 1795247120,
+       "r": "known"
+      },
+      {
+       "t": "We will not open the Strait of Hormuz until seven of our conditions are met - Iran",
+       "o": "Ba za mu buɗe mashigar Hormuz ba sai an cika mana sharuɗɗa bakwai - Iran",
+       "u": "https://www.bbc.co.uk/hausa/live/cmj6l8k4e003t?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Hausa",
+       "c": "GB",
+       "l": "ha",
+       "p": 1795251393,
+       "r": "known"
+      },
+      {
+       "t": "Iran says it is ready for war if the US does not accept its conditions",
+       "o": "В Иране заявили о готовности к войне, если США не примут его условия",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28342153",
        "s": "TASS",
        "c": "RU",
        "l": "ru",
-       "p": 1795237312,
+       "p": 1795251740,
        "r": "state"
       }
      ],
-     "headlines": 1,
-     "outlets": 1,
-     "independent": 1,
+     "headlines": 4,
+     "outlets": 4,
+     "independent": 4,
      "countries": [
+      "AR",
+      "GB",
+      "PT",
       "RU"
      ],
-     "regions": 1,
+     "regions": 3,
      "party_only": false,
      "state": 1
+    },
+    {
+     "text": "Trump says there is no rush to attack Iran, while US officials and commentators debate hawks against war skeptics. Trump also denies needing China or Russia to resolve the war.",
+     "stories": [
+      "s15",
+      "s3"
+     ],
+     "sources": [
+      {
+       "t": "No rush to attack Iran,\" says Trump, facing domestic and foreign pressure",
+       "o": "\"이란 공격 서두르지 않겠다\" 트럼프, 국내외 압박 직면",
+       "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeV9JWmZtV1RNOUk4MU5DU08tNklfSmZMTUxBUTVoOVVqVmdiY3hWVnhZckZsMHAwOHI1NDcxZWlGbmtCZTdwMXVvVTBjWG5od25yRHZlNV9aNl83bUtWQ2NKYy1sUWVNM0d6ODJBbEVWRmE0NHlaSFY4V1VmLTNwYUJja3U?oc=5",
+       "s": "조선일보",
+       "c": "KR",
+       "l": "ko",
+       "p": 1795247160,
+       "r": "unrated"
+      },
+      {
+       "t": "Trump amid hawks and war skeptics over Iran",
+       "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFBVVXZ0eWwyOFdCUDNyVlVfODRZaENYdkFuUk56eHk5ejdQWDB3Y1hldTNvaWRVRHhhVnJmRzg1Z2J5UHZrTnM2eFdXTVgzY3lvdGRvRFp1THlyLS0wdUdHUlZoU3lGZXJQd1RsbmRpU0RtNjBobjJCWURrazNjMDVmRmFqVVU5TTdZSFdvd2IyWkk5Z3A0LWZrZWF6SV9sMkHSAacBQVVfeXFMTVJDSlJlazhHXy1SRWhrMC1yNWdfVzRXcVJvRl9mN1dabm5yMUtaaE1EdmFMc0Z0TTlVMDZPNTZXOFFoUXdjaGdIVHJqVXlmcW0wZ2NNRFduVXBZdUVvLW1WN2Z4Wkhzb3FZYUhlWkktTVJtdm9fX1FpS3NVbmNWNDVvdG9raEtRQ01jQmViM2VmNjZ3S2xWdTVvMllWZTItNUdSVktINnM?oc=5",
+       "s": "Al Arabiya English",
+       "c": "SA",
+       "l": "en",
+       "p": 1795249200,
+       "r": "known"
+      },
+      {
+       "t": "Trump denies needing China and Russia to resolve the war in Iran",
+       "o": "Trump niega necesitar a China y Rusia para resolver guerra en Irán",
+       "u": "https://www.jornada.com.mx/2026/11/21/mundo/018n2mun?partner=rss",
+       "s": "La Jornada Mundo",
+       "c": "MX",
+       "l": "es",
+       "p": 1795247888,
+       "r": "known"
+      }
+     ],
+     "headlines": 3,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "KR",
+      "MX",
+      "SA"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Iranian officials describe the situation as a stalemate. Foreign Minister Araghchi says Iran does not want a state of neither war nor peace to continue. President Pezeshkian calls the pressure an economic war harder than the missile war. These are Iranian government statements.",
+     "stories": [
+      "s16",
+      "s4"
+     ],
+     "sources": [
+      {
+       "t": "Iranian Foreign Minister Araghchi says they do not want a state of neither war nor peace to continue",
+       "o": "İran Dışişleri Bakanı Arakçi, ne savaş ne de barış durumunun devam etmesini istemediklerini söyledi",
+       "u": "https://www.trthaber.com/haber/dunya/iran-disisleri-bakani-arakci-ne-savas-ne-de-baris-durumunun-devam-etmesini-istemediklerini-soyledi-964039.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1795246860,
+       "r": "known"
+      },
+      {
+       "t": "Iranian President Pezeshkian: We are in an economic war harder than the missile war",
+       "o": "İran Cumhurbaşkanı Pezeşkiyan: Füze savaşından daha zor bir ekonomik savaşın içindeyiz",
+       "u": "https://www.trthaber.com/haber/dunya/iran-cumhurbaskani-pezeskiyan-fuze-savasindan-daha-zor-bir-ekonomik-savasin-icindeyiz-964045.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1795250640,
+       "r": "known"
+      },
+      {
+       "t": "Pezeshkian: Iran faces silent economic war far more difficult than military conflict",
+       "u": "https://en.irna.ir/news/86328146/Pezeshkian-Iran-faces-silent-economic-war-far-more-difficult",
+       "s": "IRNA English",
+       "c": "IR",
+       "l": "en",
+       "p": 1795253949,
+       "r": "state"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 3,
+     "independent": 3,
+     "countries": [
+      "IR",
+      "TR"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 3
     }
    ],
    "watch": [
-    "Whether the US confirms or denies the loss of the 58th drone",
-    "Whether an Iranian tanker convoy leaves the Gulf to try to break the US blockade, as Israeli outlets report Iran is preparing",
-    "Whether Iran formalises any NPT withdrawal or the US moves on new strikes"
+    "Whether UKMTO confirms further tanker incidents in the Strait of Hormuz",
+    "Whether Iran's offer to speed up the Hormuz reopening leads to a formal proposal from either side",
+    "Any US response to the claimed drone downing"
    ],
    "window_hours": 3,
-   "headlines_read": 19,
-   "outlets_read": 17,
-   "countries_read": 12,
-   "languages_read": 10,
+   "headlines_read": 30,
+   "outlets_read": 23,
+   "countries_read": 15,
+   "languages_read": 11,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T23:21:12Z",
    "ladder_note": "Re-checked after: Explosions on three tankers in the Strait of Hormuz are reported by many independent outlets, though the cause and attribution are Iran's account and unconfirmed."
