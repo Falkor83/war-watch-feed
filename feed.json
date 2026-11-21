@@ -1719,9 +1719,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Two tankers hit near Hormuz; Iran claims 58th US drone downed, unconfirmed by US",
+   "status": "Tankers hit near Hormuz as uranium talks stall; Iran claims another US drone downed",
    "summary": "The United States and Israel have been at war with Iran, and a June memorandum on Hormuz was never fully implemented. Attacks at sea have resumed periodically since July. A maritime agency says two outbound tankers were hit by unknown projectiles near Hormuz, with no casualties reported. Iran's state media says the IRGC shot down a 58th US MQ-9 drone; the US has not confirmed it. Iran's foreign minister lists seven conditions for reopening Hormuz but calls the timetable flexible, and the US Senate rejected a limit on Trump's war powers.",
    "latest": [
+    {
+     "date": "2026-11-21",
+     "at": "2026-11-21T13:33:35Z",
+     "text": "Reports from three countries say two oil tankers were attacked in the Strait of Hormuz. Iran's Revolutionary Guard and navy say an oil tanker hit a mine east of the strait and caught fire. Who laid or triggered the mine is not stated in these reports.",
+     "outlet": "Deutsche Welle",
+     "country": "Germany",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWlJNeEJZVHJOQmEyYVpyQWZOY1p2U0FmdXRDNi1DdGhiNUphNTJpYWhmbTd6ckNELWIyX2N5dGZwS3NpZXR1dWlZTkV1R1VneHl1SV96SElWcWQxTHhseHZtYkZuS3JFU2V1Vl9YTjB1RlpERDRaMkJORjg5Z2h0XzdFMTF1OHdubEVENWxqMWFERU1NNW5jUjZiRdIBmwFBVV95cUxQY2xnc3dyOVM4RG43Q29xN0Y5MzA2QkE0dm44WTd0bUMzVkQySjlHSWxuOEJYWURubFgzc1VTQmRZRTVVNl9pdy1aNXBRVktrMldOMEJ5dGs1cHlrdkdFMjZUYWFQdDNMR1Rzb08yY2JhZnlqX29wajBsNzRUelVpS1kwcFhNYWtvNk12NkxKdTA4dEk5YWppRFZGcw?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-21",
+     "at": "2026-11-21T13:33:35Z",
+     "text": "Iran says it downed a US MQ-1 drone over Qeshm Island, and Mehr reports this as the 19th such drone. Iran also says a new air defence system intercepted a US Reaper over Hormuz. No US confirmation appears in these reports.",
+     "outlet": "Middle East Eye",
+     "country": "United Kingdom",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-downed-us-drone-over-qeshm-island",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-21",
+     "at": "2026-11-21T13:33:35Z",
+     "text": "Indian and Russian outlets report US-Iran nuclear talks have deadlocked over the enriched uranium stockpile, and mediators warn of renewed conflict. A report citing Saudi sources says talks continue but the uranium dispute remains.",
+     "outlet": "Hindustan Times World",
+     "country": "India",
+     "url": "https://www.hindustantimes.com/world-news/usiran-nuclear-talks-hit-deadlock-over-enriched-uranium-stockpile-military-escalation-feared-101795265100861.html",
+     "region": "south-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-21",
      "text": "Iran's state media says the IRGC shot down a US MQ-9 over Hormuz with a new air-defence system, its 58th. No US confirmation is given.",
@@ -1771,36 +1804,6 @@
      "region": "east-asia",
      "tag": "non-party",
      "state_media": false
-    },
-    {
-     "date": "2026-11-21",
-     "text": "Iran's Revolutionary Guards say they downed a US drone over the Strait of Hormuz. The claim comes from Iranian sources; no US confirmation appears in these reports.",
-     "outlet": "Al Jazeera",
-     "country": "Qatar",
-     "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-21",
-     "text": "Iran is reported to seek a deal to end the conflict and to offer a faster reopening of Hormuz. Iran also says it will not reopen the Strait until seven of its conditions are met, and that it is ready for war if the US does not accept its terms.",
-     "outlet": "Publico Mundo",
-     "country": "Portugal",
-     "url": "https://www.publico.pt/2026/11/21/mundo/noticia/teerao-procura-acordo-conflito-admite-acelerar-reabertura-ormuz-2195814",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-21",
-     "text": "Iran's Revolutionary Guards say they shot down their 58th US MQ-9 drone over the Strait of Hormuz. This is an Iranian claim from Iranian state media, and no US confirmation appears in these reports.",
-     "outlet": "IRNA English",
-     "country": "Iran",
-     "url": "https://en.irna.ir/news/86327810/IRGC-shoots-down-58th-US-MQ-9-drone-over-Strait-of-Hormuz",
-     "region": "iran",
-     "tag": "party-press",
-     "state_media": true
     }
    ],
    "us_impact": {
@@ -13293,11 +13296,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-18T14:02:22Z",
-     "headline": "Iran claims second drone kill; tanker hit in Hormuz; Rubio sees no imminent threat",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-18T17:21:17Z",
      "headline": "US strikes Qeshm missile site after Iran hits Kuwait, Bahrain; tanker fire in Hormuz",
      "direction": "escalating"
@@ -13411,275 +13409,317 @@
      "at": "2026-11-21T10:09:12Z",
      "headline": "Tanker attacks near Hormuz and a downed US drone; Iran offers a deal, Trump says no rush",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-21T13:33:35Z",
+     "headline": "Tankers hit near Hormuz as uranium talks stall; Iran claims another US drone downed",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-21T10:09:12Z",
-   "next_at": "2026-11-21T13:09:12Z",
-   "headline": "Tanker attacks near Hormuz and a downed US drone; Iran offers a deal, Trump says no rush",
-   "direction": "steady",
+   "updated_at": "2026-11-21T13:33:35Z",
+   "next_at": "2026-11-21T16:33:35Z",
+   "headline": "Tankers hit near Hormuz as uranium talks stall; Iran claims another US drone downed",
+   "direction": "escalating",
    "points": [
     {
-     "text": "UKMTO, the UK maritime security agency, reports a tanker hit by an unidentified object near the Strait of Hormuz, and a separate report describes another tanker shelled there. Attacks on two oil tankers in the Strait are also reported.",
+     "text": "Reports from three countries say two oil tankers were attacked in the Strait of Hormuz. Iran's Revolutionary Guard and navy say an oil tanker hit a mine east of the strait and caught fire. Who laid or triggered the mine is not stated in these reports.",
      "stories": [
-      "s2",
-      "s6"
+      "s1",
+      "s10",
+      "s14"
      ],
      "sources": [
       {
-       "t": "UKMTO: tanker hit by unidentified object at stern near Strait of Hormuz",
-       "o": "UKMTO：油輪在荷姆茲海峽附近 遭不明物體擊中船尾",
-       "u": "https://news.ltn.com.tw/news/world/breakingnews/5648742",
-       "s": "Liberty Times",
-       "c": "TW",
-       "l": "zh",
-       "p": 1795249957,
+       "t": "Maritime agency reports attacks on two oil tankers in the Strait of Hormuz",
+       "o": "Agencia marítima reporta ataques contra dos petroleros en estrecho de Ormuz",
+       "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWlJNeEJZVHJOQmEyYVpyQWZOY1p2U0FmdXRDNi1DdGhiNUphNTJpYWhmbTd6ckNELWIyX2N5dGZwS3NpZXR1dWlZTkV1R1VneHl1SV96SElWcWQxTHhseHZtYkZuS3JFU2V1Vl9YTjB1RlpERDRaMkJORjg5Z2h0XzdFMTF1OHdubEVENWxqMWFERU1NNW5jUjZiRdIBmwFBVV95cUxQY2xnc3dyOVM4RG43Q29xN0Y5MzA2QkE0dm44WTd0bUMzVkQySjlHSWxuOEJYWURubFgzc1VTQmRZRTVVNl9pdy1aNXBRVktrMldOMEJ5dGs1cHlrdkdFMjZUYWFQdDNMR1Rzb08yY2JhZnlqX29wajBsNzRUelVpS1kwcFhNYWtvNk12NkxKdTA4dEk5YWppRFZGcw?oc=5",
+       "s": "Deutsche Welle",
+       "c": "DE",
+       "l": "es",
+       "p": 1795265056,
        "r": "known"
       },
       {
-       "t": "UKMTO reports yet another tanker shelled in the Strait of Hormuz",
-       "o": "UKMTO сообщило о еще одном танкере, обстрелянном в Ормузском проливе",
-       "u": "https://ria.ru/20261121/tanker-2133110480.html",
+       "t": "Two Tankers Attacked in Strait of Hormuz",
+       "u": "https://english.aawsat.com/world/5343927-two-tankers-attacked-strait-hormuz",
+       "s": "Asharq Al-Awsat",
+       "c": "SY",
+       "l": "en",
+       "p": 1795260600,
+       "r": "known"
+      },
+      {
+       "t": "A tanker hit a mine in the Strait of Hormuz",
+       "o": "В Ормузском проливе танкер подорвался на мине",
+       "u": "https://ria.ru/20261121/tanker-2133138708.html",
        "s": "RIA Novosti",
        "c": "RU",
        "l": "ru",
-       "p": 1795251042,
+       "p": 1795265755,
        "r": "state"
       },
       {
-       "t": "Attack on two oil tankers in the Strait of Hormuz",
-       "o": "هجوم على ناقلتي نفط في مضيق «هرمز»",
-       "u": "https://aawsat.com/node/5343893",
+       "t": "Iran's Revolutionary Guard Army: an oil tanker hit a mine east of the Strait of Hormuz and caught fire",
+       "o": "İran Devrim Muhafızları Ordusu: Hürmüz Boğazı'nın doğusunda bir petrol tankeri mayına çarparak alev aldı",
+       "u": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-ordusu-hurmuz-bogazinin-dogusunda-bir-petrol-tankeri-mayina-carparak-alev-aldi-964065.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1795260000,
+       "r": "known"
+      },
+      {
+       "t": "Iranian army: \"An oil tanker hit a mine in Hormuz and caught fire",
+       "o": "צבא איראן: \"מכלית נפט פגעה במוקש בהורמוז ועלתה באש\"",
+       "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tLXNMNTFCRDh5Q3Z6UFlBa0lwTHJlb0F2dU9ON2pUY2lQRDZUUzR6ZDdOM3RKbno0MF9JR0VYUUFxVXRjMlEwUEhOOUNNNG5qLU44dTJYU2FLZw?oc=5",
+       "s": "YNET",
+       "c": "IL",
+       "l": "he",
+       "p": 1795260084,
+       "r": "unrated"
+      }
+     ],
+     "headlines": 9,
+     "outlets": 8,
+     "independent": 7,
+     "countries": [
+      "DE",
+      "IL",
+      "RU",
+      "SY",
+      "TR"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 4
+    },
+    {
+     "text": "Iran says it downed a US MQ-1 drone over Qeshm Island, and Mehr reports this as the 19th such drone. Iran also says a new air defence system intercepted a US Reaper over Hormuz. No US confirmation appears in these reports.",
+     "stories": [
+      "s9",
+      "s11",
+      "s22",
+      "s3",
+      "s18"
+     ],
+     "sources": [
+      {
+       "t": "Iran says it downed US drone over Qeshm Island",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-downed-us-drone-over-qeshm-island",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1795259561,
+       "r": "known"
+      },
+      {
+       "t": "IRGC downs 19th US MQ-1 drone in skies of Qeshm Island",
+       "u": "https://en.mehrnews.com/news/249575/IRGC-downs-19th-US-MQ-1-drove-in-skies-of-Qeshm-Island",
+       "s": "Mehr English",
+       "c": "IR",
+       "l": "en",
+       "p": 1795261832,
+       "r": "state"
+      },
+      {
+       "t": "Iranian air defense shoots down 19th American MQ-1 drone, IRGC says",
+       "o": "Иранская ПВО сбила 19-й американкий беспилотник MQ-1, заявил КСИР",
+       "u": "https://ria.ru/20261121/iran-2133139309.html",
+       "s": "RIA Novosti",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795266027,
+       "r": "state"
+      },
+      {
+       "t": "MQ-1 UAV shot down over Qeshm Island – SEPAH",
+       "o": "Qeşm adasında MQ - 1 PUA - sı vurulub – SEPAH",
+       "u": "https://az.trend.az/other/world/4249202.html",
+       "s": "az.trend.az",
+       "c": "AZ",
+       "l": "az",
+       "p": 1795260600,
+       "r": "unrated"
+      },
+      {
+       "t": "Report: US drone shot down over the Strait of Hormuz",
+       "o": "تقرير: إسقاط مسيّرة أميركية في أجواء مضيق هرمز",
+       "u": "https://aawsat.com/node/5343968",
        "s": "Asharq Al-Awsat",
        "c": "SA",
        "l": "ar",
-       "p": 1795252389,
+       "p": 1795265804,
        "r": "known"
       }
      ],
-     "headlines": 5,
-     "outlets": 3,
-     "independent": 3,
+     "headlines": 7,
+     "outlets": 6,
+     "independent": 6,
      "countries": [
+      "AZ",
+      "GB",
+      "IN",
+      "IR",
       "RU",
-      "SA",
-      "TW"
+      "SA"
      ],
-     "regions": 3,
+     "regions": 5,
      "party_only": false,
      "state": 2
     },
     {
-     "text": "Iran's Revolutionary Guards say they downed a US drone over the Strait of Hormuz. The claim comes from Iranian sources; no US confirmation appears in these reports.",
+     "text": "Indian and Russian outlets report US-Iran nuclear talks have deadlocked over the enriched uranium stockpile, and mediators warn of renewed conflict. A report citing Saudi sources says talks continue but the uranium dispute remains.",
      "stories": [
-      "s5",
-      "s10"
+      "s4",
+      "s26",
+      "s28",
+      "s29"
      ],
      "sources": [
       {
-       "t": "Iran’s IRGC downs US drone over Hormuz as efforts to end war remain stalled",
-       "u": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
-       "s": "Al Jazeera",
-       "c": "QA",
+       "t": "US-Iran nuclear talks hit deadlock over enriched uranium stockpile, military escalation feared",
+       "u": "https://www.hindustantimes.com/world-news/usiran-nuclear-talks-hit-deadlock-over-enriched-uranium-stockpile-military-escalation-feared-101795265100861.html",
+       "s": "Hindustan Times World",
+       "c": "IN",
        "l": "en",
-       "p": 1795253424,
+       "p": 1795265802,
        "r": "known"
       },
       {
-       "t": "Iran shoots down a US MQ-9 drone over the Strait of Hormuz",
-       "o": "Irán derriba un dron estadounidense MQ-9 sobre el estrecho de Ormuz",
-       "u": "https://www.infobae.com/america/agencias/2026/11/21/iran-derriba-un-dron-estadounidense-mq-9-sobre-el-estrecho-de-ormuz/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1795249859,
-       "r": "known"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "AR",
-      "QA"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iran is reported to seek a deal to end the conflict and to offer a faster reopening of Hormuz. Iran also says it will not reopen the Strait until seven of its conditions are met, and that it is ready for war if the US does not accept its terms.",
-     "stories": [
-      "s1",
-      "s9",
-      "s8"
-     ],
-     "sources": [
-      {
-       "t": "Tehran seeks a deal to end the conflict and admits it may speed up reopening of Hormuz",
-       "o": "Teerão procura acordo para o conflito e admite acelerar reabertura de Ormuz",
-       "u": "https://www.publico.pt/2026/11/21/mundo/noticia/teerao-procura-acordo-conflito-admite-acelerar-reabertura-ormuz-2195814",
-       "s": "Publico Mundo",
-       "c": "PT",
-       "l": "pt",
-       "p": 1795253475,
-       "r": "known"
-      },
-      {
-       "t": "Iran seeks a deal to avoid another war and offers to speed up the reopening of Hormuz",
-       "o": "Irán busca un acuerdo que evite otra guerra y ofrece acelerar la reapertura de Ormuz",
-       "u": "https://www.infobae.com/america/agencias/2026/11/21/iran-busca-un-acuerdo-que-evite-otra-guerra-y-ofrece-acelerar-la-reapertura-de-ormuz/",
-       "s": "Infobae",
-       "c": "AR",
-       "l": "es",
-       "p": 1795247120,
-       "r": "known"
-      },
-      {
-       "t": "We will not open the Strait of Hormuz until seven of our conditions are met - Iran",
-       "o": "Ba za mu buɗe mashigar Hormuz ba sai an cika mana sharuɗɗa bakwai - Iran",
-       "u": "https://www.bbc.co.uk/hausa/live/cmj6l8k4e003t?at_medium=RSS&at_campaign=rss",
-       "s": "BBC Hausa",
-       "c": "GB",
-       "l": "ha",
-       "p": 1795251393,
-       "r": "known"
-      },
-      {
-       "t": "Iran says it is ready for war if the US does not accept its conditions",
-       "o": "В Иране заявили о готовности к войне, если США не примут его условия",
-       "u": "https://tass.ru/mezhdunarodnaya-panorama/28342153",
-       "s": "TASS",
+       "t": "US-Iran talks come to a deadlock over disagreements on uranium — Al Arabiya",
+       "u": "https://tass.com/world/2222877",
+       "s": "TASS English",
        "c": "RU",
-       "l": "ru",
-       "p": 1795251740,
+       "l": "en",
+       "p": 1795259859,
        "r": "state"
-      }
-     ],
-     "headlines": 4,
-     "outlets": 4,
-     "independent": 4,
-     "countries": [
-      "AR",
-      "GB",
-      "PT",
-      "RU"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 1
-    },
-    {
-     "text": "Trump says there is no rush to attack Iran, while US officials and commentators debate hawks against war skeptics. Trump also denies needing China or Russia to resolve the war.",
-     "stories": [
-      "s15",
-      "s3"
-     ],
-     "sources": [
+      },
       {
-       "t": "No rush to attack Iran,\" says Trump, facing domestic and foreign pressure",
-       "o": "\"이란 공격 서두르지 않겠다\" 트럼프, 국내외 압박 직면",
-       "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeV9JWmZtV1RNOUk4MU5DU08tNklfSmZMTUxBUTVoOVVqVmdiY3hWVnhZckZsMHAwOHI1NDcxZWlGbmtCZTdwMXVvVTBjWG5od25yRHZlNV9aNl83bUtWQ2NKYy1sUWVNM0d6ODJBbEVWRmE0NHlaSFY4V1VmLTNwYUJja3U?oc=5",
-       "s": "조선일보",
-       "c": "KR",
-       "l": "ko",
-       "p": 1795247160,
+       "t": "Iran-U.S. negotiations stalled over uranium enrichment dispute, mediators warn of renewed conflict, says reports",
+       "u": "https://www.thehindu.com/news/international/iran-us-negotiations-stalled-over-uranium-enrichment-dispute-mediators-warn-of-renewed-conflict-says-reports/article71727934.ece",
+       "s": "The Hindu",
+       "c": "IN",
+       "l": "en",
+       "p": 1795257504,
+       "r": "known"
+      },
+      {
+       "t": "Saudi report: US–Iran talks continue, the dispute over the fate of the enriched uranium in Iran's possession remains",
+       "o": "דיווח סעודי: המו\"מ בין איראן וארה\"ב נמשך, סל המחלוקת נותר גורל האורניום המועשר שבידי איראן",
+       "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOa2lnX0tSclJmTFBVOS1VZnY0Rm1JekJkVzhTc2pRbnRWUm4wZVZpN0xtdjJDREFFQzVTcnlrM3BGamRxUElvVzdIemlTUTI4cmNpZHNjM2ZjTl9VQWVPUWxfQ2ZFdTFtR0NKek9HaU1NTUJYUXhsbzd2V2NhUGZHRU53?oc=5",
+       "s": "כאן 11",
+       "c": "IL",
+       "l": "he",
+       "p": 1795263459,
        "r": "unrated"
       },
       {
-       "t": "Trump amid hawks and war skeptics over Iran",
-       "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFBVVXZ0eWwyOFdCUDNyVlVfODRZaENYdkFuUk56eHk5ejdQWDB3Y1hldTNvaWRVRHhhVnJmRzg1Z2J5UHZrTnM2eFdXTVgzY3lvdGRvRFp1THlyLS0wdUdHUlZoU3lGZXJQd1RsbmRpU0RtNjBobjJCWURrazNjMDVmRmFqVVU5TTdZSFdvd2IyWkk5Z3A0LWZrZWF6SV9sMkHSAacBQVVfeXFMTVJDSlJlazhHXy1SRWhrMC1yNWdfVzRXcVJvRl9mN1dabm5yMUtaaE1EdmFMc0Z0TTlVMDZPNTZXOFFoUXdjaGdIVHJqVXlmcW0wZ2NNRFduVXBZdUVvLW1WN2Z4Wkhzb3FZYUhlWkktTVJtdm9fX1FpS3NVbmNWNDVvdG9raEtRQ01jQmViM2VmNjZ3S2xWdTVvMllWZTItNUdSVktINnM?oc=5",
-       "s": "Al Arabiya English",
-       "c": "SA",
-       "l": "en",
-       "p": 1795249200,
-       "r": "known"
-      },
-      {
-       "t": "Trump denies needing China and Russia to resolve the war in Iran",
-       "o": "Trump niega necesitar a China y Rusia para resolver guerra en Irán",
-       "u": "https://www.jornada.com.mx/2026/11/21/mundo/018n2mun?partner=rss",
-       "s": "La Jornada Mundo",
-       "c": "MX",
-       "l": "es",
-       "p": 1795247888,
-       "r": "known"
-      }
-     ],
-     "headlines": 3,
-     "outlets": 3,
-     "independent": 3,
-     "countries": [
-      "KR",
-      "MX",
-      "SA"
-     ],
-     "regions": 3,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "Iranian officials describe the situation as a stalemate. Foreign Minister Araghchi says Iran does not want a state of neither war nor peace to continue. President Pezeshkian calls the pressure an economic war harder than the missile war. These are Iranian government statements.",
-     "stories": [
-      "s16",
-      "s4"
-     ],
-     "sources": [
-      {
-       "t": "Iranian Foreign Minister Araghchi says they do not want a state of neither war nor peace to continue",
-       "o": "İran Dışişleri Bakanı Arakçi, ne savaş ne de barış durumunun devam etmesini istemediklerini söyledi",
-       "u": "https://www.trthaber.com/haber/dunya/iran-disisleri-bakani-arakci-ne-savas-ne-de-baris-durumunun-devam-etmesini-istemediklerini-soyledi-964039.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1795246860,
-       "r": "known"
-      },
-      {
-       "t": "Iranian President Pezeshkian: We are in an economic war harder than the missile war",
-       "o": "İran Cumhurbaşkanı Pezeşkiyan: Füze savaşından daha zor bir ekonomik savaşın içindeyiz",
-       "u": "https://www.trthaber.com/haber/dunya/iran-cumhurbaskani-pezeskiyan-fuze-savasindan-daha-zor-bir-ekonomik-savasin-icindeyiz-964045.html",
-       "s": "TRT Haber Dunya",
-       "c": "TR",
-       "l": "tr",
-       "p": 1795250640,
-       "r": "known"
-      },
-      {
-       "t": "Pezeshkian: Iran faces silent economic war far more difficult than military conflict",
-       "u": "https://en.irna.ir/news/86328146/Pezeshkian-Iran-faces-silent-economic-war-far-more-difficult",
+       "t": "Iran’s seven conditions basis for reopening Strait of Hormuz, negotiations: Araghchi",
+       "u": "https://en.irna.ir/news/86328309/Iran-s-seven-conditions-basis-for-reopening-Strait-of-Hormuz",
        "s": "IRNA English",
        "c": "IR",
        "l": "en",
-       "p": 1795253949,
+       "p": 1795263258,
        "r": "state"
       }
      ],
      "headlines": 5,
-     "outlets": 3,
-     "independent": 3,
+     "outlets": 5,
+     "independent": 5,
      "countries": [
+      "IL",
+      "IN",
       "IR",
-      "TR"
+      "RU"
      ],
-     "regions": 2,
+     "regions": 4,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "Iran's Revolutionary Guard chief visited a new underground missile city, according to Iranian footage and reports, and said more to come. Iran's own media carry this; it has not been independently verified.",
+     "stories": [
+      "s6",
+      "s8",
+      "s27"
+     ],
+     "sources": [
+      {
+       "t": "IRGC chief cmdr. visits underground missile city for 1st time",
+       "u": "https://en.mehrnews.com/news/249579/IRGC-chief-cmdr-visits-underground-missile-city-for-1st-time",
+       "s": "Mehr English",
+       "c": "IR",
+       "l": "en",
+       "p": 1795265091,
+       "r": "state"
+      },
+      {
+       "t": "IRGC commander visits the Corps' new underground missile city",
+       "o": "Главком КСИР посетил новый подземный ракетный город корпуса",
+       "u": "https://tass.ru/mezhdunarodnaya-panorama/28342389",
+       "s": "TASS",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795262054,
+       "r": "state"
+      },
+      {
+       "t": "After Trump's statement, Iran released footage of an \"underground missile city\" — and again threatened",
+       "o": "אחרי הצהרת טראמפ, איראן פרסמה תיעוד מ\"עיר טילים תת קרקעית\" - ושבה לאיים",
+       "u": "https://www.ynet.co.il/news/article/rjcb230rfe",
+       "s": "Ynet Hebrew",
+       "c": "IL",
+       "l": "he",
+       "p": 1795263879,
+       "r": "known"
+      },
+      {
+       "t": "Iran's underground missile complex",
+       "o": "Подземный ракетный комплекс Ирана",
+       "u": "https://www.rbc.ru/photoslider/6b018300ec7982c6a612bba6",
+       "s": "RBC",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795261685,
+       "r": "known"
+      },
+      {
+       "t": "Revolutionary Guards chief visits missile city, says more to come",
+       "u": "https://www.iranintl.com/en/202611215462",
+       "s": "Iran International",
+       "c": "IR",
+       "l": "en",
+       "p": 1795260032,
+       "r": "known"
+      }
+     ],
+     "headlines": 6,
+     "outlets": 6,
+     "independent": 6,
+     "countries": [
+      "IL",
+      "IR",
+      "RU"
+     ],
+     "regions": 3,
      "party_only": false,
      "state": 3
     }
    ],
    "watch": [
-    "Whether UKMTO confirms further tanker incidents in the Strait of Hormuz",
-    "Whether Iran's offer to speed up the Hormuz reopening leads to a formal proposal from either side",
-    "Any US response to the claimed drone downing"
+    "Whether UKMTO or US forces confirm the tanker mine and attack reports",
+    "Any US response to Iran's drone claims",
+    "Whether uranium talks resume or mediators announce a new round"
    ],
    "window_hours": 3,
-   "headlines_read": 30,
-   "outlets_read": 23,
-   "countries_read": 15,
-   "languages_read": 11,
+   "headlines_read": 53,
+   "outlets_read": 37,
+   "countries_read": 19,
+   "languages_read": 10,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T23:21:12Z",
    "ladder_note": "Re-checked after: Explosions on three tankers in the Strait of Hormuz are reported by many independent outlets, though the cause and attribution are Iran's account and unconfirmed."
