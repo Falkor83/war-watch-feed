@@ -1776,9 +1776,42 @@
    "lon": 56.3,
    "severity": "red",
    "trend": "escalating",
-   "status": "Berlin talks with Qatar reported; Iran backs diplomacy; no new strikes confirmed",
+   "status": "Iran says it downed US drones over Hormuz; Trump warns on chemical arms; talks stalled",
    "summary": "The US and Israel have been at war with Iran since early 2026, with Hormuz shipping disrupted and a US naval blockade of Iran in place. Foreign Policy reports that US-Iran strikes resumed in the past week after a roughly two-month lull, including Iranian fire at US assets in Bahrain and Kuwait. On Nov 19, UKMTO reported a vessel hit by an unknown projectile off Oman, and Iran's navy says two tankers caught fire after hitting mines east of the strait. Trump told Axios he is not rushing a decision on wider strikes and would wait until after the new year, while Axios reports Netanyahu is pressing for a joint campaign. The Senate rejected a war powers resolution 48-51.",
    "latest": [
+    {
+     "date": "2026-11-21",
+     "at": "2026-11-21T04:38:22Z",
+     "text": "Iran's Revolutionary Guards say they shot down a US drone over the Strait of Hormuz, and then another. These are Iranian claims; the reports do not include a US confirmation.",
+     "outlet": "TRT Haber Dunya",
+     "country": "Turkey",
+     "url": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-hurmuz-bogazinda-abdye-ait-iha-dusuruldu-964028.html",
+     "region": "middle-east",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-21",
+     "at": "2026-11-21T04:38:22Z",
+     "text": "Iran's foreign minister says Tehran still wants a diplomatic end to the war. Trump says Iran wants a deal but its terms are unacceptable. One Thai report adds that Iran insists uranium must stay in the country.",
+     "outlet": "The Japan Times",
+     "country": "Japan",
+     "url": "https://www.japantimes.co.jp/news/2026/11/21/world/politics/iran-diplomacy-terms-unacceptable/",
+     "region": "east-asia",
+     "tag": "non-party",
+     "state_media": false
+    },
+    {
+     "date": "2026-11-21",
+     "at": "2026-11-21T04:38:22Z",
+     "text": "Iranian hardliners are pushing a tanker convoy to defy the US blockade, according to Iran International and Amwaj.media. No decision on a convoy is reported.",
+     "outlet": "Amwaj.media",
+     "country": "United Kingdom",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmt4OXJRUW1rZ2N3bmhlU3NsWUxOQUVaSjk3eTJxX3FQYXRVTzBIVzZRTk9KMzAzTEpReGpkNW0xMkRvZS1tTjVaQ3p6djFkQ2ZVNm1HMDZ3UmN3NmU2SVhwWjJQVzI1Y3hRMVU0dzhHYmNnNHJaOHVfVW9qTUJLMFk3RWZvM19FM1ZKVVdzY2dRVktHaXgwQ3hJVmQwajQ?oc=5",
+     "region": "europe",
+     "tag": "non-party",
+     "state_media": false
+    },
     {
      "date": "2026-11-21",
      "at": "2026-11-21T01:32:48Z",
@@ -1833,39 +1866,6 @@
      "region": "middle-east",
      "tag": "party-press",
      "state_media": false
-    },
-    {
-     "date": "2026-11-20",
-     "at": "2026-11-20T22:29:44Z",
-     "text": "The Financial Times reports Trump is considering new Iran strikes, while US military officials warn of strain on forces. This is one outlet's report.",
-     "outlet": "Financial Times",
-     "country": "United Kingdom",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IQ0hRcVQwczY2Q0dMRXNtM1IyTnU1VVFMM0haY1ZCTEFEb3VPTUpEN0NLejMxMm5zbE9MVmFuc2VSaGJzbl9vMEE3UGJ2bnFndlE3cmZmUUM4T25nNWo2aWNVcnJGVTdYeFl2NEpHaXQ?oc=5",
-     "region": "europe",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-20",
-     "at": "2026-11-20T18:59:25Z",
-     "text": "UKMTO says a tanker caught fire after a projectile strike near the Strait of Hormuz. Several independent outlets in different regions carried the report. An Iranian-sourced report instead blames a mine.",
-     "outlet": "Asharq Al-Awsat English",
-     "country": "Saudi Arabia",
-     "url": "https://english.aawsat.com/node/5343705",
-     "region": "gulf",
-     "tag": "non-party",
-     "state_media": false
-    },
-    {
-     "date": "2026-11-20",
-     "at": "2026-11-20T18:59:25Z",
-     "text": "Iranian media reported a missile strike and explosion on or near Qeshm Island, with one report of a possible downed enemy aircraft. Hormozgan Governorate denied a missile attack, and Tasnim linked the blast to disposal of unexploded munitions. No independent confirmation of an attack has been published.",
-     "outlet": "RIA Novosti",
-     "country": "Russia",
-     "url": "https://ria.ru/20261120/raketa-2133035567.html",
-     "region": "russia",
-     "tag": "non-party",
-     "state_media": true
     }
    ],
    "us_impact": {
@@ -13337,11 +13337,6 @@
    "since": "2026-11-05T03:38:42Z",
    "history": [
     {
-     "at": "2026-11-18T05:47:52Z",
-     "headline": "Iran says it struck a US base in Kuwait; US confirms Qeshm missile-site strike",
-     "direction": "escalating"
-    },
-    {
      "at": "2026-11-18T08:32:06Z",
      "headline": "Iran hits US sites in Kuwait and Bahrain after Qeshm strike; UAE ship attack, 1 missing",
      "direction": "escalating"
@@ -13455,43 +13450,105 @@
      "at": "2026-11-21T01:32:48Z",
      "headline": "Berlin talks with Qatar reported; Iran backs diplomacy; no new strikes confirmed",
      "direction": "steady"
+    },
+    {
+     "at": "2026-11-21T04:38:22Z",
+     "headline": "Iran says it downed US drones over Hormuz; Trump warns on chemical arms; talks stalled",
+     "direction": "escalating"
     }
    ],
    "every_hours": 3.0,
    "why": "Matt asked for an update every 3 hours until the war with Iran calms down.",
    "name": "Iran war",
    "status": "active",
-   "updated_at": "2026-11-21T01:32:48Z",
-   "next_at": "2026-11-21T04:32:48Z",
-   "headline": "Berlin talks with Qatar reported; Iran backs diplomacy; no new strikes confirmed",
-   "direction": "steady",
+   "updated_at": "2026-11-21T04:38:22Z",
+   "next_at": "2026-11-21T07:38:22Z",
+   "headline": "Iran says it downed US drones over Hormuz; Trump warns on chemical arms; talks stalled",
+   "direction": "escalating",
    "points": [
     {
-     "text": "Axios, as reported by Kommersant, says Trump's envoys held secret talks in Berlin with Qatar on reviving the Iran nuclear deal. Sky News Arabia separately reports a US-Qatari meeting in Berlin on ending the war. Each report comes from a single outlet.",
+     "text": "Iran's Revolutionary Guards say they shot down a US drone over the Strait of Hormuz, and then another. These are Iranian claims; the reports do not include a US confirmation.",
      "stories": [
       "s1",
-      "s5"
+      "s7"
      ],
      "sources": [
       {
-       "t": "Axios: Trump's envoys held secret talks in Berlin with Qatar on Iran; Witkoff and Kushner discussed with Qatar reviving the nuclear deal with Iran",
-       "o": "Axios: посланники Трампа провели в Берлине секретные переговоры с Катаром по Ирану // Axios: Уиткофф и Кушнер обсудили с Катаром возобновление ядерной сделки с Ираном",
-       "u": "https://www.kommersant.ru/doc/9126974",
-       "s": "Kommersant",
-       "c": "RU",
-       "l": "ru",
-       "p": 1795220655,
+       "t": "Iran's Revolutionary Guards: a US drone shot down over the Strait of Hormuz",
+       "o": "İran Devrim Muhafızları: Hürmüz Boğazı'nda ABD'ye ait İHA düşürüldü",
+       "u": "https://www.trthaber.com/haber/dunya/iran-devrim-muhafizlari-hurmuz-bogazinda-abdye-ait-iha-dusuruldu-964028.html",
+       "s": "TRT Haber Dunya",
+       "c": "TR",
+       "l": "tr",
+       "p": 1795233360,
        "r": "known"
       },
       {
-       "t": "US-Qatari meeting in Berlin to discuss ending the Iran war",
-       "o": "لقاء أميركي قطري في برلين لمناقشة إنهاء حرب إيران",
-       "u": "https://www.skynewsarabia.com/middle-east/1906155-%D9%84%D9%82%D8%A7%D8%A1-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A-%D9%82%D8%B7%D8%B1%D9%8A-%D8%A8%D8%B1%D9%84%D9%8A%D9%86-%D9%84%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9-%D8%A5%D9%86%D9%87%D8%A7%D8%A1-%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1795221224,
+       "t": "IRGC says it shot down another American drone over the Strait of Hormuz",
+       "o": "КСИР заявил, что сбил очередной американский беспилотник над Ормузским проливом",
+       "u": "https://www.interfax.ru/world/1130547",
+       "s": "Interfax",
+       "c": "RU",
+       "l": "ru",
+       "p": 1795232100,
        "r": "known"
+      },
+      {
+       "t": "IRGC says its aerospace forces intercepted US MQ-9 drone over Hormuz",
+       "u": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-its-aerospace-forces-intercepted-us-mq-9-drone-over-hormuz",
+       "s": "Middle East Eye",
+       "c": "GB",
+       "l": "en",
+       "p": 1795229675,
+       "r": "known"
+      }
+     ],
+     "headlines": 5,
+     "outlets": 5,
+     "independent": 5,
+     "countries": [
+      "GB",
+      "RU",
+      "TR"
+     ],
+     "regions": 3,
+     "party_only": false,
+     "state": 2
+    },
+    {
+     "text": "Iran's foreign minister says Tehran still wants a diplomatic end to the war. Trump says Iran wants a deal but its terms are unacceptable. One Thai report adds that Iran insists uranium must stay in the country.",
+     "stories": [
+      "s2",
+      "s9"
+     ],
+     "sources": [
+      {
+       "t": "Iran foreign minister wants diplomacy to end war, Trump says terms unacceptable",
+       "u": "https://www.japantimes.co.jp/news/2026/11/21/world/politics/iran-diplomacy-terms-unacceptable/",
+       "s": "The Japan Times",
+       "c": "JP",
+       "l": "en",
+       "p": 1795231200,
+       "r": "known"
+      },
+      {
+       "t": "Middle East war: Trump says Iran wants deal but terms are unacceptable",
+       "u": "https://gulfnews.com/uae/middle-east-war-trump-says-iran-wants-deal-but-terms-are-unacceptable-1.500755788",
+       "s": "Gulf News",
+       "c": "AE",
+       "l": "en",
+       "p": 1795228805,
+       "r": "known"
+      },
+      {
+       "t": "Iran still hopes to use diplomacy to end the war, stressing uranium must be kept in the country",
+       "o": "อิหร่านยังหวังใช้การทูตยุติสงคราม ย้ำต้องเก็บยูเรเนียมไว้ในประเทศ",
+       "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qYW5UQnJmbE03cXhLUnk3VkRybDgzYy1MX0VXc2kwSVFOcWRFaVYtWnZ4eFJHWHNMUzFwZW1QZlp0ZF9ROHI0WmJKQkMxejM3Q21r?oc=5",
+       "s": "เดลินิวส์",
+       "c": "TH",
+       "l": "th",
+       "p": 1795229220,
+       "r": "unrated"
       }
      ],
      "headlines": 3,
@@ -13499,143 +13556,101 @@
      "independent": 3,
      "countries": [
       "AE",
-      "RU"
+      "JP",
+      "TH"
      ],
-     "regions": 2,
+     "regions": 3,
      "party_only": false,
-     "state": 1
+     "state": 0
     },
     {
-     "text": "Iran's foreign minister Araghchi says Tehran still wants a diplomatic end to the war with the US. Trump has called Iran's terms unacceptable. Iranian-linked media say Tehran's first demand is that Trump explicitly declare he wants an agreement; this is Iran's claim.",
+     "text": "Iranian hardliners are pushing a tanker convoy to defy the US blockade, according to Iran International and Amwaj.media. No decision on a convoy is reported.",
      "stories": [
-      "s2",
-      "s8",
-      "s16"
+      "s3"
      ],
      "sources": [
       {
-       "t": "Iran's foreign minister: \"We still want a diplomatic solution to end the war with the US",
-       "o": "이란 외무 \"美와 외교적 종전 해법 여전히 원해\"",
-       "u": "https://www.yna.co.kr/view/AKR20261121019900009",
-       "s": "Yonhap Korean",
-       "c": "KR",
-       "l": "ko",
-       "p": 1795217824,
-       "r": "known"
-      },
-      {
-       "t": "Iran still hopes diplomacy can end war with US, Foreign Minister Araghchi tells newspaper",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-915613",
-       "s": "Jerusalem Post",
-       "c": "IL",
+       "t": "Is Iran weighing a tanker convoy to challenge the US blockade?",
+       "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmt4OXJRUW1rZ2N3bmhlU3NsWUxOQUVaSjk3eTJxX3FQYXRVTzBIVzZRTk9KMzAzTEpReGpkNW0xMkRvZS1tTjVaQ3p6djFkQ2ZVNm1HMDZ3UmN3NmU2SVhwWjJQVzI1Y3hRMVU0dzhHYmNnNHJaOHVfVW9qTUJLMFk3RWZvM19FM1ZKVVdzY2dRVktHaXgwQ3hJVmQwajQ?oc=5",
+       "s": "Amwaj.media",
+       "c": "GB",
        "l": "en",
-       "p": 1795216053,
+       "p": 1795232591,
        "r": "known"
       },
       {
-       "t": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable",
-       "u": "https://www.al-monitor.com/originals/2026/11/araqchi-says-iran-wants-diplomacy-end-war-trump-says-terms-unacceptable",
-       "s": "Al-Monitor",
-       "c": "US",
+       "t": "Iran hardliners push tanker convoy to defy US blockade",
+       "u": "https://www.iranintl.com/en/202611204994",
+       "s": "Iran International",
+       "c": "IR",
        "l": "en",
-       "p": 1795218389,
+       "p": 1795228183,
        "r": "known"
-      },
+      }
+     ],
+     "headlines": 2,
+     "outlets": 2,
+     "independent": 2,
+     "countries": [
+      "GB",
+      "IR"
+     ],
+     "regions": 2,
+     "party_only": false,
+     "state": 0
+    },
+    {
+     "text": "Trump has threatened military action if Iran deploys chemical weapons, according to one Indonesian outlet.",
+     "stories": [
+      "s8"
+     ],
+     "sources": [
       {
-       "t": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable",
-       "u": "https://www.straitstimes.com/world/middle-east/araqchi-says-iran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable",
-       "s": "The Straits Times",
-       "c": "SG",
-       "l": "en",
-       "p": 1795216529,
-       "r": "known"
-      },
-      {
-       "t": "Iranian foreign minister: Tehran's first demand – that Trump explicitly declare he wants an agreement",
-       "o": "שר החוץ האיראני: דרישתה הראשונה של טהרן - שטראמפ יצהיר במפורש שהוא מעוניין בהסכם",
-       "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObEVzOGg3cDNMUWVBMGUzYzg3bmhVMWUxdm1TcU9ILVZ1N3F1VEx5dHNrSVFMNWNUOEdnenU3TmdQYmtUd2I0RTVTZVlWbUxueXpJY1BYNGVwekZ3UE9BZ24ydzMwTTI5blJBeW1VaTZBaDJyanRvR2p4TDZ3ZUFVeHln?oc=5",
-       "s": "כאן 11",
-       "c": "IL",
-       "l": "he",
-       "p": 1795215141,
+       "t": "Trump threatens military action if Iran deploys chemical weapons",
+       "o": "Trump Ancam Aksi Militer Jika Iran Kerahkan Bom Kimia",
+       "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQjRHMWxXRzVuQ01fV3hZT3did21MSTBYQmhXMnJlTC1VR296VGNObEpxYnp6SW1mOEJJQ19xMVc4LUVaQlpvLVF6Rk9MeVpxbmhZTFg3aGFaMDBUNWRJZ2k3dzlaRzZFS2lrZktNdl9YNzNzdElHRkxpVERZWjBIX256eERiekE5NGFIc0xTOEh2M0ZpTmZoc2JLQS1ERFF0eFHSAacBQVVfeXFMTk1YbDh4V3JVOTdmZ1QtMS05V1hrRm50SGw1cFVLak9mTkhSOE02djYyaXlFdTA5MzJOYmdUaTBxTXFGNnBWUi1xRUQxbzdnMmIyLTlzZHIwZ0tWMlFsNG5RbnVQNVNOUFBJbTJQQ0RtMVJpNEhzWEwxZm4tQktVbjVWNXFreEVnaEpUU2xiRDdCTnhkVjB5MGFIQkRSV2JLSXNQci1UNzg?oc=5",
+       "s": "detikNews",
+       "c": "ID",
+       "l": "id",
+       "p": 1795229420,
        "r": "unrated"
       }
      ],
-     "headlines": 5,
-     "outlets": 5,
-     "independent": 4,
+     "headlines": 1,
+     "outlets": 1,
+     "independent": 1,
      "countries": [
-      "IL",
-      "KR",
-      "SG",
-      "US"
+      "ID"
      ],
-     "regions": 4,
+     "regions": 1,
      "party_only": false,
      "state": 0
     },
     {
-     "text": "Vance has declined to publicly back Trump's demand for new Iran strikes, according to Geo News. Separately, CENTCOM denied reports of strikes on Iran's Qeshm island, as reported by Interfax. Both come from single sources.",
+     "text": "Netanyahu is reported by one Turkish outlet to say an attack on Iran is inevitable. The US Deputy President says the US will not let the war become a two-year conflict. Both are statements of position, not new military action.",
      "stories": [
-      "s7",
-      "s10"
+      "s5",
+      "s4"
      ],
      "sources": [
       {
-       "t": "Vance refuses to back Trump's Iran strikes despite president's demand for public endorsement",
-       "u": "https://www.geo.tv/latest/692024-vance-refuses-to-back-trumps-iran-strikes-as-president-demands-public-endorsement",
-       "s": "Geo News",
-       "c": "PK",
-       "l": "en",
-       "p": 1795219352,
-       "r": "known"
-      },
-      {
-       "t": "CENTCOM denied reports of strikes on the Iranian island of Qeshm",
-       "o": "В CENTCOM опровергли сообщения об ударах по иранскому острову Кешм",
-       "u": "https://www.interfax.ru/world/1130531",
-       "s": "Interfax",
-       "c": "RU",
-       "l": "ru",
-       "p": 1795215660,
-       "r": "known"
-      }
-     ],
-     "headlines": 2,
-     "outlets": 2,
-     "independent": 2,
-     "countries": [
-      "PK",
-      "RU"
-     ],
-     "regions": 2,
-     "party_only": false,
-     "state": 0
-    },
-    {
-     "text": "The US has imposed new sanctions on Iranian oil traders and government insiders over an alleged oil revenue scheme, per Anadolu Agency. Sky News Arabia quotes Washington calling the Iranian regime a sinking ship.",
-     "stories": [
-      "s11",
-      "s13"
-     ],
-     "sources": [
-      {
-       "t": "US sanctions Iranian oil traders, government insiders over alleged oil revenue scheme",
-       "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOHlrN2UzN0EwMHhlN3g5eExyVTdiZTZZR3QtSlEwa1NOMEdMR1lZUjdSREx0dmp6aTVvT0lqbkVfMWc3Smc5VFNzb2ZKTzFQWEZ0T3lQZHMwU1RPNjRDamFrR1N3T2pOaXpOeDFZOW5zdEljeFBFS0RCWDdMLUFWbTJtYlhRbHRWc3hjendVZzhUdUM0TVJTWG5zVkRxUzdFQ3lscVVJLXdxV2JRQmdhTWVIUkpHMm82S2dhSW5nek41RDhH?oc=5",
-       "s": "Anadolu Agency",
+       "t": "Netanyahu insists on war: he has said \"an attack on Iran is inevitable",
+       "o": "Netanyahu savaşta ısrarcı: ‘İran’a saldırı kaçınılmaz’ demiş",
+       "u": "https://www.hurriyet.com.tr/dunya/netanyahu-savasta-israrci-irana-saldiri-kacinilmaz-demis-43385674",
+       "s": "Hurriyet Dunya",
        "c": "TR",
-       "l": "en",
-       "p": 1795215551,
-       "r": "state"
+       "l": "tr",
+       "p": 1795233600,
+       "r": "known"
       },
       {
-       "t": "Washington after the latest wave of sanctions: the Iranian regime is a sinking ship",
-       "o": "واشنطن بعد أحدث موجة عقوبات: النظام الإيراني سفينة تغرق",
-       "u": "https://www.skynewsarabia.com/middle-east/1906143-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%A3%D8%AD%D8%AF%D8%AB-%D9%85%D9%88%D8%AC%D8%A9-%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D8%B3%D9%81%D9%8A%D9%86%D8%A9-%D8%AA%D8%BA%D8%B1%D9%82",
-       "s": "Sky News Arabia",
-       "c": "AE",
-       "l": "ar",
-       "p": 1795214390,
+       "t": "US Deputy President: The US will not allow the Iran war to turn into a two-year-long conflict",
+       "o": "Shiinaha, Ruushka iyo Maraykanka oo bayaan wadajir ah soo saaray kaddib kulankii saddex-geesoodka ahaa",
+       "u": "https://www.bbc.co.uk/somali/live/cxvg264349z4t?at_medium=RSS&at_campaign=rss",
+       "s": "BBC Somali",
+       "c": "GB",
+       "l": "so",
+       "p": 1795234883,
        "r": "known"
       }
      ],
@@ -13643,24 +13658,24 @@
      "outlets": 2,
      "independent": 2,
      "countries": [
-      "AE",
+      "GB",
       "TR"
      ],
      "regions": 2,
      "party_only": false,
-     "state": 1
+     "state": 0
     }
    ],
    "watch": [
-    "Whether the Berlin talks with Qatar produce any public statement or next round",
-    "Trump's response to Iran's demand that he explicitly declare he wants an agreement",
-    "Whether CENTCOM or other sources confirm or deny strikes near Qeshm"
+    "Whether US Central Command confirms or denies the drone shootdown claims",
+    "Whether the tanker convoy against the US blockade moves ahead",
+    "Whether a second independent source confirms the Berlin talks with Qatar"
    ],
    "window_hours": 3,
-   "headlines_read": 20,
-   "outlets_read": 18,
-   "countries_read": 15,
-   "languages_read": 5,
+   "headlines_read": 16,
+   "outlets_read": 16,
+   "countries_read": 10,
+   "languages_read": 7,
    "model": "Claude Haiku 5.5",
    "ladder_checked_at": "2026-11-18T23:21:12Z",
    "ladder_note": "Re-checked after: Explosions on three tankers in the Strait of Hormuz are reported by many independent outlets, though the cause and attribution are Iran's account and unconfirmed."
