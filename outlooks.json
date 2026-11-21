@@ -174,6 +174,14 @@
 "https://www.themoscowtimes.com/2026/11/06/ukraine-and-russia-trade-volley-of-strikes-against-each-others-energy-infrastructure-a94189",
 "https://tass.com/defense/2214177",
 "https://www.straitstimes.com/world/europe/ukraines-zelenskiy-russian-forces-plan-new-strikes-on-energy-targets-bridges-infrastructure"
+],
+"result": "happened",
+"checked": "2026-11-21",
+"why": "Russia-Ukraine-US talks opened in Abu Dhabi on 10 November, per Anadolu. Large Russian strikes continued: France 24 reported blackouts, three damaged Kyiv bridges and at least seven deaths in the capital around 20-21 November.",
+"evidence": [
+"https://www.aa.com.tr/en/world/new-round-of-us-brokered-russia-ukraine-peace-talks-starts-in-abu-dhabi/4118408",
+"https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+"https://www.interfax.ru/russia/1130570"
 ]
 },
 {
@@ -187,6 +195,13 @@
 "https://aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
 "https://www.aljazeera.com/where/iran/",
 "https://www.kommersant.ru/doc/9081433"
+],
+"result": "happened",
+"checked": "2026-11-21",
+"why": "Al Jazeera reported tit-for-tat US-Iran strikes and an Iranian claim of a downed US drone over Hormuz on 21 November. Iran also claimed a drone downing near Qeshm.",
+"evidence": [
+"https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
+"https://businessupturn.com/asia/middle-east-asia/iran/qatar-presses-ahead-with-iran-meeting-as-us-iran-mediation-continues-amid-regional-tensions/"
 ]
 },
 {
@@ -199,6 +214,13 @@
 "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-forces-destroy-houthi-missile-over-riyadh-region",
 "https://www.beritasatu.com/internasional/3039176/houthi-kembali-serang-arab-saudi-rudal-balistik-mengarah-ke-madinah",
 "https://maps.southfront.press/houthi-advance-toward-aden"
+],
+"result": "happened",
+"checked": "2026-11-21",
+"why": "Al Jazeera reports the Saudi-led coalition intercepted three Houthi ballistic missiles fired at Riyadh. It was the third night in a row with alerts in the capital. France 24 and AFP also reported Houthi strikes on Riyadh.",
+"evidence": [
+"https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
+"https://www.france24.com/en/middle-east/20261120-yemen-s-houthis-target-riyadh-after-saudi-coalition-s-special-operation"
 ]
 },
 {
@@ -211,6 +233,13 @@
 "https://www.france24.com/en/asia-pacific/20261105-myanmar-civilians-under-fire-from-military-junta",
 "https://www.aa.com.tr/en/asia-pacific/myanmar-military-airstrikes-kill-at-least-15-civilians-including-12-in-rakhine-state-report/4108750",
 "https://news.az/news/why-is-myanmar-s-military-intensifying-airstrikes-on-civilian-areas-as-the-war-escalates"
+],
+"result": "happened",
+"checked": "2026-11-21",
+"why": "The Irrawaddy reported that regime air strikes killed over a dozen civilians in Rakhine in the past week. It said the Arakan Army is pushing toward Sittwe and Kyaukphyu. The Diplomat and others also describe an ongoing air campaign there.",
+"evidence": [
+"https://www.irrawaddy.com/news/burma/dozens-of-civilians-killed-in-myanmar-regime-strikes-as-asean-leaders-meet.html",
+"https://thediplomat.com/2026/09/living-under-a-lethal-sky-myanmars-arakan-on-edge-as-military-airstrikes-on-civilians-grow"
 ]
 },
 {
@@ -858,6 +887,54 @@
 "https://www.africom.mil/pressrelease/37175/us-forces-conduct-strikes-targeting-al-shabaab",
 "https://news.antiwar.com/2026/11/18/us-launches-series-of-airstrikes-in-somalia-amid-heavy-fighting-between-al-shabaab-and-us-backed-forces/",
 "https://ftlsomalia.com/us-airstrike-hits-al-shabaab-positions-40km-northwest-of-kismayo/"
+]
+},
+{
+"made": "2026-11-21",
+"hotspot": "russia-ukraine-war",
+"text": "Further Russian mass strikes on Ukrainian cities and energy sites within two weeks, since Moscow rules out limited ceasefires.",
+"likelihood": "likely",
+"check_by": "2026-12-05",
+"basis": [
+"https://france24.com/es/europa/20261120-francia-pide-una-reuni%C3%B3n-del-consejo-de-seguridad-tras-ataques-rusos-a-embajadas-de-la-ue-en-kiev",
+"https://www.washingtonpost.com/world/2026/11/19/trump-says-putin-wants-peace-ukraine-even-putin-vows-fight/",
+"https://news.google.com/rss/articles/CBMivwFBVV95cUxQUldGcjR0bVdZeEwwTXEtamN5b3UzTm94MUZIVTU5RnNMMkJTY1ZDd2xLelJsaExhaVpsSlROQzR1bWRjNDNHUWc4UmJYbHBDOUJKZWw4Vk4xRnJsRGhpdkY4bS1SWndBMWk4TE95NXlDNk1WY19OY0VRSkVBWVdvR0dwRzVwdzhtWjlmOFU3SjN3TjFaYnpvdkRjLTl5dkVZTm1tRkRPa1liMjdqNkVXWUt2NTdnUmlXdkFCelIzTdIBvwFBVV95cUxNMnZLalJhYl9mWFktd3NNZWQ0a1cyNDNrZDBvNGtSb2VOcXRYYVdwTmhBOVFOTzUzWC1ONVByd2VhR1BodnpDNmxQMXl6NzUwdVlNRkN1eHd0YXB1RkJmU1d4ekplMUF3ZURuZ0x4Z3BSZWNnT1NscC1ueEJ0dTN2U0hnZl9iY1E3YTgwRFNCUHpYbTY"
+]
+},
+{
+"made": "2026-11-21",
+"hotspot": "yemen-houthi-saudi-war",
+"text": "Houthi missile or drone fire at Saudi territory continues over the next two weeks, given nightly launches and coalition strikes.",
+"likelihood": "likely",
+"check_by": "2026-12-05",
+"basis": [
+"https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
+"https://www.thenationalnews.com/news/mena/2026/11/20/one-a-night-houthi-missile-tactic-stretches-saudi-defences/",
+"https://www.france24.com/en/middle-east/20261120-yemen-s-houthis-target-riyadh-after-saudi-coalition-s-special-operation"
+]
+},
+{
+"made": "2026-11-21",
+"hotspot": "us-israel-iran-war",
+"text": "The US and Iran agree terms to reopen Hormuz within two weeks, given Iran's seven conditions and Trump calling the offer fake.",
+"likelihood": "unlikely",
+"check_by": "2026-12-05",
+"basis": [
+"https://gokhshtein.com/news/2026-11-21-iran-says-it-downed-us-drone-over-strait-of-hormuz",
+"https://www.newsbeep.com/818556/",
+"https://news.google.com/rss/articles/CBMimAFBVV95cUxQUEtjX0dTMU1CZzF2NW9WbkVMTXNxWktTTjkzdVRTUkFYVWNKQ2RseWRFQ3B4b1gyeDViQy1ZTnVpVG9uV3FkNmhtN0JxOU4zV3VWcHVDdGNoUWtjUVBsM3R1SnZPT3E3SENfbml6YkpzTGczQW1NTHcyY2Y2eldtcUsyT2JwZzJoc2FUX210VUpETTBSTFJwag?oc=5"
+]
+},
+{
+"made": "2026-11-21",
+"hotspot": "sudan-civil-war",
+"text": "Fighting continues in West Kordofan and Blue Nile over the next two weeks, with both sides claiming ground.",
+"likelihood": "likely",
+"check_by": "2026-12-05",
+"basis": [
+"https://news.google.com/rss/articles/CBMiogVBVV95cUxNNHoyaU9BNEFGeUxJZVlrdkI4b19FNGhXZ2JZOHdRU3N6dUtOd254QlVKejliUUxjNTlINmVJWEtPR1MyZERkTEo2aFRMVVBfX2t0YlU2anRWRVM4dFBNQURSbGtoc0xFS082d2tCVklNaHlDMnJKR0ptbmZRZ3MwclpSSEdYemJ3c2JsMEExNGZOUzZpMTMwMzRZakUtaENaaFc4emdCOF92S0hBQUFKdDg5eTJBUHhMMlo0YkFTS0dHTDRTazR4bzdsMG5zbVRjN1pDSURpMmJvUkxCY0RuVEhiQzV1MDhNOEotdUJfdFhFQkg1Q2NvbktrTlNseGYtZkxPWFZvNXlfSUJMQmk2V1ZWVENya1N6aV9OX3ZsNG5TUXhGc3dKajhHbFg1SHZ1OUZUb040RU5iQ3FvQnJjVmxaVGswUTBaYk1fdmUweGozNkZKcWR",
+"https://news.google.com/rss/articles/CBMitARBVV95cUxNYXdUZF9oSzlzdnhXMGd5d3RaSTVhSFdfWUlEU1B3U1FkQXgySUZBeWN0OEkyQ3lPZjdQc2k1UzY2eXBiRFFFdkpkLU41S010dktZaC1sbjd4amFIcDdiZ1BUVktLWUU4enZKMHN4SjRVLVZwMllfWUxSZldCQTMzLXBpR1dValNsX1B1dER0c3dVR0lQSHRhMGZtVnZ6ZWdzV0N1VXZxNnRVUmpuVzZLdTZVSlVQR0tXU1JMd0dCODVXMTBOZzY1RjZBNHM3bzBZVTV0eThrRG1OajdxazVxbTFlSURFdzBZeG1DZHQ0Y2RJVEVHaWVLYk56X1ZLdy1QWnZpX0gzSm41Zjk5cDF4QVN2MXF0Rl95cFkzOG9rMGZrUTFXdHpva1gtMDFSTjdJR2N6ZnBnNjNZNy1aMXlTbjZjZ0FCcFRTTjlCZXNYV1BQWElGa2h",
+"https://news.google.com/rss/articles/CBMivgFBVV95cUxOX1EwZU5fZE1Ub09KcnNfOERCSmtOMTV0RVV6aXFKUUMwS0NvNHhZX2oyX2ZMaDVDa0hHY3VNT2JlczBFOHZBRld1ME1HcmJpdktmSmtFTTZleWhXSXJEWkdBRkdFRXJNbHlySVdXWHBzdnN5bTMydXBuekJkcDNuWGJnTmY5eGZOWTZNV3I2OVFIV3Rua2lFSWFpN0VuMThlMUQ4ZXJqeVJWTjhDeHFtOTZJcGc2ODhibkRqcllB?oc=5"
 ]
 }
 ]

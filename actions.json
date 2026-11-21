@@ -1724,6 +1724,79 @@
    "added": "2026-11-20",
    "independent": 1,
    "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-20-ua-1",
+   "date": "2026-11-20",
+   "country": "UA",
+   "kind": "financial",
+   "what": "Ukrainian official Koretskyi says a EUR 3bn war-risk insurance fund is planned for January and invites Germany to join (Ukrinform)",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcUJTLW9rR0JtajNOQ2hiZ2JGT21LSlo5a2VwSTFkYWhVbl9UWnFRaUJEMWFzc2VhRE9CTURRWVRjM3ZRME9nT0YwNTZLbHpJaXNhVGdjdWc1T1AycXhBNjc0ekh2WGZ3cWRNYnJYS0RQc1dyYmo2VFVaLVRGay10ZXAtNUs4MjZV?oc=5",
+   "outlet": "Mezha.net",
+   "hotspots": [
+    "russia-ukraine-war",
+    "black-sea-shipping-attacks"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-21",
+   "independent": 4,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-20-jp-1",
+   "date": "2026-11-20",
+   "country": "JP",
+   "kind": "supply-reserves",
+   "what": "Japan and Saudi Arabia reach a deal to refill Japan's oil stockpiles, which Bloomberg describes as depleted",
+   "url": "https://www.japantimes.co.jp/business/2026/11/20/saudi-japan-oil-deal/",
+   "outlet": "The Japan Times",
+   "hotspots": [
+    "us-israel-iran-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-21",
+   "independent": 1,
+   "countries_reporting": 2
+  },
+  {
+   "id": "a-2026-11-20-ru-2",
+   "date": "2026-11-20",
+   "country": "RU",
+   "kind": "reassurance",
+   "what": "Altai Krai outlets label claims of a new mobilisation and property seizures as fakes; the acting official body is not named",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVUFhMnNPWFRuTmhjeXdrbm5QN0JoWjQ4TDlaaFBvZmpBSTV4WkE4d1RDZWUtOWZkbFJEMC0wbG8tLUxMcE4tNWpkRWNTeFM2LThPUW9WSXp1b0dZa0czUi1wUEVDaENPSlFJcHkyWmZVejhhNEFCRkMyT01XQmcxOVQ0eUFuWWRpTnNsc0N0S3JfRmtqZ0o5dGMwSmloVmZ4c3o5ZEVUOENvc0loSXdncw?oc=5",
+   "outlet": "Amic.ru",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": false,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-21",
+   "independent": 4,
+   "countries_reporting": 1
+  },
+  {
+   "id": "a-2026-11-21-ua-1",
+   "date": "2026-11-21",
+   "country": "UA",
+   "kind": "military-readiness",
+   "what": "Ukraine's parliament reportedly drafts a legal basis for mobilisation deferment to care for elderly relatives (single outlet)",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONE5CcEZ6RDQxTVJ2UEVDaGVGNV9OTWt0ZWhya092Y2R3dW55eVMzbFk0enA0YmltdG5obDJnRFNFUFVZVnhLdUpVcXUtdzltYWpFRmJyNFJ0REpLWG5NRENIQWwxbzNvV0tvY0ZkN3pIc3pTZjZwTmFQNWp3c2ZKMkpHN1JBLTQ5Tzh5QXF4ZzhGdjFReHVmdDE5ZUhKVDhlaF80S3NFMExvdlo2azdTN2lyd2VLbFpRcHJJWHVsTHY5MDQ1Z3hmbtIBzgFBVV95cUxQazJlYVlyOV9SZGZpRmR0WldSeTNWQk5Ibk5kQkFXcVp1bWN2MVBfZ29VbGVtc2ttQ0tWNDdzUm5iZjg5MThJR20yT2F0UDFGR3hDUkVwb0s1a2YzNVlGaFlsMkg1eGxWWnRtUE8xTDBiNlV1VFFmTmFEQkVqM1lDaW9XczhndTYxXzNHNUJiWlpLai15ZGxyd09OamV4bUxORTVzY0pmbWlXU2k3NGNmX3ltakRsZlhLdF94OEg5VU9UbUN2emVHNjhlVGRyUQ?oc=5",
+   "outlet": "Politeka",
+   "hotspots": [
+    "russia-ukraine-war"
+   ],
+   "scheduled": null,
+   "program": "",
+   "source": "corpus",
+   "added": "2026-11-21",
+   "independent": 1,
+   "countries_reporting": 1
   }
  ],
  "events": [
@@ -5070,6 +5143,220 @@
    "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
    "source": "corpus",
    "independent": 14
+  },
+  {
+   "id": "e-2026-11-21-1",
+   "date": "2026-11-20",
+   "kind": "news",
+   "what": "Houthis say they struck targets in Saudi Arabia",
+   "countries": [
+    "AE",
+    "AR",
+    "CN",
+    "EG",
+    "GB",
+    "IL",
+    "RU",
+    "SG"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.interfax.ru/world/1130530",
+   "source": "corpus",
+   "independent": 17
+  },
+  {
+   "id": "e-2026-11-21-7",
+   "date": "2026-11-20",
+   "kind": "news",
+   "what": "Putin's fury over Kyiv and Lviv, two missiles fall in Poland",
+   "countries": [
+    "AR",
+    "AU",
+    "CA",
+    "FR",
+    "IT",
+    "UA",
+    "US"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/20/la-furia-di-putin-su-kiev-e-leopoli-due-missili-cadono-in-polonia_6104402c-305d-441e-a983-2c8dfb41bd5e.html",
+   "source": "corpus",
+   "independent": 10
+  },
+  {
+   "id": "e-2026-11-21-8",
+   "date": "2026-11-20",
+   "kind": "news",
+   "what": "Russia pounds Ukraine, killing 8, as missile lands in Poland",
+   "countries": [
+    "AR",
+    "BR",
+    "CA",
+    "ES",
+    "SG",
+    "TH",
+    "TR"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.straitstimes.com/world/europe/russia-pounds-ukraine-killing-8-as-missile-lands-in-poland",
+   "source": "corpus",
+   "independent": 7
+  },
+  {
+   "id": "e-2026-11-21-1",
+   "date": "2026-11-21",
+   "kind": "news",
+   "what": "Yemen’s Houthis launch strikes after Saudi coalition’s 'special operation'",
+   "countries": [
+    "AE",
+    "AR",
+    "CH",
+    "DE",
+    "EG",
+    "FR",
+    "GB",
+    "HK"
+   ],
+   "hotspot": "yemen-houthi-saudi-war",
+   "url": "https://www.dawn.com/news/2046096/yemens-houthis-launch-strikes-after-saudi-coalitions-special-operation",
+   "source": "corpus",
+   "independent": 16
+  },
+  {
+   "id": "e-2026-11-21-2",
+   "date": "2026-11-21",
+   "kind": "news",
+   "what": "After Nvidia-China spying row, Trump warns US firms of penalties over data centres abroad",
+   "countries": [
+    "AE",
+    "AU",
+    "CA",
+    "GB",
+    "HK",
+    "IN",
+    "PH",
+    "QA"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTjVjODVycWY0R0l2eXhDajk0dHYzVWxNTDZBT2JBeW5fUE9UeWlYSW1tYnhTbjdWSUp0RU1hQ3V2cDVJNXZxR05lcHBtdDRnODFZM1FxT0VrSXMxTFhhaDI0aGNRX0xTOFpzSDlFMkt0QlF6ZE1RMkpBUlZpZl9KYVA3MHl3TGJKaVdzN2pBSEhQVmhkVWlXM3hYc2Z4cTJnNlIta1MxX1NOVDRwSDNJTno3N1ZnUnhfSW1wdC1GTTNRekk?oc=5",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-21-3",
+   "date": "2026-11-21",
+   "kind": "news",
+   "what": "Two dead and 60 injured in a nighttime Russian attack on the Ukrainian city of Kryvyi Rih",
+   "countries": [
+    "AR",
+    "DE",
+    "FR",
+    "HK",
+    "IN",
+    "MD",
+    "SA",
+    "TR"
+   ],
+   "hotspot": "russia-ukraine-war",
+   "url": "https://www.infobae.com/america/agencias/2026/11/21/dos-muertos-y-60-heridos-por-un-ataque-ruso-nocturno-en-la-ciudad-ucraniana-de-krivoi-rog/",
+   "source": "corpus",
+   "independent": 10
+  },
+  {
+   "id": "e-2026-11-21-4",
+   "date": "2026-11-21",
+   "kind": "news",
+   "what": "Iran shoots down a US MQ-9 drone over the Strait of Hormuz",
+   "countries": [
+    "AR",
+    "GB",
+    "IR",
+    "PK",
+    "RU",
+    "TR"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://www.infobae.com/america/agencias/2026/11/21/iran-derriba-un-dron-estadounidense-mq-9-sobre-el-estrecho-de-ormuz/",
+   "source": "corpus",
+   "independent": 11
+  },
+  {
+   "id": "e-2026-11-21-5",
+   "date": "2026-11-21",
+   "kind": "news",
+   "what": "Trump threatens \"huge tax\" on American companies building data centres abroad",
+   "countries": [
+    "AR",
+    "CA",
+    "DE",
+    "ES",
+    "GB",
+    "LB",
+    "SA",
+    "UA"
+   ],
+   "hotspot": "us-israel-iran-war",
+   "url": "https://aawsat.com/node/5343873",
+   "source": "corpus",
+   "independent": 10
+  },
+  {
+   "id": "e-2026-11-21-6",
+   "date": "2026-11-21",
+   "kind": "news",
+   "what": "Myanmar genocide judgment may bolster Gaza case against Israel",
+   "countries": [
+    "AR",
+    "GB",
+    "JP",
+    "PK",
+    "SA",
+    "SG",
+    "US"
+   ],
+   "hotspot": "israel-hamas-gaza",
+   "url": "https://tribune.com.pk/story/2641503/myanmar-genocide-judgment-may-bolster-gaza-case-against-israel",
+   "source": "corpus",
+   "independent": 5
+  },
+  {
+   "id": "e-2026-11-21-7",
+   "date": "2026-11-21",
+   "kind": "news",
+   "what": "3 Salvadoran soldiers killed in Haiti",
+   "countries": [
+    "AR",
+    "DE",
+    "GB",
+    "IL",
+    "MX",
+    "QA",
+    "SG"
+   ],
+   "hotspot": "haiti-gang-war",
+   "url": "https://www.jornada.com.mx/2026/11/21/mundo/019n5mun?partner=rss",
+   "source": "corpus",
+   "independent": 8
+  },
+  {
+   "id": "e-2026-11-21-ladder-russia-ukraine-war",
+   "date": "2026-11-21",
+   "kind": "ladder",
+   "what": "Boiling point: russia-ukraine-war moved from stage 2 to 3 (Mobilizing)",
+   "countries": [],
+   "hotspot": "russia-ukraine-war",
+   "url": "",
+   "source": "rule"
+  },
+  {
+   "id": "e-2026-11-21-ladder-russia-nato-eastern-flank-kaliningrad",
+   "date": "2026-11-21",
+   "kind": "ladder",
+   "what": "Boiling point: russia-nato-eastern-flank-kaliningrad moved from stage 2 to 3 (Mobilizing)",
+   "countries": [],
+   "hotspot": "russia-nato-eastern-flank-kaliningrad",
+   "url": "",
+   "source": "rule"
   }
  ]
 }
